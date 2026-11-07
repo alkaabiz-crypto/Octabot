@@ -74,6 +74,10 @@ Use when: running tests, debugging test failures, or verifying changes after cod
 
 Trigger: `@agent-test-runner` · Definition: `.claude/agents/test-runner.md`
 
+## Skills
+
+Project skills live in `.claude/skills/` and load automatically in Claude Code. They are copied from `.cursor/skills/` (the Cursor originals); keep both in sync when editing. `cloud-roadmap` targets Cursor's `CreatePlan`; apply its rules to Claude Code plan mode instead.
+
 ## Code Conventions
 
 ### Enums
