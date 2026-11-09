@@ -20,6 +20,19 @@ The verdict is computed by a separate script from the unchanged ledgers, never b
 
 If verified Exness costs (spread, commission, swap, admin fee) become available, they are applied as an additional, separately labelled analysis on the same 40 trades.
 
+### Cost scenarios (`cost_scenarios.py` produces `COST_SCENARIOS.md` and `cost_scenarios.json`)
+
+| Name | Round-trip cost (spread + commission + slippage) | Status |
+|---|---|---|
+| optimistic | 0.02% of price | HYPOTHETICAL |
+| moderate | 0.05% of price | HYPOTHETICAL |
+| pessimistic | 0.10% of price | HYPOTHETICAL |
+| verified Exness | not available | UNKNOWN: no Exness cost has been verified |
+
+None of these scenarios includes overnight swap, the Friday triple swap or an overnight admin fee. All three are **unknown and not modelled**.
+
+`cost_scenarios.py` reads only the real forward-test ledger, trades 1 to 40. It refuses to run on dry-run or modified copies, and it never outputs a verdict before trade 40.
+
 ## Integrity requirements for a valid verdict
 
 - The independent audit (`../audit/audit.py`) reports 0 CRITICAL and 0 DISCREPANCY findings on the final ledgers. If it does not, every finding is reported, and the verdict is marked as provisional until it is resolved.

@@ -1,0 +1,31 @@
+{
+ "generated_utc": "2026-11-09 07:46",
+ "venue": "BINANCE_PROXY (not Exness)",
+ "evaluation_set": "forward trades 1-40",
+ "evaluation_trades_completed": 0,
+ "post_evaluation_trades": 0,
+ "verdict": "NONE - fewer than 40 trades",
+ "cost_status": "NO EXNESS COST VERIFIED; all scenarios are HYPOTHETICAL",
+ "not_modelled": [
+  "Exness overnight swap (incl. Friday triple swap)",
+  "overnight admin fee on swap-free accounts",
+  "actual Exness spread/commission for the account"
+ ],
+ "gross_zero_cost": {
+  "trades": 0
+ },
+ "scenarios": {
+  "optimistic": {
+   "assumption": "HYPOTHETICAL 0.02% round trip",
+   "trades": 0
+  },
+  "moderate": {
+   "assumption": "HYPOTHETICAL 0.05% round trip",
+   "trades": 0
+  },
+  "pessimistic": {
+   "assumption": "HYPOTHETICAL 0.10% round trip",
+   "trades": 0
+  }
+ }
+}
