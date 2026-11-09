@@ -44,7 +44,16 @@ Exit code: 0 means no CRITICAL findings and no DISCREPANCY findings. 1 means at 
 9. **40-trade limit:** checks whether the limit is enforced in code. The pre-registered evaluation set is trades 1 to 40 only.
 10. **Exactly-once processing:** the `run_log.csv` watermarks must be contiguous, must never move backwards, and the candle counts must add up.
 
-## Validation of the audit itself (2026-11-09)
+## Two kinds of audit results. Do not mix them.
+
+| Kind | What it is | Files |
+|---|---|---|
+| **Forward-test audit** | Audits the real forward paper test (BINANCE PROXY), whose window starts 2026-11-09 07:00 UTC. These are the only audit results that describe actual forward performance. | `results/audit_forward_*.json`, `results/AUDIT_forward_LATEST.md` |
+| **Audit-tool validation** | Tests the audit script on a past-period dry run (2026-09-01 to 2026-11-09) that was already examined in research. **Not forward results, and not performance evidence.** | `results/audit_DRYRUN_TEST_*`, `results/AUDIT_DRYRUN_TEST_*` |
+
+See `results/README.md` for the per-file index.
+
+## Validation of the audit itself (2026-11-09). Historical dry run, NOT forward results
 
 The audit was run on a dry-run copy of the paper trader covering 2026-09-01 to 2026-11-09. That period is past data and was used only to test the code, not as evidence.
 
@@ -56,5 +65,6 @@ The audit was run on a dry-run copy of the paper trader covering 2026-09-01 to 2
 
 - **FINDING, 40-trade limit not enforced in code.** `paper_trader.py` keeps recording trades after trade 40. It labels the report COMPLETE only when there are at least 40 trades and the date is on or after 2027-05-09. Evaluation must use trades 1 to 40. The audit reports that subset.
 - **FINDING, latent signal-label edge case.** A breakout whose 1H candle closes exactly at the previous trade's exit time is skipped by the engine, as intended: the engine only resumes on candles closing after the exit. However, `paper_trader.py` (line 98) checks `entry < signal_close < exit` strictly, so such a signal would be labeled `PENDING` instead of `REJECTED: position already open`. Trades and P&L are not affected. If it happens, the audit will report it as a DISCREPANCY.
-- **WARNING, costs.** The 0.02%, 0.05% and 0.10% round-trip costs are hypothetical. Exness spread, commission and swap are unverified, and swap is not modeled.
+- **WARNING, costs.** The 0.02%, 0.05% and 0.10% round-trip costs are hypothetical. Exness spread, commission and swap are unverified, and swap is not modeled. See `../forward/EXNESS_COSTS.md`. Unverified secondary sources mention a triple swap over Friday night and a possible 50 USD/lot overnight admin fee on swap-free BTCUSD. Either could be material.
+- **Evaluation rule.** `../forward/EVALUATION_RULES.md` fixes the evaluation set as trades 1 to 40.
 - **WARNING, intrabar path.** Within each 15m candle, the stop is evaluated before the trailing update. This approximates the real path inside the candle.
