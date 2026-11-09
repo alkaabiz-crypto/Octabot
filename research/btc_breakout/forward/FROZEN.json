@@ -1,0 +1,29 @@
+{
+ "fingerprint": "e311cd66ea38034fd64149c1905043d3ebe7406ee93facf59f3b284bf856b7b4",
+ "config": {
+  "venue": "BINANCE_PROXY",
+  "symbol": "BTCUSDT",
+  "entry_tf": "1h",
+  "trend_tf": "4h",
+  "model": "M2_DONCHIAN20",
+  "direction": "LONG",
+  "stop": "TRAIL",
+  "initial_stop_atr": 2.0,
+  "trail_atr": 3.0,
+  "donchian_len": 20,
+  "risk_per_trade": 0.005,
+  "start_equity_usd": 2722.94,
+  "forward_start_utc": "2026-11-09 07:00",
+  "forward_start": 1794207600,
+  "warmup_start": 1735689600,
+  "cost_round_trip": {
+   "low": 0.0002,
+   "mid": 0.0005,
+   "high": 0.001
+  },
+  "primary_cost": "mid",
+  "target_trades": 40,
+  "target_end_utc": "2027-05-09"
+ },
+ "frozen_at_utc": "2026-11-09 06:32"
+}
