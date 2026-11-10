@@ -1,0 +1,30 @@
+{
+ "BTCUSDT": {
+  "last_close": null,
+  "LUMP": {
+   "usd": 2722.94,
+   "coin": 0.0
+  },
+  "DCA": {
+   "usd": 0.0,
+   "coin": 0.0,
+   "contributed": 0.0
+  },
+  "latest_price": 73571.54,
+  "latest_price_utc": "2026-11-10 20:34"
+ },
+ "ETHUSDT": {
+  "last_close": null,
+  "LUMP": {
+   "usd": 2722.94,
+   "coin": 0.0
+  },
+  "DCA": {
+   "usd": 0.0,
+   "coin": 0.0,
+   "contributed": 0.0
+  },
+  "latest_price": 2048.36,
+  "latest_price_utc": "2026-11-10 20:34"
+ }
+}
