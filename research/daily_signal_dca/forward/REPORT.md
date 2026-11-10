@@ -1,4 +1,4 @@
-# TREND_ENS daily bot - forward PAPER test (Binance prices, fake money) - 2026-11-10 20:34 UTC
+# TREND_ENS daily bot - forward PAPER test (Binance prices, fake money) - 2026-11-10 21:14 UTC
 
 Rule: hold the coin share = share of SMA20/50/100/200 the daily close is above (data from 2025-01-01 only); trade the difference at the next daily open, 0.1% fee. Spot, no leverage. First decision: close of 2026-11-10.
 
