@@ -55,15 +55,11 @@ def aggregate(lines):
                 yield finish(key, row)
             key = k
             row = [bid, bid, bid, bid, ask, ask, ask, ask, 0, 0.0]
-        if bid > row[1]:
-            row[1] = bid
-        if bid < row[2]:
-            row[2] = bid
+        row[1] = max(row[1], bid)
+        row[2] = min(row[2], bid)
         row[3] = bid
-        if ask > row[5]:
-            row[5] = ask
-        if ask < row[6]:
-            row[6] = ask
+        row[5] = max(row[5], ask)
+        row[6] = min(row[6], ask)
         row[7] = ask
         row[8] += 1
         row[9] += ask - bid
@@ -84,7 +80,7 @@ def do_month(args):
     tmp = os.path.join(out_dir, "parts", f"{symbol}_{y}_{m:02d}.zip")
     url = URL.format(s=symbol, y=y, m=m)
     for attempt in range(5):
-        r = subprocess.run(["curl", "-sS", "-m", "600", "-o", tmp, "-w", "%{http_code}", url], capture_output=True, text=True)
+        r = subprocess.run(["curl", "-sS", "-m", "600", "-o", tmp, "-w", "%{http_code}", url], capture_output=True, text=True, check=False)
         code = r.stdout.strip()
         if code == "200":
             break

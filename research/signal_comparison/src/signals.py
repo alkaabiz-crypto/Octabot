@@ -1,6 +1,5 @@
 """The three signal approaches. All inputs are closed bid candles; higher-timeframe values are causal."""
 import dataclasses
-import typing
 
 import indicators as ind
 import marketdata as md
@@ -15,8 +14,8 @@ class Features:
     rsi: list
     dc_up: list
     dc_lo: list
-    bull: typing.Dict[str, list]     # vote name -> list of bool/None
-    bear: typing.Dict[str, list]
+    bull: dict[str, list]     # vote name -> list of bool/None
+    bear: dict[str, list]
 
     def votes(self, d, names, i):
         """Number of votes in direction d (+1/-1) among ``names`` at bar i, or None if any is undefined."""

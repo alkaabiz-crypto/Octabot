@@ -70,7 +70,7 @@ def select_candidate(ctx, approach, direction_name, exit_rule, before_time):
         # only trades already CLOSED before the decision time are known
         prior = [t for t in prior if t.exit_time <= before_time]
         s = stats.summarize([ctx.r(t) for t in prior], with_ci=False)
-        table[cand_key(cand)] = dict(trades=s["trades"], t_stat=s.get("t_stat"), expectancy_r=s.get("expectancy_r"))
+        table[cand_key(cand)] = {"trades": s["trades"], "t_stat": s.get("t_stat"), "expectancy_r": s.get("expectancy_r")}
         if s["trades"] >= P.SELECTION_MIN_TRADES and s.get("t_stat") is not None:
             is_textbook = cand == P.textbook_candidate(approach)
             if best_t is None or s["t_stat"] > best_t or (s["t_stat"] == best_t and is_textbook):
@@ -117,8 +117,8 @@ def period_context(ctx, t0, t1):
     for i in range(i0, i1 + 1, 24):
         mix[ctx.regimes.at(b.t[i])] += 1
     total = sum(mix.values()) or 1
-    return dict(first_bar=fmt(b.t[i0]), last_bar=fmt(b.t[i1]), bars=i1 - i0 + 1, buy_and_hold_pct=(b.c[i1] / b.o[i0] - 1) * 100,
-                regime_share_pct={k: round(v / total * 100, 1) for k, v in mix.items()})
+    return {"first_bar": fmt(b.t[i0]), "last_bar": fmt(b.t[i1]), "bars": i1 - i0 + 1, "buy_and_hold_pct": (b.c[i1] / b.o[i0] - 1) * 100,
+                "regime_share_pct": {k: round(v / total * 100, 1) for k, v in mix.items()}}
 
 
 def write_trades(path, ctx, trades, extra=None):

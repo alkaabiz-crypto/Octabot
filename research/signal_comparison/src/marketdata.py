@@ -3,7 +3,6 @@ import bisect
 import csv
 import dataclasses
 import gzip
-import typing
 
 H1, H4, D1 = 3600, 14400, 86400
 
@@ -12,11 +11,11 @@ H1, H4, D1 = 3600, 14400, 86400
 class Bars:
     """Bid OHLC bars. ``t`` is the bar's nominal open time (UTC seconds); ``end`` is when the bar is final."""
     step: int
-    t: typing.List[int]
-    o: typing.List[float]
-    h: typing.List[float]
-    l: typing.List[float]
-    c: typing.List[float]
+    t: list[int]
+    o: list[float]
+    h: list[float]
+    l: list[float]
+    c: list[float]
 
     def __len__(self):
         return len(self.t)
@@ -30,12 +29,12 @@ class Market:
     """One asset: hourly bid bars plus the matching ask quotes needed for realistic fills."""
     symbol: str
     h1: Bars
-    ao: typing.List[float]      # ask at the first quote of the hour
-    ah: typing.List[float]
-    al: typing.List[float]
-    ac: typing.List[float]
-    spread_mean: typing.List[float]
-    ticks: typing.List[int]
+    ao: list[float]      # ask at the first quote of the hour
+    ah: list[float]
+    al: list[float]
+    ac: list[float]
+    spread_mean: list[float]
+    ticks: list[int]
 
 
 def load_market(symbol, path, end_before=None, start_at=None):
@@ -70,10 +69,8 @@ def aggregate(bars, step):
             l.append(bars.l[i])
             c.append(bars.c[i])
         else:
-            if bars.h[i] > h[-1]:
-                h[-1] = bars.h[i]
-            if bars.l[i] < l[-1]:
-                l[-1] = bars.l[i]
+            h[-1] = max(h[-1], bars.h[i])
+            l[-1] = min(l[-1], bars.l[i])
             c[-1] = bars.c[i]
     return Bars(step, t, o, h, l, c)
 

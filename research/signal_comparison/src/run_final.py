@@ -11,9 +11,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import protocol as P  # noqa: E402
-import stats  # noqa: E402
-import study  # noqa: E402
+import protocol as P
+import stats
+import study
 
 
 def cand_from_key(approach, key):
@@ -61,9 +61,9 @@ def main():
     for asset, cfg in P.ASSETS.items():
         ctx = study.Context(asset, end_before=P.DATA_END)
         f0, f1 = cfg["final_start"], P.DATA_END
-        res = dict(meta=dict(final_test=[study.fmt(f0), study.fmt(f1)], last_bar=study.fmt(ctx.market.h1.t[-1]),
-                             final_context=study.period_context(ctx, f0, f1), today_spread_pct=ctx.today_spread * 100),
-                   strategies={})
+        res = {"meta": {"final_test": [study.fmt(f0), study.fmt(f1)], "last_bar": study.fmt(ctx.market.h1.t[-1]),
+                             "final_context": study.period_context(ctx, f0, f1), "today_spread_pct": ctx.today_spread * 100},
+                   "strategies": {}}
         for approach in P.APPROACHES:
             for dname in P.DIRECTIONS:
                 for exit_rule in P.EXITS:

@@ -94,8 +94,8 @@ def ts(y, m, d=1):
 
 ASSETS = {
     # warm-up ends / development starts ; first walk-forward fold ; final test start
-    "BTCUSDm": dict(file="BTCUSDm_1h.csv.gz", dev_start=ts(2019, 1), first_fold=ts(2020, 1), final_start=ts(2025, 7)),
-    "UKOILm": dict(file="UKOILm_1h.csv.gz", dev_start=ts(2021, 1), first_fold=ts(2022, 1), final_start=ts(2025, 7)),
+    "BTCUSDm": {"file": "BTCUSDm_1h.csv.gz", "dev_start": ts(2019, 1), "first_fold": ts(2020, 1), "final_start": ts(2025, 7)},
+    "UKOILm": {"file": "UKOILm_1h.csv.gz", "dev_start": ts(2021, 1), "first_fold": ts(2022, 1), "final_start": ts(2025, 7)},
 }
 DATA_END = ts(2026, 11)          # last full month in the archive when the study was run: 2026-10
 
@@ -103,7 +103,7 @@ APPROACHES = ("A1_DONCHIAN_TREND", "A2_COMBINED", "A3_VOTING")
 DIRECTIONS = {"BUY": 1, "SELL": -1}
 EXITS = ("TRAIL", "SYM")
 SCALES = (0.5, 1.0, 2.0)
-TEXTBOOK = dict(donchian=20, ema_fast=50, ema_slow=200, rsi=14, macd_fast=12, macd_slow=26, macd_signal=9, adx=14)
+TEXTBOOK = {"donchian": 20, "ema_fast": 50, "ema_slow": 200, "rsi": 14, "macd_fast": 12, "macd_slow": 26, "macd_signal": 9, "adx": 14}
 VOTE_K = (4, 5)
 TEXTBOOK_K = 4
 
@@ -115,9 +115,9 @@ ATR_PERIOD = 14
 STOP_ATR, TRAIL_ATR, SYM_TARGET_ATR, SYM_MAX_BARS = 2.0, 3.0, 2.0, 48
 
 COSTS = {
-    "spread": dict(slippage=0.0, swap_per_day=0.0),
-    "primary": dict(slippage=0.0002, swap_per_day=0.0),
-    "stress": dict(slippage=0.0005, swap_per_day=0.0002),
+    "spread": {"slippage": 0.0, "swap_per_day": 0.0},
+    "primary": {"slippage": 0.0002, "swap_per_day": 0.0},
+    "stress": {"slippage": 0.0005, "swap_per_day": 0.0002},
 }
 PRIMARY_COST = "primary"
 TODAY_COST = "today"                      # diagnostic scenario, see docstring
@@ -129,24 +129,24 @@ RANDOM_RUNS = 1000
 BOOTSTRAP_RUNS = 2000
 SEED = 20261109
 
-PASS = dict(wf_min_trades=50, wf_min_t=2.0, wf_min_pf=1.2, wf_min_pos_fold_share=0.6, wf_max_p_random=0.05,
-            final_min_trades=10, final_min_pf=1.1)
+PASS = {"wf_min_trades": 50, "wf_min_t": 2.0, "wf_min_pf": 1.2, "wf_min_pos_fold_share": 0.6, "wf_max_p_random": 0.05,
+            "final_min_trades": 10, "final_min_pf": 1.1}
 
 
 def scaled(scale):
     """Indicator look-backs for a time scale (rounded, minimum 2)."""
-    return {k: max(2, int(round(v * scale))) for k, v in TEXTBOOK.items()}
+    return {k: max(2, round(v * scale)) for k, v in TEXTBOOK.items()}
 
 
 def candidates(approach):
     """Parameter candidates for an approach: list of dicts with 'scale' (and 'k' for A3)."""
     if approach == "A3_VOTING":
-        return [dict(scale=s, k=k) for s in SCALES for k in VOTE_K]
-    return [dict(scale=s) for s in SCALES]
+        return [{"scale": s, "k": k} for s in SCALES for k in VOTE_K]
+    return [{"scale": s} for s in SCALES]
 
 
 def textbook_candidate(approach):
-    return dict(scale=1.0, k=TEXTBOOK_K) if approach == "A3_VOTING" else dict(scale=1.0)
+    return {"scale": 1.0, "k": TEXTBOOK_K} if approach == "A3_VOTING" else {"scale": 1.0}
 
 
 def folds(asset):

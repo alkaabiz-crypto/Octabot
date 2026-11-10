@@ -82,7 +82,7 @@ def summarize(rs, with_ci=True):
     """Metrics for a list of per-trade net R results, in chronological order."""
     n = len(rs)
     if n == 0:
-        return dict(trades=0)
+        return {"trades": 0}
     wins, losses = [r for r in rs if r > 0], [r for r in rs if r <= 0]
     mean = statistics.mean(rs)
     sd = statistics.stdev(rs) if n > 1 else 0.0
@@ -95,11 +95,11 @@ def summarize(rs, with_ci=True):
     eq = 1.0
     for r in rs:
         eq *= 1 + P.RISK_PER_TRADE * r
-    out = dict(trades=n, win_rate_pct=len(wins) / n * 100, profit_factor=(sum(wins) / gross_loss) if gross_loss > 0 else None,
-               expectancy_r=mean, t_stat=t, p_one_sided=t_sf(t, n - 1) if t is not None else None, total_r=sum(rs),
-               max_drawdown_r=max_drawdown_r(rs), max_drawdown_pct=max_drawdown_pct(rs), return_pct=(eq - 1) * 100,
-               longest_losing_streak=worst, avg_win_r=statistics.mean(wins) if wins else None,
-               avg_loss_r=statistics.mean(losses) if losses else None)
+    out = {"trades": n, "win_rate_pct": len(wins) / n * 100, "profit_factor": (sum(wins) / gross_loss) if gross_loss > 0 else None,
+               "expectancy_r": mean, "t_stat": t, "p_one_sided": t_sf(t, n - 1) if t is not None else None, "total_r": sum(rs),
+               "max_drawdown_r": max_drawdown_r(rs), "max_drawdown_pct": max_drawdown_pct(rs), "return_pct": (eq - 1) * 100,
+               "longest_losing_streak": worst, "avg_win_r": statistics.mean(wins) if wins else None,
+               "avg_loss_r": statistics.mean(losses) if losses else None}
     if with_ci:
         out["ci95_low"], out["ci95_high"] = bootstrap_ci(rs)
     return out

@@ -7,12 +7,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
-import engine  # noqa: E402
-import indicators as ind  # noqa: E402
-import marketdata as md  # noqa: E402
-import protocol as P  # noqa: E402
-import signals as sg  # noqa: E402
-import stats  # noqa: E402
+import itertools
+
+import engine
+import indicators as ind
+import marketdata as md
+import protocol as P
+import signals as sg
+import stats
 
 
 def market(rows, spread=1.0, symbol="TEST", t0=0):
@@ -46,30 +48,30 @@ class TestOutcomes(unittest.TestCase):
 
     def test_long_enters_at_ask_and_stops_at_bid(self):
         # entry bar: bid open 100 -> buy at ask 101; stop = 101 - 4 = 97; next bar bid low 96 -> stopped at 97
-        r, x, t_exit, reason, entry, risk = self.run_one([(100, 101, 99, 100), (100, 100, 96, 97)], 1, "TRAIL")
+        r, x, _t_exit, reason, entry, risk = self.run_one([(100, 101, 99, 100), (100, 100, 96, 97)], 1, "TRAIL")
         self.assertEqual((entry, risk, reason, x), (101.0, 4.0, "stop", 21))
         self.assertAlmostEqual(r, -1.0)
 
     def test_long_gap_through_stop_fills_at_open(self):
-        r, x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (95, 96, 94, 95)], 1, "TRAIL")
+        r, _x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (95, 96, 94, 95)], 1, "TRAIL")
         self.assertEqual(reason, "stop")
         self.assertAlmostEqual(r, (95 - 101) / 4.0)       # worse than -1R
 
     def test_short_enters_at_bid_and_stops_at_ask(self):
         # sell at bid 100; stop = 104; ask high = bid high + 1; bid high 103 -> ask 104 -> stopped at 104
-        r, x, _, reason, entry, _ = self.run_one([(100, 101, 99, 100), (100, 103, 100, 102)], -1, "TRAIL")
+        r, _x, _, reason, entry, _ = self.run_one([(100, 101, 99, 100), (100, 103, 100, 102)], -1, "TRAIL")
         self.assertEqual((entry, reason), (100.0, "stop"))
         self.assertAlmostEqual(r, -1.0)
 
     def test_short_not_stopped_when_only_bid_would_not_reach(self):
         # bid high 102.5 -> ask high 103.5 < 104: still open at data end; closed at the ask close
-        r, x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (100, 102.5, 100, 102)], -1, "TRAIL")
+        r, _x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (100, 102.5, 100, 102)], -1, "TRAIL")
         self.assertEqual(reason, "data_end")
         self.assertAlmostEqual(r, (100 - 103) / 4.0)
 
     def test_sym_target_long(self):
         # target = 101 + 4 = 105 on the bid
-        r, x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (100, 105, 100, 104)], 1, "SYM")
+        r, _x, _, reason, _, _ = self.run_one([(100, 101, 99, 100), (100, 105, 100, 104)], 1, "SYM")
         self.assertEqual(reason, "target")
         self.assertAlmostEqual(r, 1.0)
 
@@ -214,14 +216,14 @@ class TestSignals(unittest.TestCase):
     def test_a2_is_a_subset_of_a1_like_breakouts(self):
         """Every A2 signal is a fresh Donchian break with the 4H close on the right side of EMA slow -> also A1."""
         for d in (1, -1):
-            a1 = self.lab.signals("A1_DONCHIAN_TREND", d, dict(scale=1.0))
-            a2 = self.lab.signals("A2_COMBINED", d, dict(scale=1.0))
+            a1 = self.lab.signals("A1_DONCHIAN_TREND", d, {"scale": 1.0})
+            a2 = self.lab.signals("A2_COMBINED", d, {"scale": 1.0})
             self.assertTrue(all(a1[i] for i in range(len(a2)) if a2[i]))
             self.assertLess(sum(a2), sum(a1))
 
     def test_a3_does_not_need_a_breakout(self):
-        a1 = self.lab.signals("A1_DONCHIAN_TREND", 1, dict(scale=1.0))
-        a3 = self.lab.signals("A3_VOTING", 1, dict(scale=1.0, k=4))
+        a1 = self.lab.signals("A1_DONCHIAN_TREND", 1, {"scale": 1.0})
+        a3 = self.lab.signals("A3_VOTING", 1, {"scale": 1.0, "k": 4})
         self.assertTrue(any(a3[i] and not a1[i] for i in range(len(a3))))
 
     def test_a3_stricter_k_gives_fewer_or_equal_alignment_bars(self):
@@ -240,7 +242,7 @@ class TestSignals(unittest.TestCase):
                         self.assertEqual(self.lab.signals(ap, d, cand)[:cut + 1], lab_cut.signals(ap, d, cand), (ap, cand, d, cut))
 
     def test_scales_change_signals(self):
-        s = [sum(self.lab.signals("A1_DONCHIAN_TREND", 1, dict(scale=x))) for x in P.SCALES]
+        s = [sum(self.lab.signals("A1_DONCHIAN_TREND", 1, {"scale": x})) for x in P.SCALES]
         self.assertGreater(s[0], s[2])     # faster channel -> more breakouts
 
 
@@ -282,7 +284,7 @@ class TestAgainstSignalAssistant(unittest.TestCase):
             self.assertAlmostEqual(lab.h4.c[k], c4.c[k])
             self.assertAlmostEqual(lab.h4.h[k], c4.h[k])
             self.assertAlmostEqual(lab.h4.l[k], c4.l[k])
-        buy, sell = lab.signals("A2_COMBINED", 1, dict(scale=1.0)), lab.signals("A2_COMBINED", -1, dict(scale=1.0))
+        buy, sell = lab.signals("A2_COMBINED", 1, {"scale": 1.0}), lab.signals("A2_COMBINED", -1, {"scale": 1.0})
         n_buy = n_sell = 0
         for i, rec in expected.items():
             self.assertEqual(buy[i], rec == enums.Recommendation.BUY, f"BUY mismatch at bar {i}")
@@ -333,7 +335,7 @@ class TestProtocol(unittest.TestCase):
             f = P.folds(asset)
             self.assertEqual(f[0][1], cfg["first_fold"])
             self.assertEqual(f[-1][2], cfg["final_start"])
-            self.assertTrue(all(a[2] == b[1] for a, b in zip(f, f[1:])))
+            self.assertTrue(all(a[2] == b[1] for a, b in itertools.pairwise(f)))
 
     def test_candidates(self):
         self.assertEqual(len(P.candidates("A1_DONCHIAN_TREND")), 3)

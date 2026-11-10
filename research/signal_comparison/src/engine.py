@@ -7,7 +7,6 @@ simulated exactly like a strategy trade.
 """
 import dataclasses
 import random
-import typing
 
 import indicators as ind
 import marketdata as md

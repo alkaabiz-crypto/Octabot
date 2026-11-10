@@ -10,8 +10,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import protocol as P  # noqa: E402
-import study  # noqa: E402
+import protocol as P
+import study
 
 
 def run_asset(asset):
@@ -19,11 +19,11 @@ def run_asset(asset):
     ctx = study.Context(asset, end_before=cfg["final_start"])
     folds = P.folds(asset)
     wf0, wf1 = folds[0][1], folds[-1][2]
-    out = dict(meta=dict(first_bar=study.fmt(ctx.market.h1.t[0]), last_bar_loaded=study.fmt(ctx.market.h1.t[-1]),
-                         bars_loaded=len(ctx.market.h1), development_start=study.fmt(cfg["dev_start"]),
-                         walkforward=[study.fmt(wf0), study.fmt(wf1)], folds=[f[0] for f in folds],
-                         today_spread_pct=ctx.today_spread * 100, walkforward_context=study.period_context(ctx, wf0, wf1)),
-               strategies={})
+    out = {"meta": {"first_bar": study.fmt(ctx.market.h1.t[0]), "last_bar_loaded": study.fmt(ctx.market.h1.t[-1]),
+                         "bars_loaded": len(ctx.market.h1), "development_start": study.fmt(cfg["dev_start"]),
+                         "walkforward": [study.fmt(wf0), study.fmt(wf1)], "folds": [f[0] for f in folds],
+                         "today_spread_pct": ctx.today_spread * 100, "walkforward_context": study.period_context(ctx, wf0, wf1)},
+               "strategies": {}}
     lock = {}
     for approach in P.APPROACHES:
         for dname in P.DIRECTIONS:
@@ -34,8 +34,8 @@ def run_asset(asset):
                     cand, _ = study.select_candidate(ctx, approach, dname, exit_rule, f0)
                     tr = study.between(ctx.trades(approach, dname, exit_rule, cand), f0, f1)
                     rs = [ctx.r(t) for t in tr]
-                    fold_rows.append(dict(fold=name, candidate=study.cand_key(cand), trades=len(tr),
-                                          expectancy_r=(sum(rs) / len(rs)) if rs else None, total_r=sum(rs)))
+                    fold_rows.append({"fold": name, "candidate": study.cand_key(cand), "trades": len(tr),
+                                          "expectancy_r": (sum(rs) / len(rs)) if rs else None, "total_r": sum(rs)})
                     stitched += tr
                     chosen_per_trade += [study.cand_key(cand)] * len(tr)
                 sel = study.evaluate(ctx, stitched, dname, exit_rule, wf0, wf1, key + "|wf_selected")
@@ -48,14 +48,14 @@ def run_asset(asset):
                 tb_folds = []
                 for name, f0, f1 in folds:
                     rs = [ctx.r(t) for t in study.between(tb_trades, f0, f1)]
-                    tb_folds.append(dict(fold=name, trades=len(rs), expectancy_r=(sum(rs) / len(rs)) if rs else None))
+                    tb_folds.append({"fold": name, "trades": len(rs), "expectancy_r": (sum(rs) / len(rs)) if rs else None})
                 traded = [f for f in tb_folds if f["trades"]]
                 tb["folds"] = tb_folds
                 tb["positive_fold_share"] = (sum(f["expectancy_r"] > 0 for f in traded) / len(traded)) if traded else None
                 final_cand, table = study.select_candidate(ctx, approach, dname, exit_rule, cfg["final_start"])
                 lock[key] = final_cand
-                out["strategies"][key] = dict(walkforward_selected=sel, walkforward_textbook=tb,
-                                              final_candidate=study.cand_key(final_cand), development_candidates=table)
+                out["strategies"][key] = {"walkforward_selected": sel, "walkforward_textbook": tb,
+                                              "final_candidate": study.cand_key(final_cand), "development_candidates": table}
                 base = os.path.join(study.LOGS_DIR, "walkforward", f"{asset}_{approach}_{dname}_{exit_rule}")
                 study.write_trades(base + "_selected.csv", ctx, stitched, chosen_per_trade)
                 study.write_trades(base + "_textbook.csv", ctx, tb_trades)
