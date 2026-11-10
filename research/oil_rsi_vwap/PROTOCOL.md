@@ -1,6 +1,6 @@
 # Pre-registered protocol: RSI + VWAP entries on US crude oil (USOILm)
 
-Written on 2026-11-10 at about 08:00 UTC, before any USOILm candle was downloaded or any result was computed. Paper
+Written on 2026-11-10 at about 08:00 UTC, before any USOILm candle was downloaded or any result was computed. The period was changed at about 08:10 UTC, still before any result. Paper
 research only. Nothing in the earlier studies, the signal assistant or the frozen Donchian forward test is changed.
 
 ## Question
@@ -14,14 +14,21 @@ do, without tuning anything to oil.
 
 ## Data
 
-- **Source.** The Exness public tick archive, symbol USOILm, every bid and ask quote from the first available month
-  (2019) to 2026-10. Quotes are aggregated into 15-minute bid and ask candles with tick counts. 1H and daily candles
+- **Source.** The Exness public tick archive, symbol USOILm, every bid and ask quote from 2024-03 to the latest
+  available quote in November 2026. Quotes are aggregated into 15-minute bid and ask candles with tick counts. 1H and daily candles
   are built from the 15-minute bid candles on UTC boundaries. Nothing is interpolated.
-- **Statistics period.** 2020-01-01 to 2026-10-31. Data from 2019 is used only to warm up the indicators.
-  - Development: 2020-01 to 2025-06.
-  - Later period: 2025-07 to 2026-10.
-- April 2020, when the futures contract went negative, is included. The CFD's quotes stayed positive. It is a real
-  part of the market's history, and R is normalised by ATR.
+- **Statistics period: 2025-01-01 to the last available candle.** This was changed on request, before any oil result
+  was computed (the first draft used 2020 onward). 2024-03 to 2024-12 is used only to warm up the indicators. No
+  trade is entered or counted before 2025-01-01. The daily EMA200 behind the regime labels needs about 10 months
+  of history.
+  - Results are also shown separately for 2025 and 2026, for description only.
+
+### Power warning (written before any result)
+
+About 22 months of data is short. Suppose oil had the same edge as BTC (+0.17R per trade, standard deviation about
+2.3R) and produced 150 to 300 trades. The expected t-statistic would then be about 0.9 to 1.3, so the t ≥ 2 rule
+would pass only about 15 to 25% of the time. **A pass would be meaningful; a fail would be weak evidence against the
+rule, not proof that it does not work.**
 
 ## Indicators (1H bid candles, textbook settings)
 
@@ -63,7 +70,7 @@ quarter. 2,000 runs, using the sequential sampler.
 ## Pass rule (fixed now)
 
 **Primary hypothesis: V1 VWAP momentum, BUY, TRAIL.** It is a single pre-specified test, so there is no
-multiple-testing adjustment. It **transfers to oil** only if, over 2020-01 to 2026-10 at primary cost:
+multiple-testing adjustment. It **transfers to oil** only if, over 2025-01 to the last candle at primary cost:
 
 - there are at least 100 trades;
 - expectancy is above 0 with t ≥ 2;
