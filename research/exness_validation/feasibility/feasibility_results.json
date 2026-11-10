@@ -1,0 +1,45 @@
+{
+ "required_volume_btc": {
+  "min": 0.00737,
+  "median": 0.01967,
+  "max": 0.06277
+ },
+ "notional_as_multiple_of_equity": {
+  "min": 0.195,
+  "median": 0.502,
+  "max": 1.5
+ },
+ "note": "notional < 1 x equity means the position fits even at 1:1 leverage (no borrowing); actual margin depends on the UNVERIFIED leverage",
+ "scenarios": {
+  "A: 1 BTC/lot, min 0.01, step 0.01 (unverified secondary sources)": {
+   "trades_feasible": 62,
+   "trades_below_min_volume": 2,
+   "risk_deviation_pct": {
+    "min": -49.7,
+    "median": -26.4,
+    "max": -0.1
+   }
+  },
+  "B: 1 BTC/lot, min 0.1, step 0.1 (stress)": {
+   "trades_feasible": 0,
+   "trades_below_min_volume": 64,
+   "risk_deviation_pct": null
+  }
+ },
+ "aug19_trade": {
+  "entry_utc": "2026-08-19 14:00:00",
+  "equity_before": 2712.25,
+  "theoretical_risk_usd": 13.56,
+  "entry_ask": 64967.98,
+  "risk_per_btc": 432.27,
+  "required_btc": 0.03137,
+  "notional_usd": 2038.17,
+  "notional_x_equity": 0.751,
+  "R": 26.448,
+  "scenario_A_lots": 0.03,
+  "scenario_A_actual_risk_usd": 12.97,
+  "scenario_A_pnl_usd": 342.98,
+  "theoretical_pnl_usd": 358.67,
+  "scenario_B_lots": 0.0
+ }
+}
