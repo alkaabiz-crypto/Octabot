@@ -55,7 +55,7 @@ def basket(t, bid, ask, i0, side, stop_usd, lots, steps, tp):
 
 def run(period, tf, dirs, cfg):
     t, b, a = G["ticks"][period]; closes = G["closes"][(period, tf)]
-    lots = [0.01, 0.02, 0.03][:1 + cfg["extra"]]; steps = [cfg["step"], cfg["step"] * 1.3][:cfg["extra"]]
+    lots = [0.01, 0.02, 0.03][:1 + cfg["extra"]]; steps = [cfg["step"], cfg["step"] * 1.3][:cfg["extra"]] if cfg["extra"] else []
     pos = np.searchsorted(t, closes, side="left")
     eq = peak = dd = gp = 0.0; nb = wins = 0; k = 0
     while k < len(closes):
@@ -114,6 +114,7 @@ def main():
         df = pd.DataFrame(rows).sort_values(["train_net", "train_maxdd"], ascending=[False, True]).reset_index(drop=True)
         chosen = df.iloc[0].to_dict(); cfg = {k: chosen[k] for k in ("tp", "extra", "step", "stop", "dir", "tf")}
         if pd.isna(cfg["step"]): cfg["step"] = None
+        cfg["extra"] = int(cfg["extra"])
         rnd = np.array(p.map(rand_job, [(cfg, SEED + i) for i in range(N_RANDOM)]))
     checks = dict(test_net_positive=bool(chosen["test_net"] > 0), test_dd_below_half_gross=bool(chosen["test_maxdd"] < 0.5 * chosen["test_gross_profit"]),
                   test_beats_random_p95=bool(chosen["test_net"] > np.percentile(rnd, 95)))
