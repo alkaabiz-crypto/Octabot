@@ -1,0 +1,84 @@
+{
+ "duplicate_ticks": {
+  "ticks_as_run": 36683952,
+  "ticks_after_dedup": 36610830,
+  "removed": 73122,
+  "trades_as_run": 64,
+  "trades_dedup": 64,
+  "identical_trades": true
+ },
+ "bar_rebuild_from_raw_ticks": [
+  {
+   "month": "2025-11",
+   "rebuilt_sha256": "763069cff673d79b3aa14dba29b7ba383bf0c65bb4120673d1e4b9280e007d49",
+   "committed_sha256": "763069cff673d79b3aa14dba29b7ba383bf0c65bb4120673d1e4b9280e007d49",
+   "identical": true
+  },
+  {
+   "month": "2025-12",
+   "rebuilt_sha256": "6c60e22c38d94a5e4da65adcf348aaba67cbccef16c84af01d52b140f0204dfa",
+   "committed_sha256": "6c60e22c38d94a5e4da65adcf348aaba67cbccef16c84af01d52b140f0204dfa",
+   "identical": true
+  },
+  {
+   "month": "2026-01",
+   "rebuilt_sha256": "9a15afdb17fd337a33e014db1d34c9ef61987344cd24727655b3edd1aabee1d8",
+   "committed_sha256": "9a15afdb17fd337a33e014db1d34c9ef61987344cd24727655b3edd1aabee1d8",
+   "identical": true
+  },
+  {
+   "month": "2026-02",
+   "rebuilt_sha256": "96c7fd2c6c36cbdb5e9c57cca2fe79af3d81cbfd2f1925ddeba3375711bd4543",
+   "committed_sha256": "96c7fd2c6c36cbdb5e9c57cca2fe79af3d81cbfd2f1925ddeba3375711bd4543",
+   "identical": true
+  },
+  {
+   "month": "2026-03",
+   "rebuilt_sha256": "ad9c59fba878f86ee6078a302cbd7ad77a8f40c8d1af072f318ac954c8ad4112",
+   "committed_sha256": "ad9c59fba878f86ee6078a302cbd7ad77a8f40c8d1af072f318ac954c8ad4112",
+   "identical": true
+  },
+  {
+   "month": "2026-04",
+   "rebuilt_sha256": "fb10f3cebf445a62bdb5e5f16385435eb0fffe9c6b48f630086402b31e96c674",
+   "committed_sha256": "fb10f3cebf445a62bdb5e5f16385435eb0fffe9c6b48f630086402b31e96c674",
+   "identical": true
+  },
+  {
+   "month": "2026-05",
+   "rebuilt_sha256": "4189a6346ed283dbf86fa717cf91a6fd0f813efcccafce4726df477c682db3a2",
+   "committed_sha256": "4189a6346ed283dbf86fa717cf91a6fd0f813efcccafce4726df477c682db3a2",
+   "identical": true
+  },
+  {
+   "month": "2026-06",
+   "rebuilt_sha256": "9f1ba7fb9e155c1b7f1b0564325b86e7008c3a61419525b28c2682cced27d9db",
+   "committed_sha256": "9f1ba7fb9e155c1b7f1b0564325b86e7008c3a61419525b28c2682cced27d9db",
+   "identical": true
+  },
+  {
+   "month": "2026-07",
+   "rebuilt_sha256": "d648aed9bcffedf9ab177394db9a497a1da779c3f203a8d5047103fd6a0d0663",
+   "committed_sha256": "d648aed9bcffedf9ab177394db9a497a1da779c3f203a8d5047103fd6a0d0663",
+   "identical": true
+  },
+  {
+   "month": "2026-08",
+   "rebuilt_sha256": "cd446657307300112926b1880a4f056cd2dd4d5f86b12cf7e0bffdddfc5744f5",
+   "committed_sha256": "cd446657307300112926b1880a4f056cd2dd4d5f86b12cf7e0bffdddfc5744f5",
+   "identical": true
+  },
+  {
+   "month": "2026-09",
+   "rebuilt_sha256": "65254ff538b1f2c2b4d00897a87fed3c4b271be106896aab2003969335299315",
+   "committed_sha256": "65254ff538b1f2c2b4d00897a87fed3c4b271be106896aab2003969335299315",
+   "identical": true
+  },
+  {
+   "month": "2026-10",
+   "rebuilt_sha256": "047f925fa2b5e52c9cf754524b232d9f971bc1028f6e3ace3e7bdeb379d9953c",
+   "committed_sha256": "047f925fa2b5e52c9cf754524b232d9f971bc1028f6e3ace3e7bdeb379d9953c",
+   "identical": true
+  }
+ ]
+}
