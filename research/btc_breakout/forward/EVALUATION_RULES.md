@@ -33,6 +33,19 @@ None of these scenarios includes overnight swap, the Friday triple swap or an ov
 
 `cost_scenarios.py` reads only the real forward-test ledger, trades 1 to 40. It refuses to run on dry-run or modified copies, and it never outputs a verdict before trade 40.
 
+## Execution validity (added 2026-11-10 after the pre-flight audit, before any forward trade existed)
+
+The pre-flight audit found that the frozen ledger (`trades.csv`) fills each entry at the open of the 15m candle starting at the signal close. A worker that runs hourly at about +6 minutes cannot get that price. That fill model is **idealized**. It stays unchanged as the research-consistent record, but it is not realistic execution.
+
+1. **A paper trade is valid only if `execution_log.csv` holds a LIVE record for it.** LIVE means the first executable Binance quote (bid/ask, filled at the ask) was captured by `execution_shadow.py` within 20 minutes of the signal-candle close.
+   - Trades marked LATE or NOT_EXECUTABLE are kept and reported, but they do not count toward 40.
+   - These statuses depend only on worker uptime, not on trade outcome, so excluding them does not select by results.
+2. **The evaluation set is the first 40 valid trades** in recorded order. Trades without a LIVE record are never back-filled.
+3. **The primary verdict uses the executable fill:** R = (frozen exit - ASK fill) / (2 x ATR14). The idealized-fill result is reported alongside for comparison.
+   - The measured Binance spread is already included in the ask fill. Hypothetical costs are added on top.
+   - **Approximation:** stops stay anchored to the frozen modelled entry.
+4. These are Binance spot quotes. Exness spread at execution is not measured live and remains UNKNOWN.
+
 ## Integrity requirements for a valid verdict
 
 - The independent audit (`../audit/audit.py`) reports 0 CRITICAL and 0 DISCREPANCY findings on the final ledgers. If it does not, every finding is reported, and the verdict is marked as provisional until it is resolved.
