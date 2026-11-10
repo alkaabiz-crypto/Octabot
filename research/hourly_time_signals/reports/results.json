@@ -1,0 +1,138 @@
+{
+ "meta": {
+  "generated_utc": "2026-11-10 19:33",
+  "runs": 1000
+ },
+ "S1_OIL_INTRADAY_MOMENTUM": {
+  "selection 2025": {
+   "trades": 249,
+   "win_rate_pct": 42.570281124497996,
+   "mean_bps": -5.509243240870714,
+   "median_bps": -4.346591575737027,
+   "t_stat": -2.774938781571885,
+   "p_one_sided": 0.9970291912230778,
+   "total_bps": -1371.8015669768079,
+   "max_drawdown_bps": 1518.2530301970448,
+   "profit_factor": 0.6125333068632547,
+   "stress_mean_bps": -8.509243240870715,
+   "always_long_mean_bps": -3.2691149088841884,
+   "random_mean_bps": -4.833517333076111,
+   "p_random": 0.6323676323676324
+  },
+  "confirmation 2026": {
+   "trades": 213,
+   "win_rate_pct": 43.66197183098591,
+   "mean_bps": -8.082501062387054,
+   "median_bps": -5.219229531065687,
+   "t_stat": -1.9895133927918776,
+   "p_one_sided": 0.9760350547691174,
+   "total_bps": -1721.5727262884425,
+   "max_drawdown_bps": 1896.223504060221,
+   "profit_factor": 0.6614681139616803,
+   "stress_mean_bps": -11.082501062387054,
+   "always_long_mean_bps": 3.0196731956572944,
+   "random_mean_bps": -4.334430911625805,
+   "p_random": 0.8151848151848152
+  },
+  "reliable": false
+ },
+ "S2a_GOLD_ASIAN_LONG": {
+  "selection 2025": {
+   "trades": 258,
+   "win_rate_pct": 50.0,
+   "mean_bps": 3.3593438960947,
+   "median_bps": 0.2537984912881248,
+   "t_stat": 0.966533389178242,
+   "p_one_sided": 0.16734299507637135,
+   "total_bps": 866.7107251924326,
+   "max_drawdown_bps": 1089.8735093793398,
+   "profit_factor": 1.1700254772450065,
+   "stress_mean_bps": 0.35934389609470013,
+   "all_hours_mean_bps": 2.7970335357879774,
+   "random_mean_bps": 2.3060940601362314,
+   "p_random": 0.36863136863136864
+  },
+  "confirmation 2026": {
+   "trades": 221,
+   "win_rate_pct": 47.963800904977376,
+   "mean_bps": -1.4828115238039976,
+   "median_bps": -3.550529924366403,
+   "t_stat": -0.20464155370314488,
+   "p_one_sided": 0.5809793069243305,
+   "total_bps": -327.70134676068346,
+   "max_drawdown_bps": 1626.604283212944,
+   "profit_factor": 0.9611834139258929,
+   "stress_mean_bps": -4.482811523803997,
+   "all_hours_mean_bps": -2.320894638104471,
+   "random_mean_bps": -2.419221289127498,
+   "p_random": 0.4175824175824176
+  },
+  "reliable": false
+ },
+ "S2b_GOLD_US_SHORT": {
+  "selection 2025": {
+   "trades": 249,
+   "win_rate_pct": 41.76706827309237,
+   "mean_bps": -6.249976356936499,
+   "median_bps": -12.007341185531137,
+   "t_stat": -1.3584413630988181,
+   "p_one_sided": 0.9122209708337133,
+   "total_bps": -1556.2441128771884,
+   "max_drawdown_bps": 2148.4955538427844,
+   "profit_factor": 0.7903525538938353,
+   "stress_mean_bps": -9.2499763569365,
+   "all_hours_mean_bps": -7.776490293471125,
+   "random_mean_bps": -7.394044814578756,
+   "p_random": 0.35364635364635366
+  },
+  "confirmation 2026": {
+   "trades": 215,
+   "win_rate_pct": 47.906976744186046,
+   "mean_bps": 9.087708553659656,
+   "median_bps": -2.4563750580505155,
+   "t_stat": 1.3006609612620976,
+   "p_one_sided": 0.09738669523870969,
+   "total_bps": 1953.8573390368258,
+   "max_drawdown_bps": 888.8674551146107,
+   "profit_factor": 1.2787204165862611,
+   "stress_mean_bps": 6.087708553659655,
+   "all_hours_mean_bps": -2.984884873198381,
+   "random_mean_bps": -2.8069426061756495,
+   "p_random": 0.008991008991008992
+  },
+  "reliable": false
+ },
+ "S3_BTC_LATE_EVENING_LONG": {
+  "selection 2025": {
+   "trades": 362,
+   "win_rate_pct": 50.27624309392266,
+   "mean_bps": 4.111883293746599,
+   "median_bps": 0.28944612354898824,
+   "t_stat": 1.246806095118293,
+   "p_one_sided": 0.10663847684782768,
+   "total_bps": 1488.501752336269,
+   "max_drawdown_bps": 1156.5886417914776,
+   "profit_factor": 1.21552528015233,
+   "stress_mean_bps": 0.4157506970615164,
+   "all_hours_mean_bps": -4.282978806148013,
+   "random_mean_bps": -4.235583358110373,
+   "p_random": 0.005994005994005994
+  },
+  "confirmation 2026": {
+   "trades": 311,
+   "win_rate_pct": 44.05144694533762,
+   "mean_bps": -4.37849965062177,
+   "median_bps": -6.906273154808712,
+   "t_stat": -1.3662473031682725,
+   "p_one_sided": 0.9135742090823888,
+   "total_bps": -1361.7133913433704,
+   "max_drawdown_bps": 1736.672510492693,
+   "profit_factor": 0.7937469152036547,
+   "stress_mean_bps": -7.8608147631619625,
+   "all_hours_mean_bps": -4.001751688154701,
+   "random_mean_bps": -3.9147517797182587,
+   "p_random": 0.5714285714285714
+  },
+  "reliable": false
+ }
+}
