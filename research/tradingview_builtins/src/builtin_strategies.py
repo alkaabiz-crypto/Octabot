@@ -254,6 +254,14 @@ def strategy_orders(name, E, atr14):
         for i in range(5, n):
             orders[i].append(Order(1, "stop", c[i] + a[i] * 0.75))
             orders[i].append(Order(-1, "stop", c[i] - a[i] * 0.75))
+    elif name == "TECHNICAL_RATINGS":
+        import ta_lib
+        r = ta_lib.technical_rating(o, h, l, c, E.v)
+        for i in range(n):
+            if r[i] is not None and r[i] > 0.5:
+                orders[i].append(Order(1, "market"))
+            if r[i] is not None and r[i] < -0.5:
+                orders[i].append(Order(-1, "market"))
     elif name == "ADX_BREAKOUT_ROB_BOOKER":
         return orders          # needs the position; handled inside the simulator
     else:
@@ -264,7 +272,7 @@ def strategy_orders(name, E, atr14):
 NAMES = ("BAR_UP_DOWN", "BOLLINGER_BANDS", "CHANNEL_BREAKOUT", "CONSECUTIVE_UP_DOWN", "INSIDE_BAR", "KELTNER_CHANNELS",
          "MACD", "MOMENTUM", "MA_CROSSOVER", "OUTSIDE_BAR", "PARABOLIC_SAR", "PIVOT_EXTENSION", "PIVOT_REVERSAL",
          "PRICE_CHANNEL", "RSI", "STOCHASTIC_SLOW", "SUPERTREND", "TWO_MA_CROSSOVER", "VOLATILITY_EXPANSION_CLOSE",
-         "ADX_BREAKOUT_ROB_BOOKER")
+         "ADX_BREAKOUT_ROB_BOOKER", "TECHNICAL_RATINGS")
 
 
 def rob_booker_adx(E):
@@ -301,13 +309,15 @@ class BuiltinAsset(P.OriginalAsset):
         adx = rob_booker_adx(E) if name == "ADX_BREAKOUT_ROB_BOOKER" else None
         pos, entry, entry_t, entry_i = 0, None, None, None
         tp = sl = None
+        tr_mode = name == "TECHNICAL_RATINGS"
+        trail_on, best, atr_e = False, None, None
         box_u = box_l = None
         trades = []
 
-        def close_trade(px, t_exit):
+        def close_trade(px, t_exit, reason="reverse"):
             a = self.atr[entry_i]
             if a is not None and a > 0:
-                trades.append(oil.Trade(entry_i, entry_t, t_exit, pos, entry, 2 * a, (px - entry) * pos / (2 * a), "reverse", self.regime(entry_t)))
+                trades.append(oil.Trade(entry_i, entry_t, t_exit, pos, entry, 2 * a, (px - entry) * pos / (2 * a), reason, self.regime(entry_t)))
 
         for i in range(n - 1):
             act = list(orders[i])
@@ -328,13 +338,27 @@ class BuiltinAsset(P.OriginalAsset):
                 continue
             filled = False
             for j in bars:
+                # Technical ratings: strategy.exit(loss = 3 ATR, trail_points = 5 ATR, trail_offset = 2 ATR)
+                if tr_mode and pos != 0 and atr_e:
+                    fav = q["bh"][j] if pos > 0 else q["al"][j]
+                    adv = q["bl"][j] if pos > 0 else q["ah"][j]
+                    stop_px = entry - pos * 3 * atr_e
+                    if trail_on:
+                        stop_px = best - pos * 2 * atr_e if (best - pos * 2 * atr_e - stop_px) * pos > 0 else stop_px
+                    if (adv - stop_px) * pos <= 0:
+                        close_trade(stop_px, q["t"][j] + 900, "trail" if trail_on else "stop")
+                        pos, trail_on = 0, False
+                        continue
+                    best = fav if best is None or (fav - best) * pos > 0 else best
+                    if (best - entry) * pos >= 5 * atr_e:
+                        trail_on = True
                 # protective exits (ADX breakout only)
                 if pos != 0 and tp is not None:
                     hit_sl = (q["bl"][j] <= sl) if pos > 0 else (q["ah"][j] >= sl)
                     hit_tp = (q["bh"][j] >= tp) if pos > 0 else (q["al"][j] <= tp)
                     if hit_sl or hit_tp:
                         px = sl if hit_sl else tp
-                        close_trade(px, q["t"][j] + 900)
+                        close_trade(px, q["t"][j] + 900, "stop" if hit_sl else "target")
                         pos, tp, sl = 0, None, None
                         continue
                 if filled:
@@ -358,6 +382,7 @@ class BuiltinAsset(P.OriginalAsset):
                 if pos != 0:
                     close_trade(px, t_fill)                              # the reversing order closes at the same fill
                 pos, entry, entry_t, entry_i, filled = od.d, px, t_fill, i, True
+                atr_e, best, trail_on = self.atr[i], px, False
                 if adx is not None:
                     w = box_u - box_l
                     tp, sl = (entry + w, entry - 0.5 * w) if pos > 0 else (entry - w, entry + 0.5 * w)
