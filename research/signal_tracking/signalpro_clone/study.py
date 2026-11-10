@@ -197,8 +197,8 @@ def main():
                                                    p5=round(float(np.percentile(means, 5)), 4), p95=round(float(np.percentile(means, 95)), 4),
                                                    all_buy_mean=round(float(B.mean()), 4), all_sell_mean=round(float(S.mean()), 4))
     p = res["results"]["D2_M1_net"]; rb = res["results"]["RANDOM_M1_net"]
-    checks = dict(mean_positive=p["mean_R"] > 0, ci_above_zero=p["ci95_boot"][0] > 0, beats_random_p95=p["mean_R"] > rb["p95"])
-    res["primary_test"] = dict(test="D2 + M1, net of spread", **checks, PASS=all(checks.values()))
+    checks = dict(mean_positive=bool(p["mean_R"] > 0), ci_above_zero=bool(p["ci95_boot"][0] > 0), beats_random_p95=bool(p["mean_R"] > rb["p95"]))
+    res["primary_test"] = dict(test="D2 + M1, net of spread", **checks, PASS=bool(all(checks.values())))
     os.makedirs(os.path.join(HERE, "results"), exist_ok=True)
     json.dump(res, open(os.path.join(HERE, "results", "results.json"), "w"), indent=1, default=str)
     pd.DataFrame(trades).to_csv(os.path.join(HERE, "results", "D2_trades.csv"), index=False)
