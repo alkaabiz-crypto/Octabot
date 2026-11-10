@@ -26,7 +26,10 @@ def main():
     out = sys.argv[1]
     os.makedirs(out, exist_ok=True)
     mpath = os.path.join(out, "manifest.json")
-    manifest = json.load(open(mpath)) if os.path.exists(mpath) else {}
+    manifest = {}
+    if os.path.exists(mpath):
+        with open(mpath) as f:
+            manifest = json.load(f)
     for url in sys.argv[2:]:
         try:
             page = get(url)
