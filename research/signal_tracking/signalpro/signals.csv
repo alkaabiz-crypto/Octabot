@@ -1,0 +1,2 @@
+signal_id,received_utc,posted_utc_estimated,posted_basis,source,instrument,side,timeframe,entry,stop_loss,tp1,tp2,tp3,app_rr,app_confidence,app_risk,app_status_at_screenshot,app_note,screenshot,screenshot_sha256
+SP-001,2026-11-10 10:21,2026-11-10 10:04,"screenshot 14:20 UAE (10:20 UTC) shows '16m ago'",SignalPro app (free signal; screenshot sent by user),XAUUSD,SELL,H1,4094,4107,4088,4080,4060,1:2.6,75%,Medium,Trade Active,AI-Generated Signal,screenshots/2026-11-10_XAUUSD_SELL_1.png,92476f3780d591d7802dfd953bd6fda09ce5e3471b80ddbaa5a42d8f908ff30c
