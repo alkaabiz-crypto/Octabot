@@ -5,6 +5,7 @@ Writes OUT_DIR/<symbol>_<tf>.json as [[open_time_s, open, high, low, close, volu
 in the same layout as the frozen BTC research data, and prints counts and gaps. Nothing is filled or synthesised.
 """
 import calendar
+import itertools
 import json
 import os
 import ssl
@@ -45,7 +46,7 @@ def main():
         data = [[r[0] // 1000, float(r[1]), float(r[2]), float(r[3]), float(r[4]), float(r[5])] for r in rows]
         with open(os.path.join(out, f"{symbol.lower()}_{tf}.json"), "w") as f:
             json.dump(data, f)
-        gaps = sum(1 for a, b in zip(data, data[1:]) if b[0] - a[0] != STEP[tf])
+        gaps = sum(1 for a, b in itertools.pairwise(data) if b[0] - a[0] != STEP[tf])
         print(symbol, tf, len(data), time.strftime("%Y-%m-%d", time.gmtime(data[0][0])), "->",
               time.strftime("%Y-%m-%d %H:%M", time.gmtime(data[-1][0])), "gaps", gaps, flush=True)
 
