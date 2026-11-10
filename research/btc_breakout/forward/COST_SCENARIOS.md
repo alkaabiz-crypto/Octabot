@@ -1,6 +1,6 @@
 # Cost scenarios - forward test trades 1-40 (BINANCE PROXY, not Exness)
 
-Generated 2026-11-09 19:16 UTC. Evaluation trades completed: **0 / 40**. Post-evaluation trades (excluded): 0.
+Generated 2026-11-10 01:11 UTC. Evaluation trades completed: **0 / 40**. Post-evaluation trades (excluded): 0.
 
 **Verdict: NONE - fewer than 40 trades.**
 
