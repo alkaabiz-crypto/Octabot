@@ -48,3 +48,19 @@ Everything below is research and paper testing with fake money. Nothing touched 
 2. **Watch the gold momentum paper test.** It's the strongest new rule; judge it after 20 trades.
 3. **Stop the Exness oil DCA bot**, or set a hard stop. No oil rule held up in any test.
 4. **Ignore signal apps.** There's still no independent evidence they work.
+
+## Update 10:05 UAE
+
+- **Daily web research (08:43 UAE):** nothing changes the recommendations. Two new 2026 studies found **no edge after costs** for fast bitcoin signals:
+  - hourly machine-learning forecasts lost once 10 basis-point costs were included;
+  - BTC/ETH momentum rules were not significant after the model-search correction.
+  This supports keeping only slow trend rules, on paper.
+- **Gold Asian-hours robustness test** (rules committed before running): entering later still works, so the result is **not** caused by gold's daily-break reopening price.
+
+  | Entry | Result | At double costs |
+  |---|---|---|
+  | 22:05 UTC | **+23.6%** | +20.3% |
+  | 23:00 UTC | +21.2% | +18.1% |
+  | Original, 22:00 UTC | +20.0% | +16.6% |
+
+  All runs had about 472 trades over Jan 2025 to Oct 2026, and they never span Exness's swap time. This is the second gold rule to pass. The 12:45 check-in will decide whether it gets its own paper test.

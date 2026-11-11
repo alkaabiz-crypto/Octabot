@@ -1,0 +1,51 @@
+{
+ "A_22:05": {
+  "x1": {
+   "net": 0.2357,
+   "max_dd": -0.1211,
+   "trades": 472,
+   "win_rate": 0.54,
+   "mean_bp": 4.88
+  },
+  "x2": {
+   "net": 0.2033,
+   "max_dd": -0.127,
+   "trades": 472,
+   "win_rate": 0.534,
+   "mean_bp": 4.32
+  }
+ },
+ "B_23:00": {
+  "x1": {
+   "net": 0.2116,
+   "max_dd": -0.1407,
+   "trades": 473,
+   "win_rate": 0.524,
+   "mean_bp": 4.45
+  },
+  "x2": {
+   "net": 0.1812,
+   "max_dd": -0.1449,
+   "trades": 473,
+   "win_rate": 0.518,
+   "mean_bp": 3.91
+  }
+ },
+ "orig_22:00": {
+  "x1": {
+   "net": 0.2,
+   "max_dd": -0.1429,
+   "trades": 472,
+   "win_rate": 0.538,
+   "mean_bp": 4.26
+  },
+  "x2": {
+   "net": 0.1662,
+   "max_dd": -0.1496,
+   "trades": 472,
+   "win_rate": 0.53,
+   "mean_bp": 3.66
+  }
+ },
+ "PASS_A": true
+}
