@@ -65,10 +65,9 @@ With the target at half the stop distance, the median signal won about as often 
 
 | Market | Median win rate: signals | Median win rate: random entries |
 |---|---|---|
+| US oil | 60.5% | 59.7% |
 | Gold | 63.4% | 64.5% |
 | BTC | 61.4% | 62.3% |
-
-US oil is in [`reports/RESULTS.md`](reports/RESULTS.md).
 
 Some variants exceed 70% over hundreds of trades. None passes the rules, because random entries with the same exit
 win almost as often.
