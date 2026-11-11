@@ -10,3 +10,10 @@
 | 2025-onward trend study reproduction (`from_2025/run.py`) | Full rerun | 0 of all lump/DCA/hour entries differ. **REPRODUCED** |
 
 No bugs were found. Nothing was changed in any frozen paper test.
+
+## Gold Asian-session swap check (2026-11-11 03:30 UTC)
+
+- **Entries:** all 472 entries fill at the first tick **at or after 22:00 UTC**: minimum 0.5, median 2.0, maximum 71.6 minutes later. That is after gold's daily break, 20:58–22:02 server time.
+- **Exits:** every exit is at 07:00 UTC.
+- **Swap time:** Exness books swap at the 21:00 UTC (summer) or 22:00 UTC (winter) rollover, so these positions are never open at that moment.
+- **Conclusion:** the "swap not deducted" caveat does **not** apply to G_ASIA_long. It does apply to the multi-day G_MOM50_ATR rule.
