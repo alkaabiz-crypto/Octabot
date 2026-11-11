@@ -1,9 +1,9 @@
-# SignalPro free-signal tracking - updated 2026-11-11 06:27 UTC
+# SignalPro free-signal tracking - updated 2026-11-11 06:37 UTC
 
 Paper evaluation only. Feeds: Hyperliquid xyz:GOLD / xyz:CL 1m (NOT the app's feed, NOT Exness). R values are gross (no costs).
 PROSPECTIVE = captured before any outcome; RETROSPECTIVE = outcome already visible when captured (selection-bias risk, reported separately).
 
-- Signals logged: 26 (prospective 2, retrospective 24)
+- Signals logged: 31 (prospective 3, retrospective 28)
 - No conclusion about the app is possible from a handful of signals.
 
 | Signal | Capture | Instr | Side | Method@window | Res | Entry | Stop | TP1 / TP2 / TP3 | Status | TP hits | Exit | R full | R thirds | Status (BE) | R thirds (BE) | Timing | Feed-entry gap |
@@ -82,3 +82,20 @@ PROSPECTIVE = captured before any outcome; RETROSPECTIVE = outcome already visib
 | SP-026 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@early | 5m | 4061.0 | 4071.0 | 4056.000 / 4051.000 / 4020.000 | STOP |  | 2026-11-05 20:55 | -1.0 | -1.0 | STOP | -1.0 |  | 42.1 GAP>STOP |
 | SP-026 | RETROSPECTIVE | XAUUSD | SELL | A_relative@late | 1m | 4066.8 | 4076.8 | 4061.800 / 4056.800 / 4025.800 | STOP |  | 2026-11-06 22:17 | -1.0 | -1.0 | STOP | -1.0 | TIME_SENSITIVE | 5.8  |
 | SP-026 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@late | 1m | 4061.0 | 4071.0 | 4056.000 / 4051.000 / 4020.000 | STOP |  | 2026-11-06 21:53 | -1.0 | -1.0 | STOP | -1.0 |  | 5.8  |
+| SP-027 | RETROSPECTIVE | XAUUSD | SELL | A_relative@early | 1m | 4024.8 | 4033.8 | 4019.800 / 4014.800 / 3998.800 | TP3 | 2026-11-10 16:48, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.889 | 1.519 | BE_STOP | 0.185 |  | 3.8  |
+| SP-027 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@early | 1m | 4021.0 | 4030.0 | 4016.000 / 4011.000 / 3995.000 | TP3 | 2026-11-10 17:37, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.889 | 1.519 | TP3 | 1.519 |  | 3.8  |
+| SP-027 | RETROSPECTIVE | XAUUSD | SELL | A_relative@late | 1m | 4022.1 | 4031.1 | 4017.100 / 4012.100 / 3996.100 | TP3 | 2026-11-10 17:37, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.889 | 1.519 | TP3 | 1.519 |  | 1.1  |
+| SP-027 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@late | 1m | 4021.0 | 4030.0 | 4016.000 / 4011.000 / 3995.000 | TP3 | 2026-11-10 17:37, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.889 | 1.519 | TP3 | 1.519 |  | 1.1  |
+| SP-028 | RETROSPECTIVE | XAUUSD | SELL | A_relative@early | 1m | 4051.5 | 4061.5 | 4046.500 / 4041.500 / 4026.500 | TP3 | 2026-11-10 15:45, 2026-11-10 15:50, 2026-11-10 16:23 | 2026-11-10 16:23 | 2.5 | 1.333 | TP3 | 1.333 |  | 26.5 GAP>STOP |
+| SP-028 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@early | 1m | 4025.0 | 4035.0 | 4020.000 / 4015.000 / 4000.000 | STOP |  | 2026-11-10 15:36 | -1.0 | -1.0 | STOP | -1.0 | TIME_SENSITIVE | 26.5 GAP>STOP |
+| SP-028 | RETROSPECTIVE | XAUUSD | SELL | A_relative@late | 1m | 4023.2 | 4033.2 | 4018.200 / 4013.200 / 3998.200 | TP3 | 2026-11-10 16:48, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.5 | 1.333 | BE_STOP | 0.167 |  | -1.8  |
+| SP-028 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@late | 1m | 4025.0 | 4035.0 | 4020.000 / 4015.000 / 4000.000 | TP3 | 2026-11-10 16:48, 2026-11-10 17:37, 2026-11-10 17:37 | 2026-11-10 17:37 | 2.5 | 1.333 | BE_STOP | 0.167 | TIME_SENSITIVE | -1.8  |
+| SP-029 | RETROSPECTIVE | XAUUSD | BUY | - |  |  |  |  | ORIGINAL_STOP_UNKNOWN |  |  |  |  |  |  |  |   |
+| SP-030 | RETROSPECTIVE | XAUUSD | BUY | A_relative@early | 1m | 4044.9 | 4039.9 | 4049.900 / 4054.900 / 4072.900 | OPEN | 2026-11-11 05:04, 2026-11-11 05:15 |  |  |  | OPEN |  | TIME_SENSITIVE | 2.9  |
+| SP-030 | RETROSPECTIVE | XAUUSD | BUY | B_absolute@early | 1m | 4042.0 | 4037.0 | 4047.000 / 4052.000 / 4070.000 | WAITING_FOR_TRIGGER |  |  |  |  |  |  |  | 2.9  |
+| SP-030 | RETROSPECTIVE | XAUUSD | BUY | A_relative@late | 1m | 4061.2 | 4056.2 | 4066.200 / 4071.200 / 4089.200 | STOP |  | 2026-11-11 06:03 | -1.0 | -1.0 | STOP | -1.0 | TIME_SENSITIVE | 19.2 GAP>STOP |
+| SP-030 | RETROSPECTIVE | XAUUSD | BUY | B_absolute@late | 1m | 4042.0 | 4037.0 | 4047.000 / 4052.000 / 4070.000 | WAITING_FOR_TRIGGER |  |  |  |  |  |  |  | 19.2 GAP>STOP |
+| SP-031 | PROSPECTIVE | XAUUSD | BUY | A_relative@early | 1m | 4044.9 | 4031.9 | 4050.900 / 4057.900 / 4072.900 | OPEN | 2026-11-11 05:05, 2026-11-11 05:24 |  |  |  | OPEN |  |  | -7.1  |
+| SP-031 | PROSPECTIVE | XAUUSD | BUY | B_absolute@early | 1m | 4052.0 | 4039.0 | 4058.000 / 4065.000 / 4080.000 | OPEN | 2026-11-11 05:27, 2026-11-11 05:33 |  |  |  | OPEN |  | TIME_SENSITIVE | -7.1  |
+| SP-031 | PROSPECTIVE | XAUUSD | BUY | A_relative@late | 1m | 4061.2 | 4048.2 | 4067.200 / 4074.200 / 4089.200 | OPEN |  |  |  |  | OPEN |  |  | 9.2  |
+| SP-031 | PROSPECTIVE | XAUUSD | BUY | B_absolute@late | 1m | 4052.0 | 4039.0 | 4058.000 / 4065.000 / 4080.000 | WAITING_FOR_TRIGGER |  |  |  |  |  |  | TIME_SENSITIVE | 9.2  |
