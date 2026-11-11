@@ -3,7 +3,7 @@
 **Venue: BINANCE PROXY (Binance BTCUSDT). These are NOT Exness BTCUSDm results.** Paper only - no live orders.
 
 - Forward start: 2026-11-09 07:00 UTC (after all previously examined data). Parameters frozen, fingerprint `e311cd66ea38034f...`
-- Last closed 1H candle used: 2026-11-11 13:00 UTC | forward days: 2.2 | updated 2026-11-11 13:10 UTC
+- Last closed 1H candle used: 2026-11-11 14:00 UTC | forward days: 2.3 | updated 2026-11-11 14:09 UTC
 - Completed trades: **0 / 40** | signals: 0 (accepted 0, rejected 0)
 - Paper equity (mid cost): $2722.94 (0.0%), max drawdown 0.0%
 - Open position: none
