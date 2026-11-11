@@ -28,7 +28,7 @@ import study as S  # noqa: E402
 @dataclasses.dataclass
 class Order:
     d: int            # +1 buy, -1 sell
-    kind: str         # "market" or "stop"
+    kind: str         # "market", "stop", or "exit" (close any open position at market; d is ignored)
     price: float = 0.0
 
 
@@ -262,12 +262,92 @@ def strategy_orders(name, E, atr14):
                 orders[i].append(Order(1, "market"))
             if r[i] is not None and r[i] < -0.5:
                 orders[i].append(Order(-1, "market"))
+    elif name.startswith("CA_"):
+        chartart_orders(name, E, orders)
     elif name == "ADX_BREAKOUT_ROB_BOOKER":
         return orders          # needs the position; handled inside the simulator
     else:
         raise ValueError(name)
     return orders
 
+
+def chartart_orders(name, E, orders):
+    """ChartArt's most-liked double strategies (PUB;2187, 2004, 2811, 2304, 1897), replayed from source at defaults."""
+    import ta_lib as T
+    o, h, l, c = E.o, E.h, E.l, E.c
+    n = len(c)
+    if name == "CA_BOLLINGER_RSI":
+        vrsi = S.rsi(c, 6)
+        basis, dev = T.sma(c, 200), T.stdev(c, 200)
+        up = [None if a is None or b is None else a + 2 * b for a, b in zip(basis, dev)]
+        lo = [None if a is None or b is None else a - 2 * b for a, b in zip(basis, dev)]
+        fifty = [50.0] * n
+        for i in range(1, n):
+            if crossover(vrsi, fifty, i) and crossover(c, lo, i):
+                orders[i].append(Order(1, "stop", lo[i]))
+            if crossunder(vrsi, fifty, i) and crossunder(c, up, i):
+                orders[i].append(Order(-1, "stop", up[i]))
+    elif name == "CA_MACD_SMA200":
+        fast, slow, vslow = T.sma(c, 12), T.sma(c, 26), T.sma(c, 200)
+        macd = T.sub(fast, slow)
+        hist = T.sub(macd, T.sma(macd, 9))
+        zero = [0.0] * n
+        pend_l = pend_s = None
+        for i in range(26, n):
+            if None in (slow[i], vslow[i], hist[i], hist[i - 1]):
+                continue
+            if slow[i] < vslow[i]:
+                pend_l = None
+            if crossover(hist, zero, i) and macd[i] > 0 and fast[i] > slow[i] and vslow[i] is not None and c[i - 26] > vslow[i]:
+                pend_l = l[i]
+            if slow[i] > vslow[i]:
+                pend_s = None
+            if crossunder(hist, zero, i) and macd[i] < 0 and fast[i] < slow[i] and c[i - 26] < vslow[i]:
+                pend_s = h[i]
+            # a buy stop at the low (below price) fills at the next open, then the order is consumed
+            if pend_l is not None:
+                orders[i].append(Order(1, "stop", pend_l))
+                pend_l = None
+            if pend_s is not None:
+                orders[i].append(Order(-1, "stop", pend_s))
+                pend_s = None
+    elif name == "CA_GOLDEN_CROSS_SMA200":
+        f, sl_ = T.sma(c, 50), T.sma(c, 200)
+        for i in range(1, n):
+            if crossover(f, sl_, i):
+                orders[i].append(Order(1, "market"))
+            if crossunder(f, sl_, i):
+                orders[i].append(Order(0, "exit"))
+    elif name == "CA_MACD_STOCHASTIC":
+        macd = T.sub(T.ema(c, 12), T.ema(c, 26))
+        delta = T.sub(macd, T.ema(macd, 9))
+        k = T.sma(T.stoch(c, h, l, 14), 3)
+        d = T.sma(k, 2)
+        zero = [0.0] * n
+        for i in range(1, n):
+            if k[i] is None or d[i] is None:
+                continue
+            if crossover(k, d, i) and k[i] < 29 and crossover(delta, zero, i):
+                orders[i].append(Order(1, "market"))
+            if crossunder(k, d, i) and k[i] > 71 and crossunder(delta, zero, i):
+                orders[i].append(Order(-1, "market"))
+    elif name == "CA_STOCHASTIC_RSI":
+        k = T.sma(T.stoch(c, h, l, 14), 3)
+        d = T.sma(k, 3)
+        vrsi = S.rsi(c, 14)
+        lo30, hi70 = [30.0] * n, [70.0] * n
+        for i in range(1, n):
+            if k[i] is None or d[i] is None:
+                continue
+            if crossover(k, d, i) and k[i] < 20 and crossover(vrsi, lo30, i):
+                orders[i].append(Order(1, "market"))
+            if crossunder(k, d, i) and k[i] > 80 and crossunder(vrsi, hi70, i):
+                orders[i].append(Order(-1, "market"))
+    else:
+        raise ValueError(name)
+
+
+CHARTART = ("CA_BOLLINGER_RSI", "CA_MACD_SMA200", "CA_GOLDEN_CROSS_SMA200", "CA_MACD_STOCHASTIC", "CA_STOCHASTIC_RSI")
 
 NAMES = ("BAR_UP_DOWN", "BOLLINGER_BANDS", "CHANNEL_BREAKOUT", "CONSECUTIVE_UP_DOWN", "INSIDE_BAR", "KELTNER_CHANNELS",
          "MACD", "MOMENTUM", "MA_CROSSOVER", "OUTSIDE_BAR", "PARABOLIC_SAR", "PIVOT_EXTENSION", "PIVOT_REVERSAL",
@@ -363,9 +443,13 @@ class BuiltinAsset(P.OriginalAsset):
                         continue
                 if filled:
                     continue
+                if pos != 0 and j == bars[0] and any(od.kind == "exit" for od in act):
+                    close_trade(q["bo"][j] if pos > 0 else q["ao"][j], q["t"][j], "exit")
+                    pos, filled = 0, True
+                    continue
                 cands = []
                 for od in act:
-                    if od.d == pos:
+                    if od.kind == "exit" or od.d == pos:
                         continue
                     if od.kind == "market" and j == bars[0]:
                         cands.append((0.0, od, q["ao"][j] if od.d > 0 else q["bo"][j]))
