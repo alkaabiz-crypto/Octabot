@@ -1,0 +1,24 @@
+{
+ "USOILm": {},
+ "XAUUSDm": {
+  "D|BBTREND_20_50+F_ADX14_GT20|BUY|SYM": {
+   "trades": 354,
+   "win_rate_pct": 49.717514124293785,
+   "profit_factor": 0.9345842339773369,
+   "expectancy_r": -0.031104423996877396,
+   "t_stat": -0.6147227206271793,
+   "p_one_sided": 0.730433059162263,
+   "total_r": -11.010966094894597,
+   "max_drawdown_r": 24.83336833845985,
+   "max_drawdown_pct": 11.84427049377721,
+   "top5_share_of_total_pct": null,
+   "expectancy_without_top5_r": -0.04679140300545014,
+   "expectancy_stress_r": -0.11525610503776385,
+   "random_win_rate_pct": 48.739794107206244,
+   "random_mean_r": -0.05215393005818351,
+   "p_random": 0.3156843156843157,
+   "validated": false
+  }
+ },
+ "BTCUSDm": {}
+}
