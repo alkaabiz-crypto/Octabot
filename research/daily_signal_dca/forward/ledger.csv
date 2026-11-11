@@ -1,0 +1,5 @@
+close_date,exec_utc,symbol,account,signal_share,above_sma20,above_sma50,above_sma100,above_sma200,exec_price_open,contribution_usd,trade_usd,fee_usd,coin_after,usd_after,value_after,processed_utc
+2026-11-10,2026-11-11 00:00:00+00:00,BTCUSDT,LUMP,0.25,False,False,False,True,73796.06,0.0,680.74,0.6807,0.00922454,2041.52,2722.26,2026-11-11 01:20
+2026-11-10,2026-11-11 00:00:00+00:00,BTCUSDT,DCA,0.25,False,False,False,True,73796.06,10.0,2.5,0.0025,3.388e-05,7.5,10.0,2026-11-11 01:20
+2026-11-10,2026-11-11 00:00:00+00:00,ETHUSDT,LUMP,0.0,False,False,False,False,2053.22,0.0,0.0,0.0,0.0,2722.94,2722.94,2026-11-11 01:20
+2026-11-10,2026-11-11 00:00:00+00:00,ETHUSDT,DCA,0.0,False,False,False,False,2053.22,10.0,0.0,0.0,0.0,10.0,10.0,2026-11-11 01:20
