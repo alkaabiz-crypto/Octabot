@@ -1,4 +1,4 @@
-# Gold MOM50 + ATR exits - forward PAPER test (2026-11-11 19:10 UTC)
+# Gold MOM50 + ATR exits - forward PAPER test (2026-11-11 20:10 UTC)
 
 Hyperliquid xyz:GOLD daily (weekdays), fake money 2,722.94 USD, long/flat, no leverage, 0.20 USD/oz per side, swap not deducted. Not Exness prices.
 
