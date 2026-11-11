@@ -1,4 +1,4 @@
-# SignalPro free-signal tracking - updated 2026-11-11 15:12 UTC
+# SignalPro free-signal tracking - updated 2026-11-11 16:11 UTC
 
 Paper evaluation only. Feeds: Hyperliquid xyz:GOLD / xyz:CL 1m (NOT the app's feed, NOT Exness). R values are gross (no costs).
 PROSPECTIVE = captured before any outcome; RETROSPECTIVE = outcome already visible when captured (selection-bias risk, reported separately).
@@ -17,9 +17,9 @@ PROSPECTIVE = captured before any outcome; RETROSPECTIVE = outcome already visib
 | SP-002 | RETROSPECTIVE | XAUUSD | SELL | A_relative@late | 1m | 4096.4 | 4106.4 | 4091.400 / 4086.400 / 4063.400 | TP3 | 2026-11-10 09:31, 2026-11-10 09:38, 2026-11-10 13:30 | 2026-11-10 13:30 | 3.3 | 1.6 | TP3 | 1.6 |  | -6.6  |
 | SP-002 | RETROSPECTIVE | XAUUSD | SELL | B_absolute@late | 1m | 4103.0 | 4113.0 | 4098.000 / 4093.000 / 4070.000 | WAITING_FOR_TRIGGER |  |  |  |  |  |  | TIME_SENSITIVE | -6.6  |
 | SP-003 | RETROSPECTIVE | USOIL | BUY | A_relative@early | 1m | 84.625 | 83.725 | 85.125 / 85.625 / 87.725 | STOP |  | 2026-11-10 08:50 | -1.0 | -1.0 | STOP | -1.0 |  | 0.725  |
-| SP-003 | RETROSPECTIVE | USOIL | BUY | B_absolute@early | 1m | 83.9 | 83.0 | 84.400 / 84.900 / 87.000 | OPEN | 2026-11-10 09:00, 2026-11-10 10:50 |  |  |  | BE_STOP | 0.185 |  | 0.725  |
+| SP-003 | RETROSPECTIVE | USOIL | BUY | B_absolute@early | 1m | 83.9 | 83.0 | 84.400 / 84.900 / 87.000 | TP3 | 2026-11-10 09:00, 2026-11-10 10:50, 2026-11-11 15:19 | 2026-11-11 15:19 | 3.444 | 1.704 | BE_STOP | 0.185 |  | 0.725  |
 | SP-003 | RETROSPECTIVE | USOIL | BUY | A_relative@late | 1m | 84.405 | 83.505 | 84.905 / 85.405 / 87.505 | STOP |  | 2026-11-10 09:47 | -1.0 | -1.0 | STOP | -1.0 |  | 0.505  |
-| SP-003 | RETROSPECTIVE | USOIL | BUY | B_absolute@late | 1m | 83.9 | 83.0 | 84.400 / 84.900 / 87.000 | OPEN | 2026-11-10 10:21, 2026-11-10 10:50 |  |  |  | BE_STOP | 0.556 |  | 0.505  |
+| SP-003 | RETROSPECTIVE | USOIL | BUY | B_absolute@late | 1m | 83.9 | 83.0 | 84.400 / 84.900 / 87.000 | TP3 | 2026-11-10 10:21, 2026-11-10 10:50, 2026-11-11 15:19 | 2026-11-11 15:19 | 3.444 | 1.704 | BE_STOP | 0.556 |  | 0.505  |
 | SP-004 | PROSPECTIVE | DXY | BUY | - |  |  |  |  | ORIGINAL_STOP_UNKNOWN |  |  |  |  |  |  |  |   |
 | SP-005 | RETROSPECTIVE | XAUUSD | BUY | A_relative@early | 1m | 4107.5 | 4098.5 | 4112.500 / 4117.500 / 4138.500 | TP3 | 2026-11-09 19:28, 2026-11-09 19:36, 2026-11-09 19:42 | 2026-11-09 19:42 | 3.444 | 1.704 | TP3 | 1.704 | TIME_SENSITIVE | -21.5 GAP>STOP |
 | SP-005 | RETROSPECTIVE | XAUUSD | BUY | B_absolute@early | 1m | 4129.0 | 4120.0 | 4134.000 / 4139.000 / 4160.000 | STOP |  | 2026-11-09 19:26 | -1.0 | -1.0 | STOP | -1.0 | TIME_SENSITIVE | -21.5 GAP>STOP |
