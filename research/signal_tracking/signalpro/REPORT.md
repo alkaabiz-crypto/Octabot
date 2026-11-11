@@ -1,4 +1,4 @@
-# SignalPro free-signal tracking - updated 2026-11-11 06:37 UTC
+# SignalPro free-signal tracking - updated 2026-11-11 07:10 UTC
 
 Paper evaluation only. Feeds: Hyperliquid xyz:GOLD / xyz:CL 1m (NOT the app's feed, NOT Exness). R values are gross (no costs).
 PROSPECTIVE = captured before any outcome; RETROSPECTIVE = outcome already visible when captured (selection-bias risk, reported separately).
