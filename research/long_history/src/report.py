@@ -54,7 +54,7 @@ def main():
 
     def row(m, k, r):
         yrs = " ".join(f"{y[2:]}:{v[1]:+.2f}" for y, v in r.get("years", {}).items() if v[0] >= 10)
-        return (f"| {m} | {k} | {r['trades']} | {r.get('win_rate_pct', 0):.1f}% | {r.get('random_win_rate_pct', float('nan')):.1f}% | "
+        return (f"| {m} | {k} | {r['trades']} | {r.get('win_rate_pct', 0):.1f}% | {(format(r['random_win_rate_pct'], '.1f') + '%') if 'random_win_rate_pct' in r else '—'} | "
                 f"{r.get('expectancy_r', 0):+.3f}R | {r.get('expectancy_stress_r', 0):+.3f}R | {r.get('random_mean_r', 0):+.3f}R | "
                 f"{r.get('z', 0):+.2f} | {r.get('p_z', 1):.2g} | {'yes' if r['fdr_significant'] else 'no'} | {'yes' if r['consistent'] else 'no'} | {yrs} |")
     head = ["| Market | Variant | Trades | Win | Random win | E | E stress | Random E | z | p | FDR | Consistent | By year |",
