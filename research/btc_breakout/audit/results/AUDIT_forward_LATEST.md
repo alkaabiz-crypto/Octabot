@@ -1,8 +1,8 @@
-# Independent audit - forward - 2026-11-10 01:11 UTC
+# Independent audit - forward - 2026-11-11 01:20 UTC
 
 BINANCE PROXY (not Exness). Ledgers were not modified.
 
-- Forward dir: `research/btc_breakout/forward` | last processed 1H close: 2026-11-10 01:00
+- Forward dir: `research/btc_breakout/forward` | last processed 1H close: 2026-11-11 01:00
 - Trades recorded 0 vs independent 0 | signals recorded 0 vs independent 0
 - Findings: {'CRITICAL': 0, 'DISCREPANCY': 0, 'MINOR': 0, 'FINDING': 1, 'WARNING': 2, 'INFO': 2}
 
