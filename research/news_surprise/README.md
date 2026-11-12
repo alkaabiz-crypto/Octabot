@@ -45,7 +45,7 @@ Trading in the textbook direction, on the actual number, at real Exness bid/ask,
 
 R is 2 × ATR14 (about 1 hour of normal movement). There are 21–22 releases per market. For CPI, every entry from 5 seconds on lost money in all four markets.
 
-So the information is valuable only within **about 1 second**. That would mean having the number and an order filled before Exness's price updates. Professional firms do this with direct data feeds and co-located servers. A retail trader reading the headline is several seconds too late, and brokers widen spreads, requote or reject orders at release time. Exness's terms also forbid trading that exploits price delays.
+So the information is valuable only within **about 1 second**. Most of that delay is the market itself, not Exness: an audit compared Exness BTC with Binance's millisecond trade stamps around five 2025 releases. Binance also took about 1.2 seconds to move 0.1% after 08:30:00, and Exness trailed Binance by a further 0.15–1.25 seconds (`research/audit/reports/feed_lag.json`). To profit you would have to read the number and be filled before the whole market reacts. Professional firms do this with direct data feeds and co-located servers. A retail trader reading the headline is several seconds too late, and brokers widen spreads, requote or reject orders at release time. Exness's terms also forbid trading that exploits price delays.
 
 Gold shows a small leftover drift for a few minutes after the jobs report: +0.16R to +0.30R for entries between 5 seconds and 3 minutes, held 15 minutes. That is 21 releases inside a test of many delays, so it was treated as a lead, not a signal. It failed its out-of-sample check (section 4).
 
@@ -86,7 +86,7 @@ R here is 2 × the price range of the hour before the release. Both predictions 
 
 In every year, the Exness quote had barely moved 1 second after 08:30:00, had done 15–36% of its 15-minute move by 2 seconds, and about 60% by 5 seconds.
 
-**What this means.** The only edge from knowing the news is the first second or so, before the Exness quote catches up with the real market. That is latency arbitrage. It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
+**What this means.** The only edge from knowing the news is the first second or so, while the market is still reacting (Exness follows a little behind). Trading inside that window is a speed race (latency arbitrage). It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
 
 ## What the daily briefing now does
 

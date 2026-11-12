@@ -1,0 +1,42 @@
+[
+ {
+  "release": "CPI",
+  "utc": "2025-06-11 12:30",
+  "binance_first_0.1pct_move_s": 1.184999942779541,
+  "exness_first_0.1pct_move_s": 1.7200000286102295,
+  "best_lag_exness_behind_binance_s": 0.15000000000000102,
+  "corr": 0.20449797031178193
+ },
+ {
+  "release": "CPI",
+  "utc": "2025-07-15 12:30",
+  "binance_first_0.1pct_move_s": 1.2320001125335693,
+  "exness_first_0.1pct_move_s": 1.808000087738037,
+  "best_lag_exness_behind_binance_s": 0.15000000000000102,
+  "corr": 0.22510803348550026
+ },
+ {
+  "release": "NFP",
+  "utc": "2025-07-03 12:30",
+  "binance_first_0.1pct_move_s": 1.2690000534057617,
+  "exness_first_0.1pct_move_s": 2.053999900817871,
+  "best_lag_exness_behind_binance_s": 1.2500000000000018,
+  "corr": 0.2556178940806669
+ },
+ {
+  "release": "NFP",
+  "utc": "2025-09-05 12:30",
+  "binance_first_0.1pct_move_s": 3.1700000762939453,
+  "exness_first_0.1pct_move_s": 3.052999973297119,
+  "best_lag_exness_behind_binance_s": 0.6000000000000014,
+  "corr": 0.2499776033152497
+ },
+ {
+  "release": "CPI",
+  "utc": "2025-09-11 12:30",
+  "binance_first_0.1pct_move_s": 1.4170000553131104,
+  "exness_first_0.1pct_move_s": 1.4820001125335693,
+  "best_lag_exness_behind_binance_s": 0.8000000000000016,
+  "corr": 0.2195896644047052
+ }
+]
