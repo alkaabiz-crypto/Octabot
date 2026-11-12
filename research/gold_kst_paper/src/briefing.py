@@ -1,6 +1,7 @@
 """Daily gold news briefing: high-impact events in the next 48 h (weekly calendar feed), gold's measured move size
 after each event type (research/gold_kst_news/reports/news_direction.json) and the paper-test state.
 usage: python src/briefing.py   ->  ledger/BRIEFING.md"""
+import csv
 import datetime
 import json
 import os
@@ -26,6 +27,35 @@ def kind_of(title):
     return None
 
 
+CONSENSUS = os.path.join(RESEARCH, "news_surprise", "data", "consensus_log.csv")
+FIELDS = ["event_utc", "country", "title", "forecast", "previous", "first_seen_utc", "last_seen_utc"]
+
+
+def log_consensus(cal, now):
+    """Append-only log of forecasts for high-impact USD events (a real consensus history for later tests).
+    A forecast that changes between runs is kept as a new row."""
+    rows = list(csv.DictReader(open(CONSENSUS))) if os.path.exists(CONSENSUS) else []
+    last = {(r["event_utc"], r["title"]): r for r in rows}
+    for e in cal:
+        if e.get("country") != "USD" or e.get("impact") != "High":
+            continue
+        t = datetime.datetime.fromisoformat(e["date"]).astimezone(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M")
+        key = (t, e["title"])
+        r = last.get(key)
+        if r and r["forecast"] == (e.get("forecast") or "") and r["previous"] == (e.get("previous") or ""):
+            r["last_seen_utc"] = f"{now:%Y-%m-%d %H:%M}"
+            continue
+        new = {"event_utc": t, "country": "USD", "title": e["title"], "forecast": e.get("forecast") or "",
+               "previous": e.get("previous") or "", "first_seen_utc": f"{now:%Y-%m-%d %H:%M}", "last_seen_utc": f"{now:%Y-%m-%d %H:%M}"}
+        rows.append(new)
+        last[key] = new
+    os.makedirs(os.path.dirname(CONSENSUS), exist_ok=True)
+    with open(CONSENSUS, "w", newline="") as f:
+        w = csv.DictWriter(f, FIELDS)
+        w.writeheader()
+        w.writerows(rows)
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     cal = json.loads(subprocess.run(["curl", "-sSf", "-m", "30", FEED], check=True, capture_output=True, text=True).stdout)
@@ -45,6 +75,7 @@ def main():
         if now - datetime.timedelta(hours=1) <= t <= now + datetime.timedelta(hours=HORIZON_H):
             upcoming.append((t, e))
     upcoming.sort(key=lambda x: x[0])
+    log_consensus(cal, now)
     state_p = os.path.join(ROOT, "ledger", "state.json")
     state = json.load(open(state_p)) if os.path.exists(state_p) else {}
     L = ["# Gold daily briefing", "", f"Generated {now:%Y-%m-%d %H:%M} UTC. Events: weekly economic calendar (high impact only).", "",
