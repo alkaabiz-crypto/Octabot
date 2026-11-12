@@ -62,6 +62,32 @@ A free source of historical consensus forecasts turned up: a public Hugging Face
 - **The 4-hour strategy: 0 of 56 confirmed** with the real surprise as well.
 - **The one lead was dropped.** Gold kept drifting in the surprise direction for a few minutes after NFP in 2025–26: +0.24R for an entry 30 seconds after the release, held 15 minutes. It was checked on 56 earlier releases (2020-03 to 2024-12) that had never been looked at. It gave −0.01R (p 0.31) for the 30-second entry and −0.02R for the 3-minute entry. It worked in 2021–2023 and failed in 2020 and 2024.
 
+## 5. Data cross-check and replication on 2016–2019 (Kaggle data)
+
+Five Kaggle calendar datasets were downloaded with the user's Kaggle API token.
+
+**The data is consistent.**
+- Two Investing.com copies match the dataset used above exactly, on all 67 and 58 shared releases.
+- A consensus from a different source gives the same jobs-report surprise direction on 36 of 41 releases.
+
+**Replication on four untouched years.** The US calendar reaches back to 2015, and Exness tick data starts in 2016. So the tick test was repeated on **2016–2019**, a period no study here had used, with the predictions written down first:
+
+| 15-minute hold, entry after the release | Gold | EUR/USD | GBP/USD | USD/JPY |
+|---|---|---|---|---|
+| NFP, 1 second | +0.29R, 70% wins | +0.25R, 62% | +0.15R, 53% | +0.44R, 66% |
+| NFP, 5 seconds | −0.14R | −0.24R | −0.11R | −0.15R |
+| NFP, 30 seconds | −0.18R | −0.21R | −0.11R | −0.11R |
+| CPI, 1 second | +0.44R, 79% | +0.64R, 83% | +0.32R, 70% | +0.57R, 77% |
+| CPI, 5 seconds | −0.15R | +0.14R | +0.07R | +0.03R |
+
+R here is 2 × the price range of the hour before the release. Both predictions held:
+- 1-second entries paid in all four markets (p ≤ 0.01);
+- jobs-report entries from 5 seconds on lost money everywhere.
+
+In every year, the Exness quote had barely moved 1 second after 08:30:00, had done 15–36% of its 15-minute move by 2 seconds, and about 60% by 5 seconds.
+
+**What this means.** The only edge from knowing the news is the first second or so, before the Exness quote catches up with the real market. That is latency arbitrage. It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
+
 ## What the daily briefing now does
 
 Since 2026-11-12, the briefing logs the market's consensus forecast for every high-impact US release in `data/consensus_log.csv`. The Hugging Face dataset stops in 2026-06, so this log keeps the consensus record going from now on.
