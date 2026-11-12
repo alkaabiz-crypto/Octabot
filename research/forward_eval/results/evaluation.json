@@ -1,9 +1,9 @@
 {
- "generated_utc": "2026-11-12 23:35",
+ "generated_utc": "2026-11-12 23:47",
  "rules": "research/FORWARD_EVALUATION.md; research/batch2/PREREGISTRATION.md + AMENDMENT_1.md",
  "bar": {
-  "family": 7,
-  "one_sided_p": 0.00714
+  "family": 4,
+  "one_sided_p": 0.0125
  },
  "confirmatory": {
   "DONCHIAN_BTC": {
@@ -24,36 +24,9 @@
    "status": "NOT_DUE",
    "note": "0/100 (blind until due)"
   },
-  "GOLD_FVG": {
-   "test": "GOLD_FVG",
-   "family": "confirmatory",
-   "unit": "net bp at 2x cost",
-   "target": 100,
-   "closed_valid": 0,
-   "status": "NOT_DUE",
-   "note": "0/100 (blind until due)"
-  },
-  "OIL_FIB": {
-   "test": "OIL_FIB",
-   "family": "confirmatory",
-   "unit": "net bp at 2x cost",
-   "target": 100,
-   "closed_valid": 0,
-   "status": "NOT_DUE",
-   "note": "0/100 (blind until due)"
-  },
-  "ETH_FIB": {
-   "test": "ETH_FIB",
-   "family": "confirmatory",
-   "unit": "net bp at 2x cost",
-   "target": 100,
-   "closed_valid": 0,
-   "status": "NOT_DUE",
-   "note": "0/100 (blind until due)"
-  },
   "H3_BTC": {
    "test": "H3_BTC",
-   "family": "confirmatory (Batch 2, Holm across H3_BTC/H3_ETH)",
+   "family": "confirmatory (Batch 2; B1 p <= 0.05/4, AMENDMENT_2.md)",
    "unit": "net bp (pre-registered primary/stress costs)",
    "n_req": 479,
    "evaluation_date": "2029-11-14 00:00",
@@ -63,7 +36,7 @@
   },
   "H3_ETH": {
    "test": "H3_ETH",
-   "family": "confirmatory (Batch 2, Holm across H3_BTC/H3_ETH)",
+   "family": "confirmatory (Batch 2; B1 p <= 0.05/4, AMENDMENT_2.md)",
    "unit": "net bp (pre-registered primary/stress costs)",
    "n_req": 697,
    "evaluation_date": "2029-11-14 00:00",
@@ -73,6 +46,9 @@
   }
  },
  "monitoring_only": [
+  "GOLD_FVG",
+  "OIL_FIB",
+  "ETH_FIB",
   "TREND_ENS_BTC",
   "TREND_ENS_ETH",
   "GOLD_MOM50",

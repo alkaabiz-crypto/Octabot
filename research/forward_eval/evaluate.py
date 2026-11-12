@@ -1,5 +1,6 @@
-"""Forward evaluator: implements research/FORWARD_EVALUATION.md (7-test confirmatory family) and, for Batch 2 H3,
-research/batch2/PREREGISTRATION.md as amended by research/batch2/AMENDMENT_1.md. Written and frozen before any forward trade existed.
+"""Forward evaluator: implements research/FORWARD_EVALUATION.md (4-test confirmatory family, revision of 2026-11-12) and, for
+Batch 2 H3, research/batch2/PREREGISTRATION.md as amended by AMENDMENT_1.md and AMENDMENT_2.md. Written and frozen before any
+forward trade existed (re-frozen 2026-11-12, still with zero forward trades, after research/library_checks/README.md).
 
 BLIND: a test that is not yet due shows only its progress count, never running statistics or p-values.
 Reads the unchanged ledgers; never writes to them. Output: results/evaluation.json and EVALUATION.md (in this folder or --out).
@@ -11,7 +12,7 @@ import argparse, calendar, csv, gzip, json, os, sys, time, zlib
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ALPHA, FAMILY, DRAWS, SEED_BASE = 0.05, 7, 1000, 20261113
+ALPHA, FAMILY, DRAWS, SEED_BASE = 0.05, 4, 1000, 20261113
 BAR = ALPHA / FAMILY                                   # Bonferroni across the confirmatory family (FORWARD_EVALUATION.md)
 M = 60_000
 ms_of = lambda s: calendar.timegm(time.strptime(s.strip()[:16], "%Y-%m-%d %H:%M")) * 1000
@@ -26,6 +27,10 @@ TESTS = {
     "OIL_STOCH":    dict(kind="ledger", path="oil_stoch_forward/ledger.csv", t_in="entry_utc", p_in="entry_mid", p_out="exit_mid",
                          feed=("hyperliquid", "xyz:CL"), target=100, start="2026-11-11 08:26", unit="net bp (0.02 USD/bbl spread)",
                          metric=bp(lambda a, b: 0.02 / a * 1e4), observed=lambda r: float(r["pnl_usd"]) / (10 * float(r["entry_mid"])) * 1e4),
+}
+# Demoted to MONITORING on 2026-11-12 (research/library_checks/README.md: their historical edge was an order-handling look-ahead).
+# Kept here only so the cost formulas stay documented and self-tested; they are never judged.
+LIBRARY_MONITORING = {
     "GOLD_FVG":     dict(kind="ledger", path="library_forward/ledger_GOLD_FVG.csv", t_in="fill_utc", p_in="entry", p_out="exit",
                          feed=("hyperliquid", "xyz:GOLD"), target=100, start="2026-11-12 16:44", unit="net bp at 2x cost",
                          metric=bp(lambda a, b: 2 * 0.22 / a * 1e4), observed=lambda r: float(r["net_bp_2x"])),
@@ -35,9 +40,11 @@ TESTS = {
     "ETH_FIB":      dict(kind="ledger", path="library_forward/ledger_ETH_FIB.csv", t_in="fill_utc", p_in="entry", p_out="exit",
                          feed=("binance", "ETHUSDT"), target=100, start="2026-11-12 17:25", unit="net bp at 2x cost",
                          metric=bp(lambda a, b: 2 * 0.0005 * (a + b) / a * 1e4), observed=lambda r: float(r["net_bp_2x"])),
-    "H3_BTC": dict(kind="batch2", coin="BTC", n_req=479), "H3_ETH": dict(kind="batch2", coin="ETH", n_req=697),
 }
-MONITORING = ["TREND_ENS_BTC", "TREND_ENS_ETH", "GOLD_MOM50", "H1_BTC", "H1_ETH", "H2_BTC", "H2_ETH", "H4_BTC", "H4_ETH"]
+TESTS.update({
+    "H3_BTC": dict(kind="batch2", coin="BTC", n_req=479), "H3_ETH": dict(kind="batch2", coin="ETH", n_req=697),
+})
+MONITORING = ["GOLD_FVG", "OIL_FIB", "ETH_FIB", "TREND_ENS_BTC", "TREND_ENS_ETH", "GOLD_MOM50", "H1_BTC", "H1_ETH", "H2_BTC", "H2_ETH", "H4_BTC", "H4_ETH"]
 E_MS = 1794614400000                                   # Batch 2 forward start 2026-11-14 00:00 UTC
 add_months = lambda ms, k: calendar.timegm((lambda t: (t.tm_year + (t.tm_mon - 1 + k) // 12, (t.tm_mon - 1 + k) % 12 + 1, t.tm_mday, 0, 0, 0))(time.gmtime(ms / 1000))) * 1000
 
@@ -154,7 +161,7 @@ def judge_batch2(tid, cfg, root, now):
     six, cap = add_months(E_MS, 6), add_months(E_MS, 36)
     d_nreq = trs[cfg["n_req"] - 1]["exit_ms"] if len(trs) >= cfg["n_req"] else None
     eval_ms = min(max(d_nreq or cap, six), cap)
-    out = dict(test=tid, family="confirmatory (Batch 2, Holm across H3_BTC/H3_ETH)", unit="net bp (pre-registered primary/stress costs)",
+    out = dict(test=tid, family="confirmatory (Batch 2; B1 p <= 0.05/4, AMENDMENT_2.md)", unit="net bp (pre-registered primary/stress costs)",
                n_req=cfg["n_req"], evaluation_date=fmt(eval_ms), closed=len([x for x in trs if x["exit_ms"] <= now]))
     if now < eval_ms: out.update(status="NOT_DUE", note=f"{out['closed']}/{cfg['n_req']} trades; evaluation date {fmt(eval_ms)} at the latest (blind until due)"); return out, None
     ev = [x for x in trs if x["exit_ms"] <= eval_ms]; coin = cfg["coin"]
@@ -167,12 +174,11 @@ def judge_batch2(tid, cfg, root, now):
     return out, p1
 
 
-def holm2(results):
-    """Holm across the two H3 tests on B1 p. If only one is due, it is compared with alpha/2 (conservative)."""
-    due = {k: r for k, r in results.items() if k.startswith("H3_") and r.get("B1_random_p") is not None}
-    order = sorted(due, key=lambda k: due[k]["B1_random_p"]); passed_prev = True
-    for rank, k in enumerate(order):
-        r = due[k]; thr = ALPHA / (2 - rank) if len(due) == 2 else ALPHA / 2; holm_ok = passed_prev and r["B1_random_p"] <= thr; passed_prev = holm_ok
+def judge_h3(results):
+    """Batch 2 H3 verdicts (AMENDMENT_2.md): B1 p <= 0.05/4 (Bonferroni across the 4 confirmatory tests), B2 p <= 0.05."""
+    for k, r in results.items():
+        if not (k.startswith("H3_") and r.get("B1_random_p") is not None): continue
+        thr = BAR; holm_ok = r["B1_random_p"] <= thr
         s1, s2 = r["stats_primary"], r["stats_stress"]; n = s1["trades"]
         if s1["mean_bp"] <= 0 or r["B1_random_p"] > 0.5: v = "FAIL"
         elif s1["mean_bp"] > 0 and s2["mean_bp"] > 0 and holm_ok and (r["B2_placebo_p"] if r["B2_placebo_p"] is not None else 1.0) <= 0.05 and n >= 30 and n >= r["n_req"]: v = "PASS_PENDING_AUDIT"
@@ -185,7 +191,7 @@ def main():
     ap.add_argument("--out", default=HERE); a = ap.parse_args(); now = a.now or int(time.time() * 1000)
     res = {}
     for tid, cfg in TESTS.items(): res[tid] = (judge_batch2 if cfg["kind"] == "batch2" else judge_simple)(tid, cfg, a.root, now)[0]
-    holm2(res)
+    judge_h3(res)
     doc = dict(generated_utc=fmt(now), rules="research/FORWARD_EVALUATION.md; research/batch2/PREREGISTRATION.md + AMENDMENT_1.md",
                bar=dict(family=FAMILY, one_sided_p=round(BAR, 5)), confirmatory=res, monitoring_only=MONITORING)
     os.makedirs(os.path.join(a.out, "results"), exist_ok=True); json.dump(doc, open(os.path.join(a.out, "results", "evaluation.json"), "w"), indent=1)

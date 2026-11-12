@@ -68,27 +68,28 @@ chk(json.dumps(outs[0]) == json.dumps(outs[1]), "results not deterministic")
 chk(res["DONCHIAN_BTC"]["closed_valid"] == 42, f"Donchian LIVE filter: {res['DONCHIAN_BTC']['closed_valid']} valid (expected 42)")
 chk(res["DONCHIAN_BTC"]["status"] == "PASS_PENDING_AUDIT", f"skilled Donchian should pass: {res['DONCHIAN_BTC']['status']}")
 chk(res["DONCHIAN_BTC"]["stages"][0]["trades"] == 40, "Donchian must be judged on the first 40 valid trades")
-chk(res["ETH_FIB"]["status"] == "PASS_PENDING_AUDIT", f"skilled ETH_FIB should pass: {res['ETH_FIB']['status']}")
 chk(res["OIL_STOCH"]["status"] in ("FAIL", "INCONCLUSIVE_EXTENDED"), f"random oil ledger must not pass: {res['OIL_STOCH']['status']}")
-for k in ("GOLD_FVG", "OIL_FIB", "H3_BTC", "H3_ETH"):
+chk(set(res) == {"DONCHIAN_BTC", "OIL_STOCH", "H3_BTC", "H3_ETH"}, f"confirmatory family must be the 4 tests: {sorted(res)}")
+for k in ("H3_BTC", "H3_ETH"):
     chk(res[k]["status"] == "NOT_DUE" and not any(x in res[k] for x in ("stages", "stats_primary")), f"{k} must be NOT_DUE and blind")
 chk(res["H3_BTC"]["evaluation_date"] == "2029-11-14 00:00", f"H3 cap date {res['H3_BTC']['evaluation_date']}")
 # cost formulas reproduce the ledger's own figures
 import evaluate as EV
+chk(EV.BAR == 0.0125, f"bar {EV.BAR}")
 for r in csv.DictReader(open(os.path.join(R, "library_forward/ledger_ETH_FIB.csv"))):
-    v = EV.TESTS["ETH_FIB"]["metric"](EV.sgn(r["side"]), float(r["entry"]), float(r["exit"]), None)
+    v = EV.LIBRARY_MONITORING["ETH_FIB"]["metric"](EV.sgn(r["side"]), float(r["entry"]), float(r["exit"]), None)
     chk(abs(v - float(r["net_bp_2x"])) < 0.02, f"ETH cost formula mismatch {v} vs {r['net_bp_2x']}"); break
 r = next(csv.DictReader(open(os.path.join(R, "oil_stoch_forward/ledger.csv"))))
 v = EV.TESTS["OIL_STOCH"]["metric"](EV.sgn(r["side"]), float(r["entry_mid"]), float(r["exit_mid"]), None); o = EV.TESTS["OIL_STOCH"]["observed"](r)
 chk(abs(v - o) < 0.05, f"oil formula mismatch {v} vs {o}")
-# Holm logic for the two H3 tests (synthetic numbers)
+# H3 verdict logic (Bonferroni 0.05/4, synthetic numbers)
 mk = lambda p, m, n=600, nreq=479: dict(B1_random_p=p, B2_placebo_p=0.01, stats_primary=dict(mean_bp=m, trades=n), stats_stress=dict(mean_bp=m - 1), n_req=nreq)
-cases = [({"H3_BTC": mk(0.02, 5), "H3_ETH": mk(0.04, 5, 700, 697)}, ("PASS_PENDING_AUDIT", "PASS_PENDING_AUDIT")),
-         ({"H3_BTC": mk(0.03, 5), "H3_ETH": mk(0.04, 5, 700, 697)}, ("INCONCLUSIVE", "INCONCLUSIVE")),
-         ({"H3_BTC": mk(0.02, 5, 400), "H3_ETH": mk(0.6, 5, 700, 697)}, ("INCONCLUSIVE", "FAIL")),
-         ({"H3_BTC": mk(0.02, 5)}, ("PASS_PENDING_AUDIT",))]
+cases = [({"H3_BTC": mk(0.012, 5), "H3_ETH": mk(0.0125, 5, 700, 697)}, ("PASS_PENDING_AUDIT", "PASS_PENDING_AUDIT")),
+         ({"H3_BTC": mk(0.013, 5), "H3_ETH": mk(0.04, 5, 700, 697)}, ("INCONCLUSIVE", "INCONCLUSIVE")),
+         ({"H3_BTC": mk(0.01, 5, 400), "H3_ETH": mk(0.6, 5, 700, 697)}, ("INCONCLUSIVE", "FAIL")),
+         ({"H3_BTC": mk(0.01, -1)}, ("FAIL",))]
 for c, exp in cases:
-    EV.holm2(c); got = tuple(c[k]["status"] for k in sorted(c))
+    EV.judge_h3(c); got = tuple(c[k]["status"] for k in sorted(c))
     chk(got == exp, f"Holm case {exp}: got {got}")
 print(json.dumps({k: (v["status"], v.get("stages", [{}])[0].get("random_timing", {}).get("p")) for k, v in res.items()}))
 print("SELFTEST", "PASSED" if not fails else "FAILED:\n- " + "\n- ".join(fails))

@@ -35,8 +35,14 @@
 
 ## Forward-test family (programme-wide correction)
 
-**Superseded on 2026-11-12 by `FORWARD_EVALUATION.md`:**
-- The **confirmatory family has 7 tests:** Donchian, Oil Stochastic, GOLD_FVG, OIL_FIB, ETH_FIB, H3_BTC and H3_ETH.
-- **Bar:** Bonferroni p ≤ 0.05/7 ≈ 0.0071 against the random-timing benchmark.
-- **Monitoring only, cannot PASS:** TREND_ENS BTC and ETH, Gold MOM50, and Batch 2 H1/H2/H4 (6 tests).
+**Current rule:** `FORWARD_EVALUATION.md`, revision of 2026-11-12.
+- **Confirmatory family has 4 tests:** Donchian, Oil Stochastic, H3_BTC and H3_ETH.
+- **Bar:** Bonferroni p ≤ 0.05/4 = 0.0125 against the random-timing benchmark.
+- **Monitoring only, cannot PASS:**
+  - GOLD_FVG, OIL_FIB and ETH_FIB: an order-handling look-ahead was found (`library_checks/README.md`);
+  - TREND_ENS BTC and ETH;
+  - Gold MOM50;
+  - Batch 2 H1/H2/H4.
 - **Stopped:** Gold Asia and SignalPro.
+
+**Also counted:** the order-overlap re-check (3 candidates × 2 causal rules). It is a correctness check on fixed rules, not a new search.

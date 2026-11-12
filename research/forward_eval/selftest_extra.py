@@ -1,5 +1,5 @@
 """Extra checks on SYNTHETIC data (run after selftest.py, same scratch dir): false-positive rate of the random-timing rule on 300 no-skill
-ledgers (expected about 0.7%), and the Batch 2 H3 path once due (dating, benchmarks, Holm). Usage: python3 -I selftest_extra.py <selftest dir>
+ledgers (expected about the bar, 0.05/4 = 1.25%), and the Batch 2 H3 path once due (dating, benchmarks, Holm). Usage: python3 -I selftest_extra.py <selftest dir>
 """
 import sys, os, csv, time, numpy as np, pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__)); S = sys.argv[1]; sys.path.insert(0, HERE); sys.path.insert(0, os.path.join(HERE, "..", "batch2"))
@@ -7,7 +7,7 @@ os.environ["EVAL_PRICE_DIR"] = os.path.join(S, "prices"); import evaluate as EV,
 import gzip
 o = np.array([float(r["o"]) for r in csv.DictReader(gzip.open(os.path.join(S, "prices/ETHUSDT_1m.csv.gz"), "rt"))]); T0 = 1794182400000; M = 60000
 rng = np.random.default_rng(1); passes = fails = inc = 0; N = 300
-cfg = EV.TESTS["ETH_FIB"]
+cfg = EV.LIBRARY_MONITORING["ETH_FIB"]
 for k in range(N):
     s = 1794550000000; trs = []
     for _ in range(100):
@@ -31,5 +31,5 @@ for i in range(40):
 os.makedirs(os.path.join(S, "b2/batch2"), exist_ok=True)
 with open(os.path.join(S, "b2/batch2/ledger.csv"), "w", newline="") as f: w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 cfg2 = dict(EV.TESTS["H3_BTC"], n_req=30)
-r, p1 = EV.judge_batch2("H3_BTC", cfg2, os.path.join(S, "b2"), end + 86_400_000); EV.holm2({"H3_BTC": r})
+r, p1 = EV.judge_batch2("H3_BTC", cfg2, os.path.join(S, "b2"), end + 86_400_000); EV.judge_h3({"H3_BTC": r})
 print("H3 due path:", r["status"], "eval date", r["evaluation_date"], "n", r["stats_primary"]["trades"], "mean", r["stats_primary"]["mean_bp"], "B1", r["B1_random_p"], "B2", r["B2_placebo_p"], "cov", r["m1_coverage"])
