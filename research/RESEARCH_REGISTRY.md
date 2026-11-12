@@ -32,3 +32,23 @@
 | Development (exploratory) evaluations of the same 8 | 8, which do not add confirmatory tests |
 
 **Programme total ≈ 110,000 tests.** Development or historical results are corrected against this total. Confirmatory forward tests are corrected within their pre-registered family (Holm across the 8).
+
+## Forward-test family (programme-wide correction)
+
+**Rule:** a forward result counts as evidence only if it survives **Bonferroni across every forward test that was running when it was evaluated.** It is not enough to clear only its own batch's correction.
+
+This rule adds a stricter way to interpret results. No trading rule, sample target or ledger changes.
+
+**Forward tests running from 2026-11-12: 15**
+- Donchian BTC (BINANCE PROXY)
+- TREND_ENS BTC and ETH
+- Gold MOM50
+- Oil Stochastic
+- GOLD_FVG, OIL_FIB and ETH_FIB
+- Batch 2 H1–H4 on BTC and ETH: 8 tests, from 2026-11-14
+
+**Stopped on 2026-11-12, by the user's decision:**
+- Gold Asia, before any entry. Its benchmark showed no edge.
+- SignalPro tracking, since all signals were resolved.
+
+So a single forward test needs a one-sided p ≤ 0.05/15 ≈ 0.0033 against its random benchmark.
