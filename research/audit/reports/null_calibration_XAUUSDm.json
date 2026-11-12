@@ -1,0 +1,35 @@
+{
+ "market": "XAUUSDm_15m.csv.gz",
+ "period": "2023-07..2024-12",
+ "results": {
+  "HW": {
+   "samples": 100,
+   "mean_z": -0.08417226245091927,
+   "sd_z": 0.9672935379349661,
+   "share_z_over_1.645_pct": 1.0,
+   "share_abs_z_over_1.96_pct": 4.0
+  },
+  "SYM": {
+   "samples": 99,
+   "mean_z": 0.11558660798720424,
+   "sd_z": 0.9913023347900701,
+   "share_z_over_1.645_pct": 5.05050505050505,
+   "share_abs_z_over_1.96_pct": 4.040404040404041
+  },
+  "TRAIL": {
+   "samples": 100,
+   "mean_z": -0.16018559511975677,
+   "sd_z": 1.0370586431520867,
+   "share_z_over_1.645_pct": 3.0,
+   "share_abs_z_over_1.96_pct": 7.0
+  },
+  "FLIP": {
+   "samples": 69,
+   "mean_z": -0.08780951544035509,
+   "sd_z": 0.6762044967317485,
+   "share_z_over_1.645_pct": 0.0,
+   "share_abs_z_over_1.96_pct": 1.4492753623188406
+  }
+ },
+ "generated_utc": "2026-11-12 12:29"
+}

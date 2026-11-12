@@ -1,6 +1,6 @@
 # Gold daily briefing
 
-Generated 2026-11-12 11:55 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-12 12:54 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
@@ -11,7 +11,7 @@ Generated 2026-11-12 11:55 UTC. Events: weekly economic calendar (high impact on
 
 ## What this means
 
-- **Direction:** the tests found no reliable way to tell from the news itself whether gold will rise or fall (first-15-minute follow/fade after FOMC, CPI and NFP: not confirmed on 2025-26). This briefing therefore does not forecast direction.
+- **Direction:** the actual number versus the forecast does predict the direction of the first moments (gold, EUR/USD, GBP/USD, USD/JPY; tested 2016-2026), but in the Exness data the move is mostly done within 5 seconds and later entries showed no edge. So this briefing does not forecast direction.
 - **Size:** after US high-impact news gold usually moves much more than normal, so stops get hit more often and spreads widen.
 - **Right now:** no USD high-impact event in the next 2 hours.
 

@@ -1,0 +1,25 @@
+{
+ "market": "XAUUSDm_15m.csv.gz",
+ "period": "2023-07..2024-12",
+ "results": {
+  "old_independent": {
+   "samples": 100,
+   "mean_z": 0.020631581130989417,
+   "sd_z": 0.7523992814207824,
+   "share_z_over_1.645_pct": 0.0
+  },
+  "shift": {
+   "samples": 100,
+   "mean_z": 0.019729428517278956,
+   "sd_z": 0.7052191581488068,
+   "share_z_over_1.645_pct": 0.0
+  },
+  "sequential": {
+   "samples": 100,
+   "mean_z": 0.04961530360886747,
+   "sd_z": 0.9843323166604082,
+   "share_z_over_1.645_pct": 5.0
+  }
+ },
+ "generated_utc": "2026-11-12 12:33"
+}

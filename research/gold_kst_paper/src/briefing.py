@@ -22,7 +22,7 @@ def kind_of(title):
         return "CPI"
     if "NON-FARM" in t or "NONFARM" in t:
         return "NFP"
-    if "FOMC" in t or "FEDERAL FUNDS RATE" in t:
+    if "FOMC STATEMENT" in t or "FEDERAL FUNDS RATE" in t:      # the decision itself, not minutes or speeches
         return "FOMC"
     return None
 
@@ -91,9 +91,9 @@ def main():
         L.append("None.")
     usd_soon = [t for t, e in upcoming if e.get("country") == "USD" and t - now <= datetime.timedelta(hours=2)]
     L += ["", "## What this means", "",
-          "- **Direction:** the tests found no reliable way to tell from the news itself whether gold will rise or fall "
-          "(first-15-minute follow/fade after FOMC, CPI and NFP: not confirmed on 2025-26). This briefing therefore does not "
-          "forecast direction.",
+          "- **Direction:** the actual number versus the forecast does predict the direction of the first moments "
+          "(gold, EUR/USD, GBP/USD, USD/JPY; tested 2016-2026), but in the Exness data the move is mostly done within "
+          "5 seconds and later entries showed no edge. So this briefing does not forecast direction.",
           "- **Size:** after US high-impact news gold usually moves much more than normal, so stops get hit more often and spreads widen.",
           f"- **Right now:** {'a USD high-impact event is within 2 hours: the news-block rule would skip new entries.' if usd_soon else 'no USD high-impact event in the next 2 hours.'}",
           "", "## Paper test (KST + session VWAP BUY)", ""]

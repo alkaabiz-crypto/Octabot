@@ -1,0 +1,14 @@
+{
+ "market": "XAUUSDm_15m.csv.gz",
+ "hourly_bars": 10007,
+ "cuts": [
+  8708,
+  8817,
+  9588
+ ],
+ "indicators": 62,
+ "community": 11,
+ "strategies": 26,
+ "problems": {},
+ "generated_utc": "2026-11-12 12:27"
+}
