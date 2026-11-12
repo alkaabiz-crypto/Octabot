@@ -51,3 +51,10 @@ Price-only rules have now failed across both research branches: more than 100 fa
 4. **FX carry from interest-rate differentials** (FRED policy and 2-year yields). Hypothesis: the forward-premium puzzle (Lustig and Verdelhan) applied to EUR/USD, GBP/USD and USD/JPY.
 
 Each will be pre-registered with one setting before it is run, with the same periods, costs and controls.
+
+**Data availability for batch 002** (checked 2026-11-12):
+- The Binance REST API is blocked from this environment (HTTP 451).
+- The Binance public archive `data.binance.vision` is reachable, with funding-rate history and spot and futures aggTrades.
+- The Deribit public volatility-index endpoint and FRED interest-rate series are reachable.
+
+Licences differ per source and will be recorded per dataset before use.
