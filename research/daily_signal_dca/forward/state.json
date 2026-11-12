@@ -10,8 +10,8 @@
    "coin": 6.757032284610062e-05,
    "contributed": 20.0
   },
-  "latest_price": 73677.99,
-  "latest_price_utc": "2026-11-12 06:13"
+  "latest_price": 73506.21,
+  "latest_price_utc": "2026-11-12 07:10"
  },
  "ETHUSDT": {
   "last_close": "2026-11-11",
@@ -24,7 +24,7 @@
    "coin": 0.0,
    "contributed": 20.0
   },
-  "latest_price": 2051.43,
-  "latest_price_utc": "2026-11-12 06:13"
+  "latest_price": 2046.57,
+  "latest_price_utc": "2026-11-12 07:10"
  }
 }
