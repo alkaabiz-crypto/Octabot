@@ -110,3 +110,29 @@ The only change is the risk unit. With no 15-minute bars for those years, R = 2 
 - R is 2 × the mid-price range of the hour before the entry, using no data after the entry.
 - Sign-flip test with the ADP signs shuffled 2,000 times, one-sided. Benjamini–Hochberg over the 4 markets.
 - **Confirmed** only if it survives the correction with positive expectancy.
+
+## Robustness audit of addendum 5 (2026-11-12, written before the audit was run)
+
+The addendum-5 results (`reports/adp_preposition.json`) are kept unchanged. This audit asks whether that negative result depends on choices that could have hidden an effect. Results go to `reports/adp_robustness.json` and `ROBUSTNESS_ADP.md`.
+
+1. **Data.**
+   - ADP actual and forecast agree across the three calendar copies (Kaggle 2015–2024, Kaggle global 2020–2025, Hugging Face 2020–2026).
+   - The ADP-to-NFP pairing is checked by **reference month** (the "(Mon)" in both event names) against the 0–7-day date window used originally. Mismatches are reported.
+2. **Prediction test, other definitions.**
+   - NFP surprise with payrolls only (no unemployment term).
+   - Rank correlation (Spearman) of the surprise **sizes**, not only the signs.
+   - Only ADP surprises above the median, and in the top third, by absolute size.
+   - Hit rate by period (2016–19 and 2020–26).
+   - A 95% confidence interval for the hit rate, and the smallest hit rate the test had 80% power to detect.
+3. **Trade test, other choices.**
+   - Entries at T−15, T−5 and T−1 min with exits at T+5 and T+15 min (ticks, 2016–19).
+   - Entries at T−60, T−30 and T−15 min with exits at T+15 and T+60 min (15-minute candles, 2020–26).
+   - R from the range of the 45 minutes before entry.
+   - Median and 10% trimmed mean, besides the mean.
+   - 2020 excluded (COVID-era outliers).
+   - Large ADP surprises only.
+   - The reversed direction.
+   - The minimum detectable expectancy at 80% power.
+4. **Code review** of `adp_preposition.py`, reported in `ROBUSTNESS_ADP.md`.
+
+This is a sensitivity analysis, not a new search for a winner. Any variant that looks good is reported with the number of variants tried, and it does not overturn the addendum-5 verdict on its own.

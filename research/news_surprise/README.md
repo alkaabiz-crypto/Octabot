@@ -45,11 +45,11 @@ Trading in the textbook direction, on the actual number, at real Exness bid/ask,
 
 R is 2 × ATR14 (about 1 hour of normal movement). There are 21–22 releases per market. For CPI, every entry from 5 seconds on lost money in all four markets.
 
-So the information is valuable only within **about 1 second**. Most of that delay is the market itself, not Exness: an audit compared Exness BTC with Binance's millisecond trade stamps around five 2025 releases. Binance also took about 1.2 seconds to move 0.1% after 08:30:00, and Exness trailed Binance by a further 0.15–1.25 seconds (`research/audit/reports/feed_lag.json`). To profit you would have to read the number and be filled before the whole market reacts. Professional firms do this with direct data feeds and co-located servers. A retail trader reading the headline is several seconds too late, and brokers widen spreads, requote or reject orders at release time. Exness's terms also forbid trading that exploits price delays.
+In these tests, the information paid only for entries within **about 1 second** (other horizons, markets and strategies not tested here may differ; see `ROBUSTNESS_ADP.md`). Most of that delay is the market itself, not Exness: an audit compared Exness BTC with Binance's millisecond trade stamps around five 2025 releases. Binance also took about 1.2 seconds to move 0.1% after 08:30:00, and Exness trailed Binance by a further 0.15–1.25 seconds (`research/audit/reports/feed_lag.json`). To profit you would have to read the number and be filled before the whole market reacts. Professional firms do this with direct data feeds and co-located servers. A retail trader reading the headline is several seconds too late, and brokers widen spreads, requote or reject orders at release time. Exness's terms also forbid trading that exploits price delays.
 
 Gold shows a small leftover drift for a few minutes after the jobs report: +0.16R to +0.30R for entries between 5 seconds and 3 minutes, held 15 minutes. That is 21 releases inside a test of many delays, so it was treated as a lead, not a signal. It failed its out-of-sample check (section 4).
 
-## 3. Trading the 4 hours after the first 15 minutes does not work
+## 3. Trading the 4 hours after the first 15 minutes: not confirmed
 
 Entering 15 minutes after the release in the surprise direction, for 4 hours with a 2 × ATR stop, was tested on 14 markets. The direction was learned in 2020–24 and tested on 2025–26. **0 of 56 combinations were confirmed.** Five forex combinations looked good in 2020–24. For example, after hot CPI, buy USD/CAD: +0.57R per trade, p 0.004. All five faded in 2025–26.
 
@@ -86,19 +86,19 @@ R here is 2 × the price range of the hour before the release. Both predictions 
 
 In every year, the Exness quote had barely moved 1 second after 08:30:00, had done 15–36% of its 15-minute move by 2 seconds, and about 60% by 5 seconds.
 
-**What this means.** The only edge from knowing the news is the first second or so, while the market is still reacting (Exness follows a little behind). Trading inside that window is a speed race (latency arbitrage). It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
+**What this means.** In every variant tested here, the only edge from knowing the number was in the first second or so, while the market was still reacting (Exness follows a little behind). That does not show that no other edge exists. Trading inside that window is a speed race (latency arbitrage). It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
 
 ## 6. Positioning before the jobs report, using ADP (addendum 5)
 
 Can the surprise be anticipated? The ADP private-payrolls report comes out about two days before the official jobs report, with its own forecast.
-- **Prediction.** From 2016 to 2026-06, an ADP beat or miss matched the jobs-report surprise in only 58 of 120 releases (48%, binomial p 0.68). It does not predict it.
+- **Prediction.** From 2016 to 2026-06, an ADP beat or miss matched the jobs-report surprise in only 58 of 120 releases (48%, binomial p 0.68). No predictive power was found. The robustness audit gives the 95% range of the hit rate as 39–56%, and the test could only have detected a hit rate of about 62% or more.
 - **Trade.** Positioning 15 minutes before the release in the direction ADP suggests, exiting 15 minutes after, lost money in all four markets:
   - gold −0.13R per trade (117 trades);
   - EUR/USD −0.07R, GBP/USD −0.13R and USD/JPY −0.08R (86 trades each).
 
   None passed (p 0.54–0.77).
 
-The consensus forecast already includes what is publicly known beforehand, so the surprise is close to unpredictable.
+This tested **one** predictor, ADP's beat or miss, with one trade design. It does not show that the surprise is unpredictable from other information. A separate robustness audit (`ROBUSTNESS_ADP.md`) checks this result and lists what remains untested.
 
 ## What the daily briefing now does
 
