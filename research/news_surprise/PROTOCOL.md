@@ -75,3 +75,21 @@ The test period ends 2026-06, where the dataset ends. Results are written to `re
 - Real bid/ask, no stop. Sign-flip test with 2,000 shuffles, one-sided.
 
 **Decision.** The lead holds only if the primary test has p ≤ 0.05 and positive expectancy, and the secondary has positive expectancy. If it fails, the lead is dropped.
+
+## Addendum 4 (2026-11-12): independent data checks and a 2016–2019 replication
+
+**Data cross-check (done).** Kaggle copies of the Investing.com calendar match `data/consensus_investing.csv` exactly on all common releases:
+- `youneseloiarm/global-economic-calendar`: 67 NFP and 67 CPI releases;
+- `iscorod92/economic-calendar-us-2015-2024`: 58 of each.
+
+A differently sourced consensus (`fekihmea/the-effect-of-economic-news-on-gold-prices`) gives the same NFP surprise sign on 36 of 41 releases.
+
+**Replication on untouched years.** The main finding is that the surprise direction pays only for entries within about 1 second and not from 5 seconds on. It is re-tested on **2016-01 to 2019-12**, which no study here has used. Consensus comes from the Kaggle 2015–2024 copy (`data/consensus_investing_2015_2024.csv`). The rules are the same as the tick test above:
+- markets: gold, EUR/USD, GBP/USD, USD/JPY; releases: NFP and CPI;
+- textbook direction, entries at 1, 5, 30 and 180 seconds, exit at 15 minutes, real bid/ask, sign-flip test.
+
+The only change is the risk unit. With no 15-minute bars for those years, R = 2 × the mid-price range of the hour before the release.
+
+**Predictions.**
+- **H1:** 1-second entries after NFP have positive expectancy with p ≤ 0.05 in at least 3 of the 4 markets.
+- **H2:** entries at 5 seconds and later after NFP average no more than +0.1R in EUR/USD, GBP/USD and USD/JPY.
