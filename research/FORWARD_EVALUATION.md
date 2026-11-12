@@ -34,3 +34,44 @@
 
 - **No market data before 2025.** Older data cannot serve as an untouched test set, because the other branch's long-history studies already used it for BTC, oil and gold (`research/audit/reports/rescore/long_*.json` on `claude/dazzling-albattani-j6uys7`).
 - **Paper only;** no circumventing geo-restrictions; no restricted raw data in the repository.
+
+## Operational rules, as implemented in `forward_eval/evaluate.py` (frozen 2026-11-12, before any forward trade)
+
+**Blind**
+- Until a test is due, the evaluator shows only its progress count.
+- No running p-values or statistics are produced for confirmatory tests.
+
+**Random-timing benchmark** (1,000 draws, seed 20261113 + CRC32 of the test ID + stage):
+- Each real trade keeps its side, its exact holding time and its cost model.
+- Its start is drawn uniformly among 1-minute candles between the test's start and the exit of the last evaluated trade.
+- Prices:
+  - Binance spot 1m for BTC and ETH, re-fetched at evaluation;
+  - Hyperliquid 1m for xyz:GOLD and xyz:CL, from the append-only archive `forward_eval/prices/`, since Hyperliquid serves only the last ≈ 3.5 days.
+- If price coverage is below 99%, the result is flagged.
+- p = (1 + number of draws with a mean ≥ the observed mean) / (1 + draws).
+
+**Stage 1** (the first *target* trades):
+- **PASS_PENDING_AUDIT:** the mean is above 0 at the stated cost, and p ≤ 0.0071. Donchian must also be above 0 at the 0.10% cost.
+- **FAIL:** the mean is at or below 0, or p > 0.5.
+- **INCONCLUSIVE:** anything else. The test continues to 2× target.
+
+**Stage 2** (the first 2× target trades):
+- **PASS_PENDING_AUDIT** under the same rules, otherwise **NOT_CONFIRMED**.
+- There are no further looks.
+
+**Donchian**
+- Only trades with a LIVE execution record count (`btc_breakout/forward/EVALUATION_RULES.md`).
+- The metric is executable R: (frozen exit − ask fill) / rule risk − 0.05% × ask / rule risk.
+- Stage 1 is the verdict of trades 1–40 under that file. Stage 2 applies only if Stage 1 is INCONCLUSIVE.
+
+**Batch 2 H3**
+- Rules: `batch2/PREREGISTRATION.md` with `AMENDMENT_1.md`, using that batch's own B1/B2 code.
+- **Holm** across H3_BTC and H3_ETH on B1. While only one of the two is due, it is compared with α/2 (conservative).
+- If B2 cannot be drawn, the test cannot PASS.
+
+**PASS_PENDING_AUDIT** becomes PASS only after the independent ledger audit is clean.
+
+**Checked on synthetic data** (`forward_eval/selftest.py`, `selftest_extra.py`):
+- skilled (look-ahead) ledgers pass, and random ledgers do not;
+- on 300 random ledgers the false-pass rate was 2/300 = 0.7%, which matches the 0.0071 bar;
+- the cost formulas reproduce the ledgers' own figures.
