@@ -35,3 +35,13 @@
 ## Other studies
 
 The look-ahead can only inflate results. The ORB, zone-reversal and session studies all failed, so their verdicts are unaffected.
+
+## Batch 2 H1–H4 (`batch2/common.py`; H3 is confirmatory)
+
+- **H3:** the taker imbalance of the hour **ending** at D is z-scored against the **previous** 720 hours (`shift(1)`). Entry is at the open of the first 1m candle at or after D + 1 min.
+- **H1:** only funding stamped in (D − 24h, D] is used.
+- **H2 and H4:** they use the futures and DVOL hourly bar that starts at D − 1h, i.e. closes at D, and spot keyed by close time.
+- **One position at a time:** the next decision must be at or after the previous exit.
+- **Forward runner:** it simulates only decisions at or after E.
+
+**Result: no look-ahead found.**
