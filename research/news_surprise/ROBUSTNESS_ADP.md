@@ -81,3 +81,89 @@ It is a **lead**: testable only on releases from December 2026 onward, with the 
 - **Whether a realistic setup can capture the first-second move.** This is the forward paper test in `live/`, with its first capture on 2026-12-04.
 
 **Not claimed.** Neither this audit nor the earlier studies show that trading after the release is profitable for a retail trader, or that the first second is the only possible source of an edge. They show only that, among the rules tested, the first second was the only window with a measurable edge.
+
+---
+
+# Closing amendment (12 November 2026)
+
+Final verification before the investigation is frozen. The original study (addendum 5, `reports/adp_preposition.json`) and the robustness results above are unchanged. New outputs:
+- `reports/adp_closing.json` (items 1 and 2, from `src/adp_closing.py`);
+- `reports/adp_riskunit_check.json` (item 3, from `src/adp_riskunit_check.py`).
+
+## Item 1: methodology split (ADP changed its method in 2022)
+
+The two periods are reported separately and are **not** combined for interpretation. N excludes releases where either surprise is exactly zero.
+
+| Period | Sample | N | Same sign | Hit rate | 95% CI (Wilson) | p, one-sided (> 50%) | p, two-sided |
+|---|---|---|---|---|---|---|---|
+| 2016-01 to 2021-12 | audit (reference-month pairing) | 71 | 37 | 52.1% | 40.7–63.3% | 0.41 | 0.81 |
+| 2016-01 to 2021-12 | addendum 5 (0–7-day window) | 71 | 37 | 52.1% | 40.7–63.3% | 0.41 | 0.81 |
+| 2022-01 to 2026-06 | audit (reference-month pairing) | 51 | 21 | 41.2% | 28.8–54.8% | 0.92 | 0.26 |
+| 2022-01 to 2026-06 | addendum 5 (0–7-day window) | 49 | 21 | 42.9% | 30.0–56.7% | 0.87 | 0.39 |
+
+**Neither period** shows a hit rate significantly different from 50%. In 2016–2021 the interval runs up to 63%, so a moderate positive link cannot be excluded there. In 2022–2026 the point estimate is below 50% but not significantly. The robustness audit's earlier split (2016–19 against 2020–26) is superseded by this split for interpretation.
+
+## Item 2: sample reconciliation
+
+**Correction of wording above.** "178 of 180" (ADP) and "all 185" (NFP) count **pairwise cross-source comparisons**: a reference month present in two of the three calendar copies counts once per pair of copies. They do not count figures.
+
+| Quantity | ADP | NFP |
+|---|---|---|
+| Records per source (Kaggle US / Kaggle global / Hugging Face) | 118 / 68 / 74 (260 in total) | 120 / 69 / 75 (264 in total) |
+| Pairwise cross-source comparisons | 180: 178 agree, 2 conflict | 185: all agree |
+| Conflicts | **One** record, March 2023 (released 2023-04-05): Kaggle US shows 145K and the other two show −53K, forecast 200K. It appears in 2 comparisons. The Kaggle US value is used; both values are a miss, so the sign is the same. | none |
+| Duplicates | Records of the same month in several copies are merged to one, in priority order Kaggle US, Hugging Face, Kaggle global. | same |
+| Unique reference months after merging | 136 | 137 |
+
+**Addendum-5 sample (N = 120).** It uses ADP from Kaggle US plus Hugging Face, and NFP from `data/consensus_investing*.csv`, both by release date.
+- NFP releases with a surprise value: 137. Of these, dated 2016-01-01 to 2026-06-30: **125**.
+- Excluded, NFP surprise exactly zero: 1 (2019-08-02).
+- Excluded, no ADP release 0–7 days before: 4.
+  - 2022-07-08 and 2022-08-05: ADP published no report while it changed its method.
+  - 2025-11-20 and 2025-12-16: jobs reports delayed by the government shutdown. Their ADP reports came out more than 7 days earlier.
+- Excluded, ADP surprise zero: 0.
+- **N = 120**, used in addendum-5 test 1 and as the pair list for its trades.
+- Trade counts per market are smaller where price data are missing: gold 117; EUR/USD, GBP/USD and USD/JPY 86 each, because their 15-minute candles start in 2023-01.
+
+**Audit sample (N = 122).** It uses reference-month pairing on the merged sources.
+- NFP reference months released 2016-01 to 2026-06: **125**.
+- Excluded, no ADP figure for that month: 2 (the July and August 2022 pause).
+- That leaves **123 pairs**.
+- Excluded, NFP surprise zero: 1 (2019-08-02). Excluded, ADP surprise zero: 0.
+- **N = 122.**
+
+**The "additional three matches", corrected.** 123 pairs against 120 compares the audit's count **before** removing the zero-surprise release with addendum 5's count **after** removing it. The analysis samples differ by **+2** (122 against 120). Those two are the shutdown-delayed releases (2025-11-20 and 2025-12-16), which reference-month pairing matches correctly and the 0–7-day window misses. No release is in addendum 5 but missing from the audit, and no unemployment figure is missing.
+
+**N per analysis.** Addendum-5 test 1: 120. Audit test 1: 122. Closing split: 71 + 51 (audit) and 71 + 49 (addendum 5). The trade tests use the per-row N recorded in `reports/adp_robustness.json`.
+
+## Item 3: risk-unit correction (2016–2019)
+
+**Original.** "The hour before entry" was really T−3700 s to T−900 s (46.7 minutes), because the tick cache started at T−3700 s.
+
+**Corrected.** The ticks were re-extracted from T−4600 s, so the full 60 minutes (T−4500 s to T−900 s) is available. The trades are otherwise identical: same pairing, direction, entry, exit and random seed.
+
+**Check.** The original calculation reproduces the addendum-5 2016–19 means exactly, in all four markets.
+
+| 2016–19 (N = 47 each) | Mean R, original | Mean R, corrected | Total R, original | Total R, corrected | 95% CI of mean, corrected | p sign-flip, original → corrected |
+|---|---|---|---|---|---|---|
+| Gold | −0.005 | +0.043 | −0.2 | +2.0 | −0.42 to +0.50 | 0.30 → 0.23 |
+| EUR/USD | +0.115 | +0.083 | +5.4 | +3.9 | −0.25 to +0.42 | 0.21 → 0.22 |
+| GBP/USD | −0.040 | −0.056 | −1.9 | −2.6 | −0.27 to +0.16 | 0.55 → 0.61 |
+| USD/JPY | +0.011 | +0.010 | +0.5 | +0.5 | −0.49 to +0.51 | 0.36 → 0.37 |
+
+Effect on addendum 5's all-period totals (2020–26 unchanged, totals recomputed arithmetically):
+
+| Market | Original | Corrected |
+|---|---|---|
+| Gold | −15.4R (−0.132R per trade) | −13.2R (−0.112R) |
+| EUR/USD | −6.2R (−0.072R) | −7.7R (−0.090R) |
+| GBP/USD | −11.3R (−0.131R) | −12.0R (−0.140R) |
+| USD/JPY | −6.8R (−0.079R) | −6.8R (−0.079R) |
+
+All four all-period means stay negative, so the one-sided test for a positive effect cannot become significant. The all-period sign-flip p was not recomputed.
+
+**Conclusion of item 3.** The correction changes no average-R sign that matters for the verdict, no significance and no conclusion. The original and corrected figures are both kept, in separate files.
+
+## Final status
+
+The retrospective ADP investigation is **closed** as of this amendment. See `FREEZE_NOTE.md` for the frozen file hashes and `FORWARD_TEST_PLAN.md` for the prospective tests.
