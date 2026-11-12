@@ -230,7 +230,7 @@ def b9(m, tf):
             if (side > 0 and l[k] <= lim) or (side < 0 and h[k] >= lim): filled = k; break
         if filled is None: i += 1; continue
         pe = min(o[filled], lim) if side > 0 else max(o[filled], lim)
-        x, px = manage(c, filled, side, stop, tp, tmax=20); bk.add(filled, x, side, pe, px); i = x + 1
+        x, px = manage(c, filled, side, stop, tp, tmax=20, intrabar=True); bk.add(filled, x, side, pe, px); i = x + 1
     return c, bk
 
 
@@ -290,7 +290,7 @@ def stop_break(m, tf, setup, valid):
             if up and dn: break                                      # ambiguous candle: skip this setup
             if up or dn:
                 side = 1 if up else -1; lvl = hi if up else lo; pe = max(o[k], lvl) if up else min(o[k], lvl); stop = lo if up else hi
-                x, px = manage(c, k, side, stop, pe + side * 2 * R, tmax=20); bk.add(k, x, side, pe, px); i = x + 1; done = True; break
+                x, px = manage(c, k, side, stop, pe + side * 2 * R, tmax=20, intrabar=True); bk.add(k, x, side, pe, px); i = x + 1; done = True; break
         if not done: i += 1
     return c, bk
 
@@ -341,7 +341,7 @@ def d1_asian(m, tf):
             if up and dn: break
             if up or dn:
                 side = 1 if up else -1; pe = max(o[k], hi) if up else min(o[k], lo)
-                x, px = manage(c, k, side, lo if up else hi, pe + side * R, last=last[-1]); bk.add(k, x, side, pe, px); break
+                x, px = manage(c, k, side, lo if up else hi, pe + side * R, last=last[-1], intrabar=True); bk.add(k, x, side, pe, px); break
     return c, bk
 
 
@@ -380,7 +380,7 @@ def d3_silver(m, tf):
         if R <= 0: continue
         for k in range(k0 + 1, min(len(c), (win[-1] + 1))):
             if (side > 0 and l[k] <= lim) or (side < 0 and h[k] >= lim):
-                pe = min(o[k], lim) if side > 0 else max(o[k], lim); x, px = manage(c, k, side, stop, lim + side * 2 * R, last=last[-1]); bk.add(k, x, side, pe, px); break
+                pe = min(o[k], lim) if side > 0 else max(o[k], lim); x, px = manage(c, k, side, stop, lim + side * 2 * R, last=last[-1], intrabar=True); bk.add(k, x, side, pe, px); break
     return c, bk
 
 
@@ -393,7 +393,7 @@ def d4_fvg(m, tf):
         if R <= 0: i += 1; continue
         for k in range(i + 1, min(i + 11, len(c))):
             if (side > 0 and l[k] <= lim) or (side < 0 and h[k] >= lim):
-                pe = min(o[k], lim) if side > 0 else max(o[k], lim); x, px = manage(c, k, side, stop, lim + side * 2 * R, tmax=20); bk.add(k, x, side, pe, px); i = x + 1; done = True; break
+                pe = min(o[k], lim) if side > 0 else max(o[k], lim); x, px = manage(c, k, side, stop, lim + side * 2 * R, tmax=20, intrabar=True); bk.add(k, x, side, pe, px); i = x + 1; done = True; break
         if not done: i += 1
     return c, bk
 

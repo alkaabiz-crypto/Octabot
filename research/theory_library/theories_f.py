@@ -129,7 +129,7 @@ def f9(m, tf):
             if R > 0:
                 for k2 in range(i + 1, min(i + 21, len(c))):
                     if (side > 0 and l[k2] <= lim) or (side < 0 and h[k2] >= lim):
-                        pe = min(o[k2], lim) if side > 0 else max(o[k2], lim); e, px = manage(c, k2, side, stop, lim + side * 2 * R, tmax=20)
+                        pe = min(o[k2], lim) if side > 0 else max(o[k2], lim); e, px = manage(c, k2, side, stop, lim + side * 2 * R, tmax=20, intrabar=True)
                         bk.add(k2, e, side, pe, px); i = e; break
         i += 1
     return c, bk

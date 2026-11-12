@@ -118,15 +118,18 @@ def from_positions(c, pos, flat_at_day_end=False):
     return bk
 
 
-def manage(c, i0, side, stop, tp, tmax=None, last=None):
-    """From candle i0 (already filled at its open or intrabar), stop first, then target; returns (exit_idx, exit_px)."""
+def manage(c, i0, side, stop, tp, tmax=None, last=None, intrabar=False):
+    """From candle i0 (already filled at its open or intrabar), stop first, then target; returns (exit_idx, exit_px).
+    intrabar=True (limit/stop-order fills inside candle i0): the target is only checked from candle i0+1, because the
+    candle's extreme may have printed before the fill (pre-registered: "stops and targets are checked on later candles").
+    The stop is still checked on the fill candle (conservative)."""
     o, h, l, cl = c.o.values, c.h.values, c.l.values, c.c.values
     end = len(o) - 1 if last is None else min(last, len(o) - 1)
     if tmax is not None: end = min(end, i0 + tmax)
     for k in range(i0, end + 1):
         if k > i0 and ((side > 0 and o[k] <= stop) or (side < 0 and o[k] >= stop)): return k, o[k]
         if (side > 0 and l[k] <= stop) or (side < 0 and h[k] >= stop): return k, stop
-        if tp is not None and ((side > 0 and h[k] >= tp) or (side < 0 and l[k] <= tp)):
+        if tp is not None and not (intrabar and k == i0) and ((side > 0 and h[k] >= tp) or (side < 0 and l[k] <= tp)):
             return k, (o[k] if (k > i0 and ((side > 0 and o[k] >= tp) or (side < 0 and o[k] <= tp))) else tp)
     return end, cl[end]
 
