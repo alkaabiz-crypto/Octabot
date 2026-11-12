@@ -47,7 +47,7 @@ R is 2 × ATR14 (about 1 hour of normal movement). There are 21–22 releases pe
 
 So the information is valuable only within **about 1 second**. That would mean having the number and an order filled before Exness's price updates. Professional firms do this with direct data feeds and co-located servers. A retail trader reading the headline is several seconds too late, and brokers widen spreads, requote or reject orders at release time. Exness's terms also forbid trading that exploits price delays.
 
-Gold shows a small leftover drift for a few minutes after the jobs report: +0.16R to +0.30R for entries between 5 seconds and 3 minutes, held 15 minutes. That is 21 releases inside a test of many delays, so it is a lead, not a signal, and real fills at that moment would be worse than the tick quotes.
+Gold shows a small leftover drift for a few minutes after the jobs report: +0.16R to +0.30R for entries between 5 seconds and 3 minutes, held 15 minutes. That is 21 releases inside a test of many delays, so it was treated as a lead, not a signal. It failed its out-of-sample check (section 4).
 
 ## 3. Trading the 4 hours after the first 15 minutes does not work
 
@@ -64,4 +64,4 @@ A free source of historical consensus forecasts turned up: a public Hugging Face
 
 ## What the daily briefing now does
 
-Since 2026-11-12, the briefing logs the market's consensus forecast for every high-impact US release in `data/consensus_log.csv`. Over time this builds the real forecast history that no free source offers. Later studies can then measure the true surprise rather than the trend proxy used here.
+Since 2026-11-12, the briefing logs the market's consensus forecast for every high-impact US release in `data/consensus_log.csv`. The Hugging Face dataset stops in 2026-06, so this log keeps the consensus record going from now on.
