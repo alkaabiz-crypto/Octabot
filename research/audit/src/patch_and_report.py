@@ -34,7 +34,12 @@ def main():
     def fix(r, mkt, new):
         c = costs.get(mkt)
         if c and "expectancy_r" in r and c["median_spread_R"] == c["median_spread_R"]:
-            r["expectancy_r"] += c["slip_primary_R"] - 0.5 * c["median_spread_R"]
+            dp = c["slip_primary_R"] - 0.5 * c["median_spread_R"]
+            r["expectancy_r"] += dp
+            if isinstance(r.get("years"), dict):
+                r["years"] = {y: [v[0], v[1] + dp] for y, v in r["years"].items()}
+            if isinstance(r.get("halves"), list):
+                r["halves"] = [None if h is None else h + dp for h in r["halves"]]
             if "expectancy_stress_r" in r:
                 r["expectancy_stress_r"] += c["slip_stress_R"] - 1.5 * c["median_spread_R"]
             stats["cost_adjusted"] += 1
