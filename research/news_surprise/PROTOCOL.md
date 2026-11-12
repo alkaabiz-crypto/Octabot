@@ -93,3 +93,20 @@ The only change is the risk unit. With no 15-minute bars for those years, R = 2 
 **Predictions.**
 - **H1:** 1-second entries after NFP have positive expectancy with p ≤ 0.05 in at least 3 of the 4 markets.
 - **H2:** entries at 5 seconds and later after NFP average no more than +0.1R in EUR/USD, GBP/USD and USD/JPY.
+
+## Addendum 5 (2026-11-12): positioning BEFORE the jobs report, using the ADP report
+
+**Question.** Can the NFP surprise be anticipated, so that a position is opened before the release?
+
+**Predictor.** The ADP private-payrolls report, released about two days before NFP: the sign of ADP actual minus ADP forecast. The data comes from the Investing.com calendar copies in `data/` (2015–2024 Kaggle, 2020–2026 Hugging Face). The ADP release counted is the last one dated 0–7 days before each NFP release.
+
+**Test 1 (prediction).** How often the NFP consensus surprise has the same sign as the ADP surprise, with a binomial test against 50%. Every release from 2016 to 2026-06 with both numbers is used.
+
+**Test 2 (trade).** Direction is the textbook mapping, with nothing fitted: an ADP beat means expecting a strong NFP, so SELL gold, EUR/USD and GBP/USD, and BUY USD/JPY.
+- Entry 15 minutes before the release; exit 15 minutes after it.
+- Real Exness bid/ask:
+  - 2016-01 to 2019-12: tick data (entry at the first quote at or after T−15 min, exit at the first quote at or after T+15 min);
+  - 2020-07 onward (gold) and 2023-01 onward (forex): 15-minute candles (entry at the T−15 min candle's open, exit at the T+15 min candle's open).
+- R is 2 × the mid-price range of the hour before the entry, using no data after the entry.
+- Sign-flip test with the ADP signs shuffled 2,000 times, one-sided. Benjamini–Hochberg over the 4 markets.
+- **Confirmed** only if it survives the correction with positive expectancy.

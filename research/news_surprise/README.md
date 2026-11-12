@@ -88,6 +88,18 @@ In every year, the Exness quote had barely moved 1 second after 08:30:00, had do
 
 **What this means.** The only edge from knowing the news is the first second or so, while the market is still reacting (Exness follows a little behind). Trading inside that window is a speed race (latency arbitrage). It needs professional data feeds and infrastructure, and brokers, Exness included, forbid it. For anyone trading by hand, news is a reason to step aside, not a signal to trade.
 
+## 6. Positioning before the jobs report, using ADP (addendum 5)
+
+Can the surprise be anticipated? The ADP private-payrolls report comes out about two days before the official jobs report, with its own forecast.
+- **Prediction.** From 2016 to 2026-06, an ADP beat or miss matched the jobs-report surprise in only 58 of 120 releases (48%, binomial p 0.68). It does not predict it.
+- **Trade.** Positioning 15 minutes before the release in the direction ADP suggests, exiting 15 minutes after, lost money in all four markets:
+  - gold −0.13R per trade (117 trades);
+  - EUR/USD −0.07R, GBP/USD −0.13R and USD/JPY −0.08R (86 trades each).
+
+  None passed (p 0.54–0.77).
+
+The consensus forecast already includes what is publicly known beforehand, so the surprise is close to unpredictable.
+
 ## What the daily briefing now does
 
 Since 2026-11-12, the briefing logs the market's consensus forecast for every high-impact US release in `data/consensus_log.csv`. The Hugging Face dataset stops in 2026-06, so this log keeps the consensus record going from now on.
