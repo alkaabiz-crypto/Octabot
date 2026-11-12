@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-11-12 17:23",
- "n_combinations": 416,
+ "generated_utc": "2026-11-12 17:30",
+ "n_combinations": 535,
  "n_errors": 0,
  "errors": {},
  "n_pass": 6,
@@ -355,7 +355,7 @@
     "holdout": 17.78
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "A7|XAUUSDm|1d": {
    "theory": "A7",
@@ -751,7 +751,7 @@
     "holdout": 7.04
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "B1|XAUUSDm|1h": {
    "theory": "B1",
@@ -971,7 +971,7 @@
     "holdout": 18.66
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.2
   },
   "B5|XAUUSDm|1h": {
    "theory": "B5",
@@ -1015,7 +1015,7 @@
     "holdout": 13.62
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "B6|XAUUSDm|1h": {
    "theory": "B6",
@@ -1191,7 +1191,7 @@
     "holdout": 14.03
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "B10|XAUUSDm|1d": {
    "theory": "B10",
@@ -1587,7 +1587,7 @@
     "holdout": 10.92
    },
    "verdict": "FAIL",
-   "secs": 8.5
+   "secs": 9.0
   },
   "D2|XAUUSDm|15m": {
    "theory": "D2",
@@ -1631,7 +1631,7 @@
     "holdout": 7.71
    },
    "verdict": "FAIL",
-   "secs": 0.7
+   "secs": 0.5
   },
   "D3|XAUUSDm|5m": {
    "theory": "D3",
@@ -1719,7 +1719,7 @@
     "holdout": 7.07
    },
    "verdict": "PASS",
-   "secs": 0.2
+   "secs": 0.1
   },
   "D6|XAUUSDm|1h": {
    "theory": "D6",
@@ -1763,7 +1763,7 @@
     "holdout": 21.93
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.3
   },
   "E2|XAUUSDm|1d": {
    "theory": "E2",
@@ -2601,6 +2601,754 @@
    "verdict": "FAIL",
    "secs": 0.0
   },
+  "G1|XAUUSDm|1m": {
+   "theory": "G1",
+   "family": "session",
+   "market": "XAUUSDm",
+   "tf": "1m",
+   "x1": {
+    "dev": {
+     "trades": 253,
+     "mean_bp": 0.25,
+     "sum_pct": 0.64,
+     "win": 0.526
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_bp": -2.43,
+     "sum_pct": -5.13,
+     "win": 0.464
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 253,
+     "mean_bp": -0.23,
+     "sum_pct": -0.58,
+     "win": 0.49
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_bp": -3.0,
+     "sum_pct": -6.34,
+     "win": 0.441
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.86,
+    "holdout": -1.16
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.77,
+    "holdout": 1.77
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G2|XAUUSDm|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 87,
+     "mean_bp": 15.61,
+     "sum_pct": 13.58,
+     "win": 0.586
+    },
+    "holdout": {
+     "trades": 82,
+     "mean_bp": -1.46,
+     "sum_pct": -1.19,
+     "win": 0.573
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 87,
+     "mean_bp": 15.13,
+     "sum_pct": 13.16,
+     "win": 0.586
+    },
+    "holdout": {
+     "trades": 82,
+     "mean_bp": -2.04,
+     "sum_pct": -1.68,
+     "win": 0.561
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.03,
+    "holdout": -0.48
+   },
+   "random_x2_p95_bp": {
+    "dev": 12.26,
+    "holdout": 20.85
+   },
+   "verdict": "FAIL",
+   "secs": 0.2
+  },
+  "G3|XAUUSDm|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 167,
+     "mean_bp": 12.54,
+     "sum_pct": 20.93,
+     "win": 0.371
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": 8.4,
+     "sum_pct": 11.84,
+     "win": 0.376
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 167,
+     "mean_bp": 12.06,
+     "sum_pct": 20.14,
+     "win": 0.365
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": 7.8,
+     "sum_pct": 11.0,
+     "win": 0.376
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 5.76,
+    "holdout": -1.63
+   },
+   "random_x2_p95_bp": {
+    "dev": 17.26,
+    "holdout": 19.95
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G3|XAUUSDm|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 48,
+     "mean_bp": 29.1,
+     "sum_pct": 13.97,
+     "win": 0.438
+    },
+    "holdout": {
+     "trades": 41,
+     "mean_bp": -11.73,
+     "sum_pct": -4.81,
+     "win": 0.268
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 48,
+     "mean_bp": 28.62,
+     "sum_pct": 13.74,
+     "win": 0.438
+    },
+    "holdout": {
+     "trades": 41,
+     "mean_bp": -12.32,
+     "sum_pct": -5.05,
+     "win": 0.268
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 30.68,
+    "holdout": 4.31
+   },
+   "random_x2_p95_bp": {
+    "dev": 75.65,
+    "holdout": 68.55
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|XAUUSDm|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 230,
+     "mean_bp": 5.96,
+     "sum_pct": 13.72,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 195,
+     "mean_bp": 13.06,
+     "sum_pct": 25.47,
+     "win": 0.4
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 230,
+     "mean_bp": 5.49,
+     "sum_pct": 12.63,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 195,
+     "mean_bp": 12.46,
+     "sum_pct": 24.29,
+     "win": 0.4
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 1.57,
+    "holdout": -1.58
+   },
+   "random_x2_p95_bp": {
+    "dev": 15.15,
+    "holdout": 20.15
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|XAUUSDm|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 59,
+     "mean_bp": 36.81,
+     "sum_pct": 21.72,
+     "win": 0.441
+    },
+    "holdout": {
+     "trades": 53,
+     "mean_bp": 49.2,
+     "sum_pct": 26.08,
+     "win": 0.415
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 59,
+     "mean_bp": 36.33,
+     "sum_pct": 21.43,
+     "win": 0.424
+    },
+    "holdout": {
+     "trades": 53,
+     "mean_bp": 48.61,
+     "sum_pct": 25.76,
+     "win": 0.415
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 23.68,
+    "holdout": -0.2
+   },
+   "random_x2_p95_bp": {
+    "dev": 70.41,
+    "holdout": 74.77
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|XAUUSDm|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 569,
+     "mean_bp": 1.62,
+     "sum_pct": 9.19,
+     "win": 0.329
+    },
+    "holdout": {
+     "trades": 474,
+     "mean_bp": 5.9,
+     "sum_pct": 27.98,
+     "win": 0.34
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 569,
+     "mean_bp": 1.14,
+     "sum_pct": 6.5,
+     "win": 0.325
+    },
+    "holdout": {
+     "trades": 474,
+     "mean_bp": 5.31,
+     "sum_pct": 25.15,
+     "win": 0.338
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.66,
+    "holdout": -1.14
+   },
+   "random_x2_p95_bp": {
+    "dev": 5.91,
+    "holdout": 9.01
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|XAUUSDm|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": 21.22,
+     "sum_pct": 31.82,
+     "win": 0.373
+    },
+    "holdout": {
+     "trades": 115,
+     "mean_bp": -1.57,
+     "sum_pct": -1.81,
+     "win": 0.365
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": 20.73,
+     "sum_pct": 31.1,
+     "win": 0.367
+    },
+    "holdout": {
+     "trades": 115,
+     "mean_bp": -2.16,
+     "sum_pct": -2.49,
+     "win": 0.365
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 6.86,
+    "holdout": -0.56
+   },
+   "random_x2_p95_bp": {
+    "dev": 29.38,
+    "holdout": 39.15
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|XAUUSDm|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 270,
+     "mean_bp": 10.15,
+     "sum_pct": 27.39,
+     "win": 0.407
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_bp": 28.14,
+     "sum_pct": 60.23,
+     "win": 0.435
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 270,
+     "mean_bp": 9.68,
+     "sum_pct": 26.12,
+     "win": 0.407
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_bp": 27.55,
+     "sum_pct": 58.96,
+     "win": 0.435
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.69,
+    "holdout": -2.08
+   },
+   "random_x2_p95_bp": {
+    "dev": 9.71,
+    "holdout": 20.13
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|XAUUSDm|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 73,
+     "mean_bp": 40.16,
+     "sum_pct": 29.32,
+     "win": 0.534
+    },
+    "holdout": {
+     "trades": 59,
+     "mean_bp": 24.84,
+     "sum_pct": 14.66,
+     "win": 0.356
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 73,
+     "mean_bp": 39.69,
+     "sum_pct": 28.97,
+     "win": 0.534
+    },
+    "holdout": {
+     "trades": 59,
+     "mean_bp": 24.26,
+     "sum_pct": 14.31,
+     "win": 0.356
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.87,
+    "holdout": 2.59
+   },
+   "random_x2_p95_bp": {
+    "dev": 37.56,
+    "holdout": 71.12
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|XAUUSDm|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 89,
+     "mean_bp": 5.95,
+     "sum_pct": 5.29,
+     "win": 0.461
+    },
+    "holdout": {
+     "trades": 75,
+     "mean_bp": 1.05,
+     "sum_pct": 0.78,
+     "win": 0.4
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 89,
+     "mean_bp": 5.47,
+     "sum_pct": 4.87,
+     "win": 0.461
+    },
+    "holdout": {
+     "trades": 75,
+     "mean_bp": 0.45,
+     "sum_pct": 0.34,
+     "win": 0.4
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.73,
+    "holdout": -1.93
+   },
+   "random_x2_p95_bp": {
+    "dev": 30.78,
+    "holdout": 52.25
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|XAUUSDm|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 18,
+     "mean_bp": -86.58,
+     "sum_pct": -15.58,
+     "win": 0.167
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 106.35,
+     "sum_pct": 11.7,
+     "win": 0.455
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 18,
+     "mean_bp": -87.1,
+     "sum_pct": -15.68,
+     "win": 0.167
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 105.42,
+     "sum_pct": 11.6,
+     "win": 0.455
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 33.33,
+    "holdout": 21.41
+   },
+   "random_x2_p95_bp": {
+    "dev": 163.53,
+    "holdout": 309.02
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|XAUUSDm|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 834,
+     "mean_bp": 2.34,
+     "sum_pct": 19.49,
+     "win": 0.242
+    },
+    "holdout": {
+     "trades": 723,
+     "mean_bp": -0.66,
+     "sum_pct": -4.78,
+     "win": 0.23
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 834,
+     "mean_bp": 1.86,
+     "sum_pct": 15.51,
+     "win": 0.239
+    },
+    "holdout": {
+     "trades": 723,
+     "mean_bp": -1.25,
+     "sum_pct": -9.05,
+     "win": 0.225
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.06,
+    "holdout": -1.67
+   },
+   "random_x2_p95_bp": {
+    "dev": 3.36,
+    "holdout": 4.42
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|XAUUSDm|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 213,
+     "mean_bp": 12.13,
+     "sum_pct": 25.85,
+     "win": 0.268
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_bp": -1.64,
+     "sum_pct": -3.49,
+     "win": 0.268
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 213,
+     "mean_bp": 11.66,
+     "sum_pct": 24.83,
+     "win": 0.268
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_bp": -2.23,
+     "sum_pct": -4.74,
+     "win": 0.268
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 3.0,
+    "holdout": -0.45
+   },
+   "random_x2_p95_bp": {
+    "dev": 16.85,
+    "holdout": 19.37
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|XAUUSDm|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 138,
+     "mean_bp": 9.7,
+     "sum_pct": 13.39,
+     "win": 0.399
+    },
+    "holdout": {
+     "trades": 109,
+     "mean_bp": 3.83,
+     "sum_pct": 4.17,
+     "win": 0.376
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 138,
+     "mean_bp": 9.23,
+     "sum_pct": 12.73,
+     "win": 0.399
+    },
+    "holdout": {
+     "trades": 109,
+     "mean_bp": 3.23,
+     "sum_pct": 3.52,
+     "win": 0.376
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 4.45,
+    "holdout": -1.01
+   },
+   "random_x2_p95_bp": {
+    "dev": 18.24,
+    "holdout": 25.1
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|XAUUSDm|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "XAUUSDm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 40,
+     "mean_bp": 25.56,
+     "sum_pct": 10.22,
+     "win": 0.45
+    },
+    "holdout": {
+     "trades": 27,
+     "mean_bp": 41.38,
+     "sum_pct": 11.17,
+     "win": 0.37
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 40,
+     "mean_bp": 25.08,
+     "sum_pct": 10.03,
+     "win": 0.45
+    },
+    "holdout": {
+     "trades": 27,
+     "mean_bp": 40.78,
+     "sum_pct": 11.01,
+     "win": 0.37
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 39.76,
+    "holdout": 1.48
+   },
+   "random_x2_p95_bp": {
+    "dev": 90.1,
+    "holdout": 93.12
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G10|XAUUSDm|15m": {
+   "theory": "G10",
+   "family": "meanrev",
+   "market": "XAUUSDm",
+   "tf": "15m",
+   "x1": {
+    "dev": {
+     "trades": 906,
+     "mean_bp": -2.79,
+     "sum_pct": -25.27,
+     "win": 0.613
+    },
+    "holdout": {
+     "trades": 813,
+     "mean_bp": -1.61,
+     "sum_pct": -13.11,
+     "win": 0.645
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 906,
+     "mean_bp": -3.27,
+     "sum_pct": -29.59,
+     "win": 0.607
+    },
+    "holdout": {
+     "trades": 813,
+     "mean_bp": -2.22,
+     "sum_pct": -18.02,
+     "win": 0.637
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.27,
+    "holdout": -1.12
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.8,
+    "holdout": 2.76
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
   "A1|DE30m|1h": {
    "theory": "A1",
    "family": "trend",
@@ -2819,7 +3567,7 @@
     "holdout": 20.11
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "A4|DE30m|4h": {
    "theory": "A4",
@@ -2907,7 +3655,7 @@
     "holdout": 4.13
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "A6|DE30m|1h": {
    "theory": "A6",
@@ -3259,7 +4007,7 @@
     "holdout": 10.74
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.3
   },
   "A13|DE30m|1h": {
    "theory": "A13",
@@ -3567,7 +4315,7 @@
     "holdout": 9.06
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.4
   },
   "B5|DE30m|1h": {
    "theory": "B5",
@@ -3611,7 +4359,7 @@
     "holdout": 4.44
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "B6|DE30m|1h": {
    "theory": "B6",
@@ -3655,7 +4403,7 @@
     "holdout": 3.74
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "B7|DE30m|15m": {
    "theory": "B7",
@@ -4183,7 +4931,7 @@
     "holdout": 3.42
    },
    "verdict": "FAIL",
-   "secs": 8.3
+   "secs": 8.2
   },
   "D2|DE30m|15m": {
    "theory": "D2",
@@ -4227,7 +4975,7 @@
     "holdout": 1.58
    },
    "verdict": "FAIL",
-   "secs": 0.8
+   "secs": 0.6
   },
   "D3|DE30m|5m": {
    "theory": "D3",
@@ -4403,7 +5151,7 @@
     "holdout": 11.31
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.3
   },
   "E1|DE30m|1m": {
    "theory": "E1",
@@ -4535,7 +5283,7 @@
     "holdout": 10.41
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F1|DE30m|1h": {
    "theory": "F1",
@@ -4579,7 +5327,7 @@
     "holdout": 14.76
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "F1|DE30m|4h": {
    "theory": "F1",
@@ -4623,7 +5371,7 @@
     "holdout": 58.46
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "F2|DE30m|1h": {
    "theory": "F2",
@@ -4667,7 +5415,7 @@
     "holdout": 2.41
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "F2|DE30m|4h": {
    "theory": "F2",
@@ -5327,7 +6075,755 @@
     "holdout": 23.43
    },
    "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G1|DE30m|1m": {
+   "theory": "G1",
+   "family": "session",
+   "market": "DE30m",
+   "tf": "1m",
+   "x1": {
+    "dev": {
+     "trades": 252,
+     "mean_bp": -2.62,
+     "sum_pct": -6.6,
+     "win": 0.437
+    },
+    "holdout": {
+     "trades": 210,
+     "mean_bp": -0.54,
+     "sum_pct": -1.13,
+     "win": 0.467
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 252,
+     "mean_bp": -5.0,
+     "sum_pct": -12.59,
+     "win": 0.377
+    },
+    "holdout": {
+     "trades": 210,
+     "mean_bp": -1.07,
+     "sum_pct": -2.26,
+     "win": 0.457
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.52,
+    "holdout": -2.03
+   },
+   "random_x2_p95_bp": {
+    "dev": -3.87,
+    "holdout": 0.17
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G2|DE30m|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 94,
+     "mean_bp": -4.81,
+     "sum_pct": -4.53,
+     "win": 0.468
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -1.4,
+     "sum_pct": -1.22,
+     "win": 0.494
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 94,
+     "mean_bp": -7.74,
+     "sum_pct": -7.27,
+     "win": 0.457
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -3.08,
+     "sum_pct": -2.68,
+     "win": 0.483
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.57,
+    "holdout": -2.34
+   },
+   "random_x2_p95_bp": {
+    "dev": 7.81,
+    "holdout": 10.89
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G3|DE30m|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 146,
+     "mean_bp": 8.13,
+     "sum_pct": 11.87,
+     "win": 0.411
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": -4.17,
+     "sum_pct": -5.89,
+     "win": 0.326
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 146,
+     "mean_bp": 5.66,
+     "sum_pct": 8.26,
+     "win": 0.384
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": -5.18,
+     "sum_pct": -7.3,
+     "win": 0.326
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -3.71,
+    "holdout": -1.62
+   },
+   "random_x2_p95_bp": {
+    "dev": 9.63,
+    "holdout": 10.66
+   },
+   "verdict": "FAIL",
    "secs": 0.0
+  },
+  "G3|DE30m|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 43,
+     "mean_bp": 19.78,
+     "sum_pct": 8.51,
+     "win": 0.395
+    },
+    "holdout": {
+     "trades": 40,
+     "mean_bp": -40.05,
+     "sum_pct": -16.02,
+     "win": 0.225
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 43,
+     "mean_bp": 17.05,
+     "sum_pct": 7.33,
+     "win": 0.395
+    },
+    "holdout": {
+     "trades": 40,
+     "mean_bp": -41.14,
+     "sum_pct": -16.46,
+     "win": 0.225
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 4.23,
+    "holdout": -2.38
+   },
+   "random_x2_p95_bp": {
+    "dev": 54.98,
+    "holdout": 35.56
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|DE30m|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 229,
+     "mean_bp": -3.08,
+     "sum_pct": -7.05,
+     "win": 0.384
+    },
+    "holdout": {
+     "trades": 167,
+     "mean_bp": 1.03,
+     "sum_pct": 1.73,
+     "win": 0.395
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 229,
+     "mean_bp": -5.75,
+     "sum_pct": -13.16,
+     "win": 0.367
+    },
+    "holdout": {
+     "trades": 167,
+     "mean_bp": 0.05,
+     "sum_pct": 0.08,
+     "win": 0.395
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.14,
+    "holdout": -1.69
+   },
+   "random_x2_p95_bp": {
+    "dev": 8.28,
+    "holdout": 13.79
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|DE30m|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 57,
+     "mean_bp": 18.07,
+     "sum_pct": 10.3,
+     "win": 0.351
+    },
+    "holdout": {
+     "trades": 56,
+     "mean_bp": -37.27,
+     "sum_pct": -20.87,
+     "win": 0.268
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 57,
+     "mean_bp": 15.13,
+     "sum_pct": 8.63,
+     "win": 0.351
+    },
+    "holdout": {
+     "trades": 56,
+     "mean_bp": -38.81,
+     "sum_pct": -21.74,
+     "win": 0.268
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.0,
+    "holdout": -3.5
+   },
+   "random_x2_p95_bp": {
+    "dev": 54.4,
+    "holdout": 37.26
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|DE30m|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 579,
+     "mean_bp": -1.0,
+     "sum_pct": -5.77,
+     "win": 0.33
+    },
+    "holdout": {
+     "trades": 511,
+     "mean_bp": -2.54,
+     "sum_pct": -13.0,
+     "win": 0.319
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 579,
+     "mean_bp": -3.79,
+     "sum_pct": -21.93,
+     "win": 0.307
+    },
+    "holdout": {
+     "trades": 511,
+     "mean_bp": -3.66,
+     "sum_pct": -18.7,
+     "win": 0.313
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.92,
+    "holdout": -2.4
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.31,
+    "holdout": 2.16
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|DE30m|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 145,
+     "mean_bp": 21.53,
+     "sum_pct": 31.22,
+     "win": 0.366
+    },
+    "holdout": {
+     "trades": 126,
+     "mean_bp": -17.68,
+     "sum_pct": -22.28,
+     "win": 0.381
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 145,
+     "mean_bp": 18.57,
+     "sum_pct": 26.92,
+     "win": 0.352
+    },
+    "holdout": {
+     "trades": 126,
+     "mean_bp": -19.84,
+     "sum_pct": -25.0,
+     "win": 0.357
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.24,
+    "holdout": -2.66
+   },
+   "random_x2_p95_bp": {
+    "dev": 16.0,
+    "holdout": 14.69
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|DE30m|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 275,
+     "mean_bp": 2.37,
+     "sum_pct": 6.52,
+     "win": 0.425
+    },
+    "holdout": {
+     "trades": 237,
+     "mean_bp": -5.12,
+     "sum_pct": -12.13,
+     "win": 0.401
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 275,
+     "mean_bp": -0.51,
+     "sum_pct": -1.39,
+     "win": 0.389
+    },
+    "holdout": {
+     "trades": 237,
+     "mean_bp": -5.96,
+     "sum_pct": -14.13,
+     "win": 0.392
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.58,
+    "holdout": -1.97
+   },
+   "random_x2_p95_bp": {
+    "dev": 4.72,
+    "holdout": 8.86
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|DE30m|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 75,
+     "mean_bp": 5.81,
+     "sum_pct": 4.35,
+     "win": 0.387
+    },
+    "holdout": {
+     "trades": 58,
+     "mean_bp": -35.78,
+     "sum_pct": -20.75,
+     "win": 0.31
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 75,
+     "mean_bp": 2.92,
+     "sum_pct": 2.19,
+     "win": 0.387
+    },
+    "holdout": {
+     "trades": 58,
+     "mean_bp": -36.79,
+     "sum_pct": -21.34,
+     "win": 0.31
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.16,
+    "holdout": -3.22
+   },
+   "random_x2_p95_bp": {
+    "dev": 32.04,
+    "holdout": 36.89
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|DE30m|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 102,
+     "mean_bp": -10.2,
+     "sum_pct": -10.41,
+     "win": 0.333
+    },
+    "holdout": {
+     "trades": 72,
+     "mean_bp": -26.38,
+     "sum_pct": -18.99,
+     "win": 0.319
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 102,
+     "mean_bp": -13.2,
+     "sum_pct": -13.46,
+     "win": 0.324
+    },
+    "holdout": {
+     "trades": 72,
+     "mean_bp": -28.05,
+     "sum_pct": -20.2,
+     "win": 0.319
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.8,
+    "holdout": -2.39
+   },
+   "random_x2_p95_bp": {
+    "dev": 23.24,
+    "holdout": 27.84
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|DE30m|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 10,
+     "mean_bp": 187.21,
+     "sum_pct": 18.72,
+     "win": 0.8
+    },
+    "holdout": {
+     "trades": 10,
+     "mean_bp": -100.61,
+     "sum_pct": -10.06,
+     "win": 0.2
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 10,
+     "mean_bp": 183.2,
+     "sum_pct": 18.32,
+     "win": 0.8
+    },
+    "holdout": {
+     "trades": 10,
+     "mean_bp": -104.37,
+     "sum_pct": -10.44,
+     "win": 0.2
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -11.91,
+    "holdout": -16.98
+   },
+   "random_x2_p95_bp": {
+    "dev": 243.03,
+    "holdout": 164.9
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|DE30m|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 837,
+     "mean_bp": -2.45,
+     "sum_pct": -20.47,
+     "win": 0.228
+    },
+    "holdout": {
+     "trades": 683,
+     "mean_bp": -2.72,
+     "sum_pct": -18.59,
+     "win": 0.243
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 837,
+     "mean_bp": -5.16,
+     "sum_pct": -43.23,
+     "win": 0.213
+    },
+    "holdout": {
+     "trades": 683,
+     "mean_bp": -3.77,
+     "sum_pct": -25.75,
+     "win": 0.24
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.25,
+    "holdout": -2.31
+   },
+   "random_x2_p95_bp": {
+    "dev": -1.74,
+    "holdout": 1.65
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|DE30m|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 207,
+     "mean_bp": -1.43,
+     "sum_pct": -2.95,
+     "win": 0.251
+    },
+    "holdout": {
+     "trades": 173,
+     "mean_bp": -3.61,
+     "sum_pct": -6.25,
+     "win": 0.225
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 207,
+     "mean_bp": -4.19,
+     "sum_pct": -8.67,
+     "win": 0.246
+    },
+    "holdout": {
+     "trades": 173,
+     "mean_bp": -5.01,
+     "sum_pct": -8.67,
+     "win": 0.22
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.98,
+    "holdout": -3.76
+   },
+   "random_x2_p95_bp": {
+    "dev": 9.05,
+    "holdout": 9.73
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|DE30m|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 132,
+     "mean_bp": 10.17,
+     "sum_pct": 13.43,
+     "win": 0.402
+    },
+    "holdout": {
+     "trades": 121,
+     "mean_bp": -0.98,
+     "sum_pct": -1.18,
+     "win": 0.339
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 132,
+     "mean_bp": 7.55,
+     "sum_pct": 9.96,
+     "win": 0.394
+    },
+    "holdout": {
+     "trades": 121,
+     "mean_bp": -1.77,
+     "sum_pct": -2.14,
+     "win": 0.339
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.38,
+    "holdout": -1.44
+   },
+   "random_x2_p95_bp": {
+    "dev": 9.9,
+    "holdout": 11.66
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|DE30m|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "DE30m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 41,
+     "mean_bp": -24.85,
+     "sum_pct": -10.19,
+     "win": 0.341
+    },
+    "holdout": {
+     "trades": 31,
+     "mean_bp": -49.57,
+     "sum_pct": -15.37,
+     "win": 0.323
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 41,
+     "mean_bp": -27.55,
+     "sum_pct": -11.3,
+     "win": 0.341
+    },
+    "holdout": {
+     "trades": 31,
+     "mean_bp": -51.11,
+     "sum_pct": -15.85,
+     "win": 0.323
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 4.12,
+    "holdout": -5.53
+   },
+   "random_x2_p95_bp": {
+    "dev": 52.57,
+    "holdout": 38.02
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G10|DE30m|15m": {
+   "theory": "G10",
+   "family": "meanrev",
+   "market": "DE30m",
+   "tf": "15m",
+   "x1": {
+    "dev": {
+     "trades": 901,
+     "mean_bp": -3.15,
+     "sum_pct": -28.41,
+     "win": 0.618
+    },
+    "holdout": {
+     "trades": 782,
+     "mean_bp": 0.48,
+     "sum_pct": 3.73,
+     "win": 0.661
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 901,
+     "mean_bp": -6.11,
+     "sum_pct": -55.09,
+     "win": 0.548
+    },
+    "holdout": {
+     "trades": 782,
+     "mean_bp": -0.78,
+     "sum_pct": -6.06,
+     "win": 0.63
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.55,
+    "holdout": -2.02
+   },
+   "random_x2_p95_bp": {
+    "dev": -3.21,
+    "holdout": 0.71
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
   },
   "A1|USOILm|1h": {
    "theory": "A1",
@@ -5987,7 +7483,7 @@
     "holdout": 45.08
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.5
   },
   "A13|USOILm|1h": {
    "theory": "A13",
@@ -6075,7 +7571,7 @@
     "holdout": 10.64
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "B1|USOILm|1h": {
    "theory": "B1",
@@ -6251,7 +7747,7 @@
     "holdout": 28.41
    },
    "verdict": "FAIL",
-   "secs": 0.8
+   "secs": 0.4
   },
   "B4|USOILm|1h": {
    "theory": "B4",
@@ -6427,7 +7923,7 @@
     "holdout": -1.9
    },
    "verdict": "FAIL",
-   "secs": 1.0
+   "secs": 0.9
   },
   "B8|USOILm|15m": {
    "theory": "B8",
@@ -6603,7 +8099,7 @@
     "holdout": 13.88
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "C2|USOILm|1h": {
    "theory": "C2",
@@ -6647,7 +8143,7 @@
     "holdout": 9.07
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "C3|USOILm|1h": {
    "theory": "C3",
@@ -6911,7 +8407,7 @@
     "holdout": 13.41
    },
    "verdict": "FAIL",
-   "secs": 8.7
+   "secs": 7.9
   },
   "D2|USOILm|15m": {
    "theory": "D2",
@@ -6955,7 +8451,7 @@
     "holdout": 9.81
    },
    "verdict": "FAIL",
-   "secs": 0.8
+   "secs": 0.5
   },
   "D3|USOILm|5m": {
    "theory": "D3",
@@ -7087,7 +8583,7 @@
     "holdout": 48.73
    },
    "verdict": "FAIL",
-   "secs": 0.3
+   "secs": 0.6
   },
   "E2|USOILm|1d": {
    "theory": "E2",
@@ -7219,7 +8715,7 @@
     "holdout": 312.05
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F2|USOILm|1h": {
    "theory": "F2",
@@ -7659,7 +9155,7 @@
     "holdout": 45.46
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "F8|USOILm|1h": {
    "theory": "F8",
@@ -7791,7 +9287,7 @@
     "holdout": 32.96
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "F10|USOILm|1d": {
    "theory": "F10",
@@ -7879,7 +9375,7 @@
     "holdout": 38.36
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "F12|USOILm|1h": {
    "theory": "F12",
@@ -7923,7 +9419,755 @@
     "holdout": 98.4
    },
    "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G1|USOILm|1m": {
+   "theory": "G1",
+   "family": "session",
+   "market": "USOILm",
+   "tf": "1m",
+   "x1": {
+    "dev": {
+     "trades": 240,
+     "mean_bp": -2.63,
+     "sum_pct": -6.32,
+     "win": 0.458
+    },
+    "holdout": {
+     "trades": 200,
+     "mean_bp": -3.85,
+     "sum_pct": -7.7,
+     "win": 0.47
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 240,
+     "mean_bp": -5.39,
+     "sum_pct": -12.94,
+     "win": 0.412
+    },
+    "holdout": {
+     "trades": 200,
+     "mean_bp": -6.27,
+     "sum_pct": -12.53,
+     "win": 0.46
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.73,
+    "holdout": -4.84
+   },
+   "random_x2_p95_bp": {
+    "dev": -2.49,
+    "holdout": 1.63
+   },
+   "verdict": "FAIL",
    "secs": 0.0
+  },
+  "G2|USOILm|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 109,
+     "mean_bp": 8.26,
+     "sum_pct": 9.01,
+     "win": 0.495
+    },
+    "holdout": {
+     "trades": 75,
+     "mean_bp": 21.0,
+     "sum_pct": 15.75,
+     "win": 0.533
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 109,
+     "mean_bp": 5.44,
+     "sum_pct": 5.93,
+     "win": 0.45
+    },
+    "holdout": {
+     "trades": 75,
+     "mean_bp": 18.43,
+     "sum_pct": 13.82,
+     "win": 0.533
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.98,
+    "holdout": -5.6
+   },
+   "random_x2_p95_bp": {
+    "dev": 12.75,
+    "holdout": 38.8
+   },
+   "verdict": "FAIL",
+   "secs": 0.2
+  },
+  "G3|USOILm|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 167,
+     "mean_bp": 0.46,
+     "sum_pct": 0.76,
+     "win": 0.341
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": -12.35,
+     "sum_pct": -17.41,
+     "win": 0.34
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 167,
+     "mean_bp": -2.37,
+     "sum_pct": -3.95,
+     "win": 0.329
+    },
+    "holdout": {
+     "trades": 141,
+     "mean_bp": -14.81,
+     "sum_pct": -20.88,
+     "win": 0.34
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.21,
+    "holdout": 3.45
+   },
+   "random_x2_p95_bp": {
+    "dev": 17.79,
+    "holdout": 47.49
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G3|USOILm|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 45,
+     "mean_bp": -16.18,
+     "sum_pct": -7.28,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 37,
+     "mean_bp": 23.57,
+     "sum_pct": 8.72,
+     "win": 0.351
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 45,
+     "mean_bp": -19.02,
+     "sum_pct": -8.56,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 37,
+     "mean_bp": 20.99,
+     "sum_pct": 7.77,
+     "win": 0.324
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.1,
+    "holdout": 34.49
+   },
+   "random_x2_p95_bp": {
+    "dev": 71.86,
+    "holdout": 199.4
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|USOILm|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 238,
+     "mean_bp": -1.23,
+     "sum_pct": -2.92,
+     "win": 0.382
+    },
+    "holdout": {
+     "trades": 199,
+     "mean_bp": 22.32,
+     "sum_pct": 44.41,
+     "win": 0.412
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 238,
+     "mean_bp": -4.09,
+     "sum_pct": -9.74,
+     "win": 0.374
+    },
+    "holdout": {
+     "trades": 199,
+     "mean_bp": 19.89,
+     "sum_pct": 39.59,
+     "win": 0.407
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.27,
+    "holdout": -1.64
+   },
+   "random_x2_p95_bp": {
+    "dev": 18.28,
+    "holdout": 47.06
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G4|USOILm|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": -35.97,
+     "sum_pct": -25.18,
+     "win": 0.343
+    },
+    "holdout": {
+     "trades": 43,
+     "mean_bp": 61.76,
+     "sum_pct": 26.56,
+     "win": 0.302
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": -38.86,
+     "sum_pct": -27.2,
+     "win": 0.343
+    },
+    "holdout": {
+     "trades": 43,
+     "mean_bp": 59.22,
+     "sum_pct": 25.46,
+     "win": 0.302
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.86,
+    "holdout": 3.03
+   },
+   "random_x2_p95_bp": {
+    "dev": 66.4,
+    "holdout": 183.58
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|USOILm|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 644,
+     "mean_bp": -6.19,
+     "sum_pct": -39.88,
+     "win": 0.334
+    },
+    "holdout": {
+     "trades": 507,
+     "mean_bp": -7.23,
+     "sum_pct": -36.68,
+     "win": 0.355
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 644,
+     "mean_bp": -9.08,
+     "sum_pct": -58.48,
+     "win": 0.318
+    },
+    "holdout": {
+     "trades": 507,
+     "mean_bp": -9.79,
+     "sum_pct": -49.62,
+     "win": 0.347
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -6.02,
+    "holdout": -4.01
+   },
+   "random_x2_p95_bp": {
+    "dev": 1.96,
+    "holdout": 14.05
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|USOILm|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": -0.82,
+     "sum_pct": -1.23,
+     "win": 0.313
+    },
+    "holdout": {
+     "trades": 125,
+     "mean_bp": -1.39,
+     "sum_pct": -1.74,
+     "win": 0.384
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": -3.75,
+     "sum_pct": -5.62,
+     "win": 0.3
+    },
+    "holdout": {
+     "trades": 125,
+     "mean_bp": -4.06,
+     "sum_pct": -5.07,
+     "win": 0.384
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.54,
+    "holdout": 2.63
+   },
+   "random_x2_p95_bp": {
+    "dev": 29.87,
+    "holdout": 70.95
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|USOILm|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 275,
+     "mean_bp": -7.08,
+     "sum_pct": -19.48,
+     "win": 0.393
+    },
+    "holdout": {
+     "trades": 239,
+     "mean_bp": 14.13,
+     "sum_pct": 33.76,
+     "win": 0.414
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 275,
+     "mean_bp": -9.92,
+     "sum_pct": -27.27,
+     "win": 0.385
+    },
+    "holdout": {
+     "trades": 239,
+     "mean_bp": 11.67,
+     "sum_pct": 27.88,
+     "win": 0.41
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.37,
+    "holdout": -3.58
+   },
+   "random_x2_p95_bp": {
+    "dev": 14.95,
+    "holdout": 33.32
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|USOILm|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 75,
+     "mean_bp": 5.25,
+     "sum_pct": 3.93,
+     "win": 0.347
+    },
+    "holdout": {
+     "trades": 63,
+     "mean_bp": -64.91,
+     "sum_pct": -40.89,
+     "win": 0.413
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 75,
+     "mean_bp": 2.35,
+     "sum_pct": 1.76,
+     "win": 0.347
+    },
+    "holdout": {
+     "trades": 63,
+     "mean_bp": -68.21,
+     "sum_pct": -42.97,
+     "win": 0.413
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -7.35,
+    "holdout": 4.22
+   },
+   "random_x2_p95_bp": {
+    "dev": 61.82,
+    "holdout": 149.23
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|USOILm|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 84,
+     "mean_bp": -10.54,
+     "sum_pct": -8.85,
+     "win": 0.345
+    },
+    "holdout": {
+     "trades": 71,
+     "mean_bp": -15.39,
+     "sum_pct": -10.93,
+     "win": 0.437
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 84,
+     "mean_bp": -13.49,
+     "sum_pct": -11.33,
+     "win": 0.345
+    },
+    "holdout": {
+     "trades": 71,
+     "mean_bp": -18.22,
+     "sum_pct": -12.94,
+     "win": 0.437
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -7.06,
+    "holdout": 3.28
+   },
+   "random_x2_p95_bp": {
+    "dev": 57.85,
+    "holdout": 118.59
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|USOILm|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 17,
+     "mean_bp": -264.08,
+     "sum_pct": -44.89,
+     "win": 0.235
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 383.9,
+     "sum_pct": 42.23,
+     "win": 0.455
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 17,
+     "mean_bp": -267.48,
+     "sum_pct": -45.47,
+     "win": 0.235
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 380.89,
+     "sum_pct": 41.9,
+     "win": 0.455
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -26.47,
+    "holdout": 56.99
+   },
+   "random_x2_p95_bp": {
+    "dev": 172.99,
+    "holdout": 824.81
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|USOILm|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 848,
+     "mean_bp": -6.74,
+     "sum_pct": -57.17,
+     "win": 0.236
+    },
+    "holdout": {
+     "trades": 688,
+     "mean_bp": -6.6,
+     "sum_pct": -45.38,
+     "win": 0.244
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 848,
+     "mean_bp": -9.55,
+     "sum_pct": -81.01,
+     "win": 0.224
+    },
+    "holdout": {
+     "trades": 688,
+     "mean_bp": -9.05,
+     "sum_pct": -62.27,
+     "win": 0.238
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.65,
+    "holdout": -4.17
+   },
+   "random_x2_p95_bp": {
+    "dev": -0.17,
+    "holdout": 8.88
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|USOILm|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 204,
+     "mean_bp": -4.58,
+     "sum_pct": -9.34,
+     "win": 0.289
+    },
+    "holdout": {
+     "trades": 191,
+     "mean_bp": -1.24,
+     "sum_pct": -2.37,
+     "win": 0.262
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 204,
+     "mean_bp": -7.44,
+     "sum_pct": -15.17,
+     "win": 0.27
+    },
+    "holdout": {
+     "trades": 191,
+     "mean_bp": -3.8,
+     "sum_pct": -7.26,
+     "win": 0.262
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.44,
+    "holdout": 0.38
+   },
+   "random_x2_p95_bp": {
+    "dev": 19.25,
+    "holdout": 44.49
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|USOILm|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 143,
+     "mean_bp": -6.37,
+     "sum_pct": -9.11,
+     "win": 0.322
+    },
+    "holdout": {
+     "trades": 124,
+     "mean_bp": -28.25,
+     "sum_pct": -35.03,
+     "win": 0.339
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 143,
+     "mean_bp": -9.22,
+     "sum_pct": -13.18,
+     "win": 0.308
+    },
+    "holdout": {
+     "trades": 124,
+     "mean_bp": -30.73,
+     "sum_pct": -38.1,
+     "win": 0.339
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.23,
+    "holdout": -5.44
+   },
+   "random_x2_p95_bp": {
+    "dev": 19.27,
+    "holdout": 45.84
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|USOILm|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "USOILm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 37,
+     "mean_bp": 33.05,
+     "sum_pct": 12.23,
+     "win": 0.378
+    },
+    "holdout": {
+     "trades": 28,
+     "mean_bp": -62.32,
+     "sum_pct": -17.45,
+     "win": 0.357
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 37,
+     "mean_bp": 30.13,
+     "sum_pct": 11.15,
+     "win": 0.378
+    },
+    "holdout": {
+     "trades": 28,
+     "mean_bp": -64.82,
+     "sum_pct": -18.15,
+     "win": 0.357
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 1.19,
+    "holdout": 29.09
+   },
+   "random_x2_p95_bp": {
+    "dev": 81.32,
+    "holdout": 239.38
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G10|USOILm|15m": {
+   "theory": "G10",
+   "family": "meanrev",
+   "market": "USOILm",
+   "tf": "15m",
+   "x1": {
+    "dev": {
+     "trades": 957,
+     "mean_bp": -2.43,
+     "sum_pct": -23.26,
+     "win": 0.639
+    },
+    "holdout": {
+     "trades": 782,
+     "mean_bp": 1.29,
+     "sum_pct": 10.08,
+     "win": 0.646
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 957,
+     "mean_bp": -5.35,
+     "sum_pct": -51.23,
+     "win": 0.606
+    },
+    "holdout": {
+     "trades": 782,
+     "mean_bp": -1.24,
+     "sum_pct": -9.72,
+     "win": 0.63
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -5.74,
+    "holdout": -6.11
+   },
+   "random_x2_p95_bp": {
+    "dev": -1.75,
+    "holdout": 2.43
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
   },
   "A1|US500m|1h": {
    "theory": "A1",
@@ -8583,7 +10827,7 @@
     "holdout": 7.79
    },
    "verdict": "FAIL",
-   "secs": 0.5
+   "secs": 0.3
   },
   "A13|US500m|1h": {
    "theory": "A13",
@@ -8847,7 +11091,7 @@
     "holdout": 6.26
    },
    "verdict": "FAIL",
-   "secs": 0.6
+   "secs": 0.4
   },
   "B4|US500m|1h": {
    "theory": "B4",
@@ -8891,7 +11135,7 @@
     "holdout": 4.35
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.3
   },
   "B5|US500m|1h": {
    "theory": "B5",
@@ -8935,7 +11179,7 @@
     "holdout": 4.31
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "B6|US500m|1h": {
    "theory": "B6",
@@ -9023,7 +11267,7 @@
     "holdout": -1.24
    },
    "verdict": "FAIL",
-   "secs": 1.1
+   "secs": 1.3
   },
   "B8|US500m|15m": {
    "theory": "B8",
@@ -9243,7 +11487,7 @@
     "holdout": 0.75
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "C3|US500m|1h": {
    "theory": "C3",
@@ -9507,7 +11751,7 @@
     "holdout": 3.43
    },
    "verdict": "FAIL",
-   "secs": 8.9
+   "secs": 8.2
   },
   "D2|US500m|15m": {
    "theory": "D2",
@@ -9551,7 +11795,7 @@
     "holdout": 1.02
    },
    "verdict": "FAIL",
-   "secs": 0.9
+   "secs": 0.5
   },
   "D3|US500m|5m": {
    "theory": "D3",
@@ -9595,7 +11839,7 @@
     "holdout": 1.04
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "D4|US500m|1h": {
    "theory": "D4",
@@ -9683,7 +11927,7 @@
     "holdout": 1.22
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "D6|US500m|1h": {
    "theory": "D6",
@@ -9903,7 +12147,7 @@
     "holdout": 11.92
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "F1|US500m|4h": {
    "theory": "F1",
@@ -10607,7 +12851,7 @@
     "holdout": 6.97
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F12|US500m|1h": {
    "theory": "F12",
@@ -10652,6 +12896,754 @@
    },
    "verdict": "FAIL",
    "secs": 0.0
+  },
+  "G1|US500m|1m": {
+   "theory": "G1",
+   "family": "session",
+   "market": "US500m",
+   "tf": "1m",
+   "x1": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -1.74,
+     "sum_pct": -4.12,
+     "win": 0.464
+    },
+    "holdout": {
+     "trades": 199,
+     "mean_bp": -1.81,
+     "sum_pct": -3.61,
+     "win": 0.437
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -2.64,
+     "sum_pct": -6.25,
+     "win": 0.447
+    },
+    "holdout": {
+     "trades": 199,
+     "mean_bp": -2.79,
+     "sum_pct": -5.55,
+     "win": 0.402
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.9,
+    "holdout": -1.82
+   },
+   "random_x2_p95_bp": {
+    "dev": -0.02,
+    "holdout": -0.33
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G2|US500m|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 99,
+     "mean_bp": -4.86,
+     "sum_pct": -4.81,
+     "win": 0.505
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -3.47,
+     "sum_pct": -3.02,
+     "win": 0.494
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 99,
+     "mean_bp": -5.81,
+     "sum_pct": -5.75,
+     "win": 0.495
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -4.47,
+     "sum_pct": -3.89,
+     "win": 0.471
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -2.11,
+    "holdout": -2.27
+   },
+   "random_x2_p95_bp": {
+    "dev": 8.36,
+    "holdout": 5.61
+   },
+   "verdict": "FAIL",
+   "secs": 0.3
+  },
+  "G3|US500m|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 189,
+     "mean_bp": -7.4,
+     "sum_pct": -13.99,
+     "win": 0.28
+    },
+    "holdout": {
+     "trades": 135,
+     "mean_bp": -7.75,
+     "sum_pct": -10.46,
+     "win": 0.333
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 189,
+     "mean_bp": -8.3,
+     "sum_pct": -15.68,
+     "win": 0.275
+    },
+    "holdout": {
+     "trades": 135,
+     "mean_bp": -8.7,
+     "sum_pct": -11.74,
+     "win": 0.326
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.01,
+    "holdout": -1.14
+   },
+   "random_x2_p95_bp": {
+    "dev": 12.79,
+    "holdout": 8.34
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G3|US500m|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 47,
+     "mean_bp": -8.14,
+     "sum_pct": -3.83,
+     "win": 0.319
+    },
+    "holdout": {
+     "trades": 50,
+     "mean_bp": -41.26,
+     "sum_pct": -20.63,
+     "win": 0.18
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 47,
+     "mean_bp": -9.14,
+     "sum_pct": -4.3,
+     "win": 0.319
+    },
+    "holdout": {
+     "trades": 50,
+     "mean_bp": -42.21,
+     "sum_pct": -21.1,
+     "win": 0.18
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 6.55,
+    "holdout": 0.82
+   },
+   "random_x2_p95_bp": {
+    "dev": 48.68,
+    "holdout": 24.1
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|US500m|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -11.79,
+     "sum_pct": -27.94,
+     "win": 0.346
+    },
+    "holdout": {
+     "trades": 166,
+     "mean_bp": -3.15,
+     "sum_pct": -5.22,
+     "win": 0.392
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -12.7,
+     "sum_pct": -30.1,
+     "win": 0.346
+    },
+    "holdout": {
+     "trades": 166,
+     "mean_bp": -4.12,
+     "sum_pct": -6.84,
+     "win": 0.392
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.86,
+    "holdout": -1.85
+   },
+   "random_x2_p95_bp": {
+    "dev": 10.89,
+    "holdout": 8.84
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G4|US500m|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 62,
+     "mean_bp": -9.65,
+     "sum_pct": -5.98,
+     "win": 0.323
+    },
+    "holdout": {
+     "trades": 56,
+     "mean_bp": -22.3,
+     "sum_pct": -12.49,
+     "win": 0.375
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 62,
+     "mean_bp": -10.57,
+     "sum_pct": -6.56,
+     "win": 0.323
+    },
+    "holdout": {
+     "trades": 56,
+     "mean_bp": -23.28,
+     "sum_pct": -13.04,
+     "win": 0.357
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 6.04,
+    "holdout": 1.21
+   },
+   "random_x2_p95_bp": {
+    "dev": 46.8,
+    "holdout": 34.01
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|US500m|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 606,
+     "mean_bp": 0.18,
+     "sum_pct": 1.08,
+     "win": 0.37
+    },
+    "holdout": {
+     "trades": 482,
+     "mean_bp": -3.72,
+     "sum_pct": -17.95,
+     "win": 0.355
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 606,
+     "mean_bp": -0.73,
+     "sum_pct": -4.42,
+     "win": 0.36
+    },
+    "holdout": {
+     "trades": 482,
+     "mean_bp": -4.66,
+     "sum_pct": -22.47,
+     "win": 0.349
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.36,
+    "holdout": -1.45
+   },
+   "random_x2_p95_bp": {
+    "dev": 4.03,
+    "holdout": 2.19
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|US500m|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 138,
+     "mean_bp": 4.83,
+     "sum_pct": 6.66,
+     "win": 0.341
+    },
+    "holdout": {
+     "trades": 122,
+     "mean_bp": -1.97,
+     "sum_pct": -2.4,
+     "win": 0.402
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 138,
+     "mean_bp": 3.89,
+     "sum_pct": 5.36,
+     "win": 0.341
+    },
+    "holdout": {
+     "trades": 122,
+     "mean_bp": -2.93,
+     "sum_pct": -3.57,
+     "win": 0.385
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 1.03,
+    "holdout": -0.34
+   },
+   "random_x2_p95_bp": {
+    "dev": 21.71,
+    "holdout": 15.43
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|US500m|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 298,
+     "mean_bp": -4.11,
+     "sum_pct": -12.26,
+     "win": 0.356
+    },
+    "holdout": {
+     "trades": 236,
+     "mean_bp": -3.6,
+     "sum_pct": -8.49,
+     "win": 0.39
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 298,
+     "mean_bp": -5.03,
+     "sum_pct": -14.98,
+     "win": 0.349
+    },
+    "holdout": {
+     "trades": 236,
+     "mean_bp": -4.56,
+     "sum_pct": -10.77,
+     "win": 0.39
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.83,
+    "holdout": -1.9
+   },
+   "random_x2_p95_bp": {
+    "dev": 8.15,
+    "holdout": 5.74
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|US500m|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": 23.49,
+     "sum_pct": 16.45,
+     "win": 0.443
+    },
+    "holdout": {
+     "trades": 72,
+     "mean_bp": -22.95,
+     "sum_pct": -16.52,
+     "win": 0.306
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": 22.56,
+     "sum_pct": 15.79,
+     "win": 0.443
+    },
+    "holdout": {
+     "trades": 72,
+     "mean_bp": -23.96,
+     "sum_pct": -17.25,
+     "win": 0.306
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.07,
+    "holdout": -3.16
+   },
+   "random_x2_p95_bp": {
+    "dev": 33.68,
+    "holdout": 20.98
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|US500m|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 91,
+     "mean_bp": 2.09,
+     "sum_pct": 1.9,
+     "win": 0.44
+    },
+    "holdout": {
+     "trades": 74,
+     "mean_bp": -27.21,
+     "sum_pct": -20.14,
+     "win": 0.257
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 91,
+     "mean_bp": 1.15,
+     "sum_pct": 1.05,
+     "win": 0.44
+    },
+    "holdout": {
+     "trades": 74,
+     "mean_bp": -28.19,
+     "sum_pct": -20.86,
+     "win": 0.257
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -3.28,
+    "holdout": -2.29
+   },
+   "random_x2_p95_bp": {
+    "dev": 25.19,
+    "holdout": 22.09
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|US500m|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 13,
+     "mean_bp": -209.09,
+     "sum_pct": -27.18,
+     "win": 0.308
+    },
+    "holdout": {
+     "trades": 8,
+     "mean_bp": 5.67,
+     "sum_pct": 0.45,
+     "win": 0.125
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 13,
+     "mean_bp": -210.39,
+     "sum_pct": -27.35,
+     "win": 0.231
+    },
+    "holdout": {
+     "trades": 8,
+     "mean_bp": 4.49,
+     "sum_pct": 0.36,
+     "win": 0.125
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -15.87,
+    "holdout": 4.9
+   },
+   "random_x2_p95_bp": {
+    "dev": 164.55,
+    "holdout": 205.21
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|US500m|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 796,
+     "mean_bp": 0.69,
+     "sum_pct": 5.53,
+     "win": 0.256
+    },
+    "holdout": {
+     "trades": 702,
+     "mean_bp": -3.78,
+     "sum_pct": -26.52,
+     "win": 0.226
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 796,
+     "mean_bp": -0.21,
+     "sum_pct": -1.69,
+     "win": 0.251
+    },
+    "holdout": {
+     "trades": 702,
+     "mean_bp": -4.75,
+     "sum_pct": -33.35,
+     "win": 0.218
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.64,
+    "holdout": -1.82
+   },
+   "random_x2_p95_bp": {
+    "dev": 2.37,
+    "holdout": 0.92
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|US500m|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 174,
+     "mean_bp": 0.07,
+     "sum_pct": 0.12,
+     "win": 0.264
+    },
+    "holdout": {
+     "trades": 196,
+     "mean_bp": -9.92,
+     "sum_pct": -19.44,
+     "win": 0.24
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 174,
+     "mean_bp": -0.83,
+     "sum_pct": -1.45,
+     "win": 0.264
+    },
+    "holdout": {
+     "trades": 196,
+     "mean_bp": -10.88,
+     "sum_pct": -21.33,
+     "win": 0.24
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.7,
+    "holdout": -1.42
+   },
+   "random_x2_p95_bp": {
+    "dev": 17.15,
+    "holdout": 8.47
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|US500m|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 154,
+     "mean_bp": -4.89,
+     "sum_pct": -7.53,
+     "win": 0.357
+    },
+    "holdout": {
+     "trades": 123,
+     "mean_bp": -9.62,
+     "sum_pct": -11.83,
+     "win": 0.293
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 154,
+     "mean_bp": -5.78,
+     "sum_pct": -8.91,
+     "win": 0.357
+    },
+    "holdout": {
+     "trades": 123,
+     "mean_bp": -10.59,
+     "sum_pct": -13.03,
+     "win": 0.285
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.42,
+    "holdout": -1.6
+   },
+   "random_x2_p95_bp": {
+    "dev": 13.16,
+    "holdout": 9.08
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|US500m|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "US500m",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 40,
+     "mean_bp": -38.42,
+     "sum_pct": -15.37,
+     "win": 0.375
+    },
+    "holdout": {
+     "trades": 37,
+     "mean_bp": -48.29,
+     "sum_pct": -17.87,
+     "win": 0.189
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 40,
+     "mean_bp": -39.31,
+     "sum_pct": -15.73,
+     "win": 0.375
+    },
+    "holdout": {
+     "trades": 37,
+     "mean_bp": -49.27,
+     "sum_pct": -18.23,
+     "win": 0.189
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 4.5,
+    "holdout": 0.59
+   },
+   "random_x2_p95_bp": {
+    "dev": 45.08,
+    "holdout": 27.0
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G10|US500m|15m": {
+   "theory": "G10",
+   "family": "meanrev",
+   "market": "US500m",
+   "tf": "15m",
+   "x1": {
+    "dev": {
+     "trades": 936,
+     "mean_bp": -0.84,
+     "sum_pct": -7.91,
+     "win": 0.627
+    },
+    "holdout": {
+     "trades": 795,
+     "mean_bp": -0.5,
+     "sum_pct": -3.95,
+     "win": 0.634
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 936,
+     "mean_bp": -1.77,
+     "sum_pct": -16.61,
+     "win": 0.616
+    },
+    "holdout": {
+     "trades": 795,
+     "mean_bp": -1.47,
+     "sum_pct": -11.65,
+     "win": 0.62
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.84,
+    "holdout": -1.77
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.72,
+    "holdout": 0.21
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
   },
   "A1|BTCUSDT|1h": {
    "theory": "A1",
@@ -11135,7 +14127,7 @@
     "holdout": 220.23
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "A9|BTCUSDT|4h": {
    "theory": "A9",
@@ -11223,7 +14215,7 @@
     "holdout": -17.03
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "A11|BTCUSDT|1d": {
    "theory": "A11",
@@ -11311,7 +14303,7 @@
     "holdout": 2.26
    },
    "verdict": "FAIL",
-   "secs": 0.5
+   "secs": 0.4
   },
   "A13|BTCUSDT|1h": {
    "theory": "A13",
@@ -11487,7 +14479,7 @@
     "holdout": -11.84
    },
    "verdict": "FAIL",
-   "secs": 0.6
+   "secs": 0.5
   },
   "B3|BTCUSDT|1h": {
    "theory": "B3",
@@ -11531,7 +14523,7 @@
     "holdout": -3.64
    },
    "verdict": "FAIL",
-   "secs": 0.6
+   "secs": 0.5
   },
   "B4|BTCUSDT|1h": {
    "theory": "B4",
@@ -12235,7 +15227,7 @@
     "holdout": -0.11
    },
    "verdict": "FAIL",
-   "secs": 0.5
+   "secs": 0.6
   },
   "E2|BTCUSDT|1d": {
    "theory": "E2",
@@ -12411,7 +15403,7 @@
     "holdout": 81.32
    },
    "verdict": "FAIL",
-   "secs": 0.0
+   "secs": 0.1
   },
   "F2|BTCUSDT|1h": {
    "theory": "F2",
@@ -13115,7 +16107,755 @@
     "holdout": 17.94
    },
    "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G2|BTCUSDT|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 157,
+     "mean_bp": -26.14,
+     "sum_pct": -41.03,
+     "win": 0.401
+    },
+    "holdout": {
+     "trades": 130,
+     "mean_bp": 10.65,
+     "sum_pct": 13.85,
+     "win": 0.454
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 157,
+     "mean_bp": -36.16,
+     "sum_pct": -56.77,
+     "win": 0.376
+    },
+    "holdout": {
+     "trades": 130,
+     "mean_bp": 0.64,
+     "sum_pct": 0.83,
+     "win": 0.423
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.21,
+    "holdout": -21.59
+   },
+   "random_x2_p95_bp": {
+    "dev": -0.94,
+    "holdout": 3.2
+   },
+   "verdict": "FAIL",
+   "secs": 0.2
+  },
+  "G3|BTCUSDT|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 251,
+     "mean_bp": -15.39,
+     "sum_pct": -38.63,
+     "win": 0.299
+    },
+    "holdout": {
+     "trades": 205,
+     "mean_bp": 6.11,
+     "sum_pct": 12.52,
+     "win": 0.351
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 251,
+     "mean_bp": -25.39,
+     "sum_pct": -63.74,
+     "win": 0.283
+    },
+    "holdout": {
+     "trades": 205,
+     "mean_bp": -3.9,
+     "sum_pct": -7.99,
+     "win": 0.337
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.04,
+    "holdout": -18.61
+   },
+   "random_x2_p95_bp": {
+    "dev": -2.99,
+    "holdout": 1.1
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G3|BTCUSDT|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 59,
+     "mean_bp": -5.91,
+     "sum_pct": -3.49,
+     "win": 0.407
+    },
+    "holdout": {
+     "trades": 55,
+     "mean_bp": 5.55,
+     "sum_pct": 3.06,
+     "win": 0.291
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 59,
+     "mean_bp": -15.89,
+     "sum_pct": -9.38,
+     "win": 0.39
+    },
+    "holdout": {
+     "trades": 55,
+     "mean_bp": -4.45,
+     "sum_pct": -2.45,
+     "win": 0.273
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.72,
+    "holdout": -21.99
+   },
+   "random_x2_p95_bp": {
+    "dev": 52.06,
+    "holdout": 56.45
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|BTCUSDT|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 394,
+     "mean_bp": -18.5,
+     "sum_pct": -72.9,
+     "win": 0.32
+    },
+    "holdout": {
+     "trades": 319,
+     "mean_bp": 1.9,
+     "sum_pct": 6.07,
+     "win": 0.361
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 394,
+     "mean_bp": -28.5,
+     "sum_pct": -112.3,
+     "win": 0.282
+    },
+    "holdout": {
+     "trades": 319,
+     "mean_bp": -8.1,
+     "sum_pct": -25.83,
+     "win": 0.345
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.24,
+    "holdout": -19.59
+   },
+   "random_x2_p95_bp": {
+    "dev": -4.51,
+    "holdout": -1.96
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|BTCUSDT|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 106,
+     "mean_bp": -36.96,
+     "sum_pct": -39.18,
+     "win": 0.34
+    },
+    "holdout": {
+     "trades": 79,
+     "mean_bp": -54.92,
+     "sum_pct": -43.39,
+     "win": 0.291
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 106,
+     "mean_bp": -46.96,
+     "sum_pct": -49.78,
+     "win": 0.33
+    },
+    "holdout": {
+     "trades": 79,
+     "mean_bp": -64.91,
+     "sum_pct": -51.28,
+     "win": 0.278
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.5,
+    "holdout": -20.7
+   },
+   "random_x2_p95_bp": {
+    "dev": 42.91,
+    "holdout": 62.48
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|BTCUSDT|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 928,
+     "mean_bp": -8.13,
+     "sum_pct": -75.42,
+     "win": 0.283
+    },
+    "holdout": {
+     "trades": 800,
+     "mean_bp": -8.01,
+     "sum_pct": -64.05,
+     "win": 0.282
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 928,
+     "mean_bp": -18.13,
+     "sum_pct": -168.22,
+     "win": 0.23
+    },
+    "holdout": {
+     "trades": 800,
+     "mean_bp": -18.01,
+     "sum_pct": -144.05,
+     "win": 0.229
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.13,
+    "holdout": -20.11
+   },
+   "random_x2_p95_bp": {
+    "dev": -12.11,
+    "holdout": -12.2
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|BTCUSDT|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 248,
+     "mean_bp": -15.23,
+     "sum_pct": -37.77,
+     "win": 0.31
+    },
+    "holdout": {
+     "trades": 177,
+     "mean_bp": -2.32,
+     "sum_pct": -4.11,
+     "win": 0.328
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 248,
+     "mean_bp": -25.23,
+     "sum_pct": -62.57,
+     "win": 0.286
+    },
+    "holdout": {
+     "trades": 177,
+     "mean_bp": -12.32,
+     "sum_pct": -21.8,
+     "win": 0.311
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.41,
+    "holdout": -20.21
+   },
+   "random_x2_p95_bp": {
+    "dev": 7.95,
+    "holdout": 17.78
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|BTCUSDT|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 429,
+     "mean_bp": -21.75,
+     "sum_pct": -93.33,
+     "win": 0.347
+    },
+    "holdout": {
+     "trades": 350,
+     "mean_bp": 1.25,
+     "sum_pct": 4.39,
+     "win": 0.377
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 429,
+     "mean_bp": -31.75,
+     "sum_pct": -136.23,
+     "win": 0.336
+    },
+    "holdout": {
+     "trades": 350,
+     "mean_bp": -8.75,
+     "sum_pct": -30.61,
+     "win": 0.36
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.78,
+    "holdout": -18.61
+   },
+   "random_x2_p95_bp": {
+    "dev": -4.03,
+    "holdout": -1.93
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|BTCUSDT|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 104,
+     "mean_bp": 22.69,
+     "sum_pct": 23.6,
+     "win": 0.385
+    },
+    "holdout": {
+     "trades": 88,
+     "mean_bp": -13.27,
+     "sum_pct": -11.68,
+     "win": 0.375
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 104,
+     "mean_bp": 12.69,
+     "sum_pct": 13.2,
+     "win": 0.385
+    },
+    "holdout": {
+     "trades": 88,
+     "mean_bp": -23.27,
+     "sum_pct": -20.47,
+     "win": 0.375
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -24.91,
+    "holdout": -24.02
+   },
+   "random_x2_p95_bp": {
+    "dev": 34.42,
+    "holdout": 56.36
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|BTCUSDT|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 113,
+     "mean_bp": -2.05,
+     "sum_pct": -2.31,
+     "win": 0.381
+    },
+    "holdout": {
+     "trades": 106,
+     "mean_bp": -4.12,
+     "sum_pct": -4.37,
+     "win": 0.368
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 113,
+     "mean_bp": -12.05,
+     "sum_pct": -13.61,
+     "win": 0.372
+    },
+    "holdout": {
+     "trades": 106,
+     "mean_bp": -14.12,
+     "sum_pct": -14.97,
+     "win": 0.358
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.43,
+    "holdout": -19.11
+   },
+   "random_x2_p95_bp": {
+    "dev": 27.31,
+    "holdout": 44.7
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|BTCUSDT|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 21,
+     "mean_bp": 39.86,
+     "sum_pct": 8.37,
+     "win": 0.333
+    },
+    "holdout": {
+     "trades": 14,
+     "mean_bp": 347.42,
+     "sum_pct": 48.64,
+     "win": 0.571
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 21,
+     "mean_bp": 29.86,
+     "sum_pct": 6.27,
+     "win": 0.333
+    },
+    "holdout": {
+     "trades": 14,
+     "mean_bp": 337.41,
+     "sum_pct": 47.24,
+     "win": 0.571
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -18.05,
+    "holdout": -1.8
+   },
+   "random_x2_p95_bp": {
+    "dev": 244.57,
+    "holdout": 445.85
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|BTCUSDT|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 1260,
+     "mean_bp": -9.33,
+     "sum_pct": -117.54,
+     "win": 0.214
+    },
+    "holdout": {
+     "trades": 1024,
+     "mean_bp": -9.83,
+     "sum_pct": -100.67,
+     "win": 0.207
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 1260,
+     "mean_bp": -19.33,
+     "sum_pct": -243.54,
+     "win": 0.193
+    },
+    "holdout": {
+     "trades": 1024,
+     "mean_bp": -19.83,
+     "sum_pct": -203.07,
+     "win": 0.194
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.86,
+    "holdout": -19.92
+   },
+   "random_x2_p95_bp": {
+    "dev": -14.76,
+    "holdout": -14.03
+   },
+   "verdict": "FAIL",
    "secs": 0.1
+  },
+  "G8|BTCUSDT|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 337,
+     "mean_bp": -21.53,
+     "sum_pct": -72.57,
+     "win": 0.211
+    },
+    "holdout": {
+     "trades": 253,
+     "mean_bp": 0.22,
+     "sum_pct": 0.54,
+     "win": 0.269
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 337,
+     "mean_bp": -31.53,
+     "sum_pct": -106.27,
+     "win": 0.202
+    },
+    "holdout": {
+     "trades": 253,
+     "mean_bp": -9.78,
+     "sum_pct": -24.75,
+     "win": 0.237
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.99,
+    "holdout": -19.85
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.42,
+    "holdout": 4.55
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|BTCUSDT|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 196,
+     "mean_bp": -19.07,
+     "sum_pct": -37.37,
+     "win": 0.311
+    },
+    "holdout": {
+     "trades": 158,
+     "mean_bp": 10.19,
+     "sum_pct": 16.1,
+     "win": 0.38
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 196,
+     "mean_bp": -29.06,
+     "sum_pct": -56.97,
+     "win": 0.27
+    },
+    "holdout": {
+     "trades": 158,
+     "mean_bp": 0.19,
+     "sum_pct": 0.3,
+     "win": 0.361
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.57,
+    "holdout": -21.37
+   },
+   "random_x2_p95_bp": {
+    "dev": 3.74,
+    "holdout": 4.95
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|BTCUSDT|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "BTCUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 53,
+     "mean_bp": -101.0,
+     "sum_pct": -53.53,
+     "win": 0.245
+    },
+    "holdout": {
+     "trades": 40,
+     "mean_bp": 22.2,
+     "sum_pct": 8.88,
+     "win": 0.25
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 53,
+     "mean_bp": -111.0,
+     "sum_pct": -58.83,
+     "win": 0.245
+    },
+    "holdout": {
+     "trades": 40,
+     "mean_bp": 12.21,
+     "sum_pct": 4.88,
+     "win": 0.25
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -16.18,
+    "holdout": -18.46
+   },
+   "random_x2_p95_bp": {
+    "dev": 49.58,
+    "holdout": 82.02
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G13|BTCUSDT|1h": {
+   "theory": "G13",
+   "family": "calendar",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 365,
+     "mean_bp": -1.62,
+     "sum_pct": -5.93,
+     "win": 0.438
+    },
+    "holdout": {
+     "trades": 313,
+     "mean_bp": -10.55,
+     "sum_pct": -33.04,
+     "win": 0.374
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 365,
+     "mean_bp": -11.63,
+     "sum_pct": -42.44,
+     "win": 0.364
+    },
+    "holdout": {
+     "trades": 313,
+     "mean_bp": -20.55,
+     "sum_pct": -64.34,
+     "win": 0.259
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.98,
+    "holdout": -19.96
+   },
+   "random_x2_p95_bp": {
+    "dev": -14.32,
+    "holdout": -14.37
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G14|BTCUSDT|1h": {
+   "theory": "G14",
+   "family": "calendar",
+   "market": "BTCUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 52,
+     "mean_bp": -12.17,
+     "sum_pct": -6.33,
+     "win": 0.538
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": 48.56,
+     "sum_pct": 21.37,
+     "win": 0.523
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 52,
+     "mean_bp": -22.16,
+     "sum_pct": -11.53,
+     "win": 0.5
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": 38.53,
+     "sum_pct": 16.95,
+     "win": 0.523
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -17.67,
+    "holdout": -20.43
+   },
+   "random_x2_p95_bp": {
+    "dev": 26.91,
+    "holdout": 34.42
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
   },
   "A1|ETHUSDT|1h": {
    "theory": "A1",
@@ -13643,7 +17383,7 @@
     "holdout": 91.66
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.2
   },
   "A10|ETHUSDT|1h": {
    "theory": "A10",
@@ -13775,7 +17515,7 @@
     "holdout": 8.7
    },
    "verdict": "FAIL",
-   "secs": 0.7
+   "secs": 0.4
   },
   "A13|ETHUSDT|1h": {
    "theory": "A13",
@@ -13819,7 +17559,7 @@
     "holdout": 5.18
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "B1|ETHUSDT|1h": {
    "theory": "B1",
@@ -14303,7 +18043,7 @@
     "holdout": -11.47
    },
    "verdict": "FAIL",
-   "secs": 0.2
+   "secs": 0.1
   },
   "C3|ETHUSDT|1h": {
    "theory": "C3",
@@ -14875,7 +18615,7 @@
     "holdout": 111.77
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F2|ETHUSDT|1h": {
    "theory": "F2",
@@ -14919,7 +18659,7 @@
     "holdout": -8.09
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F2|ETHUSDT|4h": {
    "theory": "F2",
@@ -15095,7 +18835,7 @@
     "holdout": -4.95
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F4|ETHUSDT|4h": {
    "theory": "F4",
@@ -15577,6 +19317,754 @@
    "random_x2_p95_bp": {
     "dev": 43.09,
     "holdout": 33.95
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G2|ETHUSDT|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": -16.3,
+     "sum_pct": -24.45,
+     "win": 0.433
+    },
+    "holdout": {
+     "trades": 143,
+     "mean_bp": 3.37,
+     "sum_pct": 4.81,
+     "win": 0.42
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 150,
+     "mean_bp": -26.33,
+     "sum_pct": -39.49,
+     "win": 0.427
+    },
+    "holdout": {
+     "trades": 143,
+     "mean_bp": -6.66,
+     "sum_pct": -9.52,
+     "win": 0.399
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -21.23,
+    "holdout": -21.96
+   },
+   "random_x2_p95_bp": {
+    "dev": 12.7,
+    "holdout": 3.77
+   },
+   "verdict": "FAIL",
+   "secs": 0.2
+  },
+  "G3|ETHUSDT|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 259,
+     "mean_bp": -10.49,
+     "sum_pct": -27.16,
+     "win": 0.293
+    },
+    "holdout": {
+     "trades": 201,
+     "mean_bp": 3.39,
+     "sum_pct": 6.81,
+     "win": 0.264
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 259,
+     "mean_bp": -20.49,
+     "sum_pct": -53.06,
+     "win": 0.274
+    },
+    "holdout": {
+     "trades": 201,
+     "mean_bp": -6.61,
+     "sum_pct": -13.29,
+     "win": 0.249
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.96,
+    "holdout": -18.57
+   },
+   "random_x2_p95_bp": {
+    "dev": 11.84,
+    "holdout": 8.94
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G3|ETHUSDT|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 55,
+     "mean_bp": 66.68,
+     "sum_pct": 36.67,
+     "win": 0.364
+    },
+    "holdout": {
+     "trades": 46,
+     "mean_bp": -0.15,
+     "sum_pct": -0.07,
+     "win": 0.261
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 55,
+     "mean_bp": 56.65,
+     "sum_pct": 31.15,
+     "win": 0.327
+    },
+    "holdout": {
+     "trades": 46,
+     "mean_bp": -10.16,
+     "sum_pct": -4.67,
+     "win": 0.261
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -18.3,
+    "holdout": -18.7
+   },
+   "random_x2_p95_bp": {
+    "dev": 117.77,
+    "holdout": 102.7
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|ETHUSDT|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 391,
+     "mean_bp": -24.11,
+     "sum_pct": -94.25,
+     "win": 0.345
+    },
+    "holdout": {
+     "trades": 322,
+     "mean_bp": 17.55,
+     "sum_pct": 56.52,
+     "win": 0.41
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 391,
+     "mean_bp": -34.11,
+     "sum_pct": -133.36,
+     "win": 0.325
+    },
+    "holdout": {
+     "trades": 322,
+     "mean_bp": 7.56,
+     "sum_pct": 24.33,
+     "win": 0.366
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.55,
+    "holdout": -19.97
+   },
+   "random_x2_p95_bp": {
+    "dev": 9.09,
+    "holdout": 6.91
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G4|ETHUSDT|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 96,
+     "mean_bp": -14.31,
+     "sum_pct": -13.74,
+     "win": 0.365
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -44.99,
+     "sum_pct": -39.14,
+     "win": 0.322
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 96,
+     "mean_bp": -24.32,
+     "sum_pct": -23.35,
+     "win": 0.365
+    },
+    "holdout": {
+     "trades": 87,
+     "mean_bp": -54.98,
+     "sum_pct": -47.83,
+     "win": 0.299
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -17.32,
+    "holdout": -16.98
+   },
+   "random_x2_p95_bp": {
+    "dev": 112.99,
+    "holdout": 79.23
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|ETHUSDT|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 956,
+     "mean_bp": -2.46,
+     "sum_pct": -23.51,
+     "win": 0.305
+    },
+    "holdout": {
+     "trades": 855,
+     "mean_bp": -1.16,
+     "sum_pct": -9.9,
+     "win": 0.305
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 956,
+     "mean_bp": -12.46,
+     "sum_pct": -119.12,
+     "win": 0.267
+    },
+    "holdout": {
+     "trades": 855,
+     "mean_bp": -11.16,
+     "sum_pct": -95.39,
+     "win": 0.261
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.74,
+    "holdout": -20.2
+   },
+   "random_x2_p95_bp": {
+    "dev": -7.07,
+    "holdout": -9.62
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|ETHUSDT|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 242,
+     "mean_bp": -4.81,
+     "sum_pct": -11.63,
+     "win": 0.351
+    },
+    "holdout": {
+     "trades": 197,
+     "mean_bp": -27.32,
+     "sum_pct": -53.81,
+     "win": 0.249
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 242,
+     "mean_bp": -14.81,
+     "sum_pct": -35.83,
+     "win": 0.326
+    },
+    "holdout": {
+     "trades": 197,
+     "mean_bp": -37.31,
+     "sum_pct": -73.5,
+     "win": 0.228
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.91,
+    "holdout": -21.44
+   },
+   "random_x2_p95_bp": {
+    "dev": 34.71,
+    "holdout": 27.53
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|ETHUSDT|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 411,
+     "mean_bp": -29.08,
+     "sum_pct": -119.52,
+     "win": 0.345
+    },
+    "holdout": {
+     "trades": 354,
+     "mean_bp": -3.68,
+     "sum_pct": -13.03,
+     "win": 0.353
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 411,
+     "mean_bp": -39.08,
+     "sum_pct": -160.62,
+     "win": 0.338
+    },
+    "holdout": {
+     "trades": 354,
+     "mean_bp": -13.68,
+     "sum_pct": -48.42,
+     "win": 0.339
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.07,
+    "holdout": -20.19
+   },
+   "random_x2_p95_bp": {
+    "dev": 11.65,
+    "holdout": 4.91
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|ETHUSDT|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 106,
+     "mean_bp": 14.39,
+     "sum_pct": 15.26,
+     "win": 0.387
+    },
+    "holdout": {
+     "trades": 86,
+     "mean_bp": -53.11,
+     "sum_pct": -45.67,
+     "win": 0.291
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 106,
+     "mean_bp": 4.38,
+     "sum_pct": 4.64,
+     "win": 0.387
+    },
+    "holdout": {
+     "trades": 86,
+     "mean_bp": -63.1,
+     "sum_pct": -54.26,
+     "win": 0.291
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -25.77,
+    "holdout": -20.84
+   },
+   "random_x2_p95_bp": {
+    "dev": 91.58,
+    "holdout": 77.52
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|ETHUSDT|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 102,
+     "mean_bp": 56.05,
+     "sum_pct": 57.17,
+     "win": 0.461
+    },
+    "holdout": {
+     "trades": 96,
+     "mean_bp": -38.73,
+     "sum_pct": -37.18,
+     "win": 0.344
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 102,
+     "mean_bp": 46.04,
+     "sum_pct": 46.96,
+     "win": 0.461
+    },
+    "holdout": {
+     "trades": 96,
+     "mean_bp": -48.72,
+     "sum_pct": -46.77,
+     "win": 0.344
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.89,
+    "holdout": -18.08
+   },
+   "random_x2_p95_bp": {
+    "dev": 90.67,
+    "holdout": 66.34
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|ETHUSDT|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 16,
+     "mean_bp": -50.87,
+     "sum_pct": -8.14,
+     "win": 0.312
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 540.01,
+     "sum_pct": 59.4,
+     "win": 0.636
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 16,
+     "mean_bp": -60.99,
+     "sum_pct": -9.76,
+     "win": 0.25
+    },
+    "holdout": {
+     "trades": 11,
+     "mean_bp": 530.1,
+     "sum_pct": 58.31,
+     "win": 0.636
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -63.95,
+    "holdout": -93.77
+   },
+   "random_x2_p95_bp": {
+    "dev": 737.53,
+    "holdout": 682.22
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|ETHUSDT|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 1270,
+     "mean_bp": -3.68,
+     "sum_pct": -46.69,
+     "win": 0.222
+    },
+    "holdout": {
+     "trades": 1108,
+     "mean_bp": -5.86,
+     "sum_pct": -64.9,
+     "win": 0.21
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 1270,
+     "mean_bp": -13.68,
+     "sum_pct": -173.7,
+     "win": 0.209
+    },
+    "holdout": {
+     "trades": 1108,
+     "mean_bp": -15.86,
+     "sum_pct": -175.69,
+     "win": 0.196
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.65,
+    "holdout": -20.11
+   },
+   "random_x2_p95_bp": {
+    "dev": -9.61,
+    "holdout": -12.35
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|ETHUSDT|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 335,
+     "mean_bp": -29.62,
+     "sum_pct": -99.24,
+     "win": 0.215
+    },
+    "holdout": {
+     "trades": 269,
+     "mean_bp": 2.69,
+     "sum_pct": 7.23,
+     "win": 0.234
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 335,
+     "mean_bp": -39.63,
+     "sum_pct": -132.75,
+     "win": 0.206
+    },
+    "holdout": {
+     "trades": 269,
+     "mean_bp": -7.31,
+     "sum_pct": -19.67,
+     "win": 0.227
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -23.81,
+    "holdout": -20.51
+   },
+   "random_x2_p95_bp": {
+    "dev": 10.7,
+    "holdout": 14.22
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|ETHUSDT|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 184,
+     "mean_bp": 11.72,
+     "sum_pct": 21.57,
+     "win": 0.299
+    },
+    "holdout": {
+     "trades": 155,
+     "mean_bp": 27.58,
+     "sum_pct": 42.76,
+     "win": 0.355
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 184,
+     "mean_bp": 1.71,
+     "sum_pct": 3.15,
+     "win": 0.293
+    },
+    "holdout": {
+     "trades": 155,
+     "mean_bp": 17.59,
+     "sum_pct": 27.27,
+     "win": 0.329
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -20.26,
+    "holdout": -19.98
+   },
+   "random_x2_p95_bp": {
+    "dev": 21.19,
+    "holdout": 13.59
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|ETHUSDT|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "ETHUSDT",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 46,
+     "mean_bp": 4.63,
+     "sum_pct": 2.13,
+     "win": 0.348
+    },
+    "holdout": {
+     "trades": 35,
+     "mean_bp": 55.54,
+     "sum_pct": 19.44,
+     "win": 0.343
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 46,
+     "mean_bp": -5.43,
+     "sum_pct": -2.5,
+     "win": 0.348
+    },
+    "holdout": {
+     "trades": 35,
+     "mean_bp": 45.59,
+     "sum_pct": 15.96,
+     "win": 0.343
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -9.39,
+    "holdout": -18.33
+   },
+   "random_x2_p95_bp": {
+    "dev": 170.09,
+    "holdout": 116.65
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G13|ETHUSDT|1h": {
+   "theory": "G13",
+   "family": "calendar",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 365,
+     "mean_bp": 3.69,
+     "sum_pct": 13.48,
+     "win": 0.485
+    },
+    "holdout": {
+     "trades": 313,
+     "mean_bp": -8.8,
+     "sum_pct": -27.54,
+     "win": 0.393
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 365,
+     "mean_bp": -6.31,
+     "sum_pct": -23.04,
+     "win": 0.436
+    },
+    "holdout": {
+     "trades": 313,
+     "mean_bp": -18.8,
+     "sum_pct": -58.84,
+     "win": 0.316
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -19.17,
+    "holdout": -20.46
+   },
+   "random_x2_p95_bp": {
+    "dev": -9.32,
+    "holdout": -13.21
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G14|ETHUSDT|1h": {
+   "theory": "G14",
+   "family": "calendar",
+   "market": "ETHUSDT",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 52,
+     "mean_bp": -63.8,
+     "sum_pct": -33.17,
+     "win": 0.481
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": 82.45,
+     "sum_pct": 36.28,
+     "win": 0.545
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 52,
+     "mean_bp": -73.77,
+     "sum_pct": -38.36,
+     "win": 0.462
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": 72.4,
+     "sum_pct": 31.86,
+     "win": 0.545
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -14.51,
+    "holdout": -27.9
+   },
+   "random_x2_p95_bp": {
+    "dev": 71.24,
+    "holdout": 37.73
    },
    "verdict": "FAIL",
    "secs": 0.0
@@ -16239,7 +20727,7 @@
     "holdout": 17.87
    },
    "verdict": "FAIL",
-   "secs": 0.5
+   "secs": 0.3
   },
   "A13|USTECm|1h": {
    "theory": "A13",
@@ -16459,7 +20947,7 @@
     "holdout": 5.49
    },
    "verdict": "FAIL",
-   "secs": 0.5
+   "secs": 0.3
   },
   "B3|USTECm|1h": {
    "theory": "B3",
@@ -16679,7 +21167,7 @@
     "holdout": -0.27
    },
    "verdict": "PASS",
-   "secs": 0.8
+   "secs": 0.6
   },
   "B8|USTECm|15m": {
    "theory": "B8",
@@ -17163,7 +21651,7 @@
     "holdout": 6.1
    },
    "verdict": "FAIL",
-   "secs": 6.9
+   "secs": 6.2
   },
   "D2|USTECm|15m": {
    "theory": "D2",
@@ -17207,7 +21695,7 @@
     "holdout": 3.42
    },
    "verdict": "FAIL",
-   "secs": 0.4
+   "secs": 0.5
   },
   "D3|USTECm|5m": {
    "theory": "D3",
@@ -18263,7 +22751,7 @@
     "holdout": 16.32
    },
    "verdict": "FAIL",
-   "secs": 0.1
+   "secs": 0.0
   },
   "F12|USTECm|1h": {
    "theory": "F12",
@@ -18308,6 +22796,754 @@
    },
    "verdict": "FAIL",
    "secs": 0.0
+  },
+  "G1|USTECm|1m": {
+   "theory": "G1",
+   "family": "session",
+   "market": "USTECm",
+   "tf": "1m",
+   "x1": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -1.46,
+     "sum_pct": -3.45,
+     "win": 0.456
+    },
+    "holdout": {
+     "trades": 192,
+     "mean_bp": 0.9,
+     "sum_pct": 1.72,
+     "win": 0.484
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 237,
+     "mean_bp": -2.24,
+     "sum_pct": -5.3,
+     "win": 0.426
+    },
+    "holdout": {
+     "trades": 192,
+     "mean_bp": 0.15,
+     "sum_pct": 0.29,
+     "win": 0.469
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.57,
+    "holdout": -1.37
+   },
+   "random_x2_p95_bp": {
+    "dev": 0.64,
+    "holdout": 0.7
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G2|USTECm|1h": {
+   "theory": "G2",
+   "family": "session",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 96,
+     "mean_bp": 5.49,
+     "sum_pct": 5.27,
+     "win": 0.479
+    },
+    "holdout": {
+     "trades": 88,
+     "mean_bp": -9.64,
+     "sum_pct": -8.48,
+     "win": 0.455
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 96,
+     "mean_bp": 4.65,
+     "sum_pct": 4.46,
+     "win": 0.479
+    },
+    "holdout": {
+     "trades": 88,
+     "mean_bp": -10.45,
+     "sum_pct": -9.2,
+     "win": 0.443
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -2.41,
+    "holdout": -1.88
+   },
+   "random_x2_p95_bp": {
+    "dev": 11.32,
+    "holdout": 10.26
+   },
+   "verdict": "FAIL",
+   "secs": 0.2
+  },
+  "G3|USTECm|1h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 178,
+     "mean_bp": -7.02,
+     "sum_pct": -12.49,
+     "win": 0.309
+    },
+    "holdout": {
+     "trades": 144,
+     "mean_bp": -11.58,
+     "sum_pct": -16.68,
+     "win": 0.333
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 178,
+     "mean_bp": -7.82,
+     "sum_pct": -13.92,
+     "win": 0.303
+    },
+    "holdout": {
+     "trades": 144,
+     "mean_bp": -12.34,
+     "sum_pct": -17.77,
+     "win": 0.326
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.39,
+    "holdout": -0.41
+   },
+   "random_x2_p95_bp": {
+    "dev": 14.39,
+    "holdout": 15.63
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G3|USTECm|4h": {
+   "theory": "G3",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 50,
+     "mean_bp": -10.15,
+     "sum_pct": -5.07,
+     "win": 0.32
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": -21.51,
+     "sum_pct": -9.46,
+     "win": 0.25
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 50,
+     "mean_bp": -11.01,
+     "sum_pct": -5.51,
+     "win": 0.32
+    },
+    "holdout": {
+     "trades": 44,
+     "mean_bp": -22.26,
+     "sum_pct": -9.8,
+     "win": 0.25
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 9.36,
+    "holdout": 1.23
+   },
+   "random_x2_p95_bp": {
+    "dev": 60.73,
+    "holdout": 49.6
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|USTECm|1h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 245,
+     "mean_bp": -20.85,
+     "sum_pct": -51.09,
+     "win": 0.331
+    },
+    "holdout": {
+     "trades": 162,
+     "mean_bp": 5.7,
+     "sum_pct": 9.23,
+     "win": 0.407
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 245,
+     "mean_bp": -21.67,
+     "sum_pct": -53.1,
+     "win": 0.322
+    },
+    "holdout": {
+     "trades": 162,
+     "mean_bp": 4.93,
+     "sum_pct": 7.99,
+     "win": 0.407
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.57,
+    "holdout": -1.68
+   },
+   "random_x2_p95_bp": {
+    "dev": 13.97,
+    "holdout": 16.98
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G4|USTECm|4h": {
+   "theory": "G4",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 62,
+     "mean_bp": -2.1,
+     "sum_pct": -1.3,
+     "win": 0.339
+    },
+    "holdout": {
+     "trades": 47,
+     "mean_bp": 8.82,
+     "sum_pct": 4.14,
+     "win": 0.468
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 62,
+     "mean_bp": -2.91,
+     "sum_pct": -1.81,
+     "win": 0.323
+    },
+    "holdout": {
+     "trades": 47,
+     "mean_bp": 8.02,
+     "sum_pct": 3.77,
+     "win": 0.447
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 4.75,
+    "holdout": -0.5
+   },
+   "random_x2_p95_bp": {
+    "dev": 66.7,
+    "holdout": 64.06
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|USTECm|1h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 612,
+     "mean_bp": -1.51,
+     "sum_pct": -9.27,
+     "win": 0.343
+    },
+    "holdout": {
+     "trades": 506,
+     "mean_bp": -5.74,
+     "sum_pct": -29.04,
+     "win": 0.35
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 612,
+     "mean_bp": -2.33,
+     "sum_pct": -14.23,
+     "win": 0.33
+    },
+    "holdout": {
+     "trades": 506,
+     "mean_bp": -6.49,
+     "sum_pct": -32.82,
+     "win": 0.344
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.24,
+    "holdout": -1.1
+   },
+   "random_x2_p95_bp": {
+    "dev": 5.13,
+    "holdout": 4.81
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G5|USTECm|4h": {
+   "theory": "G5",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 124,
+     "mean_bp": 17.74,
+     "sum_pct": 22.0,
+     "win": 0.355
+    },
+    "holdout": {
+     "trades": 109,
+     "mean_bp": 7.7,
+     "sum_pct": 8.39,
+     "win": 0.339
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 124,
+     "mean_bp": 16.92,
+     "sum_pct": 20.98,
+     "win": 0.355
+    },
+    "holdout": {
+     "trades": 109,
+     "mean_bp": 6.93,
+     "sum_pct": 7.55,
+     "win": 0.339
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 0.92,
+    "holdout": -0.81
+   },
+   "random_x2_p95_bp": {
+    "dev": 27.15,
+    "holdout": 24.85
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|USTECm|1h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 291,
+     "mean_bp": -7.32,
+     "sum_pct": -21.31,
+     "win": 0.371
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_bp": 4.31,
+     "sum_pct": 9.27,
+     "win": 0.451
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 291,
+     "mean_bp": -8.13,
+     "sum_pct": -23.67,
+     "win": 0.368
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_bp": 3.56,
+     "sum_pct": 7.64,
+     "win": 0.451
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.59,
+    "holdout": -1.21
+   },
+   "random_x2_p95_bp": {
+    "dev": 11.84,
+    "holdout": 13.33
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G6|USTECm|4h": {
+   "theory": "G6",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": 31.96,
+     "sum_pct": 22.37,
+     "win": 0.429
+    },
+    "holdout": {
+     "trades": 57,
+     "mean_bp": -11.25,
+     "sum_pct": -6.41,
+     "win": 0.404
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 70,
+     "mean_bp": 31.16,
+     "sum_pct": 21.81,
+     "win": 0.429
+    },
+    "holdout": {
+     "trades": 57,
+     "mean_bp": -12.04,
+     "sum_pct": -6.87,
+     "win": 0.404
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -4.2,
+    "holdout": -2.78
+   },
+   "random_x2_p95_bp": {
+    "dev": 48.93,
+    "holdout": 50.94
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|USTECm|4h": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 81,
+     "mean_bp": -2.24,
+     "sum_pct": -1.82,
+     "win": 0.395
+    },
+    "holdout": {
+     "trades": 69,
+     "mean_bp": -3.24,
+     "sum_pct": -2.24,
+     "win": 0.348
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 81,
+     "mean_bp": -3.03,
+     "sum_pct": -2.45,
+     "win": 0.395
+    },
+    "holdout": {
+     "trades": 69,
+     "mean_bp": -4.03,
+     "sum_pct": -2.78,
+     "win": 0.348
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.41,
+    "holdout": -0.07
+   },
+   "random_x2_p95_bp": {
+    "dev": 42.44,
+    "holdout": 36.7
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G7|USTECm|1d": {
+   "theory": "G7",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1d",
+   "x1": {
+    "dev": {
+     "trades": 15,
+     "mean_bp": -170.74,
+     "sum_pct": -25.61,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 10,
+     "mean_bp": 59.16,
+     "sum_pct": 5.92,
+     "win": 0.4
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 15,
+     "mean_bp": -172.21,
+     "sum_pct": -25.83,
+     "win": 0.4
+    },
+    "holdout": {
+     "trades": 10,
+     "mean_bp": 58.31,
+     "sum_pct": 5.83,
+     "win": 0.4
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -17.74,
+    "holdout": -29.52
+   },
+   "random_x2_p95_bp": {
+    "dev": 179.1,
+    "holdout": 241.1
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G8|USTECm|1h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 789,
+     "mean_bp": 1.37,
+     "sum_pct": 10.84,
+     "win": 0.269
+    },
+    "holdout": {
+     "trades": 648,
+     "mean_bp": -2.46,
+     "sum_pct": -15.95,
+     "win": 0.265
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 789,
+     "mean_bp": 0.56,
+     "sum_pct": 4.41,
+     "win": 0.265
+    },
+    "holdout": {
+     "trades": 648,
+     "mean_bp": -3.21,
+     "sum_pct": -20.83,
+     "win": 0.262
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.43,
+    "holdout": -1.02
+   },
+   "random_x2_p95_bp": {
+    "dev": 3.12,
+    "holdout": 3.11
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
+  },
+  "G8|USTECm|4h": {
+   "theory": "G8",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 210,
+     "mean_bp": -8.78,
+     "sum_pct": -18.44,
+     "win": 0.271
+    },
+    "holdout": {
+     "trades": 161,
+     "mean_bp": 1.72,
+     "sum_pct": 2.77,
+     "win": 0.273
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 210,
+     "mean_bp": -9.6,
+     "sum_pct": -20.16,
+     "win": 0.267
+    },
+    "holdout": {
+     "trades": 161,
+     "mean_bp": 1.01,
+     "sum_pct": 1.63,
+     "win": 0.273
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -0.0,
+    "holdout": 0.0
+   },
+   "random_x2_p95_bp": {
+    "dev": 18.54,
+    "holdout": 18.27
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|USTECm|1h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "1h",
+   "x1": {
+    "dev": {
+     "trades": 157,
+     "mean_bp": -8.48,
+     "sum_pct": -13.31,
+     "win": 0.306
+    },
+    "holdout": {
+     "trades": 126,
+     "mean_bp": -7.72,
+     "sum_pct": -9.73,
+     "win": 0.31
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 157,
+     "mean_bp": -9.28,
+     "sum_pct": -14.57,
+     "win": 0.299
+    },
+    "holdout": {
+     "trades": 126,
+     "mean_bp": -8.48,
+     "sum_pct": -10.68,
+     "win": 0.31
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.81,
+    "holdout": -0.5
+   },
+   "random_x2_p95_bp": {
+    "dev": 15.08,
+    "holdout": 16.09
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G9|USTECm|4h": {
+   "theory": "G9",
+   "family": "trend",
+   "market": "USTECm",
+   "tf": "4h",
+   "x1": {
+    "dev": {
+     "trades": 44,
+     "mean_bp": -30.33,
+     "sum_pct": -13.34,
+     "win": 0.273
+    },
+    "holdout": {
+     "trades": 34,
+     "mean_bp": -14.25,
+     "sum_pct": -4.84,
+     "win": 0.294
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 44,
+     "mean_bp": -31.11,
+     "sum_pct": -13.69,
+     "win": 0.273
+    },
+    "holdout": {
+     "trades": 34,
+     "mean_bp": -15.01,
+     "sum_pct": -5.1,
+     "win": 0.294
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": 2.83,
+    "holdout": -1.46
+   },
+   "random_x2_p95_bp": {
+    "dev": 51.97,
+    "holdout": 59.42
+   },
+   "verdict": "FAIL",
+   "secs": 0.0
+  },
+  "G10|USTECm|15m": {
+   "theory": "G10",
+   "family": "meanrev",
+   "market": "USTECm",
+   "tf": "15m",
+   "x1": {
+    "dev": {
+     "trades": 941,
+     "mean_bp": -0.77,
+     "sum_pct": -7.22,
+     "win": 0.63
+    },
+    "holdout": {
+     "trades": 765,
+     "mean_bp": -0.66,
+     "sum_pct": -5.04,
+     "win": 0.625
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 941,
+     "mean_bp": -1.58,
+     "sum_pct": -14.89,
+     "win": 0.62
+    },
+    "holdout": {
+     "trades": 765,
+     "mean_bp": -1.42,
+     "sum_pct": -10.88,
+     "win": 0.621
+    }
+   },
+   "random_x2_p50_bp": {
+    "dev": -1.7,
+    "holdout": -1.5
+   },
+   "random_x2_p95_bp": {
+    "dev": 1.29,
+    "holdout": 1.24
+   },
+   "verdict": "FAIL",
+   "secs": 0.1
   }
  }
 }
