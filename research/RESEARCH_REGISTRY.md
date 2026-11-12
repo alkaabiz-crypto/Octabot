@@ -35,20 +35,8 @@
 
 ## Forward-test family (programme-wide correction)
 
-**Rule:** a forward result counts as evidence only if it survives **Bonferroni across every forward test that was running when it was evaluated.** It is not enough to clear only its own batch's correction.
-
-This rule adds a stricter way to interpret results. No trading rule, sample target or ledger changes.
-
-**Forward tests running from 2026-11-12: 16**
-- Donchian BTC (BINANCE PROXY)
-- TREND_ENS BTC and ETH
-- Gold MOM50
-- Oil Stochastic
-- GOLD_FVG, OIL_FIB and ETH_FIB
-- Batch 2 H1–H4 on BTC and ETH: 8 tests, from 2026-11-14
-
-**Stopped on 2026-11-12, by the user's decision:**
-- Gold Asia, before any entry. Its benchmark showed no edge.
-- SignalPro tracking, since all signals were resolved.
-
-So a single forward test needs a one-sided p ≤ 0.05/16 ≈ 0.0031 against its random benchmark.
+**Superseded on 2026-11-12 by `FORWARD_EVALUATION.md`:**
+- The **confirmatory family has 7 tests:** Donchian, Oil Stochastic, GOLD_FVG, OIL_FIB, ETH_FIB, H3_BTC and H3_ETH.
+- **Bar:** Bonferroni p ≤ 0.05/7 ≈ 0.0071 against the random-timing benchmark.
+- **Monitoring only, cannot PASS:** TREND_ENS BTC and ETH, Gold MOM50, and Batch 2 H1/H2/H4 (6 tests).
+- **Stopped:** Gold Asia and SignalPro.
