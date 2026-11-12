@@ -287,7 +287,7 @@ def stop_break(m, tf, setup, valid):
         hi, lo = lv; R = hi - lo; done = False
         for k in range(i + 1, min(i + 1 + valid, len(c))):
             up, dn = h[k] >= hi, l[k] <= lo
-            if up and dn: done = True; break
+            if up and dn: break                                      # ambiguous candle: skip this setup
             if up or dn:
                 side = 1 if up else -1; lvl = hi if up else lo; pe = max(o[k], lvl) if up else min(o[k], lvl); stop = lo if up else hi
                 x, px = manage(c, k, side, stop, pe + side * 2 * R, tmax=20); bk.add(k, x, side, pe, px); i = x + 1; done = True; break
@@ -435,12 +435,13 @@ def e1_tuesday(m, tf):
     if m not in INDICES: return None
     c = C(m, tf); bk = Book(c); mm, o = c.m.values, c.o.values; closes = {}
     for s, e in day_slices(c):
-        dord = EPOCH_ORD + int(c.day.values[s]); _, clo = cash_times(m, dord); i1 = int(np.searchsorted(mm, clo))
-        if i1 < len(c) and abs(mm[i1] - clo) <= 5: closes[dord] = i1
+        dord = EPOCH_ORD + int(c.day.values[s]); _, clo = cash_times(m, dord); i1 = int(np.searchsorted(mm, clo)) - 1   # last bar before the cash close
+        if i1 >= 0 and clo - mm[i1] <= 5: closes[dord] = i1
     for d, i1 in closes.items():
         dd = _dt.date.fromordinal(d)
         if dd.weekday() != 0 or (d - 3) not in closes or (d + 1) not in closes: continue
-        if o[i1] < o[closes[d - 3]]: bk.add(i1, closes[d + 1], 1, o[i1], o[closes[d + 1]])
+        cl = c.c.values
+        if cl[i1] < cl[closes[d - 3]]: bk.add(i1, closes[d + 1], 1, cl[i1], cl[closes[d + 1]])
     return c, bk
 
 
@@ -457,8 +458,8 @@ def e3_overnight(m, tf):
     c = C(m, tf); bk = Book(c); mm, o = c.m.values, c.o.values; days = sorted({EPOCH_ORD + int(x) for x in np.unique(c.day.values)})
     for d in days:
         _, clo = cash_times(m, d); op, _ = cash_times(m, d + (3 if pd.Timestamp.fromordinal(d).weekday() == 4 else 1))
-        i, j = int(np.searchsorted(mm, clo)), int(np.searchsorted(mm, op))
-        if i < len(c) and j < len(c) and abs(mm[i] - clo) <= 5 and abs(mm[j] - op) <= 5 and j > i: bk.add(i, j, 1, o[i], o[j])
+        i, j = int(np.searchsorted(mm, clo)) - 1, int(np.searchsorted(mm, op))       # last bar before the close -> first bar of the open
+        if i >= 0 and j < len(c) and clo - mm[i] <= 5 and abs(mm[j] - op) <= 5 and j > i: bk.add(i, j, 1, c.c.values[i], o[j])
     return c, bk
 
 
