@@ -31,3 +31,11 @@ Long only, entry at the ask, exit at the bid, 2 × ATR stop, compared with rando
 ## Decision rule
 
 A total of 15 filters × 2 exits plus 4 stand-alone ideas makes 34 tests. Benjamini–Hochberg at 5% is applied over the test-period p-values of the ideas that passed in fit (fit z ≥ 1.645 with positive fit expectancy at stress cost). An idea counts as confirmed only if it survives that and is profitable in the test period at stress cost. Ideas that are not confirmed are reported but not used.
+
+## Part C: do the two nearest misses carry to other dollar-driven markets? (added after parts A and B were read)
+
+The two nearest misses of part A were DOLLAR_FALLING and VOL_LOW. The 2025–26 gold period has now been used, so they get an independent check on markets that took no part in choosing them: Exness **silver (XAGUSDm)** and **EUR/USD (EURUSDm)**, using the full 2023-07 to now sample (data starts 2023-01).
+
+- Same KST + session VWAP BUY signal, original exit (hold to the bearish cross), same costs and benchmark.
+- Four tests: 2 filters × 2 markets, Benjamini–Hochberg at 5%.
+- A filter carries over only if, in that market, the filtered signal has z ≥ 1.645 after the correction and positive expectancy at stress cost. It must also beat the same market's unfiltered signal in expectancy.
