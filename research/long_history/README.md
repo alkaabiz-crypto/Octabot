@@ -98,3 +98,11 @@ LONG_DATA=$DIR/long python src/run_long.py      # about 15 minutes on 4 cores
 python src/report.py                            # pass rule, writes reports/RESULTS.md and results.json
 python -m unittest discover -s tests -p "test_*.py"
 ```
+
+## Audit correction (2026-11-12)
+
+The audit in [../audit](../audit) found two problems in this study.
+- **The benchmark for held legs was too strict.** This covers the strategies' own exits, hold-to-opposite-signal and the 4-bar hold.
+- **The fixed 0.02% slippage was too high** for forex, indices and gold.
+
+The results above are left as they were. The corrected results come from this study's unchanged report script run on patched data, and are in `research/audit/reports/corrected_*`. With the corrections, **Pivot Reversal BUY** passes on BTC (long history) and is confirmed on ETH (multi-market). Everything else stays not confirmed.

@@ -50,3 +50,11 @@ Several picks show win rates of 60–74% (for example JP225 Price Momentum BUY a
 - ADA data on the Exness archive stops in August 2024, so ADA has no confirmation period.
 - Gold, US oil and BTC were already searched in earlier rounds. Their discovery picks are marked as "seen in earlier rounds".
 - One run of 15-month confirmation can detect only fairly strong edges. "Not confirmed" means no evidence of an edge. It does not prove that none exists.
+
+## Audit correction (2026-11-12)
+
+The audit in [../audit](../audit) found two problems in this study.
+- **The benchmark for held legs was too strict.** This covers the strategies' own exits, hold-to-opposite-signal and the 4-bar hold.
+- **The fixed 0.02% slippage was too high** for forex, indices and gold.
+
+The results above are left as they were. The corrected results come from this study's unchanged report script run on patched data, and are in `research/audit/reports/corrected_*`. With the corrections, **Pivot Reversal BUY** passes on BTC (long history) and is confirmed on ETH (multi-market). Everything else stays not confirmed.
