@@ -1,12 +1,12 @@
-# TREND_ENS daily bot - forward PAPER test (Binance prices, fake money) - 2026-11-12 17:28 UTC
+# TREND_ENS daily bot - forward PAPER test (Binance prices, fake money) - 2026-11-12 18:10 UTC
 
 Rule: hold the coin share = share of SMA20/50/100/200 the daily close is above (data from 2025-01-01 only); trade the difference at the next daily open, 0.1% fee. Spot, no leverage. First decision: close of 2026-11-10.
 
 | Coin | Account | Days | Current share | Value now (USD) | Put in (USD) | Result | Buy & hold same money |
 |---|---|---|---|---|---|---|---|
-| BTCUSDT | LUMP | 2 | 25% | 2,705.50 | 2,722.94 | -0.64% | -2.57% |
-| BTCUSDT | DCA | 2 | 25% | 19.86 | 20.00 | -0.68% | -2.71% |
-| ETHUSDT | LUMP | 2 | 0% | 2,722.94 | 2,722.94 | +0.00% | -2.05% |
-| ETHUSDT | DCA | 2 | 0% | 20.00 | 20.00 | +0.00% | -2.12% |
+| BTCUSDT | LUMP | 2 | 25% | 2,705.28 | 2,722.94 | -0.65% | -2.60% |
+| BTCUSDT | DCA | 2 | 25% | 19.86 | 20.00 | -0.69% | -2.74% |
+| ETHUSDT | LUMP | 2 | 0% | 2,722.94 | 2,722.94 | +0.00% | -1.84% |
+| ETHUSDT | DCA | 2 | 0% | 20.00 | 20.00 | +0.00% | -1.91% |
 
 Ledger rows: 8. No conclusion is drawn from a short forward sample.
