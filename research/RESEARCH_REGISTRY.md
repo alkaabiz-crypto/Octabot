@@ -39,7 +39,7 @@
 
 This rule adds a stricter way to interpret results. No trading rule, sample target or ledger changes.
 
-**Forward tests running from 2026-11-12: 15**
+**Forward tests running from 2026-11-12: 16**
 - Donchian BTC (BINANCE PROXY)
 - TREND_ENS BTC and ETH
 - Gold MOM50
@@ -51,4 +51,4 @@ This rule adds a stricter way to interpret results. No trading rule, sample targ
 - Gold Asia, before any entry. Its benchmark showed no edge.
 - SignalPro tracking, since all signals were resolved.
 
-So a single forward test needs a one-sided p ≤ 0.05/15 ≈ 0.0033 against its random benchmark.
+So a single forward test needs a one-sided p ≤ 0.05/16 ≈ 0.0031 against its random benchmark.
