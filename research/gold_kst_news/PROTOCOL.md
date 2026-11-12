@@ -25,8 +25,9 @@ Every leg always closes at the next bearish KST cross (the original exit). On to
 
 High-impact US events whose dates were public in advance:
 - **FOMC rate decisions**: the last day of each meeting, statement 14:00 New York time (2020-03-03 10:00 and 2020-03-15 17:00 for the emergency moves). Dates copied from federalreserve.gov.
-- **US jobs report (NFP)**: 08:30 New York time on the third Friday after the week that contains the 12th, the BLS scheduling rule. A rule date with no unusual 08:30 move in gold (the 15-minute range below the median for that time of day) is listed as unverified in the report and dropped. That catches months where the release was moved (for example the 2025 government shutdown).
-- CPI could not be included historically: bls.gov refuses automated access. Live use takes all high-impact USD events from the weekly economic calendar.
+- **US jobs report (NFP)** and **CPI**: 08:30 New York time on the actual release dates, taken from the vintage dates on ALFRED (St. Louis Fed). This replaces the BLS scheduling rule: bls.gov refuses automated access, and the ALFRED dates showed the rule was wrong in some months.
+- Check: the release 15-minute candle in gold has a median range 2.9× (CPI), 3.1× (NFP) and 5.6× (FOMC) the same clock time on nearby days.
+- Amendment, made before any grid result was computed: the event source changed from the NFP rule to ALFRED and CPI was added. Live use takes all high-impact USD events from the weekly economic calendar.
 
 ## Costs, measurement, benchmark
 
