@@ -20,6 +20,7 @@ import sys
 import numpy as np
 
 LIB = os.environ["LIB_DIR"]
+CUT_DIR = os.environ["CUT_DIR"]
 sys.path.insert(0, LIB)
 os.environ.setdefault("BARS_DIR", "/nonexistent")
 import verify_minute as V  # noqa: E402  (frozen code, imported unchanged)
@@ -36,7 +37,7 @@ def net_returns(M, tr, mult):
     return (side * (px - pe) - mult * (M["hs"][f] + M["hs"][x])) / pe
 
 
-def causal_b9(M, Hc, fib=0.618, look=20):
+def causal_b9(M, Hc, fib=0.618, look=20, single=False, d4=False):
     """B9 with the forward test's order selection (library_forward/forward.py): orders live 10 candles, several can be
     pending, at each minute the oldest pending order that fills is taken and the rest cancelled; after an exit new signals
     are considered from the second hour boundary after the exit minute's hour. Fill/stop/target/time rules as run_limit."""
@@ -50,8 +51,15 @@ def causal_b9(M, Hc, fib=0.618, look=20):
         hour_open_min = m[start_of[k + 1]] if k + 1 < len(start_of) else None
         if hour_open_min is None:
             break
+        pending = [p for p in pending if k + 1 < p["exp_k"]]        # orders still alive for candle k+1
         # signal at the close of candle k (only when flat and allowed)
-        if pos is None and hour_open_min >= next_check_min:
+        if pos is None and hour_open_min >= next_check_min and not (single and pending) and d4:
+            side = 1 if l[k] > h[k - 2] else (-1 if h[k] < l[k - 2] else 0)
+            if side:
+                lim = h[k - 2] if side > 0 else l[k - 2]; stop = l[k - 2] if side > 0 else h[k - 2]; R = side * (lim - stop)
+                if R > 0:
+                    pending.append(dict(side=side, lim=lim, stop=stop, tp=lim + side * 2 * R, exp_k=k + 11))
+        elif pos is None and hour_open_min >= next_check_min and not (single and pending):
             hh, ll = h[k - look + 1:k + 1], l[k - look + 1:k + 1]
             ih, il = int(np.argmax(hh)), int(np.argmin(ll)); Hh, Ll = hh[ih], ll[il]
             side = 1 if (c[k] > s50[k] and ih > il) else (-1 if (c[k] < s50[k] and il > ih) else 0)
@@ -121,16 +129,43 @@ def summary(r):
                 compounded_pct=round(float((np.prod(1 + r) - 1) * 100), 2))
 
 
+def approx_exness():
+    """Gold D4 and oil B9 on Exness 15-minute bid/ask candles (the library used 1-minute Exness bars, not available
+    here): an APPROXIMATION to compare the frozen sequential order rule with the causal rules on the same data."""
+    import pandas as pd
+    out = {}
+    cut = int(np.datetime64("2026-10-30T20:57:00").astype("datetime64[m]").astype(np.int64))
+    for mkt, kind in (("XAUUSDm", "d4"), ("USOILm", "b9")):
+        d = pd.read_csv(os.path.join(os.environ["EXNESS_15M"], f"{mkt}_15m.csv.gz"))
+        d = d[(d.t >= 1735689600) & (d.t // 60 <= cut)]
+        sp = (d.ao - d.bo).values
+        M = dict(m=(d.t.values // 60).astype(np.int64), o=d.bo.values, h=d.bh.values, l=d.bl.values, c=d.bc.values, hs=sp / 2, pen=sp)
+        hr = M["m"] // 60; st = np.flatnonzero(np.r_[True, hr[1:] != hr[:-1]]); en = np.r_[st[1:], len(M["m"])]
+        Hc = dict(o=M["o"][st], h=np.maximum.reduceat(M["h"], st), l=np.minimum.reduceat(M["l"], st), c=M["c"][en - 1], s=st, e=en, hr=hr[st])
+        frozen = V.d4 if kind == "d4" else V.b9
+        res = {}
+        for name, fn in (("frozen_sequential_rule", frozen), ("forward_causal_rule", lambda a, b: causal_b9(a, b, d4=(kind == "d4"))),
+                         ("causal_one_order_at_a_time", lambda a, b: causal_b9(a, b, single=True, d4=(kind == "d4")))):
+            tr = fn(M, Hc)
+            r = {}
+            for p, t in (("2025", [x for x in tr if M["m"][x[1]] < HOLD_MIN]), ("2026", [x for x in tr if M["m"][x[1]] >= HOLD_MIN])):
+                r[p] = summary(net_returns(M, t, 2)) if t else dict(trades=0)
+            res[name] = r
+        out[f"{kind.upper()}|{mkt}"] = res
+        print(mkt, json.dumps(res), flush=True)
+    return out
+
+
 def main():
     z = np.load(os.path.join(os.environ["BIN_DIR"], "ETHUSDT_1m.npz"))
     keep = z["m"] <= CUT_MIN
-    np.savez_compressed("/tmp/eth_cut.npz", **{k: z[k][keep] for k in ("m", "o", "h", "l", "c")})
-    os.environ["BIN_DIR_CUT"] = "/tmp"
-    V.BIN = "/tmp"
-    os.replace("/tmp/eth_cut.npz", "/tmp/ETHUSDT_1m.npz")
+    np.savez_compressed(os.path.join(CUT_DIR, "eth_cut.npz"), **{k: z[k][keep] for k in ("m", "o", "h", "l", "c")})
+    V.BIN = CUT_DIR
+    os.replace(os.path.join(CUT_DIR, "eth_cut.npz"), os.path.join(CUT_DIR, "ETHUSDT_1m.npz"))
     M, Hc = V.load("ETHUSDT")
     out = {"data": dict(first_minute=str(np.datetime64(int(M["m"][0]), "m")), last_minute=str(np.datetime64(int(M["m"][-1]), "m")), minutes=int(len(M["m"])))}
-    for name, fn in (("frozen_sequential_rule", V.b9), ("forward_causal_rule", causal_b9)):
+    for name, fn in (("frozen_sequential_rule", V.b9), ("forward_causal_rule", causal_b9),
+                     ("causal_one_order_at_a_time", lambda M_, H_: causal_b9(M_, H_, single=True))):
         tr = fn(M, Hc)
         dev = [t for t in tr if M["m"][t[1]] < HOLD_MIN]
         hold = [t for t in tr if M["m"][t[1]] >= HOLD_MIN]
@@ -141,6 +176,7 @@ def main():
             res[p] = dict(x2=summary(r2), x1=summary(net_returns(M, t, 1)), dependence_x2=dependence(r2), exposure=exposure(M, t, r2))
         out[name] = res
         print(name, json.dumps({p: v["x2"] for p, v in res.items()}), flush=True)
+    out["exness_15m_approximation"] = approx_exness()
     # forward pass rule under a zero true mean (normal approximation, observed per-trade sd)
     sd2026 = out["frozen_sequential_rule"]["2026"]["x2"]["sd_bp"]
     se100 = sd2026 / 10.0
