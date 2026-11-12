@@ -1,4 +1,4 @@
-# Gold Asian-session long - forward PAPER test (2026-11-12 00:03 UTC)
+# Gold Asian-session long - forward PAPER test (2026-11-12 00:10 UTC)
 
 Hyperliquid xyz:GOLD 1m (not Exness). Long 22:05 -> 07:00 UTC, entries Sunday-Thursday, whole paper account, no leverage. Cost 0.20 USD/oz per round trip (2x = 0.40). Fake money.
 
