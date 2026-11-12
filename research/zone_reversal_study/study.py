@@ -77,10 +77,12 @@ def job(args):
     for mult in (1, 2):
         tr = trades(sym, zone, sig, tgt, mult); res[f"x{mult}"] = {p: summ([r for d, r, *_ in tr if period(d) == p]) for p in ("dev", "holdout")}
     rs = np.random.default_rng(SEED + zlib.crc32(f"{sym}|{zone}|{sig}|{tgt}".encode()) % 1000); draws = {"dev": [], "holdout": []}; c = g["c15"]
+    ok = ((c["start"] + 120) % 1440) <= NO_ENTRY_AFTER + 120; cands = {}
+    for d in {t[0] for t in tr}: cands[d] = np.flatnonzero((c["day"] == d) & ok)      # computed once per day (same set as before)
     for _ in range(N_RANDOM):
         acc = {"dev": [], "holdout": []}
         for d, _, R, tdist, _, e in tr:
-            cand = np.flatnonzero((c["day"] == d) & (((c["start"] + 120) % 1440) <= NO_ENTRY_AFTER + 120))
+            cand = cands[d]
             if not len(cand): continue
             i0 = int(c["i0"][cand[int(rs.integers(0, len(cand)))]])
             if e - i0 < 2: continue
