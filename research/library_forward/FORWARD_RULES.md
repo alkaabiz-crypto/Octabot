@@ -57,3 +57,16 @@ The ETH Fibonacci candidate is added only if it passes its minute-level re-test 
 - **STOPPED** if the 1-minute feed has a gap of more than 90 minutes on a weekday while an order or position is open, or if the feed no longer reaches back to the cursor.
 - **Evaluation after 100 closed trades per test** (about 3 months for gold, about 5–6 months for oil).
 - **Pass:** mean net > 0 **at 2× costs** and ≥ 2 bp per trade. Before that, nothing is called a result.
+
+## Addendum: ETH_FIB (added 2026-11-12, before its first live candle)
+
+The ETH Fibonacci candidate passed V1 (`../theory_library/results/verify_minute.json`): at 2× costs, **+32.3 bp in 2025 and +19.6 bp in 2026**, with 326 and 288 trades.
+
+| Rule | ETH_FIB |
+|---|---|
+| Rules | identical to OIL_FIB (B9: SMA50, 20-candle swing, 61.8% limit, stop at the swing low or high, target at the swing high or low, 10-candle order life, 20-candle time stop) |
+| Market and feed | **Binance ETHUSDT spot** (`data-api.binance.vision`), the same source as the backtest |
+| Costs | **0.05% of price per side** (0.10% per round trip); 2× is also reported |
+| Limit fills | the 1-minute low or high must go **1 bp of price** beyond the limit |
+| Size | **1 ETH** of fake money, with results also in bp |
+| Evaluation | after 100 closed trades (about 4–5 months), with the same pass rule |

@@ -1,0 +1,86 @@
+{
+ "B9|USOILm|1h": {
+  "x1": {
+   "dev": {
+    "trades": 211,
+    "mean_bp": 15.81,
+    "win": 0.517
+   },
+   "holdout": {
+    "trades": 178,
+    "mean_bp": 20.09,
+    "win": 0.461
+   }
+  },
+  "x2": {
+   "dev": {
+    "trades": 211,
+    "mean_bp": 12.87,
+    "win": 0.517
+   },
+   "holdout": {
+    "trades": 178,
+    "mean_bp": 17.3,
+    "win": 0.461
+   }
+  },
+  "V1": "PASS",
+  "V3": "PASS"
+ },
+ "B9|ETHUSDT|1h": {
+  "x1": {
+   "dev": {
+    "trades": 326,
+    "mean_bp": 42.28,
+    "win": 0.525
+   },
+   "holdout": {
+    "trades": 288,
+    "mean_bp": 29.62,
+    "win": 0.524
+   }
+  },
+  "x2": {
+   "dev": {
+    "trades": 326,
+    "mean_bp": 32.28,
+    "win": 0.515
+   },
+   "holdout": {
+    "trades": 288,
+    "mean_bp": 19.62,
+    "win": 0.524
+   }
+  },
+  "V1": "PASS",
+  "V3": "PASS"
+ },
+ "D4|XAUUSDm|1h": {
+  "x1": {
+   "dev": {
+    "trades": 388,
+    "mean_bp": 5.26,
+    "win": 0.399
+   },
+   "holdout": {
+    "trades": 311,
+    "mean_bp": 11.59,
+    "win": 0.421
+   }
+  },
+  "x2": {
+   "dev": {
+    "trades": 388,
+    "mean_bp": 4.78,
+    "win": 0.399
+   },
+   "holdout": {
+    "trades": 311,
+    "mean_bp": 10.97,
+    "win": 0.421
+   }
+  },
+  "V1": "PASS",
+  "V3": "PASS"
+ }
+}

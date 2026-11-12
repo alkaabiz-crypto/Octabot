@@ -37,6 +37,7 @@ def candles(mkt, tf):
     c = c.reset_index(drop=True)
     c["day"] = ((c.m + 120) // 1440) if mkt in EXNESS else (c.m // 1440)
     c["ms"] = c.m * 60000
+    c.attrs["hole_check"] = mkt in HOLE_MARKETS
     return c
 
 
@@ -134,10 +135,24 @@ def manage(c, i0, side, stop, tp, tmax=None, last=None, intrabar=False):
     return end, cl[end]
 
 
+# Data holes in the Exness archive itself (found by ../data_audit): the archive has no ticks for these weekday spans, although
+# the markets were open. Prices on both sides are real, but stops/targets cannot be checked inside the hole, so trades held across it are dropped.
+DATA_HOLES_MIN = [(1774828740 // 60, 1775001600 // 60)]   # 2026-03-29 23:59 UTC -> 2026-04-01 00:00 UTC (USOILm, DE30m, US500m, USTECm)
+HOLE_MARKETS = ("USOILm", "DE30m", "US500m", "USTECm")
+
+
 def evaluate(c, bk, mult):
-    """Net returns per trade at cost multiple `mult`, split by entry period."""
+    """Net returns per trade at cost multiple `mult`, split by entry period. Trades spanning a known data hole are dropped."""
     if not bk.rows: return {"dev": np.array([]), "holdout": np.array([])}, np.zeros((0, 3), dtype=int)
-    r = np.array(bk.rows); i, j, side, pe, px = r[:, 0].astype(int), r[:, 1].astype(int), r[:, 2], r[:, 3], r[:, 4]
+    r = np.array(bk.rows)
+    if getattr(c, "attrs", {}).get("hole_check"):
+        mm = c.m.values; keep = np.ones(len(r), bool)
+        for a, b in DATA_HOLES_MIN:
+            ent, ext = mm[r[:, 0].astype(int)], mm[np.minimum(r[:, 1].astype(int), len(mm) - 1)]
+            keep &= ~((ent <= a) & (ext >= b))
+        r = r[keep]
+        if not len(r): return {"dev": np.array([]), "holdout": np.array([])}, np.zeros((0, 3), dtype=int)
+    i, j, side, pe, px = r[:, 0].astype(int), r[:, 1].astype(int), r[:, 2], r[:, 3], r[:, 4]
     hs = c.hs.values; ms = c.ms.values
     net = side * (px - pe) / pe - mult * (hs[i] + hs[np.minimum(j, len(hs) - 1)]) / pe
     hold = ms[i] >= HOLDOUT_MS
