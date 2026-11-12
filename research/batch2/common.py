@@ -8,7 +8,7 @@ import pandas as pd
 CA = "/root/.ccr/ca-bundle.crt"; CTX = ssl.create_default_context(cafile=CA) if os.path.exists(CA) else ssl.create_default_context()
 START_MS = 1735689600000                      # 2025-01-01 00:00 UTC (user rule)
 T0_MS = 1794510631000                          # 2026-11-12 19:10:31 UTC, pre-registration commit 33777e0a
-E_MS = 1795046400000                           # 2026-11-14 00:00 UTC, forward start
+E_MS = 1794614400000                           # 2026-11-14 00:00 UTC, forward start
 H, D, M = 3_600_000, 86_400_000, 60_000
 COINS = ("BTC", "ETH")
 SPREAD_BP = {"BTC": 0.79, "ETH": 4.13}
