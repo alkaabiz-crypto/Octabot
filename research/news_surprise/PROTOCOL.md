@@ -41,3 +41,16 @@ There are 2 releases × 14 markets × 2 variants = 56 tests. Benjamini–Hochber
 ## Forward record
 
 The weekly calendar shows a consensus forecast for each upcoming release. From now on the daily briefing will store the forecast, and the actual will be added when it is published. This builds a real consensus-surprise history for a later test.
+
+## Addendum (after the 15-minute results were seen): how fast would you have to be?
+
+The 15-minute test showed that the surprise sign predicts the direction of the **first** 15-minute candle, especially for NFP. This addendum asks whether a retail trader can capture that, using Exness tick data (every bid/ask quote).
+
+- Markets: gold, EUR/USD, GBP/USD, USD/JPY.
+- Releases: NFP and CPI, 2025-01 to now.
+- Direction is the **textbook mapping**, so nothing is fitted: a hot reading means BUY USD/JPY and SELL gold, EUR/USD and GBP/USD.
+- Entry at the first quote at least 1, 5, 15, 30, 60, 180 or 900 seconds after 08:30:00 New York time, at the ask for a buy and the bid for a sell.
+- Exit at the first quote 15 minutes or 60 minutes after the release, at the bid for a buy and the ask for a sell. No stop.
+- Result in pips-equivalent R (2 × ATR14 of the hour before), with real spread and no extra slippage.
+- Reported as the average and the win rate at each delay, with a sign-flip test: the same trades with the surprise signs shuffled, 2,000 times.
+- This shows how quickly the move happens. It is not a strategy to trade: real execution at release time also suffers requotes and slippage that tick data does not show.
