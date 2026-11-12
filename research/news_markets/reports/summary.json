@@ -1,0 +1,235 @@
+{
+ "passed_fit": [
+  [
+   "BTCUSDm",
+   "FOMC|FOLLOW15"
+  ],
+  [
+   "BTCUSDm",
+   "FOMC|FOLLOW30"
+  ],
+  [
+   "BTCUSDm",
+   "FOMC|BREAKOUT"
+  ],
+  [
+   "EURUSDm",
+   "CPI|PRE24"
+  ],
+  [
+   "GBPUSDm",
+   "CPI|FOLLOW30"
+  ],
+  [
+   "GBPUSDm",
+   "NFP|FADE15"
+  ],
+  [
+   "US30m",
+   "CPI|PRE24"
+  ],
+  [
+   "USDCADm",
+   "NFP|FOLLOW30"
+  ],
+  [
+   "USDJPYm",
+   "CPI|FOLLOW30"
+  ],
+  [
+   "USOILm",
+   "FOMC|BREAKOUT"
+  ],
+  [
+   "XAGUSDm",
+   "CPI|FOLLOW15"
+  ],
+  [
+   "XAGUSDm",
+   "CPI|FOLLOW30"
+  ],
+  [
+   "XAUUSDm",
+   "FOMC|FOLLOW15"
+  ],
+  [
+   "XAUUSDm",
+   "FOMC|FADE15"
+  ],
+  [
+   "XAUUSDm",
+   "FOMC|BREAKOUT"
+  ]
+ ],
+ "confirmed": [],
+ "meta": {
+  "BTCUSDm": {
+   "market": "BTCUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2020-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-09 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 2
+  },
+  "DE30m": {
+   "market": "DE30m",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "ETHUSDm": {
+   "market": "ETHUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 2
+  },
+  "EURUSDm": {
+   "market": "EURUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "GBPUSDm": {
+   "market": "GBPUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "UKOILm": {
+   "market": "UKOILm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 21:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": 45,
+   "seconds": 2
+  },
+  "US30m": {
+   "market": "US30m",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "US500m": {
+   "market": "US500m",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "USDCADm": {
+   "market": "USDCADm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": 45,
+   "seconds": 2
+  },
+  "USDJPYm": {
+   "market": "USDJPYm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "USOILm": {
+   "market": "USOILm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2020-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-09 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": 45,
+   "seconds": 2
+  },
+  "USTECm": {
+   "market": "USTECm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-09 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "XAGUSDm": {
+   "market": "XAGUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2023-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-10 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 1
+  },
+  "XAUUSDm": {
+   "market": "XAUUSDm",
+   "generated_utc": "2026-11-12 11:43",
+   "fit": [
+    "2020-07-01 00:00",
+    "2025-01-01 00:00"
+   ],
+   "test_end": "2026-11-09 23:45",
+   "runs": 300,
+   "eia_rule_dates_dropped": null,
+   "seconds": 2
+  }
+ }
+}
