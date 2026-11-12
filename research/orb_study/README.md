@@ -40,3 +40,19 @@ The rules were fixed in `PREREGISTRATION.md` (commit `7033ffe6`) before any data
 - **The "80% win rate" claim from the video is not supported.** The best version here won about 58–61%, and only before realistic fills.
 
 Files: `build_bars.py`, `study.py`, `verify_tick.py`, `results/results.json`, `results/verify_tick.json`, `data/*_sha256.json`.
+
+## Second interpretation set (after the user questioned the test): `PREREG_V2.md`
+
+The user thought the first test might have used the wrong rules, so 56 more versions were tested:
+- **close-confirmation entry**, where a candle must close outside the range before entering, with a true 1:1 target from the entry;
+- the **09:30 New York stock open** for gold and oil;
+- the **08:00 London open** for gold.
+
+| Step | Result |
+|---|---|
+| 56 combinations (`results/results_v2.json`) | **55 FAIL.** Close-confirmation entries failed on every market and open. |
+| The one pass: gold, first 1-minute candle after 09:30 New York, touch entry | 1-minute model at 2× cost: +0.057 R in 2025 and +0.018 R in 2026, which is very thin. |
+| Tick-level re-test of that pass (`verify_tick_v2.py`, `results/verify_tick_v2.json`) | **NOT CONFIRMED: −0.081 R in 2025 and −0.067 R in 2026** at 2× cost. It is negative even at 1× cost (−0.009 and −0.013). On a 1-minute range the spread is about 6% of the risk, and real fills are worse than the bar model. |
+| Neighbouring windows (09:29, 09:31, first 2 minutes) | Negative in 2026 at every window. |
+
+**Conclusion across both sets (96 versions):** no opening-range or school-run variant makes money on 2025–26 Exness data after realistic fills and spreads.
