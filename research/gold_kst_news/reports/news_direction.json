@@ -1,0 +1,141 @@
+{
+ "meta": {
+  "generated_utc": "2026-11-12 00:21",
+  "hold_hours": 4,
+  "runs": 500
+ },
+ "results": {
+  "FOMC|follow": {
+   "fit": {
+    "events": 36,
+    "win_rate_pct": 47.22222222222222,
+    "expectancy_r": 0.1884263750067434,
+    "random_mean_r": -0.07210912799559707,
+    "z": 4.641300931392134,
+    "median_4h_move_atr": 2.3991507334181232,
+    "control_median_4h_move_atr": 0.3346324378501942,
+    "median_first15_move_atr": 0.8302766328298219
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 40.0,
+    "expectancy_r": -0.025497323439019094,
+    "random_mean_r": -0.05164966257511521,
+    "z": 0.23291463423795852,
+    "median_4h_move_atr": 2.862677025001651,
+    "control_median_4h_move_atr": 0.45052644318628576,
+    "median_first15_move_atr": 0.7050641875745056
+   }
+  },
+  "FOMC|fade": {
+   "fit": {
+    "events": 36,
+    "win_rate_pct": 41.66666666666667,
+    "expectancy_r": 0.0922744610263563,
+    "random_mean_r": -0.05725812459943527,
+    "z": 2.640604687990299,
+    "median_4h_move_atr": 2.3991507334181232,
+    "control_median_4h_move_atr": 0.3346324378501942,
+    "median_first15_move_atr": 0.8302766328298219
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 40.0,
+    "expectancy_r": -0.16116114828126252,
+    "random_mean_r": -0.02552711233466524,
+    "z": -1.1773079310867707,
+    "median_4h_move_atr": 2.862677025001651,
+    "control_median_4h_move_atr": 0.45052644318628576,
+    "median_first15_move_atr": 0.7050641875745056
+   }
+  },
+  "CPI|follow": {
+   "fit": {
+    "events": 54,
+    "win_rate_pct": 42.592592592592595,
+    "expectancy_r": -0.08857039945261419,
+    "random_mean_r": -0.056024714815481325,
+    "z": -0.2389766192803695,
+    "median_4h_move_atr": 3.0200741383931278,
+    "control_median_4h_move_atr": 1.340284229429593,
+    "median_first15_move_atr": 1.887243544445347
+   },
+   "test": {
+    "events": 21,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": -0.3653851531655506,
+    "random_mean_r": -0.032327122848911476,
+    "z": -1.8227804063042639,
+    "median_4h_move_atr": 1.5023863241277324,
+    "control_median_4h_move_atr": 1.146447315680648,
+    "median_first15_move_atr": 0.6993275267547351
+   }
+  },
+  "CPI|fade": {
+   "fit": {
+    "events": 54,
+    "win_rate_pct": 35.18518518518518,
+    "expectancy_r": -0.05392331094267631,
+    "random_mean_r": -0.08906337005870026,
+    "z": 0.27487382083787104,
+    "median_4h_move_atr": 3.0200741383931278,
+    "control_median_4h_move_atr": 1.340284229429593,
+    "median_first15_move_atr": 1.887243544445347
+   },
+   "test": {
+    "events": 21,
+    "win_rate_pct": 42.857142857142854,
+    "expectancy_r": 0.010984408650023581,
+    "random_mean_r": -0.03765022198751296,
+    "z": 0.2503667932313879,
+    "median_4h_move_atr": 1.5023863241277324,
+    "control_median_4h_move_atr": 1.146447315680648,
+    "median_first15_move_atr": 0.6993275267547351
+   }
+  },
+  "NFP|follow": {
+   "fit": {
+    "events": 52,
+    "win_rate_pct": 40.38461538461539,
+    "expectancy_r": -0.11240676868723952,
+    "random_mean_r": -0.06186398019307135,
+    "z": -0.35268440115352423,
+    "median_4h_move_atr": 2.7804430890821985,
+    "control_median_4h_move_atr": 1.3212777702567875,
+    "median_first15_move_atr": 1.573598084573487
+   },
+   "test": {
+    "events": 21,
+    "win_rate_pct": 42.857142857142854,
+    "expectancy_r": 0.07531057872080889,
+    "random_mean_r": -0.021572255937511487,
+    "z": 0.5145024347512971,
+    "median_4h_move_atr": 2.3946394912906053,
+    "control_median_4h_move_atr": 1.1686370346154327,
+    "median_first15_move_atr": 1.0990389583121198
+   }
+  },
+  "NFP|fade": {
+   "fit": {
+    "events": 52,
+    "win_rate_pct": 40.38461538461539,
+    "expectancy_r": 0.05424128773661235,
+    "random_mean_r": -0.07873654677090981,
+    "z": 0.9374456585064902,
+    "median_4h_move_atr": 2.7804430890821985,
+    "control_median_4h_move_atr": 1.3212777702567875,
+    "median_first15_move_atr": 1.573598084573487
+   },
+   "test": {
+    "events": 21,
+    "win_rate_pct": 47.61904761904761,
+    "expectancy_r": -0.0041100365780798636,
+    "random_mean_r": -0.051126425740381426,
+    "z": 0.23451224759047856,
+    "median_4h_move_atr": 2.3946394912906053,
+    "control_median_4h_move_atr": 1.1686370346154327,
+    "median_first15_move_atr": 1.0990389583121198
+   }
+  }
+ }
+}
