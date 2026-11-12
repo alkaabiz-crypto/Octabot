@@ -461,3 +461,14 @@ These would need a **new, separately pre-registered** decision document. `FORWAR
    - check B8's fill-candle stop;
    - model Hyperliquid fees and funding for the gold and oil paper tests;
    - inspect the other session's Batch 2 for pending-order logic, only if you ask.
+
+## Addendum A (2026-11-12 23:45 UTC): the other session's Batch 2
+
+At your request to continue the recommended tasks, the other session's `research/batch2/` was **read** (branch head `f556ac83`); nothing was modified.
+
+[FACT] `common.py` `simulate()`:
+- holds one position at a time;
+- enters at the **open of the first 1-minute candle at least 1 minute after each decision**, and exits at the open of the first candle at or after the hold time;
+- places no limit, stop or pending orders.
+
+The hypotheses H1–H4 decide on closed data: funding, basis at Monday 00:00 (futures close of the bar ending at the decision), aggressor z-score and DVOL. **Batch 2 is not exposed to the pending-order selection bug.** Its other properties (data revisions, costs) were not audited here.
