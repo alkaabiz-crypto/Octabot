@@ -49,3 +49,26 @@ These sources were checked on 2026-11-12 to confirm that each theory is widely t
   - [MQL5: testing head and shoulders](https://www.mql5.com/en/articles/5358)
   - [TheRightTrader: 1-2-3 reversal](https://therighttrader.com/learn/trading-strategies/one-two-three-reversal)
   - [TitanFX: H&S rules](https://research.titanfx.com/technical-analysis/candlestick-chart/head-and-shoulders-top-bottom)
+
+## Addendum 2 sources (batch G)
+
+- **Intraday momentum:**
+  - Gao, Han, Li & Zhou, "Market intraday momentum", *JFE* 129(2), 2018 ([RePEc](https://econpapers.repec.org/RePEc:eee:jfinec:v:129:y:2018:i:2:p:394-414), [Alpha Architect](https://alphaarchitect.com/2014/08/attention-prop-traders-the-first-half-hour-of-trading-predicts-the-last-half-hour/))
+  - [16-market extension (Reading)](https://reading-9.eprints-hosting.org/95566/1/Accepted-Version.pdf)
+  - [QuantConnect replication](https://www.quantconnect.com/learning/articles/investment-strategy-library/intraday-etf-momentum)
+- **Dual Thrust:** [QuantConnect tutorial](https://www.quantconnect.com/tutorials/strategy-library/dual-thrust-trading-algorithm) (negative Sharpe on SPY 2004–2017), [ProRealCode](https://www.prorealcode.com/prorealtime-indicators/dual-thrust-strategy-indicator/), [TradingView BTC Dual Thrust](https://www.tradingview.com/script/7Q7nTaV3-BTCUSD-Dual-Thrust-1H).
+- **Pre-FOMC drift:** [Lucca & Moench (Boston Fed presentation)](https://www.bostonfed.org/economic/conf/Macro-Finance-2012/presentations/lucca.pdf), [NY Fed staff report 1052](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1052.pdf).
+- **Gold/silver ratio:** [QuantifiedStrategies](https://quantifiedstrategies.substack.com/p/gold-silver-chart-ratio-strategy), [DEV community backtest](https://dev.to/retail_vest_1fd4e7c362443/gold-silver-ratio-strategy-how-1058-returns-tell-the-real-story-484c), [FXStreet](https://www.fxstreet.com/analysis/gold-to-silver-ratio-analysis-mean-reversion-trade-202510291207).
+- **Bitcoin seasonality and calendar effects:**
+  - [Quantpedia: intraday/overnight anomalies in Bitcoin](https://quantpedia.com/are-there-seasonal-intraday-or-overnight-anomalies-in-bitcoin/)
+  - [Quantpedia: calendar effects in Bitcoin](https://quantpedia.com/are-there-any-simple-calendar-effects-in-bitcoin-market/)
+  - [Concretum: Bitcoin intraday trend](https://concretumgroup.com/seasonality-in-bitcoin-intraday-trend-trading/)
+- **KAMA:** Kaufman, *Smarter Trading* (1995); [ForexTester](https://forextester.com/blog/adaptive-moving-average/); [MQL5](https://www.mql5.com/en/blogs/post/12393).
+- **Alligator and fractals:** Bill Williams, *Trading Chaos* (1995).
+- **Aroon:** Chande (1995).
+- **Vortex:** Botes & Siepman (2010).
+- **TRIX:** Hutson (1983).
+- **KST:** Pring.
+- **Keltner:** Chester Keltner, ATR version by Raschke.
+
+Defaults are those of TradingView and MetaTrader.

@@ -151,3 +151,44 @@ Committed **2026-11-12, before running and before the main library run.** The us
 
 - **Combinations:** about 150 new, about 550 in total. Under the two-period PASS bar, about 1.4 false PASSes are expected across everything.
 - **Sources:** added to `SOURCES.md`.
+
+## Addendum 2: batch G, academic anomalies, CTA systems and more indicators
+
+Committed **2026-11-12, before running.** The user asked for a still wider search. Same data, costs, controls and PASS bar. Default parameters only.
+
+**Session and calendar rules**
+
+| ID | Theory | Markets | Rule |
+|---|---|---|---|
+| G1 | Intraday momentum (Gao, Han, Li & Zhou 2018, JFE) | DAX, S&P, Nasdaq, gold, oil (1-minute engine) | The return from the previous session close to the end of the first half hour gives the direction of a trade held through the **last half hour**. Sessions: US 16:00 → 10:00 → trade 15:30–16:00 New York; DAX 17:30 → 09:30 → 17:00–17:30 Berlin; gold 13:30 → 08:50 → 13:00–13:30 New York; oil 14:30 → 09:30 → 14:00–14:30 New York. |
+| G2 | Dual Thrust (N=4, K1=K2=0.5), the Chinese CTA intraday breakout | all, 1h | Range = max(HH − LC, HC − LL) over the previous 4 days. Long above the day open + 0.5·Range, short below the open − 0.5·Range, reversing on the opposite break; flat at the end of the day. |
+| G13 | BTC/ETH 21:00–23:00 UTC seasonality (Quantpedia) | crypto, 1h | long 21:00 → 23:00 UTC every day |
+| G14 | Crypto Monday effect (Baur et al.) | crypto, 1h | long Monday 00:00 → Tuesday 00:00 UTC |
+
+**Indicator and trend rules**
+
+| ID | Theory | Timeframe | Rule |
+|---|---|---|---|
+| G3 | Bill Williams Alligator + fractals | 1h, 4h | Alligator = SMMA 13/8/5 shifted 8/5/3. With lips > teeth > jaw, a close above the last up-fractal → long; exit when the close is below the teeth. Mirror. |
+| G4 | Aroon(25) | 1h, 4h | long when Aroon-up > Aroon-down, else short |
+| G5 | Vortex(14) | 1h, 4h | long when VI+ > VI−, else short |
+| G6 | TRIX(15) with signal 9 | 1h, 4h | long when TRIX > signal, else short |
+| G7 | KST (ROC 10/15/20/30, SMA 10/10/10/15, signal 9) | 4h, 1d | long when KST > signal, else short |
+| G8 | KAMA (10, 2, 30) | 1h, 4h | long when KAMA is rising, short when falling |
+| G9 | Keltner breakout (EMA20 ± 2·ATR20) | 1h, 4h | close above the upper band → long, exit when the close is below EMA20; mirror |
+| G10 | Intraday z-score reversion | 15m | z = (close − SMA20)/sd20. z < −2 → long, exit at z > 0; mirror; flat at the end of the day. |
+
+**Information only, reported without a verdict (too few events for the PASS bar)**
+
+| ID | Theory | Rule |
+|---|---|---|
+| G11 | Pre-FOMC drift (Lucca & Moench) | long from 14:00 New York the day before each FOMC decision to 14:00 New York on the decision day. Markets: S&P, Nasdaq, gold, BTC. Dates: 2025 Jan 29, Mar 19, May 7, Jun 18, Jul 30, Sep 17, Oct 29, Dec 10; 2026 Jan 28, Mar 18, Apr 29, Jun 17, Jul 29, Sep 16, Oct 28. |
+| G12 | Gold/silver ratio z-score (60 days) | daily: when z > 2, long silver / short gold until z < 0; mirror |
+
+**Not testable here, so listed and skipped:**
+- R-Breaker (no primary rule source found);
+- Wyckoff spring and volume spread analysis (no real volume);
+- Elliott waves and harmonics (no objective rule);
+- NFP/CPI-day strategies (no clean, documented rule found).
+
+**Sources:** `SOURCES.md`, addendum 2.
