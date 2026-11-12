@@ -9,6 +9,7 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import engine as E  # noqa: E402
 import theories as T  # noqa: E402
+import theories_f as TF  # noqa: E402
 
 DRAWS = 500; SEED = 20261112
 
@@ -20,7 +21,7 @@ def summ(r):
 
 def run_market(mkt):
     out = {}
-    for tid, fam, tfs, mkts, fn in T.REGISTRY:
+    for tid, fam, tfs, mkts, fn in T.REGISTRY + TF.REGISTRY_F:
         if mkt not in mkts: continue
         for tf in tfs:
             if E.candles(mkt, tf) is None: continue
