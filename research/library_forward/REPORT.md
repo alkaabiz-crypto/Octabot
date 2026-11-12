@@ -1,4 +1,4 @@
-# Theory-library survivors - forward PAPER test (2026-11-12 17:25 UTC)
+# Theory-library survivors - forward PAPER test (2026-11-12 17:28 UTC)
 
 Hyperliquid prices for gold and oil, Binance spot for ETH (not Exness), fake money, rules frozen in FORWARD_RULES.md. No conclusion before 100 closed trades per test.
 
