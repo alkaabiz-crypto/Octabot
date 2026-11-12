@@ -25,6 +25,13 @@ The study tested 15 filters on their own: sessions, KST position relative to zer
 
 The nearest misses were "dollar index falling over the last 5 days" (test +0.52R per trade, p 0.04) and "volatility below its median" (+0.52R, p 0.06). Both are now recorded as shadow tracks in the paper test. Entries in the Asian session lost money in 2020–24 but were the best of all in 2025–26. That flip is a warning about how unstable these patterns are.
 
+## Do the near misses work elsewhere? (part C)
+
+The two near misses were checked on markets that played no part in choosing them, from 2023-07 to now. **Neither carried over.**
+
+- **Silver.** The dollar filter halved the number of trades and nearly doubled the profit per trade (+0.18R against +0.10R). It also cut the worst drawdown from 47R to 13R. But it did not beat random entries convincingly (p 0.13).
+- **EUR/USD.** The KST signal loses money with or without the filters, because of spread.
+
 ## What happens next
 
 The frozen paper test in [../gold_kst_paper](../gold_kst_paper) records the signal on new data from 2026-11-12. A daily briefing lists the coming high-impact events and their usual move size.
