@@ -16,7 +16,7 @@ def load_mod(name, path):
 
 load_mod("study", os.path.join(ROOT, "daily_signal_dca", "study.py"))
 G = load_mod("screen", os.path.join(ROOT, "shortlist_2025", "screen.py"))
-from build import SYMS  # noqa: E402
+SYMS = load_mod("mom50_build", os.path.join(HERE, "build.py")).SYMS
 
 
 def mom50_weights(d):
