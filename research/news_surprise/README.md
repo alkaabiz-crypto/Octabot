@@ -2,7 +2,7 @@
 
 This study asks whether the content of the jobs report (NFP) and CPI, meaning whether the number came in "hot" or "cool", tells which way each market will move, and whether a trader can profit from that.
 
-Free consensus forecasts are not available historically: ForexFactory and FXStreet block automated access, and TradingEconomics ended free access. So the surprise is measured against the data's own recent trend, using the numbers **as first published that morning** (ALFRED vintages from the St. Louis Fed).
+Sections 1–3 measure the surprise against the data's own recent trend, using the numbers **as first published that morning** (ALFRED vintages from the St. Louis Fed).
 - **CPI:** the core monthly change against its previous 6-month average.
 - **NFP:** the payroll change against its previous 3-month average, adjusted for the change in unemployment.
 
@@ -52,6 +52,15 @@ Gold shows a small leftover drift for a few minutes after the jobs report: +0.16
 ## 3. Trading the 4 hours after the first 15 minutes does not work
 
 Entering 15 minutes after the release in the surprise direction, for 4 hours with a 2 × ATR stop, was tested on 14 markets. The direction was learned in 2020–24 and tested on 2025–26. **0 of 56 combinations were confirmed.** Five forex combinations looked good in 2020–24. For example, after hot CPI, buy USD/CAD: +0.57R per trade, p 0.004. All five faded in 2025–26.
+
+## 4. Repeated with the real consensus forecasts
+
+A free source of historical consensus forecasts turned up: a public Hugging Face dataset copied from the Investing.com calendar. It covers NFP, the unemployment rate and core CPI from 2020-02 to 2026-06. All tests were rerun with the true surprise, actual minus forecast. The conclusion did not change.
+
+- **Direction is even clearer in the first second.** After CPI, EUR/USD went the surprise's way in 92% of releases (12 releases), and USD/JPY in 83%. After NFP the figures were 71–82%.
+- **From 5 seconds on it is gone in forex.** EUR/USD, GBP/USD and USD/JPY CPI entries at 5 to 30 seconds lost about 0.2–0.3R per trade.
+- **The 4-hour strategy: 0 of 56 confirmed** with the real surprise as well.
+- **The one lead was dropped.** Gold kept drifting in the surprise direction for a few minutes after NFP in 2025–26: +0.24R for an entry 30 seconds after the release, held 15 minutes. It was checked on 56 earlier releases (2020-03 to 2024-12) that had never been looked at. It gave −0.01R (p 0.31) for the 30-second entry and −0.02R for the 3-minute entry. It worked in 2021–2023 and failed in 2020 and 2024.
 
 ## What the daily briefing now does
 
