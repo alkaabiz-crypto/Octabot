@@ -96,3 +96,11 @@ None of these families appears in this branch's earlier work (batch 001, the 33-
 - **Number of tests.** 11 (E005) + 11 (E006) + 11 (E007) + 2 (E008) + 3 (E009) = **38 TEST-period tests**, with Benjamini–Hochberg at 5%.
 - **Decisions** follow `../PROTOCOL.md` section 10, with Sharpe differences in place of mean bp for E005 and E007, and loss differences for E006.
 - **Labels.** Because TEST is reused data, anything that would have been a CANDIDATE is labelled **SCREEN-PASS**. It then needs a forward period before the robustness batch and paper testing.
+
+## Amendment 1 (2026-11-12, before the full run)
+
+**What happened.** A first run of E009 on US500m found only 3 TRAIN pre-holiday days, against about 13 expected. On many pre-holiday days, which are Fridays or early-close sessions (3 July, the day after Thanksgiving, 24 December), the CFD has no 15-minute candle exactly at 16:00 New York time.
+
+**The change.** Execution is now at the **last 15-minute open at or before** 16:00 New York (17:30 Berlin) on that day, within 4 hours.
+
+**Disclosure.** The change was decided from candle availability. But the first run also printed per-period means for US500m (3, 6 and 11 trades), so this amendment is disclosed as made after a small look at E009 output. No other experiment's output was seen. The test smoke runs of E006 (EURUSDm) and E008 (BTC → ETH) printed results that the amendment does not affect.
