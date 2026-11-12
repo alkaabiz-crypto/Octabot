@@ -1,0 +1,1494 @@
+{
+ "n_keys": 228,
+ "flagged": {
+  "D4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "D4|US500m|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "D4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "G7|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  },
+  "G7|US500m|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  },
+  "G7|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  }
+ },
+ "by_theory": {
+  "A1": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A2": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A3": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "A4": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "A5": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A6": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A7": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "A8": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A9": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A10": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A11": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A12": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "A13": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B1": {
+   "combos": 5,
+   "cuts": 30,
+   "changed": 0
+  },
+  "B2": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "B3": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B4": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B5": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B6": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B7": {
+   "combos": 2,
+   "cuts": 12,
+   "changed": 0
+  },
+  "B8": {
+   "combos": 2,
+   "cuts": 12,
+   "changed": 0
+  },
+  "B9": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "B10": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "C1": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "C2": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "C3": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "C4": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "C5": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "C6": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "D1": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "D2": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "D3": {
+   "combos": 2,
+   "cuts": 12,
+   "changed": 0
+  },
+  "D4": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 3
+  },
+  "D5": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  },
+  "D6": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "E1": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  },
+  "E2": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "E3": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  },
+  "E4": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  },
+  "F1": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F2": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F3": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F4": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F5": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F6": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "F7": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "F8": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "F9": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "F10": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "F11": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "F12": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "G1": {
+   "combos": 2,
+   "cuts": 12,
+   "changed": 0
+  },
+  "G2": {
+   "combos": 3,
+   "cuts": 18,
+   "changed": 0
+  },
+  "G3": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G4": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G5": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G6": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G7": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 3
+  },
+  "G8": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G9": {
+   "combos": 6,
+   "cuts": 36,
+   "changed": 0
+  },
+  "G10": {
+   "combos": 2,
+   "cuts": 12,
+   "changed": 0
+  },
+  "G13": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  },
+  "G14": {
+   "combos": 1,
+   "cuts": 6,
+   "changed": 0
+  }
+ },
+ "all": {
+  "A1|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 534
+  },
+  "A1|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 534
+  },
+  "A1|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 534
+  },
+  "A2|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 30
+  },
+  "A2|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 30
+  },
+  "A2|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 30
+  },
+  "A3|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 988
+  },
+  "A3|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 338
+  },
+  "A3|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 988
+  },
+  "A3|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 338
+  },
+  "A3|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 988
+  },
+  "A3|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 338
+  },
+  "A4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 496
+  },
+  "A4|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 208
+  },
+  "A4|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 496
+  },
+  "A4|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 208
+  },
+  "A4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 496
+  },
+  "A4|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 208
+  },
+  "A5|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1348
+  },
+  "A5|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1348
+  },
+  "A5|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1348
+  },
+  "A6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 580
+  },
+  "A6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 580
+  },
+  "A6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 580
+  },
+  "A7|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 22
+  },
+  "A7|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 148
+  },
+  "A7|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 22
+  },
+  "A7|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 148
+  },
+  "A7|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 22
+  },
+  "A7|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 148
+  },
+  "A8|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 62
+  },
+  "A8|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 62
+  },
+  "A8|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 62
+  },
+  "A9|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 122
+  },
+  "A9|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 122
+  },
+  "A9|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 122
+  },
+  "A10|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 2812
+  },
+  "A10|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 2812
+  },
+  "A10|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 2812
+  },
+  "A11|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 56
+  },
+  "A11|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 56
+  },
+  "A11|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 58
+  },
+  "A12|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "A12|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "A12|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "A13|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 498
+  },
+  "A13|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 498
+  },
+  "A13|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 488
+  },
+  "B1|XAUUSDm|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 946
+  },
+  "B1|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 352
+  },
+  "B1|US500m|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 946
+  },
+  "B1|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 352
+  },
+  "B1|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 352
+  },
+  "B2|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 0
+  },
+  "B2|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 606
+  },
+  "B2|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 0
+  },
+  "B2|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 606
+  },
+  "B2|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 0
+  },
+  "B2|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 606
+  },
+  "B3|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 502
+  },
+  "B3|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 502
+  },
+  "B3|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 502
+  },
+  "B4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 642
+  },
+  "B4|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 642
+  },
+  "B4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 642
+  },
+  "B5|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 672
+  },
+  "B5|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 672
+  },
+  "B5|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 672
+  },
+  "B6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 860
+  },
+  "B6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 860
+  },
+  "B6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 860
+  },
+  "B7|XAUUSDm|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 3880
+  },
+  "B7|US500m|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 3880
+  },
+  "B8|XAUUSDm|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 592
+  },
+  "B8|US500m|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 592
+  },
+  "B9|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 460
+  },
+  "B9|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 460
+  },
+  "B9|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 460
+  },
+  "B10|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 4
+  },
+  "B10|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 4
+  },
+  "B10|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 10
+  },
+  "C1|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1640
+  },
+  "C1|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1640
+  },
+  "C1|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1640
+  },
+  "C2|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1032
+  },
+  "C2|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1032
+  },
+  "C2|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1032
+  },
+  "C3|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 896
+  },
+  "C3|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 32
+  },
+  "C3|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 896
+  },
+  "C3|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 32
+  },
+  "C3|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 896
+  },
+  "C3|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 30
+  },
+  "C4|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 60
+  },
+  "C4|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 60
+  },
+  "C4|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 66
+  },
+  "C5|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 776
+  },
+  "C5|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 776
+  },
+  "C5|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 776
+  },
+  "C6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1174
+  },
+  "C6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1174
+  },
+  "C6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1174
+  },
+  "D1|XAUUSDm|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 670
+  },
+  "D1|US500m|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 670
+  },
+  "D1|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 670
+  },
+  "D2|XAUUSDm|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 426
+  },
+  "D2|US500m|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 426
+  },
+  "D2|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 268
+  },
+  "D3|XAUUSDm|5m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 140
+  },
+  "D3|US500m|5m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 140
+  },
+  "D4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "D4|US500m|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "D4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 956
+  },
+  "D5|US500m|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 708
+  },
+  "D6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 466
+  },
+  "D6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 466
+  },
+  "D6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 476
+  },
+  "E1|US500m|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 54
+  },
+  "E2|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 24
+  },
+  "E2|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 24
+  },
+  "E2|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 18
+  },
+  "E3|US500m|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 708
+  },
+  "E4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 96
+  },
+  "F1|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 94
+  },
+  "F1|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 8
+  },
+  "F1|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 94
+  },
+  "F1|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 8
+  },
+  "F1|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 94
+  },
+  "F1|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 8
+  },
+  "F2|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1514
+  },
+  "F2|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 518
+  },
+  "F2|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1514
+  },
+  "F2|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 518
+  },
+  "F2|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1514
+  },
+  "F2|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 518
+  },
+  "F3|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 618
+  },
+  "F3|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 250
+  },
+  "F3|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 618
+  },
+  "F3|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 250
+  },
+  "F3|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 618
+  },
+  "F3|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 250
+  },
+  "F4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1040
+  },
+  "F4|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 386
+  },
+  "F4|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1040
+  },
+  "F4|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 386
+  },
+  "F4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1040
+  },
+  "F4|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 386
+  },
+  "F5|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 646
+  },
+  "F5|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 182
+  },
+  "F5|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 646
+  },
+  "F5|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 182
+  },
+  "F5|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 646
+  },
+  "F5|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 182
+  },
+  "F6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 154
+  },
+  "F6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 154
+  },
+  "F6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 154
+  },
+  "F7|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 324
+  },
+  "F7|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 324
+  },
+  "F7|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 324
+  },
+  "F8|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 638
+  },
+  "F8|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 638
+  },
+  "F8|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 638
+  },
+  "F9|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 556
+  },
+  "F9|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 556
+  },
+  "F9|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 556
+  },
+  "F10|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 276
+  },
+  "F10|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 16
+  },
+  "F10|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 276
+  },
+  "F10|US500m|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 16
+  },
+  "F10|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 276
+  },
+  "F10|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 18
+  },
+  "F11|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 374
+  },
+  "F11|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 374
+  },
+  "F11|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 374
+  },
+  "F12|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 58
+  },
+  "F12|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 58
+  },
+  "F12|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 58
+  },
+  "G1|XAUUSDm|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 504
+  },
+  "G1|US500m|1m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 504
+  },
+  "G2|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 228
+  },
+  "G2|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 228
+  },
+  "G2|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 240
+  },
+  "G3|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 430
+  },
+  "G3|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "G3|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 430
+  },
+  "G3|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "G3|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 430
+  },
+  "G3|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 136
+  },
+  "G4|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 546
+  },
+  "G4|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 142
+  },
+  "G4|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 546
+  },
+  "G4|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 142
+  },
+  "G4|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 546
+  },
+  "G4|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 142
+  },
+  "G5|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 970
+  },
+  "G5|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 290
+  },
+  "G5|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 970
+  },
+  "G5|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 290
+  },
+  "G5|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 970
+  },
+  "G5|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 290
+  },
+  "G6|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 730
+  },
+  "G6|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 180
+  },
+  "G6|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 730
+  },
+  "G6|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 180
+  },
+  "G6|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 730
+  },
+  "G6|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 180
+  },
+  "G7|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 198
+  },
+  "G7|XAUUSDm|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  },
+  "G7|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 198
+  },
+  "G7|US500m|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  },
+  "G7|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 198
+  },
+  "G7|BTCUSDT|1d": {
+   "cuts": 6,
+   "changed": 1,
+   "trades": 26
+  },
+  "G8|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1836
+  },
+  "G8|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 462
+  },
+  "G8|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1836
+  },
+  "G8|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 462
+  },
+  "G8|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 1836
+  },
+  "G8|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 462
+  },
+  "G9|XAUUSDm|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 454
+  },
+  "G9|XAUUSDm|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 168
+  },
+  "G9|US500m|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 454
+  },
+  "G9|US500m|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 168
+  },
+  "G9|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 454
+  },
+  "G9|BTCUSDT|4h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 168
+  },
+  "G10|XAUUSDm|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 2326
+  },
+  "G10|US500m|15m": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 2326
+  },
+  "G13|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 720
+  },
+  "G14|BTCUSDT|1h": {
+   "cuts": 6,
+   "changed": 0,
+   "trades": 102
+  }
+ }
+}

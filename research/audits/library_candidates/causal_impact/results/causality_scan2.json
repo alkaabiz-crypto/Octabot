@@ -1,0 +1,639 @@
+{
+ "by_theory": {
+  "A13": [
+   0,
+   180
+  ],
+  "B7": [
+   0,
+   120
+  ],
+  "B8": [
+   0,
+   120
+  ],
+  "B9": [
+   6,
+   180
+  ],
+  "B10": [
+   0,
+   180
+  ],
+  "C1": [
+   0,
+   180
+  ],
+  "C2": [
+   0,
+   180
+  ],
+  "C3": [
+   0,
+   360
+  ],
+  "C4": [
+   0,
+   180
+  ],
+  "C5": [
+   0,
+   180
+  ],
+  "C6": [
+   0,
+   180
+  ],
+  "D1": [
+   0,
+   180
+  ],
+  "D2": [
+   0,
+   180
+  ],
+  "D3": [
+   0,
+   120
+  ],
+  "D4": [
+   0,
+   180
+  ],
+  "D5": [
+   0,
+   60
+  ],
+  "D6": [
+   0,
+   180
+  ],
+  "E1": [
+   0,
+   60
+  ],
+  "E2": [
+   0,
+   180
+  ],
+  "E3": [
+   0,
+   60
+  ],
+  "E4": [
+   0,
+   60
+  ],
+  "F6": [
+   0,
+   180
+  ],
+  "F7": [
+   0,
+   180
+  ],
+  "F8": [
+   0,
+   180
+  ],
+  "F9": [
+   0,
+   180
+  ],
+  "F10": [
+   0,
+   360
+  ],
+  "F11": [
+   0,
+   180
+  ],
+  "F12": [
+   0,
+   180
+  ],
+  "G1": [
+   0,
+   120
+  ],
+  "G2": [
+   0,
+   180
+  ],
+  "G13": [
+   0,
+   60
+  ],
+  "G14": [
+   0,
+   60
+  ]
+ },
+ "detail": {
+  "A13|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "A13|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "A13|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B7|XAUUSDm|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B7|US500m|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B8|XAUUSDm|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B8|US500m|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B9|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 2,
+   "examples": [
+    {
+     "seed": 22,
+     "cut_candle": 1975,
+     "original": [],
+     "changed_future": [
+      [
+       1972,
+       -1,
+       92.342144174
+      ]
+     ]
+    },
+    {
+     "seed": 23,
+     "cut_candle": 1627,
+     "original": [
+      [
+       1626,
+       -1,
+       54.24238098
+      ]
+     ],
+     "changed_future": []
+    }
+   ]
+  },
+  "B9|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 2,
+   "examples": [
+    {
+     "seed": 22,
+     "cut_candle": 1975,
+     "original": [],
+     "changed_future": [
+      [
+       1972,
+       -1,
+       92.342144174
+      ]
+     ]
+    },
+    {
+     "seed": 23,
+     "cut_candle": 1627,
+     "original": [
+      [
+       1626,
+       -1,
+       54.24238098
+      ]
+     ],
+     "changed_future": []
+    }
+   ]
+  },
+  "B9|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 2,
+   "examples": [
+    {
+     "seed": 22,
+     "cut_candle": 1975,
+     "original": [],
+     "changed_future": [
+      [
+       1972,
+       -1,
+       92.342144174
+      ]
+     ]
+    },
+    {
+     "seed": 23,
+     "cut_candle": 1627,
+     "original": [
+      [
+       1626,
+       -1,
+       54.24238098
+      ]
+     ],
+     "changed_future": []
+    }
+   ]
+  },
+  "B10|XAUUSDm|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B10|US500m|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "B10|BTCUSDT|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C1|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C1|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C1|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C2|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C2|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C2|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|XAUUSDm|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|US500m|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C3|BTCUSDT|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C4|XAUUSDm|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C4|US500m|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C4|BTCUSDT|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C5|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C5|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C5|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C6|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C6|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "C6|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D1|XAUUSDm|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D1|US500m|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D1|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D2|XAUUSDm|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D2|US500m|15m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D2|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D3|XAUUSDm|5m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D3|US500m|5m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D4|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D4|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D4|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D5|US500m|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D6|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D6|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "D6|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E1|US500m|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E2|XAUUSDm|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E2|US500m|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E2|BTCUSDT|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E3|US500m|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "E4|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F6|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F6|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F6|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F7|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F7|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F7|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F8|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F8|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F8|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F9|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F9|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F9|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|XAUUSDm|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|US500m|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F10|BTCUSDT|1d": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F11|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F11|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F11|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F12|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F12|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "F12|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G1|XAUUSDm|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G1|US500m|1m": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G2|XAUUSDm|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G2|US500m|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G2|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G13|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  },
+  "G14|BTCUSDT|1h": {
+   "cuts": 60,
+   "decision_changed": 0,
+   "examples": []
+  }
+ }
+}

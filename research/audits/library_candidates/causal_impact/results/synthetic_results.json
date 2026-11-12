@@ -1,0 +1,393 @@
+{
+ "frozen_forward_sha256": "1db10cc2d3ccef2674c53cd26787b019a8cf5c68ca24a4c21e8bfcd1c95249b1",
+ "tests": [
+  {
+   "test": "C1 newer order fills first while an older order is pending -> newer taken, older cancelled",
+   "passed": true,
+   "detail": {
+    "note": "the frozen backtest's rule would take the OLDER order at 98.0 (it fills later, within its window)",
+    "expected": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C2 earlier order fills after a later signal appeared -> earlier taken",
+   "passed": true,
+   "detail": {
+    "note": "newer order cancelled at the fill",
+    "expected": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      370,
+      99.5,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C3 two orders fill on the same minute -> oldest wins",
+   "passed": true,
+   "detail": {
+    "note": "oldest-first scan of the pending list",
+    "expected": [
+     [
+      1,
+      361,
+      99.0,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      361,
+      99.0,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      361,
+      99.0,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C4 order expires while a newer signal is pending -> expired order never fills",
+   "passed": true,
+   "detail": {
+    "note": "first touch of 98 is exactly at the expiry minute (excluded); the newer order fills at 97",
+    "expected": [
+     [
+      1,
+      930,
+      97.0,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      930,
+      97.0,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      930,
+      97.0,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C5 gap through the limit -> fill at the minute open",
+   "passed": true,
+   "detail": {
+    "note": "e = min(open, limit)",
+    "expected": [
+     [
+      1,
+      307,
+      98.2,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      307,
+      98.2,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      307,
+      98.2,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C6 simultaneous fill, stop and target on one minute -> stop",
+   "passed": true,
+   "detail": {
+    "note": "stop checked from the fill minute, target from the next",
+    "expected": [
+     [
+      1,
+      307,
+      99.0,
+      "stop"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      307,
+      99.0,
+      "stop"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      307,
+      99.0,
+      "stop"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C7 one position at a time; no signal while in a position; next check exit hour + 2 h",
+   "passed": true,
+   "detail": {
+    "note": "signal at candle 3 ignored (in position), candle 5 skipped (before 07:00)",
+    "expected": [
+     [
+      1,
+      210,
+      99.0,
+      "target"
+     ],
+     [
+      1,
+      440,
+      99.0,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      210,
+      99.0,
+      "target"
+     ],
+     [
+      1,
+      440,
+      99.0,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      210,
+      99.0,
+      "target"
+     ],
+     [
+      1,
+      440,
+      99.0,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "C8 no cap on pending orders: 7 pending, the oldest whose level is reached fills",
+   "passed": true,
+   "detail": {
+    "note": "orders 99.0-0.1k for k=2..8 (98.8..98.2, all alive at 09:30); oldest fillable is k=2 at 98.8",
+    "expected": [
+     [
+      1,
+      570,
+      98.8,
+      "time"
+     ]
+    ],
+    "sim": [
+     [
+      1,
+      570,
+      98.8,
+      "time"
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      570,
+      98.8,
+      "time"
+     ]
+    ]
+   }
+  },
+  {
+   "test": "F1 genuine FVG pair: frozen backtest takes the older (deeper, later-filling) order; forward.py and SIM take the newer one",
+   "passed": true,
+   "detail": {
+    "frozen": [
+     [
+      1,
+      319,
+      100.92
+     ]
+    ],
+    "sim_lookahead": [
+     [
+      1,
+      319,
+      100.92
+     ]
+    ],
+    "sim_causal": [
+     [
+      1,
+      260,
+      102.9
+     ]
+    ],
+    "forward_py": [
+     [
+      1,
+      260,
+      102.9
+     ]
+    ],
+    "reading": "entries are below the limits because the minute opens gap through them (fill at the open)"
+   }
+  },
+  {
+   "test": "F2 same path, future after 04:59 changed: is the position held at 04:59 the same?",
+   "passed": true,
+   "detail": {
+    "frozen_original": [],
+    "frozen_changed_future": [
+     [
+      1,
+      260
+     ]
+    ],
+    "sim_original": [
+     [
+      1,
+      260
+     ]
+    ],
+    "sim_changed_future": [
+     [
+      1,
+      260
+     ]
+    ],
+    "meaning": "the frozen backtest's position at 04:59 depends on prices after 04:59; the causal simulator's does not"
+   }
+  },
+  {
+   "test": "R1 independent SIM (wall clock) reproduces frozen forward.py trade-for-trade (random walks, ETH-style fee rule)",
+   "passed": true,
+   "detail": {
+    "agree": {
+     "fib": "40/40 seeds",
+     "fvg": "40/40 seeds"
+    },
+    "first_fail": {}
+   }
+  },
+  {
+   "test": "R2 independent SIM reproduces frozen forward.py with a fixed-spread rule (gold/oil style)",
+   "passed": true,
+   "detail": {
+    "agree": "40/40 seeds"
+   }
+  },
+  {
+   "test": "R3 SIM with the frozen look-ahead selection reproduces frozen verify_minute.py trade-for-trade",
+   "passed": true,
+   "detail": {
+    "agree": {
+     "fib": "40/40 seeds",
+     "fvg": "40/40 seeds"
+    }
+   }
+  },
+  {
+   "test": "R4 prefix invariance: replacing the future after a cut never changes causal decisions before the cut; it does change the frozen backtest's",
+   "passed": true,
+   "detail": {
+    "FROZEN": "9 of 240 cuts changed past decisions",
+    "SIM_wall": "0 of 240 cuts changed past decisions",
+    "SIM_candle": "0 of 240 cuts changed past decisions",
+    "FWD": "0 of 80 cuts changed past decisions"
+   }
+  },
+  {
+   "test": "R5 timeline invariants of the causal simulator",
+   "passed": true,
+   "detail": {
+    "fill_before_creation": 0,
+    "fill_after_expiry": 0,
+    "overlapping_positions": 0,
+    "exit_before_fill": 0,
+    "signal_before_next_check": 0,
+    "max_pending": 11,
+    "trades": 1523
+   }
+  },
+  {
+   "test": "D1 forward.py: hourly incremental runs (+3 repeated runs with no new data) == one run; no duplicate ledger rows",
+   "passed": true,
+   "detail": {
+    "single_run_trades": 6,
+    "hourly_runs_trades": 6,
+    "ledger_rows": 6
+   }
+  }
+ ],
+ "summary": "16/16 passed"
+}

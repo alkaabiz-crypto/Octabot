@@ -1,0 +1,241 @@
+{
+ "ETHUSDT": {
+  "forward_model_trades": 654,
+  "forward_model_mean_bp_2x": -15.55,
+  "forward_model_sd_bp": 182.5,
+  "P_pass_true_mean_0": {
+   "normal": 0.456,
+   "iid_bootstrap": 0.445,
+   "block_bootstrap": 0.453
+  },
+  "P_pass_true_mean_eq_causal_backtest": {
+   "normal": 0.168,
+   "iid_bootstrap": 0.163,
+   "block_bootstrap": 0.18
+  },
+  "P_pass_true_mean_plus10bp": {
+   "normal": 0.669,
+   "iid_bootstrap": 0.664,
+   "block_bootstrap": 0.654
+  },
+  "trades_needed_for_80pct_power_at_alpha5_one_sided": {
+   "+5bp": 8242,
+   "+10bp": 2061,
+   "+20bp": 516
+  },
+  "mechanism": {
+   "identical_entries_frozen": {
+    "n": 267,
+    "mean_bp": 18.78,
+    "sum_pct": 50.1
+   },
+   "identical_entries_causal": {
+    "n": 267,
+    "mean_bp": 18.98,
+    "sum_pct": 50.7
+   },
+   "frozen_only": {
+    "n": 347,
+    "mean_bp": 32.17,
+    "sum_pct": 111.6
+   },
+   "causal_only": {
+    "n": 388,
+    "mean_bp": -38.81,
+    "sum_pct": -150.6
+   }
+  },
+  "causal_policies_candle_clock_backtest_costs": {
+   "multi": {
+    "2025": {
+     "trades": 354,
+     "mean_bp_2x": -19.95
+    },
+    "2026": {
+     "trades": 301,
+     "mean_bp_2x": -9.73
+    }
+   },
+   "single": {
+    "2025": {
+     "trades": 300,
+     "mean_bp_2x": -15.18
+    },
+    "2026": {
+     "trades": 254,
+     "mean_bp_2x": -26.73
+    }
+   },
+   "replace": {
+    "2025": {
+     "trades": 353,
+     "mean_bp_2x": -21.36
+    },
+    "2026": {
+     "trades": 298,
+     "mean_bp_2x": -10.79
+    }
+   }
+  }
+ },
+ "USOILm": {
+  "forward_model_trades": 414,
+  "forward_model_mean_bp_2x": -8.42,
+  "forward_model_sd_bp": 151.9,
+  "P_pass_true_mean_0": {
+   "normal": 0.448,
+   "iid_bootstrap": 0.452,
+   "block_bootstrap": 0.445
+  },
+  "P_pass_true_mean_eq_causal_backtest": {
+   "normal": 0.246,
+   "iid_bootstrap": 0.247,
+   "block_bootstrap": 0.217
+  },
+  "P_pass_true_mean_plus10bp": {
+   "normal": 0.701,
+   "iid_bootstrap": 0.709,
+   "block_bootstrap": 0.729
+  },
+  "trades_needed_for_80pct_power_at_alpha5_one_sided": {
+   "+5bp": 5707,
+   "+10bp": 1427,
+   "+20bp": 357
+  },
+  "mechanism": {
+   "identical_entries_frozen": {
+    "n": 149,
+    "mean_bp": 21.94,
+    "sum_pct": 32.7
+   },
+   "identical_entries_causal": {
+    "n": 149,
+    "mean_bp": 21.03,
+    "sum_pct": 31.3
+   },
+   "frozen_only": {
+    "n": 240,
+    "mean_bp": 10.53,
+    "sum_pct": 25.3
+   },
+   "causal_only": {
+    "n": 262,
+    "mean_bp": -20.98,
+    "sum_pct": -55.0
+   }
+  },
+  "causal_policies_candle_clock_backtest_costs": {
+   "multi": {
+    "2025": {
+     "trades": 225,
+     "mean_bp_2x": -2.54
+    },
+    "2026": {
+     "trades": 186,
+     "mean_bp_2x": -9.64
+    }
+   },
+   "single": {
+    "2025": {
+     "trades": 188,
+     "mean_bp_2x": -11.23
+    },
+    "2026": {
+     "trades": 160,
+     "mean_bp_2x": -32.1
+    }
+   },
+   "replace": {
+    "2025": {
+     "trades": 226,
+     "mean_bp_2x": -2.96
+    },
+    "2026": {
+     "trades": 186,
+     "mean_bp_2x": -17.3
+    }
+   }
+  }
+ },
+ "XAUUSDm": {
+  "forward_model_trades": 696,
+  "forward_model_mean_bp_2x": -0.16,
+  "forward_model_sd_bp": 59.9,
+  "P_pass_true_mean_0": {
+   "normal": 0.369,
+   "iid_bootstrap": 0.361,
+   "block_bootstrap": 0.331
+  },
+  "P_pass_true_mean_eq_causal_backtest": {
+   "normal": 0.359,
+   "iid_bootstrap": 0.351,
+   "block_bootstrap": 0.321
+  },
+  "P_pass_true_mean_plus10bp": {
+   "normal": 0.909,
+   "iid_bootstrap": 0.913,
+   "block_bootstrap": 0.936
+  },
+  "trades_needed_for_80pct_power_at_alpha5_one_sided": {
+   "+5bp": 889,
+   "+10bp": 223,
+   "+20bp": 56
+  },
+  "mechanism": {
+   "identical_entries_frozen": {
+    "n": 537,
+    "mean_bp": 8.2,
+    "sum_pct": 44.0
+   },
+   "identical_entries_causal": {
+    "n": 537,
+    "mean_bp": 8.2,
+    "sum_pct": 44.0
+   },
+   "frozen_only": {
+    "n": 162,
+    "mean_bp": 5.34,
+    "sum_pct": 8.7
+   },
+   "causal_only": {
+    "n": 181,
+    "mean_bp": -18.24,
+    "sum_pct": -33.0
+   }
+  },
+  "causal_policies_candle_clock_backtest_costs": {
+   "multi": {
+    "2025": {
+     "trades": 402,
+     "mean_bp_2x": -0.25
+    },
+    "2026": {
+     "trades": 316,
+     "mean_bp_2x": 3.81
+    }
+   },
+   "single": {
+    "2025": {
+     "trades": 274,
+     "mean_bp_2x": 0.09
+    },
+    "2026": {
+     "trades": 226,
+     "mean_bp_2x": 2.04
+    }
+   },
+   "replace": {
+    "2025": {
+     "trades": 397,
+     "mean_bp_2x": -0.25
+    },
+    "2026": {
+     "trades": 313,
+     "mean_bp_2x": 4.06
+    }
+   }
+  }
+ },
+ "P_at_least_one_of_three_passes_if_all_zero_edge": 0.797,
+ "P_at_least_one_of_three_passes_at_causal_backtest_means": 0.564
+}
