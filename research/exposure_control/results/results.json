@@ -1,0 +1,80 @@
+{
+ "generated_utc": "2026-11-12 00:20",
+ "n_shifts": 1000,
+ "BTCUSDT|TREND_ENS": {
+  "rule": 0.0489,
+  "p50": -0.1703,
+  "p90": 0.0521,
+  "p95": 0.1647,
+  "percentile": 89.6,
+  "verdict": "FAIL",
+  "avg_exposure": 0.449,
+  "buy_hold": -0.2095
+ },
+ "BTCUSDT|TREND_ENS_VOL": {
+  "rule": 0.06,
+  "p50": -0.1698,
+  "p90": 0.0666,
+  "p95": 0.2017,
+  "percentile": 89.7,
+  "verdict": "FAIL",
+  "avg_exposure": 0.428,
+  "buy_hold": -0.2095
+ },
+ "BTCUSDT|SMA50": {
+  "rule": 0.2855,
+  "p50": -0.1939,
+  "p90": 0.0937,
+  "p95": 0.3133,
+  "percentile": 94.3,
+  "verdict": "FAIL",
+  "avg_exposure": 0.469,
+  "buy_hold": -0.2095
+ },
+ "ETHUSDT|TREND_ENS": {
+  "rule": 0.4093,
+  "p50": -0.2215,
+  "p90": 0.2652,
+  "p95": 0.4592,
+  "percentile": 94.1,
+  "verdict": "FAIL",
+  "avg_exposure": 0.426,
+  "buy_hold": -0.3675
+ },
+ "ETHUSDT|TREND_ENS_VOL": {
+  "rule": 0.3254,
+  "p50": -0.1619,
+  "p90": 0.3069,
+  "p95": 0.5711,
+  "percentile": 90.2,
+  "verdict": "FAIL",
+  "avg_exposure": 0.339,
+  "buy_hold": -0.3675
+ },
+ "ETHUSDT|SMA50": {
+  "rule": 1.512,
+  "p50": -0.3222,
+  "p90": 0.6842,
+  "p95": 1.2883,
+  "percentile": 95.7,
+  "verdict": "PASS",
+  "avg_exposure": 0.451,
+  "buy_hold": -0.3675
+ },
+ "XAUUSDm|G_MOM50_ATR|x2": {
+  "rule": 0.49,
+  "p50": 0.1523,
+  "p90": 0.3983,
+  "p95": 0.5102,
+  "percentile": 93.6,
+  "verdict": "FAIL",
+  "avg_exposure": 0.613,
+  "trades": 17,
+  "buy_hold": 0.3199
+ },
+ "primary_verdicts": {
+  "BTCUSDT|TREND_ENS": "FAIL",
+  "ETHUSDT|TREND_ENS": "FAIL",
+  "XAUUSDm|G_MOM50_ATR|x2": "FAIL"
+ }
+}

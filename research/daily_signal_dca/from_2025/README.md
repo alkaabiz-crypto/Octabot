@@ -36,3 +36,7 @@
 - **Fast signals** (MOM1, the 21–23 UTC hours) lose heavily after fees, as in the longer test.
 
 Files: `run.py`, `data/*_from2025.csv.gz`, `results/results.json`.
+
+## Erratum (2026-11-12)
+
+The BTC TREND_ENS lump-sum return above (+1.2%) is understated. An object-dtype NaN in the warm-up dropped the first entry day's return. The corrected figure is **+4.9%**; ETH is unchanged. See `../../exposure_control/README.md`. The forward bot is not affected.
