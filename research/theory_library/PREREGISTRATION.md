@@ -119,3 +119,35 @@ The ORB and Theory #2 families have their own studies (`../orb_study`, `../zone_
 1. **A candidate league table:** every combination, ranked by holdout net at 2× costs, with its verdict.
 2. **Family summaries:** the share of each family positive in the holdout, against the random median.
 3. **Survivors:** a frozen forward paper test is proposed for each one.
+
+## Addendum 1: batch F, popular retail, TradingView, YouTube and smart-money strategies
+
+Committed **2026-11-12, before running and before the main library run.** The user asked for a wider internet search. Same data, costs, controls and PASS bar as above. Default parameters only.
+
+**Swing points:** a swing (fractal) high or low is the highest or lowest candle of the 5 centred on it. It is **only known 2 candles later**, so no future data is used.
+
+**Indicator and trend strategies**
+
+| ID | Theory | Timeframe | Rule |
+|---|---|---|---|
+| F1 | Squeeze Momentum (LazyBear, the most-liked TradingView indicator) | 1h, 4h | BB(20,2) inside KC(20,1.5) = squeeze on. When the squeeze turns off, trade in the direction of the momentum value. Momentum is the 20-candle linear-regression value of close − mean(mid of the 20-candle high/low, SMA20). Exit when momentum changes sign. |
+| F2 | UT Bot (key 1, ATR 10) | 1h, 4h | ATR trailing stop that flips with price; follow its side |
+| F3 | Chandelier Exit (22, 3) | 1h, 4h | long stop = highest high(22) − 3·ATR(22); short stop = lowest low(22) + 3·ATR(22). Go long when the close crosses above the short stop, short when it crosses below the long stop. |
+| F4 | SSL channel (10) | 1h, 4h | +1 if close > SMA10 of highs, −1 if close < SMA10 of lows, else hold the previous side; follow |
+| F5 | Hull MA (55) slope | 1h, 4h | long while HMA is rising, short while falling |
+| F6 | 200 EMA + MACD (viral YouTube version) | 1h | long when close > EMA200 and MACD crosses above its signal line below zero; stop = lowest low of the last 10 candles; target 1.5R; mirror |
+| F7 | RSI(14) divergence | 1h | bullish: the newest swing low is below the previous one (within 30 candles), RSI at that swing is higher than at the previous one, and RSI < 40 → long next open; standard pattern exit with stop at the swing low; mirror |
+| F8 | EMA20 pullback in trend | 1h | EMA50 > EMA200, the low touches EMA20 and the close is above it → long; standard pattern exit with stop at the candle low; mirror |
+
+**Smart-money and chart patterns**
+
+| ID | Theory | Timeframe | Rule |
+|---|---|---|---|
+| F9 | SMC order block after a break of structure | 1h | a close above the last swing high is a BOS up. The order block is the last bearish candle before the candle that broke. Limit buy at the OB high, valid 20 candles; stop below the OB low; 2R; mirror. |
+| F10 | Double bottom / top breakout | 1h, 1d | two swing lows within 0.5·ATR(14) of each other, 5–40 candles apart. Neckline = the highest high between them. A close above the neckline → long; stop below the lower low; target = the measured move; 20-candle time stop. Mirror. |
+| F11 | 1-2-3 reversal | 1h | swing low (1), the next swing high (2), then a higher swing low (3). A close above 2 → long; stop below 3; 2R; mirror. |
+| F12 | Head and shoulders / inverse | 1h | three swing highs where the middle one is ≥ 0.5·ATR above both outer ones and the outer ones are within 1·ATR of each other. Neckline = the lowest low between them. A close below the neckline → short; stop above the right shoulder; target = the measured move; mirror. |
+| F13 | Golden pocket (61.8–65%) | — | **Not run.** It is the same as B9 within its tolerance. Listed for completeness. |
+
+- **Combinations:** about 150 new, about 550 in total. Under the two-period PASS bar, about 1.4 false PASSes are expected across everything.
+- **Sources:** added to `SOURCES.md`.

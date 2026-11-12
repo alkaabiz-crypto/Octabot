@@ -27,3 +27,25 @@ These sources were checked on 2026-11-12 to confirm that each theory is widely t
   - Williams %R (14).
 
   These are the platform defaults on MetaTrader and TradingView.
+
+## Addendum 1 sources (batch F)
+
+- **UT Bot, Squeeze Momentum, SSL channel:** [TradingView UT Bot scripts](https://in.tradingview.com/scripts/utbotalert/), [LuxAlgo UT Bot](https://www.luxalgo.com/library/indicator/RIKFamAD-ut-bot-alerts/), [PickMyTrade: top free TradingView indicators](https://blog.pickmytrade.io/top-free-indicators-and-strategies-on-tradingview/). The PickMyTrade page says Squeeze Momentum is the most-liked TradingView indicator.
+- **Smart money concepts (order blocks, BOS):**
+  - [MQL5: order blocks in an EA](https://www.mql5.com/en/blogs/post/779413)
+  - [Backtrex ICT order block](https://backtrex.com/en/blog/ict-order-block-backtest-strategy)
+  - [PickMyTrade SMC Structure script](https://id.tradingview.com/script/p81vkiBb-SMC-Structure-PickMyTrade)
+  - [MQL5 article 22078](https://www.mql5.com/en/articles/22078)
+
+  These sources note that the definitions are loose. The objective version used here is in the pre-registration.
+- **YouTube strategies (200 EMA + MACD, RSI):**
+  - [Quant Factory: backtesting YouTube strategies #1](https://medium.com/quant-factory/backtesting-popular-strategies-from-youtube-1-e802670369c6)
+  - [TradingView: Testing a YouTube MACD strategy](https://my.tradingview.com/chart/SPX/j8ZIXCFi-Testing-a-Youtube-MACD-Strategy), with an advertised 86% win rate against 32% in a 27-year test
+  - [TradingView: RSI is it any good](https://www.tradingview.com/chart/OIS/nbEKyTK3-RSI-Is-it-any-good/)
+  - [MQL5 forum: viral MACD video](https://www.mql5.com/en/forum/492013)
+- **Chart patterns:**
+  - [Quantpedia: double bottom](https://quantpedia.com/technical-analysis-report-methodology-double-bottom-country-trading-strategy/) (its breakouts did better than its bounces)
+  - [QuantifiedStrategies: double top](https://quantifiedstrategies.substack.com/p/double-top-chart-pattern-trading)
+  - [MQL5: testing head and shoulders](https://www.mql5.com/en/articles/5358)
+  - [TheRightTrader: 1-2-3 reversal](https://therighttrader.com/learn/trading-strategies/one-two-three-reversal)
+  - [TitanFX: H&S rules](https://research.titanfx.com/technical-analysis/candlestick-chart/head-and-shoulders-top-bottom)
