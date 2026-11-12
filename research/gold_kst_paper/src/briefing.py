@@ -29,6 +29,7 @@ def kind_of(title):
 
 CONSENSUS = os.path.join(RESEARCH, "news_surprise", "data", "consensus_log.csv")
 FIELDS = ["event_utc", "country", "title", "forecast", "previous", "first_seen_utc", "last_seen_utc"]
+ALWAYS_LOG = {"ADP Non-Farm Employment Change", "Non-Farm Employment Change", "Unemployment Rate", "Core CPI m/m", "CPI m/m"}  # needed by live/
 
 
 def log_consensus(cal, now):
@@ -37,7 +38,7 @@ def log_consensus(cal, now):
     rows = list(csv.DictReader(open(CONSENSUS))) if os.path.exists(CONSENSUS) else []
     last = {(r["event_utc"], r["title"]): r for r in rows}
     for e in cal:
-        if e.get("country") != "USD" or e.get("impact") != "High":
+        if e.get("country") != "USD" or (e.get("impact") != "High" and e.get("title") not in ALWAYS_LOG):
             continue
         t = datetime.datetime.fromisoformat(e["date"]).astimezone(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M")
         key = (t, e["title"])

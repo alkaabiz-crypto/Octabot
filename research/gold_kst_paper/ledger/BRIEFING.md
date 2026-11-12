@@ -1,6 +1,6 @@
 # Gold daily briefing
 
-Generated 2026-11-12 12:54 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-12 17:27 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
