@@ -1,7 +1,7 @@
 """Batch 2 shared code: data fetchers (cached in scratch, never committed), signals H1-H4 and trade simulation.
 Implements PREREGISTRATION.md exactly. Used unchanged by dev.py (DEVELOPMENT) and forward.py (FORWARD).
 """
-import datetime as dt, hashlib, json, os, ssl, time, urllib.request, zlib
+import datetime as dt, hashlib, json, os, ssl, time, urllib.error, urllib.request, zlib
 import numpy as np
 import pandas as pd
 
@@ -80,6 +80,20 @@ def deribit_quarterlies(coin):
         for x in r:
             ex = dt.datetime.fromtimestamp(x["expiration_timestamp"] / 1000, dt.timezone.utc)
             if x.get("settlement_period") == "month" and ex.month in (3, 6, 9, 12) and x["expiration_timestamp"] >= START_MS:
+                inst.append((x["instrument_name"], int(x["expiration_timestamp"]), int(x["creation_timestamp"])))
+    # get_instruments(expired=true) only lists contracts expired in the last day, so archived quarterlies are looked up by
+    # name: Deribit quarterlies expire on the last Friday of Mar/Jun/Sep/Dec (implementation fix, 2026-11-12, before E).
+    for y in range(2025, dt.datetime.now(dt.timezone.utc).year + 2):
+        for mo in (3, 6, 9, 12):
+            last = dt.date(y + (mo == 12), mo % 12 + 1, 1) - dt.timedelta(days=1)
+            fri = last - dt.timedelta(days=(last.weekday() - 4) % 7)
+            name = f"{coin}-{fri.day}{fri.strftime('%b').upper()}{fri.strftime('%y')}"
+            try:
+                x = json.loads(urllib.request.urlopen(urllib.request.Request(f"https://www.deribit.com/api/v2/public/get_instrument?instrument_name={name}",
+                               headers={"User-Agent": "curl/8.5.0"}), timeout=60, context=CTX).read())["result"]
+            except urllib.error.HTTPError:
+                continue
+            if x["expiration_timestamp"] >= START_MS:
                 inst.append((x["instrument_name"], int(x["expiration_timestamp"]), int(x["creation_timestamp"])))
     return sorted(set(inst), key=lambda z: z[1])
 
