@@ -28,7 +28,51 @@ def load(series):
     return json.load(open(os.path.join(ROOT, "data", f"vintage_{series}.json")))
 
 
+MODE = os.environ.get("SURPRISE", "trend")          # "trend" (own-trend proxy) or "consensus" (actual - forecast)
+SUFFIX = "" if MODE == "trend" else "_consensus"
+
+
+def _num(x):
+    x = x.strip().replace(",", "")
+    mult = 1.0
+    if x.endswith("%"):
+        x = x[:-1]
+    elif x.endswith("K"):
+        x = x[:-1]
+    elif x.endswith("M"):
+        x, mult = x[:-1], 1000.0
+    return float(x) * mult if x not in ("", "-") else None
+
+
+def scores_consensus():
+    import csv as _csv
+    rows = list(_csv.DictReader(l for l in open(os.path.join(ROOT, "data", "consensus_investing.csv")) if not l.startswith("#")))
+    by = {}
+    for r in rows:
+        a, f = _num(r["actual"]), _num(r["forecast"])
+        if a is None or f is None:
+            continue
+        kind = "CPI" if r["event"].startswith("Core CPI") else "NFP" if r["event"].startswith("Nonfarm") else "UNRATE"
+        by.setdefault(r["date"], {})[kind] = a - f
+    out = {}
+    for d, v in by.items():
+        t = G.ny_to_utc(G.datetime.date.fromisoformat(d), "08:30")
+        if "CPI" in v and v["CPI"] != 0:
+            out[("CPI", t)] = v["CPI"]
+        if "NFP" in v:
+            sc = v["NFP"] - 100 * v.get("UNRATE", 0.0)
+            if sc != 0:
+                out[("NFP", t)] = sc
+    return out
+
+
 def scores():
+    if MODE == "consensus":
+        return scores_consensus()
+    return scores_trend()
+
+
+def scores_trend():
     """{('CPI'|'NFP', utc release time): surprise score}"""
     out = {}
     for d, obs in load("CPILFESL").items():
@@ -113,7 +157,7 @@ def main():
     rej = LR.benjamini_hochberg([res[k]["test"]["p"] for k in passed]) if passed else set()
     confirmed = [passed[i] for i in sorted(rej) if res[passed[i]]["test"]["expectancy_stress_r"] > 0]
     json.dump({"meta": {"generated_utc": S.fmt(time.time()), "perms": PERMS}, "passed_fit": passed, "confirmed": confirmed,
-               "results": res}, open(os.path.join(ROOT, "reports", "results.json"), "w"), indent=1)
+               "results": res}, open(os.path.join(ROOT, "reports", f"results{SUFFIX}.json"), "w"), indent=1)
     print("passed fit:", passed, "\nconfirmed:", confirmed)
 
 

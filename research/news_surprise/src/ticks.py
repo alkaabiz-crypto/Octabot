@@ -113,7 +113,7 @@ def main():
     with multiprocessing.Pool(4) as p:
         out = dict(p.map(run_market, list(MARKETS)))
     json.dump({"meta": {"generated_utc": S.fmt(time.time()), "period": "2025-01 to latest", "direction": "textbook"},
-               "results": out}, open(os.path.join(R.ROOT, "reports", "ticks.json"), "w"), indent=1)
+               "results": out}, open(os.path.join(R.ROOT, "reports", f"ticks{R.SUFFIX}.json"), "w"), indent=1)
     for sym, r in out.items():
         for k, v in r.items():
             print(sym, k, v["trades"], f"win {v['win_rate_pct']:.0f}%", f"E {v['expectancy_r']:+.3f}R", f"p {v['p']:.3f}")

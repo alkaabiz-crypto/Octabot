@@ -54,3 +54,24 @@ The 15-minute test showed that the surprise sign predicts the direction of the *
 - Result in pips-equivalent R (2 × ATR14 of the hour before), with real spread and no extra slippage.
 - Reported as the average and the win rate at each delay, with a sign-flip test: the same trades with the surprise signs shuffled, 2,000 times.
 - This shows how quickly the move happens. It is not a strategy to trade: real execution at release time also suffers requotes and slippage that tick data does not show.
+
+## Addendum 2 (2026-11-12): the real consensus surprise
+
+A free historical source of consensus forecasts turned up: a public Hugging Face dataset copied from the Investing.com calendar. It has the actual, forecast and previous values for US NFP, the unemployment rate and core CPI from 2020-02 to 2026-06. The extract is kept in `data/consensus_investing.csv`.
+
+Every test above is repeated with the **consensus surprise** in place of the trend proxy. Nothing else changes: the same markets, strategies, fit and test split, permutation benchmark, decision rule and tick-delay test.
+- **CPI:** core CPI month-on-month, actual minus forecast. An exact match means no trade.
+- **NFP:** payrolls actual minus forecast (in thousands), minus 100 × (unemployment actual minus forecast). Zero means no trade.
+
+The test period ends 2026-06, where the dataset ends. Results are written to `reports/*_consensus.*`.
+
+## Addendum 3 (2026-11-12): out-of-sample check of the one lead
+
+**The lead.** In 2025-01 to 2026-06, gold kept drifting in the textbook direction after the jobs report even for late entries. A strong surprise means SELL gold, a weak one means BUY. This showed with both surprise measures: entries at 30 s and 180 s, held to 15 minutes, gave about +0.2R. These results were seen before this check was written.
+
+**The check.** One pre-specified test on gold tick data that has not been looked at: NFP releases from **2020-03 to 2024-12**, using the consensus surprise.
+- Entry at the first quote at least 30 seconds after 08:30:00 (primary), and separately at least 180 seconds after (secondary).
+- Exit at the first quote 15 minutes after the release.
+- Real bid/ask, no stop. Sign-flip test with 2,000 shuffles, one-sided.
+
+**Decision.** The lead holds only if the primary test has p ≤ 0.05 and positive expectancy, and the secondary has positive expectancy. If it fails, the lead is dropped.
