@@ -1,4 +1,4 @@
-# Forward evaluation (2026-11-13 00:10 UTC)
+# Forward evaluation (2026-11-13 01:10 UTC)
 
 Confirmatory family of 4; a test passes only with random-timing p <= 0.0125, a positive mean at its stated cost and a clean independent audit (FORWARD_EVALUATION.md). **Blind:** tests not yet due show progress only. A PASS means more paper testing at real Exness prices, never live money by itself.
 

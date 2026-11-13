@@ -1,4 +1,4 @@
-# Oil Stochastic 4H bot - forward PAPER test (2026-11-13 00:10 UTC)
+# Oil Stochastic 4H bot - forward PAPER test (2026-11-13 01:10 UTC)
 
 Hyperliquid xyz:CL (not Exness). 0.01 lot = 10 bbl, no extra orders, TP 100 pips + 4 trailing, SL 100 pips, 0.02 spread per round trip, swap 0. Fake money.
 
