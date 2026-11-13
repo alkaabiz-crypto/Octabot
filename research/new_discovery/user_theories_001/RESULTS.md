@@ -25,7 +25,7 @@ Both tests followed `PREREG.md` (SHA-256 `95164f98…`, hashed 2026-11-12 23:24:
 - It was run through a resumable driver that calls the study's own `job()` per combination (seeds are per combination, so the results are identical to `main()`).
 - Output: `results/theory2b.json`.
 
-**Base-code check (in progress).** The unmodified frozen `study.py` was re-run on the same rebuilt bars. So far **40 of 60 combinations are identical** to the frozen `results/results.json`, in every field (trades, mean R, win rate, random 95th percentile, verdict). The remaining 20 are still running.
+**Base-code check: passed.** The unmodified frozen `study.py` (SHA-256 `1880fc63…`, as in the freeze manifest) was re-run on the same rebuilt bars. **All 60 of 60 combinations are identical** to the frozen `results/results.json`, in every field (trades, mean R, win rate, random 95th percentile, verdict). The data and setup are therefore the same as the original study's, and the only difference in Theory #2b is the range.
 
 ## Test B: wick rejection ("John Wick's theory"), frozen C2 on new timeframes
 
