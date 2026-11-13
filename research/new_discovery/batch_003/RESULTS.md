@@ -96,3 +96,17 @@ Pre-registered in `PREREG.md` (commit `f0fb5698`, before any code). TEST is reus
 - [HYP] The effect is **specific to the Coinbase-vs-Binance-USDT comparison**: it fails against another USD venue. It is therefore probably about **US-dollar demand against offshore USDT demand**, partly a USDT premium signal, rather than "Coinbase buying" alone.
 - It did not carry over to ETH in the last 16 months.
 - **Decision unchanged.** H4 remains WATCH by its batch rule, and the forward paper test decides. No rule or parameter was changed after any of these results.
+
+## H4 check C: OKX (USDT) as the second venue (`H4_CHECK_C_PREREG.md`, commit `2c4e7df1`; `h4_check_c.py`; `results/h4_check_c.json`). **PARTIAL**
+
+| Period | Trades | Mean (bp) | Stress (bp) | p vs random |
+|---|---|---|---|---|
+| EARLY 2020–22 | 316 | +47.25 | +38.03 | < 0.001 |
+| TRAIN | 157 | +13.97 | +4.76 | 0.097 |
+| VALIDATION | 86 | +59.05 | +49.83 | 0.011 |
+| TEST | 130 | +20.63 | +11.39 | 0.109 |
+
+**Reading.**
+- Positive in all four periods; TEST not significant on its own.
+- Together with the earlier checks, the premium works against **both USDT venues** (Binance, OKX) and **not** against a USD venue (Bitstamp).
+- That supports THE-014's interpretation: US-dollar demand against offshore USDT demand, rather than anything specific to Coinbase.
