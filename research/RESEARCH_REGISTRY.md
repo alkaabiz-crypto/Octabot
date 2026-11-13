@@ -38,7 +38,7 @@
 | Search on 2025: indicators, strategies, theories, mixes × 7 markets × 3 TF × 3 exits | 238,728 |
 | Confirmation on 2026 (shortlist) | 90 (0 passed) |
 
-**Programme total ≈ 350,000 tests.** (It was ≈ 110,000 before Batch 3.) Development or historical results are corrected against this total. Confirmatory forward tests are corrected within their pre-registered family (Holm across the 8).
+**Programme total ≈ 350,000 tests.** (It was ≈ 110,000 before Batch 3.) Development or historical results are corrected against this total. Confirmatory forward tests are judged under `FORWARD_EVALUATION.md` (4 tests, p ≤ 0.0125).
 
 ## Forward-test family (programme-wide correction)
 
