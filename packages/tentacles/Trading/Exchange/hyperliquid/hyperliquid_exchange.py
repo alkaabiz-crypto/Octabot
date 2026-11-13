@@ -15,7 +15,16 @@
 #  License along with this library.
 import typing
 
+import octobot_trading.enums as trading_enums
 import octobot_trading.exchanges as exchanges
+import octobot_trading.exchanges.connectors.ccxt.constants as ccxt_constants
+
+_FETCH_MARKETS_TYPES = "types"
+_SPOT_MARKET_TYPES = ["spot"]
+# "swap" are native perpetuals, "hip3" are builder-deployed perpetuals (ex: XYZ-CL/USDC:USDC for WTI oil)
+_FUTURE_MARKET_TYPES = ["swap", "hip3"]
+_MARKET_INFO = "info"
+_DEX_PARAM = "dex"
 
 
 class HyperliquidConnector(exchanges.CCXTConnector):
@@ -34,6 +43,17 @@ class HyperliquidConnector(exchanges.CCXTConnector):
         creds.api_key = creds.secret = None
         return creds
 
+    async def get_funding_rate(self, symbol: str, **kwargs: dict) -> dict:
+        return await super().get_funding_rate(symbol, **self._with_hip3_dex_param(symbol, kwargs))
+
+    def _with_hip3_dex_param(self, symbol: str, params: dict) -> dict:
+        # HIP-3 perpetuals live on their own dex (ex: "xyz" for XYZ-CL/USDC:USDC): without it,
+        # hyperliquid only returns native perpetuals data and HIP-3 funding rates are missing
+        dex = (self.client.markets or {}).get(symbol, {}).get(_MARKET_INFO, {}).get(_DEX_PARAM)
+        if dex and _DEX_PARAM not in params:
+            return {**params, _DEX_PARAM: dex}
+        return params
+
 
 class Hyperliquid(exchanges.RestExchange):
     DEFAULT_CONNECTOR_CLASS = HyperliquidConnector
@@ -41,3 +61,27 @@ class Hyperliquid(exchanges.RestExchange):
     @classmethod
     def get_name(cls):
         return 'hyperliquid'
+
+    @classmethod
+    def get_supported_exchange_types(cls) -> list:
+        """
+        :return: The list of supported exchange types
+        """
+        return [
+            trading_enums.ExchangeTypes.SPOT,
+            # perpetuals, including HIP-3 builder markets such as XYZ-CL/USDC:USDC (WTI oil)
+            trading_enums.ExchangeTypes.FUTURE,
+        ]
+
+    def get_additional_connector_config(self):
+        # the bundled ob_hyperliquid client only loads spot markets by default:
+        # load perpetuals (native and HIP-3 builder dexes) when trading futures
+        return {
+            ccxt_constants.CCXT_OPTIONS: {
+                ccxt_constants.CCXT_FETCH_MARKETS: {
+                    _FETCH_MARKETS_TYPES: (
+                        _FUTURE_MARKET_TYPES if self.exchange_manager.is_future else _SPOT_MARKET_TYPES
+                    ),
+                },
+            },
+        }

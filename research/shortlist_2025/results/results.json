@@ -1,0 +1,489 @@
+{
+ "generated_utc": "2026-11-10 21:27",
+ "gold": {
+  "data": {
+   "ticks": 156762043,
+   "first": "2025-01-01 23:05:07.737000",
+   "last": "2026-10-30 20:57:59.994000",
+   "ask_below_bid": 0,
+   "spread_median": 0.16000000000030923,
+   "sha256": {
+    "2025_01": "4e4c8b40d1e1c404fd7bc002962a8299801baa2349b4ce049eb986d9b5f19e22",
+    "2025_02": "089ad981044eefbfee303d246b57d6c36f62f28bc6927fbe1b6bfdd074f33053",
+    "2025_03": "1a71174e5897b3a540f924356e0887a23ba88ed9d8eef7a6eba63bd66f0f64c1",
+    "2025_04": "e6684c4572303366ccfca1f7e3704ae6550410e76c28ee7fecfc7a468fe062a6",
+    "2025_05": "797e6ce6bd622aaad2bb50d18fd92c3a0c11a43db35db53b360d61698b9c23e4",
+    "2025_06": "b7d5a48562076be27f70a33ea3fb6f8e64e957fa619e50718f7bc89625b026d7",
+    "2025_07": "ba7b592391ed3cd9757aa76ee972f48efe0473bf3c5605198df6df0a922ea343",
+    "2025_08": "95a0944b58037efbaf47502ead466340b7dac4ceceeb9da3af98b3b9eb7650bf",
+    "2025_09": "150b5a41a892e6f8482ca7c7ea471943a3389d34e177984152d701005dd6f0d8",
+    "2025_10": "55a0cbdf3d0f0ce0ae6693135e47acdd8b64fdd02a6c12795a3bb8a9158ab0ad",
+    "2025_11": "533a824186ef5d34088e74d15dcce767244d49ce08c83aef4777a16e62c2a6fc",
+    "2025_12": "15e77eac5f35daa7372543946b4107a80ad4e22e232e7a9f9e3ba4df80367de5",
+    "2026_01": "922ec2c19e1277dae28bbf284e90aa9c3214bb3329db9fbabc1111b6e7172133",
+    "2026_02": "f9c543de40af4d4eeec1c636295a16d1c88665b967189a1ec8869fadc4715425",
+    "2026_03": "429602a452abd85c2ab5b434cc1ea9bda8a7e3a778ffdec7db3e293321542486",
+    "2026_04": "89c5fced768b469991295fc0502f8c99749373f3933e7740013490d51096af9c",
+    "2026_05": "498e0392d15e06593962b151f0afe0bc253e4e7fc946e181828c4330ad5e2e42",
+    "2026_06": "1104ff552ea3c966b01e6086f533ecffecb0fc0f7abcceb5044e3982f828cfda",
+    "2026_07": "c704fb3ec1fe6898aa3c1e4c572dcc40e294b6aac914f1bad41227a5bbdc63b1",
+    "2026_08": "baa514c5a9422a0726164f0a6cbe0785dcd74da553951afe8ad31783c5902f2b",
+    "2026_09": "2f85861bfc1cbacb5fabc241832a58a6552159ceee84f25952bfc0706a500df8",
+    "2026_10": "f9066c09dc1d8d6e55b5a89dda37f33994fd69a605c96eccf29ead9c05278feb"
+   }
+  },
+  "daily_rows": 473,
+  "results": {
+   "G_SMA200|x1": {
+    "rule": {
+     "net": 0.0661,
+     "max_dd": -0.2209,
+     "trades": 2,
+     "days": 273
+    },
+    "buy_hold": {
+     "net": 0.0108,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 273
+    },
+    "active_from": "2025-10-10"
+   },
+   "G_SMA200|x2": {
+    "rule": {
+     "net": 0.066,
+     "max_dd": -0.221,
+     "trades": 2,
+     "days": 273
+    },
+    "buy_hold": {
+     "net": 0.0108,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 273
+    },
+    "active_from": "2025-10-10"
+   },
+   "G_MOM50_ATR|x1": {
+    "rule": {
+     "net": 0.4914,
+     "max_dd": -0.1343,
+     "trades": 17,
+     "days": 418
+    },
+    "buy_hold": {
+     "net": 0.3199,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 418
+    },
+    "active_from": "2025-03-20"
+   },
+   "G_MOM50_ATR|x2": {
+    "rule": {
+     "net": 0.49,
+     "max_dd": -0.1346,
+     "trades": 17,
+     "days": 418
+    },
+    "buy_hold": {
+     "net": 0.3199,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 418
+    },
+    "active_from": "2025-03-20"
+   },
+   "G_SEPNOV_control|x1": {
+    "rule": {
+     "net": 0.1072,
+     "max_dd": -0.0799,
+     "trades": 3,
+     "days": 472
+    },
+    "buy_hold": {
+     "net": 0.5144,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 472
+    },
+    "active_from": "2025-01-03"
+   },
+   "G_SEPNOV_control|x2": {
+    "rule": {
+     "net": 0.107,
+     "max_dd": -0.0799,
+     "trades": 3,
+     "days": 472
+    },
+    "buy_hold": {
+     "net": 0.5144,
+     "max_dd": -0.2697,
+     "trades": 1,
+     "days": 472
+    },
+    "active_from": "2025-01-03"
+   },
+   "G_ASIA_long|x1": {
+    "rule": {
+     "net": 0.2,
+     "max_dd": -0.1429,
+     "trades": 472,
+     "win_rate": 0.538,
+     "mean_bp": 4.26
+    }
+   },
+   "G_US_long|x1": {
+    "rule": {
+     "net": 0.013,
+     "max_dd": -0.1831,
+     "trades": 398,
+     "win_rate": 0.55,
+     "mean_bp": 0.74
+    }
+   },
+   "G_ASIA_long|x2": {
+    "rule": {
+     "net": 0.1662,
+     "max_dd": -0.1496,
+     "trades": 472,
+     "win_rate": 0.53,
+     "mean_bp": 3.66
+    }
+   },
+   "G_US_long|x2": {
+    "rule": {
+     "net": -0.0105,
+     "max_dd": -0.1894,
+     "trades": 398,
+     "win_rate": 0.545,
+     "mean_bp": 0.15
+    }
+   },
+   "_buy_hold_full": {
+    "net": 0.5144,
+    "max_dd": -0.2697,
+    "trades": 1,
+    "days": 472
+   }
+  },
+  "verdicts": {
+   "G_SMA200": "NOT CONFIRMED",
+   "G_MOM50_ATR": "CONSISTENT WITH PUBLISHED EVIDENCE",
+   "G_SEPNOV_control": "NOT CONFIRMED",
+   "G_ASIA_long": "CONSISTENT WITH PUBLISHED EVIDENCE",
+   "G_US_long": "NOT CONFIRMED"
+  }
+ },
+ "oil": {
+  "data": {
+   "ticks": 45516333,
+   "first": "2025-01-01 23:11:21.902000",
+   "last": "2026-10-30 20:56:59.147000",
+   "ask_below_bid": 0,
+   "spread_median": 0.01999999999999602,
+   "sha256": {
+    "2025_01": "8f41baa923f359d12abe3aba6214a7887cc2f8c26b322bed6ca43909da2d7c63",
+    "2025_02": "ee10459363acf483848617c872d566e8370886b1d4d41fc3de6c78e79d90510d",
+    "2025_03": "84a4ba0159b7d25f44adcb07f79ccfa881d36720bb0f3d2cb17fe5b2c6ef718e",
+    "2025_04": "7894e56b85be06b1d28f6a6975e1af8a78cbac4dffac32b8f5d01426c4e73f70",
+    "2025_05": "b8571dd8cac9274840dab29cc6384cc0474a7a58cab48179f4abf53964d97004",
+    "2025_06": "25d997bf40bc408eb5a71d440f99674d605088770d36ab61d0dc8e81de3af5d9",
+    "2025_07": "e53da684b1bc2e8e15da4f599416a30d6a7bbaa801bea03ff79bf3b491bb2078",
+    "2025_08": "b10d1a19507a5fb3d735cb127d493b536dbf9c6e7f1c2746a0d95fcc5936e47c",
+    "2025_09": "d418c4ebc956204cac7e9a2b314f5d521285529739b13666e3e7da92568df0aa",
+    "2025_10": "1449fac178f083793121ab8f4a654fd20437c731dbc1ce7af9468073bc331402",
+    "2025_11": "e570638e76d669e893cc290f661e5c918c698a02f398420fc6d8eefec7fcb5c4",
+    "2025_12": "bc2613d2904d39099d312a44bc18b8552449b2c4dea87873b0d1e17efdcc42ee",
+    "2026_01": "882c66386069305485c61c22db69f68aa177e207455aa658943775950bdca4a3",
+    "2026_02": "d84af2f8d5ccdbc10b374573ae493767c5ba37a3d8b05aa83cf0f4f752d9301b",
+    "2026_03": "3dbec3dcc70b3a1048a16073538400aa7e155ba49bdd4e4626e5699cdaeda777",
+    "2026_04": "64740f22927e384b4f01c2f2135ef2d55de1396037051fc939daa2f0757862ba",
+    "2026_05": "8773493055c80c99b1178f24e6f7a5553a130ba015ae6c14bb4eff6125f03484",
+    "2026_06": "19e9b23cc30016d8ef85b281cd22348f6737152bf1a076d0f1ff4d5c5ae3660c",
+    "2026_07": "011285c48303c45ab88a4f98774c5bfb012383e07a6707d521e55f951aa89497",
+    "2026_08": "76e23f6a07220402414cc23cf7d9f97c297fc176886a6c999a99988446fb7bbf",
+    "2026_09": "d053160d1d03641043cd21e3126a7e6a974d3caea268cf6c0eca989177bef123",
+    "2026_10": "ecbab6df72bd331f6f5054d56e935597bc77dade1335b819e0ff9ef1332de08f"
+   }
+  },
+  "daily_rows": 472,
+  "results": {
+   "O_MOM_BLEND|x1": {
+    "rule": {
+     "net": 0.1285,
+     "max_dd": -0.2904,
+     "trades": 3,
+     "days": 193
+    },
+    "buy_hold": {
+     "net": 0.6055,
+     "max_dd": -0.3509,
+     "trades": 1,
+     "days": 193
+    },
+    "active_from": "2026-02-02",
+    "note": "swap not deducted"
+   },
+   "O_MOM_BLEND|x2": {
+    "rule": {
+     "net": 0.1278,
+     "max_dd": -0.2906,
+     "trades": 3,
+     "days": 193
+    },
+    "buy_hold": {
+     "net": 0.6055,
+     "max_dd": -0.3509,
+     "trades": 1,
+     "days": 193
+    },
+    "active_from": "2026-02-02",
+    "note": "swap not deducted"
+   },
+   "O_TURTLE|x1": {
+    "rule": {
+     "net": -0.0631,
+     "max_dd": -0.321,
+     "trades": 9,
+     "days": 417
+    },
+    "buy_hold": {
+     "net": 0.5203,
+     "max_dd": -0.3509,
+     "trades": 1,
+     "days": 417
+    },
+    "active_from": "2025-03-20",
+    "note": "swap not deducted"
+   },
+   "O_TURTLE|x2": {
+    "rule": {
+     "net": -0.0684,
+     "max_dd": -0.3223,
+     "trades": 9,
+     "days": 417
+    },
+    "buy_hold": {
+     "net": 0.5203,
+     "max_dd": -0.3509,
+     "trades": 1,
+     "days": 417
+    },
+    "active_from": "2025-03-20",
+    "note": "swap not deducted"
+   },
+   "O_INTRADAY|x1": {
+    "rule": {
+     "net": -0.1479,
+     "max_dd": -0.1485,
+     "trades": 456,
+     "win_rate": 0.443,
+     "mean_bp": -3.46
+    }
+   },
+   "O_INTRADAY|x2": {
+    "rule": {
+     "net": -0.2442,
+     "max_dd": -0.2435,
+     "trades": 456,
+     "win_rate": 0.373,
+     "mean_bp": -6.09
+    }
+   },
+   "_buy_hold_full": {
+    "net": 0.4002,
+    "max_dd": -0.3509,
+    "trades": 1,
+    "days": 471
+   }
+  },
+  "verdicts": {
+   "O_MOM_BLEND": "NOT CONFIRMED",
+   "O_TURTLE": "NOT CONFIRMED",
+   "O_INTRADAY": "NOT CONFIRMED"
+  }
+ },
+ "crypto": {
+  "BTCUSDT|C_DONCH_ENS|x1": {
+   "net": -0.0625,
+   "max_dd": -0.1414,
+   "trades": 285,
+   "active_from": "2025-01-07",
+   "avg_exposure": 0.155
+  },
+  "BTCUSDT|C_DONCH_ENS|x2": {
+   "net": -0.0782,
+   "max_dd": -0.1494,
+   "trades": 285,
+   "active_from": "2025-01-07",
+   "avg_exposure": 0.155
+  },
+  "BTCUSDT|C_SMA50|x1": {
+   "net": 0.2855,
+   "max_dd": -0.2546,
+   "trades": 20,
+   "active_from": "2025-02-20",
+   "avg_exposure": 0.506
+  },
+  "BTCUSDT|C_SMA50|x2": {
+   "net": 0.235,
+   "max_dd": -0.2694,
+   "trades": 20,
+   "active_from": "2025-02-20",
+   "avg_exposure": 0.506
+  },
+  "BTCUSDT|C_MAX20|x1": {
+   "net": 0.0662,
+   "max_dd": -0.1193,
+   "trades": 38,
+   "active_from": "2025-01-21",
+   "avg_exposure": 0.109
+  },
+  "BTCUSDT|C_MAX20|x2": {
+   "net": -0.0119,
+   "max_dd": -0.1487,
+   "trades": 38,
+   "active_from": "2025-01-21",
+   "avg_exposure": 0.109
+  },
+  "BTCUSDT|C_MAX10|x1": {
+   "net": -0.0665,
+   "max_dd": -0.1282,
+   "trades": 58,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.159
+  },
+  "BTCUSDT|C_MAX10|x2": {
+   "net": -0.1689,
+   "max_dd": -0.1716,
+   "trades": 58,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.159
+  },
+  "BTCUSDT|C_MIN10_control|x1": {
+   "net": -0.0954,
+   "max_dd": -0.3008,
+   "trades": 64,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.183
+  },
+  "BTCUSDT|C_MIN10_control|x2": {
+   "net": -0.2026,
+   "max_dd": -0.32,
+   "trades": 64,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.183
+  },
+  "BTCUSDT|BUY_HOLD|x1": {
+   "net": -0.2095,
+   "max_dd": -0.5297,
+   "trades": 0,
+   "active_from": "2025-01-02",
+   "avg_exposure": 1.0
+  },
+  "BTCUSDT|BUY_HOLD|x2": {
+   "net": -0.2103,
+   "max_dd": -0.5297,
+   "trades": 0,
+   "active_from": "2025-01-02",
+   "avg_exposure": 1.0
+  },
+  "ETHUSDT|C_DONCH_ENS|x1": {
+   "net": 0.0415,
+   "max_dd": -0.1164,
+   "trades": 257,
+   "active_from": "2025-01-07",
+   "avg_exposure": 0.093
+  },
+  "ETHUSDT|C_DONCH_ENS|x2": {
+   "net": 0.0308,
+   "max_dd": -0.1204,
+   "trades": 257,
+   "active_from": "2025-01-07",
+   "avg_exposure": 0.093
+  },
+  "ETHUSDT|C_SMA50|x1": {
+   "net": 1.512,
+   "max_dd": -0.2951,
+   "trades": 9,
+   "active_from": "2025-02-20",
+   "avg_exposure": 0.487
+  },
+  "ETHUSDT|C_SMA50|x2": {
+   "net": 1.4671,
+   "max_dd": -0.3007,
+   "trades": 9,
+   "active_from": "2025-02-20",
+   "avg_exposure": 0.487
+  },
+  "ETHUSDT|C_MAX20|x1": {
+   "net": 0.0954,
+   "max_dd": -0.2868,
+   "trades": 33,
+   "active_from": "2025-01-21",
+   "avg_exposure": 0.1
+  },
+  "ETHUSDT|C_MAX20|x2": {
+   "net": 0.0254,
+   "max_dd": -0.3114,
+   "trades": 33,
+   "active_from": "2025-01-21",
+   "avg_exposure": 0.1
+  },
+  "ETHUSDT|C_MAX10|x1": {
+   "net": 0.3783,
+   "max_dd": -0.2138,
+   "trades": 49,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.147
+  },
+  "ETHUSDT|C_MAX10|x2": {
+   "net": 0.2494,
+   "max_dd": -0.2263,
+   "trades": 49,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.147
+  },
+  "ETHUSDT|C_MIN10_control|x1": {
+   "net": -0.1781,
+   "max_dd": -0.3645,
+   "trades": 58,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.166
+  },
+  "ETHUSDT|C_MIN10_control|x2": {
+   "net": -0.2668,
+   "max_dd": -0.3875,
+   "trades": 58,
+   "active_from": "2025-01-11",
+   "avg_exposure": 0.166
+  },
+  "ETHUSDT|BUY_HOLD|x1": {
+   "net": -0.3675,
+   "max_dd": -0.6755,
+   "trades": 0,
+   "active_from": "2025-01-02",
+   "avg_exposure": 1.0
+  },
+  "ETHUSDT|BUY_HOLD|x2": {
+   "net": -0.3682,
+   "max_dd": -0.6755,
+   "trades": 0,
+   "active_from": "2025-01-02",
+   "avg_exposure": 1.0
+  }
+ },
+ "crypto_verdicts": {
+  "BTCUSDT|C_DONCH_ENS": "NOT CONFIRMED",
+  "BTCUSDT|C_SMA50": "CONSISTENT WITH PUBLISHED EVIDENCE",
+  "BTCUSDT|C_MAX20": "NOT CONFIRMED",
+  "BTCUSDT|C_MAX10": "NOT CONFIRMED",
+  "BTCUSDT|C_MIN10_control": "NOT CONFIRMED",
+  "ETHUSDT|C_DONCH_ENS": "CONSISTENT WITH PUBLISHED EVIDENCE",
+  "ETHUSDT|C_SMA50": "NOT CONFIRMED",
+  "ETHUSDT|C_MAX20": "CONSISTENT WITH PUBLISHED EVIDENCE",
+  "ETHUSDT|C_MAX10": "CONSISTENT WITH PUBLISHED EVIDENCE",
+  "ETHUSDT|C_MIN10_control": "NOT CONFIRMED"
+ }
+}

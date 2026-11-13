@@ -1,0 +1,397 @@
+{
+ "design": "ONE-YEAR EXNESS BTCUSDm VALIDATION of the frozen Donchian 20 strategy (research only; no live trading).",
+ "parity_candle_replay_vs_frozen_engine": {
+  "engine_trades": 64,
+  "replay_trades": 64,
+  "differing_trades": 0,
+  "identical": true,
+  "tolerance_R": 0.0001
+ },
+ "ticks": {
+  "count": 36683952,
+  "first": "2025-11-01 00:00",
+  "last": "2026-10-31 23:59",
+  "bad_ask_lt_bid": 0,
+  "non_monotonic": 0
+ },
+ "data_quality": {
+  "gaps_in_window_and_warmup": [
+   {
+    "start": "2025-11-30 18:30",
+    "end": "2025-12-01 00:00",
+    "missing_15m": 22
+   },
+   {
+    "start": "2025-12-06 07:15",
+    "end": "2025-12-06 07:30",
+    "missing_15m": 1
+   },
+   {
+    "start": "2025-12-13 07:30",
+    "end": "2025-12-13 08:00",
+    "missing_15m": 2
+   },
+   {
+    "start": "2026-03-30 00:00",
+    "end": "2026-04-01 00:00",
+    "missing_15m": 192
+   }
+  ],
+  "signals_with_flags": [
+   {
+    "signal_close": "2025-12-06 15:00",
+    "trend_ok": false,
+    "flags": [
+     "Donchian lookback spans missing/incomplete hours",
+     "gap inside 200 x 4H EMA window (minor)"
+    ]
+   },
+   {
+    "signal_close": "2026-04-01 07:00",
+    "trend_ok": false,
+    "flags": [
+     "Donchian lookback spans missing/incomplete hours",
+     "gap inside 200 x 4H EMA window (minor)"
+    ]
+   }
+  ],
+  "trades_with_serious_flags": []
+ },
+ "robustness": {
+  "median_R": -0.5745,
+  "expectancy_without_top1": -0.0305,
+  "expectancy_without_top3": -0.1748,
+  "top1_share_of_total_R": 1.08,
+  "largest_trade_R": 26.448
+ },
+ "results": {
+  "exness_tick_replay_entry_first_tick_after_close": {
+   "trades": 64,
+   "win_rate_pct": 35.9,
+   "profit_factor": 1.738,
+   "expectancy_R": 0.3832,
+   "avg_R": 0.3832,
+   "t_stat": 0.86,
+   "ci95_t": [
+    -0.4933,
+    1.2598
+   ],
+   "ci95_bootstrap": [
+    -0.2723,
+    1.4011
+   ],
+   "max_drawdown_pct": 4.58,
+   "longest_losing_streak": 8,
+   "net_return_pct": 11.98
+  },
+  "exness_tick_replay_entry_T+8min": {
+   "trades": 64,
+   "win_rate_pct": 32.8,
+   "profit_factor": 1.753,
+   "expectancy_R": 0.3892,
+   "avg_R": 0.3892,
+   "t_stat": 0.89,
+   "ci95_t": [
+    -0.4718,
+    1.2502
+   ],
+   "ci95_bootstrap": [
+    -0.2725,
+    1.3543
+   ],
+   "max_drawdown_pct": 4.43,
+   "longest_losing_streak": 8,
+   "net_return_pct": 12.23
+  },
+  "exness_tick_replay_CLEAN_DATA_ONLY": {
+   "trades": 64,
+   "win_rate_pct": 35.9,
+   "profit_factor": 1.738,
+   "expectancy_R": 0.3832,
+   "avg_R": 0.3832,
+   "t_stat": 0.86,
+   "ci95_t": [
+    -0.4933,
+    1.2598
+   ],
+   "ci95_bootstrap": [
+    -0.2701,
+    1.481
+   ],
+   "max_drawdown_pct": 4.58,
+   "longest_losing_streak": 8,
+   "net_return_pct": 11.98
+  },
+  "exness_frozen_engine_bid_candles_no_spread": {
+   "trades": 64,
+   "win_rate_pct": 35.9,
+   "profit_factor": 1.781,
+   "expectancy_R": 0.3997,
+   "avg_R": 0.3997,
+   "t_stat": 0.89,
+   "ci95_t": [
+    -0.4784,
+    1.2778
+   ],
+   "ci95_bootstrap": [
+    -0.2536,
+    1.4209
+   ],
+   "max_drawdown_pct": 4.43,
+   "longest_losing_streak": 8,
+   "net_return_pct": 12.57
+  },
+  "binance_frozen_engine_no_costs": {
+   "trades": 64,
+   "win_rate_pct": 35.9,
+   "profit_factor": 1.975,
+   "expectancy_R": 0.4829,
+   "avg_R": 0.4829,
+   "t_stat": 1.02,
+   "ci95_t": [
+    -0.4444,
+    1.4102
+   ],
+   "ci95_bootstrap": [
+    -0.2094,
+    1.5776
+   ],
+   "max_drawdown_pct": 3.98,
+   "longest_losing_streak": 8,
+   "net_return_pct": 15.48
+  },
+  "binance_frozen_engine_0.05%_rt_hypothetical": {
+   "trades": 64,
+   "win_rate_pct": 35.9,
+   "profit_factor": 1.792,
+   "expectancy_R": 0.423,
+   "avg_R": 0.423,
+   "t_stat": 0.89,
+   "ci95_t": [
+    -0.504,
+    1.35
+   ],
+   "ci95_bootstrap": [
+    -0.2545,
+    1.4978
+   ],
+   "max_drawdown_pct": 4.6,
+   "longest_losing_streak": 8,
+   "net_return_pct": 13.29
+  }
+ },
+ "swap_sensitivity_HYPOTHETICAL": {
+  "total_swap_days": 64,
+  "trades_held_over_rollover": 41,
+  "breakeven_swap_pct_of_notional_per_swap_day": 0.3409,
+  "expectancy_if_swap_per_day": {
+   "0.01%": 0.372,
+   "0.02%": 0.3608,
+   "0.05%": 0.327
+  }
+ },
+ "commission_sensitivity_HYPOTHETICAL": {
+  "0_usd_per_lot_round_trip": 0.3832,
+  "2_usd_per_lot_round_trip": 0.3802,
+  "4_usd_per_lot_round_trip": 0.3771,
+  "8_usd_per_lot_round_trip": 0.371
+ },
+ "monthly_by_exit": {
+  "2025-11": {
+   "trades": 0,
+   "wins": 0,
+   "sum_R": 0.0,
+   "approx_return_pct": 0.0
+  },
+  "2025-12": {
+   "trades": 0,
+   "wins": 0,
+   "sum_R": 0.0,
+   "approx_return_pct": 0.0
+  },
+  "2026-01": {
+   "trades": 5,
+   "wins": "2",
+   "sum_R": 3.716,
+   "approx_return_pct": 1.86
+  },
+  "2026-02": {
+   "trades": 0,
+   "wins": 0,
+   "sum_R": 0.0,
+   "approx_return_pct": 0.0
+  },
+  "2026-03": {
+   "trades": 5,
+   "wins": "2",
+   "sum_R": 0.391,
+   "approx_return_pct": 0.2
+  },
+  "2026-04": {
+   "trades": 8,
+   "wins": "5",
+   "sum_R": 2.598,
+   "approx_return_pct": 1.3
+  },
+  "2026-05": {
+   "trades": 8,
+   "wins": "1",
+   "sum_R": -3.451,
+   "approx_return_pct": -1.73
+  },
+  "2026-06": {
+   "trades": 0,
+   "wins": 0,
+   "sum_R": 0.0,
+   "approx_return_pct": 0.0
+  },
+  "2026-07": {
+   "trades": 6,
+   "wins": "3",
+   "sum_R": -0.625,
+   "approx_return_pct": -0.31
+  },
+  "2026-08": {
+   "trades": 10,
+   "wins": "3",
+   "sum_R": 22.459,
+   "approx_return_pct": 11.23
+  },
+  "2026-09": {
+   "trades": 12,
+   "wins": "4",
+   "sum_R": 2.28,
+   "approx_return_pct": 1.14
+  },
+  "2026-10": {
+   "trades": 10,
+   "wins": "3",
+   "sum_R": -2.841,
+   "approx_return_pct": -1.42
+  }
+ },
+ "regimes": {
+  "bear": {
+   "trades": 38,
+   "win_rate_pct": 36.8,
+   "profit_factor": 2.359,
+   "expectancy_R": 0.6798,
+   "avg_R": 0.6798,
+   "t_stat": 0.93,
+   "ci95_t": [
+    -0.752,
+    2.1115
+   ],
+   "ci95_bootstrap": [
+    -0.3505,
+    2.358
+   ],
+   "max_drawdown_pct": 4.58,
+   "longest_losing_streak": 8,
+   "net_return_pct": 12.78
+  },
+  "sideways": {
+   "trades": 4,
+   "win_rate_pct": 50.0,
+   "profit_factor": 0.536,
+   "expectancy_R": -0.1855,
+   "avg_R": -0.1855,
+   "t_stat": -0.49,
+   "ci95_t": [
+    -0.9213,
+    0.5502
+   ],
+   "ci95_bootstrap": [
+    -0.7995,
+    0.4284
+   ],
+   "max_drawdown_pct": 0.7,
+   "longest_losing_streak": 1,
+   "net_return_pct": -0.37
+  },
+  "bull": {
+   "trades": 22,
+   "win_rate_pct": 31.8,
+   "profit_factor": 0.956,
+   "expectancy_R": -0.0255,
+   "avg_R": -0.0255,
+   "t_stat": -0.08,
+   "ci95_t": [
+    -0.6451,
+    0.5941
+   ],
+   "ci95_bootstrap": [
+    -0.5604,
+    0.6181
+   ],
+   "max_drawdown_pct": 2.63,
+   "longest_losing_streak": 4,
+   "net_return_pct": -0.34
+  }
+ },
+ "exness_vs_binance": {
+  "breakout_signals": {
+   "exness": 270,
+   "binance": 278,
+   "same_hour": 263,
+   "only_exness": 7,
+   "only_binance": 15,
+   "trend_filter_disagreements": [
+    "2026-04-06 10:00"
+   ],
+   "only_exness_list": [
+    "2025-12-29 03:00",
+    "2026-02-02 16:00",
+    "2026-04-01 01:00",
+    "2026-07-10 05:00",
+    "2026-08-05 20:00",
+    "2026-09-21 15:00",
+    "2026-09-27 10:00"
+   ],
+   "only_binance_list": [
+    "2025-11-28 11:00",
+    "2026-02-06 17:00",
+    "2026-03-30 03:00",
+    "2026-03-30 05:00",
+    "2026-05-05 14:00",
+    "2026-06-27 14:00",
+    "2026-08-05 18:00",
+    "2026-08-19 22:00",
+    "2026-08-20 17:00",
+    "2026-08-23 14:00",
+    "2026-08-29 19:00",
+    "2026-08-31 18:00",
+    "2026-09-21 13:00",
+    "2026-09-27 02:00",
+    "2026-10-16 12:00"
+   ]
+  },
+  "trades": {
+   "exness": 64,
+   "binance": 64,
+   "same_entry_hour": 59,
+   "same_exit_time": 45,
+   "median_entry_price_diff_pct": -0.0365,
+   "median_abs_R_diff": 0.025
+  }
+ },
+ "random_benchmark": {
+  "strategy_expectancy_same_model": 0.389,
+  "strategy_trades_same_model": 64,
+  "random_any_hour": {
+   "runs": 1000,
+   "median": -0.0262,
+   "p5": -0.225,
+   "p95": 0.3126,
+   "strategy_percentile": 97.8
+  },
+  "random_4h_uptrend_hours_only": {
+   "runs": 1000,
+   "median": 0.1353,
+   "p5": -0.1112,
+   "p95": 0.5742,
+   "strategy_percentile": 78.0
+  }
+ },
+ "buy_and_hold_bid_pct": -29.32
+}

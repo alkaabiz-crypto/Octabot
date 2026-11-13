@@ -1,0 +1,457 @@
+{
+ "generated_utc": "2026-11-10 20:02:53",
+ "grid_size": 8400,
+ "data_months": [
+  "2025_09",
+  "2025_10",
+  "2025_11",
+  "2025_12",
+  "2026_01",
+  "2026_02",
+  "2026_03",
+  "2026_04",
+  "2026_05",
+  "2026_06",
+  "2026_07",
+  "2026_08",
+  "2026_09",
+  "2026_10"
+ ],
+ "walk_forward": [
+  {
+   "test_month": "2026-02",
+   "chosen": {
+    "tp": 0.3,
+    "trail": 0.04,
+    "stop": 100.0,
+    "extra": 0,
+    "step": null,
+    "amult": null,
+    "dir": "fade",
+    "tf": "1h"
+   },
+   "train_net": 197.96,
+   "train_dd": 42.57,
+   "test_net": 0.0,
+   "test_baskets": 0,
+   "test_dd_within_month": 0.0
+  },
+  {
+   "test_month": "2026-03",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 50.0,
+    "extra": 1,
+    "step": 1.0,
+    "amult": 1.0,
+    "dir": "fade",
+    "tf": "1h"
+   },
+   "train_net": 466.95,
+   "train_dd": 100.88,
+   "test_net": -336.84,
+   "test_baskets": 121,
+   "test_dd_within_month": 540.97
+  },
+  {
+   "test_month": "2026-04",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m"
+   },
+   "train_net": 2137.51,
+   "train_dd": 341.0,
+   "test_net": -89.67,
+   "test_baskets": 47,
+   "test_dd_within_month": 545.15
+  },
+  {
+   "test_month": "2026-05",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 1.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m"
+   },
+   "train_net": 2286.18,
+   "train_dd": 506.39,
+   "test_net": 186.59,
+   "test_baskets": 43,
+   "test_dd_within_month": 903.67
+  },
+  {
+   "test_month": "2026-06",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m"
+   },
+   "train_net": 2273.56,
+   "train_dd": 640.2,
+   "test_net": 35.36,
+   "test_baskets": 18,
+   "test_dd_within_month": 562.21
+  },
+  {
+   "test_month": "2026-07",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 0,
+    "step": null,
+    "amult": null,
+    "dir": "fade",
+    "tf": "1h"
+   },
+   "train_net": 539.79,
+   "train_dd": 156.47,
+   "test_net": 69.4,
+   "test_baskets": 3,
+   "test_dd_within_month": 189.73
+  },
+  {
+   "test_month": "2026-08",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 50.0,
+    "extra": 2,
+    "step": 0.63,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "1h"
+   },
+   "train_net": 1274.32,
+   "train_dd": 287.91,
+   "test_net": 35.44,
+   "test_baskets": 27,
+   "test_dd_within_month": 224.01
+  },
+  {
+   "test_month": "2026-09",
+   "chosen": {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 25.0,
+    "extra": 1,
+    "step": 0.63,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "1h"
+   },
+   "train_net": 673.8,
+   "train_dd": 166.56,
+   "test_net": -408.92,
+   "test_baskets": 84,
+   "test_dd_within_month": 529.24
+  },
+  {
+   "test_month": "2026-10",
+   "chosen": {
+    "tp": 0.6,
+    "trail": 0.04,
+    "stop": 100.0,
+    "extra": 2,
+    "step": 0.63,
+    "amult": 1.5,
+    "dir": "rating",
+    "tf": "1h"
+   },
+   "train_net": 1542.43,
+   "train_dd": 359.14,
+   "test_net": -262.43,
+   "test_baskets": 90,
+   "test_dd_within_month": 496.43
+  }
+ ],
+ "oos_net": -771.07,
+ "oos_positive_months": 4,
+ "oos_max_dd": 903.67,
+ "checks": {
+  "oos_net_positive": false,
+  "at_least_6_of_9_months_positive": false,
+  "oos_dd_below_2x_net": false
+ },
+ "PASS": false,
+ "descriptive_in_sample": {
+  "share_profitable_full_year": 0.1782,
+  "share_profitable_all_4_quarters": 0.0152,
+  "best_full_year": [
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 1.0,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "1h",
+    "net": 2634.61,
+    "dd": 1412.84,
+    "baskets": 307,
+    "win_rate": 0.8566775244299675,
+    "q1": -201.25,
+    "q2": 1020.12,
+    "q3": 1156.92,
+    "q4": 658.82,
+    "worst_quarter": -201.25
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 2602.68,
+    "dd": 640.2,
+    "baskets": 275,
+    "win_rate": 0.9163636363636364,
+    "q1": 134.19,
+    "q2": 1913.65,
+    "q3": 371.55,
+    "q4": 183.29,
+    "worst_quarter": 134.19
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 3,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 2602.68,
+    "dd": 640.2,
+    "baskets": 275,
+    "win_rate": 0.9163636363636364,
+    "q1": 134.19,
+    "q2": 1913.65,
+    "q3": 371.55,
+    "q4": 183.29,
+    "worst_quarter": 134.19
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 1,
+    "step": 1.0,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 2469.65,
+    "dd": 1131.09,
+    "baskets": 226,
+    "win_rate": 0.8938053097345132,
+    "q1": 121.95,
+    "q2": 1278.12,
+    "q3": 570.48,
+    "q4": 499.1,
+    "worst_quarter": 121.95
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 1,
+    "step": 1.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 2394.87,
+    "dd": 839.24,
+    "baskets": 223,
+    "win_rate": 0.905829596412556,
+    "q1": 163.82,
+    "q2": 1405.41,
+    "q3": 492.38,
+    "q4": 333.26,
+    "worst_quarter": 163.82
+   }
+  ],
+  "best_worst_quarter": [
+   {
+    "tp": 1.0,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 1.0,
+    "amult": 1.5,
+    "dir": "rating+trend",
+    "tf": "1h",
+    "net": 1226.15,
+    "dd": 1834.43,
+    "baskets": 432,
+    "win_rate": 0.8958333333333334,
+    "q1": 281.56,
+    "q2": 357.48,
+    "q3": 265.51,
+    "q4": 321.6,
+    "worst_quarter": 265.51
+   },
+   {
+    "tp": 1.0,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 2,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "fade",
+    "tf": "1h",
+    "net": 1265.11,
+    "dd": 946.88,
+    "baskets": 352,
+    "win_rate": 0.9403409090909091,
+    "q1": 222.1,
+    "q2": 176.95,
+    "q3": 430.74,
+    "q4": 435.32,
+    "worst_quarter": 176.95
+   },
+   {
+    "tp": 1.0,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 3,
+    "step": 2.5,
+    "amult": 1.0,
+    "dir": "fade",
+    "tf": "1h",
+    "net": 1265.11,
+    "dd": 946.88,
+    "baskets": 352,
+    "win_rate": 0.9403409090909091,
+    "q1": 222.1,
+    "q2": 176.95,
+    "q3": 430.74,
+    "q4": 435.32,
+    "worst_quarter": 176.95
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.0,
+    "stop": 200.0,
+    "extra": 1,
+    "step": 1.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 1684.41,
+    "dd": 930.36,
+    "baskets": 223,
+    "win_rate": 0.905829596412556,
+    "q1": 165.0,
+    "q2": 869.7,
+    "q3": 316.53,
+    "q4": 333.18,
+    "worst_quarter": 165.0
+   },
+   {
+    "tp": 1.5,
+    "trail": 0.04,
+    "stop": 200.0,
+    "extra": 1,
+    "step": 1.5,
+    "amult": 1.0,
+    "dir": "rating",
+    "tf": "15m",
+    "net": 2394.87,
+    "dd": 839.24,
+    "baskets": 223,
+    "win_rate": 0.905829596412556,
+    "q1": 163.82,
+    "q2": 1405.41,
+    "q3": 492.38,
+    "q4": 333.26,
+    "worst_quarter": 163.82
+   }
+  ],
+  "median_net_by": {
+   "tp": {
+    "0.15": -1092.0,
+    "0.3": -1096.1,
+    "0.6": -933.9,
+    "1.0": -495.1,
+    "1.5": -457.6
+   },
+   "trail": {
+    "0.0": -1068.2,
+    "0.04": -547.0
+   },
+   "extra": {
+    "0": -121.6,
+    "1": -743.0,
+    "2": -872.8,
+    "3": -889.0
+   },
+   "stop": {
+    "25.0": -853.7,
+    "50.0": -1086.8,
+    "100.0": -870.6,
+    "200.0": -315.0
+   },
+   "dir": {
+    "always_buy": -297.5,
+    "always_sell": -2171.0,
+    "fade": -719.2,
+    "rating": -1105.5,
+    "rating+trend": -637.6,
+    "trend": -717.3
+   },
+   "tf": {
+    "15m": -1132.2,
+    "1h": -539.7
+   }
+  },
+  "chosen_frequency": {
+   "tp": {
+    "1.5": 7,
+    "0.3": 1,
+    "0.6": 1
+   },
+   "trail": {
+    "0.04": 9
+   },
+   "extra": {
+    "2": 5,
+    "0": 2,
+    "1": 2
+   },
+   "stop": {
+    "200.0": 4,
+    "100.0": 2,
+    "50.0": 2,
+    "25.0": 1
+   },
+   "dir": {
+    "rating": 6,
+    "fade": 3
+   },
+   "tf": {
+    "1h": 6,
+    "15m": 3
+   }
+  }
+ }
+}

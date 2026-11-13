@@ -1,0 +1,748 @@
+{
+ "generated_utc": "2026-11-12 17:17",
+ "exness": {
+  "XAUUSDm": {
+   "bars": 648069,
+   "first": "2025-01-01 23:05:00",
+   "last": "2026-10-30 20:57:00",
+   "duplicate_minutes": 0,
+   "unsorted": 0,
+   "nonpositive": 0,
+   "high_below_low": 0,
+   "open_or_close_outside_range": 0,
+   "negative_spread": 0,
+   "spread_median": 0.16,
+   "spread_p99": 0.36,
+   "spread_max": 4.0,
+   "one_minute_jumps_over_12sd_and_1pct": 13,
+   "largest_jumps": [
+    {
+     "utc": "2026-01-29 15:27:00",
+     "ret_pct": -2.38
+    },
+    {
+     "utc": "2026-06-14 22:02:00",
+     "ret_pct": 1.62
+    },
+    {
+     "utc": "2026-04-12 22:06:00",
+     "ret_pct": -1.58
+    },
+    {
+     "utc": "2026-09-04 12:30:00",
+     "ret_pct": -1.57
+    },
+    {
+     "utc": "2026-07-14 12:30:00",
+     "ret_pct": 1.44
+    }
+   ],
+   "weekday_gaps_over_3h": 13,
+   "largest_weekday_gaps": [
+    {
+     "after_utc": "2025-11-28 19:44:00",
+     "hours": 52.3
+    },
+    {
+     "after_utc": "2025-12-24 18:29:00",
+     "hours": 28.7
+    },
+    {
+     "after_utc": "2025-12-31 21:57:00",
+     "hours": 25.1
+    },
+    {
+     "after_utc": "2025-06-19 17:14:00",
+     "hours": 4.8
+    },
+    {
+     "after_utc": "2025-01-20 19:14:00",
+     "hours": 3.9
+    }
+   ],
+   "bars_per_month_min_max": [
+    27227,
+    31518
+   ],
+   "months": 22
+  },
+  "USOILm": {
+   "bars": 636623,
+   "first": "2025-01-01 23:11:00",
+   "last": "2026-10-30 20:56:00",
+   "duplicate_minutes": 0,
+   "unsorted": 0,
+   "nonpositive": 0,
+   "high_below_low": 0,
+   "open_or_close_outside_range": 0,
+   "negative_spread": 0,
+   "spread_median": 0.018,
+   "spread_p99": 0.04,
+   "spread_max": 0.378,
+   "one_minute_jumps_over_12sd_and_1pct": 88,
+   "largest_jumps": [
+    {
+     "utc": "2026-03-08 22:01:00",
+     "ret_pct": 11.02
+    },
+    {
+     "utc": "2026-07-26 22:01:00",
+     "ret_pct": -8.15
+    },
+    {
+     "utc": "2026-08-02 22:01:00",
+     "ret_pct": -7.79
+    },
+    {
+     "utc": "2026-03-01 23:02:00",
+     "ret_pct": 7.62
+    },
+    {
+     "utc": "2026-04-12 22:12:00",
+     "ret_pct": 7.05
+    }
+   ],
+   "weekday_gaps_over_3h": 15,
+   "largest_weekday_gaps": [
+    {
+     "after_utc": "2025-11-28 18:29:00",
+     "hours": 53.5
+    },
+    {
+     "after_utc": "2026-03-29 23:59:00",
+     "hours": 48.0
+    },
+    {
+     "after_utc": "2025-12-24 18:29:00",
+     "hours": 28.5
+    },
+    {
+     "after_utc": "2025-12-31 21:58:00",
+     "hours": 25.1
+    },
+    {
+     "after_utc": "2025-11-28 02:47:00",
+     "hours": 10.9
+    }
+   ],
+   "bars_per_month_min_max": [
+    25719,
+    31320
+   ],
+   "months": 22
+  },
+  "DE30m": {
+   "bars": 624853,
+   "first": "2025-01-02 00:15:00",
+   "last": "2026-10-30 19:59:00",
+   "duplicate_minutes": 0,
+   "unsorted": 0,
+   "nonpositive": 0,
+   "high_below_low": 0,
+   "open_or_close_outside_range": 0,
+   "negative_spread": 0,
+   "spread_median": 1.6,
+   "spread_p99": 12.4,
+   "spread_max": 235.4,
+   "one_minute_jumps_over_12sd_and_1pct": 20,
+   "largest_jumps": [
+    {
+     "utc": "2026-04-01 00:00:00",
+     "ret_pct": 4.96
+    },
+    {
+     "utc": "2026-03-23 11:05:00",
+     "ret_pct": 2.49
+    },
+    {
+     "utc": "2026-03-23 11:17:00",
+     "ret_pct": 2.2
+    },
+    {
+     "utc": "2025-04-09 17:19:00",
+     "ret_pct": 2.12
+    },
+    {
+     "utc": "2025-02-02 23:02:00",
+     "ret_pct": -1.93
+    }
+   ],
+   "weekday_gaps_over_3h": 9,
+   "largest_weekday_gaps": [
+    {
+     "after_utc": "2025-12-23 20:59:00",
+     "hours": 123.3
+    },
+    {
+     "after_utc": "2025-04-17 19:59:00",
+     "hours": 100.3
+    },
+    {
+     "after_utc": "2026-04-02 19:59:00",
+     "hours": 100.3
+    },
+    {
+     "after_utc": "2026-04-30 19:59:00",
+     "hours": 76.3
+    },
+    {
+     "after_utc": "2026-05-08 19:59:00",
+     "hours": 52.3
+    }
+   ],
+   "bars_per_month_min_max": [
+    25306,
+    31209
+   ],
+   "months": 22
+  },
+  "US500m": {
+   "bars": 643072,
+   "first": "2025-01-01 23:00:00",
+   "last": "2026-10-30 20:54:00",
+   "duplicate_minutes": 0,
+   "unsorted": 0,
+   "nonpositive": 0,
+   "high_below_low": 0,
+   "open_or_close_outside_range": 0,
+   "negative_spread": 0,
+   "spread_median": 0.59,
+   "spread_p99": 1.29,
+   "spread_max": 4.145,
+   "one_minute_jumps_over_12sd_and_1pct": 15,
+   "largest_jumps": [
+    {
+     "utc": "2025-04-06 22:01:00",
+     "ret_pct": -3.53
+    },
+    {
+     "utc": "2026-04-01 00:00:00",
+     "ret_pct": 3.46
+    },
+    {
+     "utc": "2025-04-09 17:19:00",
+     "ret_pct": 2.61
+    },
+    {
+     "utc": "2025-04-06 22:02:00",
+     "ret_pct": -2.03
+    },
+    {
+     "utc": "2025-02-02 23:00:00",
+     "ret_pct": -1.88
+    }
+   ],
+   "weekday_gaps_over_3h": 17,
+   "largest_weekday_gaps": [
+    {
+     "after_utc": "2025-11-28 18:14:00",
+     "hours": 53.8
+    },
+    {
+     "after_utc": "2026-03-29 23:59:00",
+     "hours": 48.0
+    },
+    {
+     "after_utc": "2025-12-24 18:14:00",
+     "hours": 28.8
+    },
+    {
+     "after_utc": "2025-12-31 21:59:00",
+     "hours": 25.0
+    },
+    {
+     "after_utc": "2025-11-28 02:44:00",
+     "hours": 10.8
+    }
+   ],
+   "bars_per_month_min_max": [
+    26459,
+    31479
+   ],
+   "months": 22
+  },
+  "USTECm": {
+   "bars": 638803,
+   "first": "2025-01-01 23:00:00",
+   "last": "2026-10-28 23:59:00",
+   "duplicate_minutes": 0,
+   "unsorted": 0,
+   "nonpositive": 0,
+   "high_below_low": 0,
+   "open_or_close_outside_range": 0,
+   "negative_spread": 0,
+   "spread_median": 1.92,
+   "spread_p99": 3.6,
+   "spread_max": 16.91,
+   "one_minute_jumps_over_12sd_and_1pct": 19,
+   "largest_jumps": [
+    {
+     "utc": "2025-04-06 22:01:00",
+     "ret_pct": -5.26
+    },
+    {
+     "utc": "2026-04-01 00:00:00",
+     "ret_pct": 3.88
+    },
+    {
+     "utc": "2025-04-09 17:19:00",
+     "ret_pct": 2.72
+    },
+    {
+     "utc": "2025-02-02 23:01:00",
+     "ret_pct": -2.69
+    },
+    {
+     "utc": "2025-10-12 22:01:00",
+     "ret_pct": 2.17
+    }
+   ],
+   "weekday_gaps_over_3h": 20,
+   "largest_weekday_gaps": [
+    {
+     "after_utc": "2025-11-28 18:14:00",
+     "hours": 53.8
+    },
+    {
+     "after_utc": "2025-04-25 19:59:00",
+     "hours": 52.0
+    },
+    {
+     "after_utc": "2026-03-29 23:59:00",
+     "hours": 48.0
+    },
+    {
+     "after_utc": "2025-12-24 18:14:00",
+     "hours": 28.8
+    },
+    {
+     "after_utc": "2025-12-31 21:59:00",
+     "hours": 25.0
+    }
+   ],
+   "bars_per_month_min_max": [
+    26176,
+    31587
+   ],
+   "months": 22
+  }
+ },
+ "cross": {
+  "XAUUSDm_vs_PAXG_kraken": {
+   "pair": "Exness gold 23:59 UTC vs Kraken PAXG daily close",
+   "days": 378,
+   "level_diff_pct_median": -0.089,
+   "level_diff_pct_abs_p95": 0.678,
+   "level_diff_pct_abs_max": 1.857,
+   "daily_return_correlation": 0.9902,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2025-02-05": 1.86,
+    "2025-10-16": 1.73,
+    "2025-02-24": 1.19,
+    "2025-04-21": 1.09,
+    "2025-03-18": 1.09
+   },
+   "first_last": {
+    "a": [
+     2623.85,
+     4008.12
+    ],
+    "b": [
+     2622.49,
+     4005.26
+    ]
+   }
+  },
+  "XAUUSDm_vs_PAXG_binance": {
+   "pair": "Exness gold 23:59 UTC vs Binance PAXG daily close",
+   "days": 378,
+   "level_diff_pct_median": -0.109,
+   "level_diff_pct_abs_p95": 0.689,
+   "level_diff_pct_abs_max": 1.633,
+   "daily_return_correlation": 0.9921,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2025-02-05": 1.63,
+    "2025-10-16": 1.6,
+    "2025-02-24": 1.27,
+    "2025-03-18": 1.15,
+    "2025-04-02": 0.92
+   },
+   "first_last": {
+    "a": [
+     2623.85,
+     4008.12
+    ],
+    "b": [
+     2629.0,
+     4014.37
+    ]
+   }
+  },
+  "USOILm_vs_FRED_WTI": {
+   "pair": "Exness USOIL 14:30 NY vs FRED WTI spot",
+   "days": 453,
+   "level_diff_pct_median": -1.811,
+   "level_diff_pct_abs_p95": 7.226,
+   "level_diff_pct_abs_max": 10.584,
+   "daily_return_correlation": 0.9327,
+   "days_level_diff_over_2pct": 211,
+   "worst_days": {
+    "2026-10-19": 10.58,
+    "2026-10-20": 9.64,
+    "2026-04-07": 9.31,
+    "2026-04-06": 9.18,
+    "2026-04-02": 8.45
+   },
+   "first_last": {
+    "a": [
+     72.78,
+     103.12
+    ],
+    "b": [
+     73.79,
+     107.56
+    ]
+   }
+  },
+  "USOILm_vs_FRED_Brent": {
+   "pair": "Exness USOIL 14:30 NY vs FRED Brent spot",
+   "days": 449,
+   "level_diff_pct_median": -7.47,
+   "level_diff_pct_abs_p95": 22.146,
+   "level_diff_pct_abs_max": 33.411,
+   "daily_return_correlation": 0.8126,
+   "days_level_diff_over_2pct": 441,
+   "worst_days": {
+    "2026-10-02": 33.41,
+    "2026-10-07": 30.34,
+    "2026-10-08": 30.1,
+    "2026-10-09": 29.84,
+    "2026-10-05": 29.38
+   },
+   "first_last": {
+    "a": [
+     72.78,
+     103.12
+    ],
+    "b": [
+     76.14,
+     120.15
+    ]
+   }
+  },
+  "US500m_vs_FRED_SP500": {
+   "pair": "Exness US500 16:00 NY vs FRED S&P 500 close",
+   "days": 454,
+   "level_diff_pct_median": 0.091,
+   "level_diff_pct_abs_p95": 0.22,
+   "level_diff_pct_abs_max": 0.458,
+   "daily_return_correlation": 0.9966,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-06-25": 0.46,
+    "2026-10-28": 0.38,
+    "2026-06-17": 0.37,
+    "2026-06-24": 0.33,
+    "2026-06-16": 0.28
+   },
+   "first_last": {
+    "a": [
+     5877.34,
+     7590.82
+    ],
+    "b": [
+     5868.55,
+     7580.07
+    ]
+   }
+  },
+  "USTECm_vs_FRED_NASDAQ100": {
+   "pair": "Exness USTEC 16:00 NY vs FRED Nasdaq-100 close",
+   "days": 450,
+   "level_diff_pct_median": 0.079,
+   "level_diff_pct_abs_p95": 0.231,
+   "level_diff_pct_abs_max": 0.543,
+   "daily_return_correlation": 0.9974,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-06-25": 0.54,
+    "2026-10-28": 0.45,
+    "2026-06-17": 0.45,
+    "2026-06-24": 0.31,
+    "2025-10-29": 0.31
+   },
+   "first_last": {
+    "a": [
+     21006.45,
+     29948.06
+    ],
+    "b": [
+     20975.62,
+     29813.16
+    ]
+   }
+  },
+  "BTCUSDT_vs_coinbase": {
+   "pair": "Binance BTCUSDT (repo file) vs Coinbase BTC-USD",
+   "days": 678,
+   "level_diff_pct_median": 0.016,
+   "level_diff_pct_abs_p95": 0.145,
+   "level_diff_pct_abs_max": 0.272,
+   "daily_return_correlation": 0.9999,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-10-29": 0.27,
+    "2026-10-30": 0.24,
+    "2026-02-04": 0.23,
+    "2025-01-01": 0.22,
+    "2026-10-31": 0.2
+   },
+   "first_last": {
+    "a": [
+     94591.79,
+     75368.41
+    ],
+    "b": [
+     94383.59,
+     75259.28
+    ]
+   }
+  },
+  "BTCUSDT_vs_kraken": {
+   "pair": "Binance BTCUSDT (repo file) vs Kraken XBTUSD",
+   "days": 678,
+   "level_diff_pct_median": 0.019,
+   "level_diff_pct_abs_p95": 0.144,
+   "level_diff_pct_abs_max": 0.247,
+   "daily_return_correlation": 0.9998,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-10-29": 0.25,
+    "2025-01-01": 0.22,
+    "2026-10-30": 0.21,
+    "2026-02-04": 0.21,
+    "2025-10-10": 0.2
+   },
+   "first_last": {
+    "a": [
+     94591.79,
+     75368.41
+    ],
+    "b": [
+     94380.8,
+     75253.1
+    ]
+   }
+  },
+  "BTCUSDT_repo_vs_live_binance": {
+   "pair": "Binance BTCUSDT (repo file) vs Binance live API",
+   "days": 678,
+   "level_diff_pct_median": 0.0,
+   "level_diff_pct_abs_p95": 0.0,
+   "level_diff_pct_abs_max": 0.0,
+   "daily_return_correlation": 1.0,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2025-01-01": 0.0,
+    "2025-01-02": 0.0,
+    "2025-01-03": 0.0,
+    "2025-01-04": 0.0,
+    "2025-01-05": 0.0
+   },
+   "first_last": {
+    "a": [
+     94591.79,
+     75368.41
+    ],
+    "b": [
+     94591.79,
+     75368.41
+    ]
+   }
+  },
+  "ETHUSDT_vs_coinbase": {
+   "pair": "Binance ETHUSDT (repo file) vs Coinbase ETH-USD",
+   "days": 678,
+   "level_diff_pct_median": 0.014,
+   "level_diff_pct_abs_p95": 0.145,
+   "level_diff_pct_abs_max": 0.219,
+   "daily_return_correlation": 1.0,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-02-04": 0.22,
+    "2026-10-29": 0.21,
+    "2025-01-01": 0.21,
+    "2026-10-30": 0.2,
+    "2026-02-05": 0.2
+   },
+   "first_last": {
+    "a": [
+     3360.38,
+     2135.24
+    ],
+    "b": [
+     3353.32,
+     2132.15
+    ]
+   }
+  },
+  "ETHUSDT_vs_kraken": {
+   "pair": "Binance ETHUSDT (repo file) vs Kraken ETHUSD",
+   "days": 678,
+   "level_diff_pct_median": 0.02,
+   "level_diff_pct_abs_p95": 0.146,
+   "level_diff_pct_abs_max": 0.253,
+   "daily_return_correlation": 0.9999,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-02-04": 0.25,
+    "2025-11-17": 0.2,
+    "2025-10-10": 0.2,
+    "2025-01-01": 0.19,
+    "2026-10-30": 0.19
+   },
+   "first_last": {
+    "a": [
+     3360.38,
+     2135.24
+    ],
+    "b": [
+     3354.0,
+     2132.65
+    ]
+   }
+  },
+  "ETHUSDT_repo_vs_live_binance": {
+   "pair": "Binance ETHUSDT (repo file) vs Binance live API",
+   "days": 678,
+   "level_diff_pct_median": 0.0,
+   "level_diff_pct_abs_p95": 0.0,
+   "level_diff_pct_abs_max": 0.0,
+   "daily_return_correlation": 1.0,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2025-01-01": 0.0,
+    "2025-01-02": 0.0,
+    "2025-01-03": 0.0,
+    "2025-01-04": 0.0,
+    "2025-01-05": 0.0
+   },
+   "first_last": {
+    "a": [
+     3360.38,
+     2135.24
+    ],
+    "b": [
+     3360.38,
+     2135.24
+    ]
+   }
+  },
+  "xyz:GOLD_vs_paxg_kraken": {
+   "pair": "Hyperliquid xyz:GOLD daily vs Kraken PAXG",
+   "days": 325,
+   "level_diff_pct_median": 0.137,
+   "level_diff_pct_abs_p95": 0.401,
+   "level_diff_pct_abs_max": 0.97,
+   "daily_return_correlation": 0.9964,
+   "days_level_diff_over_2pct": 0,
+   "worst_days": {
+    "2026-02-28": 0.97,
+    "2026-03-01": 0.97,
+    "2026-11-06": 0.55,
+    "2026-01-29": 0.54,
+    "2026-11-09": 0.52
+   },
+   "first_last": {
+    "a": [
+     4463.0,
+     3979.1
+    ],
+    "b": [
+     4482.57,
+     3970.14
+    ]
+   }
+  },
+  "xyz:CL_vs_wti": {
+   "pair": "Hyperliquid xyz:CL daily vs FRED WTI spot",
+   "days": 209,
+   "level_diff_pct_median": -2.301,
+   "level_diff_pct_abs_p95": 7.486,
+   "level_diff_pct_abs_max": 16.294,
+   "daily_return_correlation": 0.7165,
+   "days_level_diff_over_2pct": 118,
+   "worst_days": {
+    "2026-04-07": 16.29,
+    "2026-10-19": 10.76,
+    "2026-05-18": 8.9,
+    "2026-04-13": 8.87,
+    "2026-10-20": 8.8
+   },
+   "first_last": {
+    "a": [
+     56.74,
+     96.59
+    ],
+    "b": [
+     56.97,
+     99.64
+    ]
+   }
+  },
+  "xyz:CL_vs_brent": {
+   "pair": "Hyperliquid xyz:CL daily vs FRED Brent spot",
+   "days": 211,
+   "level_diff_pct_median": -10.126,
+   "level_diff_pct_abs_p95": 25.523,
+   "level_diff_pct_abs_max": 32.698,
+   "daily_return_correlation": 0.6377,
+   "days_level_diff_over_2pct": 202,
+   "worst_days": {
+    "2026-10-02": 32.7,
+    "2026-04-07": 30.61,
+    "2026-10-08": 30.29,
+    "2026-10-09": 29.99,
+    "2026-10-07": 29.57
+   },
+   "first_last": {
+    "a": [
+     56.74,
+     96.59
+    ],
+    "b": [
+     62.1,
+     107.03
+    ]
+   }
+  },
+  "FRED_WTI_vs_Brent": {
+   "pair": "FRED WTI vs FRED Brent",
+   "days": 452,
+   "level_diff_pct_median": -6.009,
+   "level_diff_pct_abs_p95": 17.226,
+   "level_diff_pct_abs_max": 27.762,
+   "daily_return_correlation": 0.7632,
+   "days_level_diff_over_2pct": 426,
+   "worst_days": {
+    "2026-10-02": 27.76,
+    "2026-10-12": 26.9,
+    "2026-09-25": 26.53,
+    "2026-10-07": 24.59,
+    "2026-10-08": 24.52
+   },
+   "first_last": {
+    "a": [
+     73.79,
+     99.64
+    ],
+    "b": [
+     76.14,
+     107.03
+    ]
+   }
+  }
+ }
+}

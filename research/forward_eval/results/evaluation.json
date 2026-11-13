@@ -1,0 +1,62 @@
+{
+ "generated_utc": "2026-11-13 00:10",
+ "rules": "research/FORWARD_EVALUATION.md; research/batch2/PREREGISTRATION.md + AMENDMENT_1.md",
+ "bar": {
+  "family": 4,
+  "one_sided_p": 0.0125
+ },
+ "confirmatory": {
+  "DONCHIAN_BTC": {
+   "test": "DONCHIAN_BTC",
+   "family": "confirmatory",
+   "unit": "R (executable ask fill, 0.05% cost)",
+   "target": 40,
+   "closed_valid": 0,
+   "status": "NOT_DUE",
+   "note": "0/40 (blind until due)"
+  },
+  "OIL_STOCH": {
+   "test": "OIL_STOCH",
+   "family": "confirmatory",
+   "unit": "net bp (0.02 USD/bbl spread)",
+   "target": 100,
+   "closed_valid": 0,
+   "status": "NOT_DUE",
+   "note": "0/100 (blind until due)"
+  },
+  "H3_BTC": {
+   "test": "H3_BTC",
+   "family": "confirmatory (Batch 2; B1 p <= 0.05/4, AMENDMENT_2.md)",
+   "unit": "net bp (pre-registered primary/stress costs)",
+   "n_req": 479,
+   "evaluation_date": "2029-11-14 00:00",
+   "closed": 0,
+   "status": "NOT_DUE",
+   "note": "0/479 trades; evaluation date 2029-11-14 00:00 at the latest (blind until due)"
+  },
+  "H3_ETH": {
+   "test": "H3_ETH",
+   "family": "confirmatory (Batch 2; B1 p <= 0.05/4, AMENDMENT_2.md)",
+   "unit": "net bp (pre-registered primary/stress costs)",
+   "n_req": 697,
+   "evaluation_date": "2029-11-14 00:00",
+   "closed": 0,
+   "status": "NOT_DUE",
+   "note": "0/697 trades; evaluation date 2029-11-14 00:00 at the latest (blind until due)"
+  }
+ },
+ "monitoring_only": [
+  "GOLD_FVG",
+  "OIL_FIB",
+  "ETH_FIB",
+  "TREND_ENS_BTC",
+  "TREND_ENS_ETH",
+  "GOLD_MOM50",
+  "H1_BTC",
+  "H1_ETH",
+  "H2_BTC",
+  "H2_ETH",
+  "H4_BTC",
+  "H4_ETH"
+ ]
+}

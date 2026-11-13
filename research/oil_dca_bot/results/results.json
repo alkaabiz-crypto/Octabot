@@ -1,0 +1,303 @@
+{
+ "generated_utc": "2026-11-10 19:29:47",
+ "data": {
+  "2025_09": {
+   "sha256": "d418c4ebc956204cac7e9a2b314f5d521285529739b13666e3e7da92568df0aa",
+   "ticks": 656700,
+   "ask_below_bid": 0,
+   "first": "2025-09-01 00:00:20",
+   "last": "2025-09-30 23:59:41",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.03
+  },
+  "2025_10": {
+   "sha256": "1449fac178f083793121ab8f4a654fd20437c731dbc1ce7af9468073bc331402",
+   "ticks": 914721,
+   "ask_below_bid": 0,
+   "first": "2025-10-01 00:00:00",
+   "last": "2025-10-31 20:43:56",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.044
+  },
+  "2025_11": {
+   "sha256": "e570638e76d669e893cc290f661e5c918c698a02f398420fc6d8eefec7fcb5c4",
+   "ticks": 737658,
+   "ask_below_bid": 0,
+   "first": "2025-11-02 23:10:44",
+   "last": "2025-11-28 18:29:57",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.03
+  },
+  "2025_12": {
+   "sha256": "bc2613d2904d39099d312a44bc18b8552449b2c4dea87873b0d1e17efdcc42ee",
+   "ticks": 634700,
+   "ask_below_bid": 0,
+   "first": "2025-12-01 00:00:00",
+   "last": "2025-12-31 21:58:58",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.03
+  },
+  "2026_01": {
+   "sha256": "882c66386069305485c61c22db69f68aa177e207455aa658943775950bdca4a3",
+   "ticks": 978227,
+   "ask_below_bid": 0,
+   "first": "2026-01-01 23:01:00",
+   "last": "2026-01-30 21:56:56",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.044
+  },
+  "2026_02": {
+   "sha256": "d84af2f8d5ccdbc10b374573ae493767c5ba37a3d8b05aa83cf0f4f752d9301b",
+   "ticks": 1147190,
+   "ask_below_bid": 0,
+   "first": "2026-02-01 23:01:00",
+   "last": "2026-02-27 21:56:52",
+   "spread_median": 0.018,
+   "spread_p95": 0.018,
+   "spread_max": 0.112
+  },
+  "2026_03": {
+   "sha256": "3dbec3dcc70b3a1048a16073538400aa7e155ba49bdd4e4626e5699cdaeda777",
+   "ticks": 3807073,
+   "ask_below_bid": 0,
+   "first": "2026-03-01 23:02:31",
+   "last": "2026-03-29 23:59:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.03,
+   "spread_max": 0.378
+  },
+  "2026_04": {
+   "sha256": "64740f22927e384b4f01c2f2135ef2d55de1396037051fc939daa2f0757862ba",
+   "ticks": 3699431,
+   "ask_below_bid": 0,
+   "first": "2026-04-01 00:00:00",
+   "last": "2026-04-30 23:59:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.24
+  },
+  "2026_05": {
+   "sha256": "8773493055c80c99b1178f24e6f7a5553a130ba015ae6c14bb4eff6125f03484",
+   "ticks": 3234651,
+   "ask_below_bid": 0,
+   "first": "2026-05-01 00:00:00",
+   "last": "2026-05-31 23:59:54",
+   "spread_median": 0.02,
+   "spread_p95": 0.04,
+   "spread_max": 0.24
+  },
+  "2026_06": {
+   "sha256": "19e9b23cc30016d8ef85b281cd22348f6737152bf1a076d0f1ff4d5c5ae3660c",
+   "ticks": 2988620,
+   "ask_below_bid": 0,
+   "first": "2026-06-01 00:00:00",
+   "last": "2026-06-30 23:59:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.227
+  },
+  "2026_07": {
+   "sha256": "011285c48303c45ab88a4f98774c5bfb012383e07a6707d521e55f951aa89497",
+   "ticks": 4864330,
+   "ask_below_bid": 0,
+   "first": "2026-07-01 00:00:00",
+   "last": "2026-07-31 20:56:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.03
+  },
+  "2026_08": {
+   "sha256": "76e23f6a07220402414cc23cf7d9f97c297fc176886a6c999a99988446fb7bbf",
+   "ticks": 3589170,
+   "ask_below_bid": 0,
+   "first": "2026-08-02 22:01:00",
+   "last": "2026-08-31 23:59:33",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.02
+  },
+  "2026_09": {
+   "sha256": "d053160d1d03641043cd21e3126a7e6a974d3caea268cf6c0eca989177bef123",
+   "ticks": 5549798,
+   "ask_below_bid": 0,
+   "first": "2026-09-01 00:00:00",
+   "last": "2026-09-30 23:59:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.05
+  },
+  "2026_10": {
+   "sha256": "ecbab6df72bd331f6f5054d56e935597bc77dade1335b819e0ff9ef1332de08f",
+   "ticks": 4718902,
+   "ask_below_bid": 0,
+   "first": "2026-10-01 00:00:00",
+   "last": "2026-10-30 20:56:59",
+   "spread_median": 0.02,
+   "spread_p95": 0.02,
+   "spread_max": 0.03
+  }
+ },
+ "settings": {
+  "lots": [
+   0.01,
+   0.02,
+   0.03
+  ],
+  "steps": [
+   0.63,
+   0.8190000000000001
+  ],
+  "tp": 0.15,
+  "trail": 0.04,
+  "basket_stop_usd": 50.0
+ },
+ "rating_15m_share": {
+  "buy": 0.46998882105082124,
+  "sell": 0.4149539943245335,
+  "neutral": 0.11505718462464529
+ },
+ "variants": {
+  "V0_as_configured_no_stop": {
+   "baskets": 107,
+   "net_usd": -2241.69,
+   "gross_profit_usd": 280.26,
+   "gross_loss_usd": -2521.95,
+   "win_rate": 0.9907,
+   "avg_win_usd": 2.64,
+   "avg_loss_usd": -2521.95,
+   "worst_basket_usd": -2521.95,
+   "worst_floating_usd": -3204.39,
+   "max_drawdown_usd": 3204.39,
+   "longest_basket_hours": 6747.0,
+   "median_basket_hours": 1.26,
+   "baskets_reaching_all_3_orders": 9,
+   "outcomes": {
+    "TP_after_1_orders": 79,
+    "TP_after_2_orders": 19,
+    "TP_after_3_orders": 8,
+    "OPEN_AT_END": 1
+   },
+   "by_side": {
+    "BUY": {
+     "n": 72,
+     "net_usd": 198.57
+    },
+    "SELL": {
+     "n": 35,
+     "net_usd": -2440.26
+    }
+   },
+   "monthly_usd": {
+    "2025-11": 90.58,
+    "2025-12": 36.56,
+    "2026-01": 153.12,
+    "2026-10": -2521.95
+   }
+  },
+  "V1_basket_stop_50usd": {
+   "baskets": 5187,
+   "net_usd": -2914.73,
+   "gross_profit_usd": 11541.31,
+   "gross_loss_usd": -14456.04,
+   "win_rate": 0.9454,
+   "avg_win_usd": 2.35,
+   "avg_loss_usd": -51.08,
+   "worst_basket_usd": -168.84,
+   "worst_floating_usd": -168.84,
+   "max_drawdown_usd": 2962.85,
+   "longest_basket_hours": 95.5,
+   "median_basket_hours": 0.18,
+   "baskets_reaching_all_3_orders": 385,
+   "outcomes": {
+    "TP_after_1_orders": 4088,
+    "TP_after_2_orders": 709,
+    "STOP": 282,
+    "TP_after_3_orders": 107,
+    "OPEN_AT_END": 1
+   },
+   "by_side": {
+    "BUY": {
+     "n": 2813,
+     "net_usd": -1671.6
+    },
+    "SELL": {
+     "n": 2374,
+     "net_usd": -1243.13
+    }
+   },
+   "monthly_usd": {
+    "2025-11": -44.69,
+    "2025-12": -77.64,
+    "2026-01": -52.97,
+    "2026-02": 71.73,
+    "2026-03": -898.97,
+    "2026-04": -956.83,
+    "2026-05": -261.87,
+    "2026-06": 188.78,
+    "2026-07": 65.76,
+    "2026-08": 111.72,
+    "2026-09": -467.55,
+    "2026-10": -592.2
+   }
+  },
+  "V2_stop_plus_4h_trend_filter": {
+   "baskets": 3952,
+   "net_usd": -2417.1,
+   "gross_profit_usd": 8449.11,
+   "gross_loss_usd": -10866.21,
+   "win_rate": 0.9466,
+   "avg_win_usd": 2.26,
+   "avg_loss_usd": -51.5,
+   "worst_basket_usd": -168.84,
+   "worst_floating_usd": -168.84,
+   "max_drawdown_usd": 2771.83,
+   "longest_basket_hours": 95.5,
+   "median_basket_hours": 0.22,
+   "baskets_reaching_all_3_orders": 294,
+   "outcomes": {
+    "TP_after_1_orders": 3127,
+    "TP_after_2_orders": 526,
+    "STOP": 211,
+    "TP_after_3_orders": 88
+   },
+   "by_side": {
+    "BUY": {
+     "n": 2852,
+     "net_usd": -1900.48
+    },
+    "SELL": {
+     "n": 1100,
+     "net_usd": -516.62
+    }
+   },
+   "monthly_usd": {
+    "2025-11": -0.51,
+    "2025-12": 46.08,
+    "2026-01": 9.78,
+    "2026-02": 70.88,
+    "2026-03": -226.97,
+    "2026-04": -915.35,
+    "2026-05": -432.69,
+    "2026-06": 118.21,
+    "2026-07": 107.09,
+    "2026-08": -123.86,
+    "2026-09": -737.05,
+    "2026-10": -332.71
+   }
+  }
+ },
+ "random_direction_V1": {
+  "runs": 500,
+  "net_median": -3072.05,
+  "net_p5": -4271.29,
+  "net_p95": -1779.76,
+  "maxdd_median": 3412.84,
+  "V1_net_percentile": 59.4
+ },
+ "V2_better_than_V1": true
+}

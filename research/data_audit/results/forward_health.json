@@ -1,0 +1,54 @@
+{
+ "checked_utc": "2026-11-12 17:24",
+ "results": {
+  "gold_asia": {
+   "cursor_age_h": 1.24,
+   "trades_state": 0,
+   "trades_ledger": 0,
+   "totals_match": true
+  },
+  "oil_stochastic": {
+   "cursor_age_h": 1.24,
+   "trades_state": 0,
+   "trades_ledger": 0,
+   "totals_match": true
+  },
+  "library_GOLD_FVG": {
+   "cursor_age_h": 0.67,
+   "trades_state": 0,
+   "trades_ledger": 0,
+   "totals_match": true
+  },
+  "library_OIL_FIB": {
+   "cursor_age_h": 0.67,
+   "trades_state": 0,
+   "trades_ledger": 0,
+   "totals_match": true
+  },
+  "gold_mom50": {
+   "state_keys": [
+    "cash",
+    "entry",
+    "held",
+    "last_close",
+    "oz",
+    "peak",
+    "pos",
+    "trades"
+   ],
+   "ledger_rows": 1,
+   "last_close": "2026-11-11"
+  },
+  "trend_bot": {
+   "ledger_rows": 8,
+   "last_close": "2026-11-11",
+   "duplicate_rows": 0
+  },
+  "donchian": {
+   "signals": 1,
+   "trades": 0,
+   "duplicate_signals": 0
+  }
+ },
+ "problems": []
+}

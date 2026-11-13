@@ -1,0 +1,561 @@
+{
+ "label": "DEVELOPMENT 2025-01-01 -> T0 (2026-11-12 19:10:31 UTC). Previously inspected target series: EXPLORATORY ONLY, cannot PASS.",
+ "tests": {
+  "H1_BTC": {
+   "raw_signals": 35,
+   "primary": {
+    "trades": 24,
+    "mean_bp": -19.07,
+    "median_bp": -20.45,
+    "ci95_bp": [
+     -284.22,
+     246.08
+    ],
+    "sd_bp": 662.73,
+    "win_rate": 0.458,
+    "profit_factor": 0.901,
+    "sum_pct": -4.58,
+    "compounded_pct": -9.25,
+    "max_dd_pct": -29.75
+   },
+   "stress": {
+    "trades": 24,
+    "mean_bp": -35.26,
+    "median_bp": -36.64,
+    "ci95_bp": [
+     -300.4,
+     229.89
+    ],
+    "sd_bp": 662.73,
+    "win_rate": 0.458,
+    "profit_factor": 0.825,
+    "sum_pct": -8.46,
+    "compounded_pct": -12.73,
+    "max_dd_pct": -31.59
+   },
+   "B1_random": {
+    "p": 0.5435,
+    "median_bp": -12.09,
+    "p95_bp": 114.8
+   },
+   "B2_placebo": {
+    "p": 0.5504,
+    "median_bp": -9.19,
+    "p95_bp": 114.62
+   },
+   "power": {
+    "delta_bp": 10.0,
+    "n_req": 48977,
+    "dev_trades_per_year": 12.9,
+    "years_to_n_req": 3796.7
+   }
+  },
+  "H2_BTC": {
+   "raw_signals": 47,
+   "primary": {
+    "trades": 27,
+    "mean_bp": -46.39,
+    "median_bp": -61.93,
+    "ci95_bp": [
+     -226.78,
+     134.0
+    ],
+    "sd_bp": 478.23,
+    "win_rate": 0.37,
+    "profit_factor": 0.781,
+    "sum_pct": -12.52,
+    "compounded_pct": -14.42,
+    "max_dd_pct": -32.0
+   },
+   "stress": {
+    "trades": 27,
+    "mean_bp": -82.57,
+    "median_bp": -98.11,
+    "ci95_bp": [
+     -262.96,
+     97.82
+    ],
+    "sd_bp": 478.23,
+    "win_rate": 0.37,
+    "profit_factor": 0.648,
+    "sum_pct": -22.29,
+    "compounded_pct": -22.45,
+    "max_dd_pct": -36.85
+   },
+   "B1_random": {
+    "p": 0.5974,
+    "median_bp": -18.44,
+    "p95_bp": 141.14
+   },
+   "B2_placebo": {
+    "p": 0.6244,
+    "median_bp": -3.16,
+    "p95_bp": 158.07
+   },
+   "power": {
+    "delta_bp": 10.0,
+    "n_req": 25504,
+    "dev_trades_per_year": 14.5,
+    "years_to_n_req": 1758.9
+   }
+  },
+  "H3_BTC": {
+   "raw_signals": 759,
+   "primary": {
+    "trades": 581,
+    "mean_bp": -5.73,
+    "median_bp": -6.02,
+    "ci95_bp": [
+     -12.08,
+     0.63
+    ],
+    "sd_bp": 78.14,
+    "win_rate": 0.441,
+    "profit_factor": 0.805,
+    "sum_pct": -33.26,
+    "compounded_pct": -29.57,
+    "max_dd_pct": -30.27
+   },
+   "stress": {
+    "trades": 581,
+    "mean_bp": -7.74,
+    "median_bp": -8.04,
+    "ci95_bp": [
+     -14.1,
+     -1.39
+    ],
+    "sd_bp": 78.14,
+    "win_rate": 0.418,
+    "profit_factor": 0.747,
+    "sum_pct": -44.99,
+    "compounded_pct": -37.36,
+    "max_dd_pct": -37.7
+   },
+   "B1_random": {
+    "p": 0.8541,
+    "median_bp": -1.74,
+    "p95_bp": 4.05
+   },
+   "B2_placebo": {
+    "p": 0.8422,
+    "median_bp": -1.88,
+    "p95_bp": 4.15
+   },
+   "power": {
+    "delta_bp": 10.0,
+    "n_req": 681,
+    "dev_trades_per_year": 311.5,
+    "years_to_n_req": 2.2
+   }
+  },
+  "H4_BTC": {
+   "raw_signals": 145,
+   "primary": {
+    "trades": 24,
+    "mean_bp": 140.13,
+    "median_bp": 109.74,
+    "ci95_bp": [
+     -55.88,
+     336.14
+    ],
+    "sd_bp": 489.92,
+    "win_rate": 0.625,
+    "profit_factor": 2.158,
+    "sum_pct": 33.63,
+    "compounded_pct": 36.02,
+    "max_dd_pct": -10.72
+   },
+   "stress": {
+    "trades": 24,
+    "mean_bp": 103.94,
+    "median_bp": 73.56,
+    "ci95_bp": [
+     -92.07,
+     299.95
+    ],
+    "sd_bp": 489.92,
+    "win_rate": 0.625,
+    "profit_factor": 1.773,
+    "sum_pct": 24.95,
+    "compounded_pct": 24.82,
+    "max_dd_pct": -12.72
+   },
+   "B1_random": {
+    "p": 0.0809,
+    "median_bp": -20.18,
+    "p95_bp": 170.11
+   },
+   "B2_placebo": {
+    "p": 0.0819,
+    "median_bp": -20.27,
+    "p95_bp": 168.72
+   },
+   "power": {
+    "delta_bp": 10.0,
+    "n_req": 26766,
+    "dev_trades_per_year": 12.9,
+    "years_to_n_req": 2074.9
+   }
+  },
+  "H1_ETH": {
+   "raw_signals": 38,
+   "primary": {
+    "trades": 17,
+    "mean_bp": -132.89,
+    "median_bp": -116.39,
+    "ci95_bp": [
+     -437.43,
+     171.66
+    ],
+    "sd_bp": 640.65,
+    "win_rate": 0.412,
+    "profit_factor": 0.555,
+    "sum_pct": -22.59,
+    "compounded_pct": -23.05,
+    "max_dd_pct": -28.37
+   },
+   "stress": {
+    "trades": 17,
+    "mean_bp": -154.08,
+    "median_bp": -137.58,
+    "ci95_bp": [
+     -458.63,
+     150.46
+    ],
+    "sd_bp": 640.65,
+    "win_rate": 0.412,
+    "profit_factor": 0.504,
+    "sum_pct": -26.19,
+    "compounded_pct": -25.82,
+    "max_dd_pct": -29.18
+   },
+   "B1_random": {
+    "p": 0.8022,
+    "median_bp": -20.46,
+    "p95_bp": 245.58
+   },
+   "B2_placebo": {
+    "p": 0.8402,
+    "median_bp": -7.71,
+    "p95_bp": 241.9
+   },
+   "power": {
+    "delta_bp": 12.39,
+    "n_req": 29814,
+    "dev_trades_per_year": 9.1,
+    "years_to_n_req": 3276.3
+   }
+  },
+  "H2_ETH": {
+   "raw_signals": 52,
+   "primary": {
+    "trades": 30,
+    "mean_bp": -112.01,
+    "median_bp": 108.29,
+    "ci95_bp": [
+     -414.35,
+     190.34
+    ],
+    "sd_bp": 844.91,
+    "win_rate": 0.533,
+    "profit_factor": 0.699,
+    "sum_pct": -33.6,
+    "compounded_pct": -36.38,
+    "max_dd_pct": -42.41
+   },
+   "stress": {
+    "trades": 30,
+    "mean_bp": -153.2,
+    "median_bp": 67.09,
+    "ci95_bp": [
+     -455.55,
+     149.14
+    ],
+    "sd_bp": 844.91,
+    "win_rate": 0.533,
+    "profit_factor": 0.609,
+    "sum_pct": -45.96,
+    "compounded_pct": -43.92,
+    "max_dd_pct": -46.22
+   },
+   "B1_random": {
+    "p": 0.6474,
+    "median_bp": -45.04,
+    "p95_bp": 237.57
+   },
+   "B2_placebo": {
+    "p": 0.7542,
+    "median_bp": -20.99,
+    "p95_bp": 265.19
+   },
+   "power": {
+    "delta_bp": 12.39,
+    "n_req": 51856,
+    "dev_trades_per_year": 16.1,
+    "years_to_n_req": 3220.9
+   }
+  },
+  "H3_ETH": {
+   "raw_signals": 805,
+   "primary": {
+    "trades": 577,
+    "mean_bp": -5.26,
+    "median_bp": -8.58,
+    "ci95_bp": [
+     -14.78,
+     4.26
+    ],
+    "sd_bp": 116.72,
+    "win_rate": 0.449,
+    "profit_factor": 0.874,
+    "sum_pct": -30.35,
+    "compounded_pct": -29.04,
+    "max_dd_pct": -31.55
+   },
+   "stress": {
+    "trades": 577,
+    "mean_bp": -12.29,
+    "median_bp": -15.61,
+    "ci95_bp": [
+     -21.81,
+     -2.76
+    ],
+    "sd_bp": 116.72,
+    "win_rate": 0.411,
+    "profit_factor": 0.731,
+    "sum_pct": -70.91,
+    "compounded_pct": -52.72,
+    "max_dd_pct": -53.15
+   },
+   "B1_random": {
+    "p": 0.3936,
+    "median_bp": -6.76,
+    "p95_bp": 3.65
+   },
+   "B2_placebo": {
+    "p": 0.4416,
+    "median_bp": -6.21,
+    "p95_bp": 3.3
+   },
+   "power": {
+    "delta_bp": 12.39,
+    "n_req": 990,
+    "dev_trades_per_year": 309.3,
+    "years_to_n_req": 3.2
+   }
+  },
+  "H4_ETH": {
+   "raw_signals": 147,
+   "primary": {
+    "trades": 24,
+    "mean_bp": -14.12,
+    "median_bp": -59.63,
+    "ci95_bp": [
+     -424.1,
+     395.86
+    ],
+    "sd_bp": 1024.74,
+    "win_rate": 0.5,
+    "profit_factor": 0.963,
+    "sum_pct": -3.39,
+    "compounded_pct": -14.2,
+    "max_dd_pct": -30.64
+   },
+   "stress": {
+    "trades": 24,
+    "mean_bp": -55.32,
+    "median_bp": -100.83,
+    "ci95_bp": [
+     -465.3,
+     354.66
+    ],
+    "sd_bp": 1024.74,
+    "win_rate": 0.458,
+    "profit_factor": 0.862,
+    "sum_pct": -13.28,
+    "compounded_pct": -22.38,
+    "max_dd_pct": -32.73
+   },
+   "B1_random": {
+    "p": 0.4645,
+    "median_bp": -36.47,
+    "p95_bp": 274.06
+   },
+   "B2_placebo": {
+    "p": 0.5085,
+    "median_bp": -12.62,
+    "p95_bp": 267.38
+   },
+   "power": {
+    "delta_bp": 12.39,
+    "n_req": 76279,
+    "dev_trades_per_year": 12.9,
+    "years_to_n_req": 5913.1
+   }
+  }
+ },
+ "quality": {
+  "BTC": {
+   "m1_rows": 980350,
+   "m1_gaps": 0,
+   "h1_rows": 16339,
+   "h1_gaps": 0,
+   "funding_rows": 16340,
+   "funding_gaps_over_1h": 2,
+   "dvol_rows": 16339,
+   "dvol_gaps": 0,
+   "futures": [
+    [
+     "BTC-28MAR25",
+     2072,
+     "2025-03-28"
+    ],
+    [
+     "BTC-27JUN25",
+     4256,
+     "2025-06-27"
+    ],
+    [
+     "BTC-26SEP25",
+     6440,
+     "2025-09-26"
+    ],
+    [
+     "BTC-26DEC25",
+     8624,
+     "2025-12-26"
+    ],
+    [
+     "BTC-27MAR26",
+     8735,
+     "2026-03-27"
+    ],
+    [
+     "BTC-26JUN26",
+     8735,
+     "2026-06-26"
+    ],
+    [
+     "BTC-25SEP26",
+     8735,
+     "2026-09-25"
+    ],
+    [
+     "BTC-25DEC26",
+     7714,
+     "2026-12-25"
+    ],
+    [
+     "BTC-26MAR27",
+     5530,
+     "2027-03-26"
+    ],
+    [
+     "BTC-25JUN27",
+     3346,
+     "2027-06-25"
+    ],
+    [
+     "BTC-24SEP27",
+     1186,
+     "2027-09-24"
+    ]
+   ],
+   "first_last": {
+    "m1": [
+     "2025-01-01 00:00:00",
+     "2026-11-12 19:09:00"
+    ],
+    "funding": [
+     "2025-01-01 00:00:00.054000",
+     "2026-11-12 19:00:00.035000"
+    ],
+    "dvol": [
+     "2025-01-01 00:00:00",
+     "2026-11-12 18:00:00"
+    ]
+   }
+  },
+  "ETH": {
+   "m1_rows": 980350,
+   "m1_gaps": 0,
+   "h1_rows": 16339,
+   "h1_gaps": 0,
+   "funding_rows": 16340,
+   "funding_gaps_over_1h": 2,
+   "dvol_rows": 16339,
+   "dvol_gaps": 0,
+   "futures": [
+    [
+     "ETH-28MAR25",
+     2072,
+     "2025-03-28"
+    ],
+    [
+     "ETH-27JUN25",
+     4256,
+     "2025-06-27"
+    ],
+    [
+     "ETH-26SEP25",
+     6440,
+     "2025-09-26"
+    ],
+    [
+     "ETH-26DEC25",
+     8624,
+     "2025-12-26"
+    ],
+    [
+     "ETH-27MAR26",
+     8735,
+     "2026-03-27"
+    ],
+    [
+     "ETH-26JUN26",
+     8735,
+     "2026-06-26"
+    ],
+    [
+     "ETH-25SEP26",
+     8735,
+     "2026-09-25"
+    ],
+    [
+     "ETH-25DEC26",
+     7714,
+     "2026-12-25"
+    ],
+    [
+     "ETH-26MAR27",
+     5530,
+     "2027-03-26"
+    ],
+    [
+     "ETH-25JUN27",
+     3346,
+     "2027-06-25"
+    ],
+    [
+     "ETH-24SEP27",
+     1186,
+     "2027-09-24"
+    ]
+   ],
+   "first_last": {
+    "m1": [
+     "2025-01-01 00:00:00",
+     "2026-11-12 19:09:00"
+    ],
+    "funding": [
+     "2025-01-01 00:00:00.054000",
+     "2026-11-12 19:00:00.035000"
+    ],
+    "dvol": [
+     "2025-01-01 00:00:00",
+     "2026-11-12 18:00:00"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,3286 @@
+{
+ "holdout": {
+  "1h_M1_BB_SQUEEZE_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 54,
+     "net_pct": 8.46,
+     "pf": 1.538,
+     "expectancy": 0.3067,
+     "t_stat": 1.5,
+     "max_dd_pct": 2.59,
+     "win_rate": 44.4,
+     "avg_hold_h": 18.2
+    },
+    "mid": {
+     "trades": 54,
+     "net_pct": 7.3,
+     "pf": 1.45,
+     "expectancy": 0.2667,
+     "t_stat": 1.3,
+     "max_dd_pct": 2.76,
+     "win_rate": 44.4,
+     "avg_hold_h": 18.2
+    },
+    "high": {
+     "trades": 54,
+     "net_pct": 5.39,
+     "pf": 1.318,
+     "expectancy": 0.2,
+     "t_stat": 0.98,
+     "max_dd_pct": 3.04,
+     "win_rate": 44.4,
+     "avg_hold_h": 18.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 28,
+     "net_pct": 1.48,
+     "pf": 1.17,
+     "expectancy": 0.1102,
+     "t_stat": 0.39,
+     "max_dd_pct": 2.76,
+     "win_rate": 39.3,
+     "avg_hold_h": 13.8
+    },
+    "bear": {
+     "trades": 23,
+     "net_pct": 4.25,
+     "pf": 1.661,
+     "expectancy": 0.3674,
+     "t_stat": 1.15,
+     "max_dd_pct": 1.69,
+     "win_rate": 47.8,
+     "avg_hold_h": 22.9
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": 1.43,
+     "pf": 3.743,
+     "expectancy": 0.9539,
+     "t_stat": 0.96,
+     "max_dd_pct": 0.52,
+     "win_rate": 66.7,
+     "avg_hold_h": 23.2
+    }
+   }
+  },
+  "1h_M1_BB_SQUEEZE_LONG_TRAIL": {
+   "eligible": true,
+   "passed_holdout": true,
+   "metrics": {
+    "low": {
+     "trades": 52,
+     "net_pct": 5.68,
+     "pf": 1.441,
+     "expectancy": 0.2194,
+     "t_stat": 0.95,
+     "max_dd_pct": 4.12,
+     "win_rate": 40.4,
+     "avg_hold_h": 21.7
+    },
+    "mid": {
+     "trades": 52,
+     "net_pct": 4.52,
+     "pf": 1.338,
+     "expectancy": 0.1768,
+     "t_stat": 0.76,
+     "max_dd_pct": 4.51,
+     "win_rate": 40.4,
+     "avg_hold_h": 21.7
+    },
+    "high": {
+     "trades": 52,
+     "net_pct": 2.61,
+     "pf": 1.186,
+     "expectancy": 0.106,
+     "t_stat": 0.46,
+     "max_dd_pct": 5.16,
+     "win_rate": 36.5,
+     "avg_hold_h": 21.7
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 26,
+     "net_pct": 2.63,
+     "pf": 1.358,
+     "expectancy": 0.2077,
+     "t_stat": 0.59,
+     "max_dd_pct": 3.46,
+     "win_rate": 38.5,
+     "avg_hold_h": 21.4
+    },
+    "bear": {
+     "trades": 23,
+     "net_pct": 1.68,
+     "pf": 1.303,
+     "expectancy": 0.1514,
+     "t_stat": 0.44,
+     "max_dd_pct": 3.25,
+     "win_rate": 39.1,
+     "avg_hold_h": 21.5
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": 0.15,
+     "pf": 1.505,
+     "expectancy": 0.104,
+     "t_stat": 0.27,
+     "max_dd_pct": 0.31,
+     "win_rate": 66.7,
+     "avg_hold_h": 26.4
+    }
+   }
+  },
+  "1h_M1_BB_SQUEEZE_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 75,
+     "net_pct": 0.53,
+     "pf": 1.029,
+     "expectancy": 0.0191,
+     "t_stat": 0.11,
+     "max_dd_pct": 3.78,
+     "win_rate": 34.7,
+     "avg_hold_h": 13.9
+    },
+    "mid": {
+     "trades": 75,
+     "net_pct": -0.65,
+     "pf": 0.982,
+     "expectancy": -0.0123,
+     "t_stat": -0.07,
+     "max_dd_pct": 4.21,
+     "win_rate": 34.7,
+     "avg_hold_h": 13.9
+    },
+    "high": {
+     "trades": 75,
+     "net_pct": -2.58,
+     "pf": 0.911,
+     "expectancy": -0.0645,
+     "t_stat": -0.39,
+     "max_dd_pct": 4.94,
+     "win_rate": 34.7,
+     "avg_hold_h": 13.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 15,
+     "net_pct": 1.09,
+     "pf": 1.238,
+     "expectancy": 0.1505,
+     "t_stat": 0.38,
+     "max_dd_pct": 2.18,
+     "win_rate": 40.0,
+     "avg_hold_h": 14.8
+    },
+    "bear": {
+     "trades": 57,
+     "net_pct": -1.63,
+     "pf": 0.925,
+     "expectancy": -0.0528,
+     "t_stat": -0.28,
+     "max_dd_pct": 3.71,
+     "win_rate": 33.3,
+     "avg_hold_h": 13.7
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.09,
+     "pf": 0.919,
+     "expectancy": -0.0562,
+     "t_stat": -0.06,
+     "max_dd_pct": 1.04,
+     "win_rate": 33.3,
+     "avg_hold_h": 12.2
+    }
+   }
+  },
+  "1h_M1_BB_SQUEEZE_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 70,
+     "net_pct": 1.19,
+     "pf": 1.072,
+     "expectancy": 0.0437,
+     "t_stat": 0.18,
+     "max_dd_pct": 5.65,
+     "win_rate": 32.9,
+     "avg_hold_h": 17.7
+    },
+    "mid": {
+     "trades": 70,
+     "net_pct": 0.09,
+     "pf": 1.02,
+     "expectancy": 0.0125,
+     "t_stat": 0.05,
+     "max_dd_pct": 6.05,
+     "win_rate": 32.9,
+     "avg_hold_h": 17.7
+    },
+    "high": {
+     "trades": 70,
+     "net_pct": -1.72,
+     "pf": 0.94,
+     "expectancy": -0.0396,
+     "t_stat": -0.16,
+     "max_dd_pct": 6.72,
+     "win_rate": 32.9,
+     "avg_hold_h": 17.7
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 15,
+     "net_pct": 0.95,
+     "pf": 1.276,
+     "expectancy": 0.1321,
+     "t_stat": 0.34,
+     "max_dd_pct": 2.22,
+     "win_rate": 46.7,
+     "avg_hold_h": 21.7
+    },
+    "bear": {
+     "trades": 52,
+     "net_pct": 0.45,
+     "pf": 1.044,
+     "expectancy": 0.0289,
+     "t_stat": 0.09,
+     "max_dd_pct": 4.51,
+     "win_rate": 30.8,
+     "avg_hold_h": 17.4
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -1.3,
+     "pf": 0.0,
+     "expectancy": -0.8712,
+     "t_stat": -4.97,
+     "max_dd_pct": 1.3,
+     "win_rate": 0.0,
+     "avg_hold_h": 2.4
+    }
+   }
+  },
+  "1h_M2_DONCHIAN20_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 110,
+     "net_pct": 3.55,
+     "pf": 1.106,
+     "expectancy": 0.0687,
+     "t_stat": 0.5,
+     "max_dd_pct": 4.82,
+     "win_rate": 36.4,
+     "avg_hold_h": 22.2
+    },
+    "mid": {
+     "trades": 110,
+     "net_pct": 1.67,
+     "pf": 1.052,
+     "expectancy": 0.0353,
+     "t_stat": 0.26,
+     "max_dd_pct": 5.35,
+     "win_rate": 36.4,
+     "avg_hold_h": 22.2
+    },
+    "high": {
+     "trades": 110,
+     "net_pct": -1.4,
+     "pf": 0.971,
+     "expectancy": -0.0203,
+     "t_stat": -0.15,
+     "max_dd_pct": 6.22,
+     "win_rate": 36.4,
+     "avg_hold_h": 22.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 63,
+     "net_pct": -1.98,
+     "pf": 0.917,
+     "expectancy": -0.0586,
+     "t_stat": -0.33,
+     "max_dd_pct": 5.35,
+     "win_rate": 33.3,
+     "avg_hold_h": 17.5
+    },
+    "bear": {
+     "trades": 41,
+     "net_pct": 2.32,
+     "pf": 1.182,
+     "expectancy": 0.1172,
+     "t_stat": 0.51,
+     "max_dd_pct": 4.37,
+     "win_rate": 39.0,
+     "avg_hold_h": 29.7
+    },
+    "sideways": {
+     "trades": 6,
+     "net_pct": 1.37,
+     "pf": 1.889,
+     "expectancy": 0.4608,
+     "t_stat": 0.69,
+     "max_dd_pct": 1.03,
+     "win_rate": 50.0,
+     "avg_hold_h": 20.7
+    }
+   }
+  },
+  "1h_M2_DONCHIAN20_LONG_TRAIL": {
+   "eligible": true,
+   "passed_holdout": true,
+   "metrics": {
+    "low": {
+     "trades": 99,
+     "net_pct": 13.69,
+     "pf": 1.512,
+     "expectancy": 0.2827,
+     "t_stat": 0.89,
+     "max_dd_pct": 5.01,
+     "win_rate": 33.3,
+     "avg_hold_h": 20.7
+    },
+    "mid": {
+     "trades": 99,
+     "net_pct": 11.65,
+     "pf": 1.427,
+     "expectancy": 0.246,
+     "t_stat": 0.77,
+     "max_dd_pct": 5.39,
+     "win_rate": 33.3,
+     "avg_hold_h": 20.7
+    },
+    "high": {
+     "trades": 99,
+     "net_pct": 8.32,
+     "pf": 1.299,
+     "expectancy": 0.1848,
+     "t_stat": 0.58,
+     "max_dd_pct": 6.26,
+     "win_rate": 32.3,
+     "avg_hold_h": 20.7
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 56,
+     "net_pct": -1.49,
+     "pf": 0.923,
+     "expectancy": -0.0481,
+     "t_stat": -0.24,
+     "max_dd_pct": 5.39,
+     "win_rate": 30.4,
+     "avg_hold_h": 18.4
+    },
+    "bear": {
+     "trades": 39,
+     "net_pct": 13.16,
+     "pf": 2.302,
+     "expectancy": 0.6852,
+     "t_stat": 0.91,
+     "max_dd_pct": 4.6,
+     "win_rate": 35.9,
+     "avg_hold_h": 23.1
+    },
+    "sideways": {
+     "trades": 4,
+     "net_pct": 0.16,
+     "pf": 1.2,
+     "expectancy": 0.0811,
+     "t_stat": 0.15,
+     "max_dd_pct": 0.5,
+     "win_rate": 50.0,
+     "avg_hold_h": 28.9
+    }
+   }
+  },
+  "1h_M2_DONCHIAN20_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 138,
+     "net_pct": 8.1,
+     "pf": 1.188,
+     "expectancy": 0.1181,
+     "t_stat": 0.95,
+     "max_dd_pct": 5.57,
+     "win_rate": 37.7,
+     "avg_hold_h": 18.5
+    },
+    "mid": {
+     "trades": 138,
+     "net_pct": 6.3,
+     "pf": 1.145,
+     "expectancy": 0.0938,
+     "t_stat": 0.76,
+     "max_dd_pct": 6.37,
+     "win_rate": 37.7,
+     "avg_hold_h": 18.5
+    },
+    "high": {
+     "trades": 138,
+     "net_pct": 3.36,
+     "pf": 1.079,
+     "expectancy": 0.0532,
+     "t_stat": 0.43,
+     "max_dd_pct": 7.7,
+     "win_rate": 37.7,
+     "avg_hold_h": 18.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 34,
+     "net_pct": 0.15,
+     "pf": 1.021,
+     "expectancy": 0.0139,
+     "t_stat": 0.06,
+     "max_dd_pct": 3.52,
+     "win_rate": 35.3,
+     "avg_hold_h": 21.0
+    },
+    "bear": {
+     "trades": 100,
+     "net_pct": 4.89,
+     "pf": 1.157,
+     "expectancy": 0.1008,
+     "t_stat": 0.69,
+     "max_dd_pct": 4.66,
+     "win_rate": 38.0,
+     "avg_hold_h": 17.9
+    },
+    "sideways": {
+     "trades": 4,
+     "net_pct": 1.19,
+     "pf": 2.538,
+     "expectancy": 0.5967,
+     "t_stat": 0.75,
+     "max_dd_pct": 0.77,
+     "win_rate": 50.0,
+     "avg_hold_h": 10.2
+    }
+   }
+  },
+  "1h_M2_DONCHIAN20_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 119,
+     "net_pct": 5.11,
+     "pf": 1.172,
+     "expectancy": 0.0922,
+     "t_stat": 0.54,
+     "max_dd_pct": 6.14,
+     "win_rate": 35.3,
+     "avg_hold_h": 20.4
+    },
+    "mid": {
+     "trades": 119,
+     "net_pct": 3.42,
+     "pf": 1.117,
+     "expectancy": 0.0649,
+     "t_stat": 0.38,
+     "max_dd_pct": 6.64,
+     "win_rate": 33.6,
+     "avg_hold_h": 20.4
+    },
+    "high": {
+     "trades": 119,
+     "net_pct": 0.65,
+     "pf": 1.033,
+     "expectancy": 0.0194,
+     "t_stat": 0.11,
+     "max_dd_pct": 7.45,
+     "win_rate": 33.6,
+     "avg_hold_h": 20.4
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 31,
+     "net_pct": 2.48,
+     "pf": 1.341,
+     "expectancy": 0.1654,
+     "t_stat": 0.54,
+     "max_dd_pct": 3.0,
+     "win_rate": 35.5,
+     "avg_hold_h": 25.4
+    },
+    "bear": {
+     "trades": 85,
+     "net_pct": 1.56,
+     "pf": 1.078,
+     "expectancy": 0.0456,
+     "t_stat": 0.22,
+     "max_dd_pct": 4.54,
+     "win_rate": 32.9,
+     "avg_hold_h": 19.0
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.64,
+     "pf": 0.188,
+     "expectancy": -0.4281,
+     "t_stat": -1.09,
+     "max_dd_pct": 0.64,
+     "win_rate": 33.3,
+     "avg_hold_h": 10.1
+    }
+   }
+  },
+  "1h_M3_ATR_CONTRACT_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 37,
+     "net_pct": 0.3,
+     "pf": 1.031,
+     "expectancy": 0.0211,
+     "t_stat": 0.09,
+     "max_dd_pct": 2.56,
+     "win_rate": 35.1,
+     "avg_hold_h": 11.2
+    },
+    "mid": {
+     "trades": 37,
+     "net_pct": -0.62,
+     "pf": 0.96,
+     "expectancy": -0.0283,
+     "t_stat": -0.12,
+     "max_dd_pct": 2.69,
+     "win_rate": 35.1,
+     "avg_hold_h": 11.2
+    },
+    "high": {
+     "trades": 37,
+     "net_pct": -2.12,
+     "pf": 0.854,
+     "expectancy": -0.1107,
+     "t_stat": -0.46,
+     "max_dd_pct": 3.37,
+     "win_rate": 35.1,
+     "avg_hold_h": 11.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 18,
+     "net_pct": -0.8,
+     "pf": 0.884,
+     "expectancy": -0.0838,
+     "t_stat": -0.24,
+     "max_dd_pct": 2.4,
+     "win_rate": 33.3,
+     "avg_hold_h": 12.7
+    },
+    "bear": {
+     "trades": 18,
+     "net_pct": -0.78,
+     "pf": 0.886,
+     "expectancy": -0.0822,
+     "t_stat": -0.24,
+     "max_dd_pct": 2.17,
+     "win_rate": 33.3,
+     "avg_hold_h": 9.0
+    },
+    "sideways": {
+     "trades": 1,
+     "net_pct": 0.97,
+     "pf": null,
+     "expectancy": 1.94,
+     "t_stat": null,
+     "max_dd_pct": 0.0,
+     "win_rate": 100.0,
+     "avg_hold_h": 26.0
+    }
+   }
+  },
+  "1h_M3_ATR_CONTRACT_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 32,
+     "net_pct": -0.6,
+     "pf": 0.949,
+     "expectancy": -0.0317,
+     "t_stat": -0.11,
+     "max_dd_pct": 3.71,
+     "win_rate": 34.4,
+     "avg_hold_h": 15.9
+    },
+    "mid": {
+     "trades": 32,
+     "net_pct": -1.41,
+     "pf": 0.874,
+     "expectancy": -0.0829,
+     "t_stat": -0.3,
+     "max_dd_pct": 4.17,
+     "win_rate": 34.4,
+     "avg_hold_h": 15.9
+    },
+    "high": {
+     "trades": 32,
+     "net_pct": -2.75,
+     "pf": 0.764,
+     "expectancy": -0.1682,
+     "t_stat": -0.6,
+     "max_dd_pct": 5.12,
+     "win_rate": 34.4,
+     "avg_hold_h": 15.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 16,
+     "net_pct": 0.94,
+     "pf": 1.198,
+     "expectancy": 0.1244,
+     "t_stat": 0.28,
+     "max_dd_pct": 1.86,
+     "win_rate": 37.5,
+     "avg_hold_h": 17.3
+    },
+    "bear": {
+     "trades": 15,
+     "net_pct": -2.67,
+     "pf": 0.511,
+     "expectancy": -0.3562,
+     "t_stat": -1.01,
+     "max_dd_pct": 2.69,
+     "win_rate": 26.7,
+     "avg_hold_h": 13.4
+    },
+    "sideways": {
+     "trades": 1,
+     "net_pct": 0.35,
+     "pf": null,
+     "expectancy": 0.6994,
+     "t_stat": null,
+     "max_dd_pct": 0.0,
+     "win_rate": 100.0,
+     "avg_hold_h": 29.8
+    }
+   }
+  },
+  "1h_M3_ATR_CONTRACT_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 43,
+     "net_pct": -2.34,
+     "pf": 0.85,
+     "expectancy": -0.1055,
+     "t_stat": -0.5,
+     "max_dd_pct": 5.44,
+     "win_rate": 30.2,
+     "avg_hold_h": 9.9
+    },
+    "mid": {
+     "trades": 43,
+     "net_pct": -3.12,
+     "pf": 0.804,
+     "expectancy": -0.1428,
+     "t_stat": -0.67,
+     "max_dd_pct": 5.88,
+     "win_rate": 30.2,
+     "avg_hold_h": 9.9
+    },
+    "high": {
+     "trades": 43,
+     "net_pct": -4.41,
+     "pf": 0.735,
+     "expectancy": -0.2051,
+     "t_stat": -0.97,
+     "max_dd_pct": 6.61,
+     "win_rate": 30.2,
+     "avg_hold_h": 9.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 8,
+     "net_pct": -1.28,
+     "pf": 0.606,
+     "expectancy": -0.3176,
+     "t_stat": -0.64,
+     "max_dd_pct": 2.24,
+     "win_rate": 25.0,
+     "avg_hold_h": 9.0
+    },
+    "bear": {
+     "trades": 33,
+     "net_pct": -1.09,
+     "pf": 0.914,
+     "expectancy": -0.0612,
+     "t_stat": -0.24,
+     "max_dd_pct": 4.88,
+     "win_rate": 33.3,
+     "avg_hold_h": 10.7
+    },
+    "sideways": {
+     "trades": 2,
+     "net_pct": -0.79,
+     "pf": 0.0,
+     "expectancy": -0.7904,
+     "t_stat": -2.94,
+     "max_dd_pct": 0.79,
+     "win_rate": 0.0,
+     "avg_hold_h": 0.9
+    }
+   }
+  },
+  "1h_M3_ATR_CONTRACT_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 39,
+     "net_pct": -4.78,
+     "pf": 0.661,
+     "expectancy": -0.2451,
+     "t_stat": -0.97,
+     "max_dd_pct": 7.22,
+     "win_rate": 20.5,
+     "avg_hold_h": 12.9
+    },
+    "mid": {
+     "trades": 39,
+     "net_pct": -5.49,
+     "pf": 0.625,
+     "expectancy": -0.2831,
+     "t_stat": -1.12,
+     "max_dd_pct": 7.76,
+     "win_rate": 17.9,
+     "avg_hold_h": 12.9
+    },
+    "high": {
+     "trades": 39,
+     "net_pct": -6.65,
+     "pf": 0.57,
+     "expectancy": -0.3464,
+     "t_stat": -1.37,
+     "max_dd_pct": 8.66,
+     "win_rate": 17.9,
+     "avg_hold_h": 12.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 8,
+     "net_pct": 0.13,
+     "pf": 1.058,
+     "expectancy": 0.0453,
+     "t_stat": 0.05,
+     "max_dd_pct": 1.61,
+     "win_rate": 25.0,
+     "avg_hold_h": 18.6
+    },
+    "bear": {
+     "trades": 29,
+     "net_pct": -4.86,
+     "pf": 0.544,
+     "expectancy": -0.3387,
+     "t_stat": -1.3,
+     "max_dd_pct": 6.09,
+     "win_rate": 17.2,
+     "avg_hold_h": 12.1
+    },
+    "sideways": {
+     "trades": 2,
+     "net_pct": -0.79,
+     "pf": 0.0,
+     "expectancy": -0.7904,
+     "t_stat": -2.94,
+     "max_dd_pct": 0.79,
+     "win_rate": 0.0,
+     "avg_hold_h": 0.9
+    }
+   }
+  },
+  "1h_M4_DONCHIAN_VOL_LONG_FIXED": {
+   "eligible": true,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 93,
+     "net_pct": 0.13,
+     "pf": 1.012,
+     "expectancy": 0.0079,
+     "t_stat": 0.05,
+     "max_dd_pct": 5.61,
+     "win_rate": 34.4,
+     "avg_hold_h": 17.2
+    },
+    "mid": {
+     "trades": 93,
+     "net_pct": -1.55,
+     "pf": 0.959,
+     "expectancy": -0.0286,
+     "t_stat": -0.19,
+     "max_dd_pct": 5.97,
+     "win_rate": 34.4,
+     "avg_hold_h": 17.2
+    },
+    "high": {
+     "trades": 93,
+     "net_pct": -4.3,
+     "pf": 0.879,
+     "expectancy": -0.0894,
+     "t_stat": -0.6,
+     "max_dd_pct": 7.56,
+     "win_rate": 34.4,
+     "avg_hold_h": 17.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 52,
+     "net_pct": 0.75,
+     "pf": 1.05,
+     "expectancy": 0.0338,
+     "t_stat": 0.17,
+     "max_dd_pct": 3.25,
+     "win_rate": 36.5,
+     "avg_hold_h": 13.0
+    },
+    "bear": {
+     "trades": 36,
+     "net_pct": -2.65,
+     "pf": 0.805,
+     "expectancy": -0.1443,
+     "t_stat": -0.61,
+     "max_dd_pct": 5.97,
+     "win_rate": 30.6,
+     "avg_hold_h": 23.2
+    },
+    "sideways": {
+     "trades": 5,
+     "net_pct": 0.38,
+     "pf": 1.248,
+     "expectancy": 0.1561,
+     "t_stat": 0.21,
+     "max_dd_pct": 1.57,
+     "win_rate": 40.0,
+     "avg_hold_h": 18.4
+    }
+   }
+  },
+  "1h_M4_DONCHIAN_VOL_LONG_TRAIL": {
+   "eligible": true,
+   "passed_holdout": true,
+   "metrics": {
+    "low": {
+     "trades": 81,
+     "net_pct": 13.02,
+     "pf": 1.598,
+     "expectancy": 0.3293,
+     "t_stat": 0.87,
+     "max_dd_pct": 3.84,
+     "win_rate": 34.6,
+     "avg_hold_h": 18.8
+    },
+    "mid": {
+     "trades": 81,
+     "net_pct": 11.26,
+     "pf": 1.503,
+     "expectancy": 0.2906,
+     "t_stat": 0.76,
+     "max_dd_pct": 4.13,
+     "win_rate": 34.6,
+     "avg_hold_h": 18.8
+    },
+    "high": {
+     "trades": 81,
+     "net_pct": 8.4,
+     "pf": 1.363,
+     "expectancy": 0.2261,
+     "t_stat": 0.59,
+     "max_dd_pct": 4.61,
+     "win_rate": 34.6,
+     "avg_hold_h": 18.8
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 46,
+     "net_pct": -1.75,
+     "pf": 0.884,
+     "expectancy": -0.0714,
+     "t_stat": -0.33,
+     "max_dd_pct": 3.46,
+     "win_rate": 30.4,
+     "avg_hold_h": 15.9
+    },
+    "bear": {
+     "trades": 32,
+     "net_pct": 13.27,
+     "pf": 2.555,
+     "expectancy": 0.8396,
+     "t_stat": 0.92,
+     "max_dd_pct": 4.13,
+     "win_rate": 40.6,
+     "avg_hold_h": 22.1
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.02,
+     "pf": 0.966,
+     "expectancy": -0.0145,
+     "t_stat": -0.02,
+     "max_dd_pct": 0.64,
+     "win_rate": 33.3,
+     "avg_hold_h": 26.4
+    }
+   }
+  },
+  "1h_M4_DONCHIAN_VOL_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 118,
+     "net_pct": 9.39,
+     "pf": 1.256,
+     "expectancy": 0.1575,
+     "t_stat": 1.17,
+     "max_dd_pct": 5.1,
+     "win_rate": 39.0,
+     "avg_hold_h": 18.2
+    },
+    "mid": {
+     "trades": 118,
+     "net_pct": 7.81,
+     "pf": 1.211,
+     "expectancy": 0.1328,
+     "t_stat": 0.98,
+     "max_dd_pct": 5.37,
+     "win_rate": 39.0,
+     "avg_hold_h": 18.2
+    },
+    "high": {
+     "trades": 118,
+     "net_pct": 5.21,
+     "pf": 1.14,
+     "expectancy": 0.0915,
+     "t_stat": 0.68,
+     "max_dd_pct": 6.25,
+     "win_rate": 39.0,
+     "avg_hold_h": 18.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 31,
+     "net_pct": 0.21,
+     "pf": 1.027,
+     "expectancy": 0.0185,
+     "t_stat": 0.07,
+     "max_dd_pct": 3.45,
+     "win_rate": 35.5,
+     "avg_hold_h": 18.1
+    },
+    "bear": {
+     "trades": 84,
+     "net_pct": 7.37,
+     "pf": 1.282,
+     "expectancy": 0.1747,
+     "t_stat": 1.08,
+     "max_dd_pct": 3.8,
+     "win_rate": 40.5,
+     "avg_hold_h": 18.4
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": 0.2,
+     "pf": 1.271,
+     "expectancy": 0.1404,
+     "t_stat": 0.15,
+     "max_dd_pct": 0.78,
+     "win_rate": 33.3,
+     "avg_hold_h": 14.4
+    }
+   }
+  },
+  "1h_M4_DONCHIAN_VOL_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 104,
+     "net_pct": 6.82,
+     "pf": 1.248,
+     "expectancy": 0.1361,
+     "t_stat": 0.71,
+     "max_dd_pct": 6.36,
+     "win_rate": 34.6,
+     "avg_hold_h": 20.5
+    },
+    "mid": {
+     "trades": 104,
+     "net_pct": 5.28,
+     "pf": 1.191,
+     "expectancy": 0.1083,
+     "t_stat": 0.57,
+     "max_dd_pct": 6.77,
+     "win_rate": 34.6,
+     "avg_hold_h": 20.5
+    },
+    "high": {
+     "trades": 104,
+     "net_pct": 2.78,
+     "pf": 1.103,
+     "expectancy": 0.0619,
+     "t_stat": 0.32,
+     "max_dd_pct": 7.47,
+     "win_rate": 33.7,
+     "avg_hold_h": 20.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 27,
+     "net_pct": 1.93,
+     "pf": 1.279,
+     "expectancy": 0.1493,
+     "t_stat": 0.43,
+     "max_dd_pct": 2.51,
+     "win_rate": 33.3,
+     "avg_hold_h": 23.8
+    },
+    "bear": {
+     "trades": 74,
+     "net_pct": 4.11,
+     "pf": 1.205,
+     "expectancy": 0.119,
+     "t_stat": 0.5,
+     "max_dd_pct": 4.37,
+     "win_rate": 35.1,
+     "avg_hold_h": 19.7
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.79,
+     "pf": 0.001,
+     "expectancy": -0.5263,
+     "t_stat": -1.72,
+     "max_dd_pct": 0.79,
+     "win_rate": 33.3,
+     "avg_hold_h": 9.4
+    }
+   }
+  },
+  "1h_M5_TREND_DC55_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 65,
+     "net_pct": -0.35,
+     "pf": 0.992,
+     "expectancy": -0.0057,
+     "t_stat": -0.03,
+     "max_dd_pct": 5.57,
+     "win_rate": 33.8,
+     "avg_hold_h": 17.9
+    },
+    "mid": {
+     "trades": 65,
+     "net_pct": -1.37,
+     "pf": 0.946,
+     "expectancy": -0.0373,
+     "t_stat": -0.21,
+     "max_dd_pct": 5.85,
+     "win_rate": 33.8,
+     "avg_hold_h": 17.9
+    },
+    "high": {
+     "trades": 65,
+     "net_pct": -3.04,
+     "pf": 0.877,
+     "expectancy": -0.09,
+     "t_stat": -0.51,
+     "max_dd_pct": 6.3,
+     "win_rate": 33.8,
+     "avg_hold_h": 17.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 38,
+     "net_pct": 0.81,
+     "pf": 1.072,
+     "expectancy": 0.0478,
+     "t_stat": 0.2,
+     "max_dd_pct": 3.14,
+     "win_rate": 36.8,
+     "avg_hold_h": 13.8
+    },
+    "bear": {
+     "trades": 24,
+     "net_pct": -2.11,
+     "pf": 0.767,
+     "expectancy": -0.1732,
+     "t_stat": -0.61,
+     "max_dd_pct": 5.85,
+     "win_rate": 29.2,
+     "avg_hold_h": 25.3
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.05,
+     "pf": 0.958,
+     "expectancy": -0.0285,
+     "t_stat": -0.03,
+     "max_dd_pct": 1.03,
+     "win_rate": 33.3,
+     "avg_hold_h": 10.8
+    }
+   }
+  },
+  "1h_M5_TREND_DC55_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 54,
+     "net_pct": 6.99,
+     "pf": 1.454,
+     "expectancy": 0.2731,
+     "t_stat": 0.64,
+     "max_dd_pct": 4.67,
+     "win_rate": 31.5,
+     "avg_hold_h": 18.1
+    },
+    "mid": {
+     "trades": 54,
+     "net_pct": 6.03,
+     "pf": 1.384,
+     "expectancy": 0.2399,
+     "t_stat": 0.56,
+     "max_dd_pct": 4.91,
+     "win_rate": 31.5,
+     "avg_hold_h": 18.1
+    },
+    "high": {
+     "trades": 54,
+     "net_pct": 4.46,
+     "pf": 1.278,
+     "expectancy": 0.1844,
+     "t_stat": 0.43,
+     "max_dd_pct": 5.73,
+     "win_rate": 31.5,
+     "avg_hold_h": 18.1
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 31,
+     "net_pct": 0.04,
+     "pf": 1.014,
+     "expectancy": 0.0088,
+     "t_stat": 0.03,
+     "max_dd_pct": 3.12,
+     "win_rate": 32.3,
+     "avg_hold_h": 17.4
+    },
+    "bear": {
+     "trades": 21,
+     "net_pct": 6.84,
+     "pf": 2.12,
+     "expectancy": 0.6798,
+     "t_stat": 0.67,
+     "max_dd_pct": 4.91,
+     "win_rate": 33.3,
+     "avg_hold_h": 19.8
+    },
+    "sideways": {
+     "trades": 2,
+     "net_pct": -0.8,
+     "pf": 0.0,
+     "expectancy": -0.7974,
+     "t_stat": -3.39,
+     "max_dd_pct": 0.8,
+     "win_rate": 0.0,
+     "avg_hold_h": 11.1
+    }
+   }
+  },
+  "1h_M5_TREND_DC55_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 74,
+     "net_pct": 6.21,
+     "pf": 1.276,
+     "expectancy": 0.1682,
+     "t_stat": 0.98,
+     "max_dd_pct": 4.5,
+     "win_rate": 39.2,
+     "avg_hold_h": 20.5
+    },
+    "mid": {
+     "trades": 74,
+     "net_pct": 5.35,
+     "pf": 1.235,
+     "expectancy": 0.1461,
+     "t_stat": 0.86,
+     "max_dd_pct": 4.63,
+     "win_rate": 39.2,
+     "avg_hold_h": 20.5
+    },
+    "high": {
+     "trades": 74,
+     "net_pct": 3.92,
+     "pf": 1.17,
+     "expectancy": 0.1094,
+     "t_stat": 0.64,
+     "max_dd_pct": 4.84,
+     "win_rate": 39.2,
+     "avg_hold_h": 20.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 15,
+     "net_pct": -0.34,
+     "pf": 0.941,
+     "expectancy": -0.0409,
+     "t_stat": -0.11,
+     "max_dd_pct": 2.58,
+     "win_rate": 33.3,
+     "avg_hold_h": 20.0
+    },
+    "bear": {
+     "trades": 56,
+     "net_pct": 5.49,
+     "pf": 1.322,
+     "expectancy": 0.1965,
+     "t_stat": 0.99,
+     "max_dd_pct": 4.63,
+     "win_rate": 41.1,
+     "avg_hold_h": 21.4
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": 0.2,
+     "pf": 1.272,
+     "expectancy": 0.1407,
+     "t_stat": 0.15,
+     "max_dd_pct": 0.77,
+     "win_rate": 33.3,
+     "avg_hold_h": 5.7
+    }
+   }
+  },
+  "1h_M5_TREND_DC55_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 64,
+     "net_pct": 3.59,
+     "pf": 1.229,
+     "expectancy": 0.1207,
+     "t_stat": 0.46,
+     "max_dd_pct": 4.29,
+     "win_rate": 34.4,
+     "avg_hold_h": 20.8
+    },
+    "mid": {
+     "trades": 64,
+     "net_pct": 2.83,
+     "pf": 1.18,
+     "expectancy": 0.0977,
+     "t_stat": 0.38,
+     "max_dd_pct": 4.5,
+     "win_rate": 34.4,
+     "avg_hold_h": 20.8
+    },
+    "high": {
+     "trades": 64,
+     "net_pct": 1.58,
+     "pf": 1.105,
+     "expectancy": 0.0594,
+     "t_stat": 0.23,
+     "max_dd_pct": 4.84,
+     "win_rate": 34.4,
+     "avg_hold_h": 20.8
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 15,
+     "net_pct": 0.09,
+     "pf": 1.035,
+     "expectancy": 0.0192,
+     "t_stat": 0.04,
+     "max_dd_pct": 2.22,
+     "win_rate": 33.3,
+     "avg_hold_h": 23.2
+    },
+    "bear": {
+     "trades": 47,
+     "net_pct": 3.54,
+     "pf": 1.301,
+     "expectancy": 0.16,
+     "t_stat": 0.49,
+     "max_dd_pct": 3.84,
+     "win_rate": 36.2,
+     "avg_hold_h": 20.8
+    },
+    "sideways": {
+     "trades": 2,
+     "net_pct": -0.77,
+     "pf": 0.0,
+     "expectancy": -0.776,
+     "t_stat": -3.05,
+     "max_dd_pct": 0.77,
+     "win_rate": 0.0,
+     "avg_hold_h": 2.1
+    }
+   }
+  },
+  "1h_M6_SQUEEZE_VOL_LONG_FIXED": {
+   "eligible": true,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 43,
+     "net_pct": 1.82,
+     "pf": 1.138,
+     "expectancy": 0.089,
+     "t_stat": 0.4,
+     "max_dd_pct": 3.68,
+     "win_rate": 37.2,
+     "avg_hold_h": 13.5
+    },
+    "mid": {
+     "trades": 43,
+     "net_pct": 0.92,
+     "pf": 1.072,
+     "expectancy": 0.0481,
+     "t_stat": 0.21,
+     "max_dd_pct": 3.99,
+     "win_rate": 37.2,
+     "avg_hold_h": 13.5
+    },
+    "high": {
+     "trades": 43,
+     "net_pct": -0.55,
+     "pf": 0.972,
+     "expectancy": -0.0201,
+     "t_stat": -0.09,
+     "max_dd_pct": 4.51,
+     "win_rate": 37.2,
+     "avg_hold_h": 13.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 21,
+     "net_pct": -0.81,
+     "pf": 0.899,
+     "expectancy": -0.072,
+     "t_stat": -0.23,
+     "max_dd_pct": 2.74,
+     "win_rate": 33.3,
+     "avg_hold_h": 7.9
+    },
+    "bear": {
+     "trades": 19,
+     "net_pct": 1.83,
+     "pf": 1.318,
+     "expectancy": 0.1969,
+     "t_stat": 0.56,
+     "max_dd_pct": 2.62,
+     "win_rate": 42.1,
+     "avg_hold_h": 19.2
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.09,
+     "pf": 0.924,
+     "expectancy": -0.0539,
+     "t_stat": -0.05,
+     "max_dd_pct": 1.06,
+     "win_rate": 33.3,
+     "avg_hold_h": 17.3
+    }
+   }
+  },
+  "1h_M6_SQUEEZE_VOL_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 40,
+     "net_pct": 4.09,
+     "pf": 1.387,
+     "expectancy": 0.2079,
+     "t_stat": 0.74,
+     "max_dd_pct": 3.21,
+     "win_rate": 35.0,
+     "avg_hold_h": 19.4
+    },
+    "mid": {
+     "trades": 40,
+     "net_pct": 3.2,
+     "pf": 1.291,
+     "expectancy": 0.165,
+     "t_stat": 0.59,
+     "max_dd_pct": 3.45,
+     "win_rate": 35.0,
+     "avg_hold_h": 19.4
+    },
+    "high": {
+     "trades": 40,
+     "net_pct": 1.73,
+     "pf": 1.152,
+     "expectancy": 0.0935,
+     "t_stat": 0.33,
+     "max_dd_pct": 3.84,
+     "win_rate": 35.0,
+     "avg_hold_h": 19.4
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 19,
+     "net_pct": 2.57,
+     "pf": 1.435,
+     "expectancy": 0.2777,
+     "t_stat": 0.57,
+     "max_dd_pct": 2.85,
+     "win_rate": 31.6,
+     "avg_hold_h": 17.7
+    },
+    "bear": {
+     "trades": 18,
+     "net_pct": 1.14,
+     "pf": 1.257,
+     "expectancy": 0.1322,
+     "t_stat": 0.36,
+     "max_dd_pct": 2.41,
+     "win_rate": 38.9,
+     "avg_hold_h": 21.3
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -0.53,
+     "pf": 0.179,
+     "expectancy": -0.3521,
+     "t_stat": -1.21,
+     "max_dd_pct": 0.64,
+     "win_rate": 33.3,
+     "avg_hold_h": 19.1
+    }
+   }
+  },
+  "1h_M6_SQUEEZE_VOL_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 59,
+     "net_pct": 3.04,
+     "pf": 1.169,
+     "expectancy": 0.1066,
+     "t_stat": 0.56,
+     "max_dd_pct": 2.57,
+     "win_rate": 37.3,
+     "avg_hold_h": 14.5
+    },
+    "mid": {
+     "trades": 59,
+     "net_pct": 2.08,
+     "pf": 1.115,
+     "expectancy": 0.0749,
+     "t_stat": 0.39,
+     "max_dd_pct": 2.69,
+     "win_rate": 37.3,
+     "avg_hold_h": 14.5
+    },
+    "high": {
+     "trades": 59,
+     "net_pct": 0.5,
+     "pf": 1.032,
+     "expectancy": 0.0221,
+     "t_stat": 0.12,
+     "max_dd_pct": 3.08,
+     "win_rate": 37.3,
+     "avg_hold_h": 14.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 9,
+     "net_pct": 1.24,
+     "pf": 1.475,
+     "expectancy": 0.2802,
+     "t_stat": 0.53,
+     "max_dd_pct": 1.07,
+     "win_rate": 44.4,
+     "avg_hold_h": 17.3
+    },
+    "bear": {
+     "trades": 47,
+     "net_pct": 2.15,
+     "pf": 1.147,
+     "expectancy": 0.096,
+     "t_stat": 0.45,
+     "max_dd_pct": 2.69,
+     "win_rate": 38.3,
+     "avg_hold_h": 14.8
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -1.3,
+     "pf": 0.0,
+     "expectancy": -0.8712,
+     "t_stat": -4.97,
+     "max_dd_pct": 1.3,
+     "win_rate": 0.0,
+     "avg_hold_h": 2.4
+    }
+   }
+  },
+  "1h_M6_SQUEEZE_VOL_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 56,
+     "net_pct": 0.19,
+     "pf": 1.029,
+     "expectancy": 0.0173,
+     "t_stat": 0.06,
+     "max_dd_pct": 4.34,
+     "win_rate": 30.4,
+     "avg_hold_h": 17.5
+    },
+    "mid": {
+     "trades": 56,
+     "net_pct": -0.71,
+     "pf": 0.976,
+     "expectancy": -0.0149,
+     "t_stat": -0.05,
+     "max_dd_pct": 4.62,
+     "win_rate": 30.4,
+     "avg_hold_h": 17.5
+    },
+    "high": {
+     "trades": 56,
+     "net_pct": -2.19,
+     "pf": 0.895,
+     "expectancy": -0.0686,
+     "t_stat": -0.24,
+     "max_dd_pct": 5.11,
+     "win_rate": 30.4,
+     "avg_hold_h": 17.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 9,
+     "net_pct": -1.4,
+     "pf": 0.381,
+     "expectancy": -0.311,
+     "t_stat": -1.18,
+     "max_dd_pct": 1.43,
+     "win_rate": 33.3,
+     "avg_hold_h": 19.4
+    },
+    "bear": {
+     "trades": 44,
+     "net_pct": 2.02,
+     "pf": 1.169,
+     "expectancy": 0.1041,
+     "t_stat": 0.29,
+     "max_dd_pct": 2.99,
+     "win_rate": 31.8,
+     "avg_hold_h": 18.1
+    },
+    "sideways": {
+     "trades": 3,
+     "net_pct": -1.3,
+     "pf": 0.0,
+     "expectancy": -0.8712,
+     "t_stat": -4.97,
+     "max_dd_pct": 1.3,
+     "win_rate": 0.0,
+     "avg_hold_h": 2.4
+    }
+   }
+  },
+  "15m_M1_BB_SQUEEZE_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 228,
+     "net_pct": -11.15,
+     "pf": 0.863,
+     "expectancy": -0.0988,
+     "t_stat": -1.07,
+     "max_dd_pct": 14.36,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.9
+    },
+    "mid": {
+     "trades": 228,
+     "net_pct": -19.72,
+     "pf": 0.758,
+     "expectancy": -0.1877,
+     "t_stat": -2.03,
+     "max_dd_pct": 21.48,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.9
+    },
+    "high": {
+     "trades": 228,
+     "net_pct": -32.21,
+     "pf": 0.615,
+     "expectancy": -0.3359,
+     "t_stat": -3.64,
+     "max_dd_pct": 33.53,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 102,
+     "net_pct": -7.02,
+     "pf": 0.82,
+     "expectancy": -0.1376,
+     "t_stat": -0.97,
+     "max_dd_pct": 11.36,
+     "win_rate": 34.3,
+     "avg_hold_h": 3.5
+    },
+    "bear": {
+     "trades": 119,
+     "net_pct": -14.19,
+     "pf": 0.683,
+     "expectancy": -0.2524,
+     "t_stat": -2.01,
+     "max_dd_pct": 15.78,
+     "win_rate": 29.4,
+     "avg_hold_h": 4.2
+    },
+    "sideways": {
+     "trades": 7,
+     "net_pct": 0.62,
+     "pf": 1.294,
+     "expectancy": 0.1822,
+     "t_stat": 0.31,
+     "max_dd_pct": 1.21,
+     "win_rate": 42.9,
+     "avg_hold_h": 5.4
+    }
+   }
+  },
+  "15m_M1_BB_SQUEEZE_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 235,
+     "net_pct": 7.55,
+     "pf": 1.136,
+     "expectancy": 0.085,
+     "t_stat": 0.41,
+     "max_dd_pct": 12.59,
+     "win_rate": 29.4,
+     "avg_hold_h": 4.3
+    },
+    "mid": {
+     "trades": 235,
+     "net_pct": -3.24,
+     "pf": 0.993,
+     "expectancy": -0.0051,
+     "t_stat": -0.02,
+     "max_dd_pct": 19.16,
+     "win_rate": 27.7,
+     "avg_hold_h": 4.3
+    },
+    "high": {
+     "trades": 235,
+     "net_pct": -18.9,
+     "pf": 0.804,
+     "expectancy": -0.1552,
+     "t_stat": -0.75,
+     "max_dd_pct": 29.04,
+     "win_rate": 26.4,
+     "avg_hold_h": 4.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 107,
+     "net_pct": -9.6,
+     "pf": 0.739,
+     "expectancy": -0.1815,
+     "t_stat": -1.11,
+     "max_dd_pct": 12.83,
+     "win_rate": 29.0,
+     "avg_hold_h": 3.7
+    },
+    "bear": {
+     "trades": 120,
+     "net_pct": 7.51,
+     "pf": 1.232,
+     "expectancy": 0.1592,
+     "t_stat": 0.42,
+     "max_dd_pct": 13.64,
+     "win_rate": 25.8,
+     "avg_hold_h": 4.8
+    },
+    "sideways": {
+     "trades": 8,
+     "net_pct": -0.45,
+     "pf": 0.813,
+     "expectancy": -0.1087,
+     "t_stat": -0.25,
+     "max_dd_pct": 1.08,
+     "win_rate": 37.5,
+     "avg_hold_h": 4.6
+    }
+   }
+  },
+  "15m_M1_BB_SQUEEZE_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 270,
+     "net_pct": -22.71,
+     "pf": 0.751,
+     "expectancy": -0.1861,
+     "t_stat": -2.25,
+     "max_dd_pct": 23.49,
+     "win_rate": 28.9,
+     "avg_hold_h": 3.2
+    },
+    "mid": {
+     "trades": 270,
+     "net_pct": -30.56,
+     "pf": 0.67,
+     "expectancy": -0.2654,
+     "t_stat": -3.2,
+     "max_dd_pct": 30.56,
+     "win_rate": 28.9,
+     "avg_hold_h": 3.2
+    },
+    "high": {
+     "trades": 270,
+     "net_pct": -41.92,
+     "pf": 0.557,
+     "expectancy": -0.3974,
+     "t_stat": -4.78,
+     "max_dd_pct": 41.92,
+     "win_rate": 28.9,
+     "avg_hold_h": 3.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 97,
+     "net_pct": -11.82,
+     "pf": 0.683,
+     "expectancy": -0.2545,
+     "t_stat": -1.82,
+     "max_dd_pct": 11.82,
+     "win_rate": 29.9,
+     "avg_hold_h": 2.7
+    },
+    "bear": {
+     "trades": 160,
+     "net_pct": -16.52,
+     "pf": 0.718,
+     "expectancy": -0.2208,
+     "t_stat": -2.02,
+     "max_dd_pct": 19.07,
+     "win_rate": 30.0,
+     "avg_hold_h": 3.4
+    },
+    "sideways": {
+     "trades": 13,
+     "net_pct": -5.67,
+     "pf": 0.144,
+     "expectancy": -0.8949,
+     "t_stat": -3.76,
+     "max_dd_pct": 5.67,
+     "win_rate": 7.7,
+     "avg_hold_h": 5.3
+    }
+   }
+  },
+  "15m_M1_BB_SQUEEZE_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 274,
+     "net_pct": -23.22,
+     "pf": 0.725,
+     "expectancy": -0.1864,
+     "t_stat": -1.91,
+     "max_dd_pct": 23.22,
+     "win_rate": 24.1,
+     "avg_hold_h": 3.8
+    },
+    "mid": {
+     "trades": 274,
+     "net_pct": -31.05,
+     "pf": 0.641,
+     "expectancy": -0.2647,
+     "t_stat": -2.71,
+     "max_dd_pct": 31.05,
+     "win_rate": 23.4,
+     "avg_hold_h": 3.8
+    },
+    "high": {
+     "trades": 274,
+     "net_pct": -42.36,
+     "pf": 0.529,
+     "expectancy": -0.3953,
+     "t_stat": -4.03,
+     "max_dd_pct": 42.36,
+     "win_rate": 20.8,
+     "avg_hold_h": 3.8
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 98,
+     "net_pct": -19.61,
+     "pf": 0.427,
+     "expectancy": -0.4406,
+     "t_stat": -3.31,
+     "max_dd_pct": 19.61,
+     "win_rate": 21.4,
+     "avg_hold_h": 3.4
+    },
+    "bear": {
+     "trades": 161,
+     "net_pct": -8.81,
+     "pf": 0.846,
+     "expectancy": -0.1065,
+     "t_stat": -0.75,
+     "max_dd_pct": 11.24,
+     "win_rate": 25.5,
+     "avg_hold_h": 4.1
+    },
+    "sideways": {
+     "trades": 15,
+     "net_pct": -5.95,
+     "pf": 0.174,
+     "expectancy": -0.8139,
+     "t_stat": -3.63,
+     "max_dd_pct": 5.95,
+     "win_rate": 13.3,
+     "avg_hold_h": 3.6
+    }
+   }
+  },
+  "15m_M2_DONCHIAN20_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 462,
+     "net_pct": -30.29,
+     "pf": 0.794,
+     "expectancy": -0.1515,
+     "t_stat": -2.37,
+     "max_dd_pct": 33.84,
+     "win_rate": 29.9,
+     "avg_hold_h": 5.0
+    },
+    "mid": {
+     "trades": 462,
+     "net_pct": -40.9,
+     "pf": 0.716,
+     "expectancy": -0.2228,
+     "t_stat": -3.49,
+     "max_dd_pct": 43.3,
+     "win_rate": 29.9,
+     "avg_hold_h": 5.0
+    },
+    "high": {
+     "trades": 462,
+     "net_pct": -55.12,
+     "pf": 0.605,
+     "expectancy": -0.3418,
+     "t_stat": -5.34,
+     "max_dd_pct": 56.26,
+     "win_rate": 29.9,
+     "avg_hold_h": 5.0
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 202,
+     "net_pct": -19.83,
+     "pf": 0.727,
+     "expectancy": -0.2139,
+     "t_stat": -2.19,
+     "max_dd_pct": 23.08,
+     "win_rate": 30.7,
+     "avg_hold_h": 4.8
+    },
+    "bear": {
+     "trades": 234,
+     "net_pct": -24.66,
+     "pf": 0.698,
+     "expectancy": -0.2372,
+     "t_stat": -2.66,
+     "max_dd_pct": 27.74,
+     "win_rate": 29.1,
+     "avg_hold_h": 5.1
+    },
+    "sideways": {
+     "trades": 26,
+     "net_pct": -2.15,
+     "pf": 0.783,
+     "expectancy": -0.1627,
+     "t_stat": -0.59,
+     "max_dd_pct": 2.15,
+     "win_rate": 30.8,
+     "avg_hold_h": 4.6
+    }
+   }
+  },
+  "15m_M2_DONCHIAN20_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 458,
+     "net_pct": -10.9,
+     "pf": 0.942,
+     "expectancy": -0.0358,
+     "t_stat": -0.3,
+     "max_dd_pct": 33.62,
+     "win_rate": 27.3,
+     "avg_hold_h": 4.5
+    },
+    "mid": {
+     "trades": 458,
+     "net_pct": -25.41,
+     "pf": 0.831,
+     "expectancy": -0.1134,
+     "t_stat": -0.97,
+     "max_dd_pct": 42.13,
+     "win_rate": 26.6,
+     "avg_hold_h": 4.5
+    },
+    "high": {
+     "trades": 458,
+     "net_pct": -44.55,
+     "pf": 0.683,
+     "expectancy": -0.2428,
+     "t_stat": -2.07,
+     "max_dd_pct": 53.98,
+     "win_rate": 25.1,
+     "avg_hold_h": 4.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 198,
+     "net_pct": -7.31,
+     "pf": 0.895,
+     "expectancy": -0.0687,
+     "t_stat": -0.53,
+     "max_dd_pct": 17.29,
+     "win_rate": 29.3,
+     "avg_hold_h": 4.4
+    },
+    "bear": {
+     "trades": 236,
+     "net_pct": -16.76,
+     "pf": 0.807,
+     "expectancy": -0.1341,
+     "t_stat": -0.67,
+     "max_dd_pct": 33.03,
+     "win_rate": 23.7,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 24,
+     "net_pct": -3.33,
+     "pf": 0.512,
+     "expectancy": -0.2794,
+     "t_stat": -1.4,
+     "max_dd_pct": 3.54,
+     "win_rate": 33.3,
+     "avg_hold_h": 5.1
+    }
+   }
+  },
+  "15m_M2_DONCHIAN20_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 512,
+     "net_pct": -9.88,
+     "pf": 0.949,
+     "expectancy": -0.0356,
+     "t_stat": -0.57,
+     "max_dd_pct": 16.62,
+     "win_rate": 33.6,
+     "avg_hold_h": 4.7
+    },
+    "mid": {
+     "trades": 512,
+     "net_pct": -23.73,
+     "pf": 0.863,
+     "expectancy": -0.1008,
+     "t_stat": -1.61,
+     "max_dd_pct": 24.71,
+     "win_rate": 33.6,
+     "avg_hold_h": 4.7
+    },
+    "high": {
+     "trades": 512,
+     "net_pct": -42.26,
+     "pf": 0.741,
+     "expectancy": -0.2094,
+     "t_stat": -3.33,
+     "max_dd_pct": 42.71,
+     "win_rate": 33.6,
+     "avg_hold_h": 4.7
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 169,
+     "net_pct": -5.06,
+     "pf": 0.922,
+     "expectancy": -0.0562,
+     "t_stat": -0.51,
+     "max_dd_pct": 9.42,
+     "win_rate": 35.5,
+     "avg_hold_h": 5.5
+    },
+    "bear": {
+     "trades": 318,
+     "net_pct": -16.76,
+     "pf": 0.85,
+     "expectancy": -0.1104,
+     "t_stat": -1.39,
+     "max_dd_pct": 22.74,
+     "win_rate": 33.0,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 25,
+     "net_pct": -3.5,
+     "pf": 0.651,
+     "expectancy": -0.2801,
+     "t_stat": -1.02,
+     "max_dd_pct": 4.55,
+     "win_rate": 28.0,
+     "avg_hold_h": 3.4
+    }
+   }
+  },
+  "15m_M2_DONCHIAN20_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 502,
+     "net_pct": -18.76,
+     "pf": 0.879,
+     "expectancy": -0.0755,
+     "t_stat": -0.98,
+     "max_dd_pct": 22.92,
+     "win_rate": 28.5,
+     "avg_hold_h": 4.5
+    },
+    "mid": {
+     "trades": 502,
+     "net_pct": -31.94,
+     "pf": 0.784,
+     "expectancy": -0.146,
+     "t_stat": -1.9,
+     "max_dd_pct": 34.1,
+     "win_rate": 27.3,
+     "avg_hold_h": 4.5
+    },
+    "high": {
+     "trades": 502,
+     "net_pct": -49.34,
+     "pf": 0.654,
+     "expectancy": -0.2634,
+     "t_stat": -3.42,
+     "max_dd_pct": 50.9,
+     "win_rate": 24.3,
+     "avg_hold_h": 4.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 173,
+     "net_pct": -14.16,
+     "pf": 0.745,
+     "expectancy": -0.17,
+     "t_stat": -1.38,
+     "max_dd_pct": 15.58,
+     "win_rate": 28.3,
+     "avg_hold_h": 4.6
+    },
+    "bear": {
+     "trades": 304,
+     "net_pct": -16.62,
+     "pf": 0.833,
+     "expectancy": -0.1117,
+     "t_stat": -1.09,
+     "max_dd_pct": 20.25,
+     "win_rate": 27.3,
+     "avg_hold_h": 4.5
+    },
+    "sideways": {
+     "trades": 25,
+     "net_pct": -4.91,
+     "pf": 0.51,
+     "expectancy": -0.3959,
+     "t_stat": -1.2,
+     "max_dd_pct": 7.93,
+     "win_rate": 20.0,
+     "avg_hold_h": 3.5
+    }
+   }
+  },
+  "15m_M3_ATR_CONTRACT_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 134,
+     "net_pct": -5.2,
+     "pf": 0.896,
+     "expectancy": -0.0747,
+     "t_stat": -0.61,
+     "max_dd_pct": 9.27,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.3
+    },
+    "mid": {
+     "trades": 134,
+     "net_pct": -12.73,
+     "pf": 0.753,
+     "expectancy": -0.198,
+     "t_stat": -1.61,
+     "max_dd_pct": 14.17,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.3
+    },
+    "high": {
+     "trades": 134,
+     "net_pct": -23.97,
+     "pf": 0.57,
+     "expectancy": -0.4035,
+     "t_stat": -3.25,
+     "max_dd_pct": 24.62,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 62,
+     "net_pct": -9.43,
+     "pf": 0.636,
+     "expectancy": -0.3143,
+     "t_stat": -1.75,
+     "max_dd_pct": 10.54,
+     "win_rate": 30.6,
+     "avg_hold_h": 3.0
+    },
+    "bear": {
+     "trades": 67,
+     "net_pct": -5.24,
+     "pf": 0.798,
+     "expectancy": -0.1556,
+     "t_stat": -0.9,
+     "max_dd_pct": 7.85,
+     "win_rate": 34.3,
+     "avg_hold_h": 3.3
+    },
+    "sideways": {
+     "trades": 5,
+     "net_pct": 1.69,
+     "pf": 2.529,
+     "expectancy": 0.6751,
+     "t_stat": 0.93,
+     "max_dd_pct": 1.1,
+     "win_rate": 60.0,
+     "avg_hold_h": 5.9
+    }
+   }
+  },
+  "15m_M3_ATR_CONTRACT_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 139,
+     "net_pct": -4.81,
+     "pf": 0.932,
+     "expectancy": -0.0466,
+     "t_stat": -0.17,
+     "max_dd_pct": 18.66,
+     "win_rate": 25.2,
+     "avg_hold_h": 3.9
+    },
+    "mid": {
+     "trades": 139,
+     "net_pct": -12.66,
+     "pf": 0.782,
+     "expectancy": -0.1703,
+     "t_stat": -0.61,
+     "max_dd_pct": 23.92,
+     "win_rate": 24.5,
+     "avg_hold_h": 3.9
+    },
+    "high": {
+     "trades": 139,
+     "net_pct": -24.34,
+     "pf": 0.599,
+     "expectancy": -0.3764,
+     "t_stat": -1.35,
+     "max_dd_pct": 32.28,
+     "win_rate": 23.0,
+     "avg_hold_h": 3.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 62,
+     "net_pct": -13.68,
+     "pf": 0.465,
+     "expectancy": -0.4682,
+     "t_stat": -2.36,
+     "max_dd_pct": 14.27,
+     "win_rate": 19.4,
+     "avg_hold_h": 3.2
+    },
+    "bear": {
+     "trades": 70,
+     "net_pct": 1.62,
+     "pf": 1.122,
+     "expectancy": 0.0885,
+     "t_stat": 0.17,
+     "max_dd_pct": 14.21,
+     "win_rate": 27.1,
+     "avg_hold_h": 4.5
+    },
+    "sideways": {
+     "trades": 7,
+     "net_pct": -0.43,
+     "pf": 0.763,
+     "expectancy": -0.1196,
+     "t_stat": -0.29,
+     "max_dd_pct": 0.93,
+     "win_rate": 42.9,
+     "avg_hold_h": 4.1
+    }
+   }
+  },
+  "15m_M3_ATR_CONTRACT_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 178,
+     "net_pct": -9.34,
+     "pf": 0.855,
+     "expectancy": -0.1052,
+     "t_stat": -1.0,
+     "max_dd_pct": 11.91,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.5
+    },
+    "mid": {
+     "trades": 178,
+     "net_pct": -16.98,
+     "pf": 0.743,
+     "expectancy": -0.204,
+     "t_stat": -1.92,
+     "max_dd_pct": 18.64,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.5
+    },
+    "high": {
+     "trades": 178,
+     "net_pct": -28.32,
+     "pf": 0.595,
+     "expectancy": -0.3686,
+     "t_stat": -3.43,
+     "max_dd_pct": 28.78,
+     "win_rate": 32.0,
+     "avg_hold_h": 3.5
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 54,
+     "net_pct": -4.92,
+     "pf": 0.769,
+     "expectancy": -0.1819,
+     "t_stat": -0.94,
+     "max_dd_pct": 6.62,
+     "win_rate": 33.3,
+     "avg_hold_h": 2.7
+    },
+    "bear": {
+     "trades": 110,
+     "net_pct": -8.1,
+     "pf": 0.809,
+     "expectancy": -0.1483,
+     "t_stat": -1.08,
+     "max_dd_pct": 8.83,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.9
+    },
+    "sideways": {
+     "trades": 14,
+     "net_pct": -4.99,
+     "pf": 0.261,
+     "expectancy": -0.7267,
+     "t_stat": -2.54,
+     "max_dd_pct": 5.19,
+     "win_rate": 14.3,
+     "avg_hold_h": 3.8
+    }
+   }
+  },
+  "15m_M3_ATR_CONTRACT_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 177,
+     "net_pct": -12.32,
+     "pf": 0.78,
+     "expectancy": -0.1418,
+     "t_stat": -1.14,
+     "max_dd_pct": 14.75,
+     "win_rate": 28.2,
+     "avg_hold_h": 3.9
+    },
+    "mid": {
+     "trades": 177,
+     "net_pct": -19.93,
+     "pf": 0.662,
+     "expectancy": -0.2442,
+     "t_stat": -1.95,
+     "max_dd_pct": 19.93,
+     "win_rate": 26.0,
+     "avg_hold_h": 3.9
+    },
+    "high": {
+     "trades": 177,
+     "net_pct": -31.18,
+     "pf": 0.516,
+     "expectancy": -0.4148,
+     "t_stat": -3.27,
+     "max_dd_pct": 31.18,
+     "win_rate": 20.3,
+     "avg_hold_h": 3.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 53,
+     "net_pct": -9.4,
+     "pf": 0.5,
+     "expectancy": -0.3677,
+     "t_stat": -1.97,
+     "max_dd_pct": 9.4,
+     "win_rate": 26.4,
+     "avg_hold_h": 3.3
+    },
+    "bear": {
+     "trades": 107,
+     "net_pct": -4.18,
+     "pf": 0.895,
+     "expectancy": -0.0711,
+     "t_stat": -0.39,
+     "max_dd_pct": 9.97,
+     "win_rate": 29.0,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 17,
+     "net_pct": -7.77,
+     "pf": 0.018,
+     "expectancy": -0.9485,
+     "t_stat": -8.81,
+     "max_dd_pct": 7.77,
+     "win_rate": 5.9,
+     "avg_hold_h": 2.8
+    }
+   }
+  },
+  "15m_M4_DONCHIAN_VOL_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 357,
+     "net_pct": -24.03,
+     "pf": 0.796,
+     "expectancy": -0.1492,
+     "t_stat": -2.05,
+     "max_dd_pct": 26.55,
+     "win_rate": 30.0,
+     "avg_hold_h": 4.2
+    },
+    "mid": {
+     "trades": 357,
+     "net_pct": -33.28,
+     "pf": 0.717,
+     "expectancy": -0.2218,
+     "t_stat": -3.05,
+     "max_dd_pct": 34.91,
+     "win_rate": 30.0,
+     "avg_hold_h": 4.2
+    },
+    "high": {
+     "trades": 357,
+     "net_pct": -46.26,
+     "pf": 0.604,
+     "expectancy": -0.3429,
+     "t_stat": -4.71,
+     "max_dd_pct": 46.84,
+     "win_rate": 30.0,
+     "avg_hold_h": 4.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 148,
+     "net_pct": -17.15,
+     "pf": 0.688,
+     "expectancy": -0.2494,
+     "t_stat": -2.21,
+     "max_dd_pct": 19.18,
+     "win_rate": 29.7,
+     "avg_hold_h": 4.4
+    },
+    "bear": {
+     "trades": 192,
+     "net_pct": -20.43,
+     "pf": 0.702,
+     "expectancy": -0.2332,
+     "t_stat": -2.37,
+     "max_dd_pct": 24.16,
+     "win_rate": 29.2,
+     "avg_hold_h": 4.0
+    },
+    "sideways": {
+     "trades": 17,
+     "net_pct": 1.21,
+     "pf": 1.231,
+     "expectancy": 0.1465,
+     "t_stat": 0.4,
+     "max_dd_pct": 1.11,
+     "win_rate": 41.2,
+     "avg_hold_h": 4.5
+    }
+   }
+  },
+  "15m_M4_DONCHIAN_VOL_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 337,
+     "net_pct": -2.16,
+     "pf": 1.003,
+     "expectancy": 0.0018,
+     "t_stat": 0.01,
+     "max_dd_pct": 23.8,
+     "win_rate": 27.9,
+     "avg_hold_h": 4.2
+    },
+    "mid": {
+     "trades": 337,
+     "net_pct": -13.98,
+     "pf": 0.89,
+     "expectancy": -0.0746,
+     "t_stat": -0.55,
+     "max_dd_pct": 30.9,
+     "win_rate": 27.3,
+     "avg_hold_h": 4.2
+    },
+    "high": {
+     "trades": 337,
+     "net_pct": -30.59,
+     "pf": 0.737,
+     "expectancy": -0.2019,
+     "t_stat": -1.48,
+     "max_dd_pct": 41.3,
+     "win_rate": 25.8,
+     "avg_hold_h": 4.2
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 145,
+     "net_pct": -7.63,
+     "pf": 0.847,
+     "expectancy": -0.1023,
+     "t_stat": -0.72,
+     "max_dd_pct": 14.47,
+     "win_rate": 29.0,
+     "avg_hold_h": 4.1
+    },
+    "bear": {
+     "trades": 176,
+     "net_pct": -5.86,
+     "pf": 0.933,
+     "expectancy": -0.0466,
+     "t_stat": -0.2,
+     "max_dd_pct": 23.0,
+     "win_rate": 25.0,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 16,
+     "net_pct": -1.07,
+     "pf": 0.759,
+     "expectancy": -0.1321,
+     "t_stat": -0.48,
+     "max_dd_pct": 1.38,
+     "win_rate": 37.5,
+     "avg_hold_h": 4.5
+    }
+   }
+  },
+  "15m_M4_DONCHIAN_VOL_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 395,
+     "net_pct": -4.14,
+     "pf": 0.976,
+     "expectancy": -0.0164,
+     "t_stat": -0.23,
+     "max_dd_pct": 12.54,
+     "win_rate": 34.2,
+     "avg_hold_h": 4.3
+    },
+    "mid": {
+     "trades": 395,
+     "net_pct": -15.27,
+     "pf": 0.891,
+     "expectancy": -0.0789,
+     "t_stat": -1.1,
+     "max_dd_pct": 20.66,
+     "win_rate": 34.2,
+     "avg_hold_h": 4.3
+    },
+    "high": {
+     "trades": 395,
+     "net_pct": -31.04,
+     "pf": 0.769,
+     "expectancy": -0.1831,
+     "t_stat": -2.55,
+     "max_dd_pct": 33.63,
+     "win_rate": 34.2,
+     "avg_hold_h": 4.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 131,
+     "net_pct": -1.55,
+     "pf": 0.974,
+     "expectancy": -0.0187,
+     "t_stat": -0.15,
+     "max_dd_pct": 8.8,
+     "win_rate": 36.6,
+     "avg_hold_h": 4.3
+    },
+    "bear": {
+     "trades": 244,
+     "net_pct": -9.22,
+     "pf": 0.897,
+     "expectancy": -0.0743,
+     "t_stat": -0.82,
+     "max_dd_pct": 14.71,
+     "win_rate": 34.0,
+     "avg_hold_h": 4.5
+    },
+    "sideways": {
+     "trades": 20,
+     "net_pct": -5.2,
+     "pf": 0.415,
+     "expectancy": -0.5293,
+     "t_stat": -1.91,
+     "max_dd_pct": 5.4,
+     "win_rate": 20.0,
+     "avg_hold_h": 2.4
+    }
+   }
+  },
+  "15m_M4_DONCHIAN_VOL_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 381,
+     "net_pct": -10.39,
+     "pf": 0.921,
+     "expectancy": -0.0496,
+     "t_stat": -0.54,
+     "max_dd_pct": 17.26,
+     "win_rate": 28.9,
+     "avg_hold_h": 4.3
+    },
+    "mid": {
+     "trades": 381,
+     "net_pct": -20.88,
+     "pf": 0.83,
+     "expectancy": -0.115,
+     "t_stat": -1.25,
+     "max_dd_pct": 21.14,
+     "win_rate": 27.0,
+     "avg_hold_h": 4.3
+    },
+    "high": {
+     "trades": 381,
+     "net_pct": -35.73,
+     "pf": 0.704,
+     "expectancy": -0.224,
+     "t_stat": -2.43,
+     "max_dd_pct": 35.73,
+     "win_rate": 24.1,
+     "avg_hold_h": 4.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 127,
+     "net_pct": -8.69,
+     "pf": 0.806,
+     "expectancy": -0.1355,
+     "t_stat": -0.86,
+     "max_dd_pct": 10.92,
+     "win_rate": 26.0,
+     "avg_hold_h": 4.3
+    },
+    "bear": {
+     "trades": 235,
+     "net_pct": -6.29,
+     "pf": 0.927,
+     "expectancy": -0.0468,
+     "t_stat": -0.39,
+     "max_dd_pct": 15.34,
+     "win_rate": 28.9,
+     "avg_hold_h": 4.5
+    },
+    "sideways": {
+     "trades": 19,
+     "net_pct": -7.54,
+     "pf": 0.122,
+     "expectancy": -0.8224,
+     "t_stat": -5.03,
+     "max_dd_pct": 7.54,
+     "win_rate": 10.5,
+     "avg_hold_h": 3.0
+    }
+   }
+  },
+  "15m_M5_TREND_DC55_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 271,
+     "net_pct": -10.3,
+     "pf": 0.894,
+     "expectancy": -0.0753,
+     "t_stat": -0.88,
+     "max_dd_pct": 13.21,
+     "win_rate": 32.5,
+     "avg_hold_h": 4.6
+    },
+    "mid": {
+     "trades": 271,
+     "net_pct": -18.89,
+     "pf": 0.802,
+     "expectancy": -0.1495,
+     "t_stat": -1.75,
+     "max_dd_pct": 20.33,
+     "win_rate": 32.5,
+     "avg_hold_h": 4.6
+    },
+    "high": {
+     "trades": 271,
+     "net_pct": -31.42,
+     "pf": 0.674,
+     "expectancy": -0.2733,
+     "t_stat": -3.2,
+     "max_dd_pct": 31.57,
+     "win_rate": 32.5,
+     "avg_hold_h": 4.6
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 116,
+     "net_pct": -6.37,
+     "pf": 0.855,
+     "expectancy": -0.1083,
+     "t_stat": -0.81,
+     "max_dd_pct": 10.0,
+     "win_rate": 34.5,
+     "avg_hold_h": 4.6
+    },
+    "bear": {
+     "trades": 138,
+     "net_pct": -9.18,
+     "pf": 0.82,
+     "expectancy": -0.1345,
+     "t_stat": -1.12,
+     "max_dd_pct": 13.25,
+     "win_rate": 32.6,
+     "avg_hold_h": 4.8
+    },
+    "sideways": {
+     "trades": 17,
+     "net_pct": -4.62,
+     "pf": 0.376,
+     "expectancy": -0.5527,
+     "t_stat": -1.96,
+     "max_dd_pct": 4.62,
+     "win_rate": 17.6,
+     "avg_hold_h": 3.8
+    }
+   }
+  },
+  "15m_M5_TREND_DC55_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 244,
+     "net_pct": 15.97,
+     "pf": 1.245,
+     "expectancy": 0.1393,
+     "t_stat": 0.78,
+     "max_dd_pct": 10.14,
+     "win_rate": 33.6,
+     "avg_hold_h": 4.6
+    },
+    "mid": {
+     "trades": 244,
+     "net_pct": 5.44,
+     "pf": 1.099,
+     "expectancy": 0.0613,
+     "t_stat": 0.34,
+     "max_dd_pct": 15.74,
+     "win_rate": 31.6,
+     "avg_hold_h": 4.6
+    },
+    "high": {
+     "trades": 244,
+     "net_pct": -10.04,
+     "pf": 0.903,
+     "expectancy": -0.0688,
+     "t_stat": -0.39,
+     "max_dd_pct": 24.69,
+     "win_rate": 28.7,
+     "avg_hold_h": 4.6
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 105,
+     "net_pct": 3.99,
+     "pf": 1.139,
+     "expectancy": 0.0831,
+     "t_stat": 0.45,
+     "max_dd_pct": 7.62,
+     "win_rate": 34.3,
+     "avg_hold_h": 4.4
+    },
+    "bear": {
+     "trades": 124,
+     "net_pct": 7.05,
+     "pf": 1.223,
+     "expectancy": 0.1375,
+     "t_stat": 0.44,
+     "max_dd_pct": 11.82,
+     "win_rate": 30.6,
+     "avg_hold_h": 4.8
+    },
+    "sideways": {
+     "trades": 15,
+     "net_pct": -5.28,
+     "pf": 0.08,
+     "expectancy": -0.7217,
+     "t_stat": -4.93,
+     "max_dd_pct": 5.42,
+     "win_rate": 20.0,
+     "avg_hold_h": 3.1
+    }
+   }
+  },
+  "15m_M5_TREND_DC55_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 288,
+     "net_pct": -3.5,
+     "pf": 0.971,
+     "expectancy": -0.0197,
+     "t_stat": -0.23,
+     "max_dd_pct": 10.76,
+     "win_rate": 34.0,
+     "avg_hold_h": 4.7
+    },
+    "mid": {
+     "trades": 288,
+     "net_pct": -11.59,
+     "pf": 0.89,
+     "expectancy": -0.0804,
+     "t_stat": -0.95,
+     "max_dd_pct": 12.38,
+     "win_rate": 34.0,
+     "avg_hold_h": 4.7
+    },
+    "high": {
+     "trades": 288,
+     "net_pct": -23.6,
+     "pf": 0.772,
+     "expectancy": -0.1817,
+     "t_stat": -2.14,
+     "max_dd_pct": 24.19,
+     "win_rate": 34.0,
+     "avg_hold_h": 4.7
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 100,
+     "net_pct": -10.3,
+     "pf": 0.728,
+     "expectancy": -0.2125,
+     "t_stat": -1.53,
+     "max_dd_pct": 11.37,
+     "win_rate": 30.0,
+     "avg_hold_h": 5.8
+    },
+    "bear": {
+     "trades": 177,
+     "net_pct": -1.26,
+     "pf": 0.987,
+     "expectancy": -0.0091,
+     "t_stat": -0.08,
+     "max_dd_pct": 11.81,
+     "win_rate": 36.2,
+     "avg_hold_h": 4.2
+    },
+    "sideways": {
+     "trades": 11,
+     "net_pct": -0.18,
+     "pf": 0.963,
+     "expectancy": -0.0266,
+     "t_stat": -0.06,
+     "max_dd_pct": 2.41,
+     "win_rate": 36.4,
+     "avg_hold_h": 3.4
+    }
+   }
+  },
+  "15m_M5_TREND_DC55_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 271,
+     "net_pct": -8.78,
+     "pf": 0.907,
+     "expectancy": -0.0599,
+     "t_stat": -0.55,
+     "max_dd_pct": 15.37,
+     "win_rate": 27.3,
+     "avg_hold_h": 4.3
+    },
+    "mid": {
+     "trades": 271,
+     "net_pct": -16.39,
+     "pf": 0.821,
+     "expectancy": -0.1241,
+     "t_stat": -1.13,
+     "max_dd_pct": 19.04,
+     "win_rate": 26.6,
+     "avg_hold_h": 4.3
+    },
+    "high": {
+     "trades": 271,
+     "net_pct": -27.68,
+     "pf": 0.702,
+     "expectancy": -0.2311,
+     "t_stat": -2.11,
+     "max_dd_pct": 29.9,
+     "win_rate": 24.7,
+     "avg_hold_h": 4.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 97,
+     "net_pct": -15.7,
+     "pf": 0.542,
+     "expectancy": -0.3465,
+     "t_stat": -2.3,
+     "max_dd_pct": 15.7,
+     "win_rate": 21.6,
+     "avg_hold_h": 4.0
+    },
+    "bear": {
+     "trades": 164,
+     "net_pct": -1.37,
+     "pf": 0.988,
+     "expectancy": -0.0078,
+     "t_stat": -0.05,
+     "max_dd_pct": 8.7,
+     "win_rate": 29.3,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 10,
+     "net_pct": 0.57,
+     "pf": 1.191,
+     "expectancy": 0.1259,
+     "t_stat": 0.17,
+     "max_dd_pct": 2.71,
+     "win_rate": 30.0,
+     "avg_hold_h": 3.9
+    }
+   }
+  },
+  "15m_M6_SQUEEZE_VOL_LONG_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 149,
+     "net_pct": -4.07,
+     "pf": 0.928,
+     "expectancy": -0.0508,
+     "t_stat": -0.44,
+     "max_dd_pct": 8.54,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.6
+    },
+    "mid": {
+     "trades": 149,
+     "net_pct": -10.04,
+     "pf": 0.819,
+     "expectancy": -0.137,
+     "t_stat": -1.18,
+     "max_dd_pct": 11.31,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.6
+    },
+    "high": {
+     "trades": 149,
+     "net_pct": -19.18,
+     "pf": 0.669,
+     "expectancy": -0.2807,
+     "t_stat": -2.42,
+     "max_dd_pct": 19.89,
+     "win_rate": 33.6,
+     "avg_hold_h": 3.6
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 65,
+     "net_pct": -3.68,
+     "pf": 0.854,
+     "expectancy": -0.1101,
+     "t_stat": -0.61,
+     "max_dd_pct": 8.81,
+     "win_rate": 35.4,
+     "avg_hold_h": 3.5
+    },
+    "bear": {
+     "trades": 78,
+     "net_pct": -9.04,
+     "pf": 0.697,
+     "expectancy": -0.2383,
+     "t_stat": -1.54,
+     "max_dd_pct": 10.33,
+     "win_rate": 29.5,
+     "avg_hold_h": 3.7
+    },
+    "sideways": {
+     "trades": 6,
+     "net_pct": 2.68,
+     "pf": 3.411,
+     "expectancy": 0.8887,
+     "t_stat": 1.41,
+     "max_dd_pct": 0.56,
+     "win_rate": 66.7,
+     "avg_hold_h": 4.7
+    }
+   }
+  },
+  "15m_M6_SQUEEZE_VOL_LONG_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 155,
+     "net_pct": -5.1,
+     "pf": 0.905,
+     "expectancy": -0.0603,
+     "t_stat": -0.44,
+     "max_dd_pct": 9.46,
+     "win_rate": 29.7,
+     "avg_hold_h": 4.0
+    },
+    "mid": {
+     "trades": 155,
+     "net_pct": -11.34,
+     "pf": 0.787,
+     "expectancy": -0.148,
+     "t_stat": -1.07,
+     "max_dd_pct": 12.81,
+     "win_rate": 28.4,
+     "avg_hold_h": 4.0
+    },
+    "high": {
+     "trades": 155,
+     "net_pct": -20.84,
+     "pf": 0.631,
+     "expectancy": -0.2941,
+     "t_stat": -2.13,
+     "max_dd_pct": 21.45,
+     "win_rate": 27.1,
+     "avg_hold_h": 4.0
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 69,
+     "net_pct": -7.08,
+     "pf": 0.715,
+     "expectancy": -0.2069,
+     "t_stat": -1.11,
+     "max_dd_pct": 8.55,
+     "win_rate": 27.5,
+     "avg_hold_h": 3.4
+    },
+    "bear": {
+     "trades": 79,
+     "net_pct": -8.23,
+     "pf": 0.693,
+     "expectancy": -0.2103,
+     "t_stat": -1.1,
+     "max_dd_pct": 11.04,
+     "win_rate": 26.6,
+     "avg_hold_h": 4.4
+    },
+    "sideways": {
+     "trades": 7,
+     "net_pct": 3.98,
+     "pf": 3.538,
+     "expectancy": 1.137,
+     "t_stat": 1.01,
+     "max_dd_pct": 0.63,
+     "win_rate": 57.1,
+     "avg_hold_h": 5.0
+    }
+   }
+  },
+  "15m_M6_SQUEEZE_VOL_SHORT_FIXED": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 172,
+     "net_pct": -9.11,
+     "pf": 0.852,
+     "expectancy": -0.1062,
+     "t_stat": -1.0,
+     "max_dd_pct": 9.89,
+     "win_rate": 31.4,
+     "avg_hold_h": 3.3
+    },
+    "mid": {
+     "trades": 172,
+     "net_pct": -14.58,
+     "pf": 0.768,
+     "expectancy": -0.1783,
+     "t_stat": -1.67,
+     "max_dd_pct": 14.58,
+     "win_rate": 31.4,
+     "avg_hold_h": 3.3
+    },
+    "high": {
+     "trades": 172,
+     "net_pct": -22.98,
+     "pf": 0.65,
+     "expectancy": -0.2985,
+     "t_stat": -2.77,
+     "max_dd_pct": 22.98,
+     "win_rate": 31.4,
+     "avg_hold_h": 3.3
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 52,
+     "net_pct": -4.12,
+     "pf": 0.795,
+     "expectancy": -0.1568,
+     "t_stat": -0.8,
+     "max_dd_pct": 6.52,
+     "win_rate": 32.7,
+     "avg_hold_h": 2.9
+    },
+    "bear": {
+     "trades": 109,
+     "net_pct": -6.55,
+     "pf": 0.84,
+     "expectancy": -0.1192,
+     "t_stat": -0.88,
+     "max_dd_pct": 8.63,
+     "win_rate": 33.0,
+     "avg_hold_h": 3.4
+    },
+    "sideways": {
+     "trades": 11,
+     "net_pct": -4.67,
+     "pf": 0.17,
+     "expectancy": -0.8655,
+     "t_stat": -3.06,
+     "max_dd_pct": 4.67,
+     "win_rate": 9.1,
+     "avg_hold_h": 4.9
+    }
+   }
+  },
+  "15m_M6_SQUEEZE_VOL_SHORT_TRAIL": {
+   "eligible": false,
+   "passed_holdout": false,
+   "metrics": {
+    "low": {
+     "trades": 178,
+     "net_pct": -7.62,
+     "pf": 0.879,
+     "expectancy": -0.0811,
+     "t_stat": -0.6,
+     "max_dd_pct": 12.62,
+     "win_rate": 24.7,
+     "avg_hold_h": 3.9
+    },
+    "mid": {
+     "trades": 178,
+     "net_pct": -13.4,
+     "pf": 0.789,
+     "expectancy": -0.1536,
+     "t_stat": -1.14,
+     "max_dd_pct": 16.16,
+     "win_rate": 23.6,
+     "avg_hold_h": 3.9
+    },
+    "high": {
+     "trades": 178,
+     "net_pct": -22.24,
+     "pf": 0.666,
+     "expectancy": -0.2745,
+     "t_stat": -2.03,
+     "max_dd_pct": 23.12,
+     "win_rate": 23.0,
+     "avg_hold_h": 3.9
+    }
+   },
+   "regimes_mid": {
+    "bull": {
+     "trades": 54,
+     "net_pct": -6.34,
+     "pf": 0.68,
+     "expectancy": -0.2361,
+     "t_stat": -1.09,
+     "max_dd_pct": 10.37,
+     "win_rate": 24.1,
+     "avg_hold_h": 3.6
+    },
+    "bear": {
+     "trades": 111,
+     "net_pct": -2.17,
+     "pf": 0.956,
+     "expectancy": -0.0302,
+     "t_stat": -0.16,
+     "max_dd_pct": 10.32,
+     "win_rate": 25.2,
+     "avg_hold_h": 4.2
+    },
+    "sideways": {
+     "trades": 13,
+     "net_pct": -5.49,
+     "pf": 0.129,
+     "expectancy": -0.8653,
+     "t_stat": -3.85,
+     "max_dd_pct": 5.49,
+     "win_rate": 7.7,
+     "avg_hold_h": 3.1
+    }
+   }
+  }
+ },
+ "buy_and_hold": {
+  "ret_pct": -29.19,
+  "max_dd_pct": 52.97
+ },
+ "audit": {
+  "htf_closed": [
+   19142,
+   19142
+  ],
+  "daily_closed": [
+   8486,
+   8486
+  ],
+  "entry_after_signal": [
+   8486,
+   8486
+  ]
+ }
+}

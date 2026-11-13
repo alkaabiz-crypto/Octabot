@@ -1,0 +1,29 @@
+{
+ "updated_utc": "2026-11-13 01:07",
+ "last_closed_1h_candle_close_utc": "2026-11-13 01:00",
+ "forward_days": 3.8,
+ "completed_trades": 0,
+ "target_trades": 40,
+ "signals_total": 1,
+ "accepted": 0,
+ "rejected": 1,
+ "equity_usd_mid": 2722.94,
+ "return_pct_mid": 0.0,
+ "max_drawdown_pct_mid": 0.0,
+ "stats_gross": {
+  "trades": 0
+ },
+ "stats_net": {
+  "low": {
+   "trades": 0
+  },
+  "mid": {
+   "trades": 0
+  },
+  "high": {
+   "trades": 0
+  }
+ },
+ "open_position": null,
+ "fingerprint": "e311cd66ea38034fd64149c1905043d3ebe7406ee93facf59f3b284bf856b7b4"
+}
