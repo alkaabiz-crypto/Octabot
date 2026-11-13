@@ -31,7 +31,14 @@
 | Confirmatory forward tests (H1–H4 × BTC, ETH) | 8 |
 | Development (exploratory) evaluations of the same 8 | 8, which do not add confirmatory tests |
 
-**Programme total ≈ 110,000 tests.** Development or historical results are corrected against this total. Confirmatory forward tests are corrected within their pre-registered family (Holm across the 8).
+## Batch 3 (this branch, `research/batch3/PREREGISTRATION.md`)
+
+| Item | Tests |
+|---|---|
+| Search on 2025: indicators, strategies, theories, mixes × 7 markets × 3 TF × 3 exits | 238,728 |
+| Confirmation on 2026 (shortlist) | 90 (0 passed) |
+
+**Programme total ≈ 350,000 tests.** (It was ≈ 110,000 before Batch 3.) Development or historical results are corrected against this total. Confirmatory forward tests are corrected within their pre-registered family (Holm across the 8).
 
 ## Forward-test family (programme-wide correction)
 
