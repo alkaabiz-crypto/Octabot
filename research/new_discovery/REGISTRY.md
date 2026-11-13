@@ -68,3 +68,19 @@ Every experiment, including failures, is listed. Full fields are in `REGISTRY.cs
 | E009-US500m | 002 | Pre-holiday effect, close to close | US500m | 1d | 1 | 7.3362 / 14.0144 / 3.4976 | 13 | 0.5275 | False | WATCH | positive in all periods but not significant after correction; too few TEST trades |
 | E009-USTECm | 002 | Pre-holiday effect, close to close | USTECm | 1d | 1 | 13.0521 / 18.6289 / 9.0397 | 12 | 0.4965 | False | WATCH | positive in all periods but not significant after correction; too few TEST trades |
 | E009-DE30m | 002 | Pre-holiday effect, close to close | DE30m | 1d | 1 | 2.9679 / -42.1854 / 47.974 | 5 | 0.1109 | False | REJECT | not positive in every period |
+| B003-H1-R1-XAUUSDm | 003 | Round-number rejection fade (Osler) | XAUUSDm | 15m | 1 | -2.4454 / -1.4848 / -1.4958 | 2019 | 0.705 | False | REJECT | not positive in every period |
+| B003-H1-R2-XAUUSDm | 003 | Round-number crossing follow (Osler) | XAUUSDm | 15m | 1 | -1.2883 / -0.6035 / -0.0269 | 2798 | 0.052 | False | REJECT | not positive in every period |
+| B003-H1-R1-USOILm | 003 | Round-number rejection fade (Osler) | USOILm | 15m | 1 | -7.4821 / -8.4051 / -0.9065 | 872 | 0.009 | False | REJECT | not positive in every period |
+| B003-H1-R2-USOILm | 003 | Round-number crossing follow (Osler) | USOILm | 15m | 1 | -10.1293 / -3.9398 / -11.4088 | 1460 | 0.996 | False | REJECT | not positive in every period |
+| B003-H1-R1-EURUSDm | 003 | Round-number rejection fade (Osler) | EURUSDm | 15m | 1 | -0.6466 / -2.0226 / -0.0962 | 179 | 0.018 | False | REJECT | not positive in every period |
+| B003-H1-R2-EURUSDm | 003 | Round-number crossing follow (Osler) | EURUSDm | 15m | 1 | -0.6801 / -3.3294 / -1.3994 | 360 | 0.58 | False | REJECT | not positive in every period |
+| B003-H1-R1-USDJPYm | 003 | Round-number rejection fade (Osler) | USDJPYm | 15m | 1 | -2.5672 / -1.2373 / -2.1843 | 296 | 0.946 | False | REJECT | not positive in every period |
+| B003-H1-R2-USDJPYm | 003 | Round-number crossing follow (Osler) | USDJPYm | 15m | 1 | -0.8296 / -2.3149 / -1.1354 | 575 | 0.36 | False | REJECT | not positive in every period |
+| B003-H1-R1-US500m | 003 | Round-number rejection fade (Osler) | US500m | 15m | 1 | -3.5646 / -1.9324 / -2.5415 | 448 | 0.914 | False | REJECT | not positive in every period |
+| B003-H1-R2-US500m | 003 | Round-number crossing follow (Osler) | US500m | 15m | 1 | -2.715 / -2.983 / -1.5017 | 883 | 0.536 | False | REJECT | not positive in every period |
+| B003-H1-R1-BTCUSDm | 003 | Round-number rejection fade (Osler) | BTCUSDm | 15m | 1 | -14.4051 / -5.6644 / -6.8507 | 1128 | 0.862 | False | REJECT | not positive in every period |
+| B003-H1-R2-BTCUSDm | 003 | Round-number crossing follow (Osler) | BTCUSDm | 15m | 1 | -14.3044 / -9.0661 / -6.3108 | 1905 | 0.825 | False | REJECT | not positive in every period |
+| B003-H2-XAUUSDm | 003 | London metal fix short (gold PM 15:00, silver 12:00) | XAUUSDm | 15m | 1 | -1.7764 / -0.5434 / 0.4779 | 352 | 0.138 | False | REJECT | not positive in every period |
+| B003-H2-XAGUSDm | 003 | London metal fix short (gold PM 15:00, silver 12:00) | XAGUSDm | 15m | 1 | -21.7517 / -20.0131 / -11.3006 | 353 | 0.396 | False | REJECT | not positive in every period |
+| B003-H3-BTCUSDm | 003 | BTC CME weekend gap fill (popular theory) | BTCUSDm | 15m | 1 | -83.2609 / -61.6743 / -49.3198 | 29 | 0.8422 | False | REJECT | not positive in every period |
+| B003-H4-BTCUSDm | 003 | Coinbase premium z >= 2 -> follow 24 h | BTCUSDm | 1h signal / 15m execution | 1 | 5.6454 / 41.0932 / 37.2128 | 135 | 0.011 | False | WATCH | positive in every period incl. EARLY but not significant after BH |
