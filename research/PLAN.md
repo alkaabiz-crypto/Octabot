@@ -47,3 +47,25 @@ The categories are different concepts, so each is defined, tested and judged dif
 
 1. **Signals (most valuable):** screenshot a SignalPro signal **the moment it appears** ("Trade Active, 0/3"), with the clock visible. Without those, the signal category cannot reach a verdict.
 2. **New ideas:** send any indicator, strategy, theory or signal source. I will give it a number in the right category and test it with that category's method.
+
+## Progress and work queue (updated 2026-11-13)
+
+**Done.**
+- **G1:** the register is complete (`CANDIDATES.md`).
+- **G2, first batch:** IND batch 001 tested 17 indicators.
+  - **16 NONE.**
+  - IND-001 Coinbase premium **WEAK**.
+  - IND-018 HAR volatility forecast **INFORMATIVE**.
+  - An exploratory contrarian pattern at 1 h was registered as THE-017.
+
+**Next, in order.** Each is pre-registered before it runs.
+
+| # | Category | Candidate | Action |
+|---|---|---|---|
+| 1 | SIG | SIG-001/002 | Score SP-032 to SP-035 on Exness prices (scheduled 2026-11-14 02:41 UTC); keep collecting **prospective** screenshots |
+| 2 | STR | STR-023 VWAP momentum BUY (BTC, replicated on ETH) | It has never been forward-tested: pre-register a forward paper test on Binance prices with realistic fees, judged by rule V2 |
+| 3 | THE | THE-017 short-horizon reversal | Event study with a matched null, replication across markets and eras, then a cost check |
+| 4 | THE | THE-005 round numbers | Event study of the effect size (reversal probability at round levels against random levels), as the theory protocol requires; only the trading P&L has been tested so far |
+| 5 | THE | THE-001 to THE-016 | Restate each verdict in event-study terms where the original test was a P&L test |
+| 6 | IND | IND-019 HMM, IND-021 group | Information test, IND batch 002 |
+| 7 | STR | from INFORMATIVE / SUPPORTED results | At most 3 new pre-registered strategy candidates (G6) |
