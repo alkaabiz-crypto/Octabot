@@ -41,3 +41,13 @@ The repository was public before this manifest, and it already contains derived 
 - Exness 15-minute candle files committed by earlier studies (for example `oil_rsi_vwap/data/`, `gold_rsi_vwap/data/`, `community_indicators/data/`).
 
 They are left unchanged, because the research is frozen. The user may wish to make the repository private.
+
+## Archived (2026-11-13), verified
+
+- **Where:** the private repository `alkaabiz-crypto/octabot-data-archive-` (private; created by the user), folder `exness_adp_2026-11-12/`, commit `cb7b2a6`.
+- **What:** `exness_adp_archive_2026-11-12.tar.gz` (29,860,289 bytes, SHA-256 `a83f6c5804defa2974f74d232ba454b60b72d0c9db60f3f1edf6d6152ab00ff0`), a copy of `adp_data_manifest.csv`, `SHA256SUMS` and `verify.py`.
+- **Verification:**
+  - after pushing, the repository was cloned fresh from GitHub into an empty folder;
+  - `sha256sum -c` passed;
+  - `verify.py` unpacked the archive and found **388 of 388** files matching the manifest (0 mismatched, 0 missing, 0 extra).
+- **Not archived:** the three public calendar datasets (Kaggle ×2, Hugging Face). They are identified by SHA-256 in the manifest and can be re-downloaded.
