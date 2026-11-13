@@ -11,7 +11,7 @@ Every idea has a **permanent number** in one of the four categories. Each catego
 
 ## Indicators (IND): a measurement. Does it carry information about future moves?
 
-IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-003 to IND-018 and IND-020. Still PENDING: IND-002 (covered by THE-009), IND-019 and IND-021.
+IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-003 to IND-018 and IND-020. IND batch 002 tested IND-019 and IND-022 to IND-034 (all NONE). Still PENDING: IND-002 (covered by THE-009) and the rest of the IND-021 group.
 
 | ID | Candidate | Evidence so far (as part of strategies) | Indicator verdict |
 |---|---|---|---|
@@ -33,9 +33,22 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | IND-016 | Williams %R | Library B6: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
 | IND-017 | Williams Vix Fix | Community round 2: passed 2025–26 on BTC, then failed on new data | NONE (IND batch 001) |
 | IND-018 | HAR realised-volatility forecast | Batch 002 E006: better than EWMA on 6 markets (WATCH as a forecast) | **INFORMATIVE** (IND batch 001: predicts next-day volatility, 5/5 markets) |
-| IND-019 | Two-state HMM regime probability | Batch 002 E007: WATCH on USD/JPY only | PENDING |
+| IND-019 | Two-state HMM regime probability | Batch 002 E007: WATCH on USD/JPY only | NONE (IND batch 002) |
 | IND-020 | 20-day momentum (time-series) | Library A11, batch 001 D002: failed | NONE (IND batch 001) |
 | IND-021 | Other TradingView built-ins and community scripts (about 2,950 variants: Aroon, Vortex, TRIX, KAMA, Alligator, Hull, Keltner, Chandelier, Waddah Attar, …) | `multi_market`, `long_history`, `tradingview_*`, `community_indicators*`: 0 survivors as rules | PENDING (group) |
+| IND-022 | Aroon oscillator (25) | from the IND-021 group | NONE (IND batch 002) |
+| IND-023 | Vortex (14) | from the IND-021 group | NONE (IND batch 002) |
+| IND-024 | TRIX (15) | from the IND-021 group | NONE (IND batch 002) |
+| IND-025 | KAMA slope | from the IND-021 group | NONE (IND batch 002) |
+| IND-026 | Williams Alligator | from the IND-021 group | NONE (IND batch 002) |
+| IND-027 | Hull MA (55) slope | from the IND-021 group | NONE (IND batch 002) |
+| IND-028 | Keltner position | from the IND-021 group | NONE (IND batch 002) |
+| IND-029 | Heikin-Ashi colour run | from the IND-021 group | NONE (IND batch 002) |
+| IND-030 | Awesome Oscillator | from the IND-021 group | NONE (IND batch 002) |
+| IND-031 | Ultimate Oscillator | from the IND-021 group | NONE (IND batch 002) |
+| IND-032 | Rate of change (12) | from the IND-021 group | NONE (IND batch 002) |
+| IND-033 | Fisher transform (10) | from the IND-021 group | NONE (IND batch 002) |
+| IND-034 | Elder ray (13) | from the IND-021 group | NONE (IND batch 002) |
 
 ## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
 
@@ -71,9 +84,9 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 
 | ID | Candidate | Verdict | Where |
 |---|---|---|---|
-| THE-001 | Theory #2: previous-day range zones + 15m signal candle (user) | **NOT SUPPORTED** (0 / 60) | other branch, `zone_reversal_study` |
-| THE-002 | Theory #2b: same-day opening-range zones (user) | **NOT SUPPORTED** (0 / 60; all negative) | `new_discovery/user_theories_001/` |
-| THE-003 | "John Wick": wick rejection predicts reversal (user) | **NOT SUPPORTED** (0 / 19 new timeframes; 1h 0 / 7) | same |
+| THE-001 | Theory #2: previous-day range zones + 15m signal candle (user) | **PARTLY SUPPORTED** in the event study (S&P 500 only: +1.26 bp per signal over 4 h, below costs; P&L rules lost) / other markets NOT SUPPORTED | other branch, `zone_reversal_study`, `new_discovery/the_event_001/` |
+| THE-002 | Theory #2b: same-day opening-range zones (user) | **DECAYED** in the event study (S&P 500 2023–24 only); P&L 0 / 60 | `new_discovery/user_theories_001/`, `new_discovery/the_event_001/` |
+| THE-003 | "John Wick": wick rejection predicts reversal (user) | **NOT SUPPORTED** (event study and P&L) | same, `new_discovery/the_event_001/` |
 | THE-004 | BTC CME weekend gaps get filled | **NOT SUPPORTED** (−24 to −83 bp per trade in every period) | `new_discovery/batch_003/` |
 | THE-005 | Round numbers act as support and resistance (Osler) | **NOT SUPPORTED** (reversal: round levels reverse *less* often on BTC and gold) / **DECAYED** (acceleration after crossing: gold 2020–24 only). Trading rules also lost after costs. | `new_discovery/the_005/RESULTS.md` |
 | THE-006 | Gold and silver fall around the London fix | **DECAYED** (gold about 0; literature effect was pre-2015) | same |
@@ -85,8 +98,8 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | THE-012 | Scaling exposure by volatility improves risk-adjusted returns | **NOT SUPPORTED** | `new_discovery/batch_002/` |
 | THE-013 | Volatility has long memory (HAR beats EWMA) | **WATCH** (6 markets) | `new_discovery/batch_002/` |
 | THE-014 | The Coinbase premium measures US demand that leads BTC | **PARTLY SUPPORTED**: BTC positive in every period since 2017 against Binance USDT (2017–19 +80 bp, p < 0.001) **and** against OKX USDT (all 4 periods positive); **not** against Bitstamp USD; not on ETH (last 16 months). So it is a USD-vs-USDT demand signal. | `new_discovery/batch_003/` |
-| THE-015 | Calendar effects: turn of month, weekdays, overnight, weekend | **NOT SUPPORTED** | library, `hourly_time_signals/` |
-| THE-016 | ICT / SMC concepts: fair value gaps, order blocks, Judas swing, Silver Bullet, liquidity sweeps | **NOT SUPPORTED** (library D1–D4, F9–F12; FVG's apparent edge was look-ahead) | other branch, audited here |
+| THE-015 | Calendar effects: turn of month, weekdays, overnight, weekend | Turn of month **DECAYED** (gold and S&P earlier only); Monday effect **NOT SUPPORTED** (event study) | library, `hourly_time_signals/`, `new_discovery/the_event_001/` |
+| THE-016 | ICT / SMC concepts: fair value gaps, order blocks, Judas swing, Silver Bullet, liquidity sweeps | FVG fill **DECAYED** (BTC slightly above chance in every period, significant only 2020–22); other ICT/SMC P&L NOT SUPPORTED | other branch, audited here, `new_discovery/the_event_001/` |
 | THE-017 | Short-horizon reversal: overbought/oversold readings (RSI, Williams %R, Donchian, Bollinger…) predict a small opposite move over the next hour (BTC, EUR/USD) | **NOT SUPPORTED** (event study 2026-11-13: TEST effect wrong-signed on BTC, not significant on EUR/USD, 0/6 replications; ≤ 0.3 bp per event vs 1–12 bp costs) | `new_discovery/the_017/RESULTS.md` |
 
 ## Signals (SIG): someone else's calls. Profitable, and are the reported results accurate?
