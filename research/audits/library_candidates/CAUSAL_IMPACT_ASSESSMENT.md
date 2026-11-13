@@ -472,3 +472,26 @@ At your request to continue the recommended tasks, the other session's `research
 - places no limit, stop or pending orders.
 
 The hypotheses H1–H4 decide on closed data: funding, basis at Monday 00:00 (futures close of the bar ending at the decision), aggressor z-score and DVOL. **Batch 2 is not exposed to the pending-order selection bug.** Its other properties (data revisions, costs) were not audited here.
+
+## Addendum B (2026-11-13): same-candle ambiguity skips, measured
+
+**Script:** `causal_impact/ambiguity_audit.py` → `causal_impact/results/ambiguity_audit.json`. It re-traces the frozen logic; the frozen files are not modified.
+- [FACT] The re-trace reproduces the frozen trade counts, for example C3 gold 1h 658 and C4 gold 1d 38.
+- Each skipped setup was resolved with Exness 1-minute bars (which level traded first inside the candle). It was then managed with the frozen `engine.manage`.
+- BTC and ETH have no 1-minute data in the library, so their skips are counted but not resolved.
+
+[CALC] Results, 2× costs:
+
+| Rule | Skips (taken trades) per market | Skipped trades' mean, if taken (bp) |
+|---|---|---|
+| C3 inside bar, 1h | 18–31 (605–659); crypto 28–39 | gold −30.6, oil −81.1, DAX −41.0, S&P −23.7, Nasdaq −34.8 |
+| C3, 1d | 0–2 (21–31); crypto 2–4 | −96 to −276 (1–2 trades each) |
+| C4 NR7, 1d | 6–12 (30–39); crypto 16–22 | gold −124.8, oil −253.6, DAX −93.9, S&P −70.0, Nasdaq −90.4 |
+| A13 | 0 (232–424) | not applicable |
+| G2 | 0 days with an ambiguous candle (460–674 days) | not applicable |
+
+**Interpretation.**
+- [CALC] The skip rule is a second, smaller look-ahead. In every resolved case it **removed losing trades**: whipsaw candles, where a breakout entry would have been stopped out.
+- It flattered C3 and C4. For C4, a large share of its trades are affected.
+- **No verdict changes:** every affected combination already FAILED, and including the skipped trades only lowers the means.
+- [UNKNOWN] D1 (1-minute candles) and ORB (1-minute bars) cannot be resolved below one minute. Both failed.

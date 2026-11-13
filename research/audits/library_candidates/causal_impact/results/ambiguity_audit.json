@@ -1,0 +1,303 @@
+[
+ {
+  "rule": "C3",
+  "market": "XAUUSDm",
+  "tf": "1h",
+  "trades_taken": 658,
+  "ambiguous_skips": 30,
+  "resolved_by_1m": 30,
+  "skipped_mean_bp_2x": -30.64
+ },
+ {
+  "rule": "C3",
+  "market": "XAUUSDm",
+  "tf": "1d",
+  "trades_taken": 31,
+  "ambiguous_skips": 2,
+  "resolved_by_1m": 2,
+  "skipped_mean_bp_2x": -192.51
+ },
+ {
+  "rule": "C4",
+  "market": "XAUUSDm",
+  "tf": "1d",
+  "trades_taken": 38,
+  "ambiguous_skips": 12,
+  "resolved_by_1m": 12,
+  "skipped_mean_bp_2x": -124.79
+ },
+ {
+  "rule": "A13",
+  "market": "XAUUSDm",
+  "tf": "1h",
+  "trades_taken": 244,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "XAUUSDm",
+  "tf": "1h",
+  "days": 469,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "USOILm",
+  "tf": "1h",
+  "trades_taken": 659,
+  "ambiguous_skips": 31,
+  "resolved_by_1m": 31,
+  "skipped_mean_bp_2x": -81.13
+ },
+ {
+  "rule": "C3",
+  "market": "USOILm",
+  "tf": "1d",
+  "trades_taken": 31,
+  "ambiguous_skips": 1,
+  "resolved_by_1m": 1,
+  "skipped_mean_bp_2x": -275.64
+ },
+ {
+  "rule": "C4",
+  "market": "USOILm",
+  "tf": "1d",
+  "trades_taken": 32,
+  "ambiguous_skips": 12,
+  "resolved_by_1m": 12,
+  "skipped_mean_bp_2x": -253.63
+ },
+ {
+  "rule": "A13",
+  "market": "USOILm",
+  "tf": "1h",
+  "trades_taken": 238,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "USOILm",
+  "tf": "1h",
+  "days": 467,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "DE30m",
+  "tf": "1h",
+  "trades_taken": 606,
+  "ambiguous_skips": 27,
+  "resolved_by_1m": 26,
+  "skipped_mean_bp_2x": -41.03
+ },
+ {
+  "rule": "C3",
+  "market": "DE30m",
+  "tf": "1d",
+  "trades_taken": 21,
+  "ambiguous_skips": 2,
+  "resolved_by_1m": 2,
+  "skipped_mean_bp_2x": -96.07
+ },
+ {
+  "rule": "C4",
+  "market": "DE30m",
+  "tf": "1d",
+  "trades_taken": 39,
+  "ambiguous_skips": 6,
+  "resolved_by_1m": 6,
+  "skipped_mean_bp_2x": -93.91
+ },
+ {
+  "rule": "A13",
+  "market": "DE30m",
+  "tf": "1h",
+  "trades_taken": 236,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "DE30m",
+  "tf": "1h",
+  "days": 460,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "US500m",
+  "tf": "1h",
+  "trades_taken": 612,
+  "ambiguous_skips": 18,
+  "resolved_by_1m": 18,
+  "skipped_mean_bp_2x": -23.69
+ },
+ {
+  "rule": "C3",
+  "market": "US500m",
+  "tf": "1d",
+  "trades_taken": 23,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "C4",
+  "market": "US500m",
+  "tf": "1d",
+  "trades_taken": 30,
+  "ambiguous_skips": 9,
+  "resolved_by_1m": 9,
+  "skipped_mean_bp_2x": -69.99
+ },
+ {
+  "rule": "A13",
+  "market": "US500m",
+  "tf": "1h",
+  "trades_taken": 243,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "US500m",
+  "tf": "1h",
+  "days": 468,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "USTECm",
+  "tf": "1h",
+  "trades_taken": 605,
+  "ambiguous_skips": 24,
+  "resolved_by_1m": 24,
+  "skipped_mean_bp_2x": -34.8
+ },
+ {
+  "rule": "C3",
+  "market": "USTECm",
+  "tf": "1d",
+  "trades_taken": 26,
+  "ambiguous_skips": 2,
+  "resolved_by_1m": 2,
+  "skipped_mean_bp_2x": -119.93
+ },
+ {
+  "rule": "C4",
+  "market": "USTECm",
+  "tf": "1d",
+  "trades_taken": 31,
+  "ambiguous_skips": 12,
+  "resolved_by_1m": 12,
+  "skipped_mean_bp_2x": -90.36
+ },
+ {
+  "rule": "A13",
+  "market": "USTECm",
+  "tf": "1h",
+  "trades_taken": 232,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "USTECm",
+  "tf": "1h",
+  "days": 464,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "BTCUSDT",
+  "tf": "1h",
+  "trades_taken": 1020,
+  "ambiguous_skips": 39,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "C3",
+  "market": "BTCUSDT",
+  "tf": "1d",
+  "trades_taken": 50,
+  "ambiguous_skips": 4,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "C4",
+  "market": "BTCUSDT",
+  "tf": "1d",
+  "trades_taken": 62,
+  "ambiguous_skips": 22,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "A13",
+  "market": "BTCUSDT",
+  "tf": "1h",
+  "trades_taken": 424,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "BTCUSDT",
+  "tf": "1h",
+  "days": 674,
+  "days_with_an_ambiguous_candle": 0
+ },
+ {
+  "rule": "C3",
+  "market": "ETHUSDT",
+  "tf": "1h",
+  "trades_taken": 1062,
+  "ambiguous_skips": 28,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "C3",
+  "market": "ETHUSDT",
+  "tf": "1d",
+  "trades_taken": 42,
+  "ambiguous_skips": 2,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "C4",
+  "market": "ETHUSDT",
+  "tf": "1d",
+  "trades_taken": 57,
+  "ambiguous_skips": 16,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "A13",
+  "market": "ETHUSDT",
+  "tf": "1h",
+  "trades_taken": 423,
+  "ambiguous_skips": 0,
+  "resolved_by_1m": 0,
+  "skipped_mean_bp_2x": null
+ },
+ {
+  "rule": "G2",
+  "market": "ETHUSDT",
+  "tf": "1h",
+  "days": 674,
+  "days_with_an_ambiguous_candle": 0
+ }
+]
