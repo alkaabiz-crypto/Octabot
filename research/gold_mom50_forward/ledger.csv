@@ -1,2 +1,3 @@
 close_date,action,reason,close,sma20,sma20_5d_ago,close_50d_ago,atr14,entry_close,peak_close,days_held,fill_date,fill_price_open,cost_usd,oz_after,cash_after,equity_after,processed_utc
 2026-11-11,FLAT,,3979.1,4051.285,4073.975,4386.2,86.12,,,0,2026-11-12,3979.0,0.0,0.0,2722.94,2722.94,2026-11-12 00:10
+2026-11-12,FLAT,,3883.3,4037.56,4071.055,4478.2,90.575,,,0,2026-11-13,3883.2,0.0,0.0,2722.94,2722.94,2026-11-13 00:10
