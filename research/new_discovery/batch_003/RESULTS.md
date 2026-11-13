@@ -61,3 +61,38 @@ Pre-registered in `PREREG.md` (commit `f0fb5698`, before any code). TEST is reus
 - The same rule worked on ETH in 2023–mid 2025, and failed in the most recent 16 months. The BTC result held in that same period.
 - This weakens the case for H4 as a general "US demand" effect: it may be BTC-specific, regime-dependent, or partly luck.
 - H4 stays **WATCH**. Its forward paper test continues unchanged, and it is now the deciding evidence.
+
+## Pre-registered H4 checks (`H4_CHECKS_PREREG.md`, commit `0ffa6a90`; script `h4_checks.py`; output `results/h4_checks.json`)
+
+### Check A: untouched 2017-09 → 2019-12, Binance hourly prices, 0.10% per side. **CONFIRMED**
+
+| Trades | Mean net (bp) | At 2× fee | 95% CI (t) | Win % | p vs random | 2017 / 2018 / 2019 | Longs / shorts |
+|---|---|---|---|---|---|---|---|
+| 190 | **+80.3** | +60.3 | +11.6 … +149.0 | 53.2 | **< 0.001** (0 of 1,000) | +164 (33) / +33 (87) / +99 (70) | +116 (81) / +54 (109) |
+
+### Check B: Bitstamp (USD) instead of Binance (USDT) as the second venue, Exness execution. **NOT REPLICATED**
+
+| Period | Trades | Mean (bp) | Stress (bp) | p |
+|---|---|---|---|---|
+| EARLY 2020–22 | 418 | +2.68 | −6.54 | 0.173 |
+| TRAIN | 266 | −9.11 | −18.33 | 0.558 |
+| VALIDATION | 187 | +28.05 | +18.83 | 0.033 |
+| TEST | 244 | −18.28 | −27.50 | 0.823 |
+
+## What the H4 evidence now says
+
+| Evidence | Result |
+|---|---|
+| BTC, Coinbase vs Binance, 2017–2019 (never used) | **+80 bp**, p < 0.001 |
+| BTC, 2020–2022 (never used) | +34 bp, p 0.006 |
+| BTC, 2023 → mid-2024 | +6 bp, p 0.22 |
+| BTC, mid-2024 → mid-2025 | +41 bp, p 0.03 |
+| BTC, mid-2025 → now | +37 bp, p 0.011 |
+| ETH, same rule | +20 / +79 / **−8** bp: not replicated |
+| BTC, Coinbase vs Bitstamp (both USD) | mixed: not replicated |
+
+**Reading.**
+- [CALC] On BTC, the rule as defined (Coinbase USD against Binance USDT) has been positive in every period since 2017 across about 890 trades. Its 2017–2019 result is strong, but it shrinks over time and is thin after retail fees.
+- [HYP] The effect is **specific to the Coinbase-vs-Binance-USDT comparison**: it fails against another USD venue. It is therefore probably about **US-dollar demand against offshore USDT demand**, partly a USDT premium signal, rather than "Coinbase buying" alone.
+- It did not carry over to ETH in the last 16 months.
+- **Decision unchanged.** H4 remains WATCH by its batch rule, and the forward paper test decides. No rule or parameter was changed after any of these results.

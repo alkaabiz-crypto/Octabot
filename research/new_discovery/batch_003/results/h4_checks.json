@@ -1,0 +1,92 @@
+{
+ "check_a": {
+  "first_trade": "2017-09-16 11:00:00",
+  "trades": 190,
+  "mean_bp_primary": 80.31,
+  "mean_bp_2x_fee": 60.31,
+  "ci95_bp": [
+   11.6,
+   149.0
+  ],
+  "win_pct": 53.2,
+  "longs": 81,
+  "long_mean_bp": 116.29,
+  "short_mean_bp": 53.57,
+  "p_vs_benchmark": 0.0,
+  "by_year": {
+   "2017": {
+    "trades": 33,
+    "mean_bp": 164.41
+   },
+   "2018": {
+    "trades": 87,
+    "mean_bp": 33.44
+   },
+   "2019": {
+    "trades": 70,
+    "mean_bp": 98.9
+   }
+  },
+  "decision": "CONFIRMED"
+ },
+ "check_b": {
+  "EARLY": {
+   "trades": 418,
+   "mean_bp": 2.679617142578222,
+   "ci95_bp": [
+    -38.83798120839725,
+    44.1972154935537
+   ],
+   "win_pct": 47.84688995215311,
+   "profit_factor": 1.0187972615395153,
+   "max_drawdown_bp": 5384.880390495008,
+   "total_bp": 1120.0799655976969,
+   "mean_stress_bp": -6.539850355207623,
+   "p_vs_benchmark": 0.173
+  },
+  "TRAIN": {
+   "trades": 266,
+   "mean_bp": -9.114665196663774,
+   "ci95_bp": [
+    -42.92599296074123,
+    24.69666256741369
+   ],
+   "win_pct": 46.2406015037594,
+   "profit_factor": 0.9107863218257013,
+   "max_drawdown_bp": 4768.299879629496,
+   "total_bp": -2424.500942312564,
+   "mean_stress_bp": -18.329547367495874,
+   "p_vs_benchmark": 0.558
+  },
+  "VALIDATION": {
+   "trades": 187,
+   "mean_bp": 28.04594145744827,
+   "ci95_bp": [
+    -9.320246199833246,
+    65.41212911472978
+   ],
+   "win_pct": 53.475935828877006,
+   "profit_factor": 1.3442624742194025,
+   "max_drawdown_bp": 1216.0794016593604,
+   "total_bp": 5244.591052542826,
+   "mean_stress_bp": 18.83105928661617,
+   "p_vs_benchmark": 0.033
+  },
+  "TEST": {
+   "trades": 244,
+   "mean_bp": -18.277863958703765,
+   "ci95_bp": [
+    -45.92704790807376,
+    9.37131999066623
+   ],
+   "win_pct": 47.540983606557376,
+   "profit_factor": 0.7978411788796886,
+   "max_drawdown_bp": 6364.492398072714,
+   "total_bp": -4459.798805923719,
+   "mean_stress_bp": -27.495136839918374,
+   "p_vs_benchmark": 0.823
+  },
+  "decision": "NOT REPLICATED",
+  "corr_with_binance_premium_z": null
+ }
+}
