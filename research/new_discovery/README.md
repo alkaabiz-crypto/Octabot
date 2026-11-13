@@ -15,3 +15,7 @@ An independent research program for new strategies and indicators. It reads earl
 **Promotion.** A candidate is only considered for a paper test after it passes its batch's out-of-sample, cost and multiple-testing rules **and** a separate robustness batch. Promoted strategies get their own new paper-test folder. Existing paper tests are never replaced.
 
 **Data.** The Exness price data used here sits in session scratch storage and is **not archived**. It can be rebuilt from `ticks.ex2archive.com`, but that is only reproducible while Exness keeps serving the same files (see `../news_surprise/ARCHIVE_MANIFEST.md` for the archive status).
+
+## Causal order engine (from 2026-11-13)
+
+Any backtest here that uses pending, limit or stop orders must use `src/causal_orders.py`, and `python3 -I tests/test_causal_orders.py` must pass before results are reported. The test suite checks the state-machine cases and prefix invariance: changing prices after a cut must never change an earlier decision. Its negative control shows the test detects look-ahead. Background: `research/audits/library_candidates/CAUSAL_IMPACT_ASSESSMENT.md`.
