@@ -63,8 +63,9 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-020 | Indicator scans: community, TradingView built-ins and originals, requested indicators, multi-market, long history | **REJECTED** (0 survivors after correction) | respective folders |
 | STR-021 | Hourly time-of-day effects | **REJECTED** | `hourly_time_signals/` |
 | STR-022 | Signal comparison: 3 approaches on BTC and UK oil | **REJECTED** (none survives correction; ranking reversed in the final test) | `signal_comparison/` |
-| STR-023 | **VWAP momentum BUY with 2×ATR stop and 3×ATR trail (BTC, replicated on ETH)** | **WATCH**: passed on BTC and replicated on ETH; never forward-tested. **Candidate for a forward paper test.** | `rsi_vwap_study/` |
+| STR-023 | **VWAP momentum BUY with 2×ATR stop and 3×ATR trail (BTC, replicated on ETH)** | **WATCH**, forward paper test **RUNNING** from 2026-11-14 (BTC and ETH, Binance prices, rule V2; first look at 100 trades per market) | `rsi_vwap_study/`, `new_discovery/forward_str023/` |
 | STR-024 | ORB, zone reversal and other session studies | **REJECTED** | other branch |
+| STR-025 | Volatility-scaled sizing overlay using IND-018 (HAR forecast), applied to STR-023 | **MIXED** (2/4: slightly higher mean R everywhere, lower drawdown in only 2 of 4 samples); read-only shadow on STR-023's forward ledger | `new_discovery/str_025/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
