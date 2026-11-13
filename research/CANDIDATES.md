@@ -86,7 +86,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | THE-014 | The Coinbase premium measures US demand that leads BTC | **PARTLY SUPPORTED**: BTC every period since 2017; not on ETH (last 16 months); not against a US venue | `new_discovery/batch_003/` |
 | THE-015 | Calendar effects: turn of month, weekdays, overnight, weekend | **NOT SUPPORTED** | library, `hourly_time_signals/` |
 | THE-016 | ICT / SMC concepts: fair value gaps, order blocks, Judas swing, Silver Bullet, liquidity sweeps | **NOT SUPPORTED** (library D1–D4, F9–F12; FVG's apparent edge was look-ahead) | other branch, audited here |
-| THE-017 | Short-horizon reversal: overbought/oversold readings (RSI, Williams %R, Donchian, Bollinger…) predict a small opposite move over the next hour (BTC, EUR/USD) | **PENDING** (found exploratorily in IND batch 001: IC −0.03 to −0.06 in every period; partial IC significant; probably below costs) | `new_discovery/ind_batch_001/RESULTS.md` |
+| THE-017 | Short-horizon reversal: overbought/oversold readings (RSI, Williams %R, Donchian, Bollinger…) predict a small opposite move over the next hour (BTC, EUR/USD) | **NOT SUPPORTED** (event study 2026-11-13: TEST effect wrong-signed on BTC, not significant on EUR/USD, 0/6 replications; ≤ 0.3 bp per event vs 1–12 bp costs) | `new_discovery/the_017/RESULTS.md` |
 
 ## Signals (SIG): someone else's calls. Profitable, and are the reported results accurate?
 

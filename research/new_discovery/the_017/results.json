@@ -1,0 +1,300 @@
+{
+ "results": {
+  "BTCUSDm": {
+   "EARLY": {
+    "n_oversold": 3673,
+    "n_overbought": 5343,
+    "effect_bp": 1.795,
+    "p_matched_null": 0.137,
+    "nw_t_signed": 0.74,
+    "per_event_bp": 0.743,
+    "cost_bp": 10.82
+   },
+   "TRAIN": {
+    "n_oversold": 1536,
+    "n_overbought": 2179,
+    "effect_bp": -0.085,
+    "p_matched_null": 0.5485,
+    "nw_t_signed": -0.53,
+    "per_event_bp": -0.534,
+    "cost_bp": 10.82
+   },
+   "VALIDATION": {
+    "n_oversold": 1366,
+    "n_overbought": 1857,
+    "effect_bp": 5.16,
+    "p_matched_null": 0.005,
+    "nw_t_signed": 2.58,
+    "per_event_bp": 2.619,
+    "cost_bp": 10.82
+   },
+   "TEST": {
+    "n_oversold": 2026,
+    "n_overbought": 2300,
+    "effect_bp": -1.252,
+    "p_matched_null": 0.8205,
+    "nw_t_signed": -0.85,
+    "per_event_bp": -0.586,
+    "cost_bp": 10.82
+   }
+  },
+  "EURUSDm": {
+   "TRAIN": {
+    "n_oversold": 2054,
+    "n_overbought": 2153,
+    "effect_bp": 0.201,
+    "p_matched_null": 0.2435,
+    "nw_t_signed": 0.75,
+    "per_event_bp": 0.106,
+    "cost_bp": 1.25
+   },
+   "VALIDATION": {
+    "n_oversold": 1169,
+    "n_overbought": 1352,
+    "effect_bp": 0.635,
+    "p_matched_null": 0.0545,
+    "nw_t_signed": 1.48,
+    "per_event_bp": 0.301,
+    "cost_bp": 1.25
+   },
+   "TEST": {
+    "n_oversold": 1862,
+    "n_overbought": 1638,
+    "effect_bp": 0.144,
+    "p_matched_null": 0.336,
+    "nw_t_signed": 0.62,
+    "per_event_bp": 0.079,
+    "cost_bp": 1.25
+   }
+  },
+  "XAUUSDm": {
+   "EARLY": {
+    "n_oversold": 3087,
+    "n_overbought": 4166,
+    "effect_bp": 0.58,
+    "p_matched_null": 0.1385,
+    "nw_t_signed": 0.97,
+    "per_event_bp": 0.254,
+    "cost_bp": 1.55
+   },
+   "TRAIN": {
+    "n_oversold": 1639,
+    "n_overbought": 1982,
+    "effect_bp": -0.235,
+    "p_matched_null": 0.7005,
+    "nw_t_signed": -0.41,
+    "per_event_bp": -0.124,
+    "cost_bp": 1.55
+   },
+   "VALIDATION": {
+    "n_oversold": 802,
+    "n_overbought": 1729,
+    "effect_bp": 0.06,
+    "p_matched_null": 0.473,
+    "nw_t_signed": -0.52,
+    "per_event_bp": -0.214,
+    "cost_bp": 1.55
+   },
+   "TEST": {
+    "n_oversold": 1325,
+    "n_overbought": 2032,
+    "effect_bp": -1.171,
+    "p_matched_null": 0.844,
+    "nw_t_signed": -1.02,
+    "per_event_bp": -0.57,
+    "cost_bp": 1.55
+   }
+  },
+  "USOILm": {
+   "EARLY": {
+    "n_oversold": 4162,
+    "n_overbought": 6012,
+    "effect_bp": -2.189,
+    "p_matched_null": 0.933,
+    "nw_t_signed": -1.3,
+    "per_event_bp": -0.994,
+    "cost_bp": 10.91
+   },
+   "TRAIN": {
+    "n_oversold": 1851,
+    "n_overbought": 2352,
+    "effect_bp": -0.615,
+    "p_matched_null": 0.717,
+    "nw_t_signed": -0.37,
+    "per_event_bp": -0.214,
+    "cost_bp": 10.91
+   },
+   "VALIDATION": {
+    "n_oversold": 1312,
+    "n_overbought": 1454,
+    "effect_bp": -1.153,
+    "p_matched_null": 0.778,
+    "nw_t_signed": -0.6,
+    "per_event_bp": -0.525,
+    "cost_bp": 10.91
+   },
+   "TEST": {
+    "n_oversold": 1535,
+    "n_overbought": 1920,
+    "effect_bp": 0.877,
+    "p_matched_null": 0.364,
+    "nw_t_signed": 0.23,
+    "per_event_bp": 0.282,
+    "cost_bp": 10.91
+   }
+  },
+  "US500m": {
+   "TRAIN": {
+    "n_oversold": 1460,
+    "n_overbought": 2621,
+    "effect_bp": -0.083,
+    "p_matched_null": 0.6145,
+    "nw_t_signed": -0.57,
+    "per_event_bp": -0.147,
+    "cost_bp": 1.71
+   },
+   "VALIDATION": {
+    "n_oversold": 938,
+    "n_overbought": 1793,
+    "effect_bp": -1.594,
+    "p_matched_null": 0.927,
+    "nw_t_signed": -1.73,
+    "per_event_bp": -0.895,
+    "cost_bp": 1.71
+   },
+   "TEST": {
+    "n_oversold": 1234,
+    "n_overbought": 2334,
+    "effect_bp": 0.06,
+    "p_matched_null": 0.466,
+    "nw_t_signed": -0.26,
+    "per_event_bp": -0.075,
+    "cost_bp": 1.71
+   }
+  },
+  "USDJPYm": {
+   "TRAIN": {
+    "n_oversold": 1374,
+    "n_overbought": 2763,
+    "effect_bp": -0.166,
+    "p_matched_null": 0.708,
+    "nw_t_signed": -0.86,
+    "per_event_bp": -0.155,
+    "cost_bp": 1.04
+   },
+   "VALIDATION": {
+    "n_oversold": 1264,
+    "n_overbought": 1507,
+    "effect_bp": -1.358,
+    "p_matched_null": 0.9915,
+    "nw_t_signed": -2.4,
+    "per_event_bp": -0.651,
+    "cost_bp": 1.04
+   },
+   "TEST": {
+    "n_oversold": 1109,
+    "n_overbought": 2527,
+    "effect_bp": -0.139,
+    "p_matched_null": 0.6785,
+    "nw_t_signed": -0.13,
+    "per_event_bp": -0.021,
+    "cost_bp": 1.04
+   }
+  },
+  "GBPUSDm": {
+   "TRAIN": {
+    "n_oversold": 1958,
+    "n_overbought": 2244,
+    "effect_bp": 0.583,
+    "p_matched_null": 0.032,
+    "nw_t_signed": 1.78,
+    "per_event_bp": 0.288,
+    "cost_bp": 1.22
+   },
+   "VALIDATION": {
+    "n_oversold": 1175,
+    "n_overbought": 1471,
+    "effect_bp": 0.258,
+    "p_matched_null": 0.23,
+    "nw_t_signed": 0.56,
+    "per_event_bp": 0.105,
+    "cost_bp": 1.22
+   },
+   "TEST": {
+    "n_oversold": 1805,
+    "n_overbought": 1773,
+    "effect_bp": 0.389,
+    "p_matched_null": 0.0905,
+    "nw_t_signed": 1.45,
+    "per_event_bp": 0.196,
+    "cost_bp": 1.22
+   }
+  },
+  "ETHUSDm": {
+   "TRAIN": {
+    "n_oversold": 1582,
+    "n_overbought": 2299,
+    "effect_bp": -1.452,
+    "p_matched_null": 0.792,
+    "nw_t_signed": -1.05,
+    "per_event_bp": -1.081,
+    "cost_bp": 12.23
+   },
+   "VALIDATION": {
+    "n_oversold": 1326,
+    "n_overbought": 1791,
+    "effect_bp": -5.054,
+    "p_matched_null": 0.9645,
+    "nw_t_signed": -1.5,
+    "per_event_bp": -2.269,
+    "cost_bp": 12.23
+   },
+   "TEST": {
+    "n_oversold": 1790,
+    "n_overbought": 2195,
+    "effect_bp": -1.241,
+    "p_matched_null": 0.726,
+    "nw_t_signed": -0.62,
+    "per_event_bp": -0.692,
+    "cost_bp": 12.23
+   }
+  }
+ },
+ "discovery_holds": false,
+ "replicated_markets": [],
+ "verdict": "NOT SUPPORTED",
+ "tradability_test_per_event_vs_cost_bp": {
+  "BTCUSDm": [
+   -0.586,
+   10.82
+  ],
+  "EURUSDm": [
+   0.079,
+   1.25
+  ],
+  "XAUUSDm": [
+   -0.57,
+   1.55
+  ],
+  "USOILm": [
+   0.282,
+   10.91
+  ],
+  "US500m": [
+   -0.075,
+   1.71
+  ],
+  "USDJPYm": [
+   -0.021,
+   1.04
+  ],
+  "GBPUSDm": [
+   0.196,
+   1.22
+  ],
+  "ETHUSDm": [
+   -0.692,
+   12.23
+  ]
+ }
+}
