@@ -11,30 +11,30 @@ Every idea has a **permanent number** in one of the four categories. Each catego
 
 ## Indicators (IND): a measurement. Does it carry information about future moves?
 
-None has been through the indicator information test yet. Most were tested only as trading rules (which failed), recorded under "evidence so far".
+IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-003 to IND-018 and IND-020. Still PENDING: IND-002 (covered by THE-009), IND-019 and IND-021.
 
 | ID | Candidate | Evidence so far (as part of strategies) | Indicator verdict |
 |---|---|---|---|
-| IND-001 | Coinbase premium z-score (BTC; Coinbase USD vs Binance USDT) | STR-008 positive in every period since 2017; failed vs Bitstamp and on ETH | PENDING |
+| IND-001 | Coinbase premium z-score (BTC; Coinbase USD vs Binance USDT) | STR-008 positive in every period since 2017; failed vs Bitstamp and on ETH | WEAK (IND batch 001: 5-day IC positive in every period, not significant) |
 | IND-002 | Futures-curve slope ln(F1/F2) (WTI, natural gas) | THE-009: strong pre-2010, faded since | PENDING |
-| IND-003 | KST (Know Sure Thing) | Gold KST studies; library G7: failed as rules | PENDING |
-| IND-004 | Distance from session/daily VWAP | RSI+VWAP studies; STR-023 promising on BTC/ETH | PENDING |
-| IND-005 | RSI (14, 2) | Library B1/B2, RSI+VWAP studies: failed as rules | PENDING |
-| IND-006 | MACD | Library A3, F6: failed | PENDING |
-| IND-007 | Moving-average trend (EMA 9/21, SMA 50/200) | Library A1/A2, MOM50: failed or mixed | PENDING |
-| IND-008 | Supertrend | Library A4: failed | PENDING |
-| IND-009 | Parabolic SAR | Library A5: failed | PENDING |
-| IND-010 | ADX / DMI | Library A6: failed | PENDING |
-| IND-011 | Donchian channel position | Library A7/A8: failed; Donchian 20 BTC paper (STR-009) | PENDING |
-| IND-012 | Ichimoku cloud | Library A9: failed | PENDING |
-| IND-013 | Bollinger %B and squeeze | Library B3, A12, F1: failed | PENDING |
-| IND-014 | Stochastic | Library B4; oil stochastic paper (STR-012) | PENDING |
-| IND-015 | CCI | Library B5: failed | PENDING |
-| IND-016 | Williams %R | Library B6: failed | PENDING |
-| IND-017 | Williams Vix Fix | Community round 2: passed 2025–26 on BTC, then failed on new data | PENDING |
-| IND-018 | HAR realised-volatility forecast | Batch 002 E006: better than EWMA on 6 markets (WATCH as a forecast) | PENDING |
+| IND-003 | KST (Know Sure Thing) | Gold KST studies; library G7: failed as rules | NONE (IND batch 001) |
+| IND-004 | Distance from session/daily VWAP | RSI+VWAP studies; STR-023 promising on BTC/ETH | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-005 | RSI (14, 2) | Library B1/B2, RSI+VWAP studies: failed as rules | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-006 | MACD | Library A3, F6: failed | NONE (IND batch 001) |
+| IND-007 | Moving-average trend (EMA 9/21, SMA 50/200) | Library A1/A2, MOM50: failed or mixed | NONE (IND batch 001) |
+| IND-008 | Supertrend | Library A4: failed | NONE (IND batch 001) |
+| IND-009 | Parabolic SAR | Library A5: failed | NONE (IND batch 001) |
+| IND-010 | ADX / DMI | Library A6: failed | NONE (IND batch 001) |
+| IND-011 | Donchian channel position | Library A7/A8: failed; Donchian 20 BTC paper (STR-009) | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-012 | Ichimoku cloud | Library A9: failed | NONE (IND batch 001) |
+| IND-013 | Bollinger %B and squeeze | Library B3, A12, F1: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-014 | Stochastic | Library B4; oil stochastic paper (STR-012) | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-015 | CCI | Library B5: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-016 | Williams %R | Library B6: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-017 | Williams Vix Fix | Community round 2: passed 2025–26 on BTC, then failed on new data | NONE (IND batch 001) |
+| IND-018 | HAR realised-volatility forecast | Batch 002 E006: better than EWMA on 6 markets (WATCH as a forecast) | **INFORMATIVE** (IND batch 001: predicts next-day volatility, 5/5 markets) |
 | IND-019 | Two-state HMM regime probability | Batch 002 E007: WATCH on USD/JPY only | PENDING |
-| IND-020 | 20-day momentum (time-series) | Library A11, batch 001 D002: failed | PENDING |
+| IND-020 | 20-day momentum (time-series) | Library A11, batch 001 D002: failed | NONE (IND batch 001) |
 | IND-021 | Other TradingView built-ins and community scripts (about 2,950 variants: Aroon, Vortex, TRIX, KAMA, Alligator, Hull, Keltner, Chandelier, Waddah Attar, …) | `multi_market`, `long_history`, `tradingview_*`, `community_indicators*`: 0 survivors as rules | PENDING (group) |
 
 ## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
@@ -86,6 +86,7 @@ None has been through the indicator information test yet. Most were tested only 
 | THE-014 | The Coinbase premium measures US demand that leads BTC | **PARTLY SUPPORTED**: BTC every period since 2017; not on ETH (last 16 months); not against a US venue | `new_discovery/batch_003/` |
 | THE-015 | Calendar effects: turn of month, weekdays, overnight, weekend | **NOT SUPPORTED** | library, `hourly_time_signals/` |
 | THE-016 | ICT / SMC concepts: fair value gaps, order blocks, Judas swing, Silver Bullet, liquidity sweeps | **NOT SUPPORTED** (library D1–D4, F9–F12; FVG's apparent edge was look-ahead) | other branch, audited here |
+| THE-017 | Short-horizon reversal: overbought/oversold readings (RSI, Williams %R, Donchian, Bollinger…) predict a small opposite move over the next hour (BTC, EUR/USD) | **PENDING** (found exploratorily in IND batch 001: IC −0.03 to −0.06 in every period; partial IC significant; probably below costs) | `new_discovery/ind_batch_001/RESULTS.md` |
 
 ## Signals (SIG): someone else's calls. Profitable, and are the reported results accurate?
 
