@@ -74,7 +74,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | THE-002 | Theory #2b: same-day opening-range zones (user) | **NOT SUPPORTED** (0 / 60; all negative) | `new_discovery/user_theories_001/` |
 | THE-003 | "John Wick": wick rejection predicts reversal (user) | **NOT SUPPORTED** (0 / 19 new timeframes; 1h 0 / 7) | same |
 | THE-004 | BTC CME weekend gaps get filled | **NOT SUPPORTED** (−24 to −83 bp per trade in every period) | `new_discovery/batch_003/` |
-| THE-005 | Round numbers act as support and resistance (Osler) | **NOT SUPPORTED** as tradable; event-study effect size PENDING | same |
+| THE-005 | Round numbers act as support and resistance (Osler) | **NOT SUPPORTED** (reversal: round levels reverse *less* often on BTC and gold) / **DECAYED** (acceleration after crossing: gold 2020–24 only). Trading rules also lost after costs. | `new_discovery/the_005/RESULTS.md` |
 | THE-006 | Gold and silver fall around the London fix | **DECAYED** (gold about 0; literature effect was pre-2015) | same |
 | THE-007 | Pre-FOMC drift in stock indices | **NOT SUPPORTED** in Exness CFDs | `news_markets/` |
 | THE-008 | Pre-holiday effect (US indices, DAX) | **WATCH** (S&P 500 and Nasdaq positive in all periods, not significant) | `new_discovery/batch_002/` |
