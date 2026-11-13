@@ -46,3 +46,18 @@ Pre-registered in `PREREG.md` (commit `f0fb5698`, before any code). TEST is reus
   - Signals use the hourly close, and entries the next Exness open after it.
 
 **Next step:** a WATCH is not promoted. Because H4 is the strongest result in the programme so far, it gets a **separately pre-registered forward paper observation** on new data (`../forward_h4/`), judged by rule V2. The batch decision stays WATCH.
+
+## ETH replication of H4 (pre-registered in `REPLICATION_ETH_PREREG.md`, commit `e07c72a3`)
+
+**Result: NOT REPLICATED.** `results/replication_eth.json`, script `replicate_eth.py`. Data: Coinbase ETH-USD and Binance ETHUSDT hourly; Exness ETHUSDm 15m.
+
+| Period | Trades | Mean net (bp) | Stress (bp) | p vs random |
+|---|---|---|---|---|
+| TRAIN 2023-01 → 2024-06 | 136 | +20.19 | +10.04 | 0.046 |
+| VALIDATION 2024-07 → 2025-06 | 90 | +78.51 | +68.36 | 0.008 |
+| TEST 2025-07 → | 146 | **−8.00** | −18.18 | 0.471 |
+
+**Reading.**
+- The same rule worked on ETH in 2023–mid 2025, and failed in the most recent 16 months. The BTC result held in that same period.
+- This weakens the case for H4 as a general "US demand" effect: it may be BTC-specific, regime-dependent, or partly luck.
+- H4 stays **WATCH**. Its forward paper test continues unchanged, and it is now the deciding evidence.
