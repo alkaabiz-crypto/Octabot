@@ -54,14 +54,15 @@
 6. ☐ **STR-025 shadow:** volatility-scaled sizing reported beside STR-023's forward results, from its first closed trades. **Owner: C.**
 7. ☐ **Data safety:** each month, archive new forward ledgers and inputs to the private repository, and verify them from a fresh clone. **Owner: C.**
 
-## G6: new strategies only from evidence — by 2027-02-28
+## G6: new strategies only from evidence — DONE (2026-11-14)
 
-1. ☐ List what qualifies. **Owner: C.**
+1. ✅ List what qualifies. **Owner: C.**
    - Indicators: INFORMATIVE (so far only the volatility forecast, used for sizing).
    - Theories: SUPPORTED or PARTLY SUPPORTED (THE-001 on the S&P 500, THE-014).
-2. ☐ For each, decide in writing whether it can become a tradable rule after costs. **Owner: C.** THE-001 is currently below costs, so probably not.
-3. ☐ Turn at most **3** into pre-registered STR candidates, with a causal backtest (shared engine and gate tests) and, if it passes, a forward paper test. **Owner: C.**
-4. ☐ Never more than 3, and never from a parameter search. **Owner: C.**
+2. ✅ For each, decide in writing whether it can become a tradable rule after costs. **Owner: C.** THE-001 is currently below costs, so probably not.
+3. ✅ Turn at most **3** into pre-registered STR candidates, with a causal backtest (shared engine and gate tests) and, if it passes, a forward paper test. **Owner: C.**
+4. ✅ Never more than 3, and never from a parameter search. **Owner: C.**
+5. ✅ Result: 1 candidate (STR-026), rejected at the screen (TEST p 0.09). No new forward test (`new_discovery/G6_DECISIONS.md`).
 
 ## G7: honesty check — monthly from 2026-12-01
 

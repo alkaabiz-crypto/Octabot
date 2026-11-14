@@ -49,3 +49,30 @@
 - rule V2 with critical NW t = **2.24** (one test, 4 looks), mean ≥ +2 bp; futility stop if mean + 1.645·se < +2 bp.
 
 **Relation to STR-008.** Both run, and they share most signals. They are reported side by side. It is **not** counted as independent confirmation of STR-008.
+
+## Step 4: STR-026 backtest result (2026-11-14). **REJECTED at the screen**
+
+Script `str_026/backtest.py`, output `str_026/backtest_results.json`.
+
+| Period | Trades | Mean (bp) | Stress (bp) | p vs random |
+|---|---|---|---|---|
+| EARLY 2020–22 | 317 | +35.50 | +26.28 | 0.007 |
+| TRAIN | 153 | +13.57 | +4.36 | 0.106 |
+| VALIDATION | 80 | +57.75 | +48.53 | 0.015 |
+| TEST | 132 | +20.52 | +11.29 | **0.090** |
+
+- Positive in every period, but the TEST p is above the pre-registered 0.05, so **no forward test**.
+- THE-014 continues to be judged by STR-008's forward test alone.
+- The averaged reference did **not** improve on Binance alone (H4's TEST p was 0.011), so there is no reason to prefer it.
+
+## G6 outcome
+
+| Qualifying evidence | Outcome |
+|---|---|
+| IND-018 | Sizing only (STR-025, MIXED, shadow) |
+| THE-001 | Not tradable after costs |
+| THE-014 | STR-026 rejected at the screen; STR-008 forward test continues |
+
+**No new strategy reached a forward test.** G6 is complete on 2026-11-14 (deadline 2027-02-28).
+- The candidates alive for the overall goal are the forward tests already running: STR-023 and STR-008, plus the daily paper tests.
+- New G6 candidates can be added only if new evidence qualifies, for example from the quarterly re-checks of THE-001 and THE-014.

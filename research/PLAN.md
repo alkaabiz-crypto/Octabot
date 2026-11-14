@@ -79,3 +79,5 @@ The categories are different concepts, so each is defined, tested and judged dif
 | **G3, theories** | **Done, 17 days early.** All 17 theories now have a verdict based on the theory test (`categories/THEORY_REVIEW.md`, THE-005, THE-017, theory event batch 001). Only THE-001 (S&P 500, below costs) and THE-014 (USD-vs-USDT premium) are partly supported. |
 | **G5, strategies** | Forward tests running: STR-008 (Coinbase premium) and **STR-023 (VWAP momentum BUY; started 2026-11-14)**, plus the daily paper tests. STR-025 (volatility sizing) is MIXED: a shadow on STR-023 only. |
 | **G4, signals** | SP-032 to SP-035 Exness scoring scheduled for 2026-11-14 02:41 UTC; prospective screenshots needed from the user. |
+
+| **G6, new strategies from evidence** | **Done 2026-11-14.** Three items qualified (IND-018, THE-001, THE-014). THE-001 is not tradable after costs; IND-018 is sizing only (STR-025 shadow); THE-014 → STR-026, rejected at the screen (TEST p 0.09). No new forward test. See `new_discovery/G6_DECISIONS.md`. |
