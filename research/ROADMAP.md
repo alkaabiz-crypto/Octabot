@@ -90,3 +90,16 @@
 
 - **Success:** any forward test reaches PASS and survives its venue check. It is then reported to you for a separate, reviewed decision. It is never traded automatically.
 - **Clear negative:** every forward test hits its futility stop, and no new evidence-based candidate qualifies. That is reported as the documented answer: no candidate has an edge after costs on new data.
+
+## Progress, 2026-11-14 (tasks 1–8)
+
+1. ✅ **STR-023 tested on SOL, BNB, XRP, LTC, BCH: NOT REPLICATED.** It loses at Exness costs, and has no random-beating edge even at 0.05% (`new_discovery/str023_replication/`).
+2. ✅ **One-step SignalPro scoring on Exness prices:** `signal_tracking_v2/score_exness.py`. All 35 signals scored: retrospective −0.14R; prospective n = 1.
+3. ✅ **Watchdog** (`ops/watchdog.py`), scheduled daily at 06:07 UTC.
+4. ✅ **G7 test-count script** (`ops/test_count.py`, `ops/TEST_COUNT.md`: about 11,600 tests; Bonferroni |z| ≥ 4.60), with the monthly check scheduled for the 1st at 06:41 UTC.
+5. ✅ **Archive verification** folded into the monthly check. The forward ledgers are already committed in git, and the raw data is in the private archive.
+6. ✅ **STR-025 volatility-sizing shadow evaluator** (`new_discovery/str_025/shadow.py`), added to the weekly status.
+7. ✅ **Quarterly re-check** of THE-001 and THE-014 scheduled for 2027-02-15.
+8. ✅ **NFP/CPI dry run found two problems, both fixed:**
+   - both capture tasks were disabled → re-enabled;
+   - the locked `capture.py` could never parse BLS responses → `capture_fixed.py`, a documented copy with only the parsing fixes (`news_surprise/live/CAPTURE_FIX_NOTE.md`). The capture tasks now use it.
