@@ -6,5 +6,5 @@
 - freshness: pivot_reversal_paper 3h/54h, eth_pivot_paper 3h/54h, gold_kst_paper 5h/54h, gold_kst_risk_paper 5h/54h
 - ledgers: consistent
 - outputs: regenerated
-- git: pending
+- git: pushed and verified, data commit 61518645
 - failures: 
