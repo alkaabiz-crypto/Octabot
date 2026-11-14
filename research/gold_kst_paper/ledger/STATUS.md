@@ -1,6 +1,6 @@
 # Gold KST + session VWAP BUY paper test: status
 
-Updated 2026-11-14 03:25 UTC. Data to 2026-11-13 22:00 UTC (the Exness archive lags about a day). Counting since 2026-11-12 00:00 UTC. Rules: `research/gold_kst_news/PROTOCOL.md` and `src/config.py` (frozen).
+Updated 2026-11-14 10:12 UTC. Data to 2026-11-13 22:00 UTC (the Exness archive lags about a day). Counting since 2026-11-12 00:00 UTC. Rules: `research/gold_kst_news/PROTOCOL.md` and `src/config.py` (frozen).
 
 ## CHOSEN_48H_TIME_STOP (primary)
 

@@ -1,6 +1,6 @@
 # Pivot Reversal BUY paper test: status
 
-Updated 2026-11-14 03:24 UTC. Data to 2026-11-14 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
+Updated 2026-11-14 10:12 UTC. Data to 2026-11-14 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
 
 ## Latest signal
 
