@@ -108,6 +108,8 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | ID | Candidate | Logged | Prospective | Verdict |
 |---|---|---|---|---|
 | SIG-001 | SignalPro free signals, gold (XAUUSD and XAUUSD 24/7) | 30 | 2 | **NOT YET DECIDABLE** (needs ≥ 50 prospective). Earlier mostly-retrospective analysis: no profit after realistic entries. Claims: **INACCURATE** in places: one trade shown as both "Stop Loss Hit" and "TP1 Reached"; "TP1 then breakeven" reported as success; **on Exness prices, SP-033 and SP-034 (shown as TP1 reached) both hit their stop first** (`signal_tracking_v2/EXNESS_SCORING.md`). |
+
+**All signals scored on Exness prices (2026-11-14, `signal_tracking_v2/EXNESS_REPORT.md`, `score_exness.py`):** the 16 resolved retrospective signals average **−0.14R** with the app's own breakeven management; the 1 resolved prospective signal: −1.0R.
 | SIG-002 | SignalPro free signals, oil (USOIL) | 2 | 0 | NOT YET DECIDABLE |
 | SIG-003 | SignalPro free signals, other (BTC, silver, DXY) | 3 | 1 | NOT YET DECIDABLE |
 
