@@ -40,6 +40,7 @@ The categories are different concepts, so each is defined, tested and judged dif
 
 - **`research/STATUS_LATEST.md`:** every Monday (scheduled task).
 - **`research/CANDIDATES.md`:** updated whenever a candidate's verdict changes.
+- **`research/ROADMAP.md`:** every step towards each goal, with owner and date.
 - **Daily reports:** paper tests 03:23 UTC; Coinbase premium 04:47 UTC.
 - **Each category's protocol** is in `research/categories/`.
 
