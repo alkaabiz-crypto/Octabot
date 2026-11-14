@@ -1,0 +1,130 @@
+{
+ "https://www.tradingview.com/script/WhBzgfDu-Machine-Learning-Lorentzian-Classification/": {
+  "title": "Machine Learning: Lorentzian Classification \u2014 Indicator by jdehorty \u2014 TradingView",
+  "pub_id": "PUB;21f5ec5277b24ce6bc8dfc3fdb3eda10",
+  "pine_version": "6",
+  "chars": 41972,
+  "sha256": "fc1a27ccfbe47429f6cb7ac06f8458b5858028c9759f97f7ea3a4e71473a5090",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/nqQ1DT5a-Squeeze-Momentum-Indicator-LazyBear/": {
+  "title": "Squeeze Momentum Indicator [LazyBear] by LazyBear \u2014 TradingView",
+  "pub_id": "PUB;175",
+  "pine_version": "?",
+  "chars": 1333,
+  "sha256": "dc81681173d8afa6223bc6886f1358aa5735a510d205e598929471ec99977795",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/2KE8wTuF-Indicator-WaveTrend-Oscillator-WT/": {
+  "title": "Indicator: WaveTrend Oscillator [WT] by LazyBear \u2014 TradingView",
+  "pub_id": "PUB;1",
+  "pine_version": "?",
+  "chars": 786,
+  "sha256": "839bba8a402ec5d74bcf119dae706ad1988bd618f549df8e4d878f0cad3e1935",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/n8ss8BID-UT-Bot-Alerts/": {
+  "title": "UT Bot Alerts \u2014 Indicator by QuantNomad \u2014 TradingView",
+  "pub_id": "PUB;fvKf7ZbacOxo47bpXI9rDSN0npXIk48x",
+  "pine_version": "4",
+  "chars": 1822,
+  "sha256": "d17fdc1d34a20107dbb853316886ac8c27803b159f379e66c685810d7e10410c",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/xzIoaIJC-SSL-channel/": {
+  "title": "SSL channel \u2014 Indicator by ErwinBeckers \u2014 TradingView",
+  "pub_id": "PUB;ojwXonjHDKhqxN21QYEQleuZb54EiMwB",
+  "pine_version": "3",
+  "chars": 396,
+  "sha256": "b1723628f3ba1ff081dc676b16910dfb33de6b22d1d0142b839927619fb83c86",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/AqXxNS7j-Chandelier-Exit/": {
+  "title": "Chandelier Exit [everget] \u2014 Indicator by everget \u2014 TradingView",
+  "pub_id": "PUB;2YTE3ybw6dfE6uqf2Dq8xazUWzCUrwXm",
+  "pine_version": "6",
+  "chars": 3455,
+  "sha256": "834f81032be481d813805f0eeb3f74fe87a383077600238febfc5c4450c6f889",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/J8GzFGfD-Range-Filter-Buy-and-Sell-5min/": {
+  "title": "Range Filter Buy and Sell 5min - guikroth version \u2014 Indicator by PHVNTOM_TRADER \u2014 TradingView",
+  "pub_id": "PUB;65cb6743381a42b5920a6cf523579644",
+  "pine_version": "5",
+  "chars": 4706,
+  "sha256": "975e3740e7737d7968678816d9fb24ca75788c102f6fbe64973bb0b92a32dc23",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/TpUW4muw-QQE-MOD/": {
+  "title": "QQE MOD \u2014 Indicator by Mihkel00 \u2014 TradingView",
+  "pub_id": "PUB;ZGFHCMyX9M60JbFJrfsgxUjGrUYtSlLg",
+  "pine_version": "6",
+  "chars": 4856,
+  "sha256": "3618fcc7662d0e31acbf703321c1b920eab0f7b31d62c32b9521b291af9946bf",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/U1SJ8ubc-HalfTrend/": {
+  "title": "HalfTrend [everget] \u2014 Indicator by everget \u2014 TradingView",
+  "pub_id": "PUB;xhevX7JPlDxkaET3spCluX1AocxhFBc0",
+  "pine_version": "6",
+  "chars": 4056,
+  "sha256": "6587a9be145fb58e6a6cd1971aefd7744595fa07aa30d29ea0a158e0ed371562",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/qyUwc2Al-Coral-Trend-Indicator-LazyBear/": {
+  "title": "Coral Trend Indicator [LazyBear] by LazyBear \u2014 TradingView",
+  "pub_id": "PUB;836",
+  "pine_version": "?",
+  "chars": 1380,
+  "sha256": "d59d2d527b50b83e0f9c9a1795536552e0e9d4ced4c9082b30ec679b6c07e468",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/iu3kKWDI-Waddah-Attar-Explosion-LazyBear/": {
+  "title": "Waddah Attar Explosion [LazyBear] \u2014 Indicator by LazyBear \u2014 TradingView",
+  "pub_id": "PUB;606",
+  "pine_version": "?",
+  "chars": 1746,
+  "sha256": "93fab5d35929bfd9e5ee4891295c714e99cc9c12c4866b746a4af7faeca4acfc",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/og7JPrRA-CM-Williams-Vix-Fix-Finds-Market-Bottoms/": {
+  "title": "CM_Williams_Vix_Fix  Finds Market Bottoms \u2014 Indicator by ChrisMoody \u2014 TradingView",
+  "pub_id": "PUB;239",
+  "pine_version": "?",
+  "chars": 1316,
+  "sha256": "5ffae712a1ab9933f48044b841a9a6cc63448a70a34f1f0f12756bbb3fcdc646",
+  "fetched_utc": "2026-11-10 21:01"
+ },
+ "https://www.tradingview.com/script/r6dAP7yi/": {
+  "title": "SuperTrend \u2014 Indicator by KivancOzbilgic \u2014 TradingView",
+  "pub_id": "PUB;VfOPXWDHDPhORvJYRTcuHOyeqpOcRR45",
+  "pine_version": "4",
+  "chars": 2586,
+  "sha256": "eb300e693cc5901ac46dec5e86372e8951b03cd351abe2ebb6c393872b81346a",
+  "fetched_utc": "2026-11-10 21:02"
+ },
+ "https://www.tradingview.com/script/ia5ozyMF-MLExtensions/": {
+  "title": "MLExtensions \u2014 Library by jdehorty \u2014 TradingView",
+  "pub_id": "PUB;d36c00024ee14427b1dd150b623962f9",
+  "pine_version": "5",
+  "chars": 18794,
+  "sha256": "3efbde96fe630606af723fe1074f29209c0ad350910c91dc473c3224b573568f",
+  "fetched_utc": "2026-11-10 21:02"
+ },
+ "https://www.tradingview.com/script/e0Ek9x99-KernelFunctions/": {
+  "title": "KernelFunctions \u2014 Library by jdehorty \u2014 TradingView",
+  "pub_id": "PUB;29ad3e11fa7447d3bb82247b5e09288c",
+  "pine_version": "5",
+  "chars": 5965,
+  "sha256": "789b9405059a1ef3d306b18fe78b948344334559bcd56881b8f86caa31c90fce",
+  "fetched_utc": "2026-11-10 21:02"
+ },
+ "https://www.tradingview.com/script/36ik5Jpc-Session-VWAP-Profile-Candle-Delta-BigBeluga/": {
+  "title": "Session VWAP Profile &amp; Candle Delta [BigBeluga] \u2014 Indicator by BigBeluga \u2014 TradingView",
+  "pub_id": "PUB;5b2551ae566141f08ac7821d8c2a5edb",
+  "pine_version": "6",
+  "chars": 20485,
+  "sha256": "27d5de7ea0f21ce646fed29747d3f189f28fa29612963d91a2690f032ba9f8fc",
+  "fetched_utc": "2026-11-10 21:02"
+ }
+}

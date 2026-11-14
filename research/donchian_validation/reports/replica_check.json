@@ -1,0 +1,71 @@
+{
+ "all_identical": true,
+ "windows": {
+  "2020H1": {
+   "trades": 43,
+   "identical": true,
+   "difference": null
+  },
+  "2020H2": {
+   "trades": 60,
+   "identical": true,
+   "difference": null
+  },
+  "2021H1": {
+   "trades": 48,
+   "identical": true,
+   "difference": null
+  },
+  "2021H2": {
+   "trades": 38,
+   "identical": true,
+   "difference": null
+  },
+  "2022H1": {
+   "trades": 15,
+   "identical": true,
+   "difference": null
+  },
+  "2022H2": {
+   "trades": 21,
+   "identical": true,
+   "difference": null
+  },
+  "2023H1": {
+   "trades": 45,
+   "identical": true,
+   "difference": null
+  },
+  "2023H2": {
+   "trades": 44,
+   "identical": true,
+   "difference": null
+  },
+  "2024H1": {
+   "trades": 53,
+   "identical": true,
+   "difference": null
+  },
+  "2024H2": {
+   "trades": 51,
+   "identical": true,
+   "difference": null
+  },
+  "2025H1": {
+   "trades": 53,
+   "identical": true,
+   "difference": null
+  },
+  "HOLDOUT": {
+   "trades": 99,
+   "identical": true,
+   "difference": null
+  },
+  "CONTINUOUS_2020_ON": {
+   "trades": 570,
+   "identical": true,
+   "difference": null
+  }
+ },
+ "frozen_commit": "f1798b71"
+}

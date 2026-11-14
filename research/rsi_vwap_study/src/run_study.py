@@ -1,0 +1,139 @@
+"""Run the pre-registered RSI + VWAP study (PROTOCOL.md). Writes reports/results.json and reports/RESULTS.md.
+
+Usage: FROZEN_BTC_BREAKOUT=<frozen research/btc_breakout> ETH_DATA=<dir with ethusdt_*.json> python src/run_study.py
+"""
+import json
+import os
+import statistics
+import sys
+import time
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import study as S
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+START = S.ts(2020, 1)
+PERIODS = {
+    "BTCUSDT": [("2020-01..2026-11 (exploratory)", START, S.ts(2026, 11, 9)), ("development 2020-01..2025-06", START, S.ts(2025, 7)),
+                ("2025-07..2026-11", S.ts(2025, 7), S.ts(2026, 11, 9))],
+    "ETHUSDT": [("2020-01..2026-11 (replication)", START, S.ts(2026, 11, 11))],
+}
+
+
+def load_assets():
+    fz = os.path.join(os.environ["FROZEN_BTC_BREAKOUT"], "data")
+    eth = os.environ["ETH_DATA"]
+    return {"BTCUSDT": S.Asset("BTCUSDT", *(os.path.join(fz, f"btc_{tf}.json") for tf in ("15m", "1h", "1d"))),
+            "ETHUSDT": S.Asset("ETHUSDT", *(os.path.join(eth, f"ethusdt_{tf}.json") for tf in ("15m", "1h", "1d")))}
+
+
+def evaluate(asset, trades, d, exit_rule, w0, w1):
+    rs = [t.r("primary") for t in trades]
+    s = S.summary(rs)
+    if s["trades"] < 2:
+        return s
+    s["ci95"] = S.boot_ci(rs)
+    s["expectancy_stress_r"] = statistics.mean(t.r("stress") for t in trades)
+    s["avg_hold_hours"] = statistics.mean(t.hold_hours for t in trades)
+    s["regimes"] = {}
+    for reg in ("bull", "bear", "sideways"):
+        x = S.summary([t.r("primary") for t in trades if t.regime == reg])
+        s["regimes"][reg] = {k: x.get(k) for k in ("trades", "expectancy_r", "t_stat", "win_rate_pct")}
+    years = {}
+    for t in trades:
+        years.setdefault(time.gmtime(t.entry_time).tm_year, []).append(t.r("primary"))
+    s["by_year"] = {y: {"trades": len(v), "expectancy_r": statistics.mean(v)} for y, v in sorted(years.items())}
+    s["benchmark"] = S.random_benchmark(asset, trades, d, exit_rule, w0, w1)
+    return s
+
+
+def main():
+    t_start = time.time()
+    assets = load_assets()
+    out = {"meta": {"generated_utc": S.fmt(time.time()),
+                        "data": {k: {"first_1h": S.fmt(a.e.t[0]), "last_1h": S.fmt(a.e.t[-1]), "bars_15m": len(a.p.t)} for k, a in assets.items()}}}
+    for name, a in assets.items():
+        out[name] = {}
+        for rule in S.RULES:
+            for dname, d in S.DIRECTIONS.items():
+                for ex in S.EXITS:
+                    key = f"{rule}|{dname}|{ex}"
+                    res = {}
+                    for pname, w0, w1 in PERIODS[name]:
+                        tr = a.run(rule, d, ex, w0, w1)
+                        res[pname] = evaluate(a, tr, d, ex, w0, w1)
+                        b = res[pname].get("benchmark", {})
+                        print(f"{name} {key:34} {pname[:12]:12} n={res[pname]['trades']:>5} E={res[pname].get('expectancy_r', 0):+.3f} "
+                              f"t={res[pname].get('t_stat') or 0:+.2f} rand={b.get('random_mean_r', 0):+.3f} p_rand={b.get('p_random', 1):.3f}", flush=True)
+                    out[name][key] = res
+    # Holm across the 8 variants on the BTC primary period, then the pre-registered pass rule
+    btc_p = PERIODS["BTCUSDT"][0][0]
+    eth_p = PERIODS["ETHUSDT"][0][0]
+    adj = S.holm({k: v[btc_p].get("p_one_sided") for k, v in out["BTCUSDT"].items()})
+    out["verdict"] = {}
+    for k, v in out["BTCUSDT"].items():
+        b, e = v[btc_p], out["ETHUSDT"][k][eth_p]
+        b["p_holm"] = adj.get(k)
+        fails = []
+        if b["trades"] < 100:
+            fails.append("BTC trades < 100")
+        if not (b.get("expectancy_r", -1) > 0 and (b.get("t_stat") or 0) >= 2):
+            fails.append("BTC expectancy not > 0 with t >= 2")
+        if not (adj.get(k) is not None and adj[k] <= 0.05):
+            fails.append("BTC Holm-adjusted p > 0.05")
+        if not b.get("benchmark", {}).get("p_random", 1) <= 0.05:
+            fails.append("BTC not better than matched random entry")
+        if not b.get("expectancy_stress_r", -1) > 0:
+            fails.append("BTC expectancy <= 0 at stress cost")
+        if e["trades"] < 50:
+            fails.append("ETH trades < 50")
+        if not e.get("expectancy_r", -1) > 0:
+            fails.append("ETH expectancy <= 0")
+        if not e.get("benchmark", {}).get("p_random", 1) <= 0.05:
+            fails.append("ETH not better than matched random entry")
+        out["verdict"][k] = {"candidate": not fails, "failed": fails}
+    with open(os.path.join(ROOT, "reports", "results.json"), "w") as f:
+        json.dump(out, f, indent=1)
+    write_md(out)
+    print(f"done in {time.time() - t_start:.0f}s; candidates: {[k for k, v in out['verdict'].items() if v['candidate']]}")
+
+
+def fnum(x, nd=2, plus=False):
+    if x is None:
+        return "n/a"
+    return f"{x:+.{nd}f}" if plus else f"{x:.{nd}f}"
+
+
+def write_md(out):
+    L = ["# RSI + VWAP study: all results", "", "Generated by `src/run_study.py`. Primary cost 0.05% per round trip. R = 2 × ATR14 at entry.",
+         "p_random is the share of 2,000 matched random-entry runs that did at least as well. Max drawdown % assumes 0.5% risk per trade.", ""]
+    head = ("| Variant | Period | Trades | Win rate | Profit factor | Expectancy | 95% CI | t | p | Random entry | p_random | Max drawdown | Top 5 share | Stress cost |\n"
+            "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
+    for name in ("BTCUSDT", "ETHUSDT"):
+        L += [f"## {name}", "", head]
+        for k, res in out[name].items():
+            for pname, s in res.items():
+                if s["trades"] < 2:
+                    L.append(f"| {k} | {pname} | {s['trades']} | | | | | | | | | | | |")
+                    continue
+                b = s["benchmark"]
+                L.append(f"| {k} | {pname} | {s['trades']} | {fnum(s['win_rate_pct'], 1)}% | {fnum(s['profit_factor'])} | {fnum(s['expectancy_r'], 3, True)}R | "
+                         f"{fnum(s['ci95'][0], 2, True)} to {fnum(s['ci95'][1], 2, True)} | {fnum(s['t_stat'])} | {fnum(s['p_one_sided'], 3)} | "
+                         f"{fnum(b['random_mean_r'], 3, True)}R | {fnum(b['p_random'], 3)} | {fnum(s['max_drawdown_r'], 1)}R ({fnum(s['max_drawdown_pct'], 1)}%) | "
+                         f"{fnum(s['top5_share_of_total_pct'], 0)}% | {fnum(s['expectancy_stress_r'], 3, True)}R |")
+        L.append("")
+    L += ["## Regimes (primary period): expectancy in R (trades)", "", "| Market | Variant | Bull | Bear | Sideways |", "|---|---|---|---|---|"]
+    for name, pname in (("BTCUSDT", PERIODS["BTCUSDT"][0][0]), ("ETHUSDT", PERIODS["ETHUSDT"][0][0])):
+        for k, res in out[name].items():
+            rg = res[pname].get("regimes", {})
+            L.append(f"| {name} | {k} | " + " | ".join(f"{fnum(rg[r]['expectancy_r'], 2, True)} ({rg[r]['trades']})" if rg.get(r, {}).get("trades", 0) > 1 else "too few"
+                                                         for r in ("bull", "bear", "sideways")) + " |")
+    L += ["", "## Pass rule", "", "| Variant | Verdict | Failed criteria |", "|---|---|---|"]
+    for k, v in out["verdict"].items():
+        L.append(f"| {k} | {'CANDIDATE' if v['candidate'] else 'not a candidate'} | {'; '.join(v['failed']) or 'none'} |")
+    with open(os.path.join(ROOT, "reports", "RESULTS.md"), "w") as f:
+        f.write("\n".join(L) + "\n")
+
+
+if __name__ == "__main__":
+    main()

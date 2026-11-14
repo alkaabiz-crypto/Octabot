@@ -1,0 +1,7 @@
+{
+ "evaluated_utc": "2026-11-10 00:45",
+ "completed_trades": 0,
+ "look_reached": 0,
+ "note": "Forward ledger is a BINANCE PROXY with hypothetical 0.05% cost (R_net_mid). Trades are evaluated in recorded order.",
+ "decision": "NO LOOK YET: 0 of 40 trades. Progress only; nothing is evaluated before the first look."
+}

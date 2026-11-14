@@ -1,0 +1,8 @@
+{
+ "last_bar_utc": "2026-11-13 22:00",
+ "STOP2ATR_CLOSE_BEFORE_NEWS": {
+  "legs": 1,
+  "open_leg_since": null
+ },
+ "kst_above_signal": true
+}

@@ -1,0 +1,1877 @@
+{
+ "data": {
+  "adp_sources": {
+   "pairwise_agree": 178,
+   "pairwise_disagree": [
+    [
+     "kaggle_us",
+     "kaggle_global",
+     "2023-03",
+     "(datetime.date(2023, 4, 5), 145.0, 200.0)",
+     "(datetime.date(2023, 4, 5), -53.0, 200.0)"
+    ],
+    [
+     "kaggle_us",
+     "hf",
+     "2023-03",
+     "(datetime.date(2023, 4, 5), 145.0, 200.0)",
+     "(datetime.date(2023, 4, 5), -53.0, 200.0)"
+    ]
+   ],
+   "sizes": {
+    "kaggle_us": 118,
+    "kaggle_global": 68,
+    "hf": 74
+   }
+  },
+  "nfp_sources": {
+   "pairwise_agree": 185,
+   "pairwise_disagree": [],
+   "sizes": {
+    "kaggle_us": 120,
+    "kaggle_global": 69,
+    "hf": 75
+   }
+  },
+  "pairing": {
+   "original_window_pairs": 120,
+   "reference_month_pairs": 123,
+   "window_vs_reference_mismatches": []
+  }
+ },
+ "test1": {
+  "all, NFP payrolls + unemployment": {
+   "releases": 122,
+   "same_sign": 58,
+   "pct": 47.540983606557376,
+   "p_one_sided": 0.7367918450168834,
+   "ci95_pct": [
+    38.89027223505296,
+    56.34182907325843
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 61.50000000000001,
+   "spearman_rho": -0.10240201440085123,
+   "spearman_p_one_sided": 0.8758248350329934
+  },
+  "all, NFP payrolls only": {
+   "releases": 122,
+   "same_sign": 56,
+   "pct": 45.90163934426229,
+   "p_one_sided": 0.8403458512623777,
+   "ci95_pct": [
+    37.31922187986254,
+    54.734280300656465
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 61.50000000000001,
+   "spearman_rho": -0.08843735233179455,
+   "spearman_p_one_sided": 0.825634873025395
+  },
+  "|ADP surprise| above median": {
+   "releases": 60,
+   "same_sign": 26,
+   "pct": 43.333333333333336,
+   "p_one_sided": 0.8774695834885271,
+   "ci95_pct": [
+    31.572200394400635,
+    55.89678534530513
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 66.00000000000001,
+   "spearman_rho": -0.19688802445123652,
+   "spearman_p_one_sided": 0.9344131173765247
+  },
+  "|ADP surprise| top third": {
+   "releases": 41,
+   "same_sign": 18,
+   "pct": 43.90243902439025,
+   "p_one_sided": 0.8255555602754612,
+   "ci95_pct": [
+    29.889904772109833,
+    58.959734848242704
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 71.00000000000001,
+   "spearman_rho": -0.2463414634146342,
+   "spearman_p_one_sided": 0.9410117976404719
+  },
+  "2016-2019": {
+   "releases": 47,
+   "same_sign": 27,
+   "pct": 57.4468085106383,
+   "p_one_sided": 0.19084669883160643,
+   "ci95_pct": [
+    43.28166877121154,
+    70.48658399817417
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 68.50000000000001,
+   "spearman_rho": 0.17911655874190563,
+   "spearman_p_one_sided": 0.11217756448710257
+  },
+  "2020-2026": {
+   "releases": 75,
+   "same_sign": 31,
+   "pct": 41.333333333333336,
+   "p_one_sided": 0.9473288655626976,
+   "ci95_pct": [
+    30.877553459149688,
+    52.63368933653177
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 65.50000000000001,
+   "spearman_rho": -0.177325746799431,
+   "spearman_p_one_sided": 0.9318136372725455
+  },
+  "2016-2026 excluding 2020": {
+   "releases": 110,
+   "same_sign": 54,
+   "pct": 49.09090909090909,
+   "p_one_sided": 0.6124985085846878,
+   "ci95_pct": [
+    39.93812926379583,
+    58.305043706366234
+   ],
+   "min_detectable_hit_rate_pct_80pct_power": 63.000000000000014,
+   "spearman_rho": -0.01731623199513108,
+   "spearman_p_one_sided": 0.5666866626674665
+  }
+ },
+ "thresholds": {
+  "adp_abs_median_k": 42.0,
+  "adp_abs_top_third_k": 72.33333333333333
+ },
+ "test2": {
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.044790813023330794,
+   "median_r": 0.016548463356996772,
+   "trimmed10_mean_r": -0.16911874539600222,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.35782108945527236,
+   "min_detectable_mean_r_80pct_power": 0.6274744229592928
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.044790813023330794,
+   "median_r": 0.016548463356996772,
+   "trimmed10_mean_r": -0.16911874539600222,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.3683158420789605,
+   "min_detectable_mean_r_80pct_power": 0.6274744229592928
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.5348649741694863,
+   "median_r": -0.35504082128842934,
+   "trimmed10_mean_r": -0.5106550796864459,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.8200899550224887,
+   "min_detectable_mean_r_80pct_power": 0.777305103527173
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.11709464417016095,
+   "median_r": -0.14163783160318344,
+   "trimmed10_mean_r": 0.026375927181285376,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.6666666666666666,
+   "min_detectable_mean_r_80pct_power": 0.637217141164008
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.016496022722722114,
+   "median_r": 0.0036278828712422826,
+   "trimmed10_mean_r": -0.16466182231965626,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.30434782608695654,
+   "min_detectable_mean_r_80pct_power": 0.6346853146766489
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.016496022722722114,
+   "median_r": 0.0036278828712422826,
+   "trimmed10_mean_r": -0.16466182231965626,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.28785607196401797,
+   "min_detectable_mean_r_80pct_power": 0.6346853146766489
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.6768933827735288,
+   "median_r": -0.927815541266098,
+   "trimmed10_mean_r": -0.6620349660176467,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.879560219890055,
+   "min_detectable_mean_r_80pct_power": 0.8580982656747853
+  },
+  "XAUUSDm|ticks 2016-19|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.14567208577368457,
+   "median_r": -0.18357562635321953,
+   "trimmed10_mean_r": 0.01733685998082396,
+   "win_rate_pct": 48.93617021276596,
+   "p_signflip": 0.6926536731634183,
+   "min_detectable_mean_r_80pct_power": 0.6493717500526153
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.08481619728627716,
+   "median_r": -0.1850903614457803,
+   "trimmed10_mean_r": -0.14082814256118972,
+   "win_rate_pct": 46.808510638297875,
+   "p_signflip": 0.48375812093953025,
+   "min_detectable_mean_r_80pct_power": 0.4735009923014512
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.08481619728627716,
+   "median_r": -0.1850903614457803,
+   "trimmed10_mean_r": -0.14082814256118972,
+   "win_rate_pct": 46.808510638297875,
+   "p_signflip": 0.4732633683158421,
+   "min_detectable_mean_r_80pct_power": 0.4735009923014512
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.5109416460917309,
+   "median_r": -0.26505558992025424,
+   "trimmed10_mean_r": -0.47980593875219263,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.888055972013993,
+   "min_detectable_mean_r_80pct_power": 0.670341418412031
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.04331387044456933,
+   "median_r": 0.039608433734959994,
+   "trimmed10_mean_r": 0.026375654065166856,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.5072463768115942,
+   "min_detectable_mean_r_80pct_power": 0.47650014757543796
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.12942114105788272,
+   "median_r": -0.23492063492063822,
+   "trimmed10_mean_r": -0.20761614010643875,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.5392303848075962,
+   "min_detectable_mean_r_80pct_power": 0.4724646844422953
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.12942114105788272,
+   "median_r": -0.23492063492063822,
+   "trimmed10_mean_r": -0.20761614010643875,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.5392303848075962,
+   "min_detectable_mean_r_80pct_power": 0.4724646844422953
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.6825570368022371,
+   "median_r": -0.6754186553854296,
+   "trimmed10_mean_r": -0.6590012364310199,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9500249875062469,
+   "min_detectable_mean_r_80pct_power": 0.6664258617943118
+  },
+  "XAUUSDm|ticks 2016-19|entry T-5m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": 0.001991072941572579,
+   "median_r": 0.10005312555339395,
+   "trimmed10_mean_r": 0.08966936627385642,
+   "win_rate_pct": 55.319148936170215,
+   "p_signflip": 0.46776611694152925,
+   "min_detectable_mean_r_80pct_power": 0.4772058643916551
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.1171653350528093,
+   "median_r": -0.08757272862897675,
+   "trimmed10_mean_r": -0.16199956053400577,
+   "win_rate_pct": 48.93617021276596,
+   "p_signflip": 0.5807096451774113,
+   "min_detectable_mean_r_80pct_power": 0.4082583426275353
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.1171653350528093,
+   "median_r": -0.08757272862897675,
+   "trimmed10_mean_r": -0.16199956053400577,
+   "win_rate_pct": 48.93617021276596,
+   "p_signflip": 0.585207396301849,
+   "min_detectable_mean_r_80pct_power": 0.4082583426275353
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.4915834507376603,
+   "median_r": -0.307422400737987,
+   "trimmed10_mean_r": -0.4966813198993024,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.8685657171414293,
+   "min_detectable_mean_r_80pct_power": 0.6472728081029819
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.011200229017803232,
+   "median_r": 0.009846337460843749,
+   "trimmed10_mean_r": 0.04693154621544243,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.39730134932533734,
+   "min_detectable_mean_r_80pct_power": 0.4085398792252435
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.17923445517099795,
+   "median_r": -0.16987951807230434,
+   "trimmed10_mean_r": -0.212427929099821,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.6996501749125438,
+   "min_detectable_mean_r_80pct_power": 0.38974520978267924
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.17923445517099795,
+   "median_r": -0.16987951807230434,
+   "trimmed10_mean_r": -0.212427929099821,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.7096451774112944,
+   "min_detectable_mean_r_80pct_power": 0.38974520978267924
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.6568847844888804,
+   "median_r": -0.7936709907950064,
+   "trimmed10_mean_r": -0.6366409038561077,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9555222388805598,
+   "min_detectable_mean_r_80pct_power": 0.6372506562458455
+  },
+  "XAUUSDm|ticks 2016-19|entry T-1m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": 0.05208038966618292,
+   "median_r": 0.07350829089958222,
+   "trimmed10_mean_r": 0.09080112547273371,
+   "win_rate_pct": 55.319148936170215,
+   "p_signflip": 0.30834582708645675,
+   "min_detectable_mean_r_80pct_power": 0.39014864578959924
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+15m|all": {
+   "trades": 72,
+   "mean_r": -0.2327674957783741,
+   "median_r": -0.2112575768821883,
+   "trimmed10_mean_r": -0.2575210998971053,
+   "win_rate_pct": 44.44444444444444,
+   "p_signflip": 0.7606196901549226,
+   "min_detectable_mean_r_80pct_power": 0.5855987681745601
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+15m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.20231502919210603,
+   "median_r": -0.13155040310671856,
+   "trimmed10_mean_r": -0.22610474000586775,
+   "win_rate_pct": 46.666666666666664,
+   "p_signflip": 0.7061469265367316,
+   "min_detectable_mean_r_80pct_power": 0.6796882751733131
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+15m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.4163930499899693,
+   "median_r": -0.4423199490121196,
+   "trimmed10_mean_r": -0.5481381381309816,
+   "win_rate_pct": 39.53488372093023,
+   "p_signflip": 0.8650674662668666,
+   "min_detectable_mean_r_80pct_power": 0.697110545720294
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+15m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.15165104863176732,
+   "median_r": 0.15118681808061407,
+   "trimmed10_mean_r": 0.18162770494901387,
+   "win_rate_pct": 52.77777777777778,
+   "p_signflip": 0.2463768115942029,
+   "min_detectable_mean_r_80pct_power": 0.5837092955854091
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+60m|all": {
+   "trades": 72,
+   "mean_r": -0.5160445327058786,
+   "median_r": -0.29935238543781156,
+   "trimmed10_mean_r": -0.3764698741269987,
+   "win_rate_pct": 43.05555555555556,
+   "p_signflip": 0.9570214892553723,
+   "min_detectable_mean_r_80pct_power": 0.6610271797229705
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+60m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.532876279986055,
+   "median_r": -0.29731005621562656,
+   "trimmed10_mean_r": -0.37807046691218443,
+   "win_rate_pct": 43.333333333333336,
+   "p_signflip": 0.9250374812593704,
+   "min_detectable_mean_r_80pct_power": 0.7782267629070773
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+60m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.5506861543551747,
+   "median_r": -0.4815504400812332,
+   "trimmed10_mean_r": -0.6355476099910305,
+   "win_rate_pct": 32.55813953488372,
+   "p_signflip": 0.9540229885057471,
+   "min_detectable_mean_r_80pct_power": 0.6654032815175722
+  },
+  "XAUUSDm|candles 2020-26|entry T-60m|exit T+60m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.4368286601483919,
+   "median_r": 0.2498717061178647,
+   "trimmed10_mean_r": 0.30009902344484746,
+   "win_rate_pct": 56.94444444444444,
+   "p_signflip": 0.04047976011994003,
+   "min_detectable_mean_r_80pct_power": 0.6568793807843442
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+15m|all": {
+   "trades": 72,
+   "mean_r": -0.2741962238783803,
+   "median_r": -0.20052286075418063,
+   "trimmed10_mean_r": -0.27035736398454935,
+   "win_rate_pct": 43.05555555555556,
+   "p_signflip": 0.8505747126436781,
+   "min_detectable_mean_r_80pct_power": 0.5397104077694506
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+15m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.27531250198108215,
+   "median_r": -0.20052286075418063,
+   "trimmed10_mean_r": -0.2696085704022925,
+   "win_rate_pct": 43.333333333333336,
+   "p_signflip": 0.84007996001999,
+   "min_detectable_mean_r_80pct_power": 0.6216209398397714
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+15m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.6011523601101721,
+   "median_r": -0.4328853626942903,
+   "trimmed10_mean_r": -0.5946440483890053,
+   "win_rate_pct": 32.55813953488372,
+   "p_signflip": 0.9615192403798101,
+   "min_detectable_mean_r_80pct_power": 0.6945714680234307
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+15m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.19657027741113436,
+   "median_r": 0.15405915351667054,
+   "trimmed10_mean_r": 0.19441458855250632,
+   "win_rate_pct": 56.94444444444444,
+   "p_signflip": 0.14392803598200898,
+   "min_detectable_mean_r_80pct_power": 0.5389722379776206
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+60m|all": {
+   "trades": 72,
+   "mean_r": -0.5227704464436879,
+   "median_r": -0.26232787528836,
+   "trimmed10_mean_r": -0.3653038780512766,
+   "win_rate_pct": 38.88888888888889,
+   "p_signflip": 0.9795102448775612,
+   "min_detectable_mean_r_80pct_power": 0.5680334760241208
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+60m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.56174958528949,
+   "median_r": -0.2689056531550165,
+   "trimmed10_mean_r": -0.37873579327835283,
+   "win_rate_pct": 38.333333333333336,
+   "p_signflip": 0.984007996001999,
+   "min_detectable_mean_r_80pct_power": 0.6625325464888644
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+60m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.7306811356017427,
+   "median_r": -0.3594054580896428,
+   "trimmed10_mean_r": -0.6663452262165487,
+   "win_rate_pct": 25.581395348837212,
+   "p_signflip": 0.9815092453773113,
+   "min_detectable_mean_r_80pct_power": 0.7316358491577224
+  },
+  "XAUUSDm|candles 2020-26|entry T-30m|exit T+60m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.4483208133975373,
+   "median_r": 0.20172085846709004,
+   "trimmed10_mean_r": 0.29192572612674167,
+   "win_rate_pct": 58.333333333333336,
+   "p_signflip": 0.012993503248375811,
+   "min_detectable_mean_r_80pct_power": 0.5668611274118923
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+15m|all": {
+   "trades": 72,
+   "mean_r": -0.21998131204750881,
+   "median_r": -0.19907114531093836,
+   "trimmed10_mean_r": -0.20182217446523032,
+   "win_rate_pct": 40.27777777777778,
+   "p_signflip": 0.8345827086456772,
+   "min_detectable_mean_r_80pct_power": 0.4673392439630346
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.2432855845651419,
+   "median_r": -0.20924679747395417,
+   "trimmed10_mean_r": -0.23073880552792525,
+   "win_rate_pct": 40.0,
+   "p_signflip": 0.847576211894053,
+   "min_detectable_mean_r_80pct_power": 0.5458830662326375
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.455727213373178,
+   "median_r": -0.3295625942684892,
+   "trimmed10_mean_r": -0.4345159988919419,
+   "win_rate_pct": 32.55813953488372,
+   "p_signflip": 0.9475262368815592,
+   "min_detectable_mean_r_80pct_power": 0.5790855619911117
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.1562724938833213,
+   "median_r": 0.15953647403265092,
+   "trimmed10_mean_r": 0.13915256008869242,
+   "win_rate_pct": 58.333333333333336,
+   "p_signflip": 0.1774112943528236,
+   "min_detectable_mean_r_80pct_power": 0.46770370002361245
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+60m|all": {
+   "trades": 72,
+   "mean_r": -0.44272839639202105,
+   "median_r": -0.3172806085416191,
+   "trimmed10_mean_r": -0.31268453910660116,
+   "win_rate_pct": 38.88888888888889,
+   "p_signflip": 0.9815092453773113,
+   "min_detectable_mean_r_80pct_power": 0.49852323918353286
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+60m|excluding 2020": {
+   "trades": 60,
+   "mean_r": -0.48388703409093475,
+   "median_r": -0.32785448178604315,
+   "trimmed10_mean_r": -0.33939983256822687,
+   "win_rate_pct": 40.0,
+   "p_signflip": 0.9750124937531235,
+   "min_detectable_mean_r_80pct_power": 0.58832108778057
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+60m|large ADP surprises": {
+   "trades": 43,
+   "mean_r": -0.5866779291631999,
+   "median_r": -0.341110454813935,
+   "trimmed10_mean_r": -0.5490871831785038,
+   "win_rate_pct": 25.581395348837212,
+   "p_signflip": 0.9890054972513743,
+   "min_detectable_mean_r_80pct_power": 0.6127017541566039
+  },
+  "XAUUSDm|candles 2020-26|entry T-15m|exit T+60m|reversed direction": {
+   "trades": 72,
+   "mean_r": 0.3814920965451341,
+   "median_r": 0.2348080501850461,
+   "trimmed10_mean_r": 0.25172616939009534,
+   "win_rate_pct": 58.333333333333336,
+   "p_signflip": 0.020989505247376312,
+   "min_detectable_mean_r_80pct_power": 0.4973645313507116
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.08441714031221151,
+   "median_r": -0.2310924369748064,
+   "trimmed10_mean_r": -0.0005403606070975237,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.25337331334332835,
+   "min_detectable_mean_r_80pct_power": 0.5691975238828697
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.08441714031221151,
+   "median_r": -0.2310924369748064,
+   "trimmed10_mean_r": -0.0005403606070975237,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.2798600699650175,
+   "min_detectable_mean_r_80pct_power": 0.5691975238828697
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.3180110621832908,
+   "median_r": -0.2384741695086473,
+   "trimmed10_mean_r": -0.29150684817497524,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.5382308845577212,
+   "min_detectable_mean_r_80pct_power": 0.8030055225533086
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.21516044324916792,
+   "median_r": 0.1806722689075301,
+   "trimmed10_mean_r": -0.12177858570763608,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.7256371814092953,
+   "min_detectable_mean_r_80pct_power": 0.5749824527993634
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": 0.11093090525357456,
+   "median_r": -0.11870503597128164,
+   "trimmed10_mean_r": 0.04061605443297248,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.22538730634682658,
+   "min_detectable_mean_r_80pct_power": 0.49480895850539663
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.11093090525357456,
+   "median_r": -0.11870503597128164,
+   "trimmed10_mean_r": 0.04061605443297248,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.223888055972014,
+   "min_detectable_mean_r_80pct_power": 0.49480895850539663
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.19605161278549887,
+   "median_r": -0.39501367557326394,
+   "trimmed10_mean_r": -0.21230149954080788,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.41529235382308843,
+   "min_detectable_mean_r_80pct_power": 0.7480291725785477
+  },
+  "EURUSDm|ticks 2016-19|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.232352497823583,
+   "median_r": 0.020202020201927316,
+   "trimmed10_mean_r": -0.15572578794994507,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.7821089455272364,
+   "min_detectable_mean_r_80pct_power": 0.49871502360628983
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.06236466041670105,
+   "median_r": -0.1952380952381063,
+   "trimmed10_mean_r": 0.007764765215725356,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2478760619690155,
+   "min_detectable_mean_r_80pct_power": 0.4934242263730725
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.06236466041670105,
+   "median_r": -0.1952380952381063,
+   "trimmed10_mean_r": 0.007764765215725356,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2448775612193903,
+   "min_detectable_mean_r_80pct_power": 0.4934242263730725
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.2502161511818173,
+   "median_r": -0.1684692500481671,
+   "trimmed10_mean_r": -0.22749504826597913,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.5387306346826587,
+   "min_detectable_mean_r_80pct_power": 0.7875324076828841
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.18237074870771328,
+   "median_r": 0.13095238095239353,
+   "trimmed10_mean_r": -0.12174504505898537,
+   "win_rate_pct": 53.191489361702125,
+   "p_signflip": 0.7411294352823589,
+   "min_detectable_mean_r_80pct_power": 0.49664083662600667
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": 0.07055026758889521,
+   "median_r": -0.11336032388656433,
+   "trimmed10_mean_r": 0.023774129952213008,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.23238380809595202,
+   "min_detectable_mean_r_80pct_power": 0.42429190872348893
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.07055026758889521,
+   "median_r": -0.11336032388656433,
+   "trimmed10_mean_r": 0.023774129952213008,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2303848075962019,
+   "min_detectable_mean_r_80pct_power": 0.42429190872348893
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.18681550610690464,
+   "median_r": -0.42737373737373396,
+   "trimmed10_mean_r": -0.21296967799010874,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.4352823588205897,
+   "min_detectable_mean_r_80pct_power": 0.711975408076677
+  },
+  "EURUSDm|ticks 2016-19|entry T-5m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.18087693065168303,
+   "median_r": -0.004048582995977622,
+   "trimmed10_mean_r": -0.13195093352064208,
+   "win_rate_pct": 48.93617021276596,
+   "p_signflip": 0.7716141929035483,
+   "min_detectable_mean_r_80pct_power": 0.42517609315600596
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.04908740867633055,
+   "median_r": -0.13596491228067697,
+   "trimmed10_mean_r": -0.015686882113625577,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.26936531734132935,
+   "min_detectable_mean_r_80pct_power": 0.46937190290485287
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.04908740867633055,
+   "median_r": -0.13596491228067697,
+   "trimmed10_mean_r": -0.015686882113625577,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2813593203398301,
+   "min_detectable_mean_r_80pct_power": 0.46937190290485287
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.22287386875752382,
+   "median_r": -0.13274291497975957,
+   "trimmed10_mean_r": -0.2594557768508273,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.551224387806097,
+   "min_detectable_mean_r_80pct_power": 0.7089244682201673
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.1676347962504408,
+   "median_r": 0.0635964912280531,
+   "trimmed10_mean_r": -0.09913050995169814,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.7421289355322339,
+   "min_detectable_mean_r_80pct_power": 0.4715704451904186
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": 0.04360725443174644,
+   "median_r": -0.07692307692305979,
+   "trimmed10_mean_r": 0.005823672366931934,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2703648175912044,
+   "min_detectable_mean_r_80pct_power": 0.4155922372723581
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.04360725443174644,
+   "median_r": -0.07692307692305979,
+   "trimmed10_mean_r": 0.005823672366931934,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2563718140929535,
+   "min_detectable_mean_r_80pct_power": 0.4155922372723581
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.19873521590275278,
+   "median_r": -0.22922459067037562,
+   "trimmed10_mean_r": -0.21820183167842813,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.45177411294352826,
+   "min_detectable_mean_r_80pct_power": 0.714307048265859
+  },
+  "EURUSDm|ticks 2016-19|entry T-1m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.15351794100904903,
+   "median_r": -0.016722408026790873,
+   "trimmed10_mean_r": -0.11092411066397091,
+   "win_rate_pct": 48.93617021276596,
+   "p_signflip": 0.7371314342828585,
+   "min_detectable_mean_r_80pct_power": 0.41467088025123466
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.41582470632493845,
+   "median_r": -0.15384615384612757,
+   "trimmed10_mean_r": -0.3441279974338562,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7596201899050474,
+   "min_detectable_mean_r_80pct_power": 0.9238391903847331
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.41582470632493845,
+   "median_r": -0.15384615384612757,
+   "trimmed10_mean_r": -0.3441279974338562,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7811094452773614,
+   "min_detectable_mean_r_80pct_power": 0.9238391903847331
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.8651702285003275,
+   "median_r": -1.2239010989011927,
+   "trimmed10_mean_r": -0.8857762146566847,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9020489755122438,
+   "min_detectable_mean_r_80pct_power": 1.367306808740794
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.27663773934156105,
+   "median_r": 0.0,
+   "trimmed10_mean_r": 0.20169059034852235,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.20339830084957522,
+   "min_detectable_mean_r_80pct_power": 0.925891349594966
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.6546465246299261,
+   "median_r": -0.4274809160305635,
+   "trimmed10_mean_r": -0.550740945185726,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.8800599700149925,
+   "min_detectable_mean_r_80pct_power": 1.0490677125905896
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.6546465246299261,
+   "median_r": -0.4274809160305635,
+   "trimmed10_mean_r": -0.550740945185726,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.8860569715142429,
+   "min_detectable_mean_r_80pct_power": 1.0490677125905896
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.19936177257587,
+   "median_r": -1.077227498869246,
+   "trimmed10_mean_r": -1.214304923244706,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9740129935032483,
+   "min_detectable_mean_r_80pct_power": 1.3358003960516385
+  },
+  "EURUSDm|candles 2020-26|entry T-60m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.5150153213997969,
+   "median_r": 0.34090909090919796,
+   "trimmed10_mean_r": 0.41040724244249344,
+   "win_rate_pct": 53.65853658536586,
+   "p_signflip": 0.11744127936031984,
+   "min_detectable_mean_r_80pct_power": 1.0509317667088438
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.28961014942344565,
+   "median_r": -0.014084507042346022,
+   "trimmed10_mean_r": -0.2526578519892166,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7791104447776112,
+   "min_detectable_mean_r_80pct_power": 0.8530467517395711
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.28961014942344565,
+   "median_r": -0.014084507042346022,
+   "trimmed10_mean_r": -0.2526578519892166,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7581209395302348,
+   "min_detectable_mean_r_80pct_power": 0.8530467517395711
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.827834599960449,
+   "median_r": -1.0502026529108601,
+   "trimmed10_mean_r": -0.8091984027982172,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9620189905047476,
+   "min_detectable_mean_r_80pct_power": 1.0110887636827832
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.17884236961141622,
+   "median_r": -0.12676056338017597,
+   "trimmed10_mean_r": 0.14574532127064582,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.23738130934532733,
+   "min_detectable_mean_r_80pct_power": 0.8541382690861649
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.5061837549999012,
+   "median_r": -0.3921568627450468,
+   "trimmed10_mean_r": -0.4654395212907945,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.8745627186406797,
+   "min_detectable_mean_r_80pct_power": 0.9203554627859782
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.5061837549999012,
+   "median_r": -0.3921568627450468,
+   "trimmed10_mean_r": -0.4654395212907945,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.8705647176411794,
+   "min_detectable_mean_r_80pct_power": 0.9203554627859782
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.1529013183727215,
+   "median_r": -1.121499631540296,
+   "trimmed10_mean_r": -1.0679777105639645,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9910044977511244,
+   "min_detectable_mean_r_80pct_power": 1.057353135165942
+  },
+  "EURUSDm|candles 2020-26|entry T-30m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.3948105505398199,
+   "median_r": 0.25000000000010675,
+   "trimmed10_mean_r": 0.3527930362615477,
+   "win_rate_pct": 56.09756097560976,
+   "p_signflip": 0.10444777611194403,
+   "min_detectable_mean_r_80pct_power": 0.9202539974062603
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.409269115084691,
+   "median_r": 0.20270270270269053,
+   "trimmed10_mean_r": -0.273649113666548,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.8545727136431784,
+   "min_detectable_mean_r_80pct_power": 0.8347594198483294
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.409269115084691,
+   "median_r": 0.20270270270269053,
+   "trimmed10_mean_r": -0.273649113666548,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.856071964017991,
+   "min_detectable_mean_r_80pct_power": 0.8347594198483294
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.6931456058197785,
+   "median_r": -0.5969510106201195,
+   "trimmed10_mean_r": -0.5354517757671717,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.9000499750124937,
+   "min_detectable_mean_r_80pct_power": 1.0998395979610336
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.3068032323747546,
+   "median_r": -0.2270270270270554,
+   "trimmed10_mean_r": 0.17518246331104945,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.14842578710644677,
+   "min_detectable_mean_r_80pct_power": 0.8315822733396779
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.5545803543758855,
+   "median_r": -0.2590909090908669,
+   "trimmed10_mean_r": -0.4701521520237749,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.8960519740129935,
+   "min_detectable_mean_r_80pct_power": 0.8907209043793726
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.5545803543758855,
+   "median_r": -0.2590909090908669,
+   "trimmed10_mean_r": -0.4701521520237749,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.9120439780109945,
+   "min_detectable_mean_r_80pct_power": 0.8907209043793726
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.8588824326529079,
+   "median_r": -0.6381549484997404,
+   "trimmed10_mean_r": -0.7281970046699086,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9690154922538731,
+   "min_detectable_mean_r_80pct_power": 1.001075954033613
+  },
+  "EURUSDm|candles 2020-26|entry T-15m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.45145156210942666,
+   "median_r": 0.17727272727266122,
+   "trimmed10_mean_r": 0.36828547976994597,
+   "win_rate_pct": 56.09756097560976,
+   "p_signflip": 0.08395802098950525,
+   "min_detectable_mean_r_80pct_power": 0.8881002649777022
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.013592365199967359,
+   "median_r": -0.1156716417910355,
+   "trimmed10_mean_r": -0.02748472810265679,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.3843078460769615,
+   "min_detectable_mean_r_80pct_power": 0.3119971487254072
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.013592365199967359,
+   "median_r": -0.1156716417910355,
+   "trimmed10_mean_r": -0.02748472810265679,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.39930034982508744,
+   "min_detectable_mean_r_80pct_power": 0.3119971487254072
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.1687886260292689,
+   "median_r": -0.1380575117370504,
+   "trimmed10_mean_r": -0.23835761526705004,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.5342328835582209,
+   "min_detectable_mean_r_80pct_power": 0.6330421878373564
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.08498743954891151,
+   "median_r": 0.028037383177590264,
+   "trimmed10_mean_r": -0.06250665205432226,
+   "win_rate_pct": 53.191489361702125,
+   "p_signflip": 0.6066966516741629,
+   "min_detectable_mean_r_80pct_power": 0.31558505977678053
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.04374742302851413,
+   "median_r": -0.15613382899621472,
+   "trimmed10_mean_r": -0.07040467273602004,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.5557221389305347,
+   "min_detectable_mean_r_80pct_power": 0.3199316678766561
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.04374742302851413,
+   "median_r": -0.15613382899621472,
+   "trimmed10_mean_r": -0.07040467273602004,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.5602198900549725,
+   "min_detectable_mean_r_80pct_power": 0.3199316678766561
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.2353079819426592,
+   "median_r": -0.4003140464407991,
+   "trimmed10_mean_r": -0.3007743316513162,
+   "win_rate_pct": 18.75,
+   "p_signflip": 0.6041979010494752,
+   "min_detectable_mean_r_80pct_power": 0.6628558739277558
+  },
+  "GBPUSDm|ticks 2016-19|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.04936247547109069,
+   "median_r": 0.052044609665432416,
+   "trimmed10_mean_r": -0.012796199920454275,
+   "win_rate_pct": 57.446808510638306,
+   "p_signflip": 0.456271864067966,
+   "min_detectable_mean_r_80pct_power": 0.321785520139736
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.07867228057716553,
+   "median_r": -0.08528428093645522,
+   "trimmed10_mean_r": -0.0750645498283112,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.5492253873063468,
+   "min_detectable_mean_r_80pct_power": 0.2683989904545962
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.07867228057716553,
+   "median_r": -0.08528428093645522,
+   "trimmed10_mean_r": -0.0750645498283112,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.5342328835582209,
+   "min_detectable_mean_r_80pct_power": 0.2683989904545962
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.26405076446108433,
+   "median_r": -0.19321847507329104,
+   "trimmed10_mean_r": -0.26495041150367393,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.559720139930035,
+   "min_detectable_mean_r_80pct_power": 0.47356206001723117
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.014829501360128153,
+   "median_r": 0.03511705685615687,
+   "trimmed10_mean_r": -0.013331961186717516,
+   "win_rate_pct": 53.191489361702125,
+   "p_signflip": 0.46476761619190404,
+   "min_detectable_mean_r_80pct_power": 0.26632208035010163
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.09551465321212284,
+   "median_r": -0.09230769230769362,
+   "trimmed10_mean_r": -0.1142062111769759,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.664167916041979,
+   "min_detectable_mean_r_80pct_power": 0.2572423677434288
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.09551465321212284,
+   "median_r": -0.09230769230769362,
+   "trimmed10_mean_r": -0.1142062111769759,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.6406796601699151,
+   "min_detectable_mean_r_80pct_power": 0.2572423677434288
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.34077395730057114,
+   "median_r": -0.3483278631217407,
+   "trimmed10_mean_r": -0.39640523497920294,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.6906546726636682,
+   "min_detectable_mean_r_80pct_power": 0.47653534555323523
+  },
+  "GBPUSDm|ticks 2016-19|entry T-5m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": 0.007189961006958737,
+   "median_r": 0.0027322404371157042,
+   "trimmed10_mean_r": 0.02902191550345961,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.34382808595702147,
+   "min_detectable_mean_r_80pct_power": 0.2547781812835877
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": -0.06856260400331628,
+   "median_r": -0.08144796380089248,
+   "trimmed10_mean_r": -0.08218076178496142,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.49725137431284355,
+   "min_detectable_mean_r_80pct_power": 0.2762464584705503
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.06856260400331628,
+   "median_r": -0.08144796380089248,
+   "trimmed10_mean_r": -0.08218076178496142,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.5007496251874063,
+   "min_detectable_mean_r_80pct_power": 0.2762464584705503
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.24936614965635243,
+   "median_r": -0.2089102564102332,
+   "trimmed10_mean_r": -0.2628491682582713,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.5502248875562219,
+   "min_detectable_mean_r_80pct_power": 0.48039204339620484
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.03436191042459086,
+   "median_r": 0.031674208144805475,
+   "trimmed10_mean_r": -0.014680136056389377,
+   "win_rate_pct": 53.191489361702125,
+   "p_signflip": 0.4992503748125937,
+   "min_detectable_mean_r_80pct_power": 0.27409337372289205
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.08791447547221636,
+   "median_r": -0.15977961432508453,
+   "trimmed10_mean_r": -0.1054707810682579,
+   "win_rate_pct": 38.297872340425535,
+   "p_signflip": 0.623688155922039,
+   "min_detectable_mean_r_80pct_power": 0.2721311616975798
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.08791447547221636,
+   "median_r": -0.15977961432508453,
+   "trimmed10_mean_r": -0.1054707810682579,
+   "win_rate_pct": 38.297872340425535,
+   "p_signflip": 0.6306846576711644,
+   "min_detectable_mean_r_80pct_power": 0.2721311616975798
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.32549364783683743,
+   "median_r": -0.3571002024291573,
+   "trimmed10_mean_r": -0.3815270285527927,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.7001499250374813,
+   "min_detectable_mean_r_80pct_power": 0.47533277373443417
+  },
+  "GBPUSDm|ticks 2016-19|entry T-1m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.00997121097321138,
+   "median_r": 0.07713498622585437,
+   "trimmed10_mean_r": 0.009162946496460246,
+   "win_rate_pct": 53.191489361702125,
+   "p_signflip": 0.37231384307846077,
+   "min_detectable_mean_r_80pct_power": 0.26964946431730324
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.4230380496806914,
+   "median_r": -0.05292479108635778,
+   "trimmed10_mean_r": -0.27868722001938645,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.8390804597701149,
+   "min_detectable_mean_r_80pct_power": 0.8758397733305263
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.4230380496806914,
+   "median_r": -0.05292479108635778,
+   "trimmed10_mean_r": -0.27868722001938645,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.8460769615192404,
+   "min_detectable_mean_r_80pct_power": 0.8758397733305263
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.0149034702755384,
+   "median_r": -0.7968679964140719,
+   "trimmed10_mean_r": -0.8416060032077282,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.9270364817591205,
+   "min_detectable_mean_r_80pct_power": 1.4543984852555232
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.30555940022864925,
+   "median_r": 0.022284122562696494,
+   "trimmed10_mean_r": 0.16353963685848702,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.16041979010494753,
+   "min_detectable_mean_r_80pct_power": 0.8781977315489965
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.4823360595107587,
+   "median_r": -0.31415929203537213,
+   "trimmed10_mean_r": -0.36355946979295495,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.8490754622688655,
+   "min_detectable_mean_r_80pct_power": 0.9867479621333974
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.4823360595107587,
+   "median_r": -0.31415929203537213,
+   "trimmed10_mean_r": -0.36355946979295495,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.8515742128935532,
+   "min_detectable_mean_r_80pct_power": 0.9867479621333974
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.231183739907504,
+   "median_r": -0.7161778780421191,
+   "trimmed10_mean_r": -1.0399897919125114,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9715142428785607,
+   "min_detectable_mean_r_80pct_power": 1.4465856970632947
+  },
+  "GBPUSDm|candles 2020-26|entry T-60m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.36591509713774917,
+   "median_r": 0.20796460176988454,
+   "trimmed10_mean_r": 0.24571623739534093,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.1664167916041979,
+   "min_detectable_mean_r_80pct_power": 0.98924491979366
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.27110578958862414,
+   "median_r": 0.17675544794189207,
+   "trimmed10_mean_r": -0.2543789467702255,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.744127936031984,
+   "min_detectable_mean_r_80pct_power": 0.7837362515869819
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.27110578958862414,
+   "median_r": 0.17675544794189207,
+   "trimmed10_mean_r": -0.2543789467702255,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.728135932033983,
+   "min_detectable_mean_r_80pct_power": 0.7837362515869819
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.7930091903354054,
+   "median_r": -0.7203188697157398,
+   "trimmed10_mean_r": -0.7958393320692684,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.9410294852573713,
+   "min_detectable_mean_r_80pct_power": 1.1021030794767035
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.1530381103746157,
+   "median_r": -0.20338983050846454,
+   "trimmed10_mean_r": 0.13726484511555959,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.2733633183408296,
+   "min_detectable_mean_r_80pct_power": 0.7894431743405245
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.27509862468005897,
+   "median_r": -0.2950000000000777,
+   "trimmed10_mean_r": -0.2931518322140423,
+   "win_rate_pct": 39.02439024390244,
+   "p_signflip": 0.6946526736631684,
+   "min_detectable_mean_r_80pct_power": 0.907916320719274
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.27509862468005897,
+   "median_r": -0.2950000000000777,
+   "trimmed10_mean_r": -0.2931518322140423,
+   "win_rate_pct": 39.02439024390244,
+   "p_signflip": 0.7026486756621689,
+   "min_detectable_mean_r_80pct_power": 0.907916320719274
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.0049107445362768,
+   "median_r": -1.0131712259372123,
+   "trimmed10_mean_r": -1.0079080892371117,
+   "win_rate_pct": 25.0,
+   "p_signflip": 0.9770114942528736,
+   "min_detectable_mean_r_80pct_power": 1.1059956957176094
+  },
+  "GBPUSDm|candles 2020-26|entry T-30m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.15758796781594842,
+   "median_r": 0.1952380952381063,
+   "trimmed10_mean_r": 0.174910338326152,
+   "win_rate_pct": 58.536585365853654,
+   "p_signflip": 0.29185407296351823,
+   "min_detectable_mean_r_80pct_power": 0.9149536101933252
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.27516278648190223,
+   "median_r": -0.0013157894736636052,
+   "trimmed10_mean_r": -0.179334840443653,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7731134432783608,
+   "min_detectable_mean_r_80pct_power": 0.726176467787057
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.27516278648190223,
+   "median_r": -0.0013157894736636052,
+   "trimmed10_mean_r": -0.179334840443653,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.7406296851574213,
+   "min_detectable_mean_r_80pct_power": 0.726176467787057
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.5386278214572167,
+   "median_r": -0.4611062780919149,
+   "trimmed10_mean_r": -0.49338224902725203,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.856071964017991,
+   "min_detectable_mean_r_80pct_power": 1.0602581987835076
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.1820113028108011,
+   "median_r": -0.026315789473681135,
+   "trimmed10_mean_r": 0.08693287321843049,
+   "win_rate_pct": 48.78048780487805,
+   "p_signflip": 0.2478760619690155,
+   "min_detectable_mean_r_80pct_power": 0.7271685647076879
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.265196064884593,
+   "median_r": -0.37583892617450215,
+   "trimmed10_mean_r": -0.28058903830143467,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.7436281859070465,
+   "min_detectable_mean_r_80pct_power": 0.7693800899230201
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.265196064884593,
+   "median_r": -0.37583892617450215,
+   "trimmed10_mean_r": -0.28058903830143467,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.744127936031984,
+   "min_detectable_mean_r_80pct_power": 0.7693800899230201
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.687073133712312,
+   "median_r": -0.7361111111111327,
+   "trimmed10_mean_r": -0.6615995040855684,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9470264867566217,
+   "min_detectable_mean_r_80pct_power": 0.9189220692962795
+  },
+  "GBPUSDm|candles 2020-26|entry T-15m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.17288716436740298,
+   "median_r": 0.3087248322147776,
+   "trimmed10_mean_r": 0.18715765787158367,
+   "win_rate_pct": 53.65853658536586,
+   "p_signflip": 0.2538730634682659,
+   "min_detectable_mean_r_80pct_power": 0.7712262474943518
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.12753950474633702,
+   "median_r": -0.25233644859807497,
+   "trimmed10_mean_r": 0.07937638359200257,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.239880059970015,
+   "min_detectable_mean_r_80pct_power": 0.7318958682006506
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.12753950474633702,
+   "median_r": -0.25233644859807497,
+   "trimmed10_mean_r": 0.07937638359200257,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2158920539730135,
+   "min_detectable_mean_r_80pct_power": 0.7318958682006506
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.3402131510326369,
+   "median_r": -0.48406298003070636,
+   "trimmed10_mean_r": -0.27367611704365613,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.6571714142928535,
+   "min_detectable_mean_r_80pct_power": 1.4076453249473506
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.31000724741641295,
+   "median_r": 0.0653594771242079,
+   "trimmed10_mean_r": -0.25279510616820644,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.7736131934032984,
+   "min_detectable_mean_r_80pct_power": 0.7382949580166159
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": 0.06843575987931347,
+   "median_r": -0.3443708609272377,
+   "trimmed10_mean_r": -0.06013483985075274,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.280359820089955,
+   "min_detectable_mean_r_80pct_power": 0.7367912898717541
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.06843575987931347,
+   "median_r": -0.3443708609272377,
+   "trimmed10_mean_r": -0.06013483985075274,
+   "win_rate_pct": 42.5531914893617,
+   "p_signflip": 0.2733633183408296,
+   "min_detectable_mean_r_80pct_power": 0.7367912898717541
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.3594273463296367,
+   "median_r": -0.9557481751823634,
+   "trimmed10_mean_r": -0.47780806653072183,
+   "win_rate_pct": 37.5,
+   "p_signflip": 0.5757121439280359,
+   "min_detectable_mean_r_80pct_power": 1.5262332967640924
+  },
+  "USDJPYm|ticks 2016-19|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.23717853214665327,
+   "median_r": 0.19867549668877288,
+   "trimmed10_mean_r": -0.10342780683393446,
+   "win_rate_pct": 55.319148936170215,
+   "p_signflip": 0.7021489255372314,
+   "min_detectable_mean_r_80pct_power": 0.7397934173117936
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.09131048881233682,
+   "median_r": -0.2444444444444971,
+   "trimmed10_mean_r": 0.05289692735618271,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.2988505747126437,
+   "min_detectable_mean_r_80pct_power": 0.7132156913009621
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.09131048881233682,
+   "median_r": -0.2444444444444971,
+   "trimmed10_mean_r": 0.05289692735618271,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.27636181909045476,
+   "min_detectable_mean_r_80pct_power": 0.7132156913009621
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.47419827228588673,
+   "median_r": -0.5336576735957369,
+   "trimmed10_mean_r": -0.3482040128645893,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.777111444277861,
+   "min_detectable_mean_r_80pct_power": 1.2133397418378054
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.2661434673417891,
+   "median_r": 0.1326530612245253,
+   "trimmed10_mean_r": -0.21650283583647634,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.704647676161919,
+   "min_detectable_mean_r_80pct_power": 0.7182197115375784
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": 0.010279940812025021,
+   "median_r": -0.46545454545453624,
+   "trimmed10_mean_r": -0.1305571474481473,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.36281859070464767,
+   "min_detectable_mean_r_80pct_power": 0.7040539753442011
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.010279940812025021,
+   "median_r": -0.46545454545453624,
+   "trimmed10_mean_r": -0.1305571474481473,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.3708145927036482,
+   "min_detectable_mean_r_80pct_power": 0.7040539753442011
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.5572125285814942,
+   "median_r": -0.7334994290459379,
+   "trimmed10_mean_r": -0.5869850116561937,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.7741129435282359,
+   "min_detectable_mean_r_80pct_power": 1.1982568607059045
+  },
+  "USDJPYm|ticks 2016-19|entry T-5m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.17234474259592586,
+   "median_r": 0.2878787878788597,
+   "trimmed10_mean_r": -0.023001463561977308,
+   "win_rate_pct": 57.446808510638306,
+   "p_signflip": 0.6421789105447276,
+   "min_detectable_mean_r_80pct_power": 0.7059246613420855
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+5m|all": {
+   "trades": 47,
+   "mean_r": 0.048370477772100594,
+   "median_r": -0.1755593803786675,
+   "trimmed10_mean_r": 0.00892387260709877,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.32083958020989506,
+   "min_detectable_mean_r_80pct_power": 0.6221475960314045
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+5m|excluding 2020": {
+   "trades": 47,
+   "mean_r": 0.048370477772100594,
+   "median_r": -0.1755593803786675,
+   "trimmed10_mean_r": 0.00892387260709877,
+   "win_rate_pct": 44.680851063829785,
+   "p_signflip": 0.30834582708645675,
+   "min_detectable_mean_r_80pct_power": 0.6221475960314045
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+5m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.425198645207196,
+   "median_r": -0.3233752620545197,
+   "trimmed10_mean_r": -0.31941436939394496,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.7776111944027986,
+   "min_detectable_mean_r_80pct_power": 1.022447231589057
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+5m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.21882580204160537,
+   "median_r": 0.12392426850258882,
+   "trimmed10_mean_r": -0.16745844984896693,
+   "win_rate_pct": 51.06382978723404,
+   "p_signflip": 0.655672163918041,
+   "min_detectable_mean_r_80pct_power": 0.6273707932918106
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+15m|all": {
+   "trades": 47,
+   "mean_r": -0.07257394082472801,
+   "median_r": -0.4244604316546711,
+   "trimmed10_mean_r": -0.1728471606865405,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.48825587206396803,
+   "min_detectable_mean_r_80pct_power": 0.6035614641926041
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+15m|excluding 2020": {
+   "trades": 47,
+   "mean_r": -0.07257394082472801,
+   "median_r": -0.4244604316546711,
+   "trimmed10_mean_r": -0.1728471606865405,
+   "win_rate_pct": 40.42553191489361,
+   "p_signflip": 0.48375812093953025,
+   "min_detectable_mean_r_80pct_power": 0.6035614641926041
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.5110509537411277,
+   "median_r": -0.7913310318373911,
+   "trimmed10_mean_r": -0.5480644926278776,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.7721139430284858,
+   "min_detectable_mean_r_80pct_power": 1.07761233627233
+  },
+  "USDJPYm|ticks 2016-19|entry T-1m|exit T+15m|reversed direction": {
+   "trades": 47,
+   "mean_r": -0.08653468307506672,
+   "median_r": 0.26020408163255543,
+   "trimmed10_mean_r": 0.020928861681569735,
+   "win_rate_pct": 57.446808510638306,
+   "p_signflip": 0.5297351324337831,
+   "min_detectable_mean_r_80pct_power": 0.6038828435460538
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.31271794608874004,
+   "median_r": 0.10493827160495289,
+   "trimmed10_mean_r": -0.2671856890825696,
+   "win_rate_pct": 53.65853658536586,
+   "p_signflip": 0.6731634182908546,
+   "min_detectable_mean_r_80pct_power": 1.2709263781168842
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.31271794608874004,
+   "median_r": 0.10493827160495289,
+   "trimmed10_mean_r": -0.2671856890825696,
+   "win_rate_pct": 53.65853658536586,
+   "p_signflip": 0.672663668165917,
+   "min_detectable_mean_r_80pct_power": 1.2709263781168842
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.2854524998312855,
+   "median_r": -0.8027720782211989,
+   "trimmed10_mean_r": -1.2394920490403132,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.9215392303848076,
+   "min_detectable_mean_r_80pct_power": 1.8182376762260366
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.19501778969214817,
+   "median_r": -0.26254180602003147,
+   "trimmed10_mean_r": 0.14580570786693203,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.36031984007996004,
+   "min_detectable_mean_r_80pct_power": 1.27087340314903
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.5557412220024482,
+   "median_r": -0.33430232558134493,
+   "trimmed10_mean_r": -0.459510272731775,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.7756121939030485,
+   "min_detectable_mean_r_80pct_power": 1.4717951234791473
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.5557412220024482,
+   "median_r": -0.33430232558134493,
+   "trimmed10_mean_r": -0.459510272731775,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.7841079460269865,
+   "min_detectable_mean_r_80pct_power": 1.4717951234791473
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.6757752062516815,
+   "median_r": -1.3899324256516217,
+   "trimmed10_mean_r": -1.4949280032901087,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.975512243878061,
+   "min_detectable_mean_r_80pct_power": 1.7808589984111822
+  },
+  "USDJPYm|candles 2020-26|entry T-60m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.4384987482514182,
+   "median_r": 0.2290969899665509,
+   "trimmed10_mean_r": 0.34244574198121674,
+   "win_rate_pct": 56.09756097560976,
+   "p_signflip": 0.23138430784607697,
+   "min_detectable_mean_r_80pct_power": 1.4730766521606813
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.3371476208502358,
+   "median_r": 0.055012224938878494,
+   "trimmed10_mean_r": -0.23120170533042234,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.7236381809095452,
+   "min_detectable_mean_r_80pct_power": 1.0967048292817587
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.3371476208502358,
+   "median_r": 0.055012224938878494,
+   "trimmed10_mean_r": -0.23120170533042234,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.7126436781609196,
+   "min_detectable_mean_r_80pct_power": 1.0967048292817587
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.116612727498658,
+   "median_r": -0.8488151128997595,
+   "trimmed10_mean_r": -1.0262817939660258,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.8835582208895553,
+   "min_detectable_mean_r_80pct_power": 1.8424559313359536
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.2057139463532043,
+   "median_r": -0.22884012539188137,
+   "trimmed10_mean_r": 0.09518113354631329,
+   "win_rate_pct": 43.90243902439025,
+   "p_signflip": 0.28085957021489255,
+   "min_detectable_mean_r_80pct_power": 1.0970088982437596
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.5327815983527983,
+   "median_r": -0.4363636363636439,
+   "trimmed10_mean_r": -0.49407398398294083,
+   "win_rate_pct": 39.02439024390244,
+   "p_signflip": 0.8345827086456772,
+   "min_detectable_mean_r_80pct_power": 1.1256095128958115
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.5327815983527983,
+   "median_r": -0.4363636363636439,
+   "trimmed10_mean_r": -0.49407398398294083,
+   "win_rate_pct": 39.02439024390244,
+   "p_signflip": 0.8190904547726137,
+   "min_detectable_mean_r_80pct_power": 1.1256095128958115
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.5012242086323102,
+   "median_r": -1.0961442413345606,
+   "trimmed10_mean_r": -1.4030430865095311,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9675162418790605,
+   "min_detectable_mean_r_80pct_power": 1.7018350979798869
+  },
+  "USDJPYm|candles 2020-26|entry T-30m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.40190105971625545,
+   "median_r": 0.3872340425531902,
+   "trimmed10_mean_r": 0.3537485437520088,
+   "win_rate_pct": 56.09756097560976,
+   "p_signflip": 0.18640679660169915,
+   "min_detectable_mean_r_80pct_power": 1.1272060440355036
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+15m|all": {
+   "trades": 41,
+   "mean_r": -0.21277983615540919,
+   "median_r": 0.09102244389028452,
+   "trimmed10_mean_r": -0.19431490510863905,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.6611694152923538,
+   "min_detectable_mean_r_80pct_power": 0.9418192572252697
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+15m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.21277983615540919,
+   "median_r": 0.09102244389028452,
+   "trimmed10_mean_r": -0.19431490510863905,
+   "win_rate_pct": 51.21951219512195,
+   "p_signflip": 0.6496751624187906,
+   "min_detectable_mean_r_80pct_power": 0.9418192572252697
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+15m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -0.7549823056657614,
+   "median_r": -0.5105769230769419,
+   "trimmed10_mean_r": -0.6746451034707649,
+   "win_rate_pct": 43.75,
+   "p_signflip": 0.8395802098950524,
+   "min_detectable_mean_r_80pct_power": 1.5638849577039928
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+15m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.1306248547600855,
+   "median_r": -0.241379310344867,
+   "trimmed10_mean_r": 0.1130511586148586,
+   "win_rate_pct": 46.34146341463415,
+   "p_signflip": 0.3453273363318341,
+   "min_detectable_mean_r_80pct_power": 0.9435522590038722
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+60m|all": {
+   "trades": 41,
+   "mean_r": -0.3982978298279322,
+   "median_r": -0.38297872340419314,
+   "trimmed10_mean_r": -0.3484174880640898,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.7961019490254873,
+   "min_detectable_mean_r_80pct_power": 1.023016311318408
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+60m|excluding 2020": {
+   "trades": 41,
+   "mean_r": -0.3982978298279322,
+   "median_r": -0.38297872340419314,
+   "trimmed10_mean_r": -0.3484174880640898,
+   "win_rate_pct": 41.46341463414634,
+   "p_signflip": 0.8120939530234883,
+   "min_detectable_mean_r_80pct_power": 1.023016311318408
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+60m|large ADP surprises": {
+   "trades": 16,
+   "mean_r": -1.1264670135352117,
+   "median_r": -1.297550366300503,
+   "trimmed10_mean_r": -0.9239803760045412,
+   "win_rate_pct": 31.25,
+   "p_signflip": 0.9435282358820589,
+   "min_detectable_mean_r_80pct_power": 1.5183745269557782
+  },
+  "USDJPYm|candles 2020-26|entry T-15m|exit T+60m|reversed direction": {
+   "trades": 41,
+   "mean_r": 0.3167835898534716,
+   "median_r": 0.3299492385787362,
+   "trimmed10_mean_r": 0.2659191143593996,
+   "win_rate_pct": 56.09756097560976,
+   "p_signflip": 0.20939530234882558,
+   "min_detectable_mean_r_80pct_power": 1.025479945456721
+  }
+ },
+ "test2_summary": {
+  "variants": 192,
+  "raw_p_le_0.05": 3,
+  "expected_by_luck": 9.600000000000001,
+  "bh_significant": [],
+  "positive_mean": 49
+ },
+ "generated_utc": "2026-11-12 16:55"
+}

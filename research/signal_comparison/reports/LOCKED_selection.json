@@ -1,0 +1,86 @@
+{
+ "BTCUSDm": {
+  "A1_DONCHIAN_TREND|BUY|SYM": {
+   "scale": 2.0
+  },
+  "A1_DONCHIAN_TREND|BUY|TRAIL": {
+   "scale": 1.0
+  },
+  "A1_DONCHIAN_TREND|SELL|SYM": {
+   "scale": 2.0
+  },
+  "A1_DONCHIAN_TREND|SELL|TRAIL": {
+   "scale": 2.0
+  },
+  "A2_COMBINED|BUY|SYM": {
+   "scale": 2.0
+  },
+  "A2_COMBINED|BUY|TRAIL": {
+   "scale": 1.0
+  },
+  "A2_COMBINED|SELL|SYM": {
+   "scale": 2.0
+  },
+  "A2_COMBINED|SELL|TRAIL": {
+   "scale": 2.0
+  },
+  "A3_VOTING|BUY|SYM": {
+   "k": 4,
+   "scale": 2.0
+  },
+  "A3_VOTING|BUY|TRAIL": {
+   "k": 4,
+   "scale": 1.0
+  },
+  "A3_VOTING|SELL|SYM": {
+   "k": 4,
+   "scale": 2.0
+  },
+  "A3_VOTING|SELL|TRAIL": {
+   "k": 5,
+   "scale": 2.0
+  }
+ },
+ "UKOILm": {
+  "A1_DONCHIAN_TREND|BUY|SYM": {
+   "scale": 2.0
+  },
+  "A1_DONCHIAN_TREND|BUY|TRAIL": {
+   "scale": 0.5
+  },
+  "A1_DONCHIAN_TREND|SELL|SYM": {
+   "scale": 2.0
+  },
+  "A1_DONCHIAN_TREND|SELL|TRAIL": {
+   "scale": 2.0
+  },
+  "A2_COMBINED|BUY|SYM": {
+   "scale": 2.0
+  },
+  "A2_COMBINED|BUY|TRAIL": {
+   "scale": 0.5
+  },
+  "A2_COMBINED|SELL|SYM": {
+   "scale": 1.0
+  },
+  "A2_COMBINED|SELL|TRAIL": {
+   "scale": 2.0
+  },
+  "A3_VOTING|BUY|SYM": {
+   "k": 5,
+   "scale": 2.0
+  },
+  "A3_VOTING|BUY|TRAIL": {
+   "k": 4,
+   "scale": 0.5
+  },
+  "A3_VOTING|SELL|SYM": {
+   "k": 5,
+   "scale": 1.0
+  },
+  "A3_VOTING|SELL|TRAIL": {
+   "k": 4,
+   "scale": 2.0
+  }
+ }
+}

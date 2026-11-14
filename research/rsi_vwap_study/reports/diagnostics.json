@@ -1,0 +1,45 @@
+{
+ "replication_independence": {
+  "eth_trades": 1203,
+  "eth_entries_within_1h_of_a_btc_entry_pct": 33.915211970074814,
+  "monthly_result_correlation": 0.5152680316832114,
+  "months": 83
+ },
+ "exness_spread": {
+  "trades_matched": 1194,
+  "mean_spread_cost_r": 0.05599024021143692,
+  "by_year_mean_r": {
+   "2020": 0.0965477944125186,
+   "2021": 0.06304000140906454,
+   "2022": 0.0691220700274795,
+   "2023": 0.07385147322820916,
+   "2024": 0.045481805781149666,
+   "2025": 0.02213214022069893,
+   "2026": 0.016067778215079976
+  },
+  "expectancy_exness_spread_plus_0_02pct_r": 0.13842216204196964,
+  "expectancy_2024_on_exness_spread_plus_0_02pct_r": 0.1767315470133726
+ },
+ "delay_15min": {
+  "trades": 1207,
+  "expectancy_primary_r": 0.16152858857208047,
+  "expectancy_no_delay_r": 0.1668518726888172
+ },
+ "swap": {
+  "swap_days_per_trade": 1.1739850869925434,
+  "trades_over_a_rollover_pct": 62.55178127589064,
+  "breakeven_swap_per_day_pct_of_price": 0.19081794025607698
+ },
+ "multiplicity_and_sample_size": {
+  "p_one_sided_btc": 0.005207294880191568,
+  "tests_in_this_study": 8,
+  "tests_in_research_program_at_least": 80,
+  "bonferroni_over_program": 0.41658359041532544,
+  "trades_per_year": 176.06100239616615,
+  "sd_r": 2.2592612773491694,
+  "forward_trades_needed_absolute_0_167R": 1477,
+  "years_absolute": 8.389137741454565,
+  "forward_trades_needed_relative_0_063R": 10373,
+  "years_relative": 58.9170790738715
+ }
+}

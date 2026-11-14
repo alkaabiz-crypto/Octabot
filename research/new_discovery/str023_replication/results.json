@@ -1,0 +1,62 @@
+{
+ "results": {
+  "SOLUSDm": {
+   "trades": 431,
+   "median_spread_pct": 0.6732,
+   "decision_cost_pct": 1.0098,
+   "mean_R_decision_cost": -0.3207,
+   "t_decision_cost": -3.17,
+   "mean_R_study_cost": 0.1465,
+   "random_mean_R_study_cost": 0.0832,
+   "p_random": 0.13943028485757122,
+   "avg_risk_pct_of_price": 2.517
+  },
+  "BNBUSDm": {
+   "trades": 448,
+   "median_spread_pct": 0.3553,
+   "decision_cost_pct": 0.533,
+   "mean_R_decision_cost": -0.3453,
+   "t_decision_cost": -3.81,
+   "mean_R_study_cost": 0.077,
+   "random_mean_R_study_cost": 0.0693,
+   "p_random": 0.46926536731634183,
+   "avg_risk_pct_of_price": 1.404
+  },
+  "XRPUSDm": {
+   "trades": 640,
+   "median_spread_pct": 0.2654,
+   "decision_cost_pct": 0.3981,
+   "mean_R_decision_cost": -0.1323,
+   "t_decision_cost": -1.13,
+   "mean_R_study_cost": 0.0803,
+   "random_mean_R_study_cost": 0.0453,
+   "p_random": 0.3153423288355822,
+   "avg_risk_pct_of_price": 2.06
+  },
+  "LTCUSDm": {
+   "trades": 653,
+   "median_spread_pct": 1.4051,
+   "decision_cost_pct": 2.1076,
+   "mean_R_decision_cost": -1.2116,
+   "t_decision_cost": -17.7,
+   "mean_R_study_cost": -0.0238,
+   "random_mean_R_study_cost": -0.0441,
+   "p_random": 0.3073463268365817,
+   "avg_risk_pct_of_price": 2.087
+  },
+  "BCHUSDm": {
+   "trades": 638,
+   "median_spread_pct": 0.3609,
+   "decision_cost_pct": 0.5413,
+   "mean_R_decision_cost": -0.2769,
+   "t_decision_cost": -3.68,
+   "mean_R_study_cost": -0.0248,
+   "random_mean_R_study_cost": -0.0049,
+   "p_random": 0.6451774112943528,
+   "avg_risk_pct_of_price": 2.315
+  }
+ },
+ "positive_at_decision_cost": [],
+ "significant_and_positive": [],
+ "verdict": "NOT REPLICATED"
+}
