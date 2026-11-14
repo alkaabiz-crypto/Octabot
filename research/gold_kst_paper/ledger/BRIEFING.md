@@ -1,13 +1,10 @@
 # Gold daily briefing
 
-Generated 2026-11-13 10:31 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-14 03:25 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
-| UTC | New York | Currency | Event | Forecast | Previous | Gold's usual 4 h move after it |
-|---|---|---|---|---|---|---|
-| Fri 13 13:30 | 08:30 | USD | Core PPI m/m | 0.3% | 0.7% | not measured |
-| Fri 13 13:30 | 08:30 | USD | PPI m/m | 0.4% | 1.3% | not measured |
+None.
 
 ## What this means
 
@@ -17,9 +14,9 @@ Generated 2026-11-13 10:31 UTC. Events: weekly economic calendar (high impact on
 
 ## Paper test (KST + session VWAP BUY)
 
-- Data to 2026-11-13 00:00 UTC; KST below its signal line.
-- CHOSEN_48H_TIME_STOP: 0 closed legs; no open leg.
-- ORIGINAL: 0 closed legs; no open leg.
+- Data to 2026-11-13 22:00 UTC; KST above its signal line.
+- CHOSEN_48H_TIME_STOP: 0 closed legs; open BUY leg since 2026-11-13 03:00 UTC.
+- ORIGINAL: 0 closed legs; open BUY leg since 2026-11-13 03:00 UTC.
 - DOLLAR_FALLING: 0 closed legs; no open leg.
 - VOL_LOW: 0 closed legs; no open leg.
 
