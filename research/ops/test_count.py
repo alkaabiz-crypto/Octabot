@@ -24,6 +24,7 @@ rows.append(("this branch", "IND batches 001–002 (TEST tests)", js("new_discov
 rows.append(("this branch", "theory event studies THE-005, THE-017, event batch 001 (TEST tests)", 12 + 8 + 30))
 rows.append(("this branch", "STR-027 (4 markets) and TradingView batch 003 (260 IC + 50 combination TEST tests)", 4 + js("new_discovery/tv_batch_003/results.json", "n_ic_test_tests") + js("new_discovery/tv_batch_003/results.json", "n_combo_tests")))
 rows.append(("this branch", "TradingView batch 004: Part A IC TEST tests + Part B 7,872 market x horizon cells searched (82 TEST picks)", js("new_discovery/tv_batch_004/results_A.json", "n_ic_test_tests") + js("new_discovery/tv_batch_004/results_B.json", "n_cells")))
+rows.append(("this branch", "TradingView batch 005 (24 rules x 5 markets TEST tests)", js("new_discovery/tv_batch_005/results.json", "n_tests")))
 rows.append(("this branch", "STR-023 replication, STR-025, STR-026, H4 ETH/A/B/C checks", 5 + 1 + 1 + 4))
 rows.append(("this branch", "earlier studies: news_markets 225, news_surprise 56, indicator scans (multi_market ~2,950 variants × 33 markets fitted picks 108; long_history ~2,640 per market × 3), TradingView/community/requested scans", 225 + 56 + 108 + 3 * 2640 + 400))
 rows.append(("other branch", "theory library screen 535 + earlier runs 2 × 416 + V2 54 + V1 3", 535 + 832 + 54 + 3))
