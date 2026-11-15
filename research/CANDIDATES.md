@@ -49,6 +49,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | IND-032 | Rate of change (12) | from the IND-021 group | NONE (IND batch 002) |
 | IND-033 | Fisher transform (10) | from the IND-021 group | NONE (IND batch 002) |
 | IND-034 | Elder ray (13) | from the IND-021 group | NONE (IND batch 002) |
+| IND-035 | Volumetric order blocks (BigBeluga / LuxAlgo style: swing break, last opposite candle, buy/sell volume share) | user, 2026-11-15 | tested only inside STR-027 (volume filter made little difference) |
 
 ## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
 
@@ -80,6 +81,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-024 | ORB, zone reversal and other session studies | **REJECTED** | other branch |
 | STR-025 | Volatility-scaled sizing overlay using IND-018 (HAR forecast), applied to STR-023 | **MIXED** (2/4: slightly higher mean R everywhere, lower drawdown in only 2 of 4 samples); read-only shadow on STR-023's forward ledger | `new_discovery/str_025/` |
 | STR-026 | Coinbase premium vs the mean of Binance and OKX USDT (from THE-014; G6) | **REJECTED** at the screen (positive all 4 periods, TEST p 0.09 > 0.05) | `new_discovery/G6_DECISIONS.md`, `new_discovery/str_026/` |
+| STR-027 | Volumetric order blocks + EMA 21/50 trend filter + entry/SL/TP1–TP5 management (user, 2026-11-15) | **REJECTED** on BTC, ETH, gold, oil (TEST p ≥ 0.37 vs random; EMA filter hurt in 3/4 markets) | `new_discovery/str_027/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
@@ -112,6 +114,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 **All signals scored on Exness prices (2026-11-14, `signal_tracking_v2/EXNESS_REPORT.md`, `score_exness.py`):** the 16 resolved retrospective signals average **−0.14R** with the app's own breakeven management; the 1 resolved prospective signal: −1.0R.
 | SIG-002 | SignalPro free signals, oil (USOIL) | 2 | 0 | NOT YET DECIDABLE |
 | SIG-003 | SignalPro free signals, other (BTC, silver, DXY) | 3 | 1 | NOT YET DECIDABLE |
+| SIG-004 | Invite-only "Buy/Sell Signal & Trade Management" script (TP1–TP5 boxes) | 0 | 0 | NOT YET DECIDABLE (needs prospective screenshots) |
 
 **To make SIG decidable:** screenshot each signal **as soon as it is posted** ("Trade Active, 0/3"), with the clock visible.
 
