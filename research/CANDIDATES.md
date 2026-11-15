@@ -50,6 +50,19 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | IND-033 | Fisher transform (10) | from the IND-021 group | NONE (IND batch 002) |
 | IND-034 | Elder ray (13) | from the IND-021 group | NONE (IND batch 002) |
 | IND-035 | Volumetric order blocks (BigBeluga / LuxAlgo style: swing break, last opposite candle, buy/sell volume share) | user, 2026-11-15 | tested only inside STR-027 (volume filter made little difference) |
+| IND-036 | Squeeze Momentum [LazyBear] | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-037 | WaveTrend [LazyBear] | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-038 | QQE Mod | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-039 | SSL channel (10) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-040 | UT Bot alerts | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-041 | Chandelier exit (22,3) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-042 | Schaff Trend Cycle | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-043 | Coppock curve | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-044 | Detrended price oscillator (20) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-045 | Least-squares MA (50) slope | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-046 | Connors RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-047 | Laguerre RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-048 | Choppiness-filtered momentum | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
 
 ## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
 
@@ -82,6 +95,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-025 | Volatility-scaled sizing overlay using IND-018 (HAR forecast), applied to STR-023 | **MIXED** (2/4: slightly higher mean R everywhere, lower drawdown in only 2 of 4 samples); read-only shadow on STR-023's forward ledger | `new_discovery/str_025/` |
 | STR-026 | Coinbase premium vs the mean of Binance and OKX USDT (from THE-014; G6) | **REJECTED** at the screen (positive all 4 periods, TEST p 0.09 > 0.05) | `new_discovery/G6_DECISIONS.md`, `new_discovery/str_026/` |
 | STR-027 | Volumetric order blocks + EMA 21/50 trend filter + entry/SL/TP1–TP5 management (user, 2026-11-15) | **REJECTED** on BTC, ETH, gold, oil (TEST p ≥ 0.37 vs random; EMA filter hurt in 3/4 markets) | `new_discovery/str_027/` |
+| STR-028a–j | 10 popular double/triple TradingView combinations (EMA+RSI+MACD, VWAP+EMA9+RSI, MACD+Bollinger, Squeeze+EMA200, SSL+WaveTrend, UT Bot+EMA200, Supertrend+RSI+EMA200, MACD+RSI+Stoch, Bollinger+RSI, EMA50/200+MACD) on gold, oil, BTC, S&P 500, EUR/USD | **0/50 pass**: 49 REJECTED, 1 WATCH (EMA50/200+MACD on S&P 500, TEST p 0.32) | `new_discovery/tv_batch_003/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
