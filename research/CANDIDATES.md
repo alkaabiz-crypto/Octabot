@@ -63,6 +63,46 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | IND-046 | Connors RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
 | IND-047 | Laguerre RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
 | IND-048 | Choppiness-filtered momentum | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-049 | ALMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-050 | Balance of Power (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-051 | BBTrend (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-052 | Chaikin Money Flow (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-053 | Chaikin Oscillator (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-054 | Accumulation/Distribution (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-055 | Chande Kroll Stop (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-056 | Chande Momentum Osc. (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-057 | Chop Zone (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-058 | Trend Strength Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-059 | DEMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-060 | TEMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-061 | Ease of Movement (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-062 | Elder Force Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-063 | Envelope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-064 | Guppy MMA (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-065 | Linear regression position (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-066 | McGinley Dynamic (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-067 | Momentum (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-068 | Money Flow Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-069 | Net Volume (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-070 | On-Balance Volume (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-071 | PPO (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-072 | Price Volume Trend (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-073 | Rank Correlation Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-074 | Relative Vigor Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-075 | Relative Volatility Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-076 | SMI Ergodic (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-077 | Stochastic RSI (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-078 | Stochastic Momentum Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-079 | Smoothed MA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-080 | Technical Ratings (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-081 | True Strength Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-082 | Volatility Stop (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-083 | VWMA vs SMA (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-084 | Williams Fractals (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-085 | Woodies CCI (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-086 | Klinger Oscillator (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-087 | Standard pivot points (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-088 | RSI divergence (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
 
 ## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
 
