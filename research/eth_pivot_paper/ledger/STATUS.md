@@ -1,10 +1,10 @@
 # ETH Pivot Reversal BUY paper test: status
 
-Updated 2026-11-15 03:24 UTC. Data to 2026-11-15 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
+Updated 2026-11-16 03:24 UTC. Data to 2026-11-16 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
 
 ## Latest signal
 
-**At the last available candle, a BUY stop was pending at 1917.51** (bid), for the hour after 2026-11-15 00:00 UTC. The Exness archive lags by about a day, so this is a paper record, not a live alert.
+No BUY order is pending.
 
 ## Record
 
