@@ -138,6 +138,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-028a–j | 10 popular double/triple TradingView combinations (EMA+RSI+MACD, VWAP+EMA9+RSI, MACD+Bollinger, Squeeze+EMA200, SSL+WaveTrend, UT Bot+EMA200, Supertrend+RSI+EMA200, MACD+RSI+Stoch, Bollinger+RSI, EMA50/200+MACD) on gold, oil, BTC, S&P 500, EUR/USD | **0/50 pass**: 49 REJECTED, 1 WATCH (EMA50/200+MACD on S&P 500, TEST p 0.32) | `new_discovery/tv_batch_003/` |
 | STR-030a–l | TradingView built-ins without a direction, tested as traders use them: ATR breakout, BB-width squeeze, Choppiness, Mass Index bulge, volume spike / climax, ADR fade, HV breakout, volume-profile 80% rule, causal Zig Zag, hour-of-week seasonality, moon phases | **0/60 pass**: 59 REJECTED, 1 WATCH (moon phase on EUR/USD, tiny) | `new_discovery/tv_batch_005/` |
 | STR-031a–j | 3, 4, 5 and more indicators at once: stacked filters, one-per-category, 5 oscillators oversold, 4-of-5 vote, all-82 vote, volume-confirmed breakout, data-chosen top 5 | **0/60 pass**: 59 REJECTED, 1 WATCH (data top-5 on US500 4 h, TEST p 0.07) | `new_discovery/tv_batch_005/` |
+| STR-032 | "GainzAlgo-style": bullish/bearish engulfing + RSI condition, TP/SL, no repeated signals (approximation of GainzAlgo V2 Alpha's public logic; the real scripts were removed from TradingView) | **REJECTED** on gold, oil, BTC, S&P 500, EUR/USD (both variants) | `new_discovery/str_032/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
