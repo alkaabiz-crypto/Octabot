@@ -139,6 +139,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-030a–l | TradingView built-ins without a direction, tested as traders use them: ATR breakout, BB-width squeeze, Choppiness, Mass Index bulge, volume spike / climax, ADR fade, HV breakout, volume-profile 80% rule, causal Zig Zag, hour-of-week seasonality, moon phases | **0/60 pass**: 59 REJECTED, 1 WATCH (moon phase on EUR/USD, tiny) | `new_discovery/tv_batch_005/` |
 | STR-031a–j | 3, 4, 5 and more indicators at once: stacked filters, one-per-category, 5 oscillators oversold, 4-of-5 vote, all-82 vote, volume-confirmed breakout, data-chosen top 5 | **0/60 pass**: 59 REJECTED, 1 WATCH (data top-5 on US500 4 h, TEST p 0.07) | `new_discovery/tv_batch_005/` |
 | STR-032 | "GainzAlgo-style": bullish/bearish engulfing + RSI condition, TP/SL, no repeated signals (approximation of GainzAlgo V2 Alpha's public logic; the real scripts were removed from TradingView) | **REJECTED** on gold, oil, BTC, S&P 500, EUR/USD (both variants) | `new_discovery/str_032/` |
+| STR-033 | QuantLab (Instagram quant_labde): Nasdaq first 5-min candle after the NY open + EMA 12, held 6 h, stop at the candle's other end; claim +505.8% since 2019 at 1% risk | **REJECTED**: +113% at 1% risk 2019-08→2026-10 with −38% drawdown, lost in 2023→mid-2024; claim not reproduced | `new_discovery/str_033/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 

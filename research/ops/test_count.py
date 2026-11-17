@@ -26,6 +26,7 @@ rows.append(("this branch", "STR-027 (4 markets) and TradingView batch 003 (260 
 rows.append(("this branch", "TradingView batch 004: Part A IC TEST tests + Part B 7,872 market x horizon cells searched (82 TEST picks)", js("new_discovery/tv_batch_004/results_A.json", "n_ic_test_tests") + js("new_discovery/tv_batch_004/results_B.json", "n_cells")))
 rows.append(("this branch", "TradingView batch 005 (24 rules x 5 markets TEST tests)", js("new_discovery/tv_batch_005/results.json", "n_tests")))
 rows.append(("this branch", "STR-032 GainzAlgo-style (2 variants x 5 markets)", js("new_discovery/str_032/results.json", "n_tests")))
+rows.append(("this branch", "STR-033 QuantLab NY-open candle (3 variants)", 3))
 rows.append(("this branch", "STR-023 replication, STR-025, STR-026, H4 ETH/A/B/C checks", 5 + 1 + 1 + 4))
 rows.append(("this branch", "earlier studies: news_markets 225, news_surprise 56, indicator scans (multi_market ~2,950 variants × 33 markets fitted picks 108; long_history ~2,640 per market × 3), TradingView/community/requested scans", 225 + 56 + 108 + 3 * 2640 + 400))
 rows.append(("other branch", "theory library screen 535 + earlier runs 2 × 416 + V2 54 + V1 3", 535 + 832 + 54 + 3))

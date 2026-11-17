@@ -1,0 +1,279 @@
+{
+ "A": {
+  "periods": {
+   "EARLY": {
+    "trades": 743,
+    "mean_R": 0.0413,
+    "mean_R_stress": -0.1586,
+    "win_pct": 26.4,
+    "t": 0.46,
+    "always_long_mean_R": -0.2533,
+    "random_dir_mean_R": -0.0844,
+    "p_random_dir": 0.036
+   },
+   "TRAIN": {
+    "trades": 322,
+    "mean_R": -0.051,
+    "mean_R_stress": -0.236,
+    "win_pct": 22.7,
+    "t": -0.34,
+    "always_long_mean_R": -0.1734,
+    "random_dir_mean_R": -0.0331,
+    "p_random_dir": 0.578
+   },
+   "VALIDATION": {
+    "trades": 214,
+    "mean_R": 0.3494,
+    "mean_R_stress": 0.2735,
+    "win_pct": 24.8,
+    "t": 1.32,
+    "always_long_mean_R": -0.0088,
+    "random_dir_mean_R": 0.2192,
+    "p_random_dir": 0.25
+   },
+   "TEST": {
+    "trades": 286,
+    "mean_R": 0.1396,
+    "mean_R_stress": 0.1056,
+    "win_pct": 30.4,
+    "t": 1.02,
+    "always_long_mean_R": -0.1111,
+    "random_dir_mean_R": -0.0438,
+    "p_random_dir": 0.029
+   }
+  },
+  "total_trades": 1565,
+  "equity_1pct_risk_total_return_pct": 112.7,
+  "max_drawdown_pct": -38.3,
+  "by_year": {
+   "2019": {
+    "trades": 89,
+    "mean_R": -0.103,
+    "return_1pct_pct": -11.8
+   },
+   "2020": {
+    "trades": 220,
+    "mean_R": -0.034,
+    "return_1pct_pct": -12.9
+   },
+   "2021": {
+    "trades": 219,
+    "mean_R": 0.083,
+    "return_1pct_pct": 13.9
+   },
+   "2022": {
+    "trades": 215,
+    "mean_R": 0.135,
+    "return_1pct_pct": 25.5
+   },
+   "2023": {
+    "trades": 222,
+    "mean_R": -0.019,
+    "return_1pct_pct": -11.8
+   },
+   "2024": {
+    "trades": 206,
+    "mean_R": 0.174,
+    "return_1pct_pct": 29.0
+   },
+   "2025": {
+    "trades": 221,
+    "mean_R": 0.298,
+    "return_1pct_pct": 75.6
+   },
+   "2026": {
+    "trades": 173,
+    "mean_R": 0.004,
+    "return_1pct_pct": -2.9
+   }
+  },
+  "first_day": "2019-08-05",
+  "last_day": "2026-10-28",
+  "decision": "REJECTED"
+ },
+ "B": {
+  "periods": {
+   "EARLY": {
+    "trades": 833,
+    "mean_R": -0.0275,
+    "mean_R_stress": -0.2696,
+    "win_pct": 24.6,
+    "t": -0.3,
+    "always_long_mean_R": -0.317,
+    "random_dir_mean_R": -0.1792,
+    "p_random_dir": 0.013
+   },
+   "TRAIN": {
+    "trades": 362,
+    "mean_R": 0.01,
+    "mean_R_stress": -0.211,
+    "win_pct": 21.5,
+    "t": 0.06,
+    "always_long_mean_R": -0.0979,
+    "random_dir_mean_R": -0.0295,
+    "p_random_dir": 0.376
+   },
+   "VALIDATION": {
+    "trades": 245,
+    "mean_R": 0.2648,
+    "mean_R_stress": 0.1738,
+    "win_pct": 23.3,
+    "t": 1.11,
+    "always_long_mean_R": -0.113,
+    "random_dir_mean_R": 0.161,
+    "p_random_dir": 0.259
+   },
+   "TEST": {
+    "trades": 324,
+    "mean_R": 0.0721,
+    "mean_R_stress": 0.0306,
+    "win_pct": 27.5,
+    "t": 0.53,
+    "always_long_mean_R": -0.1615,
+    "random_dir_mean_R": -0.0717,
+    "p_random_dir": 0.073
+   }
+  },
+  "total_trades": 1764,
+  "equity_1pct_risk_total_return_pct": -0.6,
+  "max_drawdown_pct": -76.4,
+  "by_year": {
+   "2019": {
+    "trades": 98,
+    "mean_R": -0.232,
+    "return_1pct_pct": -23.1
+   },
+   "2020": {
+    "trades": 245,
+    "mean_R": -0.204,
+    "return_1pct_pct": -43.3
+   },
+   "2021": {
+    "trades": 245,
+    "mean_R": -0.072,
+    "return_1pct_pct": -20.8
+   },
+   "2022": {
+    "trades": 245,
+    "mean_R": 0.275,
+    "return_1pct_pct": 73.3
+   },
+   "2023": {
+    "trades": 243,
+    "mean_R": 0.1,
+    "return_1pct_pct": 11.4
+   },
+   "2024": {
+    "trades": 243,
+    "mean_R": 0.076,
+    "return_1pct_pct": 6.5
+   },
+   "2025": {
+    "trades": 245,
+    "mean_R": 0.214,
+    "return_1pct_pct": 52.8
+   },
+   "2026": {
+    "trades": 200,
+    "mean_R": -0.017,
+    "return_1pct_pct": -8.3
+   }
+  },
+  "first_day": "2019-08-05",
+  "last_day": "2026-10-28",
+  "decision": "REJECTED"
+ },
+ "C": {
+  "periods": {
+   "EARLY": {
+    "trades": 743,
+    "mean_R": 0.0437,
+    "mean_R_stress": -0.1477,
+    "win_pct": 51.0,
+    "t": 0.24,
+    "always_long_mean_R": 0.1404,
+    "random_dir_mean_R": -0.1912,
+    "p_random_dir": 0.09
+   },
+   "TRAIN": {
+    "trades": 322,
+    "mean_R": -0.3768,
+    "mean_R_stress": -0.5554,
+    "win_pct": 46.9,
+    "t": -1.41,
+    "always_long_mean_R": 1.3615,
+    "random_dir_mean_R": -0.1782,
+    "p_random_dir": 0.771
+   },
+   "VALIDATION": {
+    "trades": 214,
+    "mean_R": 0.0099,
+    "mean_R_stress": -0.0648,
+    "win_pct": 49.5,
+    "t": 0.02,
+    "always_long_mean_R": -0.0299,
+    "random_dir_mean_R": -0.0662,
+    "p_random_dir": 0.424
+   },
+   "TEST": {
+    "trades": 286,
+    "mean_R": 0.3743,
+    "mean_R_stress": 0.3407,
+    "win_pct": 56.6,
+    "t": 1.45,
+    "always_long_mean_R": -0.9202,
+    "random_dir_mean_R": -0.0116,
+    "p_random_dir": 0.063
+   }
+  },
+  "total_trades": 1565,
+  "equity_1pct_risk_total_return_pct": -83.9,
+  "max_drawdown_pct": -97.6,
+  "by_year": {
+   "2019": {
+    "trades": 89,
+    "mean_R": -0.184,
+    "return_1pct_pct": -25.9
+   },
+   "2020": {
+    "trades": 220,
+    "mean_R": 0.254,
+    "return_1pct_pct": 32.7
+   },
+   "2021": {
+    "trades": 219,
+    "mean_R": 0.116,
+    "return_1pct_pct": 7.5
+   },
+   "2022": {
+    "trades": 215,
+    "mean_R": -0.151,
+    "return_1pct_pct": -48.4
+   },
+   "2023": {
+    "trades": 222,
+    "mean_R": -0.322,
+    "return_1pct_pct": -62.0
+   },
+   "2024": {
+    "trades": 206,
+    "mean_R": -0.091,
+    "return_1pct_pct": -42.8
+   },
+   "2025": {
+    "trades": 221,
+    "mean_R": -0.019,
+    "return_1pct_pct": -32.2
+   },
+   "2026": {
+    "trades": 173,
+    "mean_R": 0.476,
+    "return_1pct_pct": 99.6
+   }
+  },
+  "first_day": "2019-08-05",
+  "last_day": "2026-10-28",
+  "decision": "REJECTED"
+ },
+ "n_days_with_data": 1790
+}
