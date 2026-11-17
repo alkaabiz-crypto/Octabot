@@ -46,3 +46,4 @@ The hashtags (#nasdaq, #futurestrading) point to the Nasdaq 100. The full code i
 
 - **SCREEN-PASS:** mean R > 0 in every period (EARLY 2019–2022, TRAIN, VALIDATION, TEST), TEST stress mean > 0, TEST p ≤ 0.05 vs random direction after BH over the three variants, ≥ 30 TEST trades → forward paper test.
 - **WATCH:** positive in every period without the rest. Otherwise **REJECTED**.
+- **Source screenshot:** kept out of this public repository, because it shows other Instagram users' names and pictures. SHA-256 8dad3f7a5701b93d20cffccdc4282d7416deee0919b1fb8b239fa19be39636a5.
