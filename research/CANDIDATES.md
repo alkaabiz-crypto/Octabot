@@ -140,6 +140,11 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-031a–j | 3, 4, 5 and more indicators at once: stacked filters, one-per-category, 5 oscillators oversold, 4-of-5 vote, all-82 vote, volume-confirmed breakout, data-chosen top 5 | **0/60 pass**: 59 REJECTED, 1 WATCH (data top-5 on US500 4 h, TEST p 0.07) | `new_discovery/tv_batch_005/` |
 | STR-032 | "GainzAlgo-style": bullish/bearish engulfing + RSI condition, TP/SL, no repeated signals (approximation of GainzAlgo V2 Alpha's public logic; the real scripts were removed from TradingView) | **REJECTED** on gold, oil, BTC, S&P 500, EUR/USD (both variants) | `new_discovery/str_032/` |
 | STR-033 | QuantLab (Instagram quant_labde): Nasdaq first 5-min candle after the NY open + EMA 12, held 6 h, stop at the candle's other end; claim +505.8% since 2019 at 1% risk | **REJECTED**: +113% at 1% risk 2019-08→2026-10 with −38% drawdown, lost in 2023→mid-2024; claim not reproduced | `new_discovery/str_033/` |
+| STR-034 | Intraday momentum (Gao et al. 2018): last 30 min follows the first 30 min (S&P 500, Nasdaq, Dow, DAX) | **REJECTED** (negative after spread almost everywhere) | `new_discovery/acad_batch_005/` |
+| STR-035 | Bitcoin intraday momentum (Shen et al. 2022) | **REJECTED** (−10 bp per trade) | `new_discovery/acad_batch_005/` |
+| STR-036 | Overnight drift: long close → next open (S&P 500, Nasdaq, Dow) | **REJECTED** (negative 2019–22; recent +5–8 bp/night before swap) | `new_discovery/acad_batch_005/` |
+| STR-037 | Pre-FOMC drift (Lucca & Moench) | **REJECTED** (strong to mid-2025, reversed since) | `new_discovery/acad_batch_005/` |
+| STR-038 | Turn of the month (S&P 500, Nasdaq, Dow, BTC, gold) | REJECTED on indices and BTC; **WATCH on gold** (positive every period, mostly gold's rally) | `new_discovery/acad_batch_005/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
