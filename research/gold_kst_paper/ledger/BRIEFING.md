@@ -1,13 +1,11 @@
 # Gold daily briefing
 
-Generated 2026-11-17 03:25 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-18 03:25 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
 | UTC | New York | Currency | Event | Forecast | Previous | Gold's usual 4 h move after it |
 |---|---|---|---|---|---|---|
-| Tue 17 13:30 | 08:30 | USD | Core Retail Sales m/m | 0.4% | 0.9% | not measured |
-| Tue 17 13:30 | 08:30 | USD | Retail Sales m/m | 0.1% | 0.8% | not measured |
 | Wed 18 07:00 | 02:00 | GBP | CPI y/y | 3.6% | 3.5% |  |
 | Wed 18 15:00 | 10:00 | GBP | BOE Gov Bailey Speaks | - | - |  |
 | Wed 18 19:00 | 14:00 | USD | FOMC Meeting Minutes | - | - | not measured |
@@ -22,9 +20,9 @@ Generated 2026-11-17 03:25 UTC. Events: weekly economic calendar (high impact on
 
 ## Paper test (KST + session VWAP BUY)
 
-- Data to 2026-11-17 00:00 UTC; KST above its signal line.
-- CHOSEN_48H_TIME_STOP: 1 closed legs; open BUY leg since 2026-11-16 12:00 UTC.
-- ORIGINAL: 1 closed legs; open BUY leg since 2026-11-16 12:00 UTC.
+- Data to 2026-11-18 00:00 UTC; KST below its signal line.
+- CHOSEN_48H_TIME_STOP: 2 closed legs; no open leg.
+- ORIGINAL: 2 closed legs; no open leg.
 - DOLLAR_FALLING: 0 closed legs; no open leg.
 - VOL_LOW: 0 closed legs; no open leg.
 
