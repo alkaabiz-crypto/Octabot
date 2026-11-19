@@ -145,6 +145,8 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-036 | Overnight drift: long close → next open (S&P 500, Nasdaq, Dow) | **REJECTED** (negative 2019–22; recent +5–8 bp/night before swap) | `new_discovery/acad_batch_005/` |
 | STR-037 | Pre-FOMC drift (Lucca & Moench) | **REJECTED** (strong to mid-2025, reversed since) | `new_discovery/acad_batch_005/` |
 | STR-038 | Turn of the month (S&P 500, Nasdaq, Dow, BTC, gold) | REJECTED on indices and BTC; **WATCH on gold** (positive every period, mostly gold's rally) | `new_discovery/acad_batch_005/` |
+| STR-039a–h | Pairs mean reversion (±2σ entry, exit at the mean / ±4σ stop / 20 days): gold/silver, US oil/Brent, Nasdaq/S&P, Dow/S&P, AUD/NZD, EUR/GBP, DAX/Stoxx50, BTC/ETH | **REJECTED** (all 8; none positive in every period) | `new_discovery/pairs_batch_006/` |
+| STR-040 | Crypto cross-sectional weekly momentum (long 2 best / short 2 worst of 8 coins) | **WATCH**: positive every period but shrinking (+104 → +18 bp/week), not significant, negative at stress cost | `new_discovery/pairs_batch_006/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
