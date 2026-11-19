@@ -1,10 +1,10 @@
 # Pivot Reversal BUY paper test: status
 
-Updated 2026-11-18 03:24 UTC. Data to 2026-11-18 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
+Updated 2026-11-19 03:24 UTC. Data to 2026-11-19 00:00 UTC. Counting since 2026-11-12 00:00 UTC. Rules: `PROTOCOL.md` (frozen).
 
 ## Latest signal
 
-**At the last available candle, a BUY stop was pending at 65392.85** (bid), for the hour after 2026-11-18 00:00 UTC. The Exness archive lags by about a day, so this is a paper record, not a live alert.
+**At the last available candle, a BUY stop was pending at 64894.78** (bid), for the hour after 2026-11-19 00:00 UTC. The Exness archive lags by about a day, so this is a paper record, not a live alert.
 
 ## Record
 
