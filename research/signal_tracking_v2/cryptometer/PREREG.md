@@ -33,3 +33,13 @@ sidebar_position: 1
 - **CLAIM ACCURATE / INACCURATE:** whether the site's reported win rate is within 10 points of the E1 win rate.
 
 **Data handling.** The raw call list is third-party data and stays out of this public repository (scratch / private archive). Only derived statistics are committed.
+
+## Amendment 1 (2026-11-20, after downloading the call list, before any call is scored)
+
+- **Candle size:** the actual calls and the random benchmark both use Binance spot **1-hour** candles. 15-minute candles for about 900 coins over 2 years would need about 60,000 requests. 15-minute candles over each call's own 7 days are kept as a check on the actual calls (E1 only).
+- **Prices for non-USDT pairs:** calls quoted in USD, USDC, TRY, EUR or similar use the coin's Binance **USDT** pair as the price source. Their percentage moves are close.
+- **Duplicates:** the same coin at the same minute appears on several exchanges (3,098 rows, 2,933 unique coin–time calls). The primary result counts each coin–time call once. The all-rows result is reported beside it.
+- **Data observation (not a result):**
+  - every call that carries a site PNL value shows a positive PNL (site mean +39.7%);
+  - 700 calls carry no PNL value;
+  - the site's monthly win rates (58–73%) come from its best-price method.
