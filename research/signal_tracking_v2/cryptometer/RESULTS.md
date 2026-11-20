@@ -36,3 +36,11 @@ The all-rows results (duplicates included) are the same picture: E1 −0.92% and
 ## 15-minute check (Amendment 1)
 
 E1 re-scored on Binance **15-minute** candles over each unique 2025-07 → 2026-11 call's own 7 days: 1,335 calls, **−0.35% per call, 33% wins**. That is slightly less negative than on 1-hour candles (−0.56%, because finer candles resolve fewer stop-and-target-in-the-same-candle cases against the trade), and still a loss. The verdict is unchanged.
+
+## Post-hoc check: is the target too big? (user question, 2026-11-20)
+
+All 28 combinations of target (2, 3, 5, 7, 10, 15, 20%) × stop (3, 5, 10%, none), max 7 days, were run on the 2,019 unique calls (1h, 0.10% per side). Each was compared with random entries using the same rule. Script: `grid.py`; numbers: `grid.json`.
+
+- **All 28 combinations lose money**, from −0.14% to −1.17% per call. Smaller targets raise the win rate (up to 86% with a 2% target and no stop) but not the profit. Each small win is wiped out by the occasional large loss and the costs.
+- **Against random entries, no combination is significant after correcting for 28 tests.** The best cells (3% stop with a 20% target, p 0.01; 3% stop with a 7% target, p 0.046) are what 28 tries produce by chance, and they still lose money in absolute terms.
+- **Conclusion: the exit choice does not rescue the calls.** The verdict stays UNPROFITABLE.
