@@ -181,6 +181,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | SIG-002 | SignalPro free signals, oil (USOIL) | 2 | 0 | NOT YET DECIDABLE |
 | SIG-003 | SignalPro free signals, other (BTC, silver, DXY) | 3 | 1 | NOT YET DECIDABLE |
 | SIG-004 | Invite-only "Buy/Sell Signal & Trade Management" script (TP1–TP5 boxes) | 0 | 0 | NOT YET DECIDABLE (needs prospective screenshots) |
+| SIG-005 | CryptoMeter AI Screener (cryptometer.io), 2,019 unique calls Dec 2024 → Nov 2026 | 2,019 | 1,335 TEST | **UNPROFITABLE; CLAIM INACCURATE** (site: 91% wins by best-price method; fixed exits: 30% wins, −0.6% per call, no better than random) |
 
 **To make SIG decidable:** screenshot each signal **as soon as it is posted** ("Trade Active, 0/3"), with the clock visible.
 
