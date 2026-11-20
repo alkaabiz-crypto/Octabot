@@ -150,6 +150,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-041 | Liquidity sweep → market-structure shift (CHoCH) → buyer/seller dominance → Optimal Trade Entry 70.5% (ICT/SMC; user request) | **REJECTED** on BTC, ETH, gold, oil, S&P 500 (all 3 variants; dominance filter adds nothing) | `new_discovery/str_041/` |
 | STR-042 | Market making: two-sided quotes ±2/5/10 bp around the last price, 1-second updates, inventory limit, on BTC/ETH perpetuals (Binance trade data, trade-through fills) | **REJECTED**: loses even before fees (adverse selection); not possible on Exness | `new_discovery/mm_042/` |
 | STR-043 | Value-area / volume-profile reel (soualium, Arabic): S1 VAL/VAH wick rejection → opposite edge; S2 strong value-area break + FVG retest → 2R | **REJECTED** (both scenarios, all 5 markets; no market positive every period) | `new_discovery/str_043/` |
+| STR-044 | Liquidity-sweep entry "that stop hunt is your entry" (keepssy_fx reel): buy after a sweep of equal lows / sell after equal highs, 2R | **REJECTED** (both variants, all 5 markets) | `new_discovery/str_044/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
