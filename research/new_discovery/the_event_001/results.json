@@ -1,0 +1,680 @@
+{
+ "results": {
+  "THE-001|XAUUSDm": {
+   "EARLY": {
+    "events": 28545,
+    "effect_bp": -1.4,
+    "p": 1.0
+   },
+   "TRAIN": {
+    "events": 14234,
+    "effect_bp": -0.33,
+    "p": 0.841
+   },
+   "VALIDATION": {
+    "events": 9478,
+    "effect_bp": -1.064,
+    "p": 0.9285
+   },
+   "TEST": {
+    "events": 12915,
+    "effect_bp": -2.522,
+    "p": 1.0
+   }
+  },
+  "THE-002|XAUUSDm": {
+   "EARLY": {
+    "events": 17586,
+    "effect_bp": -1.232,
+    "p": 1.0
+   },
+   "TRAIN": {
+    "events": 8737,
+    "effect_bp": -0.641,
+    "p": 0.925
+   },
+   "VALIDATION": {
+    "events": 6011,
+    "effect_bp": -3.827,
+    "p": 1.0
+   },
+   "TEST": {
+    "events": 8107,
+    "effect_bp": -2.642,
+    "p": 1.0
+   }
+  },
+  "THE-003|XAUUSDm": {
+   "EARLY": {
+    "events": 1964,
+    "effect_bp": 0.819,
+    "p": 0.201
+   },
+   "TRAIN": {
+    "events": 956,
+    "effect_bp": -0.327,
+    "p": 0.635
+   },
+   "VALIDATION": {
+    "events": 564,
+    "effect_bp": 4.724,
+    "p": 0.0125
+   },
+   "TEST": {
+    "events": 754,
+    "effect_bp": -0.759,
+    "p": 0.67
+   }
+  },
+  "THE-015a|XAUUSDm": {
+   "EARLY": {
+    "events": 144,
+    "effect_bp": 20.706,
+    "p": 0.017
+   },
+   "TRAIN": {
+    "events": 72,
+    "effect_bp": 13.62,
+    "p": 0.1175
+   },
+   "VALIDATION": {
+    "events": 48,
+    "effect_bp": -0.873,
+    "p": 0.5175
+   },
+   "TEST": {
+    "events": 68,
+    "effect_bp": 35.275,
+    "p": 0.0525
+   }
+  },
+  "THE-015b|XAUUSDm": {
+   "EARLY": {
+    "events": 140,
+    "effect_bp": -1.503,
+    "p": 0.542
+   },
+   "TRAIN": {
+    "events": 66,
+    "effect_bp": 8.928,
+    "p": 0.2325
+   },
+   "VALIDATION": {
+    "events": 49,
+    "effect_bp": -25.445,
+    "p": 0.93
+   },
+   "TEST": {
+    "events": 65,
+    "effect_bp": 10.235,
+    "p": 0.336
+   }
+  },
+  "THE-016|XAUUSDm": {
+   "EARLY": {
+    "events": 3413,
+    "fill_rate": 0.644,
+    "random_rate": 0.6439,
+    "effect_bp": 0.01,
+    "p": 0.49582485007599003
+   },
+   "TRAIN": {
+    "events": 1745,
+    "fill_rate": 0.6338,
+    "random_rate": 0.63,
+    "effect_bp": 0.38,
+    "p": 0.3728832346237792
+   },
+   "VALIDATION": {
+    "events": 1197,
+    "fill_rate": 0.6291,
+    "random_rate": 0.6327,
+    "effect_bp": -0.36,
+    "p": 0.5993149416177889
+   },
+   "TEST": {
+    "events": 1646,
+    "fill_rate": 0.6173,
+    "random_rate": 0.6314,
+    "effect_bp": -1.41,
+    "p": 0.8767340862505522
+   }
+  },
+  "THE-001|USOILm": {
+   "EARLY": {
+    "events": 37156,
+    "effect_bp": -2.273,
+    "p": 0.998
+   },
+   "TRAIN": {
+    "events": 14221,
+    "effect_bp": 0.12,
+    "p": 0.44
+   },
+   "VALIDATION": {
+    "events": 9564,
+    "effect_bp": 1.952,
+    "p": 0.0255
+   },
+   "TEST": {
+    "events": 12835,
+    "effect_bp": -1.984,
+    "p": 0.946
+   }
+  },
+  "THE-002|USOILm": {
+   "EARLY": {
+    "events": 22503,
+    "effect_bp": -1.089,
+    "p": 0.8235
+   },
+   "TRAIN": {
+    "events": 8455,
+    "effect_bp": 1.403,
+    "p": 0.1025
+   },
+   "VALIDATION": {
+    "events": 5674,
+    "effect_bp": -3.182,
+    "p": 0.9905
+   },
+   "TEST": {
+    "events": 7862,
+    "effect_bp": 0.159,
+    "p": 0.484
+   }
+  },
+  "THE-003|USOILm": {
+   "EARLY": {
+    "events": 2605,
+    "effect_bp": 1.054,
+    "p": 0.344
+   },
+   "TRAIN": {
+    "events": 892,
+    "effect_bp": -1.027,
+    "p": 0.6215
+   },
+   "VALIDATION": {
+    "events": 628,
+    "effect_bp": 5.827,
+    "p": 0.045
+   },
+   "TEST": {
+    "events": 830,
+    "effect_bp": 6.017,
+    "p": 0.0855
+   }
+  },
+  "THE-015a|USOILm": {
+   "EARLY": {
+    "events": 78,
+    "effect_bp": 33.313,
+    "p": 0.195
+   },
+   "TRAIN": {
+    "events": 32,
+    "effect_bp": -82.001,
+    "p": 0.968
+   },
+   "VALIDATION": {
+    "events": 20,
+    "effect_bp": -76.059,
+    "p": 0.9375
+   },
+   "TEST": {
+    "events": 52,
+    "effect_bp": -46.557,
+    "p": 0.817
+   }
+  },
+  "THE-015b|USOILm": {
+   "EARLY": {
+    "events": 59,
+    "effect_bp": -84.447,
+    "p": 0.9765
+   },
+   "TRAIN": {
+    "events": 21,
+    "effect_bp": -4.754,
+    "p": 0.536
+   },
+   "VALIDATION": null,
+   "TEST": {
+    "events": 48,
+    "effect_bp": 14.275,
+    "p": 0.388
+   }
+  },
+  "THE-016|USOILm": {
+   "EARLY": {
+    "events": 5473,
+    "fill_rate": 0.6348,
+    "random_rate": 0.6352,
+    "effect_bp": -0.04,
+    "p": 0.5267642183680277
+   },
+   "TRAIN": {
+    "events": 2055,
+    "fill_rate": 0.6414,
+    "random_rate": 0.6445,
+    "effect_bp": -0.32,
+    "p": 0.6158370108338498
+   },
+   "VALIDATION": {
+    "events": 1345,
+    "fill_rate": 0.632,
+    "random_rate": 0.6347,
+    "effect_bp": -0.28,
+    "p": 0.5810031232992755
+   },
+   "TEST": {
+    "events": 1729,
+    "fill_rate": 0.6235,
+    "random_rate": 0.6351,
+    "effect_bp": -1.17,
+    "p": 0.8369680724655568
+   }
+  },
+  "THE-001|US500m": {
+   "TRAIN": {
+    "events": 14028,
+    "effect_bp": 0.399,
+    "p": 0.0235
+   },
+   "VALIDATION": {
+    "events": 9423,
+    "effect_bp": 1.164,
+    "p": 0.009
+   },
+   "TEST": {
+    "events": 12739,
+    "effect_bp": 1.259,
+    "p": 0.0
+   }
+  },
+  "THE-002|US500m": {
+   "TRAIN": {
+    "events": 8284,
+    "effect_bp": 1.955,
+    "p": 0.0
+   },
+   "VALIDATION": {
+    "events": 5627,
+    "effect_bp": -0.885,
+    "p": 0.834
+   },
+   "TEST": {
+    "events": 7863,
+    "effect_bp": -0.117,
+    "p": 0.454
+   }
+  },
+  "THE-003|US500m": {
+   "TRAIN": {
+    "events": 887,
+    "effect_bp": 0.544,
+    "p": 0.4495
+   },
+   "VALIDATION": {
+    "events": 698,
+    "effect_bp": -0.202,
+    "p": 0.538
+   },
+   "TEST": {
+    "events": 874,
+    "effect_bp": -1.535,
+    "p": 0.9145
+   }
+  },
+  "THE-015a|US500m": {
+   "TRAIN": {
+    "events": 64,
+    "effect_bp": 32.106,
+    "p": 0.0285
+   },
+   "VALIDATION": {
+    "events": 48,
+    "effect_bp": -42.182,
+    "p": 0.9785
+   },
+   "TEST": {
+    "events": 68,
+    "effect_bp": 6.281,
+    "p": 0.31
+   }
+  },
+  "THE-015b|US500m": {
+   "TRAIN": {
+    "events": 54,
+    "effect_bp": 3.635,
+    "p": 0.431
+   },
+   "VALIDATION": {
+    "events": 49,
+    "effect_bp": 0.646,
+    "p": 0.5035
+   },
+   "TEST": {
+    "events": 65,
+    "effect_bp": 6.016,
+    "p": 0.2945
+   }
+  },
+  "THE-016|US500m": {
+   "TRAIN": {
+    "events": 1990,
+    "fill_rate": 0.6261,
+    "random_rate": 0.626,
+    "effect_bp": 0.01,
+    "p": 0.4963925679921044
+   },
+   "VALIDATION": {
+    "events": 1315,
+    "fill_rate": 0.6228,
+    "random_rate": 0.6361,
+    "effect_bp": -1.33,
+    "p": 0.8353949834101917
+   },
+   "TEST": {
+    "events": 1815,
+    "fill_rate": 0.6281,
+    "random_rate": 0.6395,
+    "effect_bp": -1.14,
+    "p": 0.8376488466048738
+   }
+  },
+  "THE-001|EURUSDm": {
+   "TRAIN": {
+    "events": 14301,
+    "effect_bp": 0.458,
+    "p": 0.002
+   },
+   "VALIDATION": {
+    "events": 9640,
+    "effect_bp": -0.891,
+    "p": 1.0
+   },
+   "TEST": {
+    "events": 12979,
+    "effect_bp": -0.284,
+    "p": 0.975
+   }
+  },
+  "THE-002|EURUSDm": {
+   "TRAIN": {
+    "events": 8898,
+    "effect_bp": -0.488,
+    "p": 0.988
+   },
+   "VALIDATION": {
+    "events": 6019,
+    "effect_bp": -0.404,
+    "p": 0.921
+   },
+   "TEST": {
+    "events": 8070,
+    "effect_bp": -0.484,
+    "p": 0.9955
+   }
+  },
+  "THE-003|EURUSDm": {
+   "TRAIN": {
+    "events": 996,
+    "effect_bp": -0.792,
+    "p": 0.9185
+   },
+   "VALIDATION": {
+    "events": 642,
+    "effect_bp": 1.322,
+    "p": 0.04
+   },
+   "TEST": {
+    "events": 875,
+    "effect_bp": -0.119,
+    "p": 0.5805
+   }
+  },
+  "THE-015a|EURUSDm": {
+   "TRAIN": {
+    "events": 72,
+    "effect_bp": -1.186,
+    "p": 0.575
+   },
+   "VALIDATION": {
+    "events": 48,
+    "effect_bp": 10.895,
+    "p": 0.1005
+   },
+   "TEST": {
+    "events": 68,
+    "effect_bp": -1.079,
+    "p": 0.601
+   }
+  },
+  "THE-015b|EURUSDm": {
+   "TRAIN": {
+    "events": 76,
+    "effect_bp": 6.409,
+    "p": 0.121
+   },
+   "VALIDATION": {
+    "events": 53,
+    "effect_bp": 0.957,
+    "p": 0.463
+   },
+   "TEST": {
+    "events": 70,
+    "effect_bp": -1.525,
+    "p": 0.623
+   }
+  },
+  "THE-016|EURUSDm": {
+   "TRAIN": {
+    "events": 1830,
+    "fill_rate": 0.6306,
+    "random_rate": 0.6267,
+    "effect_bp": 0.39,
+    "p": 0.3679591235201434
+   },
+   "VALIDATION": {
+    "events": 1238,
+    "fill_rate": 0.622,
+    "random_rate": 0.6329,
+    "effect_bp": -1.09,
+    "p": 0.7821485222055127
+   },
+   "TEST": {
+    "events": 1689,
+    "fill_rate": 0.6311,
+    "random_rate": 0.6391,
+    "effect_bp": -0.8,
+    "p": 0.7469334828009158
+   }
+  },
+  "THE-001|BTCUSDm": {
+   "EARLY": {
+    "events": 41380,
+    "effect_bp": -0.222,
+    "p": 0.556
+   },
+   "TRAIN": {
+    "events": 20508,
+    "effect_bp": 0.809,
+    "p": 0.0595
+   },
+   "VALIDATION": {
+    "events": 13680,
+    "effect_bp": -2.514,
+    "p": 0.991
+   },
+   "TEST": {
+    "events": 18624,
+    "effect_bp": -0.008,
+    "p": 0.4975
+   }
+  },
+  "THE-002|BTCUSDm": {
+   "EARLY": {
+    "events": 25795,
+    "effect_bp": -0.128,
+    "p": 0.502
+   },
+   "TRAIN": {
+    "events": 12723,
+    "effect_bp": -3.684,
+    "p": 1.0
+   },
+   "VALIDATION": {
+    "events": 8427,
+    "effect_bp": -0.345,
+    "p": 0.5675
+   },
+   "TEST": {
+    "events": 11658,
+    "effect_bp": -0.863,
+    "p": 0.855
+   }
+  },
+  "THE-003|BTCUSDm": {
+   "EARLY": {
+    "events": 2675,
+    "effect_bp": -3.01,
+    "p": 0.8555
+   },
+   "TRAIN": {
+    "events": 1366,
+    "effect_bp": -3.061,
+    "p": 0.906
+   },
+   "VALIDATION": {
+    "events": 901,
+    "effect_bp": -4.984,
+    "p": 0.9085
+   },
+   "TEST": {
+    "events": 1261,
+    "effect_bp": -2.516,
+    "p": 0.8305
+   }
+  },
+  "THE-015a|BTCUSDm": {
+   "EARLY": {
+    "events": 144,
+    "effect_bp": 15.034,
+    "p": 0.3165
+   },
+   "TRAIN": {
+    "events": 72,
+    "effect_bp": 21.395,
+    "p": 0.248
+   },
+   "VALIDATION": {
+    "events": 48,
+    "effect_bp": -53.933,
+    "p": 0.914
+   },
+   "TEST": {
+    "events": 68,
+    "effect_bp": 32.307,
+    "p": 0.1335
+   }
+  },
+  "THE-015b|BTCUSDm": {
+   "EARLY": {
+    "events": 156,
+    "effect_bp": -13.749,
+    "p": 0.657
+   },
+   "TRAIN": {
+    "events": 78,
+    "effect_bp": -2.24,
+    "p": 0.5325
+   },
+   "VALIDATION": {
+    "events": 52,
+    "effect_bp": -1.602,
+    "p": 0.503
+   },
+   "TEST": {
+    "events": 69,
+    "effect_bp": 38.31,
+    "p": 0.094
+   }
+  },
+  "THE-016|BTCUSDm": {
+   "EARLY": {
+    "events": 4327,
+    "fill_rate": 0.6321,
+    "random_rate": 0.6126,
+    "effect_bp": 1.94,
+    "p": 0.005175646124407458
+   },
+   "TRAIN": {
+    "events": 2006,
+    "fill_rate": 0.6152,
+    "random_rate": 0.6015,
+    "effect_bp": 1.37,
+    "p": 0.11085708225572616
+   },
+   "VALIDATION": {
+    "events": 1619,
+    "fill_rate": 0.6504,
+    "random_rate": 0.6325,
+    "effect_bp": 1.79,
+    "p": 0.07185968832252991
+   },
+   "TEST": {
+    "events": 2201,
+    "fill_rate": 0.6293,
+    "random_rate": 0.6198,
+    "effect_bp": 0.95,
+    "p": 0.1857552028892619
+   }
+  }
+ },
+ "verdict": {
+  "THE-001": {
+   "verdict": "PARTLY SUPPORTED",
+   "markets": [
+    "US500m"
+   ],
+   "early_significant": [
+    "US500m",
+    "EURUSDm"
+   ]
+  },
+  "THE-002": {
+   "verdict": "DECAYED",
+   "markets": [],
+   "early_significant": [
+    "US500m"
+   ]
+  },
+  "THE-003": {
+   "verdict": "NOT SUPPORTED",
+   "markets": [],
+   "early_significant": []
+  },
+  "THE-015a": {
+   "verdict": "DECAYED",
+   "markets": [],
+   "early_significant": [
+    "XAUUSDm",
+    "US500m"
+   ]
+  },
+  "THE-015b": {
+   "verdict": "NOT SUPPORTED",
+   "markets": [],
+   "early_significant": []
+  },
+  "THE-016": {
+   "verdict": "DECAYED",
+   "markets": [],
+   "early_significant": [
+    "BTCUSDm"
+   ]
+  }
+ }
+}

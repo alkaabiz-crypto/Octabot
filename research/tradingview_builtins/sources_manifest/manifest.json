@@ -1,0 +1,982 @@
+{
+ "STD;24h%Volume": {
+  "name": "24-hour volume",
+  "file": "STD_24h_Volume.pine",
+  "kind": "indicator",
+  "chars": 1335,
+  "sha256": "dcc763b86e6e4f5027f46fd1e9651076cb7def25ec3154a4341e6ed33b4158bc"
+ },
+ "STD;Accumulation_Distribution": {
+  "name": "Accumulation/distribution",
+  "file": "STD_Accumulation_Distribution.pine",
+  "kind": "indicator",
+  "chars": 448,
+  "sha256": "cc6debeaa6f0b1f1dc8c80be9d16052c606638e1082983d898fb2aae67fa041a"
+ },
+ "STD;Advance%1Decline%1Line": {
+  "name": "Advance-decline line",
+  "file": "STD_Advance_1Decline_1Line.pine",
+  "kind": "indicator",
+  "chars": 344,
+  "sha256": "0d6cb5713ece9f44bf2557298d09256092db4b8eba2ef61bf0209cc6522332d0"
+ },
+ "STD;Advance%1Decline%1Ratio": {
+  "name": "Advance-decline ratio",
+  "file": "STD_Advance_1Decline_1Ratio.pine",
+  "kind": "indicator",
+  "chars": 277,
+  "sha256": "c279715344ac532b2af53c65bdcd32383179662c45113023710ad566ca0a08d7"
+ },
+ "STD;Advance_Decline_Ratio_Bars": {
+  "name": "Advance-decline ratio (bars)",
+  "file": "STD_Advance_Decline_Ratio_Bars.pine",
+  "kind": "indicator",
+  "chars": 407,
+  "sha256": "a4ddbc422526d830298fa7f971b6916bf08cc0de1b83b0fda029ec7a66619c68"
+ },
+ "STD;Arnaud%1Legoux%1Moving%1Average": {
+  "name": "Arnaud Legoux moving average",
+  "file": "STD_Arnaud_1Legoux_1Moving_1Average.pine",
+  "kind": "indicator",
+  "chars": 645,
+  "sha256": "6392823a19e1c4cf55a794491c857dff845230998cba8eb92f0d6646d0caff04"
+ },
+ "STD;Aroon": {
+  "name": "Aroon",
+  "file": "STD_Aroon.pine",
+  "kind": "indicator",
+  "chars": 384,
+  "sha256": "d9723dec60160be0673fbbe413badf8ae6a197845473649f3e98e983f131fa03"
+ },
+ "STD;Aroon_Oscillator": {
+  "name": "Aroon oscillator",
+  "file": "STD_Aroon_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 663,
+  "sha256": "8b67d3151ec3d168a902b311f0a4f75f6ec9f5c8eb5e37890e149ce0426e4c9d"
+ },
+ "STD;Auto%1Fib%1Extension%1": {
+  "name": "Auto fib extension",
+  "file": "STD_Auto_1Fib_1Extension_1.pine",
+  "kind": "indicator",
+  "chars": 15473,
+  "sha256": "3d5fbf99bb4f888c1ddbef5198b627d5474abf7c1b1af4d0b1b93ada51adba1c"
+ },
+ "STD;Auto%1Fib%1Retracement%1": {
+  "name": "Auto fib retracement",
+  "file": "STD_Auto_1Fib_1Retracement_1.pine",
+  "kind": "indicator",
+  "chars": 12292,
+  "sha256": "69bec48adf380d5197acb818e63bc0c5d47dc0832ba9d58dd53b9b896b672383"
+ },
+ "STD;Auto%1Pitchfork": {
+  "name": "Auto pitchfork",
+  "file": "STD_Auto_1Pitchfork.pine",
+  "kind": "indicator",
+  "chars": 12139,
+  "sha256": "40366e14e3f35c058df8cadd3883b631992970ff4070ab8c0277e5f16f3412bd"
+ },
+ "STD;Average%Day%Range": {
+  "name": "Average daily range",
+  "file": "STD_Average_Day_Range.pine",
+  "kind": "indicator",
+  "chars": 203,
+  "sha256": "5e35e1877cc951f9dd6660f048ddb74650fb3e433b6eee605e1abdbf821c6bb7"
+ },
+ "STD;Average%1Directional%1Index": {
+  "name": "Average directional index",
+  "file": "STD_Average_1Directional_1Index.pine",
+  "kind": "indicator",
+  "chars": 1011,
+  "sha256": "cf55e15d58647958017a2808de669381ff7e43386d1e929ea6f54407a121ce09"
+ },
+ "STD;Average_True_Range": {
+  "name": "Average true range",
+  "file": "STD_Average_True_Range.pine",
+  "kind": "indicator",
+  "chars": 532,
+  "sha256": "3e163b4996cbb23173cc108b675ba475597b08431c64c33698f5051164d6274f"
+ },
+ "STD;Awesome_Oscillator": {
+  "name": "Awesome oscillator",
+  "file": "STD_Awesome_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 563,
+  "sha256": "359c1a2a2b0eaf0df3af3c5e4f327d58b3ce736de97eb07bb225a43779f69158"
+ },
+ "STD;Balance%1of%1Power": {
+  "name": "Balance of power",
+  "file": "STD_Balance_1of_1Power.pine",
+  "kind": "indicator",
+  "chars": 177,
+  "sha256": "b3b25ab24842f91ce1d48852782b95b3be6629995ea399bab4c8b3370df94fbc"
+ },
+ "STD;Bars%1Up%1Dn%1Strategy": {
+  "name": "Bar up/down strategy",
+  "file": "STD_Bars_1Up_1Dn_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 543,
+  "sha256": "b7bc458e8a3b896d3495b7c90a5a18123c946b9d967324fcc29150d32f5c5543"
+ },
+ "STD;BBTrend": {
+  "name": "BBTrend",
+  "file": "STD_BBTrend.pine",
+  "kind": "indicator",
+  "chars": 1084,
+  "sha256": "3a2e2882a59646b3baca46aab11013497759a63eaf8902b5f3e3b254e19ec89f"
+ },
+ "STD;Bollinger_Bands": {
+  "name": "Bollinger Bands",
+  "file": "STD_Bollinger_Bands.pine",
+  "kind": "indicator",
+  "chars": 1709,
+  "sha256": "0735a0a353908f3744f782e02ce108ff8129e0d65b4bb4f8e8718f4495ae5a6b"
+ },
+ "STD;Bollinger_Bands_B": {
+  "name": "Bollinger Bands %b",
+  "file": "STD_Bollinger_Bands_B.pine",
+  "kind": "indicator",
+  "chars": 1503,
+  "sha256": "e7c3c4dc4fdc9f3526293c0661db018d3fce6af7b1b0e03e75a548dbcc590258"
+ },
+ "STD;Bollinger%1Bands%1Strategy": {
+  "name": "Bollinger Bands strategy",
+  "file": "STD_Bollinger_1Bands_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 878,
+  "sha256": "cb84da1234ccb4f47c5101e148caba03907fd05a214efd28340d1757c8af2516"
+ },
+ "STD;Bollinger%1Band%1Directed%1Strategy": {
+  "name": "Bollinger Bands strategy directed",
+  "file": "STD_Bollinger_1Band_1Directed_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 1033,
+  "sha256": "712b609be0b53a3f22a8e194ae073967a3e166f479f7ef819095fbfa039bc1d3"
+ },
+ "STD;Bollinger_Bands_Width": {
+  "name": "Bollinger BandWidth",
+  "file": "STD_Bollinger_Bands_Width.pine",
+  "kind": "indicator",
+  "chars": 1667,
+  "sha256": "045847f67f3e9dbc51ad1f9a26d653b00b9285c60d7b91aea535b139a48c19d6"
+ },
+ "STD;Bollinger%1Bars": {
+  "name": "Bollinger Bars",
+  "file": "STD_Bollinger_1Bars.pine",
+  "kind": "indicator",
+  "chars": 421,
+  "sha256": "aa9fbace8e1573174be41bec7b770ad11ee617b3f4085a8703e358fc4d26f49d"
+ },
+ "STD;Bull%Bear%Power": {
+  "name": "Bull bear power",
+  "file": "STD_Bull_Bear_Power.pine",
+  "kind": "indicator",
+  "chars": 338,
+  "sha256": "d92b835970edc8fc513895ec5ebb1729ba82c52f06661462ba88100e7e3aed30"
+ },
+ "STD;Chaikin_Money_Flow": {
+  "name": "Chaikin money flow",
+  "file": "STD_Chaikin_Money_Flow.pine",
+  "kind": "indicator",
+  "chars": 548,
+  "sha256": "51a4a1b755c25ffa64dc46e0d82db9c459bb89b3fb37fc38d0847f66c4855c22"
+ },
+ "STD;Chaikin_Oscillator": {
+  "name": "Chaikin oscillator",
+  "file": "STD_Chaikin_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 552,
+  "sha256": "2faa935f0c5fd4cf47b170097f09bdda12f0f630e6aecfd13c9d4b3a11ece5ee"
+ },
+ "STD;Chande%1Kroll%1Stop": {
+  "name": "Chande Kroll stop",
+  "file": "STD_Chande_1Kroll_1Stop.pine",
+  "kind": "indicator",
+  "chars": 552,
+  "sha256": "bbd1f0c49530ee636ca64c67e75914e283cb29f1f03ffa4c08f424957e8bdd30"
+ },
+ "STD;Chandelier_Exit": {
+  "name": "Chandelier exit",
+  "file": "STD_Chandelier_Exit.pine",
+  "kind": "indicator",
+  "chars": 533,
+  "sha256": "b66ee578b5a5645af8173c752838221ea848729ea593459d26ffaf7417a7a37f"
+ },
+ "STD;Chande_Momentum_Oscillator": {
+  "name": "Chande momentum oscillator",
+  "file": "STD_Chande_Momentum_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 562,
+  "sha256": "ef940d043082e310a2bb5bf08dcffccbc37a7eeea7e3cc1fb93d3985223e7fac"
+ },
+ "STD;Channel%1BreakOut%1Strategy": {
+  "name": "Channel breakout strategy",
+  "file": "STD_Channel_1BreakOut_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 544,
+  "sha256": "f438bd98aefb5ed835939a63678dd707740f2265459bd19923ce12c9b056cf30"
+ },
+ "STD;Choppiness_Index": {
+  "name": "Choppiness index",
+  "file": "STD_Choppiness_Index.pine",
+  "kind": "indicator",
+  "chars": 686,
+  "sha256": "ced4c8a2cd98c9259e7d586de4501a8feb49d8d09a43168f11842959bee9a016"
+ },
+ "STD;Chop%1Zone": {
+  "name": "Chop zone",
+  "file": "STD_Chop_1Zone.pine",
+  "kind": "indicator",
+  "chars": 1358,
+  "sha256": "1275f557ccab46b63db5b63816a660a019e979a6fde9ffedf3e36cbeeedc6261"
+ },
+ "STD;CCI": {
+  "name": "Commodity channel index",
+  "file": "STD_CCI.pine",
+  "kind": "indicator",
+  "chars": 2457,
+  "sha256": "bc8c64ba67859acb7e5c3a593ae6044ae1acf562c522de031056a4d99f1c10aa"
+ },
+ "STD;Connors_RSI": {
+  "name": "Connors RSI",
+  "file": "STD_Connors_RSI.pine",
+  "kind": "indicator",
+  "chars": 842,
+  "sha256": "3683d4a70ef838c01da31e8beb890962446c999114859c596d6a1176ee1212eb"
+ },
+ "STD;Consecutive%1Ups%1Downs%1Strategy": {
+  "name": "Consecutive up/down strategy",
+  "file": "STD_Consecutive_1Ups_1Downs_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 619,
+  "sha256": "011cf3325e10fb588dfc88da2fe9ca3fa2efadfd993864d134e7e5d4292e8008"
+ },
+ "STD;Coppock%1Curve": {
+  "name": "Coppock curve",
+  "file": "STD_Coppock_1Curve.pine",
+  "kind": "indicator",
+  "chars": 383,
+  "sha256": "2964f27cca48f4ae0ccfa3eaa97c3ea2f6549400344208533be228cc93fdf255"
+ },
+ "STD;Correlation_Coeff": {
+  "name": "Correlation coefficient",
+  "file": "STD_Correlation_Coeff.pine",
+  "kind": "indicator",
+  "chars": 670,
+  "sha256": "44357d35f621e418571a4101e8280447675ce808df2782ac2a581728bcf7b586"
+ },
+ "STD;Cumulative%1Volume%1Index": {
+  "name": "Cumulative volume index",
+  "file": "STD_Cumulative_1Volume_1Index.pine",
+  "kind": "indicator",
+  "chars": 799,
+  "sha256": "b3dedc00994fd85ed18457f5c550468dda873d296edbe188b2b1f299f0d92d9a"
+ },
+ "STD;DPO": {
+  "name": "Detrended price oscillator",
+  "file": "STD_DPO.pine",
+  "kind": "indicator",
+  "chars": 666,
+  "sha256": "e6ddefe64e45e5b2b2555e577730ce2a5b7dfec0398c8319160ae5b257512339"
+ },
+ "STD;DMI": {
+  "name": "Directional movement index",
+  "file": "STD_DMI.pine",
+  "kind": "indicator",
+  "chars": 977,
+  "sha256": "ddeab0f5331f2ae970d511c3311fab2c935139563f826ae66554a25632c9b7ee"
+ },
+ "STD;Donchian_Channels": {
+  "name": "Donchian channels",
+  "file": "STD_Donchian_Channels.pine",
+  "kind": "indicator",
+  "chars": 516,
+  "sha256": "1c2092e5bd3919968c13dea205d77c5bc60233685ffd1281b39b1676a2461f69"
+ },
+ "STD;DEMA": {
+  "name": "Double exponential moving average",
+  "file": "STD_DEMA.pine",
+  "kind": "indicator",
+  "chars": 302,
+  "sha256": "3ee1596ff7c45cad3beb5ba2dbc4c8e6dd1d7b4b724751248d812d4f218850ef"
+ },
+ "STD;EOM": {
+  "name": "Ease of movement",
+  "file": "STD_EOM.pine",
+  "kind": "indicator",
+  "chars": 440,
+  "sha256": "507610b416f3ebf1fa8707b9be867ff9b452a33878a484b8e0b0eb6af38da0bd"
+ },
+ "STD;EFI": {
+  "name": "Elder's force index",
+  "file": "STD_EFI.pine",
+  "kind": "indicator",
+  "chars": 432,
+  "sha256": "421ac38d0d9100398fbd8212d92d9e683873484e4034b30dcf90611dbdd79bb0"
+ },
+ "STD;ENV": {
+  "name": "Envelope",
+  "file": "STD_ENV.pine",
+  "kind": "indicator",
+  "chars": 569,
+  "sha256": "ffd3d53da311c038c4f6e1f06ff9f14dd91c91f59d82912558bc84a9c1de116f"
+ },
+ "STD;EMA": {
+  "name": "Exponential moving average",
+  "file": "STD_EMA.pine",
+  "kind": "indicator",
+  "chars": 2236,
+  "sha256": "fadf5374335bfc15ba74eb86e4bb65a1bce1075a16457ef00341219cb53f0eb2"
+ },
+ "STD;Fisher_Transform": {
+  "name": "Fisher transform",
+  "file": "STD_Fisher_Transform.pine",
+  "kind": "indicator",
+  "chars": 745,
+  "sha256": "83e99f94eb20e1e19c3ae2964748a5492638280e22581465d754b89d49819432"
+ },
+ "STD;Gaps": {
+  "name": "Gaps",
+  "file": "STD_Gaps.pine",
+  "kind": "indicator",
+  "chars": 5499,
+  "sha256": "34fe410a4c018f3b31d8aa2cb23fb4508359bd32274c237e431616c69e68bbb0"
+ },
+ "STD;Greedy%1Strategy": {
+  "name": "Greedy strategy",
+  "file": "STD_Greedy_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 1655,
+  "sha256": "4c0710f615f77bd70734efb046968903d3c5d2d239aaf26fac084c73d8f74bde"
+ },
+ "STD;Historical_Volatility": {
+  "name": "Historical volatility",
+  "file": "STD_Historical_Volatility.pine",
+  "kind": "indicator",
+  "chars": 383,
+  "sha256": "9669e98b989210508c2d28b396b111e5a6683fb7ed2173078f374b292d7886bf"
+ },
+ "STD;Hull%1MA": {
+  "name": "Hull moving average",
+  "file": "STD_Hull_1MA.pine",
+  "kind": "indicator",
+  "chars": 306,
+  "sha256": "9149cc89b82319e9b51449f0019d445f921b0759b67bc0a02d30b7edf1af7e02"
+ },
+ "STD;Ichimoku%1Cloud": {
+  "name": "Ichimoku cloud",
+  "file": "STD_Ichimoku_1Cloud.pine",
+  "kind": "indicator",
+  "chars": 1349,
+  "sha256": "e7a3a7d6def9943acb891cac8d8e785b9b170189b1df9a2131c8f58faf705924"
+ },
+ "STD;InSide%1Bar%1Strategy": {
+  "name": "Inside bar strategy",
+  "file": "STD_InSide_1Bar_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 357,
+  "sha256": "c255e3553d2617bef5161d8855010b1acc21ffa8fc433f5a473b9f5a69911421"
+ },
+ "STD;Kaufmans_Adaptive_Moving_Average": {
+  "name": "Kaufman's adaptive moving average",
+  "file": "STD_Kaufmans_Adaptive_Moving_Average.pine",
+  "kind": "indicator",
+  "chars": 483,
+  "sha256": "f3e30878cf9c0cc4bf95dc1d09ce95b6748e1ba86fe723d73196b9277b41a45a"
+ },
+ "STD;Keltner_Channels": {
+  "name": "Keltner channels",
+  "file": "STD_Keltner_Channels.pine",
+  "kind": "indicator",
+  "chars": 993,
+  "sha256": "102f0093433635000a53bf731f0fabe2a1f17cc7a28de12de14af81b7d1417bb"
+ },
+ "STD;Keltner%1Channel%1Strategy": {
+  "name": "Keltner channels strategy",
+  "file": "STD_Keltner_1Channel_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 1503,
+  "sha256": "a7ef475e848c98dff589a9901938322df2193db3647d2562a97857cceefeffae"
+ },
+ "STD;Klinger%1Oscillator": {
+  "name": "Klinger oscillator",
+  "file": "STD_Klinger_1Oscillator.pine",
+  "kind": "indicator",
+  "chars": 445,
+  "sha256": "0d016e032c0dfc23ad3d3344121c3386afc53d2d60147128cb0123ec471b2dd7"
+ },
+ "STD;Know_Sure_Thing": {
+  "name": "Know sure thing",
+  "file": "STD_Know_Sure_Thing.pine",
+  "kind": "indicator",
+  "chars": 1001,
+  "sha256": "e6ebf18172d38f94f76c83162fd3fe49d0d183c5a195dd1da79cc59f8f193c56"
+ },
+ "STD;Least%1Squares%1Moving%1Average": {
+  "name": "Least squares moving average",
+  "file": "STD_Least_1Squares_1Moving_1Average.pine",
+  "kind": "indicator",
+  "chars": 305,
+  "sha256": "0454f77822ea2d48d989106c72a1798dbded9d380034eed30002f2c58ddd2d33"
+ },
+ "STD;Linear_Regression": {
+  "name": "Linear regression channel",
+  "file": "STD_Linear_Regression.pine",
+  "kind": "indicator",
+  "chars": 5338,
+  "sha256": "31d85c31b907a3667033e87c91bd2d1fb56c2990ef0d163e881fe3997a59f22b"
+ },
+ "STD;MACD%1Strategy": {
+  "name": "MACD strategy",
+  "file": "STD_MACD_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 551,
+  "sha256": "fc16c775b38afe793c2fbde3ab19140ae7d7bcff1c325ebdacc4702bc465a00f"
+ },
+ "STD;Mass%1Index": {
+  "name": "Mass index",
+  "file": "STD_Mass_1Index.pine",
+  "kind": "indicator",
+  "chars": 253,
+  "sha256": "34f9b488c5556274aa36aecf62e7384eda37ee1b2ce0c887db32738ef5c610f9"
+ },
+ "STD;McGinley%1Dynamic": {
+  "name": "McGinley dynamic",
+  "file": "STD_McGinley_1Dynamic.pine",
+  "kind": "indicator",
+  "chars": 290,
+  "sha256": "7e34d51b328427ba8190fa71622607c6cdd4274fb97ee4efce20e5ddb21fe2b6"
+ },
+ "STD;Median": {
+  "name": "Median",
+  "file": "STD_Median.pine",
+  "kind": "indicator",
+  "chars": 787,
+  "sha256": "1d904fa4e4a585fa0eabe936aa21298ac348ce4fcccf886969751bba3c6a5552"
+ },
+ "STD;Momentum": {
+  "name": "Momentum",
+  "file": "STD_Momentum.pine",
+  "kind": "indicator",
+  "chars": 233,
+  "sha256": "84ab2cb56276aa6682a68d9c383becef8918a3de35eb3617544ca9eec44aae71"
+ },
+ "STD;Momentum%1Strategy": {
+  "name": "Momentum strategy",
+  "file": "STD_Momentum_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 586,
+  "sha256": "c1ffb758acd11d4a6c98142e370b8059f23ca4e0281f06d4eeb34062651f80f8"
+ },
+ "STD;Money_Flow": {
+  "name": "Money flow index",
+  "file": "STD_Money_Flow.pine",
+  "kind": "indicator",
+  "chars": 515,
+  "sha256": "88a24cd84597d406a4f3893a78fdc716a8007cab7b43d373790b7e205844d8d9"
+ },
+ "STD;Moon%1Phases": {
+  "name": "Moon phases",
+  "file": "STD_Moon_1Phases.pine",
+  "kind": "indicator",
+  "chars": 4189,
+  "sha256": "4df6a4d770675fe3a252b49be479d1fd727a3ea76ca176c4cb9987674290f445"
+ },
+ "STD;MACD": {
+  "name": "Moving average convergence divergence",
+  "file": "STD_MACD.pine",
+  "kind": "indicator",
+  "chars": 1573,
+  "sha256": "569525e80149118b5ef4c0fc29cca0799ca4927db15d8a1c751fdc16abd96679"
+ },
+ "STD;MovingAvg%1Cross%1Strategy": {
+  "name": "Moving average crossover",
+  "file": "STD_MovingAvg_1Cross_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 591,
+  "sha256": "3f4d5ec22e85d0fb70797001140574a78b73779c50852545f0b76eee7b2f5e68"
+ },
+ "STD;MA%1Cross": {
+  "name": "Moving average crossover",
+  "file": "STD_MA_1Cross.pine",
+  "kind": "indicator",
+  "chars": 476,
+  "sha256": "556c4a03982e656ac75fe9288a00be8a1ce891bb6b77ae9ee65b937506ba3a86"
+ },
+ "STD;MA%Ribbon": {
+  "name": "Moving average ribbon",
+  "file": "STD_MA_Ribbon.pine",
+  "kind": "indicator",
+  "chars": 2638,
+  "sha256": "60a779c51e2b4ad437ae57f48919c3184d36301f4c553b9bfb903e4dae4c2700"
+ },
+ "STD;Multi-Time%Period%Charts": {
+  "name": "Multi-time period charts",
+  "file": "STD_Multi_Time_Period_Charts.pine",
+  "kind": "indicator",
+  "chars": 7727,
+  "sha256": "ce54b03ebba5bbb8dffe70aa96eab04acd589699990e5498e69e0660c292048c"
+ },
+ "STD;Negative_Volume_Index": {
+  "name": "Negative volume index",
+  "file": "STD_Negative_Volume_Index.pine",
+  "kind": "indicator",
+  "chars": 490,
+  "sha256": "9d716173394f7347a82da25dc41fbabf2ef99475ca0b39ace6c30ee3cd0638fd"
+ },
+ "STD;Net%1Volume": {
+  "name": "Net volume",
+  "file": "STD_Net_1Volume.pine",
+  "kind": "indicator",
+  "chars": 1055,
+  "sha256": "6141c9386b92e02130c10f42c1b0fc306e07b6b0409b9199f228b850ab7740d6"
+ },
+ "STD;On_Balance_Volume": {
+  "name": "On-balance volume",
+  "file": "STD_On_Balance_Volume.pine",
+  "kind": "indicator",
+  "chars": 2228,
+  "sha256": "8cdf3a656421663610ff5f5b0cf091da484b80572669a82fa7adc800a9d3864e"
+ },
+ "STD;Open%Interest": {
+  "name": "Open interest",
+  "file": "STD_Open_Interest.pine",
+  "kind": "indicator",
+  "chars": 1110,
+  "sha256": "c1511229f2525be25fdf632e04f7497b44be1a5a564c1ff616ee5e0888ab1e01"
+ },
+ "STD;OutSide%1Bar%1Strategy": {
+  "name": "Outside bar strategy",
+  "file": "STD_OutSide_1Bar_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 358,
+  "sha256": "c5853190b5ea45fe4fd3b13887880772d7dee6ca937494497763dda3962d8f00"
+ },
+ "STD;PSAR": {
+  "name": "Parabolic SAR",
+  "file": "STD_PSAR.pine",
+  "kind": "indicator",
+  "chars": 295,
+  "sha256": "0b65333a9c928edf614ff55fb66654e0f66fa00a7fc57d7e2d590923df77350e"
+ },
+ "STD;Parabolic%1SAR%1Strategy": {
+  "name": "Parabolic SAR strategy",
+  "file": "STD_Parabolic_1SAR_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 1888,
+  "sha256": "800f3fe7f02df408f9f144951e6e44744240a67dec2825d0953d5309b0a4bef1"
+ },
+ "STD;Volume%1Oscillator": {
+  "name": "Percentage volume oscillator",
+  "file": "STD_Volume_1Oscillator.pine",
+  "kind": "indicator",
+  "chars": 1449,
+  "sha256": "210ee697a01439ecb29e9761a02dd2ba68dd913a979b3542db4a57a2dd3c1994"
+ },
+ "STD;Performance": {
+  "name": "Performance",
+  "file": "STD_Performance.pine",
+  "kind": "indicator",
+  "chars": 5728,
+  "sha256": "dc86bab1994db447a56b98ab7be4b554544a57d22ce773d6726c45b1136f61fd"
+ },
+ "STD;Pivot%1Extension%1Strategy": {
+  "name": "Pivot extension strategy",
+  "file": "STD_Pivot_1Extension_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 482,
+  "sha256": "a454dd322a571639e27fffaddaa1241bbef64df5540b257a653ee2548e3a78b9"
+ },
+ "STD;Pivot%1Points%1High%1Low": {
+  "name": "Pivot points high low",
+  "file": "STD_Pivot_1Points_1High_1Low.pine",
+  "kind": "indicator",
+  "chars": 1433,
+  "sha256": "33dca3b75c19120b98783d68180e31996bb866f86ff9fdfd212ecf3be55047c3"
+ },
+ "STD;Pivot%1Points%1Standard": {
+  "name": "Pivot points standard",
+  "file": "STD_Pivot_1Points_1Standard.pine",
+  "kind": "indicator",
+  "chars": 13005,
+  "sha256": "5319bf4cd44c9501a4a1528eeeb8d704a76211cddb52e11b398c8dfe87efbff7"
+ },
+ "STD;Pivot%1Reversal%1Strategy": {
+  "name": "Pivot reversal strategy",
+  "file": "STD_Pivot_1Reversal_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 828,
+  "sha256": "cd6def72548fb84e02312f302dd2799f897638d0a2c688aef04ca861b5a5628f"
+ },
+ "STD;Positive_Volume_Index": {
+  "name": "Positive volume index",
+  "file": "STD_Positive_Volume_Index.pine",
+  "kind": "indicator",
+  "chars": 490,
+  "sha256": "846dff1468f1a49b3ba7a0d4ff7fe80ed5f21c5d1a9826a759a8c6e43b3b9b7a"
+ },
+ "STD;Price%1Channel%1Strategy": {
+  "name": "Price channel strategy",
+  "file": "STD_Price_1Channel_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 393,
+  "sha256": "67b77dac93c82a93f708993f1f56be7a7558fbce94ec024c999780c20f9adb43"
+ },
+ "STD;Price_Momentum_Oscillator": {
+  "name": "Price momentum oscillator",
+  "file": "STD_Price_Momentum_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 578,
+  "sha256": "a91da6296482f3a937c6deef55d5bb11d59e2fc3bd23eb22394f3c8cd1db46e5"
+ },
+ "STD;Price_Oscillator": {
+  "name": "Price oscillator",
+  "file": "STD_Price_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 1319,
+  "sha256": "f8179ab38ed22446eed2da556cb0db2421d5a3c4622f3957a59e7cf55e75938e"
+ },
+ "STD;Price%1Target": {
+  "name": "Price target",
+  "file": "STD_Price_1Target.pine",
+  "kind": "indicator",
+  "chars": 3332,
+  "sha256": "da8be3f81145d7ae9796f53ea608c055c2eb27579dec197a9b87ccc5ab583f07"
+ },
+ "STD;Price_Volume_Trend": {
+  "name": "Price-volume trend",
+  "file": "STD_Price_Volume_Trend.pine",
+  "kind": "indicator",
+  "chars": 351,
+  "sha256": "b7d1038b6b2fe2798bfe7b51b8a91c0dd918918a6737858803c26fe34c633c22"
+ },
+ "STD;Prings_Special_K": {
+  "name": "Pring's special K",
+  "file": "STD_Prings_Special_K.pine",
+  "kind": "indicator",
+  "chars": 762,
+  "sha256": "2b7ef68cd14ba1f5d54529229978741de6273a5d6fca0952ffba41194a88c0cf"
+ },
+ "STD;Rank_Correlation_Index": {
+  "name": "Rank correlation index",
+  "file": "STD_Rank_Correlation_Index.pine",
+  "kind": "indicator",
+  "chars": 2283,
+  "sha256": "698beb94396a2b88a48bab42394d03feaa4a0796b39cbbd4ced6cc88a519c2ea"
+ },
+ "STD;ROC": {
+  "name": "Rate of change",
+  "file": "STD_ROC.pine",
+  "kind": "indicator",
+  "chars": 331,
+  "sha256": "9cfb1ed02ef4b9c98becb5a13edeebebdc1b82595c68289114c3bbb9e8bde648"
+ },
+ "STD;RCI_Ribbon": {
+  "name": "RCI ribbon",
+  "file": "STD_RCI_Ribbon.pine",
+  "kind": "indicator",
+  "chars": 724,
+  "sha256": "2e0c1e33200ef0942765430da58ee6eaf94d1f4786a98404d74b5f9cf6f5d45f"
+ },
+ "STD;RSI": {
+  "name": "Relative strength index",
+  "file": "STD_RSI.pine",
+  "kind": "indicator",
+  "chars": 6108,
+  "sha256": "138554a3d9e36943c7e2fa86f4609d7239b310a2677442f54c56641d8f369007"
+ },
+ "STD;Relative_Vigor_Index": {
+  "name": "Relative vigor index",
+  "file": "STD_Relative_Vigor_Index.pine",
+  "kind": "indicator",
+  "chars": 477,
+  "sha256": "21c618cff8c90a7825980363860abe2dc001160bbc7ca43e0ec793ed9db136f6"
+ },
+ "STD;Relative_Volatility_Index": {
+  "name": "Relative volatility index",
+  "file": "STD_Relative_Volatility_Index.pine",
+  "kind": "indicator",
+  "chars": 2573,
+  "sha256": "0f62213d96162efdb39d87a4dcbebd60973002cbf9b15110d73d39acea243e99"
+ },
+ "STD;Relative%1Volume%1at%1Time": {
+  "name": "Relative volume at time",
+  "file": "STD_Relative_1Volume_1at_1Time.pine",
+  "kind": "indicator",
+  "chars": 1235,
+  "sha256": "c771ea5aef43808a1878ac8bc878fa20b3d7c71dd28ab7b3f71b46e2b7783c5e"
+ },
+ "STD;Rob%1Booker%1ADX%1Breakout%1Strategy": {
+  "name": "Rob Booker \u2014 ADX breakout",
+  "file": "STD_Rob_1Booker_1ADX_1Breakout_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 3334,
+  "sha256": "8d7f0ceb162b33d1c78f789bce913da4582b1641df68ad2c4b31d7e90adbf7fe"
+ },
+ "STD;Rob%1Booker%1Ghost%1Pivots%1v2": {
+  "name": "Rob Booker \u2014 Ziv ghost pivots",
+  "file": "STD_Rob_1Booker_1Ghost_1Pivots_1v2.pine",
+  "kind": "indicator",
+  "chars": 1556,
+  "sha256": "f1729d221662943d42a55618f00b773c21e8470e871e33cbe96b1dec72f40282"
+ },
+ "STD;Divergence%1Indicator": {
+  "name": "RSI divergence indicator",
+  "file": "STD_Divergence_1Indicator.pine",
+  "kind": "indicator",
+  "chars": 5712,
+  "sha256": "15e69249505ff17635e4d98524315f13a5a144fe7dbaa43323afb3efcbcc3858"
+ },
+ "STD;RSI%1Strategy": {
+  "name": "RSI strategy",
+  "file": "STD_RSI_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 534,
+  "sha256": "9c9dd3671fd28fc627faf55c86728d7d1cec61ba61edb6fddd995fd137224e25"
+ },
+ "STD;Seasonality": {
+  "name": "Seasonality",
+  "file": "STD_Seasonality.pine",
+  "kind": "indicator",
+  "chars": 13454,
+  "sha256": "82a778d12fb359dd0e1b621fed4b33288eae75150562f8d09eecc8edac158805"
+ },
+ "STD;SMA": {
+  "name": "Simple moving average",
+  "file": "STD_SMA.pine",
+  "kind": "indicator",
+  "chars": 2230,
+  "sha256": "eb317391ee233246085cd659fade4d31724ec999a289d0013899f59750a6d5fc"
+ },
+ "STD;SMI_Ergodic_Indicator_Oscillator": {
+  "name": "SMI ergodic indicator",
+  "file": "STD_SMI_Ergodic_Indicator_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 456,
+  "sha256": "baf336bce968507c9588da1145dfaafd41f8072c5a7a24edef9a58d17a6084be"
+ },
+ "STD;SMI_Ergodic_Oscillator": {
+  "name": "SMI ergodic oscillator",
+  "file": "STD_SMI_Ergodic_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 479,
+  "sha256": "3516d692855ee9e29a2c412e0ca59c85039609949c1351f74ac56424eb02b2a3"
+ },
+ "STD;Smoothed%1Moving%1Average": {
+  "name": "Smoothed moving average",
+  "file": "STD_Smoothed_1Moving_1Average.pine",
+  "kind": "indicator",
+  "chars": 332,
+  "sha256": "310876a58e72ee611d53ee836515671c7579e9c798fd77b050dd7d16b1014324"
+ },
+ "STD;Stochastic": {
+  "name": "Stochastic",
+  "file": "STD_Stochastic.pine",
+  "kind": "indicator",
+  "chars": 655,
+  "sha256": "9b00afeef2c25ffc6468eda350736710b7120d1d0934ad6278b22a44dac852b8"
+ },
+ "STD;SMI": {
+  "name": "Stochastic momentum index",
+  "file": "STD_SMI.pine",
+  "kind": "indicator",
+  "chars": 1356,
+  "sha256": "4b9594217a365e7a28260ce67909db7fc4f6f823d1d4be995512d65763637542"
+ },
+ "STD;Stochastic_RSI": {
+  "name": "Stochastic RSI",
+  "file": "STD_Stochastic_RSI.pine",
+  "kind": "indicator",
+  "chars": 744,
+  "sha256": "1efda9937d6f197cefac02598b8fe6d53fd25aa004ca74fddf2d8038a0c2090e"
+ },
+ "STD;Stochastic%1Slow%1Strategy": {
+  "name": "Stochastic slow strategy",
+  "file": "STD_Stochastic_1Slow_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 658,
+  "sha256": "177f2e89d82f627bcefc58b95f5d03fc96cac87f2d643d36062a98be9a6cb293"
+ },
+ "STD;Supertrend": {
+  "name": "Supertrend",
+  "file": "STD_Supertrend.pine",
+  "kind": "indicator",
+  "chars": 1307,
+  "sha256": "0c4115d2b12d1a3eb07c12bbc44e9dd99eaded6019781a40115be066311c42e3"
+ },
+ "STD;Supertrend%Strategy": {
+  "name": "Supertrend strategy",
+  "file": "STD_Supertrend_Strategy.pine",
+  "kind": "strategy",
+  "chars": 555,
+  "sha256": "eb01f2ce8ec72830292d0443c3a01f5effd300ff66d89d67bea86ea079e0d5ca"
+ },
+ "STD;Technical%1Ratings": {
+  "name": "Technical ratings",
+  "file": "STD_Technical_1Ratings.pine",
+  "kind": "indicator",
+  "chars": 9682,
+  "sha256": "57006b75deb74af771b267492ce8384837d6669fb8b8de9752e50d17bf99e5ad"
+ },
+ "STD;Technical%1Ratings%1Strategy": {
+  "name": "Technical ratings strategy",
+  "file": "STD_Technical_1Ratings_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 1092,
+  "sha256": "679df60550ebc0e0ad8543b3f79fc63b5037dda31f5819c330aac7d262f4fc98"
+ },
+ "STD;Time%1Weighted%1Average%1Price": {
+  "name": "Time-weighted average price",
+  "file": "STD_Time_1Weighted_1Average_1Price.pine",
+  "kind": "indicator",
+  "chars": 596,
+  "sha256": "a03810345192c0b3088070885ca69e76a74762eeaeeb07fb842ac3a6512605f8"
+ },
+ "STD;Trading%1Sessions": {
+  "name": "Trading sessions",
+  "file": "STD_Trading_1Sessions.pine",
+  "kind": "indicator",
+  "chars": 6650,
+  "sha256": "1e18b1f267089fa33b7f5abb3f41d36cef5f968ce98183777fdc18a93ff15a7b"
+ },
+ "STD;Trend%1Strength%1Index": {
+  "name": "Trend strength index",
+  "file": "STD_Trend_1Strength_1Index.pine",
+  "kind": "indicator",
+  "chars": 1063,
+  "sha256": "bf4ea0b4cba874ff7692502fdfcc58d2d9e5c841a2b2c35ec933333e8d3fdab6"
+ },
+ "STD;TEMA": {
+  "name": "Triple exponential moving average",
+  "file": "STD_TEMA.pine",
+  "kind": "indicator",
+  "chars": 314,
+  "sha256": "5b1eba20ff4241b5dd4b7b11cc8cfdc83ef040fe8b013c43051377f151bf459d"
+ },
+ "STD;TRIX": {
+  "name": "TRIX",
+  "file": "STD_TRIX.pine",
+  "kind": "indicator",
+  "chars": 323,
+  "sha256": "b42e2d8aa7f2f63d5299036c5b75e79002ca02692bc50738fa18c3bf2a10225c"
+ },
+ "STD;True%1Strength%1Indicator": {
+  "name": "True strength index",
+  "file": "STD_True_1Strength_1Indicator.pine",
+  "kind": "indicator",
+  "chars": 748,
+  "sha256": "d754f9a1362997e4bafbde8a520cb9361560c072ea5c67d312edfa43eba0b886"
+ },
+ "STD;MovingAvg%1Cross2%1Strategy": {
+  "name": "Two moving averages crossover",
+  "file": "STD_MovingAvg_1Cross2_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 520,
+  "sha256": "811195bd717c8c71ca341240884bdcc367f7a5d59f2c652270cffe24538aa678"
+ },
+ "STD;Ulcer_Index": {
+  "name": "Ulcer index",
+  "file": "STD_Ulcer_Index.pine",
+  "kind": "indicator",
+  "chars": 464,
+  "sha256": "e9977cd18609b00939efaaf934bdf5f776f49c1facb233348ade1316bad6bc73"
+ },
+ "STD;Ultimate_Oscillator": {
+  "name": "Ultimate oscillator",
+  "file": "STD_Ultimate_Oscillator.pine",
+  "kind": "indicator",
+  "chars": 672,
+  "sha256": "eee8e89453017f34d7afa0ee58663574ae51d7d4f717c98e85b59a361b3d20d8"
+ },
+ "STD;UP_DOWN_Volume": {
+  "name": "Up/down volume",
+  "file": "STD_UP_DOWN_Volume.pine",
+  "kind": "indicator",
+  "chars": 1318,
+  "sha256": "1f1aa8cf9491a381b734e8c3b911d3ce4aada72d871271ba40fafac08f82c0e2"
+ },
+ "STD;Visible%1Average%1Price": {
+  "name": "Visible average price",
+  "file": "STD_Visible_1Average_1Price.pine",
+  "kind": "indicator",
+  "chars": 472,
+  "sha256": "70d58b91bb8c1bc45a9dbdb2502d1e1c134a05f76b8fba80d681e4d0ac5c9244"
+ },
+ "STD;Volty%1Expan%1Close%1Strategy": {
+  "name": "Volatility expansion-close strategy",
+  "file": "STD_Volty_1Expan_1Close_1Strategy.pine",
+  "kind": "strategy",
+  "chars": 499,
+  "sha256": "52780b01f1b03db834600fca839d0bbc66fecd4916ea5de1a1adda325a831b04"
+ },
+ "STD;Volatility_Stop": {
+  "name": "Volatility stop",
+  "file": "STD_Volatility_Stop.pine",
+  "kind": "indicator",
+  "chars": 1026,
+  "sha256": "2f3723456e88937be4e14717fc4da87d617ac8c4545c6e5579b7bbd31a45da88"
+ },
+ "STD;VWAP": {
+  "name": "Volume-weighted average price",
+  "file": "STD_VWAP.pine",
+  "kind": "indicator",
+  "chars": 5412,
+  "sha256": "176f7d7ab679f72bfe98e7ac6cb7c10279a91cd15aa50a982107f58bc3ac83a8"
+ },
+ "STD;VWMA": {
+  "name": "Volume-weighted moving average",
+  "file": "STD_VWMA.pine",
+  "kind": "indicator",
+  "chars": 338,
+  "sha256": "a9ff278a4d923248883722362643fb81924e446431411542070656db7ace32e1"
+ },
+ "STD;Vortex%1Indicator": {
+  "name": "Vortex indicator",
+  "file": "STD_Vortex_1Indicator.pine",
+  "kind": "indicator",
+  "chars": 437,
+  "sha256": "7bb2b86a62d30a723fe46c7ccc4e1b32d2d17575ea0327e93a165ad984951bda"
+ },
+ "STD;WMA": {
+  "name": "Weighted moving average",
+  "file": "STD_WMA.pine",
+  "kind": "indicator",
+  "chars": 375,
+  "sha256": "f542549e2fa27369d38bc8c72a820eb4c1cd142abc4d9b6e2d134626019b1f6d"
+ },
+ "STD;Williams_Alligator": {
+  "name": "Williams alligator",
+  "file": "STD_Williams_Alligator.pine",
+  "kind": "indicator",
+  "chars": 801,
+  "sha256": "aecd23871c0aeb12149375c5dbab76be8148e5c1a602b629e7ef09a91aeab505"
+ },
+ "STD;Whilliams_Fractals": {
+  "name": "Williams fractal",
+  "file": "STD_Whilliams_Fractals.pine",
+  "kind": "indicator",
+  "chars": 2651,
+  "sha256": "71b0e44f8462cdc3992c751ffaccde372063f455900e8d516ec1b7ee7326ac9e"
+ },
+ "STD;Willams_R": {
+  "name": "Williams percent range",
+  "file": "STD_Willams_R.pine",
+  "kind": "indicator",
+  "chars": 642,
+  "sha256": "63ff74bcdbb950a0f5cbd6c731c25148d956cd562d4b41d7765c3a66c1caf0b4"
+ },
+ "STD;Woodies%1CCI": {
+  "name": "Woodies CCI",
+  "file": "STD_Woodies_1CCI.pine",
+  "kind": "indicator",
+  "chars": 1073,
+  "sha256": "58476161a9cb5e945f566e694a27b40fa4d2ebee77a19ff4c94bbf24de28ce89"
+ },
+ "STD;Zig_Zag": {
+  "name": "Zigzag",
+  "file": "STD_Zig_Zag.pine",
+  "kind": "indicator",
+  "chars": 1960,
+  "sha256": "0e4f8700d8bccf11c2d1276e0891d991d99a1f34e3301ab2f9137e8ef1b38f27"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "BTCUSDT": {
+  "trades_with_forecast": 1207,
+  "total_trades": 1207,
+  "halves": {
+   "2020-01..2023-06": {
+    "unsized": {
+     "n": 597,
+     "mean_R": 0.1455,
+     "mean_over_sd": 0.0722,
+     "max_dd_R": 24.56,
+     "worst_20_trades_R": -14.09
+    },
+    "sized": {
+     "n": 597,
+     "mean_R": 0.1775,
+     "mean_over_sd": 0.0813,
+     "max_dd_R": 25.38,
+     "worst_20_trades_R": -14.21
+    },
+    "mean_weight": 0.986,
+    "passes": false
+   },
+   "2023-07..2026-11": {
+    "unsized": {
+     "n": 610,
+     "mean_R": 0.1878,
+     "mean_over_sd": 0.0758,
+     "max_dd_R": 23.71,
+     "worst_20_trades_R": -13.31
+    },
+    "sized": {
+     "n": 610,
+     "mean_R": 0.213,
+     "mean_over_sd": 0.0776,
+     "max_dd_R": 22.64,
+     "worst_20_trades_R": -13.99
+    },
+    "mean_weight": 1.013,
+    "passes": true
+   }
+  }
+ },
+ "ETHUSDT": {
+  "trades_with_forecast": 1203,
+  "total_trades": 1203,
+  "halves": {
+   "2020-01..2023-06": {
+    "unsized": {
+     "n": 605,
+     "mean_R": 0.2193,
+     "mean_over_sd": 0.1125,
+     "max_dd_R": 19.63,
+     "worst_20_trades_R": -11.3
+    },
+    "sized": {
+     "n": 605,
+     "mean_R": 0.2244,
+     "mean_over_sd": 0.1095,
+     "max_dd_R": 22.34,
+     "worst_20_trades_R": -14.14
+    },
+    "mean_weight": 1.008,
+    "passes": false
+   },
+   "2023-07..2026-11": {
+    "unsized": {
+     "n": 598,
+     "mean_R": 0.1195,
+     "mean_over_sd": 0.0535,
+     "max_dd_R": 35.2,
+     "worst_20_trades_R": -14.41
+    },
+    "sized": {
+     "n": 598,
+     "mean_R": 0.1455,
+     "mean_over_sd": 0.0581,
+     "max_dd_R": 32.33,
+     "worst_20_trades_R": -16.53
+    },
+    "mean_weight": 1.011,
+    "passes": true
+   }
+  }
+ },
+ "verdict": "MIXED",
+ "score": "2/4"
+}

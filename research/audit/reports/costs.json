@@ -1,0 +1,236 @@
+{
+ "ADAUSDm": {
+  "median_spread_R": NaN,
+  "slip_primary_R": NaN,
+  "slip_stress_R": NaN,
+  "months_with_spread_over_3x_median": {}
+ },
+ "AUDUSDm": {
+  "median_spread_R": 0.04614194173041779,
+  "slip_primary_R": 0.06801424748709264,
+  "slip_stress_R": 0.17003561871773162,
+  "months_with_spread_over_3x_median": {}
+ },
+ "AUS200m": {
+  "median_spread_R": 0.07404247704263477,
+  "slip_primary_R": 0.04391348501527503,
+  "slip_stress_R": 0.10978371253818758,
+  "months_with_spread_over_3x_median": {}
+ },
+ "BCHUSDm": {
+  "median_spread_R": 1.8590756520816156,
+  "slip_primary_R": 0.010609620808052975,
+  "slip_stress_R": 0.026524052020132437,
+  "months_with_spread_over_3x_median": {}
+ },
+ "BNBUSDm": {
+  "median_spread_R": 0.24286085640122154,
+  "slip_primary_R": 0.016450131536165463,
+  "slip_stress_R": 0.04112532884041365,
+  "months_with_spread_over_3x_median": {}
+ },
+ "BTCUSDm": {
+  "median_spread_R": 0.01750801038137312,
+  "slip_primary_R": 0.016923283686659484,
+  "slip_stress_R": 0.042308209216648705,
+  "months_with_spread_over_3x_median": {}
+ },
+ "DE30m": {
+  "median_spread_R": 0.01279407783850302,
+  "slip_primary_R": 0.03866882085903877,
+  "slip_stress_R": 0.09667205214759693,
+  "months_with_spread_over_3x_median": {
+   "2025-01": 5.2,
+   "2025-02": 5.2,
+   "2025-03": 5.6,
+   "2025-04": 6.2,
+   "2025-05": 5.2,
+   "2025-06": 5.3,
+   "2025-07": 5.2,
+   "2025-08": 5.0
+  }
+ },
+ "ETHUSDm": {
+  "median_spread_R": 0.031014897607795192,
+  "slip_primary_R": 0.011035809480798135,
+  "slip_stress_R": 0.027589523701995335,
+  "months_with_spread_over_3x_median": {}
+ },
+ "EURGBPm": {
+  "median_spread_R": 0.11471743631801011,
+  "slip_primary_R": 0.1413679355951734,
+  "slip_stress_R": 0.35341983898793355,
+  "months_with_spread_over_3x_median": {}
+ },
+ "EURJPYm": {
+  "median_spread_R": 0.048210883861125375,
+  "slip_primary_R": 0.08562349395499208,
+  "slip_stress_R": 0.21405873488748023,
+  "months_with_spread_over_3x_median": {}
+ },
+ "EURUSDm": {
+  "median_spread_R": 0.03202690433636812,
+  "slip_primary_R": 0.09261620263242515,
+  "slip_stress_R": 0.23154050658106284,
+  "months_with_spread_over_3x_median": {}
+ },
+ "FR40m": {
+  "median_spread_R": 0.08029660964271372,
+  "slip_primary_R": 0.039389550821572694,
+  "slip_stress_R": 0.09847387705393175,
+  "months_with_spread_over_3x_median": {}
+ },
+ "GBPJPYm": {
+  "median_spread_R": 0.041499908918388215,
+  "slip_primary_R": 0.078042465080556,
+  "slip_stress_R": 0.19510616270138997,
+  "months_with_spread_over_3x_median": {}
+ },
+ "GBPUSDm": {
+  "median_spread_R": 0.03200701139881358,
+  "slip_primary_R": 0.08573782157423938,
+  "slip_stress_R": 0.21434455393559845,
+  "months_with_spread_over_3x_median": {}
+ },
+ "HK50m": {
+  "median_spread_R": 0.13389948630883935,
+  "slip_primary_R": 0.03182048313736775,
+  "slip_stress_R": 0.07955120784341937,
+  "months_with_spread_over_3x_median": {}
+ },
+ "JP225m": {
+  "median_spread_R": 0.015513607614600529,
+  "slip_primary_R": 0.02450320994702207,
+  "slip_stress_R": 0.06125802486755518,
+  "months_with_spread_over_3x_median": {
+   "2025-01": 3.6,
+   "2025-02": 3.6,
+   "2025-03": 3.7,
+   "2025-04": 4.1,
+   "2025-05": 4.0,
+   "2025-06": 4.0,
+   "2025-07": 4.0,
+   "2025-08": 3.7
+  }
+ },
+ "LTCUSDm": {
+  "median_spread_R": 1.2525589983321967,
+  "slip_primary_R": 0.010838810532234625,
+  "slip_stress_R": 0.02709702633058656,
+  "months_with_spread_over_3x_median": {}
+ },
+ "NZDUSDm": {
+  "median_spread_R": 0.09996962890999844,
+  "slip_primary_R": 0.06472478085096633,
+  "slip_stress_R": 0.1618119521274158,
+  "months_with_spread_over_3x_median": {}
+ },
+ "SOLUSDm": {
+  "median_spread_R": 0.3388163368770094,
+  "slip_primary_R": 0.010252266125317317,
+  "slip_stress_R": 0.02563066531329329,
+  "months_with_spread_over_3x_median": {}
+ },
+ "STOXX50m": {
+  "median_spread_R": 0.08008738278107765,
+  "slip_primary_R": 0.03797530125123756,
+  "slip_stress_R": 0.09493825312809388,
+  "months_with_spread_over_3x_median": {
+   "2025-01": 3.6,
+   "2025-02": 3.5,
+   "2025-03": 3.7,
+   "2025-04": 4.0,
+   "2025-05": 3.3,
+   "2025-06": 3.4,
+   "2025-07": 3.4,
+   "2025-08": 3.3
+  }
+ },
+ "UK100m": {
+  "median_spread_R": 0.07451610810220387,
+  "slip_primary_R": 0.04838283705540966,
+  "slip_stress_R": 0.12095709263852417,
+  "months_with_spread_over_3x_median": {
+   "2025-01": 5.2,
+   "2025-02": 5.1,
+   "2025-03": 5.3,
+   "2025-04": 6.0,
+   "2025-05": 5.5,
+   "2025-06": 5.2,
+   "2025-07": 5.1,
+   "2025-08": 4.8
+  }
+ },
+ "UKOILm": {
+  "median_spread_R": 0.11758324638963172,
+  "slip_primary_R": 0.018706449316178823,
+  "slip_stress_R": 0.046766123290447055,
+  "months_with_spread_over_3x_median": {}
+ },
+ "US30m": {
+  "median_spread_R": 0.010459728721795502,
+  "slip_primary_R": 0.04704731189995367,
+  "slip_stress_R": 0.11761827974988416,
+  "months_with_spread_over_3x_median": {}
+ },
+ "US500m": {
+  "median_spread_R": 0.02019493936425398,
+  "slip_primary_R": 0.046333420527021836,
+  "slip_stress_R": 0.11583355131755459,
+  "months_with_spread_over_3x_median": {}
+ },
+ "USDCADm": {
+  "median_spread_R": 0.06709898074093866,
+  "slip_primary_R": 0.12422257967831286,
+  "slip_stress_R": 0.3105564491957822,
+  "months_with_spread_over_3x_median": {}
+ },
+ "USDCHFm": {
+  "median_spread_R": 0.06491239925494079,
+  "slip_primary_R": 0.08047939124859443,
+  "slip_stress_R": 0.20119847812148609,
+  "months_with_spread_over_3x_median": {}
+ },
+ "USDJPYm": {
+  "median_spread_R": 0.023099679625613274,
+  "slip_primary_R": 0.07181436299133817,
+  "slip_stress_R": 0.1795359074783454,
+  "months_with_spread_over_3x_median": {}
+ },
+ "USOILm": {
+  "median_spread_R": 0.02298126367399335,
+  "slip_primary_R": 0.01743614009683225,
+  "slip_stress_R": 0.043590350242080626,
+  "months_with_spread_over_3x_median": {}
+ },
+ "USTECm": {
+  "median_spread_R": 0.012215632727818072,
+  "slip_primary_R": 0.031689508118582364,
+  "slip_stress_R": 0.0792237702964559,
+  "months_with_spread_over_3x_median": {}
+ },
+ "XAGUSDm": {
+  "median_spread_R": 0.03969175088497551,
+  "slip_primary_R": 0.01403712000630734,
+  "slip_stress_R": 0.03509280001576835,
+  "months_with_spread_over_3x_median": {}
+ },
+ "XAUUSDm": {
+  "median_spread_R": 0.005264740732596348,
+  "slip_primary_R": 0.026733978327295387,
+  "slip_stress_R": 0.06683494581823847,
+  "months_with_spread_over_3x_median": {}
+ },
+ "XNGUSDm": {
+  "median_spread_R": 0.6939800427678663,
+  "slip_primary_R": 0.01284396909922669,
+  "slip_stress_R": 0.03210992274806672,
+  "months_with_spread_over_3x_median": {}
+ },
+ "XRPUSDm": {
+  "median_spread_R": 0.2793197173874739,
+  "slip_primary_R": 0.011470711106064683,
+  "slip_stress_R": 0.028676777765161702,
+  "months_with_spread_over_3x_median": {}
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "btc_binance_2020_2024": {
+  "trades": 1194,
+  "win_rate_pct": 32.747068676716914,
+  "profit_factor": 1.1855702599309692,
+  "expectancy_r": 0.10203272251927896,
+  "t_stat": 1.81752260306338,
+  "p_one_sided": 0.03469394323005048,
+  "total_r": 121.82707068801908,
+  "max_drawdown_r": 29.14169682510088,
+  "max_drawdown_pct": 13.608572542495256,
+  "top5_share_of_total_pct": 61.411152342099754,
+  "expectancy_without_top5_r": 0.03953882482244082,
+  "random_mean_r": 0.11329152771570282,
+  "p_random": 0.6653346653346653,
+  "label": "BTC Binance 2020-2024",
+  "by_year": {
+   "2020": {
+    "trades": 229,
+    "expectancy_r": 0.2652233528160107
+   },
+   "2021": {
+    "trades": 228,
+    "expectancy_r": 0.09873517342811403
+   },
+   "2022": {
+    "trades": 249,
+    "expectancy_r": -0.0033510776149349737
+   },
+   "2023": {
+    "trades": 245,
+    "expectancy_r": 0.11529110860818685
+   },
+   "2024": {
+    "trades": 243,
+    "expectancy_r": 0.04595637888335664
+   }
+  }
+ },
+ "eth_binance_2020_now": {
+  "trades": 1629,
+  "win_rate_pct": 33.210558624923266,
+  "profit_factor": 1.111993979714747,
+  "expectancy_r": 0.06145296085835497,
+  "t_stat": 1.320053158464769,
+  "p_one_sided": 0.0935014213037429,
+  "total_r": 100.10687323826025,
+  "max_drawdown_r": 73.82480357466254,
+  "max_drawdown_pct": 32.58744123739845,
+  "top5_share_of_total_pct": 82.79499481873756,
+  "expectancy_without_top5_r": 0.010605537393745368,
+  "random_mean_r": 0.09686125983814334,
+  "p_random": 0.945054945054945,
+  "label": "ETH Binance 2020-now",
+  "by_year": {
+   "2020": {
+    "trades": 233,
+    "expectancy_r": 0.25038245825013933
+   },
+   "2021": {
+    "trades": 233,
+    "expectancy_r": 0.10016534533693232
+   },
+   "2022": {
+    "trades": 241,
+    "expectancy_r": -0.21710717849748604
+   },
+   "2023": {
+    "trades": 259,
+    "expectancy_r": 0.010280562747489709
+   },
+   "2024": {
+    "trades": 238,
+    "expectancy_r": -0.018989524535275148
+   },
+   "2025": {
+    "trades": 229,
+    "expectancy_r": 0.20596271917379855
+   },
+   "2026": {
+    "trades": 196,
+    "expectancy_r": 0.12981348682327787
+   }
+  }
+ },
+ "btc_exness_2025_now": {
+  "trades": 424,
+  "win_rate_pct": 36.08490566037736,
+  "profit_factor": 1.3292759943450705,
+  "expectancy_r": 0.1681723455814704,
+  "t_stat": 1.5837287473313504,
+  "p_one_sided": 0.05700138983880565,
+  "total_r": 71.30507452654345,
+  "max_drawdown_r": 14.211978247615413,
+  "max_drawdown_pct": 6.946593817704894,
+  "top5_share_of_total_pct": 84.6291868855397,
+  "expectancy_without_top5_r": 0.02615792302291558,
+  "random_mean_r": 0.0001781815545630215,
+  "p_random": 0.000999000999000999,
+  "label": "BTC Exness 2025-now",
+  "by_year": {
+   "2025": {
+    "trades": 227,
+    "expectancy_r": 0.17767398188217254
+   },
+   "2026": {
+    "trades": 197,
+    "expectancy_r": 0.15722375959030602
+   }
+  },
+  "stress_expectancy_r": 0.12551310135569752,
+  "regimes": {
+   "bull": {
+    "trades": 197,
+    "expectancy_r": 0.12627884254354274
+   },
+   "sideways": {
+    "trades": 27,
+    "expectancy_r": 0.07671776475234836
+   },
+   "bear": {
+    "trades": 200,
+    "expectancy_r": 0.22178381448576062
+   }
+  },
+  "delay_15min_expectancy_r": 0.16148567737058814
+ }
+}

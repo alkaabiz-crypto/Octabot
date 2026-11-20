@@ -1,0 +1,200 @@
+{
+ "z_crit": 2.638,
+ "looks": [
+  100,
+  300,
+  600,
+  1000
+ ],
+ "markets": {
+  "ETHUSDT": {
+   "trades": 654,
+   "sd_bp": 182.5,
+   "causal_mean_bp": -15.55,
+   "true_mean_0bp": {
+    "P_pass": 0.0177,
+    "P_futility_stop": 0.2347,
+    "P_undecided_at_1000": 0.7475,
+    "pass_by_look": {
+     "100": 0.0055,
+     "300": 0.005,
+     "600": 0.0047,
+     "1000": 0.0025
+    },
+    "frozen_rule_P_pass_at_100": 0.458
+   },
+   "true_mean_5bp": {
+    "P_pass": 0.0645,
+    "P_futility_stop": 0.0995,
+    "P_undecided_at_1000": 0.836,
+    "pass_by_look": {
+     "100": 0.012,
+     "300": 0.013,
+     "600": 0.019,
+     "1000": 0.0205
+    },
+    "frozen_rule_P_pass_at_100": 0.5632
+   },
+   "true_mean_10bp": {
+    "P_pass": 0.219,
+    "P_futility_stop": 0.0405,
+    "P_undecided_at_1000": 0.7405,
+    "pass_by_look": {
+     "100": 0.0227,
+     "300": 0.0393,
+     "600": 0.0625,
+     "1000": 0.0945
+    },
+    "frozen_rule_P_pass_at_100": 0.6735
+   },
+   "true_mean_20bp": {
+    "P_pass": 0.7837,
+    "P_futility_stop": 0.0085,
+    "P_undecided_at_1000": 0.2077,
+    "pass_by_look": {
+     "100": 0.0683,
+     "300": 0.1775,
+     "600": 0.2777,
+     "1000": 0.2602
+    },
+    "frozen_rule_P_pass_at_100": 0.8355
+   },
+   "true_mean_causal": {
+    "P_pass": 0.0013,
+    "P_futility_stop": 0.9157,
+    "P_undecided_at_1000": 0.083,
+    "pass_by_look": {
+     "100": 0.001,
+     "300": 0.0003
+    },
+    "frozen_rule_P_pass_at_100": 0.1802
+   }
+  },
+  "USOILm": {
+   "trades": 414,
+   "sd_bp": 151.9,
+   "causal_mean_bp": -8.42,
+   "true_mean_0bp": {
+    "P_pass": 0.0208,
+    "P_futility_stop": 0.2125,
+    "P_undecided_at_1000": 0.7668,
+    "pass_by_look": {
+     "100": 0.009,
+     "300": 0.0053,
+     "600": 0.0032,
+     "1000": 0.0032
+    },
+    "frozen_rule_P_pass_at_100": 0.4512
+   },
+   "true_mean_5bp": {
+    "P_pass": 0.1227,
+    "P_futility_stop": 0.056,
+    "P_undecided_at_1000": 0.8213,
+    "pass_by_look": {
+     "100": 0.023,
+     "300": 0.0267,
+     "600": 0.0318,
+     "1000": 0.0413
+    },
+    "frozen_rule_P_pass_at_100": 0.6045
+   },
+   "true_mean_10bp": {
+    "P_pass": 0.4467,
+    "P_futility_stop": 0.0168,
+    "P_undecided_at_1000": 0.5365,
+    "pass_by_look": {
+     "100": 0.0548,
+     "300": 0.088,
+     "600": 0.1315,
+     "1000": 0.1725
+    },
+    "frozen_rule_P_pass_at_100": 0.7298
+   },
+   "true_mean_20bp": {
+    "P_pass": 0.973,
+    "P_futility_stop": 0.003,
+    "P_undecided_at_1000": 0.024,
+    "pass_by_look": {
+     "100": 0.1923,
+     "300": 0.3357,
+     "600": 0.3185,
+     "1000": 0.1265
+    },
+    "frozen_rule_P_pass_at_100": 0.9052
+   },
+   "true_mean_causal": {
+    "P_pass": 0.0013,
+    "P_futility_stop": 0.8468,
+    "P_undecided_at_1000": 0.152,
+    "pass_by_look": {
+     "100": 0.001,
+     "600": 0.0003
+    },
+    "frozen_rule_P_pass_at_100": 0.217
+   }
+  },
+  "XAUUSDm": {
+   "trades": 696,
+   "sd_bp": 59.9,
+   "causal_mean_bp": -0.16,
+   "true_mean_0bp": {
+    "P_pass": 0.0085,
+    "P_futility_stop": 0.4642,
+    "P_undecided_at_1000": 0.5272,
+    "pass_by_look": {
+     "100": 0.003,
+     "300": 0.0015,
+     "600": 0.003,
+     "1000": 0.001
+    },
+    "frozen_rule_P_pass_at_100": 0.348
+   },
+   "true_mean_5bp": {
+    "P_pass": 0.6248,
+    "P_futility_stop": 0.0265,
+    "P_undecided_at_1000": 0.3488,
+    "pass_by_look": {
+     "100": 0.0375,
+     "300": 0.108,
+     "600": 0.2172,
+     "1000": 0.262
+    },
+    "frozen_rule_P_pass_at_100": 0.7068
+   },
+   "true_mean_10bp": {
+    "P_pass": 0.9985,
+    "P_futility_stop": 0.0015,
+    "P_undecided_at_1000": 0.0,
+    "pass_by_look": {
+     "100": 0.2142,
+     "300": 0.5315,
+     "600": 0.236,
+     "1000": 0.0168
+    },
+    "frozen_rule_P_pass_at_100": 0.9328
+   },
+   "true_mean_20bp": {
+    "P_pass": 1.0,
+    "P_futility_stop": 0.0,
+    "P_undecided_at_1000": 0.0,
+    "pass_by_look": {
+     "100": 0.8985,
+     "300": 0.1015
+    },
+    "frozen_rule_P_pass_at_100": 1.0
+   },
+   "true_mean_causal": {
+    "P_pass": 0.0065,
+    "P_futility_stop": 0.4933,
+    "P_undecided_at_1000": 0.5002,
+    "pass_by_look": {
+     "100": 0.003,
+     "300": 0.001,
+     "600": 0.002,
+     "1000": 0.0005
+    },
+    "frozen_rule_P_pass_at_100": 0.3378
+   }
+  }
+ }
+}
