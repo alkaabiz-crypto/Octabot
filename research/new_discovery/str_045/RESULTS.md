@@ -29,3 +29,13 @@ None is significant; all |t| < 1.1.
 - **REJECTED** everywhere. No version is positive in both periods, and none beats random days.
 - **Fading the flows doesn't work either**: the opposite trade is only small and inconsistent (+0.11% / −0.16% for BTC over 1 day).
 - **Why:** big ETF flows are widely reported and mostly *follow* price (investors buy after rises). By the time a day's flow is known, its information is already in the price. The headline "record outflows" is news about the past, not a forecast.
+
+## Post-hoc: longer holds (user question, 2026-11-20)
+
+- **Longer holds:** `longer_holds.py` / `.json` re-ran the follow rule with signals from 1-, 5- and 20-day summed flows and holds of 10/20/40/60 days (24 cells).
+  - Many cells are positive, ETH especially (e.g. 5-day flow, 20-day hold: +6.7% per trade, +10.6% / +4.8% by half).
+  - **None is significant after BH over the 24 cells**, and each has only 10–60 trades.
+- **Momentum control:** `momentum_control.py` / `.json` ran the same rule on past price returns.
+  - For 20-day windows, flows track price (correlation 0.66–0.75) and plain momentum does about as well. That part of the effect is momentum.
+  - For 1- and 5-day flow windows, mainly on ETH, flows did better than momentum, and mostly stayed positive when flow and price disagreed.
+- **The verdict above (pre-registered horizons) stays REJECTED.** The longer-hold hint is labelled post-hoc. One rule (5-day flow, 20-day hold, BTC + ETH) is frozen as a forward paper test, STR-046 (`../forward_etf_flows/`), judged only on new data from 2026-11-20.

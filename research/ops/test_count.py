@@ -34,6 +34,7 @@ rows.append(("this branch", "STR-042 market making (6 settings), SIG-005 CryptoM
 rows.append(("this branch", "STR-043 value-area reel (2 scenarios x 5 markets)", js("new_discovery/str_043/results.json", "n_tests")))
 rows.append(("this branch", "STR-044 liquidity-sweep entry (2 variants x 5 markets)", js("new_discovery/str_044/results.json", "n_tests")))
 rows.append(("this branch", "STR-045 ETF flows (2 assets x 2 holds x IC+rule)", 8))
+rows.append(("this branch", "STR-045 post-hoc longer holds (24) + momentum control (24)", 48))
 rows.append(("this branch", "STR-023 replication, STR-025, STR-026, H4 ETH/A/B/C checks", 5 + 1 + 1 + 4))
 rows.append(("this branch", "earlier studies: news_markets 225, news_surprise 56, indicator scans (multi_market ~2,950 variants × 33 markets fitted picks 108; long_history ~2,640 per market × 3), TradingView/community/requested scans", 225 + 56 + 108 + 3 * 2640 + 400))
 rows.append(("other branch", "theory library screen 535 + earlier runs 2 × 416 + V2 54 + V1 3", 535 + 832 + 54 + 3))
