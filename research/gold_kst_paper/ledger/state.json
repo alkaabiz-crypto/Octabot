@@ -1,11 +1,11 @@
 {
- "last_bar_utc": "2026-11-19 00:00",
+ "last_bar_utc": "2026-11-20 00:00",
  "CHOSEN_48H_TIME_STOP": {
-  "legs": 2,
+  "legs": 3,
   "open_leg_since": null
  },
  "ORIGINAL": {
-  "legs": 2,
+  "legs": 3,
   "open_leg_since": null
  },
  "DOLLAR_FALLING": {
