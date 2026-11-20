@@ -1,0 +1,130 @@
+{
+ "BTC": {
+  "flow_days": 718,
+  "first": "2024-01-11",
+  "last": "2026-11-19",
+  "z_days": 658,
+  "h1": {
+   "VALIDATION": {
+    "ic": -0.0261,
+    "ic_t": -0.46,
+    "ic_n": 307,
+    "trades": 95,
+    "mean_net_pct": -0.307,
+    "mean_stress_pct": -0.607,
+    "win_pct": 44.2,
+    "fade_mean_net_pct": 0.107,
+    "random_mean_pct": -0.098,
+    "p": 0.802,
+    "long_share": 0.54
+   },
+   "TEST": {
+    "ic": 0.003,
+    "ic_t": 0.06,
+    "ic_n": 349,
+    "trades": 116,
+    "mean_net_pct": -0.036,
+    "mean_stress_pct": -0.336,
+    "win_pct": 48.3,
+    "fade_mean_net_pct": -0.164,
+    "random_mean_pct": -0.103,
+    "p": 0.375,
+    "long_share": 0.47
+   },
+   "decision": "REJECTED"
+  },
+  "h5": {
+   "VALIDATION": {
+    "ic": -0.0723,
+    "ic_t": -0.56,
+    "ic_n": 62,
+    "trades": 44,
+    "mean_net_pct": -0.132,
+    "mean_stress_pct": -0.432,
+    "win_pct": 47.7,
+    "fade_mean_net_pct": -0.068,
+    "random_mean_pct": -0.129,
+    "p": 0.497,
+    "long_share": 0.45
+   },
+   "TEST": {
+    "ic": 0.0947,
+    "ic_t": 0.78,
+    "ic_n": 70,
+    "trades": 53,
+    "mean_net_pct": 0.451,
+    "mean_stress_pct": 0.151,
+    "win_pct": 52.8,
+    "fade_mean_net_pct": -0.651,
+    "random_mean_pct": -0.069,
+    "p": 0.215,
+    "long_share": 0.45
+   },
+   "decision": "REJECTED"
+  }
+ },
+ "ETH": {
+  "flow_days": 586,
+  "first": "2024-07-23",
+  "last": "2026-11-19",
+  "z_days": 526,
+  "h1": {
+   "VALIDATION": {
+    "ic": -0.0478,
+    "ic_t": -0.63,
+    "ic_n": 175,
+    "trades": 52,
+    "mean_net_pct": -0.389,
+    "mean_stress_pct": -0.689,
+    "win_pct": 48.1,
+    "fade_mean_net_pct": 0.189,
+    "random_mean_pct": -0.105,
+    "p": 0.686,
+    "long_share": 0.69
+   },
+   "TEST": {
+    "ic": -0.0011,
+    "ic_t": -0.02,
+    "ic_n": 349,
+    "trades": 117,
+    "mean_net_pct": -0.244,
+    "mean_stress_pct": -0.544,
+    "win_pct": 47.0,
+    "fade_mean_net_pct": 0.044,
+    "random_mean_pct": -0.095,
+    "p": 0.692,
+    "long_share": 0.56
+   },
+   "decision": "REJECTED"
+  },
+  "h5": {
+   "VALIDATION": {
+    "ic": 0.1796,
+    "ic_t": 1.05,
+    "ic_n": 35,
+    "trades": 22,
+    "mean_net_pct": -3.477,
+    "mean_stress_pct": -3.777,
+    "win_pct": 31.8,
+    "fade_mean_net_pct": 3.277,
+    "random_mean_pct": -0.058,
+    "p": 0.971,
+    "long_share": 0.64
+   },
+   "TEST": {
+    "ic": -0.0317,
+    "ic_t": -0.26,
+    "ic_n": 70,
+    "trades": 55,
+    "mean_net_pct": 0.027,
+    "mean_stress_pct": -0.273,
+    "win_pct": 50.9,
+    "fade_mean_net_pct": -0.227,
+    "random_mean_pct": -0.038,
+    "p": 0.468,
+    "long_share": 0.53
+   },
+   "decision": "REJECTED"
+  }
+ }
+}
