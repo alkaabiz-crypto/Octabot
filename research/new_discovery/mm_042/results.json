@@ -1,0 +1,260 @@
+{
+ "STR-042|BTCUSDT|h=2bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 1597.0,
+   "mean_gross_bp": -1219.58,
+   "maker_0.02%": {
+    "mean_bp_per_day": -4454.98,
+    "t": -5.07,
+    "positive_days_pct": 0.0
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -3647.21,
+    "t": -5.07,
+    "positive_days_pct": 0.0
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -1223.91,
+    "t": -4.94,
+    "positive_days_pct": 0.0
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 2624.0,
+   "mean_gross_bp": -2324.18,
+   "maker_0.02%": {
+    "mean_bp_per_day": -7535.62,
+    "t": -6.88,
+    "positive_days_pct": 0.0
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -6233.53,
+    "t": -6.82,
+    "positive_days_pct": 0.0
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -2327.26,
+    "t": -6.24,
+    "positive_days_pct": 2.9
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-042|BTCUSDT|h=5bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 107.0,
+   "mean_gross_bp": -48.21,
+   "maker_0.02%": {
+    "mean_bp_per_day": -267.78,
+    "t": -2.88,
+    "positive_days_pct": 21.4
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -213.8,
+    "t": -2.54,
+    "positive_days_pct": 21.4
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -51.85,
+    "t": -0.83,
+    "positive_days_pct": 35.7
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 257.0,
+   "mean_gross_bp": -153.04,
+   "maker_0.02%": {
+    "mean_bp_per_day": -664.98,
+    "t": -4.54,
+    "positive_days_pct": 20.6
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -537.69,
+    "t": -4.34,
+    "positive_days_pct": 23.5
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -155.82,
+    "t": -2.55,
+    "positive_days_pct": 47.1
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-042|BTCUSDT|h=10bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 13.0,
+   "mean_gross_bp": -14.83,
+   "maker_0.02%": {
+    "mean_bp_per_day": -44.69,
+    "t": -1.0,
+    "positive_days_pct": 50.0
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -38.31,
+    "t": -0.87,
+    "positive_days_pct": 50.0
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -19.18,
+    "t": -0.45,
+    "positive_days_pct": 57.1
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 30.0,
+   "mean_gross_bp": 3.89,
+   "maker_0.02%": {
+    "mean_bp_per_day": -57.91,
+    "t": -1.23,
+    "positive_days_pct": 44.1
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -43.05,
+    "t": -0.95,
+    "positive_days_pct": 44.1
+   },
+   "maker_0%": {
+    "mean_bp_per_day": 1.55,
+    "t": 0.04,
+    "positive_days_pct": 47.1
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-042|ETHUSDT|h=2bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 5651.0,
+   "mean_gross_bp": -4173.32,
+   "maker_0.02%": {
+    "mean_bp_per_day": -15477.43,
+    "t": -5.4,
+    "positive_days_pct": 0.0
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -12652.21,
+    "t": -5.38,
+    "positive_days_pct": 0.0
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -4176.56,
+    "t": -5.2,
+    "positive_days_pct": 0.0
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 6432.0,
+   "mean_gross_bp": -5372.81,
+   "maker_0.02%": {
+    "mean_bp_per_day": -18095.12,
+    "t": -7.78,
+    "positive_days_pct": 0.0
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -14915.38,
+    "t": -7.73,
+    "positive_days_pct": 0.0
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -5376.17,
+    "t": -7.21,
+    "positive_days_pct": 0.0
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-042|ETHUSDT|h=5bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 460.0,
+   "mean_gross_bp": -253.06,
+   "maker_0.02%": {
+    "mean_bp_per_day": -1175.45,
+    "t": -3.58,
+    "positive_days_pct": 14.3
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -945.66,
+    "t": -3.43,
+    "positive_days_pct": 28.6
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -256.31,
+    "t": -2.06,
+    "positive_days_pct": 28.6
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 855.0,
+   "mean_gross_bp": -688.57,
+   "maker_0.02%": {
+    "mean_bp_per_day": -2375.22,
+    "t": -5.35,
+    "positive_days_pct": 2.9
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -1954.44,
+    "t": -5.25,
+    "positive_days_pct": 5.9
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -692.08,
+    "t": -4.23,
+    "positive_days_pct": 17.6
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-042|ETHUSDT|h=10bp": {
+  "VALIDATION": {
+   "days": 14,
+   "mean_fills": 63.0,
+   "mean_gross_bp": -29.8,
+   "maker_0.02%": {
+    "mean_bp_per_day": -158.98,
+    "t": -2.02,
+    "positive_days_pct": 28.6
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -127.5,
+    "t": -1.66,
+    "positive_days_pct": 28.6
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -33.07,
+    "t": -0.44,
+    "positive_days_pct": 35.7
+   }
+  },
+  "TEST": {
+   "days": 34,
+   "mean_fills": 129.0,
+   "mean_gross_bp": -59.09,
+   "maker_0.02%": {
+    "mean_bp_per_day": -315.66,
+    "t": -3.63,
+    "positive_days_pct": 29.4
+   },
+   "maker_0.015%": {
+    "mean_bp_per_day": -252.36,
+    "t": -3.26,
+    "positive_days_pct": 32.4
+   },
+   "maker_0%": {
+    "mean_bp_per_day": -62.45,
+    "t": -1.12,
+    "positive_days_pct": 44.1
+   }
+  },
+  "decision": "REJECTED"
+ }
+}

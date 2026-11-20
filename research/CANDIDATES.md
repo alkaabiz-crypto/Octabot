@@ -148,6 +148,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-039a–h | Pairs mean reversion (±2σ entry, exit at the mean / ±4σ stop / 20 days): gold/silver, US oil/Brent, Nasdaq/S&P, Dow/S&P, AUD/NZD, EUR/GBP, DAX/Stoxx50, BTC/ETH | **REJECTED** (all 8; none positive in every period) | `new_discovery/pairs_batch_006/` |
 | STR-040 | Crypto cross-sectional weekly momentum (long 2 best / short 2 worst of 8 coins) | **WATCH**: positive every period but shrinking (+104 → +18 bp/week), not significant, negative at stress cost | `new_discovery/pairs_batch_006/` |
 | STR-041 | Liquidity sweep → market-structure shift (CHoCH) → buyer/seller dominance → Optimal Trade Entry 70.5% (ICT/SMC; user request) | **REJECTED** on BTC, ETH, gold, oil, S&P 500 (all 3 variants; dominance filter adds nothing) | `new_discovery/str_041/` |
+| STR-042 | Market making: two-sided quotes ±2/5/10 bp around the last price, 1-second updates, inventory limit, on BTC/ETH perpetuals (Binance trade data, trade-through fills) | **REJECTED**: loses even before fees (adverse selection); not possible on Exness | `new_discovery/mm_042/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
