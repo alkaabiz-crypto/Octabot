@@ -31,6 +31,7 @@ rows.append(("this branch", "Academic batch 005 (STR-034..038, strategy x market
 rows.append(("this branch", "Pairs batch 006 (STR-039a-h, STR-040)", js("new_discovery/pairs_batch_006/results.json", "n_tests")))
 rows.append(("this branch", "STR-041 ICT sweep/CHoCH/dominance/OTE (3 variants x 5 markets)", js("new_discovery/str_041/results.json", "n_tests")))
 rows.append(("this branch", "STR-042 market making (6 settings), SIG-005 CryptoMeter (3 exits + 28-cell grid)", 6 + 3 + 28))
+rows.append(("this branch", "STR-043 value-area reel (2 scenarios x 5 markets)", js("new_discovery/str_043/results.json", "n_tests")))
 rows.append(("this branch", "STR-023 replication, STR-025, STR-026, H4 ETH/A/B/C checks", 5 + 1 + 1 + 4))
 rows.append(("this branch", "earlier studies: news_markets 225, news_surprise 56, indicator scans (multi_market ~2,950 variants × 33 markets fitted picks 108; long_history ~2,640 per market × 3), TradingView/community/requested scans", 225 + 56 + 108 + 3 * 2640 + 400))
 rows.append(("other branch", "theory library screen 535 + earlier runs 2 × 416 + V2 54 + V1 3", 535 + 832 + 54 + 3))
