@@ -1,6 +1,6 @@
 # Gold daily briefing
 
-Generated 2026-11-20 03:25 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-21 03:25 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
@@ -14,9 +14,9 @@ None.
 
 ## Paper test (KST + session VWAP BUY)
 
-- Data to 2026-11-20 00:00 UTC; KST below its signal line.
-- CHOSEN_48H_TIME_STOP: 3 closed legs; no open leg.
-- ORIGINAL: 3 closed legs; no open leg.
+- Data to 2026-11-20 22:00 UTC; KST above its signal line.
+- CHOSEN_48H_TIME_STOP: 3 closed legs; open BUY leg since 2026-11-20 14:00 UTC.
+- ORIGINAL: 3 closed legs; open BUY leg since 2026-11-20 14:00 UTC.
 - DOLLAR_FALLING: 0 closed legs; no open leg.
 - VOL_LOW: 0 closed legs; no open leg.
 
