@@ -153,6 +153,8 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-044 | Liquidity-sweep entry "that stop hunt is your entry" (keepssy_fx reel): buy after a sweep of equal lows / sell after equal highs, 2R | **REJECTED** (both variants, all 5 markets) | `new_discovery/str_044/` |
 | STR-045 | US spot crypto ETF daily net flows (cryptoetf.today data): follow big inflows/outflows, 1-day / 5-day hold, acted on 2 days later | **REJECTED** (IC ≈ 0; BTC and ETH, both holds) | `new_discovery/str_045/` |
 | STR-046 | ETF-flow follow rule (5-day flow z ≥ ±1, 20-day hold, BTC + ETH), frozen from the STR-045 post-hoc hint | **FORWARD PAPER TEST** from 2026-11-20 (first look at 40 trades, futility at 20) | `new_discovery/forward_etf_flows/` |
+| STR-047 | Crypto cash-and-carry: long spot + short perpetual, collect funding (BTC, ETH; always-on and conditional) | **SOMETIMES**: 14–18%/yr in 2020–22, beat T-bills to mid-2025, now 2.5–3.3% vs T-bill 3.8% | `new_discovery/carry_yields_047/` |
+| STR-048 | 10-year Treasury yield momentum → gold (yield down → long gold 20 days; nominal and real yield) | **REJECTED** (lost 2023→mid-2024 when the yield–gold link broke) | `new_discovery/carry_yields_047/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
