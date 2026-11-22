@@ -156,6 +156,7 @@ IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-0
 | STR-047 | Crypto cash-and-carry: long spot + short perpetual, collect funding (BTC, ETH; always-on and conditional) | **SOMETIMES**: 14–18%/yr in 2020–22, beat T-bills to mid-2025, now 2.5–3.3% vs T-bill 3.8% | `new_discovery/carry_yields_047/` |
 | STR-048 | 10-year Treasury yield momentum → gold (yield down → long gold 20 days; nominal and real yield) | **REJECTED** (lost 2023→mid-2024 when the yield–gold link broke) | `new_discovery/carry_yields_047/` |
 | STR-049 | scuta_net reel: first 5m candle after the NY open, close vs EMA 12 → direction, trailing stop (3 variants), Nasdaq; claim +982% | **REJECTED on Exness** (−65% to −87% at 1% risk; opening spread ~4.9 pts). Claim reproduces only with zero costs (PF 1.29, +753%); futures-like costs positive every period but no better than random direction since mid-2025 (post-hoc) | `new_discovery/str_049/` |
+| STR-050 | Negatively correlated pairs (EUR/USD, GBP/USD, gold vs USD/CHF; gold vs USD/JPY; oil vs USD/CAD): spread mean reversion + next-day lead–lag | **a, c, d, e REJECTED; b GBP/USD–USD/CHF WATCH** (positive every period, 8–12 trades each, TEST p 0.49). Lead–lag: no BH-significant IC, all \|t\| < 1.5 in TEST | `new_discovery/negcorr_050/` |
 
 ## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
 
