@@ -1,0 +1,44 @@
+{
+ "trades": 64,
+ "total_R": 24.5277,
+ "expectancy_R": 0.3832,
+ "top_trade": {
+  "rank_by_R": 1,
+  "trade_number": 38,
+  "signal_close": "2026-08-19 14:00:00",
+  "entry_time": "2026-08-19 14:00:00",
+  "entry_ask": 64967.98,
+  "spread_at_entry": 10.0,
+  "initial_stop": 64535.71,
+  "final_stop": 76412.94,
+  "exit_time": "2026-08-21 11:34:44",
+  "exit_bid": 76400.8,
+  "hold_hours": 45.58,
+  "risk_per_btc": 432.27,
+  "R": 26.4481,
+  "share_of_total_R_pct": 107.8,
+  "swap_days_assumed": 2
+ },
+ "reconciliation": {
+  "formula_all": "24.5277 / 64 = 0.3832",
+  "formula_without_top": "(24.5277 - 26.4481) / 63 = -0.0305"
+ },
+ "after_spread_and_slippage": {
+  "win_rate_pct": 35.9,
+  "profit_factor": 1.738,
+  "avg_win_R": 2.5119,
+  "avg_loss_R": -0.8109,
+  "avg_win_loss_ratio": 3.098,
+  "median_R": -0.5745,
+  "max_drawdown_pct_at_0_5pct_risk": 4.58,
+  "wins": 23,
+  "losses": 41
+ },
+ "without_top_trade": {
+  "trades": 63,
+  "expectancy_R": -0.0305,
+  "profit_factor": 0.942,
+  "win_rate_pct": 34.9
+ },
+ "cost_status": "spread and exit slippage MEASURED from Exness ticks (spread is a fixed per-period value in this archive); commission assumed 0 (UNVERIFIED); swaps UNKNOWN, not deducted"
+}

@@ -1,0 +1,18 @@
+{
+ "criteria": {
+  "holdout_min_pf": 1.1,
+  "holdout_min_trades": 10,
+  "min_pf": 1.2,
+  "min_pos_windows": 7,
+  "min_t": 2.0,
+  "min_trades": 60
+ },
+ "passed": [
+  "1h_M1_BB_SQUEEZE_LONG_TRAIL",
+  "1h_M2_DONCHIAN20_LONG_TRAIL",
+  "1h_M4_DONCHIAN_VOL_LONG_FIXED",
+  "1h_M4_DONCHIAN_VOL_LONG_TRAIL",
+  "1h_M6_SQUEEZE_VOL_LONG_FIXED"
+ ],
+ "stage": "walk-forward complete; holdout untouched"
+}

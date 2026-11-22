@@ -1,0 +1,210 @@
+{
+ "generated_utc": "2026-11-12 11:49",
+ "windows": {
+  "SCHOOL_0825": {
+   "X0": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": 0.0571,
+      "win": 0.581
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": 0.0015,
+      "win": 0.581
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 215,
+      "mean_R": 0.0239,
+      "win": 0.558
+     },
+     "r2": {
+      "trades": 215,
+      "mean_R": -0.0298,
+      "win": 0.558
+     }
+    },
+    "news_days_r2": {
+     "trades": 54,
+     "mean_R": 0.0298,
+     "win": 0.667
+    },
+    "other_days_r2": {
+     "trades": 419,
+     "mean_R": -0.0182,
+     "win": 0.558
+    },
+    "exit_reasons": {
+     "tp": 272,
+     "stop": 200,
+     "time": 1,
+     "close_inside": 0
+    }
+   },
+   "XC": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": 0.0247,
+      "win": 0.469
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": -0.0309,
+      "win": 0.469
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 215,
+      "mean_R": 0.0129,
+      "win": 0.474
+     },
+     "r2": {
+      "trades": 215,
+      "mean_R": -0.0406,
+      "win": 0.474
+     }
+    },
+    "news_days_r2": {
+     "trades": 54,
+     "mean_R": 0.064,
+     "win": 0.667
+    },
+    "other_days_r2": {
+     "trades": 419,
+     "mean_R": -0.0481,
+     "win": 0.446
+    },
+    "exit_reasons": {
+     "tp": 225,
+     "stop": 128,
+     "time": 1,
+     "close_inside": 119
+    }
+   }
+  },
+  "SHIFT_0820": {
+   "X0": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": 0.0063,
+      "win": 0.535
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": -0.0369,
+      "win": 0.535
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 215,
+      "mean_R": -0.1206,
+      "win": 0.474
+     },
+     "r2": {
+      "trades": 215,
+      "mean_R": -0.1607,
+      "win": 0.474
+     }
+    }
+   },
+   "XC": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": 0.0059,
+      "win": 0.36
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": -0.0368,
+      "win": 0.36
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 215,
+      "mean_R": -0.0585,
+      "win": 0.335
+     },
+     "r2": {
+      "trades": 215,
+      "mean_R": -0.0975,
+      "win": 0.335
+     }
+    }
+   }
+  },
+  "SHIFT_0830": {
+   "X0": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": -0.0843,
+      "win": 0.477
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": -0.1209,
+      "win": 0.477
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 214,
+      "mean_R": -0.1523,
+      "win": 0.444
+     },
+     "r2": {
+      "trades": 214,
+      "mean_R": -0.1867,
+      "win": 0.444
+     }
+    }
+   },
+   "XC": {
+    "2025": {
+     "r1": {
+      "trades": 258,
+      "mean_R": -0.0858,
+      "win": 0.302
+     },
+     "r2": {
+      "trades": 258,
+      "mean_R": -0.1222,
+      "win": 0.302
+     }
+    },
+    "2026": {
+     "r1": {
+      "trades": 214,
+      "mean_R": -0.121,
+      "win": 0.304
+     },
+     "r2": {
+      "trades": 214,
+      "mean_R": -0.1552,
+      "win": 0.304
+     }
+    }
+   }
+  }
+ },
+ "agreement": {
+  "shared_days": 446,
+  "same_side": 0.9955
+ },
+ "slippage_vs_model_usd": {
+  "mean": 0.2134,
+  "p90": 0.346,
+  "mean_entry_spread": 0.228,
+  "mean_H": 5.363
+ },
+ "verdict": "NOT CONFIRMED"
+}

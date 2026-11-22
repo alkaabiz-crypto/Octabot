@@ -1,0 +1,22 @@
+{
+ "gold_G_MOM50_ATR_x1": {
+  "independent": 0.4933,
+  "recorded": 0.4914,
+  "abs_diff": 0.0019,
+  "match_within_1pt": true
+ },
+ "oil_O_INTRADAY_x1": {
+  "independent": -0.1479,
+  "recorded": -0.1479,
+  "trades_independent": 456,
+  "trades_recorded": 456,
+  "abs_diff": 0.0,
+  "match_within_1pt": true
+ },
+ "btc_C_SMA50_x1": {
+  "independent": 0.2855,
+  "recorded": 0.2855,
+  "abs_diff": 0.0,
+  "match_within_1pt": true
+ }
+}

@@ -1,0 +1,2342 @@
+{
+ "evaluations": 238728,
+ "confirmation": [
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Donchian20_break",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 576,
+    "mean_bp": 9.92,
+    "t": 5.63,
+    "pf": 1.887
+   },
+   "confirm_2026": {
+    "trades": 217,
+    "mean_bp_2x": 3.76,
+    "mean_bp_1x": 4.29,
+    "win": 0.488,
+    "sum_pct_2x": 8.16,
+    "p_random": 0.1419,
+    "holm_threshold": 0.00063,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Donchian20_break",
+   "extra": [
+    "EMA50_vs_200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 489,
+    "mean_bp": 10.85,
+    "t": 5.6,
+    "pf": 1.965
+   },
+   "confirm_2026": {
+    "trades": 184,
+    "mean_bp_2x": 2.91,
+    "mean_bp_1x": 3.45,
+    "win": 0.484,
+    "sum_pct_2x": 5.36,
+    "p_random": 0.1958,
+    "holm_threshold": 0.00067,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Donchian20_break",
+   "extra": [
+    "above_EMA200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 655,
+    "mean_bp": 8.27,
+    "t": 5.04,
+    "pf": 1.704
+   },
+   "confirm_2026": {
+    "trades": 250,
+    "mean_bp_2x": 5.19,
+    "mean_bp_1x": 5.72,
+    "win": 0.492,
+    "sum_pct_2x": 12.98,
+    "p_random": 0.0509,
+    "holm_threshold": 0.00058,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "RSI2_10_90",
+   "extra": [
+    "BB_squeeze",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 43,
+    "mean_bp": 50.49,
+    "t": 4.52,
+    "pf": 4.137
+   },
+   "confirm_2026": {
+    "trades": 27,
+    "mean_bp_2x": -6.09,
+    "mean_bp_1x": -5.56,
+    "win": 0.37,
+    "sum_pct_2x": -1.64,
+    "p_random": 0.5475,
+    "holm_threshold": 0.00122,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "BB_breakout",
+   "extra": [
+    "EMA50_vs_200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 323,
+    "mean_bp": 11.26,
+    "t": 4.5,
+    "pf": 1.955
+   },
+   "confirm_2026": {
+    "trades": 178,
+    "mean_bp_2x": -0.9,
+    "mean_bp_1x": -0.37,
+    "win": 0.483,
+    "sum_pct_2x": -1.61,
+    "p_random": 0.4765,
+    "holm_threshold": 0.00102,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "BB_breakout",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 369,
+    "mean_bp": 10.26,
+    "t": 4.43,
+    "pf": 1.856
+   },
+   "confirm_2026": {
+    "trades": 202,
+    "mean_bp_2x": 1.24,
+    "mean_bp_1x": 1.77,
+    "win": 0.49,
+    "sum_pct_2x": 2.5,
+    "p_random": 0.2827,
+    "holm_threshold": 0.00077,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X1",
+   "entry": "BB_breakout",
+   "extra": [
+    "EMA50_vs_200",
+    "MACD_vs_0"
+   ],
+   "search_2025": {
+    "n": 699,
+    "mean_bp": 5.78,
+    "t": 4.21,
+    "pf": 1.448
+   },
+   "confirm_2026": {
+    "trades": 427,
+    "mean_bp_2x": 0.37,
+    "mean_bp_1x": 0.9,
+    "win": 0.358,
+    "sum_pct_2x": 1.59,
+    "p_random": 0.2697,
+    "holm_threshold": 0.00076,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Keltner_break",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 172,
+    "mean_bp": 13.83,
+    "t": 4.13,
+    "pf": 2.296
+   },
+   "confirm_2026": {
+    "trades": 90,
+    "mean_bp_2x": 7.45,
+    "mean_bp_1x": 7.98,
+    "win": 0.556,
+    "sum_pct_2x": 6.7,
+    "p_random": 0.1029,
+    "holm_threshold": 0.0006,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "Wick_rejection",
+   "extra": [
+    "HTF_trend",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 84,
+    "mean_bp": 66.27,
+    "t": 3.96,
+    "pf": 3.216
+   },
+   "confirm_2026": {
+    "trades": 46,
+    "mean_bp_2x": -6.62,
+    "mean_bp_1x": -6.09,
+    "win": 0.5,
+    "sum_pct_2x": -3.05,
+    "p_random": 0.5554,
+    "holm_threshold": 0.00135,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "DI_cross",
+   "extra": [
+    "EMA50_vs_200",
+    "MACD_vs_0"
+   ],
+   "search_2025": {
+    "n": 32,
+    "mean_bp": 44.15,
+    "t": 3.87,
+    "pf": 4.072
+   },
+   "confirm_2026": {
+    "trades": 17,
+    "mean_bp_2x": 6.82,
+    "mean_bp_1x": 7.35,
+    "win": 0.529,
+    "sum_pct_2x": 1.16,
+    "p_random": 0.3397,
+    "holm_threshold": 0.00083,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "Wick_rejection",
+   "extra": [
+    "HTF_trend",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 84,
+    "mean_bp": 60.4,
+    "t": 3.87,
+    "pf": 2.589
+   },
+   "confirm_2026": {
+    "trades": 45,
+    "mean_bp_2x": -3.12,
+    "mean_bp_1x": -2.58,
+    "win": 0.378,
+    "sum_pct_2x": -1.4,
+    "p_random": 0.5085,
+    "holm_threshold": 0.00114,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "Wick_rejection",
+   "extra": [
+    "RSI_vs_50",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 90,
+    "mean_bp": 59.21,
+    "t": 3.86,
+    "pf": 2.527
+   },
+   "confirm_2026": {
+    "trades": 44,
+    "mean_bp_2x": -1.15,
+    "mean_bp_1x": -0.62,
+    "win": 0.364,
+    "sum_pct_2x": -0.51,
+    "p_random": 0.4895,
+    "holm_threshold": 0.00106,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "Ichimoku_TK_cross",
+   "extra": [
+    "above_EMA200"
+   ],
+   "search_2025": {
+    "n": 31,
+    "mean_bp": 91.49,
+    "t": 3.85,
+    "pf": 6.271
+   },
+   "confirm_2026": {
+    "trades": 31,
+    "mean_bp_2x": -10.32,
+    "mean_bp_1x": -9.79,
+    "win": 0.548,
+    "sum_pct_2x": -3.2,
+    "p_random": 0.5734,
+    "holm_threshold": 0.00147,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "BTCUSDT",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "VWAP_side",
+    "EMA20_slope"
+   ],
+   "search_2025": {
+    "n": 1189,
+    "mean_bp": 9.45,
+    "t": 3.85,
+    "pf": 1.425
+   },
+   "confirm_2026": {
+    "trades": 641,
+    "mean_bp_2x": -5.0,
+    "mean_bp_1x": -4.21,
+    "win": 0.468,
+    "sum_pct_2x": -32.02,
+    "p_random": 0.8901,
+    "holm_threshold": 0.00833,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "DI_cross",
+   "extra": [
+    "above_EMA200",
+    "MACD_vs_0"
+   ],
+   "search_2025": {
+    "n": 37,
+    "mean_bp": 39.33,
+    "t": 3.77,
+    "pf": 3.678
+   },
+   "confirm_2026": {
+    "trades": 24,
+    "mean_bp_2x": -2.89,
+    "mean_bp_1x": -2.35,
+    "win": 0.458,
+    "sum_pct_2x": -0.69,
+    "p_random": 0.4575,
+    "holm_threshold": 0.001,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "US500m",
+   "tf": 60,
+   "exit": "X1",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "ADX_lt20",
+    "Ichimoku_cloud"
+   ],
+   "search_2025": {
+    "n": 80,
+    "mean_bp": 28.05,
+    "t": 3.77,
+    "pf": 2.843
+   },
+   "confirm_2026": {
+    "trades": 51,
+    "mean_bp_2x": -12.55,
+    "mean_bp_1x": -11.6,
+    "win": 0.255,
+    "sum_pct_2x": -6.4,
+    "p_random": 0.9321,
+    "holm_threshold": 0.025,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "Keltner_break",
+   "extra": [
+    "EMA50_vs_200",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 111,
+    "mean_bp": 26.1,
+    "t": 3.72,
+    "pf": 3.057
+   },
+   "confirm_2026": {
+    "trades": 73,
+    "mean_bp_2x": 6.97,
+    "mean_bp_1x": 7.66,
+    "win": 0.548,
+    "sum_pct_2x": 5.09,
+    "p_random": 0.1938,
+    "holm_threshold": 0.00066,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "RSI2_10_90",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 41,
+    "mean_bp": 41.36,
+    "t": 3.67,
+    "pf": 3.204
+   },
+   "confirm_2026": {
+    "trades": 24,
+    "mean_bp_2x": -11.91,
+    "mean_bp_1x": -11.37,
+    "win": 0.417,
+    "sum_pct_2x": -2.86,
+    "p_random": 0.6523,
+    "holm_threshold": 0.00167,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "above_EMA200",
+    "RSI_vs_50"
+   ],
+   "search_2025": {
+    "n": 41,
+    "mean_bp": 81.84,
+    "t": 3.67,
+    "pf": 4.776
+   },
+   "confirm_2026": {
+    "trades": 24,
+    "mean_bp_2x": -41.19,
+    "mean_bp_1x": -40.66,
+    "win": 0.5,
+    "sum_pct_2x": -9.89,
+    "p_random": 0.8082,
+    "holm_threshold": 0.00385,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "DI_cross",
+   "extra": [
+    "EMA50_vs_200",
+    "MACD_vs_0"
+   ],
+   "search_2025": {
+    "n": 32,
+    "mean_bp": 68.49,
+    "t": 3.67,
+    "pf": 6.023
+   },
+   "confirm_2026": {
+    "trades": 14,
+    "mean_bp_2x": -93.3,
+    "mean_bp_1x": -92.77,
+    "win": 0.571,
+    "sum_pct_2x": -13.06,
+    "p_random": 0.9121,
+    "holm_threshold": 0.0125,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Keltner_break",
+   "extra": [
+    "EMA50_vs_200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 142,
+    "mean_bp": 13.87,
+    "t": 3.66,
+    "pf": 2.201
+   },
+   "confirm_2026": {
+    "trades": 73,
+    "mean_bp_2x": 7.55,
+    "mean_bp_1x": 8.08,
+    "win": 0.548,
+    "sum_pct_2x": 5.51,
+    "p_random": 0.1259,
+    "holm_threshold": 0.00062,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "US500m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "ROC10_zero",
+   "extra": [
+    "ADX_lt20",
+    "Ichimoku_cloud"
+   ],
+   "search_2025": {
+    "n": 145,
+    "mean_bp": 21.75,
+    "t": 3.65,
+    "pf": 2.389
+   },
+   "confirm_2026": {
+    "trades": 78,
+    "mean_bp_2x": 2.0,
+    "mean_bp_1x": 2.95,
+    "win": 0.5,
+    "sum_pct_2x": 1.56,
+    "p_random": 0.3237,
+    "holm_threshold": 0.00082,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "EMA50_vs_200",
+    "RSI_vs_50"
+   ],
+   "search_2025": {
+    "n": 35,
+    "mean_bp": 92.85,
+    "t": 3.64,
+    "pf": 5.003
+   },
+   "confirm_2026": {
+    "trades": 24,
+    "mean_bp_2x": -41.19,
+    "mean_bp_1x": -40.66,
+    "win": 0.5,
+    "sum_pct_2x": -9.89,
+    "p_random": 0.8132,
+    "holm_threshold": 0.00417,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "USTECm",
+   "tf": 60,
+   "exit": "X1",
+   "entry": "PSAR_flip",
+   "extra": [
+    "ADX_lt20",
+    "RSI_vs_50"
+   ],
+   "search_2025": {
+    "n": 130,
+    "mean_bp": 22.63,
+    "t": 3.64,
+    "pf": 2.128
+   },
+   "confirm_2026": {
+    "trades": 95,
+    "mean_bp_2x": 13.57,
+    "mean_bp_1x": 14.42,
+    "win": 0.453,
+    "sum_pct_2x": 12.89,
+    "p_random": 0.027,
+    "holm_threshold": 0.00057,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "DE30m",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "ROC10_zero",
+   "extra": [
+    "ADX_lt20",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 34,
+    "mean_bp": 44.52,
+    "t": 3.62,
+    "pf": 3.713
+   },
+   "confirm_2026": {
+    "trades": 34,
+    "mean_bp_2x": -10.88,
+    "mean_bp_1x": -10.18,
+    "win": 0.324,
+    "sum_pct_2x": -3.7,
+    "p_random": 0.7493,
+    "holm_threshold": 0.00238,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "BTCUSDT",
+   "tf": 15,
+   "exit": "X1",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "ADX_gt25",
+    "Ichimoku_cloud"
+   ],
+   "search_2025": {
+    "n": 181,
+    "mean_bp": 22.05,
+    "t": 3.61,
+    "pf": 1.94
+   },
+   "confirm_2026": {
+    "trades": 126,
+    "mean_bp_2x": -3.42,
+    "mean_bp_1x": -2.63,
+    "win": 0.349,
+    "sum_pct_2x": -4.31,
+    "p_random": 0.5534,
+    "holm_threshold": 0.00132,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "RSI2_10_90",
+   "extra": [
+    "EMA50_vs_200",
+    "BB_squeeze"
+   ],
+   "search_2025": {
+    "n": 35,
+    "mean_bp": 44.76,
+    "t": 3.6,
+    "pf": 3.451
+   },
+   "confirm_2026": {
+    "trades": 19,
+    "mean_bp_2x": -26.8,
+    "mean_bp_1x": -26.27,
+    "win": 0.316,
+    "sum_pct_2x": -5.09,
+    "p_random": 0.7852,
+    "holm_threshold": 0.00333,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "BTCUSDT",
+   "tf": 15,
+   "exit": "X2",
+   "entry": "RSI2_10_90",
+   "extra": [
+    "Ichimoku_cloud",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 815,
+    "mean_bp": 5.0,
+    "t": 3.59,
+    "pf": 1.344
+   },
+   "confirm_2026": {
+    "trades": 498,
+    "mean_bp_2x": -1.02,
+    "mean_bp_1x": -0.23,
+    "win": 0.426,
+    "sum_pct_2x": -5.08,
+    "p_random": 0.2857,
+    "holm_threshold": 0.00078,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "close_x_EMA50",
+   "extra": [
+    "VWAP_side",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 39,
+    "mean_bp": 89.65,
+    "t": 3.58,
+    "pf": 4.347
+   },
+   "confirm_2026": {
+    "trades": 25,
+    "mean_bp_2x": -30.49,
+    "mean_bp_1x": -29.95,
+    "win": 0.48,
+    "sum_pct_2x": -7.62,
+    "p_random": 0.7353,
+    "holm_threshold": 0.00217,
+    "PASS": false
+   }
+  },
+  {
+   "part": "A",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "Keltner_break",
+   "extra": [
+    "above_EMA200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 197,
+    "mean_bp": 11.12,
+    "t": 3.57,
+    "pf": 1.939
+   },
+   "confirm_2026": {
+    "trades": 117,
+    "mean_bp_2x": 9.92,
+    "mean_bp_1x": 10.45,
+    "win": 0.556,
+    "sum_pct_2x": 11.6,
+    "p_random": 0.039,
+    "holm_threshold": 0.00057,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S22_Aroon_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 30,
+    "mean_bp": 70.24,
+    "t": 3.17,
+    "pf": 5.247
+   },
+   "confirm_2026": {
+    "trades": 26,
+    "mean_bp_2x": -6.7,
+    "mean_bp_1x": -6.17,
+    "win": 0.538,
+    "sum_pct_2x": -1.74,
+    "p_random": 0.5584,
+    "holm_threshold": 0.00139,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "S20_EMA_ribbon_pullback",
+   "extra": [],
+   "search_2025": {
+    "n": 736,
+    "mean_bp": 9.21,
+    "t": 3.06,
+    "pf": 1.357
+   },
+   "confirm_2026": {
+    "trades": 188,
+    "mean_bp_2x": -2.84,
+    "mean_bp_1x": -2.3,
+    "win": 0.436,
+    "sum_pct_2x": -5.33,
+    "p_random": 0.5894,
+    "holm_threshold": 0.00156,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S09_Turtle_20",
+   "extra": [],
+   "search_2025": {
+    "n": 219,
+    "mean_bp": 26.52,
+    "t": 2.84,
+    "pf": 1.533
+   },
+   "confirm_2026": {
+    "trades": 54,
+    "mean_bp_2x": 57.21,
+    "mean_bp_1x": 57.74,
+    "win": 0.481,
+    "sum_pct_2x": 30.89,
+    "p_random": 0.01,
+    "holm_threshold": 0.00056,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "S22_Aroon_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 127,
+    "mean_bp": 17.57,
+    "t": 2.76,
+    "pf": 2.072
+   },
+   "confirm_2026": {
+    "trades": 82,
+    "mean_bp_2x": 3.28,
+    "mean_bp_1x": 3.97,
+    "win": 0.537,
+    "sum_pct_2x": 2.69,
+    "p_random": 0.3227,
+    "holm_threshold": 0.00081,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S06_triple_EMA",
+   "extra": [],
+   "search_2025": {
+    "n": 42,
+    "mean_bp": 54.97,
+    "t": 2.75,
+    "pf": 3.008
+   },
+   "confirm_2026": {
+    "trades": 30,
+    "mean_bp_2x": -28.27,
+    "mean_bp_1x": -27.74,
+    "win": 0.567,
+    "sum_pct_2x": -8.48,
+    "p_random": 0.7033,
+    "holm_threshold": 0.002,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "US500m",
+   "tf": 15,
+   "exit": "X1",
+   "entry": "S20_EMA_ribbon_pullback",
+   "extra": [],
+   "search_2025": {
+    "n": 2577,
+    "mean_bp": 1.9,
+    "t": 2.73,
+    "pf": 1.172
+   },
+   "confirm_2026": {
+    "trades": 743,
+    "mean_bp_2x": -3.27,
+    "mean_bp_1x": -2.32,
+    "win": 0.346,
+    "sum_pct_2x": -24.31,
+    "p_random": 0.8442,
+    "holm_threshold": 0.005,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "S08_Ichimoku_TK_cloud",
+   "extra": [],
+   "search_2025": {
+    "n": 113,
+    "mean_bp": 16.27,
+    "t": 2.68,
+    "pf": 1.934
+   },
+   "confirm_2026": {
+    "trades": 82,
+    "mean_bp_2x": 5.8,
+    "mean_bp_1x": 6.49,
+    "win": 0.524,
+    "sum_pct_2x": 4.75,
+    "p_random": 0.2138,
+    "holm_threshold": 0.00068,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "S09_Turtle_20",
+   "extra": [],
+   "search_2025": {
+    "n": 219,
+    "mean_bp": 14.05,
+    "t": 2.58,
+    "pf": 1.453
+   },
+   "confirm_2026": {
+    "trades": 79,
+    "mean_bp_2x": 22.58,
+    "mean_bp_1x": 23.11,
+    "win": 0.519,
+    "sum_pct_2x": 17.84,
+    "p_random": 0.0559,
+    "holm_threshold": 0.00059,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "S20_EMA_ribbon_pullback",
+   "extra": [],
+   "search_2025": {
+    "n": 2856,
+    "mean_bp": 1.94,
+    "t": 2.54,
+    "pf": 1.142
+   },
+   "confirm_2026": {
+    "trades": 780,
+    "mean_bp_2x": -0.51,
+    "mean_bp_1x": 0.03,
+    "win": 0.486,
+    "sum_pct_2x": -3.94,
+    "p_random": 0.4236,
+    "holm_threshold": 0.00094,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X2",
+   "entry": "S10_TTM_squeeze_break",
+   "extra": [],
+   "search_2025": {
+    "n": 42,
+    "mean_bp": 30.14,
+    "t": 2.54,
+    "pf": 2.324
+   },
+   "confirm_2026": {
+    "trades": 48,
+    "mean_bp_2x": 2.5,
+    "mean_bp_1x": 3.03,
+    "win": 0.417,
+    "sum_pct_2x": 1.2,
+    "p_random": 0.4406,
+    "holm_threshold": 0.00096,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X1",
+   "entry": "S12_HeikinAshi_EMA50",
+   "extra": [],
+   "search_2025": {
+    "n": 2947,
+    "mean_bp": 1.54,
+    "t": 2.44,
+    "pf": 1.112
+   },
+   "confirm_2026": {
+    "trades": 1056,
+    "mean_bp_2x": -0.85,
+    "mean_bp_1x": -0.31,
+    "win": 0.367,
+    "sum_pct_2x": -8.93,
+    "p_random": 0.4186,
+    "holm_threshold": 0.00093,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "S06_triple_EMA",
+   "extra": [],
+   "search_2025": {
+    "n": 726,
+    "mean_bp": 3.77,
+    "t": 2.4,
+    "pf": 1.295
+   },
+   "confirm_2026": {
+    "trades": 467,
+    "mean_bp_2x": -5.34,
+    "mean_bp_1x": -4.81,
+    "win": 0.441,
+    "sum_pct_2x": -24.96,
+    "p_random": 0.9251,
+    "holm_threshold": 0.01667,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S18_VWAP_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 260,
+    "mean_bp": 20.25,
+    "t": 2.33,
+    "pf": 1.381
+   },
+   "confirm_2026": {
+    "trades": 79,
+    "mean_bp_2x": 6.55,
+    "mean_bp_1x": 7.08,
+    "win": 0.38,
+    "sum_pct_2x": 5.17,
+    "p_random": 0.3656,
+    "holm_threshold": 0.00089,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S12_HeikinAshi_EMA50",
+   "extra": [],
+   "search_2025": {
+    "n": 191,
+    "mean_bp": 23.88,
+    "t": 2.31,
+    "pf": 1.452
+   },
+   "confirm_2026": {
+    "trades": 74,
+    "mean_bp_2x": -3.91,
+    "mean_bp_1x": -3.38,
+    "win": 0.365,
+    "sum_pct_2x": -2.89,
+    "p_random": 0.5055,
+    "holm_threshold": 0.00111,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "DE30m",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S20_EMA_ribbon_pullback",
+   "extra": [],
+   "search_2025": {
+    "n": 177,
+    "mean_bp": 29.49,
+    "t": 2.29,
+    "pf": 1.632
+   },
+   "confirm_2026": {
+    "trades": 52,
+    "mean_bp_2x": 26.17,
+    "mean_bp_1x": 26.86,
+    "win": 0.519,
+    "sum_pct_2x": 13.61,
+    "p_random": 0.0889,
+    "holm_threshold": 0.0006,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S20_EMA_ribbon_pullback",
+   "extra": [],
+   "search_2025": {
+    "n": 171,
+    "mean_bp": 27.54,
+    "t": 2.28,
+    "pf": 1.622
+   },
+   "confirm_2026": {
+    "trades": 53,
+    "mean_bp_2x": -44.37,
+    "mean_bp_1x": -43.84,
+    "win": 0.528,
+    "sum_pct_2x": -23.51,
+    "p_random": 0.8811,
+    "holm_threshold": 0.00625,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "BTCUSDT",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S07_Stoch_trend",
+   "extra": [],
+   "search_2025": {
+    "n": 37,
+    "mean_bp": 84.91,
+    "t": 2.23,
+    "pf": 2.498
+   },
+   "confirm_2026": {
+    "trades": 28,
+    "mean_bp_2x": 123.63,
+    "mean_bp_1x": 124.42,
+    "win": 0.571,
+    "sum_pct_2x": 34.62,
+    "p_random": 0.016,
+    "holm_threshold": 0.00056,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "S12_HeikinAshi_EMA50",
+   "extra": [],
+   "search_2025": {
+    "n": 2947,
+    "mean_bp": 1.67,
+    "t": 2.2,
+    "pf": 1.122
+   },
+   "confirm_2026": {
+    "trades": 1047,
+    "mean_bp_2x": -1.1,
+    "mean_bp_1x": -0.57,
+    "win": 0.446,
+    "sum_pct_2x": -11.52,
+    "p_random": 0.4955,
+    "holm_threshold": 0.00109,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S22_Aroon_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 30,
+    "mean_bp": 55.74,
+    "t": 2.2,
+    "pf": 2.506
+   },
+   "confirm_2026": {
+    "trades": 25,
+    "mean_bp_2x": 29.06,
+    "mean_bp_1x": 29.59,
+    "win": 0.44,
+    "sum_pct_2x": 7.27,
+    "p_random": 0.2448,
+    "holm_threshold": 0.00072,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "BTCUSDT",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S04_BB_RSI_reversion",
+   "extra": [],
+   "search_2025": {
+    "n": 114,
+    "mean_bp": 62.33,
+    "t": 2.18,
+    "pf": 1.613
+   },
+   "confirm_2026": {
+    "trades": 41,
+    "mean_bp_2x": -35.61,
+    "mean_bp_1x": -34.82,
+    "win": 0.341,
+    "sum_pct_2x": -14.6,
+    "p_random": 0.7702,
+    "holm_threshold": 0.00294,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S06_triple_EMA",
+   "extra": [],
+   "search_2025": {
+    "n": 42,
+    "mean_bp": 48.47,
+    "t": 2.12,
+    "pf": 2.175
+   },
+   "confirm_2026": {
+    "trades": 32,
+    "mean_bp_2x": -0.64,
+    "mean_bp_1x": -0.11,
+    "win": 0.438,
+    "sum_pct_2x": -0.2,
+    "p_random": 0.5285,
+    "holm_threshold": 0.00116,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "S08_Ichimoku_TK_cloud",
+   "extra": [],
+   "search_2025": {
+    "n": 118,
+    "mean_bp": 18.26,
+    "t": 2.08,
+    "pf": 1.705
+   },
+   "confirm_2026": {
+    "trades": 78,
+    "mean_bp_2x": 11.86,
+    "mean_bp_1x": 12.39,
+    "win": 0.487,
+    "sum_pct_2x": 9.25,
+    "p_random": 0.1648,
+    "holm_threshold": 0.00064,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "BTCUSDT",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S04_BB_RSI_reversion",
+   "extra": [],
+   "search_2025": {
+    "n": 114,
+    "mean_bp": 72.93,
+    "t": 2.08,
+    "pf": 1.646
+   },
+   "confirm_2026": {
+    "trades": 31,
+    "mean_bp_2x": -40.59,
+    "mean_bp_1x": -39.8,
+    "win": 0.613,
+    "sum_pct_2x": -12.58,
+    "p_random": 0.7433,
+    "holm_threshold": 0.00227,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X1",
+   "entry": "S11_PSAR_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 1069,
+    "mean_bp": 2.11,
+    "t": 2.07,
+    "pf": 1.16
+   },
+   "confirm_2026": {
+    "trades": 711,
+    "mean_bp_2x": -0.34,
+    "mean_bp_1x": 0.19,
+    "win": 0.35,
+    "sum_pct_2x": -2.4,
+    "p_random": 0.3417,
+    "holm_threshold": 0.00085,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "USTECm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S04_BB_RSI_reversion",
+   "extra": [],
+   "search_2025": {
+    "n": 66,
+    "mean_bp": 40.69,
+    "t": 2.05,
+    "pf": 1.949
+   },
+   "confirm_2026": {
+    "trades": 19,
+    "mean_bp_2x": 12.18,
+    "mean_bp_1x": 13.03,
+    "win": 0.579,
+    "sum_pct_2x": 2.31,
+    "p_random": 0.3626,
+    "holm_threshold": 0.00088,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "S18_VWAP_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 1247,
+    "mean_bp": 2.29,
+    "t": 2.04,
+    "pf": 1.174
+   },
+   "confirm_2026": {
+    "trades": 556,
+    "mean_bp_2x": -4.45,
+    "mean_bp_1x": -3.92,
+    "win": 0.475,
+    "sum_pct_2x": -24.74,
+    "p_random": 0.8861,
+    "holm_threshold": 0.00714,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "S18_VWAP_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 260,
+    "mean_bp": 21.06,
+    "t": 2.03,
+    "pf": 1.4
+   },
+   "confirm_2026": {
+    "trades": 76,
+    "mean_bp_2x": 24.28,
+    "mean_bp_1x": 24.81,
+    "win": 0.566,
+    "sum_pct_2x": 18.45,
+    "p_random": 0.2198,
+    "holm_threshold": 0.00069,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S16_inside_bar_break",
+   "extra": [],
+   "search_2025": {
+    "n": 96,
+    "mean_bp": 28.34,
+    "t": 2.02,
+    "pf": 1.584
+   },
+   "confirm_2026": {
+    "trades": 56,
+    "mean_bp_2x": 16.85,
+    "mean_bp_1x": 17.38,
+    "win": 0.393,
+    "sum_pct_2x": 9.43,
+    "p_random": 0.2358,
+    "holm_threshold": 0.0007,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "S19_MACD_RSI50",
+   "extra": [],
+   "search_2025": {
+    "n": 70,
+    "mean_bp": 32.13,
+    "t": 2.02,
+    "pf": 1.736
+   },
+   "confirm_2026": {
+    "trades": 41,
+    "mean_bp_2x": 6.46,
+    "mean_bp_1x": 6.99,
+    "win": 0.415,
+    "sum_pct_2x": 2.65,
+    "p_random": 0.3956,
+    "holm_threshold": 0.00091,
+    "PASS": false
+   }
+  },
+  {
+   "part": "B",
+   "market": "USOILm",
+   "tf": 60,
+   "exit": "X1",
+   "entry": "S21_AO_EMA200",
+   "extra": [],
+   "search_2025": {
+    "n": 125,
+    "mean_bp": 21.74,
+    "t": 1.97,
+    "pf": 1.516
+   },
+   "confirm_2026": {
+    "trades": 95,
+    "mean_bp_2x": 16.71,
+    "mean_bp_1x": 19.41,
+    "win": 0.421,
+    "sum_pct_2x": 15.87,
+    "p_random": 0.1369,
+    "holm_threshold": 0.00063,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "T2_FVG",
+   "extra": [
+    "MACD_vs_0",
+    "BB_squeeze"
+   ],
+   "search_2025": {
+    "n": 38,
+    "mean_bp": 86.38,
+    "t": 5.31,
+    "pf": 11.924
+   },
+   "confirm_2026": {
+    "trades": 13,
+    "mean_bp_2x": -23.65,
+    "mean_bp_1x": -22.96,
+    "win": 0.462,
+    "sum_pct_2x": -3.07,
+    "p_random": 0.7632,
+    "holm_threshold": 0.00263,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "T2_FVG",
+   "extra": [
+    "Ichimoku_cloud",
+    "BB_squeeze"
+   ],
+   "search_2025": {
+    "n": 38,
+    "mean_bp": 83.01,
+    "t": 5.14,
+    "pf": 11.498
+   },
+   "confirm_2026": {
+    "trades": 12,
+    "mean_bp_2x": -18.38,
+    "mean_bp_1x": -17.69,
+    "win": 0.5,
+    "sum_pct_2x": -2.21,
+    "p_random": 0.6823,
+    "holm_threshold": 0.00185,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T2_FVG",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 962,
+    "mean_bp": 6.01,
+    "t": 4.63,
+    "pf": 1.515
+   },
+   "confirm_2026": {
+    "trades": 353,
+    "mean_bp_2x": -1.58,
+    "mean_bp_1x": -1.04,
+    "win": 0.456,
+    "sum_pct_2x": -5.56,
+    "p_random": 0.5524,
+    "holm_threshold": 0.00128,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "EMA50_vs_200",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 42,
+    "mean_bp": 76.86,
+    "t": 4.59,
+    "pf": 7.657
+   },
+   "confirm_2026": {
+    "trades": 25,
+    "mean_bp_2x": 30.32,
+    "mean_bp_1x": 30.85,
+    "win": 0.52,
+    "sum_pct_2x": 7.58,
+    "p_random": 0.2657,
+    "holm_threshold": 0.00075,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "EMA50_vs_200",
+    "EMA20_slope"
+   ],
+   "search_2025": {
+    "n": 41,
+    "mean_bp": 78.12,
+    "t": 4.57,
+    "pf": 7.605
+   },
+   "confirm_2026": {
+    "trades": 25,
+    "mean_bp_2x": 31.55,
+    "mean_bp_1x": 32.08,
+    "win": 0.52,
+    "sum_pct_2x": 7.89,
+    "p_random": 0.2478,
+    "holm_threshold": 0.00074,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "ADX_gt25",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 111,
+    "mean_bp": 27.61,
+    "t": 4.37,
+    "pf": 3.07
+   },
+   "confirm_2026": {
+    "trades": 43,
+    "mean_bp_2x": -11.77,
+    "mean_bp_1x": -11.24,
+    "win": 0.558,
+    "sum_pct_2x": -5.06,
+    "p_random": 0.6993,
+    "holm_threshold": 0.00192,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T4_break_of_structure",
+   "extra": [
+    "EMA50_vs_200",
+    "RSI_vs_50"
+   ],
+   "search_2025": {
+    "n": 95,
+    "mean_bp": 59.03,
+    "t": 4.35,
+    "pf": 2.634
+   },
+   "confirm_2026": {
+    "trades": 45,
+    "mean_bp_2x": 36.37,
+    "mean_bp_1x": 36.9,
+    "win": 0.467,
+    "sum_pct_2x": 16.37,
+    "p_random": 0.1249,
+    "holm_threshold": 0.00061,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T2_FVG",
+   "extra": [
+    "EMA50_vs_200",
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 905,
+    "mean_bp": 5.82,
+    "t": 4.32,
+    "pf": 1.488
+   },
+   "confirm_2026": {
+    "trades": 333,
+    "mean_bp_2x": -0.91,
+    "mean_bp_1x": -0.38,
+    "win": 0.453,
+    "sum_pct_2x": -3.03,
+    "p_random": 0.4815,
+    "holm_threshold": 0.00104,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "USOILm",
+   "tf": 60,
+   "exit": "X1",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "MACD_vs_0",
+    "BB_squeeze"
+   ],
+   "search_2025": {
+    "n": 33,
+    "mean_bp": 61.29,
+    "t": 4.22,
+    "pf": 4.649
+   },
+   "confirm_2026": {
+    "trades": 16,
+    "mean_bp_2x": -70.13,
+    "mean_bp_1x": -67.43,
+    "win": 0.25,
+    "sum_pct_2x": -11.22,
+    "p_random": 0.8731,
+    "holm_threshold": 0.00556,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "EMA50_vs_200",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 68,
+    "mean_bp": 30.27,
+    "t": 4.17,
+    "pf": 3.799
+   },
+   "confirm_2026": {
+    "trades": 51,
+    "mean_bp_2x": -6.42,
+    "mean_bp_1x": -5.72,
+    "win": 0.412,
+    "sum_pct_2x": -3.27,
+    "p_random": 0.7033,
+    "holm_threshold": 0.00208,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T4_break_of_structure",
+   "extra": [
+    "above_EMA200",
+    "RSI_vs_50"
+   ],
+   "search_2025": {
+    "n": 113,
+    "mean_bp": 51.97,
+    "t": 4.15,
+    "pf": 2.364
+   },
+   "confirm_2026": {
+    "trades": 56,
+    "mean_bp_2x": 4.71,
+    "mean_bp_1x": 5.24,
+    "win": 0.411,
+    "sum_pct_2x": 2.64,
+    "p_random": 0.4416,
+    "holm_threshold": 0.00098,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 240,
+   "exit": "X3",
+   "entry": "T2_FVG",
+   "extra": [
+    "RSI_vs_50",
+    "BB_squeeze"
+   ],
+   "search_2025": {
+    "n": 49,
+    "mean_bp": 64.55,
+    "t": 4.14,
+    "pf": 4.768
+   },
+   "confirm_2026": {
+    "trades": 17,
+    "mean_bp_2x": -46.6,
+    "mean_bp_1x": -45.91,
+    "win": 0.412,
+    "sum_pct_2x": -7.92,
+    "p_random": 0.9111,
+    "holm_threshold": 0.01,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "EMA50_vs_200",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 42,
+    "mean_bp": 80.25,
+    "t": 4.12,
+    "pf": 3.955
+   },
+   "confirm_2026": {
+    "trades": 26,
+    "mean_bp_2x": -6.3,
+    "mean_bp_1x": -5.77,
+    "win": 0.385,
+    "sum_pct_2x": -1.64,
+    "p_random": 0.5864,
+    "holm_threshold": 0.00152,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T4_break_of_structure",
+   "extra": [
+    "EMA50_vs_200",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 95,
+    "mean_bp": 56.32,
+    "t": 4.11,
+    "pf": 2.498
+   },
+   "confirm_2026": {
+    "trades": 48,
+    "mean_bp_2x": 28.55,
+    "mean_bp_1x": 29.08,
+    "win": 0.438,
+    "sum_pct_2x": 13.7,
+    "p_random": 0.1898,
+    "holm_threshold": 0.00065,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "BTCUSDT",
+   "tf": 60,
+   "exit": "X2",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "above_EMA200",
+    "EMA50_vs_200"
+   ],
+   "search_2025": {
+    "n": 196,
+    "mean_bp": 21.17,
+    "t": 4.11,
+    "pf": 1.932
+   },
+   "confirm_2026": {
+    "trades": 132,
+    "mean_bp_2x": -7.66,
+    "mean_bp_1x": -6.87,
+    "win": 0.379,
+    "sum_pct_2x": -10.11,
+    "p_random": 0.7502,
+    "holm_threshold": 0.0025,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T2_FVG",
+   "extra": [
+    "EMA50_vs_200",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 189,
+    "mean_bp": 43.68,
+    "t": 4.09,
+    "pf": 1.939
+   },
+   "confirm_2026": {
+    "trades": 64,
+    "mean_bp_2x": 18.9,
+    "mean_bp_1x": 19.43,
+    "win": 0.422,
+    "sum_pct_2x": 12.09,
+    "p_random": 0.2378,
+    "holm_threshold": 0.00071,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "BTCUSDT",
+   "tf": 60,
+   "exit": "X2",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "EMA50_vs_200",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 190,
+    "mean_bp": 20.37,
+    "t": 3.92,
+    "pf": 1.892
+   },
+   "confirm_2026": {
+    "trades": 133,
+    "mean_bp_2x": -8.23,
+    "mean_bp_1x": -7.44,
+    "win": 0.376,
+    "sum_pct_2x": -10.95,
+    "p_random": 0.7832,
+    "holm_threshold": 0.00313,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "BTCUSDT",
+   "tf": 60,
+   "exit": "X2",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "above_EMA200"
+   ],
+   "search_2025": {
+    "n": 202,
+    "mean_bp": 19.63,
+    "t": 3.87,
+    "pf": 1.84
+   },
+   "confirm_2026": {
+    "trades": 135,
+    "mean_bp_2x": -8.58,
+    "mean_bp_1x": -7.79,
+    "win": 0.37,
+    "sum_pct_2x": -11.58,
+    "p_random": 0.8062,
+    "holm_threshold": 0.00357,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "ETHUSDT",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T7_fib618_reclaim",
+   "extra": [
+    "ADX_lt20",
+    "MACD_vs_0"
+   ],
+   "search_2025": {
+    "n": 232,
+    "mean_bp": 34.83,
+    "t": 3.81,
+    "pf": 2.183
+   },
+   "confirm_2026": {
+    "trades": 165,
+    "mean_bp_2x": -11.7,
+    "mean_bp_1x": -7.57,
+    "win": 0.448,
+    "sum_pct_2x": -19.31,
+    "p_random": 0.6593,
+    "holm_threshold": 0.00179,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "HTF_trend",
+    "EMA20_slope"
+   ],
+   "search_2025": {
+    "n": 59,
+    "mean_bp": 65.54,
+    "t": 3.8,
+    "pf": 3.028
+   },
+   "confirm_2026": {
+    "trades": 25,
+    "mean_bp_2x": 28.84,
+    "mean_bp_1x": 29.37,
+    "win": 0.48,
+    "sum_pct_2x": 7.21,
+    "p_random": 0.2078,
+    "holm_threshold": 0.00068,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "HTF_trend",
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 72,
+    "mean_bp": 27.02,
+    "t": 3.79,
+    "pf": 3.214
+   },
+   "confirm_2026": {
+    "trades": 53,
+    "mean_bp_2x": -12.03,
+    "mean_bp_1x": -11.34,
+    "win": 0.415,
+    "sum_pct_2x": -6.38,
+    "p_random": 0.8242,
+    "holm_threshold": 0.00455,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T8_prev_week_break",
+   "extra": [
+    "Session_07_20"
+   ],
+   "search_2025": {
+    "n": 73,
+    "mean_bp": 26.47,
+    "t": 3.75,
+    "pf": 3.167
+   },
+   "confirm_2026": {
+    "trades": 55,
+    "mean_bp_2x": -9.14,
+    "mean_bp_1x": -8.45,
+    "win": 0.436,
+    "sum_pct_2x": -5.03,
+    "p_random": 0.7672,
+    "holm_threshold": 0.00278,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "XAUUSDm",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "above_EMA200",
+    "ADX_gt25"
+   ],
+   "search_2025": {
+    "n": 114,
+    "mean_bp": 23.95,
+    "t": 3.73,
+    "pf": 2.558
+   },
+   "confirm_2026": {
+    "trades": 43,
+    "mean_bp_2x": -6.26,
+    "mean_bp_1x": -5.72,
+    "win": 0.535,
+    "sum_pct_2x": -2.69,
+    "p_random": 0.5894,
+    "holm_threshold": 0.00161,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "USTECm",
+   "tf": 240,
+   "exit": "X1",
+   "entry": "T2_FVG",
+   "extra": [
+    "ADX_lt20",
+    "HTF_trend"
+   ],
+   "search_2025": {
+    "n": 88,
+    "mean_bp": 52.41,
+    "t": 3.72,
+    "pf": 2.552
+   },
+   "confirm_2026": {
+    "trades": 30,
+    "mean_bp_2x": 12.94,
+    "mean_bp_1x": 13.79,
+    "win": 0.367,
+    "sum_pct_2x": 3.88,
+    "p_random": 0.3157,
+    "holm_threshold": 0.00079,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "DE30m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T3_liquidity_sweep",
+   "extra": [
+    "EMA50_vs_200",
+    "ADX_gt25"
+   ],
+   "search_2025": {
+    "n": 134,
+    "mean_bp": 21.21,
+    "t": 3.7,
+    "pf": 2.554
+   },
+   "confirm_2026": {
+    "trades": 58,
+    "mean_bp_2x": -2.3,
+    "mean_bp_1x": -1.61,
+    "win": 0.483,
+    "sum_pct_2x": -1.33,
+    "p_random": 0.5365,
+    "holm_threshold": 0.00119,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "ETHUSDT",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T7_fib618_reclaim",
+   "extra": [
+    "ADX_lt20"
+   ],
+   "search_2025": {
+    "n": 283,
+    "mean_bp": 30.63,
+    "t": 3.7,
+    "pf": 1.974
+   },
+   "confirm_2026": {
+    "trades": 202,
+    "mean_bp_2x": -11.34,
+    "mean_bp_1x": -7.21,
+    "win": 0.436,
+    "sum_pct_2x": -22.91,
+    "p_random": 0.6563,
+    "holm_threshold": 0.00172,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "US500m",
+   "tf": 15,
+   "exit": "X2",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "ADX_gt25",
+    "EMA20_slope"
+   ],
+   "search_2025": {
+    "n": 182,
+    "mean_bp": 7.16,
+    "t": 3.61,
+    "pf": 2.118
+   },
+   "confirm_2026": {
+    "trades": 79,
+    "mean_bp_2x": -5.22,
+    "mean_bp_1x": -4.27,
+    "win": 0.291,
+    "sum_pct_2x": -4.12,
+    "p_random": 0.9471,
+    "holm_threshold": 0.05,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "US500m",
+   "tf": 60,
+   "exit": "X3",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "ADX_lt20",
+    "Ichimoku_cloud"
+   ],
+   "search_2025": {
+    "n": 48,
+    "mean_bp": 42.5,
+    "t": 3.58,
+    "pf": 5.831
+   },
+   "confirm_2026": {
+    "trades": 17,
+    "mean_bp_2x": -3.11,
+    "mean_bp_1x": -2.16,
+    "win": 0.471,
+    "sum_pct_2x": -0.53,
+    "p_random": 0.5514,
+    "holm_threshold": 0.00125,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "ETHUSDT",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T7_fib618_reclaim",
+   "extra": [
+    "ADX_lt20",
+    "above_SMA20"
+   ],
+   "search_2025": {
+    "n": 188,
+    "mean_bp": 38.62,
+    "t": 3.54,
+    "pf": 2.244
+   },
+   "confirm_2026": {
+    "trades": 161,
+    "mean_bp_2x": -10.29,
+    "mean_bp_1x": -6.16,
+    "win": 0.416,
+    "sum_pct_2x": -16.57,
+    "p_random": 0.5704,
+    "holm_threshold": 0.00143,
+    "PASS": false
+   }
+  },
+  {
+   "part": "C",
+   "market": "USTECm",
+   "tf": 15,
+   "exit": "X3",
+   "entry": "T1_theory2_prevday_zone",
+   "extra": [
+    "ADX_lt20",
+    "Ichimoku_cloud"
+   ],
+   "search_2025": {
+    "n": 69,
+    "mean_bp": 17.16,
+    "t": 3.53,
+    "pf": 3.515
+   },
+   "confirm_2026": {
+    "trades": 34,
+    "mean_bp_2x": 1.45,
+    "mean_bp_1x": 2.29,
+    "win": 0.529,
+    "sum_pct_2x": 0.49,
+    "p_random": 0.3427,
+    "holm_threshold": 0.00086,
+    "PASS": false
+   }
+  }
+ ],
+ "passed": []
+}

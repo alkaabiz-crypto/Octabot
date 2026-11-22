@@ -1,0 +1,2 @@
+signal_close_utc,venue,close,prev20_high,atr14,h4_close,h4_ema200,status
+2026-11-11 18:00,BINANCE_PROXY,74519.61,74474.0,493.1,73991.97,78816.43,REJECTED: 4H close not above EMA200

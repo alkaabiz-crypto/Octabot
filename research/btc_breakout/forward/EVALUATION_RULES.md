@@ -1,0 +1,52 @@
+# Evaluation rules: Donchian 20 forward paper test
+
+These rules were written on 2026-11-09, before any forward trade existed (0 trades recorded). They define how the forward test is judged. They do **not** change the frozen strategy, `paper_trader.py` or any recorded result.
+
+## Evaluation set
+
+1. **The evaluation set is trades 1 to 40 of `trades.csv`, in recorded order.** Trades 41 and later are still recorded, because the paper trader does not stop at 40 (see audit finding "40-trade limit"). They are excluded from the verdict and reported separately as post-evaluation observations.
+2. No verdict on profitability (positive, negative or "edge confirmed") is given before trade 40 has closed. Interim daily reports show progress and running metrics only.
+3. If trade 40 closes before 2027-05-09, the verdict is still computed on trades 1 to 40. Data collection continues to the six-month mark as supplementary observation. The `COMPLETE` label in `REPORT.md`, which requires both 40 trades and the date 2027-05-09, is informational. **This file governs the verdict.**
+4. If fewer than 40 trades have closed by 2027-05-09, the test continues until trade 40. No early verdict is given.
+
+## Verdict calculation
+
+The verdict is computed by a separate script from the unchanged ledgers, never by editing them. For trades 1 to 40 it reports:
+
+- expectancy in R, profit factor, win rate, average win/loss R:R, maximum drawdown, longest losing streak and cumulative return;
+- each of these at the 0.02%, 0.05% and 0.10% hypothetical cost scenarios, labelled BINANCE PROXY.
+
+**Positive after realistic costs** means expectancy is above 0 at 0.05%, and also at 0.10%, with the t-statistic reported alongside. With 40 trades, a positive result is weak evidence on its own; the report must say so.
+
+If verified Exness costs (spread, commission, swap, admin fee) become available, they are applied as an additional, separately labelled analysis on the same 40 trades.
+
+### Cost scenarios (`cost_scenarios.py` produces `COST_SCENARIOS.md` and `cost_scenarios.json`)
+
+| Name | Round-trip cost (spread + commission + slippage) | Status |
+|---|---|---|
+| optimistic | 0.02% of price | HYPOTHETICAL |
+| moderate | 0.05% of price | HYPOTHETICAL |
+| pessimistic | 0.10% of price | HYPOTHETICAL |
+| verified Exness | not available | UNKNOWN: no Exness cost has been verified |
+
+None of these scenarios includes overnight swap, the Friday triple swap or an overnight admin fee. All three are **unknown and not modelled**.
+
+`cost_scenarios.py` reads only the real forward-test ledger, trades 1 to 40. It refuses to run on dry-run or modified copies, and it never outputs a verdict before trade 40.
+
+## Execution validity (added 2026-11-10 after the pre-flight audit, before any forward trade existed)
+
+The pre-flight audit found that the frozen ledger (`trades.csv`) fills each entry at the open of the 15m candle starting at the signal close. A worker that runs hourly at about +6 minutes cannot get that price. That fill model is **idealized**. It stays unchanged as the research-consistent record, but it is not realistic execution.
+
+1. **A paper trade is valid only if `execution_log.csv` holds a LIVE record for it.** LIVE means the first executable Binance quote (bid/ask, filled at the ask) was captured by `execution_shadow.py` within 20 minutes of the signal-candle close.
+   - Trades marked LATE or NOT_EXECUTABLE are kept and reported, but they do not count toward 40.
+   - These statuses depend only on worker uptime, not on trade outcome, so excluding them does not select by results.
+2. **The evaluation set is the first 40 valid trades** in recorded order. Trades without a LIVE record are never back-filled.
+3. **The primary verdict uses the executable fill:** R = (frozen exit - ASK fill) / (2 x ATR14). The idealized-fill result is reported alongside for comparison.
+   - The measured Binance spread is already included in the ask fill. Hypothetical costs are added on top.
+   - **Approximation:** stops stay anchored to the frozen modelled entry.
+4. These are Binance spot quotes. Exness spread at execution is not measured live and remains UNKNOWN.
+
+## Integrity requirements for a valid verdict
+
+- The independent audit (`../audit/audit.py`) reports 0 CRITICAL and 0 DISCREPANCY findings on the final ledgers. If it does not, every finding is reported, and the verdict is marked as provisional until it is resolved.
+- Frozen files are unchanged since commit `ce2e8c57`, and the ledger history is append-only.

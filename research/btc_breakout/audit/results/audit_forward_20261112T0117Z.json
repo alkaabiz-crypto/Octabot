@@ -1,0 +1,47 @@
+{
+ "audited_utc": "2026-11-12 01:17",
+ "label": "forward",
+ "forward_dir": "research/btc_breakout/forward",
+ "venue": "BINANCE_PROXY",
+ "last_processed_1h_close_utc": "2026-11-12 01:00",
+ "recorded_trades": 0,
+ "independent_trades": 0,
+ "recorded_signals": 1,
+ "independent_signals": 1,
+ "evaluation_set_trades_1_to_40": 0,
+ "counts": {
+  "CRITICAL": 0,
+  "DISCREPANCY": 0,
+  "MINOR": 0,
+  "FINDING": 1,
+  "WARNING": 2,
+  "INFO": 2
+ },
+ "findings": [
+  {
+   "severity": "INFO",
+   "check": "entry slippage model",
+   "detail": "entries fill at the next 15m open; observed open-vs-signal-close differences over 0 trades: max |0.00| USD. No extra queue/latency slippage is modeled beyond the cost scenarios."
+  },
+  {
+   "severity": "INFO",
+   "check": "stop gap fills",
+   "detail": "0 of 0 independent exits filled at a gapped 15m open below the stop (modeled)."
+  },
+  {
+   "severity": "WARNING",
+   "check": "cost assumptions",
+   "detail": "Round-trip costs are HYPOTHETICAL scenarios (0.02% / 0.05% / 0.10% of price) covering spread, commission and slippage together. Exness BTCUSDm spread, commission and swap could not be verified (site blocks automated access). Overnight swap is NOT modeled even though the average hold is ~20h. Binance top-of-book spread is not representative of Exness CFD spreads."
+  },
+  {
+   "severity": "WARNING",
+   "check": "intrabar assumption",
+   "detail": "Within one 15m candle the exact path is unknown; the replay assumes the stop is evaluated before the trailing update, matching the research engine. This is conservative for longs but not exact."
+  },
+  {
+   "severity": "FINDING",
+   "check": "40-trade limit",
+   "detail": "The paper trader does NOT stop at 40 trades: it keeps recording trades after trade 40 and only labels the report COMPLETE when >= 40 trades AND date >= 2027-05-09. The 40-trade limit is not enforced in code. Evaluation should use trades 1-40 only (this audit reports that subset separately); the frozen code was not changed."
+  }
+ ]
+}

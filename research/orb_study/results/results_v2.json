@@ -1,0 +1,1966 @@
+{
+ "generated_utc": "2026-11-12 12:25",
+ "results": {
+  "DE30m|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 253,
+     "mean_R": 0.0045,
+     "net_R": 1.15,
+     "win_rate": 0.577
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": 0.041,
+     "net_R": 8.66,
+     "win_rate": 0.536
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.1451,
+     "net_R": -36.71,
+     "win_rate": 0.577
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": 0.011,
+     "net_R": 2.31,
+     "win_rate": 0.536
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1894,
+    "holdout": 0.0507
+   },
+   "verdict": "FAIL"
+  },
+  "DE30m|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 253,
+     "mean_R": 0.0031,
+     "net_R": 0.79,
+     "win_rate": 0.542
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": -0.0164,
+     "net_R": -3.46,
+     "win_rate": 0.498
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.0896,
+     "net_R": -22.66,
+     "win_rate": 0.542
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": -0.0357,
+     "net_R": -7.54,
+     "win_rate": 0.498
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0861,
+    "holdout": 0.0672
+   },
+   "verdict": "FAIL"
+  },
+  "DE30m|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.0757,
+     "net_R": -19.14,
+     "win_rate": 0.498
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": 0.0337,
+     "net_R": 7.12,
+     "win_rate": 0.536
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.1404,
+     "net_R": -35.52,
+     "win_rate": 0.494
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": 0.0195,
+     "net_R": 4.12,
+     "win_rate": 0.531
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0453,
+    "holdout": 0.0739
+   },
+   "verdict": "FAIL"
+  },
+  "DE30m|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.1658,
+     "net_R": -41.94,
+     "win_rate": 0.478
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": 0.0061,
+     "net_R": 1.3,
+     "win_rate": 0.517
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 253,
+     "mean_R": -0.2929,
+     "net_R": -74.12,
+     "win_rate": 0.474
+    },
+    "holdout": {
+     "trades": 211,
+     "mean_R": -0.0209,
+     "net_R": -4.41,
+     "win_rate": 0.517
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1461,
+    "holdout": 0.0532
+   },
+   "verdict": "FAIL"
+  },
+  "US500m|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0949,
+     "net_R": -24.39,
+     "win_rate": 0.49
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0826,
+     "net_R": -17.6,
+     "win_rate": 0.498
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.1695,
+     "net_R": -43.55,
+     "win_rate": 0.49
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1606,
+     "net_R": -34.2,
+     "win_rate": 0.498
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0552,
+    "holdout": -0.0381
+   },
+   "verdict": "FAIL"
+  },
+  "US500m|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0615,
+     "net_R": -15.81,
+     "win_rate": 0.49
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0238,
+     "net_R": -5.07,
+     "win_rate": 0.516
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.1048,
+     "net_R": -26.93,
+     "win_rate": 0.49
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0705,
+     "net_R": -15.02,
+     "win_rate": 0.516
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0078,
+    "holdout": 0.0057
+   },
+   "verdict": "FAIL"
+  },
+  "US500m|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0021,
+     "net_R": -0.53,
+     "win_rate": 0.51
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0418,
+     "net_R": -8.86,
+     "win_rate": 0.491
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0305,
+     "net_R": -7.85,
+     "win_rate": 0.51
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0716,
+     "net_R": -15.18,
+     "win_rate": 0.491
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.026,
+    "holdout": 0.0227
+   },
+   "verdict": "FAIL"
+  },
+  "US500m|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0068,
+     "net_R": -1.74,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1195,
+     "net_R": -25.44,
+     "win_rate": 0.469
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0585,
+     "net_R": -15.05,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1777,
+     "net_R": -37.85,
+     "win_rate": 0.469
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0063,
+    "holdout": -0.0228
+   },
+   "verdict": "FAIL"
+  },
+  "USTECm|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0701,
+     "net_R": 18.02,
+     "win_rate": 0.556
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": 0.0011,
+     "net_R": 0.22,
+     "win_rate": 0.517
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0274,
+     "net_R": 7.05,
+     "win_rate": 0.556
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": -0.0314,
+     "net_R": -6.55,
+     "win_rate": 0.517
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0099,
+    "holdout": 0.0403
+   },
+   "verdict": "FAIL"
+  },
+  "USTECm|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0518,
+     "net_R": 13.3,
+     "win_rate": 0.529
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": -0.0133,
+     "net_R": -2.78,
+     "win_rate": 0.498
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0284,
+     "net_R": 7.31,
+     "win_rate": 0.529
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": -0.0323,
+     "net_R": -6.76,
+     "win_rate": 0.498
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.051,
+    "holdout": 0.0515
+   },
+   "verdict": "FAIL"
+  },
+  "USTECm|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 254,
+     "mean_R": 0.0826,
+     "net_R": 20.98,
+     "win_rate": 0.551
+    },
+    "holdout": {
+     "trades": 207,
+     "mean_R": 0.0072,
+     "net_R": 1.49,
+     "win_rate": 0.507
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 254,
+     "mean_R": 0.067,
+     "net_R": 17.01,
+     "win_rate": 0.547
+    },
+    "holdout": {
+     "trades": 207,
+     "mean_R": -0.0058,
+     "net_R": -1.19,
+     "win_rate": 0.502
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0531,
+    "holdout": 0.0506
+   },
+   "verdict": "FAIL"
+  },
+  "USTECm|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0745,
+     "net_R": 19.16,
+     "win_rate": 0.549
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": -0.1248,
+     "net_R": -26.09,
+     "win_rate": 0.445
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0459,
+     "net_R": 11.8,
+     "win_rate": 0.549
+    },
+    "holdout": {
+     "trades": 209,
+     "mean_R": -0.1488,
+     "net_R": -31.1,
+     "win_rate": 0.445
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0332,
+    "holdout": 0.0424
+   },
+   "verdict": "FAIL"
+  },
+  "XAUUSDm|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0708,
+     "net_R": 18.27,
+     "win_rate": 0.566
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1186,
+     "net_R": -25.49,
+     "win_rate": 0.465
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0098,
+     "net_R": 2.54,
+     "win_rate": 0.566
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1714,
+     "net_R": -36.86,
+     "win_rate": 0.465
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0253,
+    "holdout": -0.0026
+   },
+   "verdict": "FAIL"
+  },
+  "XAUUSDm|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0051,
+     "net_R": 1.31,
+     "win_rate": 0.516
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0761,
+     "net_R": -16.37,
+     "win_rate": 0.47
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0257,
+     "net_R": -6.64,
+     "win_rate": 0.516
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1032,
+     "net_R": -22.18,
+     "win_rate": 0.47
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0347,
+    "holdout": 0.0384
+   },
+   "verdict": "FAIL"
+  },
+  "XAUUSDm|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.003,
+     "net_R": 0.78,
+     "win_rate": 0.51
+    },
+    "holdout": {
+     "trades": 210,
+     "mean_R": -0.0064,
+     "net_R": -1.34,
+     "win_rate": 0.51
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0138,
+     "net_R": -3.54,
+     "win_rate": 0.502
+    },
+    "holdout": {
+     "trades": 210,
+     "mean_R": -0.0218,
+     "net_R": -4.58,
+     "win_rate": 0.51
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0448,
+    "holdout": 0.065
+   },
+   "verdict": "FAIL"
+  },
+  "XAUUSDm|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.1116,
+     "net_R": -28.78,
+     "win_rate": 0.461
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0279,
+     "net_R": -6.0,
+     "win_rate": 0.493
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.1445,
+     "net_R": -37.28,
+     "win_rate": 0.461
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0584,
+     "net_R": -12.55,
+     "win_rate": 0.493
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0326,
+    "holdout": 0.035
+   },
+   "verdict": "FAIL"
+  },
+  "USOILm|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0391,
+     "net_R": 10.04,
+     "win_rate": 0.58
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1296,
+     "net_R": -27.61,
+     "win_rate": 0.474
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0783,
+     "net_R": -20.12,
+     "win_rate": 0.58
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.2076,
+     "net_R": -44.22,
+     "win_rate": 0.474
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1282,
+    "holdout": -0.0513
+   },
+   "verdict": "FAIL"
+  },
+  "USOILm|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0559,
+     "net_R": -14.36,
+     "win_rate": 0.51
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0983,
+     "net_R": -20.93,
+     "win_rate": 0.474
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.1274,
+     "net_R": -32.74,
+     "win_rate": 0.51
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1437,
+     "net_R": -30.61,
+     "win_rate": 0.474
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0505,
+    "holdout": 0.0056
+   },
+   "verdict": "FAIL"
+  },
+  "USOILm|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 255,
+     "mean_R": -0.0865,
+     "net_R": -22.05,
+     "win_rate": 0.494
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0046,
+     "net_R": -0.98,
+     "win_rate": 0.502
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 255,
+     "mean_R": -0.1361,
+     "net_R": -34.7,
+     "win_rate": 0.49
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.035,
+     "net_R": -7.45,
+     "win_rate": 0.502
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.026,
+    "holdout": 0.0371
+   },
+   "verdict": "FAIL"
+  },
+  "USOILm|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0449,
+     "net_R": -11.54,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.074,
+     "net_R": -15.76,
+     "win_rate": 0.493
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.1375,
+     "net_R": -35.33,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.1336,
+     "net_R": -28.46,
+     "win_rate": 0.493
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.094,
+    "holdout": -0.0131
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0189,
+     "net_R": 4.88,
+     "win_rate": 0.535
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0024,
+     "net_R": 0.52,
+     "win_rate": 0.521
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0319,
+     "net_R": -8.23,
+     "win_rate": 0.535
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.037,
+     "net_R": -7.96,
+     "win_rate": 0.521
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0115,
+    "holdout": 0.0352
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0099,
+     "net_R": 2.56,
+     "win_rate": 0.512
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0064,
+     "net_R": -1.37,
+     "win_rate": 0.512
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0137,
+     "net_R": -3.52,
+     "win_rate": 0.512
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0263,
+     "net_R": -5.65,
+     "win_rate": 0.512
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0406,
+    "holdout": 0.0642
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 256,
+     "mean_R": 0.0409,
+     "net_R": 10.47,
+     "win_rate": 0.516
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0168,
+     "net_R": 3.62,
+     "win_rate": 0.507
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 256,
+     "mean_R": 0.0264,
+     "net_R": 6.77,
+     "win_rate": 0.512
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0043,
+     "net_R": 0.93,
+     "win_rate": 0.507
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0382,
+    "holdout": 0.0645
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0194,
+     "net_R": 5.0,
+     "win_rate": 0.519
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0114,
+     "net_R": 2.45,
+     "win_rate": 0.512
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0056,
+     "net_R": -1.46,
+     "win_rate": 0.519
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0105,
+     "net_R": -2.25,
+     "win_rate": 0.512
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0375,
+    "holdout": 0.0604
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.1936,
+     "net_R": -49.95,
+     "win_rate": 0.484
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.191,
+     "net_R": -40.67,
+     "win_rate": 0.451
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.3562,
+     "net_R": -91.9,
+     "win_rate": 0.477
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.2833,
+     "net_R": -60.35,
+     "win_rate": 0.451
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.2408,
+    "holdout": -0.0822
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0327,
+     "net_R": -8.44,
+     "win_rate": 0.527
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0433,
+     "net_R": -9.19,
+     "win_rate": 0.5
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.1165,
+     "net_R": -30.07,
+     "win_rate": 0.527
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0921,
+     "net_R": -19.52,
+     "win_rate": 0.5
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0761,
+    "holdout": 0.0111
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0426,
+     "net_R": 11.0,
+     "win_rate": 0.527
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": 0.0832,
+     "net_R": 17.64,
+     "win_rate": 0.542
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0102,
+     "net_R": -2.63,
+     "win_rate": 0.523
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": 0.0522,
+     "net_R": 11.06,
+     "win_rate": 0.533
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0288,
+    "holdout": 0.0267
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0387,
+     "net_R": -10.0,
+     "win_rate": 0.527
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0079,
+     "net_R": -1.69,
+     "win_rate": 0.521
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.1378,
+     "net_R": -35.56,
+     "win_rate": 0.523
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0659,
+     "net_R": -14.03,
+     "win_rate": 0.521
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1085,
+    "holdout": -0.0172
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R1|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0463,
+     "net_R": 11.94,
+     "win_rate": 0.562
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0747,
+     "net_R": -16.06,
+     "win_rate": 0.498
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0315,
+     "net_R": -8.12,
+     "win_rate": 0.562
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1448,
+     "net_R": -31.13,
+     "win_rate": 0.498
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.062,
+    "holdout": -0.0267
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R5|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0526,
+     "net_R": 13.58,
+     "win_rate": 0.547
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1051,
+     "net_R": -22.59,
+     "win_rate": 0.465
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0122,
+     "net_R": 3.16,
+     "win_rate": 0.547
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1403,
+     "net_R": -30.17,
+     "win_rate": 0.465
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.016,
+    "holdout": 0.0405
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R15|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0251,
+     "net_R": -6.48,
+     "win_rate": 0.492
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1288,
+     "net_R": -27.69,
+     "win_rate": 0.447
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0482,
+     "net_R": -12.43,
+     "win_rate": 0.492
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1515,
+     "net_R": -32.57,
+     "win_rate": 0.447
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0541,
+    "holdout": 0.0611
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|SCHOOL|CLOSE": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.008,
+     "net_R": -2.06,
+     "win_rate": 0.518
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1188,
+     "net_R": -25.55,
+     "win_rate": 0.46
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.051,
+     "net_R": -13.11,
+     "win_rate": 0.518
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1586,
+     "net_R": -34.1,
+     "win_rate": 0.46
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0135,
+    "holdout": 0.0424
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R1|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 233,
+     "mean_R": 0.1252,
+     "net_R": 29.18,
+     "win_rate": 0.597
+    },
+    "holdout": {
+     "trades": 203,
+     "mean_R": 0.0703,
+     "net_R": 14.28,
+     "win_rate": 0.562
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 233,
+     "mean_R": 0.0573,
+     "net_R": 13.35,
+     "win_rate": 0.597
+    },
+    "holdout": {
+     "trades": 203,
+     "mean_R": 0.0175,
+     "net_R": 3.56,
+     "win_rate": 0.562
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0248,
+    "holdout": -0.0023
+   },
+   "verdict": "PASS"
+  },
+  "XAU_NY0930|R1|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 233,
+     "mean_R": 0.1166,
+     "net_R": 27.17,
+     "win_rate": 0.455
+    },
+    "holdout": {
+     "trades": 203,
+     "mean_R": 0.021,
+     "net_R": 4.27,
+     "win_rate": 0.369
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 233,
+     "mean_R": 0.0487,
+     "net_R": 11.35,
+     "win_rate": 0.455
+    },
+    "holdout": {
+     "trades": 203,
+     "mean_R": -0.0319,
+     "net_R": -6.47,
+     "win_rate": 0.369
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0248,
+    "holdout": -0.0023
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R5|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0631,
+     "net_R": -16.21,
+     "win_rate": 0.486
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": 0.0593,
+     "net_R": 12.69,
+     "win_rate": 0.542
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0958,
+     "net_R": -24.61,
+     "win_rate": 0.486
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": 0.0317,
+     "net_R": 6.78,
+     "win_rate": 0.542
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0279,
+    "holdout": 0.0514
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R5|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0051,
+     "net_R": -1.31,
+     "win_rate": 0.37
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.0027,
+     "net_R": -0.59,
+     "win_rate": 0.364
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0378,
+     "net_R": -9.72,
+     "win_rate": 0.37
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.0303,
+     "net_R": -6.48,
+     "win_rate": 0.364
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0279,
+    "holdout": 0.0514
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R15|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.004,
+     "net_R": 1.04,
+     "win_rate": 0.516
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.054,
+     "net_R": 11.61,
+     "win_rate": 0.54
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0155,
+     "net_R": -4.0,
+     "win_rate": 0.516
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0373,
+     "net_R": 8.03,
+     "win_rate": 0.54
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0445,
+    "holdout": 0.0647
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|R15|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0108,
+     "net_R": 2.78,
+     "win_rate": 0.353
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": 0.0072,
+     "net_R": 1.54,
+     "win_rate": 0.377
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0088,
+     "net_R": -2.28,
+     "win_rate": 0.353
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0094,
+     "net_R": -2.01,
+     "win_rate": 0.377
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0445,
+    "holdout": 0.0647
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|SCHOOL|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": 0.0166,
+     "net_R": 4.26,
+     "win_rate": 0.525
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.0436,
+     "net_R": -9.34,
+     "win_rate": 0.495
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0174,
+     "net_R": -4.48,
+     "win_rate": 0.525
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.0726,
+     "net_R": -15.54,
+     "win_rate": 0.495
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0296,
+    "holdout": 0.0454
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_NY0930|SCHOOL|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0147,
+     "net_R": -3.78,
+     "win_rate": 0.366
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.0805,
+     "net_R": -17.24,
+     "win_rate": 0.322
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0487,
+     "net_R": -12.52,
+     "win_rate": 0.366
+    },
+    "holdout": {
+     "trades": 214,
+     "mean_R": -0.1095,
+     "net_R": -23.44,
+     "win_rate": 0.322
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0296,
+    "holdout": 0.0454
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R1|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 241,
+     "mean_R": -0.1506,
+     "net_R": -36.3,
+     "win_rate": 0.539
+    },
+    "holdout": {
+     "trades": 204,
+     "mean_R": -0.0403,
+     "net_R": -8.21,
+     "win_rate": 0.539
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 241,
+     "mean_R": -0.3801,
+     "net_R": -91.61,
+     "win_rate": 0.527
+    },
+    "holdout": {
+     "trades": 204,
+     "mean_R": -0.159,
+     "net_R": -32.43,
+     "win_rate": 0.539
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.3608,
+    "holdout": -0.1224
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R1|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 241,
+     "mean_R": -0.1163,
+     "net_R": -28.04,
+     "win_rate": 0.398
+    },
+    "holdout": {
+     "trades": 204,
+     "mean_R": -0.0066,
+     "net_R": -1.35,
+     "win_rate": 0.422
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 241,
+     "mean_R": -0.3457,
+     "net_R": -83.3,
+     "win_rate": 0.386
+    },
+    "holdout": {
+     "trades": 204,
+     "mean_R": -0.1253,
+     "net_R": -25.56,
+     "win_rate": 0.422
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.3608,
+    "holdout": -0.1224
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R5|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 256,
+     "mean_R": -0.1042,
+     "net_R": -26.67,
+     "win_rate": 0.504
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0637,
+     "net_R": -13.51,
+     "win_rate": 0.5
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 256,
+     "mean_R": -0.2186,
+     "net_R": -55.96,
+     "win_rate": 0.504
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.1294,
+     "net_R": -27.43,
+     "win_rate": 0.5
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1334,
+    "holdout": -0.0207
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R5|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 256,
+     "mean_R": -0.1168,
+     "net_R": -29.9,
+     "win_rate": 0.332
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0498,
+     "net_R": -10.56,
+     "win_rate": 0.325
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 256,
+     "mean_R": -0.231,
+     "net_R": -59.15,
+     "win_rate": 0.332
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.1155,
+     "net_R": -24.48,
+     "win_rate": 0.325
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1334,
+    "holdout": -0.0207
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R15|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0055,
+     "net_R": -1.41,
+     "win_rate": 0.535
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": 0.0092,
+     "net_R": 1.96,
+     "win_rate": 0.521
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.0776,
+     "net_R": -20.01,
+     "win_rate": 0.535
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0336,
+     "net_R": -7.16,
+     "win_rate": 0.521
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0653,
+    "holdout": 0.0178
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|R15|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.072,
+     "net_R": -18.58,
+     "win_rate": 0.349
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0068,
+     "net_R": -1.45,
+     "win_rate": 0.352
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": -0.144,
+     "net_R": -37.15,
+     "win_rate": 0.349
+    },
+    "holdout": {
+     "trades": 213,
+     "mean_R": -0.0495,
+     "net_R": -10.55,
+     "win_rate": 0.352
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0653,
+    "holdout": 0.0178
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|SCHOOL|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.073,
+     "net_R": -18.77,
+     "win_rate": 0.533
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0894,
+     "net_R": -18.95,
+     "win_rate": 0.495
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.2104,
+     "net_R": -54.08,
+     "win_rate": 0.529
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.1693,
+     "net_R": -35.9,
+     "win_rate": 0.495
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1835,
+    "holdout": -0.0572
+   },
+   "verdict": "FAIL"
+  },
+  "OIL_NY0930|SCHOOL|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0982,
+     "net_R": -25.25,
+     "win_rate": 0.366
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.0417,
+     "net_R": -8.84,
+     "win_rate": 0.368
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.2354,
+     "net_R": -60.5,
+     "win_rate": 0.362
+    },
+    "holdout": {
+     "trades": 212,
+     "mean_R": -0.1217,
+     "net_R": -25.79,
+     "win_rate": 0.368
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1835,
+    "holdout": -0.0572
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R1|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 242,
+     "mean_R": 0.0049,
+     "net_R": 1.18,
+     "win_rate": 0.554
+    },
+    "holdout": {
+     "trades": 206,
+     "mean_R": 0.0165,
+     "net_R": 3.39,
+     "win_rate": 0.553
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 242,
+     "mean_R": -0.0977,
+     "net_R": -23.64,
+     "win_rate": 0.554
+    },
+    "holdout": {
+     "trades": 206,
+     "mean_R": -0.0739,
+     "net_R": -15.22,
+     "win_rate": 0.553
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1142,
+    "holdout": -0.0739
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R1|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 242,
+     "mean_R": 0.0689,
+     "net_R": 16.69,
+     "win_rate": 0.417
+    },
+    "holdout": {
+     "trades": 206,
+     "mean_R": -0.0077,
+     "net_R": -1.58,
+     "win_rate": 0.369
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 242,
+     "mean_R": -0.0336,
+     "net_R": -8.14,
+     "win_rate": 0.417
+    },
+    "holdout": {
+     "trades": 206,
+     "mean_R": -0.0977,
+     "net_R": -20.12,
+     "win_rate": 0.369
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.1142,
+    "holdout": -0.0739
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R5|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 255,
+     "mean_R": 0.084,
+     "net_R": 21.43,
+     "win_rate": 0.569
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0234,
+     "net_R": -5.03,
+     "win_rate": 0.512
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 255,
+     "mean_R": 0.0308,
+     "net_R": 7.86,
+     "win_rate": 0.569
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0701,
+     "net_R": -15.06,
+     "win_rate": 0.512
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0058,
+    "holdout": 0.0136
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R5|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 255,
+     "mean_R": 0.0427,
+     "net_R": 10.88,
+     "win_rate": 0.416
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0014,
+     "net_R": -0.31,
+     "win_rate": 0.381
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 255,
+     "mean_R": -0.0106,
+     "net_R": -2.69,
+     "win_rate": 0.416
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0481,
+     "net_R": -10.34,
+     "win_rate": 0.381
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0058,
+    "holdout": 0.0136
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R15|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0686,
+     "net_R": 17.7,
+     "win_rate": 0.55
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0997,
+     "net_R": -21.44,
+     "win_rate": 0.465
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0369,
+     "net_R": 9.52,
+     "win_rate": 0.55
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1297,
+     "net_R": -27.89,
+     "win_rate": 0.465
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0437,
+    "holdout": 0.0578
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|R15|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0593,
+     "net_R": 15.29,
+     "win_rate": 0.411
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.0761,
+     "net_R": -16.35,
+     "win_rate": 0.307
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 258,
+     "mean_R": 0.0276,
+     "net_R": 7.12,
+     "win_rate": 0.411
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1059,
+     "net_R": -22.78,
+     "win_rate": 0.307
+    }
+   },
+   "random_x2_p95": {
+    "dev": 0.0437,
+    "holdout": 0.0578
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|SCHOOL|TOUCH_X0": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0157,
+     "net_R": -4.04,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1424,
+     "net_R": -30.61,
+     "win_rate": 0.456
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0742,
+     "net_R": -19.07,
+     "win_rate": 0.521
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1964,
+     "net_R": -42.23,
+     "win_rate": 0.456
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0176,
+    "holdout": 0.0055
+   },
+   "verdict": "FAIL"
+  },
+  "XAU_LDN0800|SCHOOL|TOUCH_XC": {
+   "x1": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0038,
+     "net_R": -0.97,
+     "win_rate": 0.389
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.1653,
+     "net_R": -35.53,
+     "win_rate": 0.302
+    }
+   },
+   "x2": {
+    "dev": {
+     "trades": 257,
+     "mean_R": -0.0623,
+     "net_R": -16.01,
+     "win_rate": 0.389
+    },
+    "holdout": {
+     "trades": 215,
+     "mean_R": -0.2193,
+     "net_R": -47.15,
+     "win_rate": 0.302
+    }
+   },
+   "random_x2_p95": {
+    "dev": -0.0176,
+    "holdout": 0.0055
+   },
+   "verdict": "FAIL"
+  }
+ },
+ "n_pass": 1
+}

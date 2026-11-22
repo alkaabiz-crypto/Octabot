@@ -1,0 +1,578 @@
+{
+ "B9|USOILm|1h": {
+  "grid": [
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 15
+    },
+    "dev_bp": 3.66,
+    "hold_bp": 48.98,
+    "dev_n": 307,
+    "hold_n": 259
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 20
+    },
+    "dev_bp": 10.04,
+    "hold_bp": 41.9,
+    "dev_n": 253,
+    "hold_n": 221
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 25
+    },
+    "dev_bp": 11.18,
+    "hold_bp": 43.53,
+    "dev_n": 227,
+    "hold_n": 192
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 15
+    },
+    "dev_bp": 9.85,
+    "hold_bp": 47.89,
+    "dev_n": 262,
+    "hold_n": 213
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 20
+    },
+    "dev_bp": 18.28,
+    "hold_bp": 25.95,
+    "dev_n": 217,
+    "hold_n": 181
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 25
+    },
+    "dev_bp": 17.19,
+    "hold_bp": 26.73,
+    "dev_n": 181,
+    "hold_n": 153
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 15
+    },
+    "dev_bp": 13.44,
+    "hold_bp": 52.3,
+    "dev_n": 226,
+    "hold_n": 179
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 20
+    },
+    "dev_bp": 20.51,
+    "hold_bp": 39.62,
+    "dev_n": 180,
+    "hold_n": 155
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 25
+    },
+    "dev_bp": 12.76,
+    "hold_bp": 20.18,
+    "dev_n": 147,
+    "hold_n": 124
+   }
+  ],
+  "holdout_positive": "9/9",
+  "V2": "PASS"
+ },
+ "B9|ETHUSDT|1h": {
+  "grid": [
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 15
+    },
+    "dev_bp": 10.41,
+    "hold_bp": 6.86,
+    "dev_n": 424,
+    "hold_n": 398
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 20
+    },
+    "dev_bp": 11.45,
+    "hold_bp": 5.52,
+    "dev_n": 378,
+    "hold_n": 341
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 25
+    },
+    "dev_bp": 2.17,
+    "hold_bp": 2.79,
+    "dev_n": 331,
+    "hold_n": 297
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 15
+    },
+    "dev_bp": 26.51,
+    "hold_bp": 16.2,
+    "dev_n": 390,
+    "hold_n": 343
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 20
+    },
+    "dev_bp": 35.01,
+    "hold_bp": 19.73,
+    "dev_n": 327,
+    "hold_n": 288
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 25
+    },
+    "dev_bp": 30.28,
+    "hold_bp": 14.58,
+    "dev_n": 287,
+    "hold_n": 247
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 15
+    },
+    "dev_bp": 35.34,
+    "hold_bp": 8.55,
+    "dev_n": 334,
+    "hold_n": 281
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 20
+    },
+    "dev_bp": 40.78,
+    "hold_bp": 8.44,
+    "dev_n": 282,
+    "hold_n": 232
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 25
+    },
+    "dev_bp": 31.46,
+    "hold_bp": 10.64,
+    "dev_n": 230,
+    "hold_n": 200
+   }
+  ],
+  "holdout_positive": "9/9",
+  "V2": "PASS"
+ },
+ "B9|BTCUSDT|1h": {
+  "grid": [
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 15
+    },
+    "dev_bp": -7.28,
+    "hold_bp": -2.2,
+    "dev_n": 456,
+    "hold_n": 390
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 20
+    },
+    "dev_bp": -3.44,
+    "hold_bp": -5.76,
+    "dev_n": 417,
+    "hold_n": 332
+   },
+   {
+    "params": {
+     "fib": 0.5,
+     "look": 25
+    },
+    "dev_bp": -4.06,
+    "hold_bp": -7.9,
+    "dev_n": 355,
+    "hold_n": 280
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 15
+    },
+    "dev_bp": 1.75,
+    "hold_bp": 4.98,
+    "dev_n": 399,
+    "hold_n": 337
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 20
+    },
+    "dev_bp": 3.92,
+    "hold_bp": 4.08,
+    "dev_n": 345,
+    "hold_n": 282
+   },
+   {
+    "params": {
+     "fib": 0.618,
+     "look": 25
+    },
+    "dev_bp": 5.96,
+    "hold_bp": -1.61,
+    "dev_n": 295,
+    "hold_n": 236
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 15
+    },
+    "dev_bp": 9.76,
+    "hold_bp": -1.08,
+    "dev_n": 352,
+    "hold_n": 286
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 20
+    },
+    "dev_bp": 12.67,
+    "hold_bp": -6.8,
+    "dev_n": 286,
+    "hold_n": 229
+   },
+   {
+    "params": {
+     "fib": 0.786,
+     "look": 25
+    },
+    "dev_bp": 5.46,
+    "hold_bp": 0.59,
+    "dev_n": 231,
+    "hold_n": 192
+   }
+  ],
+  "holdout_positive": "3/9",
+  "V2": "FAIL"
+ },
+ "D4|XAUUSDm|1h": {
+  "grid": [
+   {
+    "params": {
+     "valid": 5,
+     "rr": 1.5
+    },
+    "dev_bp": 2.06,
+    "hold_bp": 10.43,
+    "dev_n": 404,
+    "hold_n": 307
+   },
+   {
+    "params": {
+     "valid": 5,
+     "rr": 2.0
+    },
+    "dev_bp": 4.26,
+    "hold_bp": 12.37,
+    "dev_n": 387,
+    "hold_n": 290
+   },
+   {
+    "params": {
+     "valid": 5,
+     "rr": 2.5
+    },
+    "dev_bp": 4.01,
+    "hold_bp": 15.31,
+    "dev_n": 364,
+    "hold_n": 279
+   },
+   {
+    "params": {
+     "valid": 10,
+     "rr": 1.5
+    },
+    "dev_bp": 3.32,
+    "hold_bp": 8.89,
+    "dev_n": 414,
+    "hold_n": 334
+   },
+   {
+    "params": {
+     "valid": 10,
+     "rr": 2.0
+    },
+    "dev_bp": 5.61,
+    "hold_bp": 11.71,
+    "dev_n": 392,
+    "hold_n": 311
+   },
+   {
+    "params": {
+     "valid": 10,
+     "rr": 2.5
+    },
+    "dev_bp": 4.31,
+    "hold_bp": 16.46,
+    "dev_n": 369,
+    "hold_n": 301
+   },
+   {
+    "params": {
+     "valid": 15,
+     "rr": 1.5
+    },
+    "dev_bp": 4.37,
+    "hold_bp": 8.41,
+    "dev_n": 395,
+    "hold_n": 325
+   },
+   {
+    "params": {
+     "valid": 15,
+     "rr": 2.0
+    },
+    "dev_bp": 4.98,
+    "hold_bp": 11.46,
+    "dev_n": 376,
+    "hold_n": 299
+   },
+   {
+    "params": {
+     "valid": 15,
+     "rr": 2.5
+    },
+    "dev_bp": 3.78,
+    "hold_bp": 16.27,
+    "dev_n": 357,
+    "hold_n": 291
+   }
+  ],
+  "holdout_positive": "9/9",
+  "V2": "PASS"
+ },
+ "B7|XAUUSDm|15m": {
+  "grid": [
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 6
+    },
+    "dev_bp": 1.29,
+    "hold_bp": 1.03,
+    "dev_n": 2793,
+    "hold_n": 2135
+   },
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 8
+    },
+    "dev_bp": 1.3,
+    "hold_bp": 1.41,
+    "dev_n": 2701,
+    "hold_n": 2061
+   },
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 10
+    },
+    "dev_bp": 1.46,
+    "hold_bp": 1.28,
+    "dev_n": 2566,
+    "hold_n": 1946
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 6
+    },
+    "dev_bp": 0.07,
+    "hold_bp": 1.23,
+    "dev_n": 1487,
+    "hold_n": 1109
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 8
+    },
+    "dev_bp": 0.22,
+    "hold_bp": 1.42,
+    "dev_n": 1461,
+    "hold_n": 1083
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 10
+    },
+    "dev_bp": 0.26,
+    "hold_bp": 1.25,
+    "dev_n": 1387,
+    "hold_n": 1018
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 6
+    },
+    "dev_bp": 1.97,
+    "hold_bp": 1.89,
+    "dev_n": 661,
+    "hold_n": 479
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 8
+    },
+    "dev_bp": 2.28,
+    "hold_bp": 1.89,
+    "dev_n": 661,
+    "hold_n": 479
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 10
+    },
+    "dev_bp": 2.03,
+    "hold_bp": 1.94,
+    "dev_n": 643,
+    "hold_n": 457
+   }
+  ],
+  "holdout_positive": "9/9",
+  "V2": "PASS"
+ },
+ "B7|USTECm|15m": {
+  "grid": [
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 6
+    },
+    "dev_bp": 3.44,
+    "hold_bp": 1.73,
+    "dev_n": 3473,
+    "hold_n": 2641
+   },
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 8
+    },
+    "dev_bp": 3.6,
+    "hold_bp": 1.91,
+    "dev_n": 3398,
+    "hold_n": 2569
+   },
+   {
+    "params": {
+     "band": 1.5,
+     "minc": 10
+    },
+    "dev_bp": 3.69,
+    "hold_bp": 2.15,
+    "dev_n": 3287,
+    "hold_n": 2461
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 6
+    },
+    "dev_bp": 2.7,
+    "hold_bp": 0.0,
+    "dev_n": 2026,
+    "hold_n": 1473
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 8
+    },
+    "dev_bp": 2.76,
+    "hold_bp": 0.09,
+    "dev_n": 2005,
+    "hold_n": 1446
+   },
+   {
+    "params": {
+     "band": 2.0,
+     "minc": 10
+    },
+    "dev_bp": 2.93,
+    "hold_bp": 0.18,
+    "dev_n": 1951,
+    "hold_n": 1390
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 6
+    },
+    "dev_bp": 1.28,
+    "hold_bp": 0.38,
+    "dev_n": 1090,
+    "hold_n": 681
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 8
+    },
+    "dev_bp": 1.33,
+    "hold_bp": 0.38,
+    "dev_n": 1088,
+    "hold_n": 680
+   },
+   {
+    "params": {
+     "band": 2.5,
+     "minc": 10
+    },
+    "dev_bp": 1.32,
+    "hold_bp": 0.36,
+    "dev_n": 1079,
+    "hold_n": 672
+   }
+  ],
+  "holdout_positive": "8/9",
+  "V2": "PASS"
+ }
+}

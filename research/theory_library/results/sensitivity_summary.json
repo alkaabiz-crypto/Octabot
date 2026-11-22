@@ -1,0 +1,6927 @@
+{
+ "summary": {
+  "combinations": 535,
+  "affected": 189,
+  "removed_trades": 189,
+  "verdict_changes": [],
+  "pass_original": [
+   "B7|USTECm|15m",
+   "B7|XAUUSDm|15m",
+   "B9|BTCUSDT|1h",
+   "B9|ETHUSDT|1h",
+   "B9|USOILm|1h",
+   "D4|XAUUSDm|1h"
+  ],
+  "pass_corrected": [
+   "B7|USTECm|15m",
+   "B7|XAUUSDm|15m",
+   "B9|BTCUSDT|1h",
+   "B9|ETHUSDT|1h",
+   "B9|USOILm|1h",
+   "D4|XAUUSDm|1h"
+  ],
+  "largest_mean_bp_changes": [
+   {
+    "key": "A7|USOILm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     661.41,
+     -374.25
+    ],
+    "sum_pct": [
+     33.07,
+     -14.97
+    ],
+    "max_dd_pct": [
+     -15.14,
+     -11.07
+    ],
+    "t_stat": [
+     0.61,
+     -0.9
+    ],
+    "random_pct": [
+     65.0,
+     30.8
+    ],
+    "holdout_rank": [
+     1,
+     534
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A2|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     412.82,
+     -403.89
+    ],
+    "sum_pct": [
+     24.77,
+     -20.19
+    ],
+    "max_dd_pct": [
+     -26.55,
+     -13.72
+    ],
+    "t_stat": [
+     0.44,
+     -0.74
+    ],
+    "random_pct": [
+     55.0,
+     28.4
+    ],
+    "holdout_rank": [
+     6,
+     535
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A11|USOILm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     121.63,
+     -94.55
+    ],
+    "sum_pct": [
+     31.62,
+     -23.64
+    ],
+    "max_dd_pct": [
+     -28.82,
+     -28.82
+    ],
+    "t_stat": [
+     0.51,
+     -0.93
+    ],
+    "random_pct": [
+     62.8,
+     28.2
+    ],
+    "holdout_rank": [
+     16,
+     524
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A8|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     75.81,
+     -91.62
+    ],
+    "sum_pct": [
+     12.13,
+     -13.74
+    ],
+    "max_dd_pct": [
+     -32.78,
+     -35.66
+    ],
+    "t_stat": [
+     0.29,
+     -0.42
+    ],
+    "random_pct": [
+     52.6,
+     32.6
+    ],
+    "holdout_rank": [
+     29,
+     523
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A7|USTECm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -166.56,
+     -57.46
+    ],
+    "sum_pct": [
+     -11.66,
+     -3.45
+    ],
+    "max_dd_pct": [
+     -12.04,
+     -8.87
+    ],
+    "t_stat": [
+     -0.54,
+     -0.17
+    ],
+    "random_pct": [
+     8.4,
+     27.4
+    ],
+    "holdout_rank": [
+     533,
+     509
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "C3|USTECm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -71.08,
+     -36.1
+    ],
+    "sum_pct": [
+     -7.82,
+     -3.61
+    ],
+    "max_dd_pct": [
+     -12.3,
+     -11.32
+    ],
+    "t_stat": [
+     -0.71,
+     -0.35
+    ],
+    "random_pct": [
+     31.4,
+     49.2
+    ],
+    "holdout_rank": [
+     518,
+     477
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A2|USTECm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -44.76,
+     -11.94
+    ],
+    "sum_pct": [
+     -3.58,
+     -0.84
+    ],
+    "max_dd_pct": [
+     -13.15,
+     -13.15
+    ],
+    "t_stat": [
+     -0.16,
+     -0.04
+    ],
+    "random_pct": [
+     34.6,
+     26.0
+    ],
+    "holdout_rank": [
+     495,
+     373
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A4|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     183.14,
+     213.82
+    ],
+    "sum_pct": [
+     56.77,
+     64.15
+    ],
+    "max_dd_pct": [
+     -17.4,
+     -17.4
+    ],
+    "t_stat": [
+     1.06,
+     1.21
+    ],
+    "random_pct": [
+     90.6,
+     92.6
+    ],
+    "holdout_rank": [
+     12,
+     10
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A8|USTECm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     52.26,
+     79.4
+    ],
+    "sum_pct": [
+     7.84,
+     11.12
+    ],
+    "max_dd_pct": [
+     -10.63,
+     -7.6
+    ],
+    "t_stat": [
+     0.33,
+     0.48
+    ],
+    "random_pct": [
+     59.8,
+     73.0
+    ],
+    "holdout_rank": [
+     38,
+     24
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "C3|US500m|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -139.81,
+     -114.97
+    ],
+    "sum_pct": [
+     -16.78,
+     -12.65
+    ],
+    "max_dd_pct": [
+     -14.48,
+     -10.79
+    ],
+    "t_stat": [
+     -2.84,
+     -2.47
+    ],
+    "random_pct": [
+     1.2,
+     2.8
+    ],
+    "holdout_rank": [
+     529,
+     526
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   }
+  ],
+  "largest_rank_changes": [
+   {
+    "key": "A7|USOILm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     661.41,
+     -374.25
+    ],
+    "sum_pct": [
+     33.07,
+     -14.97
+    ],
+    "max_dd_pct": [
+     -15.14,
+     -11.07
+    ],
+    "t_stat": [
+     0.61,
+     -0.9
+    ],
+    "random_pct": [
+     65.0,
+     30.8
+    ],
+    "holdout_rank": [
+     1,
+     534
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A2|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     412.82,
+     -403.89
+    ],
+    "sum_pct": [
+     24.77,
+     -20.19
+    ],
+    "max_dd_pct": [
+     -26.55,
+     -13.72
+    ],
+    "t_stat": [
+     0.44,
+     -0.74
+    ],
+    "random_pct": [
+     55.0,
+     28.4
+    ],
+    "holdout_rank": [
+     6,
+     535
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A11|USOILm|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     121.63,
+     -94.55
+    ],
+    "sum_pct": [
+     31.62,
+     -23.64
+    ],
+    "max_dd_pct": [
+     -28.82,
+     -28.82
+    ],
+    "t_stat": [
+     0.51,
+     -0.93
+    ],
+    "random_pct": [
+     62.8,
+     28.2
+    ],
+    "holdout_rank": [
+     16,
+     524
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A8|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     75.81,
+     -91.62
+    ],
+    "sum_pct": [
+     12.13,
+     -13.74
+    ],
+    "max_dd_pct": [
+     -32.78,
+     -35.66
+    ],
+    "t_stat": [
+     0.29,
+     -0.42
+    ],
+    "random_pct": [
+     52.6,
+     32.6
+    ],
+    "holdout_rank": [
+     29,
+     523
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "G7|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -1.98,
+     -18.22
+    ],
+    "sum_pct": [
+     -1.43,
+     -12.94
+    ],
+    "max_dd_pct": [
+     -31.39,
+     -33.24
+    ],
+    "t_stat": [
+     -0.03,
+     -0.3
+    ],
+    "random_pct": [
+     47.4,
+     37.0
+    ],
+    "holdout_rank": [
+     216,
+     412
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A2|USTECm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -44.76,
+     -11.94
+    ],
+    "sum_pct": [
+     -3.58,
+     -0.84
+    ],
+    "max_dd_pct": [
+     -13.15,
+     -13.15
+    ],
+    "t_stat": [
+     -0.16,
+     -0.04
+    ],
+    "random_pct": [
+     34.6,
+     26.0
+    ],
+    "holdout_rank": [
+     495,
+     373
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "F3|USOILm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -14.1,
+     -5.42
+    ],
+    "sum_pct": [
+     -8.18,
+     -3.09
+    ],
+    "max_dd_pct": [
+     -45.34,
+     -42.41
+    ],
+    "t_stat": [
+     -0.18,
+     -0.07
+    ],
+    "random_pct": [
+     33.6,
+     42.8
+    ],
+    "holdout_rank": [
+     394,
+     293
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A4|USTECm|4h",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -3.5,
+     -8.73
+    ],
+    "sum_pct": [
+     -1.33,
+     -3.23
+    ],
+    "max_dd_pct": [
+     -17.32,
+     -17.32
+    ],
+    "t_stat": [
+     -0.05,
+     -0.13
+    ],
+    "random_pct": [
+     41.0,
+     39.4
+    ],
+    "holdout_rank": [
+     249,
+     337
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "A7|US500m|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     -6.64,
+     -3.24
+    ],
+    "sum_pct": [
+     -0.4,
+     -0.16
+    ],
+    "max_dd_pct": [
+     -7.97,
+     -7.97
+    ],
+    "t_stat": [
+     -0.04,
+     -0.02
+    ],
+    "random_pct": [
+     49.2,
+     32.2
+    ],
+    "holdout_rank": [
+     313,
+     244
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   },
+   {
+    "key": "G7|US500m|1d",
+    "period": "holdout",
+    "removed_trades": 1,
+    "mean_bp": [
+     27.24,
+     4.49
+    ],
+    "sum_pct": [
+     2.45,
+     0.36
+    ],
+    "max_dd_pct": [
+     -9.64,
+     -9.64
+    ],
+    "t_stat": [
+     0.18,
+     0.03
+    ],
+    "random_pct": [
+     71.4,
+     50.0
+    ],
+    "holdout_rank": [
+     62,
+     128
+    ],
+    "verdict": [
+     "FAIL",
+     "FAIL"
+    ]
+   }
+  ]
+ },
+ "affected": [
+  {
+   "key": "A1|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.8,
+    -9.39
+   ],
+   "sum_pct": [
+    -13.88,
+    -19.07
+   ],
+   "max_dd_pct": [
+    -40.49,
+    -43.43
+   ],
+   "t_stat": [
+    -0.29,
+    -0.4
+   ],
+   "random_pct": [
+    39.6,
+    34.4
+   ],
+   "holdout_rank": [
+    318,
+    346
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A1|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.14,
+    -3.64
+   ],
+   "sum_pct": [
+    -8.77,
+    -7.69
+   ],
+   "max_dd_pct": [
+    -21.23,
+    -20.37
+   ],
+   "t_stat": [
+    -0.65,
+    -0.57
+   ],
+   "random_pct": [
+    41.0,
+    39.2
+   ],
+   "holdout_rank": [
+    264,
+    250
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A1|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.5,
+    -8.81
+   ],
+   "sum_pct": [
+    -19.29,
+    -19.92
+   ],
+   "max_dd_pct": [
+    -20.05,
+    -20.55
+   ],
+   "t_stat": [
+    -1.77,
+    -1.83
+   ],
+   "random_pct": [
+    8.2,
+    7.4
+   ],
+   "holdout_rank": [
+    340,
+    341
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A1|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    1.63,
+    0.98
+   ],
+   "sum_pct": [
+    3.31,
+    1.98
+   ],
+   "max_dd_pct": [
+    -15.1,
+    -16.21
+   ],
+   "t_stat": [
+    0.2,
+    0.12
+   ],
+   "random_pct": [
+    58.8,
+    58.0
+   ],
+   "holdout_rank": [
+    154,
+    160
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A2|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    412.82,
+    -403.89
+   ],
+   "sum_pct": [
+    24.77,
+    -20.19
+   ],
+   "max_dd_pct": [
+    -26.55,
+    -13.72
+   ],
+   "t_stat": [
+    0.44,
+    -0.74
+   ],
+   "random_pct": [
+    55.0,
+    28.4
+   ],
+   "holdout_rank": [
+    6,
+    535
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A2|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -47.26,
+    -61.68
+   ],
+   "sum_pct": [
+    -4.25,
+    -4.93
+   ],
+   "max_dd_pct": [
+    -4.04,
+    -4.12
+   ],
+   "t_stat": [
+    -0.69,
+    -0.82
+   ],
+   "random_pct": [
+    36.0,
+    30.0
+   ],
+   "holdout_rank": [
+    499,
+    513
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A2|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -45.9,
+    -40.4
+   ],
+   "sum_pct": [
+    -5.51,
+    -4.44
+   ],
+   "max_dd_pct": [
+    -12.82,
+    -12.82
+   ],
+   "t_stat": [
+    -0.46,
+    -0.37
+   ],
+   "random_pct": [
+    23.2,
+    15.2
+   ],
+   "holdout_rank": [
+    496,
+    487
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A2|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -44.76,
+    -11.94
+   ],
+   "sum_pct": [
+    -3.58,
+    -0.84
+   ],
+   "max_dd_pct": [
+    -13.15,
+    -13.15
+   ],
+   "t_stat": [
+    -0.16,
+    -0.04
+   ],
+   "random_pct": [
+    34.6,
+    26.0
+   ],
+   "holdout_rank": [
+    495,
+    373
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -12.47,
+    -13.37
+   ],
+   "sum_pct": [
+    -50.01,
+    -53.48
+   ],
+   "max_dd_pct": [
+    -62.02,
+    -62.02
+   ],
+   "t_stat": [
+    -0.95,
+    -1.02
+   ],
+   "random_pct": [
+    30.6,
+    25.2
+   ],
+   "holdout_rank": [
+    380,
+    387
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    12.93,
+    7.94
+   ],
+   "sum_pct": [
+    13.19,
+    8.02
+   ],
+   "max_dd_pct": [
+    -19.1,
+    -21.09
+   ],
+   "t_stat": [
+    0.29,
+    0.18
+   ],
+   "random_pct": [
+    59.2,
+    56.6
+   ],
+   "holdout_rank": [
+    82,
+    103
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.04,
+    -0.21
+   ],
+   "sum_pct": [
+    -3.93,
+    -0.78
+   ],
+   "max_dd_pct": [
+    -14.87,
+    -14.87
+   ],
+   "t_stat": [
+    -0.26,
+    -0.05
+   ],
+   "random_pct": [
+    63.8,
+    67.2
+   ],
+   "holdout_rank": [
+    202,
+    184
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -28.8,
+    -25.21
+   ],
+   "sum_pct": [
+    -28.22,
+    -24.45
+   ],
+   "max_dd_pct": [
+    -27.59,
+    -24.75
+   ],
+   "t_stat": [
+    -2.2,
+    -1.98
+   ],
+   "random_pct": [
+    4.6,
+    6.6
+   ],
+   "holdout_rank": [
+    465,
+    451
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.48,
+    -4.06
+   ],
+   "sum_pct": [
+    -16.73,
+    -15.09
+   ],
+   "max_dd_pct": [
+    -19.33,
+    -17.99
+   ],
+   "t_stat": [
+    -1.51,
+    -1.38
+   ],
+   "random_pct": [
+    21.4,
+    24.8
+   ],
+   "holdout_rank": [
+    276,
+    264
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -12.3,
+    -11.96
+   ],
+   "sum_pct": [
+    -13.16,
+    -12.68
+   ],
+   "max_dd_pct": [
+    -13.57,
+    -13.15
+   ],
+   "t_stat": [
+    -1.36,
+    -1.31
+   ],
+   "random_pct": [
+    17.6,
+    16.8
+   ],
+   "holdout_rank": [
+    377,
+    374
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.57,
+    -2.09
+   ],
+   "sum_pct": [
+    -9.32,
+    -7.58
+   ],
+   "max_dd_pct": [
+    -20.23,
+    -19.41
+   ],
+   "t_stat": [
+    -0.51,
+    -0.42
+   ],
+   "random_pct": [
+    46.4,
+    44.6
+   ],
+   "holdout_rank": [
+    231,
+    215
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A3|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.71,
+    0.72
+   ],
+   "sum_pct": [
+    0.71,
+    0.71
+   ],
+   "max_dd_pct": [
+    -8.44,
+    -8.44
+   ],
+   "t_stat": [
+    0.05,
+    0.05
+   ],
+   "random_pct": [
+    56.0,
+    54.8
+   ],
+   "holdout_rank": [
+    166,
+    162
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    12.23,
+    10.77
+   ],
+   "sum_pct": [
+    15.66,
+    13.68
+   ],
+   "max_dd_pct": [
+    -43.64,
+    -44.74
+   ],
+   "t_stat": [
+    0.24,
+    0.21
+   ],
+   "random_pct": [
+    66.4,
+    60.2
+   ],
+   "holdout_rank": [
+    87,
+    86
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    183.14,
+    213.82
+   ],
+   "sum_pct": [
+    56.77,
+    64.15
+   ],
+   "max_dd_pct": [
+    -17.4,
+    -17.4
+   ],
+   "t_stat": [
+    1.06,
+    1.21
+   ],
+   "random_pct": [
+    90.6,
+    92.6
+   ],
+   "holdout_rank": [
+    12,
+    10
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    11.08,
+    12.97
+   ],
+   "sum_pct": [
+    12.64,
+    14.66
+   ],
+   "max_dd_pct": [
+    -8.46,
+    -6.75
+   ],
+   "t_stat": [
+    0.92,
+    1.08
+   ],
+   "random_pct": [
+    81.8,
+    85.8
+   ],
+   "holdout_rank": [
+    90,
+    77
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -21.68,
+    -25.57
+   ],
+   "sum_pct": [
+    -8.46,
+    -9.72
+   ],
+   "max_dd_pct": [
+    -10.11,
+    -10.26
+   ],
+   "t_stat": [
+    -0.75,
+    -0.86
+   ],
+   "random_pct": [
+    24.2,
+    23.8
+   ],
+   "holdout_rank": [
+    437,
+    453
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -9.02,
+    -9.07
+   ],
+   "sum_pct": [
+    -11.45,
+    -11.43
+   ],
+   "max_dd_pct": [
+    -14.11,
+    -14.08
+   ],
+   "t_stat": [
+    -1.14,
+    -1.14
+   ],
+   "random_pct": [
+    18.6,
+    17.8
+   ],
+   "holdout_rank": [
+    347,
+    344
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -28.5,
+    -25.74
+   ],
+   "sum_pct": [
+    -11.69,
+    -10.3
+   ],
+   "max_dd_pct": [
+    -12.29,
+    -12.29
+   ],
+   "t_stat": [
+    -0.76,
+    -0.67
+   ],
+   "random_pct": [
+    12.0,
+    14.0
+   ],
+   "holdout_rank": [
+    464,
+    455
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -13.82,
+    -14.3
+   ],
+   "sum_pct": [
+    -20.32,
+    -20.87
+   ],
+   "max_dd_pct": [
+    -21.29,
+    -21.72
+   ],
+   "t_stat": [
+    -1.38,
+    -1.42
+   ],
+   "random_pct": [
+    13.8,
+    14.8
+   ],
+   "holdout_rank": [
+    393,
+    392
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A4|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.5,
+    -8.73
+   ],
+   "sum_pct": [
+    -1.33,
+    -3.23
+   ],
+   "max_dd_pct": [
+    -17.32,
+    -17.32
+   ],
+   "t_stat": [
+    -0.05,
+    -0.13
+   ],
+   "random_pct": [
+    41.0,
+    39.4
+   ],
+   "holdout_rank": [
+    249,
+    337
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A5|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -20.58,
+    -21.63
+   ],
+   "sum_pct": [
+    -83.97,
+    -88.02
+   ],
+   "max_dd_pct": [
+    -64.91,
+    -66.28
+   ],
+   "t_stat": [
+    -1.59,
+    -1.68
+   ],
+   "random_pct": [
+    10.2,
+    9.6
+   ],
+   "holdout_rank": [
+    432,
+    433
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A5|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -7.27,
+    -6.58
+   ],
+   "sum_pct": [
+    -32.29,
+    -29.13
+   ],
+   "max_dd_pct": [
+    -28.67,
+    -26.34
+   ],
+   "t_stat": [
+    -2.05,
+    -1.89
+   ],
+   "random_pct": [
+    7.2,
+    11.4
+   ],
+   "holdout_rank": [
+    324,
+    312
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A5|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.98,
+    -3.68
+   ],
+   "sum_pct": [
+    -17.62,
+    -16.26
+   ],
+   "max_dd_pct": [
+    -21.81,
+    -21.81
+   ],
+   "t_stat": [
+    -1.47,
+    -1.37
+   ],
+   "random_pct": [
+    21.4,
+    25.6
+   ],
+   "holdout_rank": [
+    259,
+    252
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A5|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.04,
+    -2.77
+   ],
+   "sum_pct": [
+    -12.99,
+    -11.81
+   ],
+   "max_dd_pct": [
+    -26.9,
+    -26.9
+   ],
+   "t_stat": [
+    -0.69,
+    -0.63
+   ],
+   "random_pct": [
+    32.2,
+    39.2
+   ],
+   "holdout_rank": [
+    241,
+    232
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A6|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -24.22,
+    -21.48
+   ],
+   "sum_pct": [
+    -38.26,
+    -33.73
+   ],
+   "max_dd_pct": [
+    -43.44,
+    -40.75
+   ],
+   "t_stat": [
+    -1.03,
+    -0.91
+   ],
+   "random_pct": [
+    26.8,
+    25.8
+   ],
+   "holdout_rank": [
+    447,
+    431
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A6|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.65,
+    3.32
+   ],
+   "sum_pct": [
+    0.88,
+    4.45
+   ],
+   "max_dd_pct": [
+    -9.03,
+    -6.39
+   ],
+   "t_stat": [
+    0.09,
+    0.49
+   ],
+   "random_pct": [
+    61.0,
+    72.4
+   ],
+   "holdout_rank": [
+    168,
+    136
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A6|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.58,
+    -1.18
+   ],
+   "sum_pct": [
+    -3.63,
+    -1.65
+   ],
+   "max_dd_pct": [
+    -10.05,
+    -8.23
+   ],
+   "t_stat": [
+    -0.43,
+    -0.2
+   ],
+   "random_pct": [
+    48.8,
+    57.6
+   ],
+   "holdout_rank": [
+    232,
+    196
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A6|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.26,
+    0.24
+   ],
+   "sum_pct": [
+    -0.39,
+    0.36
+   ],
+   "max_dd_pct": [
+    -8.53,
+    -8.53
+   ],
+   "t_stat": [
+    -0.03,
+    0.03
+   ],
+   "random_pct": [
+    60.2,
+    61.0
+   ],
+   "holdout_rank": [
+    188,
+    175
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|USOILm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    661.41,
+    -374.25
+   ],
+   "sum_pct": [
+    33.07,
+    -14.97
+   ],
+   "max_dd_pct": [
+    -15.14,
+    -11.07
+   ],
+   "t_stat": [
+    0.61,
+    -0.9
+   ],
+   "random_pct": [
+    65.0,
+    30.8
+   ],
+   "holdout_rank": [
+    1,
+    534
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    107.18,
+    125.85
+   ],
+   "sum_pct": [
+    36.44,
+    41.53
+   ],
+   "max_dd_pct": [
+    -15.14,
+    -12.15
+   ],
+   "t_stat": [
+    0.92,
+    1.06
+   ],
+   "random_pct": [
+    65.6,
+    69.2
+   ],
+   "holdout_rank": [
+    19,
+    14
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|DE30m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -43.2,
+    -47.49
+   ],
+   "sum_pct": [
+    -2.59,
+    -2.37
+   ],
+   "max_dd_pct": [
+    -4.52,
+    -4.31
+   ],
+   "t_stat": [
+    -0.72,
+    -0.65
+   ],
+   "random_pct": [
+    42.8,
+    42.0
+   ],
+   "holdout_rank": [
+    491,
+    496
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -43.47,
+    -36.34
+   ],
+   "sum_pct": [
+    -17.82,
+    -14.54
+   ],
+   "max_dd_pct": [
+    -17.36,
+    -14.55
+   ],
+   "t_stat": [
+    -1.71,
+    -1.45
+   ],
+   "random_pct": [
+    7.8,
+    13.2
+   ],
+   "holdout_rank": [
+    492,
+    479
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|US500m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.64,
+    -3.24
+   ],
+   "sum_pct": [
+    -0.4,
+    -0.16
+   ],
+   "max_dd_pct": [
+    -7.97,
+    -7.97
+   ],
+   "t_stat": [
+    -0.04,
+    -0.02
+   ],
+   "random_pct": [
+    49.2,
+    32.2
+   ],
+   "holdout_rank": [
+    313,
+    244
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -40.37,
+    -44.33
+   ],
+   "sum_pct": [
+    -17.76,
+    -19.06
+   ],
+   "max_dd_pct": [
+    -16.42,
+    -17.49
+   ],
+   "t_stat": [
+    -2.23,
+    -2.45
+   ],
+   "random_pct": [
+    2.0,
+    1.0
+   ],
+   "holdout_rank": [
+    485,
+    494
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|USTECm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -166.56,
+    -57.46
+   ],
+   "sum_pct": [
+    -11.66,
+    -3.45
+   ],
+   "max_dd_pct": [
+    -12.04,
+    -8.87
+   ],
+   "t_stat": [
+    -0.54,
+    -0.17
+   ],
+   "random_pct": [
+    8.4,
+    27.4
+   ],
+   "holdout_rank": [
+    533,
+    509
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A7|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.59,
+    -3.53
+   ],
+   "sum_pct": [
+    -0.21,
+    -1.24
+   ],
+   "max_dd_pct": [
+    -15.56,
+    -15.56
+   ],
+   "t_stat": [
+    -0.01,
+    -0.08
+   ],
+   "random_pct": [
+    47.6,
+    44.6
+   ],
+   "holdout_rank": [
+    193,
+    248
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A8|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    75.81,
+    -91.62
+   ],
+   "sum_pct": [
+    12.13,
+    -13.74
+   ],
+   "max_dd_pct": [
+    -32.78,
+    -35.66
+   ],
+   "t_stat": [
+    0.29,
+    -0.42
+   ],
+   "random_pct": [
+    52.6,
+    32.6
+   ],
+   "holdout_rank": [
+    29,
+    523
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A8|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -98.59,
+    -87.07
+   ],
+   "sum_pct": [
+    -19.72,
+    -16.54
+   ],
+   "max_dd_pct": [
+    -17.74,
+    -15.04
+   ],
+   "t_stat": [
+    -2.41,
+    -2.1
+   ],
+   "random_pct": [
+    1.8,
+    4.0
+   ],
+   "holdout_rank": [
+    526,
+    519
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A8|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -26.99,
+    -28.57
+   ],
+   "sum_pct": [
+    -5.13,
+    -5.14
+   ],
+   "max_dd_pct": [
+    -7.21,
+    -7.21
+   ],
+   "t_stat": [
+    -0.48,
+    -0.48
+   ],
+   "random_pct": [
+    24.2,
+    16.2
+   ],
+   "holdout_rank": [
+    458,
+    463
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A8|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    52.26,
+    79.4
+   ],
+   "sum_pct": [
+    7.84,
+    11.12
+   ],
+   "max_dd_pct": [
+    -10.63,
+    -7.6
+   ],
+   "t_stat": [
+    0.33,
+    0.48
+   ],
+   "random_pct": [
+    59.8,
+    73.0
+   ],
+   "holdout_rank": [
+    38,
+    24
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A9|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    29.32,
+    46.75
+   ],
+   "sum_pct": [
+    13.19,
+    20.57
+   ],
+   "max_dd_pct": [
+    -25.34,
+    -19.4
+   ],
+   "t_stat": [
+    0.31,
+    0.48
+   ],
+   "random_pct": [
+    58.0,
+    65.2
+   ],
+   "holdout_rank": [
+    59,
+    40
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A9|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -35.15,
+    -35.74
+   ],
+   "sum_pct": [
+    -16.87,
+    -16.8
+   ],
+   "max_dd_pct": [
+    -17.28,
+    -17.28
+   ],
+   "t_stat": [
+    -1.91,
+    -1.9
+   ],
+   "random_pct": [
+    10.6,
+    7.8
+   ],
+   "holdout_rank": [
+    477,
+    476
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A9|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -20.95,
+    -21.73
+   ],
+   "sum_pct": [
+    -12.78,
+    -13.04
+   ],
+   "max_dd_pct": [
+    -14.84,
+    -15.06
+   ],
+   "t_stat": [
+    -0.98,
+    -1.0
+   ],
+   "random_pct": [
+    7.6,
+    7.0
+   ],
+   "holdout_rank": [
+    433,
+    435
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A9|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.37,
+    -9.1
+   ],
+   "sum_pct": [
+    -3.25,
+    -4.55
+   ],
+   "max_dd_pct": [
+    -18.55,
+    -19.22
+   ],
+   "t_stat": [
+    -0.15,
+    -0.21
+   ],
+   "random_pct": [
+    40.0,
+    29.2
+   ],
+   "holdout_rank": [
+    309,
+    345
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A10|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.49,
+    -0.0
+   ],
+   "sum_pct": [
+    5.76,
+    -0.04
+   ],
+   "max_dd_pct": [
+    -42.21,
+    -42.21
+   ],
+   "t_stat": [
+    0.1,
+    -0.0
+   ],
+   "random_pct": [
+    85.2,
+    85.8
+   ],
+   "holdout_rank": [
+    174,
+    182
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A10|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.01,
+    -3.71
+   ],
+   "sum_pct": [
+    -46.99,
+    -43.49
+   ],
+   "max_dd_pct": [
+    -39.56,
+    -37.37
+   ],
+   "t_stat": [
+    -2.98,
+    -2.83
+   ],
+   "random_pct": [
+    10.4,
+    15.4
+   ],
+   "holdout_rank": [
+    261,
+    253
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A10|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.14,
+    -3.07
+   ],
+   "sum_pct": [
+    -37.28,
+    -36.41
+   ],
+   "max_dd_pct": [
+    -33.97,
+    -33.39
+   ],
+   "t_stat": [
+    -3.18,
+    -3.12
+   ],
+   "random_pct": [
+    9.0,
+    12.0
+   ],
+   "holdout_rank": [
+    245,
+    237
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A10|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.05,
+    -0.98
+   ],
+   "sum_pct": [
+    -11.37,
+    -10.59
+   ],
+   "max_dd_pct": [
+    -24.11,
+    -23.52
+   ],
+   "t_stat": [
+    -0.62,
+    -0.58
+   ],
+   "random_pct": [
+    58.0,
+    54.2
+   ],
+   "holdout_rank": [
+    204,
+    194
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A11|USOILm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    121.63,
+    -94.55
+   ],
+   "sum_pct": [
+    31.62,
+    -23.64
+   ],
+   "max_dd_pct": [
+    -28.82,
+    -28.82
+   ],
+   "t_stat": [
+    0.51,
+    -0.93
+   ],
+   "random_pct": [
+    62.8,
+    28.2
+   ],
+   "holdout_rank": [
+    16,
+    524
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A11|DE30m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -102.05,
+    -116.24
+   ],
+   "sum_pct": [
+    -25.51,
+    -27.9
+   ],
+   "max_dd_pct": [
+    -21.4,
+    -22.8
+   ],
+   "t_stat": [
+    -3.33,
+    -4.1
+   ],
+   "random_pct": [
+    2.2,
+    0.6
+   ],
+   "holdout_rank": [
+    527,
+    528
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A11|US500m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -54.38,
+    -50.07
+   ],
+   "sum_pct": [
+    -21.21,
+    -19.03
+   ],
+   "max_dd_pct": [
+    -19.07,
+    -17.27
+   ],
+   "t_stat": [
+    -2.16,
+    -1.97
+   ],
+   "random_pct": [
+    2.2,
+    1.6
+   ],
+   "holdout_rank": [
+    511,
+    502
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A11|USTECm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -98.21,
+    -90.99
+   ],
+   "sum_pct": [
+    -25.53,
+    -22.75
+   ],
+   "max_dd_pct": [
+    -22.32,
+    -20.66
+   ],
+   "t_stat": [
+    -1.43,
+    -1.28
+   ],
+   "random_pct": [
+    7.0,
+    8.2
+   ],
+   "holdout_rank": [
+    524,
+    522
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A12|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    5.01,
+    3.19
+   ],
+   "sum_pct": [
+    5.61,
+    3.54
+   ],
+   "max_dd_pct": [
+    -21.69,
+    -22.53
+   ],
+   "t_stat": [
+    0.15,
+    0.1
+   ],
+   "random_pct": [
+    55.6,
+    55.4
+   ],
+   "holdout_rank": [
+    126,
+    139
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A12|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -5.06,
+    -2.34
+   ],
+   "sum_pct": [
+    -5.82,
+    -2.67
+   ],
+   "max_dd_pct": [
+    -10.88,
+    -7.97
+   ],
+   "t_stat": [
+    -0.65,
+    -0.32
+   ],
+   "random_pct": [
+    37.6,
+    53.0
+   ],
+   "holdout_rank": [
+    285,
+    223
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A12|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.44,
+    -8.74
+   ],
+   "sum_pct": [
+    -9.7,
+    -9.96
+   ],
+   "max_dd_pct": [
+    -12.81,
+    -13.04
+   ],
+   "t_stat": [
+    -1.77,
+    -1.82
+   ],
+   "random_pct": [
+    14.6,
+    9.4
+   ],
+   "holdout_rank": [
+    338,
+    339
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "A12|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -19.78,
+    -20.59
+   ],
+   "sum_pct": [
+    -18.6,
+    -19.14
+   ],
+   "max_dd_pct": [
+    -18.27,
+    -18.71
+   ],
+   "t_stat": [
+    -2.6,
+    -2.7
+   ],
+   "random_pct": [
+    2.8,
+    2.0
+   ],
+   "holdout_rank": [
+    425,
+    428
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|USOILm|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -11.13,
+    -9.68
+   ],
+   "sum_pct": [
+    -32.61,
+    -28.28
+   ],
+   "max_dd_pct": [
+    -42.75,
+    -41.09
+   ],
+   "t_stat": [
+    -0.85,
+    -0.74
+   ],
+   "random_pct": [
+    32.8,
+    34.0
+   ],
+   "holdout_rank": [
+    366,
+    349
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -19.31,
+    -22.91
+   ],
+   "sum_pct": [
+    -14.67,
+    -17.19
+   ],
+   "max_dd_pct": [
+    -28.41,
+    -30.17
+   ],
+   "t_stat": [
+    -0.54,
+    -0.63
+   ],
+   "random_pct": [
+    45.6,
+    39.8
+   ],
+   "holdout_rank": [
+    422,
+    440
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|DE30m|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.33,
+    -3.45
+   ],
+   "sum_pct": [
+    -6.56,
+    -9.66
+   ],
+   "max_dd_pct": [
+    -9.9,
+    -12.47
+   ],
+   "t_stat": [
+    -0.82,
+    -1.32
+   ],
+   "random_pct": [
+    46.4,
+    33.6
+   ],
+   "holdout_rank": [
+    227,
+    247
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    4.27,
+    0.25
+   ],
+   "sum_pct": [
+    3.42,
+    0.2
+   ],
+   "max_dd_pct": [
+    -3.62,
+    -3.62
+   ],
+   "t_stat": [
+    0.44,
+    0.03
+   ],
+   "random_pct": [
+    68.2,
+    59.2
+   ],
+   "holdout_rank": [
+    134,
+    174
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|US500m|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    2.39,
+    2.03
+   ],
+   "sum_pct": [
+    6.96,
+    5.9
+   ],
+   "max_dd_pct": [
+    -3.91,
+    -3.91
+   ],
+   "t_stat": [
+    0.97,
+    0.83
+   ],
+   "random_pct": [
+    98.0,
+    96.2
+   ],
+   "holdout_rank": [
+    148,
+    149
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    6.65,
+    5.69
+   ],
+   "sum_pct": [
+    4.92,
+    4.15
+   ],
+   "max_dd_pct": [
+    -4.81,
+    -4.81
+   ],
+   "t_stat": [
+    0.86,
+    0.73
+   ],
+   "random_pct": [
+    82.4,
+    83.2
+   ],
+   "holdout_rank": [
+    113,
+    114
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|USTECm|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.6,
+    -4.0
+   ],
+   "sum_pct": [
+    -9.61,
+    -10.65
+   ],
+   "max_dd_pct": [
+    -12.84,
+    -12.84
+   ],
+   "t_stat": [
+    -0.91,
+    -1.02
+   ],
+   "random_pct": [
+    32.6,
+    26.2
+   ],
+   "holdout_rank": [
+    252,
+    261
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B1|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -7.17,
+    -7.98
+   ],
+   "sum_pct": [
+    -5.31,
+    -5.82
+   ],
+   "max_dd_pct": [
+    -10.24,
+    -10.24
+   ],
+   "t_stat": [
+    -0.64,
+    -0.7
+   ],
+   "random_pct": [
+    38.4,
+    36.0
+   ],
+   "holdout_rank": [
+    323,
+    328
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B2|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -9.79,
+    -7.5
+   ],
+   "sum_pct": [
+    -20.75,
+    -15.82
+   ],
+   "max_dd_pct": [
+    -24.58,
+    -20.67
+   ],
+   "t_stat": [
+    -0.83,
+    -0.65
+   ],
+   "random_pct": [
+    35.0,
+    39.2
+   ],
+   "holdout_rank": [
+    353,
+    326
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B3|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.36,
+    -3.19
+   ],
+   "sum_pct": [
+    -7.94,
+    -5.78
+   ],
+   "max_dd_pct": [
+    -40.13,
+    -38.81
+   ],
+   "t_stat": [
+    -0.19,
+    -0.14
+   ],
+   "random_pct": [
+    55.0,
+    60.8
+   ],
+   "holdout_rank": [
+    270,
+    242
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B3|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.03,
+    -1.69
+   ],
+   "sum_pct": [
+    0.05,
+    -3.07
+   ],
+   "max_dd_pct": [
+    -10.52,
+    -13.23
+   ],
+   "t_stat": [
+    0.0,
+    -0.29
+   ],
+   "random_pct": [
+    66.6,
+    50.4
+   ],
+   "holdout_rank": [
+    184,
+    205
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B3|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    5.01,
+    5.2
+   ],
+   "sum_pct": [
+    9.47,
+    9.78
+   ],
+   "max_dd_pct": [
+    -5.31,
+    -5.31
+   ],
+   "t_stat": [
+    1.31,
+    1.35
+   ],
+   "random_pct": [
+    92.8,
+    93.8
+   ],
+   "holdout_rank": [
+    127,
+    122
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B3|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    6.03,
+    6.39
+   ],
+   "sum_pct": [
+    10.91,
+    11.5
+   ],
+   "max_dd_pct": [
+    -5.02,
+    -5.02
+   ],
+   "t_stat": [
+    0.96,
+    1.01
+   ],
+   "random_pct": [
+    84.6,
+    85.6
+   ],
+   "holdout_rank": [
+    117,
+    110
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B4|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -12.48,
+    -8.55
+   ],
+   "sum_pct": [
+    -22.09,
+    -15.05
+   ],
+   "max_dd_pct": [
+    -48.15,
+    -44.22
+   ],
+   "t_stat": [
+    -0.58,
+    -0.4
+   ],
+   "random_pct": [
+    38.0,
+    50.8
+   ],
+   "holdout_rank": [
+    381,
+    335
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B4|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.02,
+    -4.01
+   ],
+   "sum_pct": [
+    -3.22,
+    -6.38
+   ],
+   "max_dd_pct": [
+    -8.85,
+    -8.85
+   ],
+   "t_stat": [
+    -0.31,
+    -0.65
+   ],
+   "random_pct": [
+    54.8,
+    43.2
+   ],
+   "holdout_rank": [
+    217,
+    262
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B4|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    5.22,
+    5.36
+   ],
+   "sum_pct": [
+    9.09,
+    9.27
+   ],
+   "max_dd_pct": [
+    -4.68,
+    -4.68
+   ],
+   "t_stat": [
+    1.2,
+    1.22
+   ],
+   "random_pct": [
+    95.2,
+    97.6
+   ],
+   "holdout_rank": [
+    124,
+    120
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B4|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    6.15,
+    6.67
+   ],
+   "sum_pct": [
+    10.57,
+    11.4
+   ],
+   "max_dd_pct": [
+    -9.58,
+    -9.58
+   ],
+   "t_stat": [
+    0.9,
+    0.97
+   ],
+   "random_pct": [
+    90.6,
+    91.4
+   ],
+   "holdout_rank": [
+    116,
+    109
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B5|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.26,
+    -1.42
+   ],
+   "sum_pct": [
+    -0.71,
+    -3.9
+   ],
+   "max_dd_pct": [
+    -8.81,
+    -8.86
+   ],
+   "t_stat": [
+    -0.07,
+    -0.38
+   ],
+   "random_pct": [
+    66.2,
+    55.4
+   ],
+   "holdout_rank": [
+    189,
+    200
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B5|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    1.41,
+    1.73
+   ],
+   "sum_pct": [
+    3.54,
+    4.32
+   ],
+   "max_dd_pct": [
+    -8.0,
+    -8.0
+   ],
+   "t_stat": [
+    0.48,
+    0.59
+   ],
+   "random_pct": [
+    82.8,
+    85.0
+   ],
+   "holdout_rank": [
+    158,
+    151
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B5|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    4.87,
+    5.53
+   ],
+   "sum_pct": [
+    11.74,
+    13.27
+   ],
+   "max_dd_pct": [
+    -7.07,
+    -7.07
+   ],
+   "t_stat": [
+    1.05,
+    1.2
+   ],
+   "random_pct": [
+    87.4,
+    91.6
+   ],
+   "holdout_rank": [
+    129,
+    117
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B6|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    4.73,
+    6.19
+   ],
+   "sum_pct": [
+    16.24,
+    21.17
+   ],
+   "max_dd_pct": [
+    -21.33,
+    -21.33
+   ],
+   "t_stat": [
+    0.58,
+    0.77
+   ],
+   "random_pct": [
+    83.2,
+    84.6
+   ],
+   "holdout_rank": [
+    131,
+    112
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B6|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.68,
+    -1.63
+   ],
+   "sum_pct": [
+    -2.25,
+    -5.41
+   ],
+   "max_dd_pct": [
+    -9.67,
+    -11.27
+   ],
+   "t_stat": [
+    -0.2,
+    -0.49
+   ],
+   "random_pct": [
+    70.2,
+    57.6
+   ],
+   "holdout_rank": [
+    195,
+    204
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "B6|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    4.99,
+    5.46
+   ],
+   "sum_pct": [
+    16.43,
+    17.92
+   ],
+   "max_dd_pct": [
+    -5.95,
+    -5.95
+   ],
+   "t_stat": [
+    1.33,
+    1.46
+   ],
+   "random_pct": [
+    92.6,
+    96.8
+   ],
+   "holdout_rank": [
+    128,
+    119
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C3|USOILm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    239.72,
+    228.59
+   ],
+   "sum_pct": [
+    35.96,
+    32.0
+   ],
+   "max_dd_pct": [
+    -10.65,
+    -10.65
+   ],
+   "t_stat": [
+    0.98,
+    0.87
+   ],
+   "random_pct": [
+    80.0,
+    79.8
+   ],
+   "holdout_rank": [
+    10,
+    8
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C3|DE30m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -98.36,
+    -90.08
+   ],
+   "sum_pct": [
+    -10.82,
+    -9.01
+   ],
+   "max_dd_pct": [
+    -12.0,
+    -10.37
+   ],
+   "t_stat": [
+    -2.4,
+    -2.03
+   ],
+   "random_pct": [
+    12.4,
+    13.0
+   ],
+   "holdout_rank": [
+    525,
+    521
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C3|US500m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -139.81,
+    -114.97
+   ],
+   "sum_pct": [
+    -16.78,
+    -12.65
+   ],
+   "max_dd_pct": [
+    -14.48,
+    -10.79
+   ],
+   "t_stat": [
+    -2.84,
+    -2.47
+   ],
+   "random_pct": [
+    1.2,
+    2.8
+   ],
+   "holdout_rank": [
+    529,
+    526
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C3|USTECm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -71.08,
+    -36.1
+   ],
+   "sum_pct": [
+    -7.82,
+    -3.61
+   ],
+   "max_dd_pct": [
+    -12.3,
+    -11.32
+   ],
+   "t_stat": [
+    -0.71,
+    -0.35
+   ],
+   "random_pct": [
+    31.4,
+    49.2
+   ],
+   "holdout_rank": [
+    518,
+    477
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C5|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.56,
+    2.15
+   ],
+   "sum_pct": [
+    1.36,
+    5.21
+   ],
+   "max_dd_pct": [
+    -8.71,
+    -8.59
+   ],
+   "t_stat": [
+    0.13,
+    0.56
+   ],
+   "random_pct": [
+    77.4,
+    86.4
+   ],
+   "holdout_rank": [
+    172,
+    148
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "C6|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.86,
+    -2.65
+   ],
+   "sum_pct": [
+    -11.19,
+    -7.64
+   ],
+   "max_dd_pct": [
+    -17.57,
+    -14.54
+   ],
+   "t_stat": [
+    -0.89,
+    -0.63
+   ],
+   "random_pct": [
+    35.8,
+    45.8
+   ],
+   "holdout_rank": [
+    257,
+    229
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "D6|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -22.73,
+    -21.07
+   ],
+   "sum_pct": [
+    -25.91,
+    -23.81
+   ],
+   "max_dd_pct": [
+    -35.87,
+    -34.49
+   ],
+   "t_stat": [
+    -0.96,
+    -0.88
+   ],
+   "random_pct": [
+    25.6,
+    23.8
+   ],
+   "holdout_rank": [
+    441,
+    429
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "D6|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.97,
+    3.51
+   ],
+   "sum_pct": [
+    1.26,
+    4.49
+   ],
+   "max_dd_pct": [
+    -5.96,
+    -5.11
+   ],
+   "t_stat": [
+    0.13,
+    0.51
+   ],
+   "random_pct": [
+    63.4,
+    77.6
+   ],
+   "holdout_rank": [
+    163,
+    135
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "D6|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.39,
+    -3.25
+   ],
+   "sum_pct": [
+    -5.66,
+    -4.16
+   ],
+   "max_dd_pct": [
+    -12.08,
+    -12.08
+   ],
+   "t_stat": [
+    -0.49,
+    -0.37
+   ],
+   "random_pct": [
+    35.8,
+    37.6
+   ],
+   "holdout_rank": [
+    273,
+    245
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -39.24,
+    -38.96
+   ],
+   "sum_pct": [
+    -32.18,
+    -31.56
+   ],
+   "max_dd_pct": [
+    -34.13,
+    -33.72
+   ],
+   "t_stat": [
+    -1.31,
+    -1.29
+   ],
+   "random_pct": [
+    15.2,
+    13.2
+   ],
+   "holdout_rank": [
+    484,
+    486
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -9.47,
+    -6.41
+   ],
+   "sum_pct": [
+    -8.61,
+    -5.77
+   ],
+   "max_dd_pct": [
+    -12.22,
+    -9.65
+   ],
+   "t_stat": [
+    -0.9,
+    -0.63
+   ],
+   "random_pct": [
+    22.4,
+    36.4
+   ],
+   "holdout_rank": [
+    350,
+    310
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -81.37,
+    -60.45
+   ],
+   "sum_pct": [
+    -16.27,
+    -11.49
+   ],
+   "max_dd_pct": [
+    -14.3,
+    -9.99
+   ],
+   "t_stat": [
+    -2.41,
+    -2.16
+   ],
+   "random_pct": [
+    1.8,
+    4.4
+   ],
+   "holdout_rank": [
+    521,
+    512
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -10.49,
+    -11.03
+   ],
+   "sum_pct": [
+    -8.81,
+    -9.16
+   ],
+   "max_dd_pct": [
+    -9.83,
+    -10.14
+   ],
+   "t_stat": [
+    -1.48,
+    -1.54
+   ],
+   "random_pct": [
+    12.2,
+    11.0
+   ],
+   "holdout_rank": [
+    362,
+    364
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    23.58,
+    30.75
+   ],
+   "sum_pct": [
+    4.72,
+    5.84
+   ],
+   "max_dd_pct": [
+    -2.67,
+    -2.67
+   ],
+   "t_stat": [
+    0.73,
+    0.92
+   ],
+   "random_pct": [
+    68.6,
+    74.8
+   ],
+   "holdout_rank": [
+    66,
+    55
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -27.31,
+    -29.17
+   ],
+   "sum_pct": [
+    -19.67,
+    -20.71
+   ],
+   "max_dd_pct": [
+    -21.47,
+    -22.28
+   ],
+   "t_stat": [
+    -2.54,
+    -2.71
+   ],
+   "random_pct": [
+    2.2,
+    1.0
+   ],
+   "holdout_rank": [
+    460,
+    464
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F1|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    44.86,
+    63.34
+   ],
+   "sum_pct": [
+    5.83,
+    7.6
+   ],
+   "max_dd_pct": [
+    -4.34,
+    -4.34
+   ],
+   "t_stat": [
+    0.55,
+    0.74
+   ],
+   "random_pct": [
+    69.2,
+    76.8
+   ],
+   "holdout_rank": [
+    42,
+    32
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.02,
+    -0.85
+   ],
+   "sum_pct": [
+    -0.15,
+    -4.99
+   ],
+   "max_dd_pct": [
+    -36.48,
+    -39.42
+   ],
+   "t_stat": [
+    -0.0,
+    -0.09
+   ],
+   "random_pct": [
+    67.6,
+    65.2
+   ],
+   "holdout_rank": [
+    185,
+    193
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    36.47,
+    33.83
+   ],
+   "sum_pct": [
+    56.9,
+    52.43
+   ],
+   "max_dd_pct": [
+    -24.04,
+    -27.28
+   ],
+   "t_stat": [
+    1.09,
+    1.0
+   ],
+   "random_pct": [
+    86.6,
+    84.8
+   ],
+   "holdout_rank": [
+    50,
+    50
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.73,
+    -6.23
+   ],
+   "sum_pct": [
+    -41.2,
+    -38.04
+   ],
+   "max_dd_pct": [
+    -35.6,
+    -33.5
+   ],
+   "t_stat": [
+    -2.66,
+    -2.51
+   ],
+   "random_pct": [
+    4.8,
+    6.2
+   ],
+   "holdout_rank": [
+    316,
+    304
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    7.64,
+    8.69
+   ],
+   "sum_pct": [
+    11.0,
+    12.43
+   ],
+   "max_dd_pct": [
+    -7.56,
+    -7.56
+   ],
+   "t_stat": [
+    0.8,
+    0.9
+   ],
+   "random_pct": [
+    85.2,
+    85.6
+   ],
+   "holdout_rank": [
+    108,
+    99
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.38,
+    -4.18
+   ],
+   "sum_pct": [
+    -25.75,
+    -24.52
+   ],
+   "max_dd_pct": [
+    -26.8,
+    -25.89
+   ],
+   "t_stat": [
+    -2.15,
+    -2.06
+   ],
+   "random_pct": [
+    7.6,
+    13.0
+   ],
+   "holdout_rank": [
+    272,
+    269
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -5.78,
+    -6.02
+   ],
+   "sum_pct": [
+    -9.76,
+    -10.12
+   ],
+   "max_dd_pct": [
+    -11.85,
+    -11.96
+   ],
+   "t_stat": [
+    -0.89,
+    -0.92
+   ],
+   "random_pct": [
+    25.8,
+    20.6
+   ],
+   "holdout_rank": [
+    298,
+    299
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.53,
+    -4.34
+   ],
+   "sum_pct": [
+    -26.07,
+    -24.9
+   ],
+   "max_dd_pct": [
+    -29.74,
+    -28.9
+   ],
+   "t_stat": [
+    -1.42,
+    -1.36
+   ],
+   "random_pct": [
+    13.6,
+    14.4
+   ],
+   "holdout_rank": [
+    277,
+    272
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F2|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    6.16,
+    5.53
+   ],
+   "sum_pct": [
+    9.74,
+    8.69
+   ],
+   "max_dd_pct": [
+    -7.76,
+    -7.76
+   ],
+   "t_stat": [
+    0.58,
+    0.52
+   ],
+   "random_pct": [
+    75.0,
+    71.4
+   ],
+   "holdout_rank": [
+    115,
+    118
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.77,
+    -9.96
+   ],
+   "sum_pct": [
+    -19.65,
+    -22.21
+   ],
+   "max_dd_pct": [
+    -40.41,
+    -41.61
+   ],
+   "t_stat": [
+    -0.41,
+    -0.47
+   ],
+   "random_pct": [
+    37.4,
+    35.0
+   ],
+   "holdout_rank": [
+    346,
+    353
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -14.1,
+    -5.42
+   ],
+   "sum_pct": [
+    -8.18,
+    -3.09
+   ],
+   "max_dd_pct": [
+    -45.34,
+    -42.41
+   ],
+   "t_stat": [
+    -0.18,
+    -0.07
+   ],
+   "random_pct": [
+    33.6,
+    42.8
+   ],
+   "holdout_rank": [
+    394,
+    293
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.5,
+    0.29
+   ],
+   "sum_pct": [
+    -1.02,
+    0.59
+   ],
+   "max_dd_pct": [
+    -12.12,
+    -11.12
+   ],
+   "t_stat": [
+    -0.07,
+    0.04
+   ],
+   "random_pct": [
+    59.0,
+    61.8
+   ],
+   "holdout_rank": [
+    192,
+    172
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -27.32,
+    -22.61
+   ],
+   "sum_pct": [
+    -17.76,
+    -14.47
+   ],
+   "max_dd_pct": [
+    -18.03,
+    -15.25
+   ],
+   "t_stat": [
+    -1.63,
+    -1.38
+   ],
+   "random_pct": [
+    12.8,
+    16.8
+   ],
+   "holdout_rank": [
+    461,
+    438
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.3,
+    -8.32
+   ],
+   "sum_pct": [
+    -20.34,
+    -20.31
+   ],
+   "max_dd_pct": [
+    -20.87,
+    -20.85
+   ],
+   "t_stat": [
+    -1.77,
+    -1.76
+   ],
+   "random_pct": [
+    5.6,
+    5.6
+   ],
+   "holdout_rank": [
+    337,
+    331
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -19.65,
+    -19.67
+   ],
+   "sum_pct": [
+    -13.16,
+    -12.98
+   ],
+   "max_dd_pct": [
+    -13.78,
+    -13.63
+   ],
+   "t_stat": [
+    -0.91,
+    -0.89
+   ],
+   "random_pct": [
+    8.6,
+    8.6
+   ],
+   "holdout_rank": [
+    424,
+    420
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.27,
+    -1.52
+   ],
+   "sum_pct": [
+    -2.89,
+    -3.44
+   ],
+   "max_dd_pct": [
+    -14.84,
+    -14.99
+   ],
+   "t_stat": [
+    -0.16,
+    -0.19
+   ],
+   "random_pct": [
+    43.6,
+    43.6
+   ],
+   "holdout_rank": [
+    208,
+    203
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F3|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -31.44,
+    -32.41
+   ],
+   "sum_pct": [
+    -23.26,
+    -23.66
+   ],
+   "max_dd_pct": [
+    -24.33,
+    -24.63
+   ],
+   "t_stat": [
+    -1.2,
+    -1.22
+   ],
+   "random_pct": [
+    9.0,
+    7.0
+   ],
+   "holdout_rank": [
+    472,
+    470
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -10.46,
+    -11.51
+   ],
+   "sum_pct": [
+    -43.2,
+    -47.44
+   ],
+   "max_dd_pct": [
+    -57.46,
+    -59.19
+   ],
+   "t_stat": [
+    -0.84,
+    -0.92
+   ],
+   "random_pct": [
+    30.4,
+    30.2
+   ],
+   "holdout_rank": [
+    361,
+    368
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    35.96,
+    32.17
+   ],
+   "sum_pct": [
+    36.68,
+    32.5
+   ],
+   "max_dd_pct": [
+    -38.08,
+    -40.57
+   ],
+   "t_stat": [
+    0.79,
+    0.71
+   ],
+   "random_pct": [
+    74.0,
+    70.0
+   ],
+   "holdout_rank": [
+    51,
+    52
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -5.22,
+    -4.47
+   ],
+   "sum_pct": [
+    -21.8,
+    -18.65
+   ],
+   "max_dd_pct": [
+    -21.99,
+    -19.44
+   ],
+   "t_stat": [
+    -1.4,
+    -1.22
+   ],
+   "random_pct": [
+    22.8,
+    27.2
+   ],
+   "holdout_rank": [
+    290,
+    274
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -12.87,
+    -11.67
+   ],
+   "sum_pct": [
+    -14.16,
+    -12.72
+   ],
+   "max_dd_pct": [
+    -17.97,
+    -16.78
+   ],
+   "t_stat": [
+    -1.17,
+    -1.06
+   ],
+   "random_pct": [
+    24.6,
+    25.2
+   ],
+   "holdout_rank": [
+    386,
+    369
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.55,
+    -6.29
+   ],
+   "sum_pct": [
+    -28.76,
+    -27.53
+   ],
+   "max_dd_pct": [
+    -25.98,
+    -25.06
+   ],
+   "t_stat": [
+    -2.54,
+    -2.44
+   ],
+   "random_pct": [
+    3.0,
+    4.0
+   ],
+   "holdout_rank": [
+    310,
+    308
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -17.47,
+    -17.91
+   ],
+   "sum_pct": [
+    -21.14,
+    -21.5
+   ],
+   "max_dd_pct": [
+    -19.59,
+    -19.88
+   ],
+   "t_stat": [
+    -2.11,
+    -2.15
+   ],
+   "random_pct": [
+    4.2,
+    3.8
+   ],
+   "holdout_rank": [
+    413,
+    409
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.88,
+    -2.6
+   ],
+   "sum_pct": [
+    -11.56,
+    -10.38
+   ],
+   "max_dd_pct": [
+    -25.16,
+    -24.27
+   ],
+   "t_stat": [
+    -0.64,
+    -0.57
+   ],
+   "random_pct": [
+    35.8,
+    35.8
+   ],
+   "holdout_rank": [
+    238,
+    228
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F4|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.51,
+    -9.59
+   ],
+   "sum_pct": [
+    -9.03,
+    -10.07
+   ],
+   "max_dd_pct": [
+    -16.87,
+    -17.74
+   ],
+   "t_stat": [
+    -0.54,
+    -0.61
+   ],
+   "random_pct": [
+    28.4,
+    29.8
+   ],
+   "holdout_rank": [
+    342,
+    348
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -20.52,
+    -20.36
+   ],
+   "sum_pct": [
+    -50.9,
+    -50.28
+   ],
+   "max_dd_pct": [
+    -59.67,
+    -59.42
+   ],
+   "t_stat": [
+    -0.96,
+    -0.95
+   ],
+   "random_pct": [
+    21.4,
+    19.6
+   ],
+   "holdout_rank": [
+    430,
+    424
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -14.16,
+    -8.91
+   ],
+   "sum_pct": [
+    -8.78,
+    -5.44
+   ],
+   "max_dd_pct": [
+    -45.47,
+    -43.58
+   ],
+   "t_stat": [
+    -0.18,
+    -0.11
+   ],
+   "random_pct": [
+    40.2,
+    40.6
+   ],
+   "holdout_rank": [
+    396,
+    342
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.79,
+    -0.58
+   ],
+   "sum_pct": [
+    -4.3,
+    -1.38
+   ],
+   "max_dd_pct": [
+    -21.09,
+    -18.72
+   ],
+   "t_stat": [
+    -0.29,
+    -0.1
+   ],
+   "random_pct": [
+    50.0,
+    57.6
+   ],
+   "holdout_rank": [
+    212,
+    187
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -42.19,
+    -36.99
+   ],
+   "sum_pct": [
+    -27.42,
+    -23.67
+   ],
+   "max_dd_pct": [
+    -25.9,
+    -23.01
+   ],
+   "t_stat": [
+    -2.39,
+    -2.16
+   ],
+   "random_pct": [
+    2.6,
+    7.4
+   ],
+   "holdout_rank": [
+    490,
+    481
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.36,
+    -4.7
+   ],
+   "sum_pct": [
+    -10.07,
+    -10.81
+   ],
+   "max_dd_pct": [
+    -15.94,
+    -16.56
+   ],
+   "t_stat": [
+    -0.88,
+    -0.95
+   ],
+   "random_pct": [
+    27.6,
+    29.6
+   ],
+   "holdout_rank": [
+    271,
+    282
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -27.59,
+    -25.02
+   ],
+   "sum_pct": [
+    -19.59,
+    -17.51
+   ],
+   "max_dd_pct": [
+    -18.08,
+    -16.34
+   ],
+   "t_stat": [
+    -2.05,
+    -1.87
+   ],
+   "random_pct": [
+    4.8,
+    5.4
+   ],
+   "holdout_rank": [
+    463,
+    450
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    0.72,
+    0.12
+   ],
+   "sum_pct": [
+    1.55,
+    0.26
+   ],
+   "max_dd_pct": [
+    -15.13,
+    -16.21
+   ],
+   "t_stat": [
+    0.09,
+    0.01
+   ],
+   "random_pct": [
+    60.4,
+    53.6
+   ],
+   "holdout_rank": [
+    165,
+    179
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "F5|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    9.31,
+    10.43
+   ],
+   "sum_pct": [
+    5.4,
+    5.94
+   ],
+   "max_dd_pct": [
+    -20.31,
+    -19.88
+   ],
+   "t_stat": [
+    0.29,
+    0.32
+   ],
+   "random_pct": [
+    61.8,
+    62.4
+   ],
+   "holdout_rank": [
+    101,
+    91
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -12.5,
+    -14.81
+   ],
+   "sum_pct": [
+    -17.74,
+    -20.88
+   ],
+   "max_dd_pct": [
+    -34.83,
+    -36.81
+   ],
+   "t_stat": [
+    -0.45,
+    -0.53
+   ],
+   "random_pct": [
+    28.2,
+    24.0
+   ],
+   "holdout_rank": [
+    382,
+    396
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    13.68,
+    20.99
+   ],
+   "sum_pct": [
+    5.2,
+    7.77
+   ],
+   "max_dd_pct": [
+    -34.69,
+    -32.97
+   ],
+   "t_stat": [
+    0.14,
+    0.21
+   ],
+   "random_pct": [
+    42.2,
+    44.2
+   ],
+   "holdout_rank": [
+    81,
+    65
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -7.72,
+    -5.18
+   ],
+   "sum_pct": [
+    -10.97,
+    -7.3
+   ],
+   "max_dd_pct": [
+    -14.86,
+    -11.62
+   ],
+   "t_stat": [
+    -1.08,
+    -0.77
+   ],
+   "random_pct": [
+    25.8,
+    32.0
+   ],
+   "holdout_rank": [
+    333,
+    289
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -48.16,
+    -41.14
+   ],
+   "sum_pct": [
+    -19.74,
+    -16.46
+   ],
+   "max_dd_pct": [
+    -17.94,
+    -15.15
+   ],
+   "t_stat": [
+    -2.53,
+    -2.27
+   ],
+   "random_pct": [
+    3.0,
+    3.6
+   ],
+   "holdout_rank": [
+    500,
+    489
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.66,
+    -8.7
+   ],
+   "sum_pct": [
+    -11.77,
+    -11.74
+   ],
+   "max_dd_pct": [
+    -12.25,
+    -12.22
+   ],
+   "t_stat": [
+    -1.9,
+    -1.89
+   ],
+   "random_pct": [
+    10.4,
+    8.8
+   ],
+   "holdout_rank": [
+    343,
+    336
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -43.47,
+    -42.21
+   ],
+   "sum_pct": [
+    -22.17,
+    -21.1
+   ],
+   "max_dd_pct": [
+    -19.82,
+    -18.96
+   ],
+   "t_stat": [
+    -3.42,
+    -3.27
+   ],
+   "random_pct": [
+    0.2,
+    0.4
+   ],
+   "holdout_rank": [
+    493,
+    493
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -11.88,
+    -12.34
+   ],
+   "sum_pct": [
+    -17.22,
+    -17.77
+   ],
+   "max_dd_pct": [
+    -18.84,
+    -19.29
+   ],
+   "t_stat": [
+    -1.54,
+    -1.59
+   ],
+   "random_pct": [
+    9.0,
+    8.0
+   ],
+   "holdout_rank": [
+    374,
+    380
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G3|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -21.84,
+    -22.26
+   ],
+   "sum_pct": [
+    -9.83,
+    -9.8
+   ],
+   "max_dd_pct": [
+    -13.7,
+    -13.67
+   ],
+   "t_stat": [
+    -0.83,
+    -0.83
+   ],
+   "random_pct": [
+    15.8,
+    21.0
+   ],
+   "holdout_rank": [
+    439,
+    437
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    20.37,
+    19.89
+   ],
+   "sum_pct": [
+    40.73,
+    39.59
+   ],
+   "max_dd_pct": [
+    -30.78,
+    -30.78
+   ],
+   "t_stat": [
+    0.94,
+    0.92
+   ],
+   "random_pct": [
+    81.0,
+    78.0
+   ],
+   "holdout_rank": [
+    70,
+    66
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    41.11,
+    59.22
+   ],
+   "sum_pct": [
+    18.09,
+    25.46
+   ],
+   "max_dd_pct": [
+    -36.28,
+    -31.2
+   ],
+   "t_stat": [
+    0.35,
+    0.5
+   ],
+   "random_pct": [
+    60.4,
+    68.0
+   ],
+   "holdout_rank": [
+    46,
+    34
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.74,
+    0.05
+   ],
+   "sum_pct": [
+    -1.24,
+    0.08
+   ],
+   "max_dd_pct": [
+    -17.16,
+    -16.05
+   ],
+   "t_stat": [
+    -0.09,
+    0.01
+   ],
+   "random_pct": [
+    55.4,
+    58.2
+   ],
+   "holdout_rank": [
+    199,
+    181
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -46.31,
+    -38.81
+   ],
+   "sum_pct": [
+    -26.4,
+    -21.74
+   ],
+   "max_dd_pct": [
+    -25.06,
+    -21.4
+   ],
+   "t_stat": [
+    -1.98,
+    -1.72
+   ],
+   "random_pct": [
+    2.8,
+    4.6
+   ],
+   "holdout_rank": [
+    498,
+    485
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.81,
+    -4.12
+   ],
+   "sum_pct": [
+    -6.36,
+    -6.84
+   ],
+   "max_dd_pct": [
+    -9.91,
+    -10.33
+   ],
+   "t_stat": [
+    -0.62,
+    -0.67
+   ],
+   "random_pct": [
+    39.8,
+    37.4
+   ],
+   "holdout_rank": [
+    256,
+    267
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -27.23,
+    -23.28
+   ],
+   "sum_pct": [
+    -15.52,
+    -13.04
+   ],
+   "max_dd_pct": [
+    -17.01,
+    -14.9
+   ],
+   "t_stat": [
+    -1.24,
+    -1.06
+   ],
+   "random_pct": [
+    7.8,
+    8.2
+   ],
+   "holdout_rank": [
+    459,
+    442
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    5.57,
+    4.93
+   ],
+   "sum_pct": [
+    9.07,
+    7.99
+   ],
+   "max_dd_pct": [
+    -12.88,
+    -13.82
+   ],
+   "t_stat": [
+    0.57,
+    0.5
+   ],
+   "random_pct": [
+    75.6,
+    72.2
+   ],
+   "holdout_rank": [
+    121,
+    124
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G4|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    5.25,
+    8.02
+   ],
+   "sum_pct": [
+    2.52,
+    3.77
+   ],
+   "max_dd_pct": [
+    -23.27,
+    -22.29
+   ],
+   "t_stat": [
+    0.1,
+    0.15
+   ],
+   "random_pct": [
+    55.0,
+    58.2
+   ],
+   "holdout_rank": [
+    123,
+    102
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -9.89,
+    -9.79
+   ],
+   "sum_pct": [
+    -50.23,
+    -49.62
+   ],
+   "max_dd_pct": [
+    -53.63,
+    -53.35
+   ],
+   "t_stat": [
+    -0.93,
+    -0.92
+   ],
+   "random_pct": [
+    29.2,
+    31.0
+   ],
+   "holdout_rank": [
+    354,
+    352
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -5.62,
+    -4.06
+   ],
+   "sum_pct": [
+    -7.08,
+    -5.07
+   ],
+   "max_dd_pct": [
+    -34.77,
+    -33.44
+   ],
+   "t_stat": [
+    -0.14,
+    -0.1
+   ],
+   "random_pct": [
+    44.0,
+    43.4
+   ],
+   "holdout_rank": [
+    296,
+    265
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.32,
+    -3.66
+   ],
+   "sum_pct": [
+    -22.14,
+    -18.7
+   ],
+   "max_dd_pct": [
+    -25.43,
+    -23.39
+   ],
+   "t_stat": [
+    -1.48,
+    -1.29
+   ],
+   "random_pct": [
+    24.6,
+    33.2
+   ],
+   "holdout_rank": [
+    268,
+    251
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -21.53,
+    -19.84
+   ],
+   "sum_pct": [
+    -27.34,
+    -25.0
+   ],
+   "max_dd_pct": [
+    -27.33,
+    -25.58
+   ],
+   "t_stat": [
+    -2.39,
+    -2.22
+   ],
+   "random_pct": [
+    4.0,
+    7.8
+   ],
+   "holdout_rank": [
+    435,
+    422
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.61,
+    -4.66
+   ],
+   "sum_pct": [
+    -22.26,
+    -22.47
+   ],
+   "max_dd_pct": [
+    -20.68,
+    -20.84
+   ],
+   "t_stat": [
+    -1.95,
+    -1.97
+   ],
+   "random_pct": [
+    9.6,
+    11.8
+   ],
+   "holdout_rank": [
+    281,
+    280
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -2.96,
+    -2.93
+   ],
+   "sum_pct": [
+    -3.64,
+    -3.57
+   ],
+   "max_dd_pct": [
+    -12.98,
+    -12.92
+   ],
+   "t_stat": [
+    -0.34,
+    -0.33
+   ],
+   "random_pct": [
+    41.6,
+    39.6
+   ],
+   "holdout_rank": [
+    239,
+    235
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.34,
+    -6.49
+   ],
+   "sum_pct": [
+    -32.15,
+    -32.82
+   ],
+   "max_dd_pct": [
+    -32.38,
+    -32.83
+   ],
+   "t_stat": [
+    -1.82,
+    -1.86
+   ],
+   "random_pct": [
+    6.6,
+    5.8
+   ],
+   "holdout_rank": [
+    308,
+    311
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G5|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    7.18,
+    6.93
+   ],
+   "sum_pct": [
+    7.9,
+    7.55
+   ],
+   "max_dd_pct": [
+    -14.82,
+    -15.11
+   ],
+   "t_stat": [
+    0.43,
+    0.42
+   ],
+   "random_pct": [
+    68.0,
+    68.2
+   ],
+   "holdout_rank": [
+    110,
+    108
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    10.53,
+    11.67
+   ],
+   "sum_pct": [
+    25.28,
+    27.88
+   ],
+   "max_dd_pct": [
+    -43.2,
+    -43.2
+   ],
+   "t_stat": [
+    0.47,
+    0.52
+   ],
+   "random_pct": [
+    78.2,
+    78.8
+   ],
+   "holdout_rank": [
+    95,
+    84
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -72.38,
+    -68.21
+   ],
+   "sum_pct": [
+    -46.32,
+    -42.97
+   ],
+   "max_dd_pct": [
+    -42.97,
+    -41.0
+   ],
+   "t_stat": [
+    -1.06,
+    -0.99
+   ],
+   "random_pct": [
+    17.2,
+    20.6
+   ],
+   "holdout_rank": [
+    519,
+    517
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -7.37,
+    -5.96
+   ],
+   "sum_pct": [
+    -17.55,
+    -14.13
+   ],
+   "max_dd_pct": [
+    -27.27,
+    -24.69
+   ],
+   "t_stat": [
+    -1.16,
+    -0.96
+   ],
+   "random_pct": [
+    21.2,
+    26.0
+   ],
+   "holdout_rank": [
+    329,
+    298
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -46.11,
+    -36.79
+   ],
+   "sum_pct": [
+    -27.21,
+    -21.34
+   ],
+   "max_dd_pct": [
+    -25.53,
+    -20.89
+   ],
+   "t_stat": [
+    -2.02,
+    -1.74
+   ],
+   "random_pct": [
+    4.6,
+    8.0
+   ],
+   "holdout_rank": [
+    497,
+    480
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -5.12,
+    -4.56
+   ],
+   "sum_pct": [
+    -12.13,
+    -10.77
+   ],
+   "max_dd_pct": [
+    -16.16,
+    -15.01
+   ],
+   "t_stat": [
+    -1.08,
+    -0.96
+   ],
+   "random_pct": [
+    23.2,
+    29.8
+   ],
+   "holdout_rank": [
+    288,
+    278
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -25.28,
+    -23.96
+   ],
+   "sum_pct": [
+    -18.45,
+    -17.25
+   ],
+   "max_dd_pct": [
+    -21.09,
+    -20.13
+   ],
+   "t_stat": [
+    -1.82,
+    -1.71
+   ],
+   "random_pct": [
+    7.0,
+    9.2
+   ],
+   "holdout_rank": [
+    452,
+    446
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    2.9,
+    3.56
+   ],
+   "sum_pct": [
+    6.26,
+    7.64
+   ],
+   "max_dd_pct": [
+    -14.87,
+    -13.67
+   ],
+   "t_stat": [
+    0.38,
+    0.46
+   ],
+   "random_pct": [
+    68.2,
+    71.4
+   ],
+   "holdout_rank": [
+    144,
+    134
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G6|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -14.34,
+    -12.04
+   ],
+   "sum_pct": [
+    -8.32,
+    -6.87
+   ],
+   "max_dd_pct": [
+    -19.31,
+    -18.12
+   ],
+   "t_stat": [
+    -0.53,
+    -0.44
+   ],
+   "random_pct": [
+    33.2,
+    38.6
+   ],
+   "holdout_rank": [
+    397,
+    375
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.98,
+    -18.22
+   ],
+   "sum_pct": [
+    -1.43,
+    -12.94
+   ],
+   "max_dd_pct": [
+    -31.39,
+    -33.24
+   ],
+   "t_stat": [
+    -0.03,
+    -0.3
+   ],
+   "random_pct": [
+    47.4,
+    37.0
+   ],
+   "holdout_rank": [
+    216,
+    412
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|USOILm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    357.66,
+    380.89
+   ],
+   "sum_pct": [
+    42.92,
+    41.9
+   ],
+   "max_dd_pct": [
+    -13.86,
+    -13.86
+   ],
+   "t_stat": [
+    0.81,
+    0.79
+   ],
+   "random_pct": [
+    79.4,
+    76.6
+   ],
+   "holdout_rank": [
+    7,
+    5
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -33.8,
+    -28.05
+   ],
+   "sum_pct": [
+    -24.67,
+    -20.2
+   ],
+   "max_dd_pct": [
+    -24.03,
+    -20.48
+   ],
+   "t_stat": [
+    -1.86,
+    -1.6
+   ],
+   "random_pct": [
+    4.6,
+    10.0
+   ],
+   "holdout_rank": [
+    475,
+    461
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|DE30m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -96.85,
+    -104.37
+   ],
+   "sum_pct": [
+    -10.65,
+    -10.44
+   ],
+   "max_dd_pct": [
+    -12.47,
+    -12.28
+   ],
+   "t_stat": [
+    -1.36,
+    -1.33
+   ],
+   "random_pct": [
+    22.4,
+    20.8
+   ],
+   "holdout_rank": [
+    523,
+    525
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -29.42,
+    -28.19
+   ],
+   "sum_pct": [
+    -22.07,
+    -20.86
+   ],
+   "max_dd_pct": [
+    -22.52,
+    -21.57
+   ],
+   "t_stat": [
+    -2.17,
+    -2.06
+   ],
+   "random_pct": [
+    2.4,
+    3.6
+   ],
+   "holdout_rank": [
+    466,
+    462
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|US500m|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    27.24,
+    4.49
+   ],
+   "sum_pct": [
+    2.45,
+    0.36
+   ],
+   "max_dd_pct": [
+    -9.64,
+    -9.64
+   ],
+   "t_stat": [
+    0.18,
+    0.03
+   ],
+   "random_pct": [
+    71.4,
+    50.0
+   ],
+   "holdout_rank": [
+    62,
+    128
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.6,
+    -4.03
+   ],
+   "sum_pct": [
+    -4.62,
+    -2.78
+   ],
+   "max_dd_pct": [
+    -21.66,
+    -20.19
+   ],
+   "t_stat": [
+    -0.26,
+    -0.16
+   ],
+   "random_pct": [
+    41.6,
+    44.0
+   ],
+   "holdout_rank": [
+    311,
+    263
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G7|USTECm|1d",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    34.79,
+    58.31
+   ],
+   "sum_pct": [
+    3.83,
+    5.83
+   ],
+   "max_dd_pct": [
+    -7.64,
+    -6.14
+   ],
+   "t_stat": [
+    0.18,
+    0.28
+   ],
+   "random_pct": [
+    64.0,
+    67.8
+   ],
+   "holdout_rank": [
+    54,
+    35
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -8.25,
+    -9.05
+   ],
+   "sum_pct": [
+    -56.85,
+    -62.27
+   ],
+   "max_dd_pct": [
+    -65.82,
+    -67.58
+   ],
+   "t_stat": [
+    -1.08,
+    -1.19
+   ],
+   "random_pct": [
+    35.8,
+    27.2
+   ],
+   "holdout_rank": [
+    336,
+    343
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|USOILm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.57,
+    -3.8
+   ],
+   "sum_pct": [
+    -6.85,
+    -7.26
+   ],
+   "max_dd_pct": [
+    -54.33,
+    -54.52
+   ],
+   "t_stat": [
+    -0.11,
+    -0.11
+   ],
+   "random_pct": [
+    47.6,
+    44.8
+   ],
+   "holdout_rank": [
+    251,
+    258
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.03,
+    -3.77
+   ],
+   "sum_pct": [
+    -27.59,
+    -25.75
+   ],
+   "max_dd_pct": [
+    -25.02,
+    -23.61
+   ],
+   "t_stat": [
+    -1.91,
+    -1.8
+   ],
+   "random_pct": [
+    21.6,
+    23.2
+   ],
+   "holdout_rank": [
+    262,
+    256
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|DE30m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -6.87,
+    -5.01
+   ],
+   "sum_pct": [
+    -11.95,
+    -8.67
+   ],
+   "max_dd_pct": [
+    -14.64,
+    -12.91
+   ],
+   "t_stat": [
+    -0.89,
+    -0.67
+   ],
+   "random_pct": [
+    32.8,
+    43.8
+   ],
+   "holdout_rank": [
+    319,
+    285
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.76,
+    -4.75
+   ],
+   "sum_pct": [
+    -33.49,
+    -33.35
+   ],
+   "max_dd_pct": [
+    -30.11,
+    -30.01
+   ],
+   "t_stat": [
+    -2.99,
+    -2.98
+   ],
+   "random_pct": [
+    4.0,
+    4.0
+   ],
+   "holdout_rank": [
+    284,
+    284
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -10.92,
+    -10.88
+   ],
+   "sum_pct": [
+    -21.51,
+    -21.33
+   ],
+   "max_dd_pct": [
+    -20.3,
+    -20.15
+   ],
+   "t_stat": [
+    -2.11,
+    -2.09
+   ],
+   "random_pct": [
+    5.6,
+    5.6
+   ],
+   "holdout_rank": [
+    365,
+    363
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -3.04,
+    -3.21
+   ],
+   "sum_pct": [
+    -19.74,
+    -20.83
+   ],
+   "max_dd_pct": [
+    -26.13,
+    -26.93
+   ],
+   "t_stat": [
+    -1.14,
+    -1.21
+   ],
+   "random_pct": [
+    29.0,
+    21.2
+   ],
+   "holdout_rank": [
+    242,
+    243
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G8|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    1.65,
+    1.01
+   ],
+   "sum_pct": [
+    2.68,
+    1.63
+   ],
+   "max_dd_pct": [
+    -12.21,
+    -12.21
+   ],
+   "t_stat": [
+    0.15,
+    0.09
+   ],
+   "random_pct": [
+    58.4,
+    54.2
+   ],
+   "holdout_rank": [
+    153,
+    159
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|USOILm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -29.58,
+    -30.73
+   ],
+   "sum_pct": [
+    -36.97,
+    -38.1
+   ],
+   "max_dd_pct": [
+    -44.96,
+    -45.58
+   ],
+   "t_stat": [
+    -1.08,
+    -1.12
+   ],
+   "random_pct": [
+    16.8,
+    14.6
+   ],
+   "holdout_rank": [
+    467,
+    468
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|DE30m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -4.34,
+    -1.77
+   ],
+   "sum_pct": [
+    -5.3,
+    -2.14
+   ],
+   "max_dd_pct": [
+    -7.76,
+    -5.97
+   ],
+   "t_stat": [
+    -0.56,
+    -0.24
+   ],
+   "random_pct": [
+    40.2,
+    48.8
+   ],
+   "holdout_rank": [
+    269,
+    208
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|US500m|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -11.32,
+    -10.59
+   ],
+   "sum_pct": [
+    -14.03,
+    -13.03
+   ],
+   "max_dd_pct": [
+    -14.27,
+    -13.39
+   ],
+   "t_stat": [
+    -2.08,
+    -1.95
+   ],
+   "random_pct": [
+    4.8,
+    5.2
+   ],
+   "holdout_rank": [
+    368,
+    361
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|US500m|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -52.7,
+    -49.27
+   ],
+   "sum_pct": [
+    -20.03,
+    -18.23
+   ],
+   "max_dd_pct": [
+    -17.94,
+    -16.44
+   ],
+   "t_stat": [
+    -3.21,
+    -2.99
+   ],
+   "random_pct": [
+    0.0,
+    0.6
+   ],
+   "holdout_rank": [
+    509,
+    500
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|USTECm|1h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -9.07,
+    -8.48
+   ],
+   "sum_pct": [
+    -11.52,
+    -10.68
+   ],
+   "max_dd_pct": [
+    -14.78,
+    -14.05
+   ],
+   "t_stat": [
+    -1.07,
+    -0.99
+   ],
+   "random_pct": [
+    20.0,
+    20.6
+   ],
+   "holdout_rank": [
+    348,
+    333
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G9|USTECm|4h",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -17.22,
+    -15.01
+   ],
+   "sum_pct": [
+    -6.03,
+    -5.1
+   ],
+   "max_dd_pct": [
+    -13.38,
+    -12.57
+   ],
+   "t_stat": [
+    -0.59,
+    -0.5
+   ],
+   "random_pct": [
+    27.4,
+    32.6
+   ],
+   "holdout_rank": [
+    409,
+    398
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G10|USOILm|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.88,
+    -1.24
+   ],
+   "sum_pct": [
+    -6.92,
+    -9.72
+   ],
+   "max_dd_pct": [
+    -37.79,
+    -37.79
+   ],
+   "t_stat": [
+    -0.15,
+    -0.22
+   ],
+   "random_pct": [
+    79.6,
+    82.2
+   ],
+   "holdout_rank": [
+    200,
+    198
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G10|DE30m|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.16,
+    -0.78
+   ],
+   "sum_pct": [
+    -1.22,
+    -6.06
+   ],
+   "max_dd_pct": [
+    -15.41,
+    -17.19
+   ],
+   "t_stat": [
+    -0.1,
+    -0.51
+   ],
+   "random_pct": [
+    89.6,
+    81.2
+   ],
+   "holdout_rank": [
+    187,
+    192
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G10|US500m|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -1.04,
+    -1.47
+   ],
+   "sum_pct": [
+    -8.27,
+    -11.65
+   ],
+   "max_dd_pct": [
+    -10.98,
+    -13.59
+   ],
+   "t_stat": [
+    -0.83,
+    -1.24
+   ],
+   "random_pct": [
+    77.0,
+    59.4
+   ],
+   "holdout_rank": [
+    203,
+    202
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  },
+  {
+   "key": "G10|USTECm|15m",
+   "period": "holdout",
+   "removed_trades": 1,
+   "mean_bp": [
+    -0.94,
+    -1.42
+   ],
+   "sum_pct": [
+    -7.21,
+    -10.88
+   ],
+   "max_dd_pct": [
+    -14.99,
+    -17.26
+   ],
+   "t_stat": [
+    -0.49,
+    -0.77
+   ],
+   "random_pct": [
+    60.8,
+    53.0
+   ],
+   "holdout_rank": [
+    201,
+    201
+   ],
+   "verdict": [
+    "FAIL",
+    "FAIL"
+   ]
+  }
+ ]
+}
