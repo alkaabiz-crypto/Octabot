@@ -19,7 +19,7 @@
 | STR-023 VWAP momentum BTC / ETH | 2 / 4 | −0.98R / −0.85R | – | first look at 100 per market; ETH BUY open at 1686.44 |
 | STR-025 volatility-sizing shadow | 2 / 4 | −0.98R / −0.85R (sizing changes nothing so far) | – | follows STR-023 |
 | STR-046 ETF flows (BTC, ETH) | 0 | – | – | futility at 20, first look at 40; BTC SHORT open from 11-22 at 60,215.78, exit due 12-12 |
-| Batch 2 (run here since 11-20, your authorisation) | H1 ETH 1 (+319 bp); H3 BTC 5 (−54 bp); H3 ETH 5 (+9 bp); others 0 | – | – | monitoring only until each test's evaluation date; H1 BTC/ETH and H4 BTC LONG open |
+| Batch 2 (run here since 11-16, your authorisation) | H1 ETH 1 (+319 bp); H3 BTC 5 (−54 bp); H3 ETH 5 (+9 bp); others 0 | – | – | monitoring only until each test's evaluation date; H1 BTC/ETH and H4 BTC LONG open |
 | Library paper tests (other branch: GOLD_FVG, OIL_FIB, ETH_FIB) | 0 / 0 / 0 | – | – | evaluator: no closed trades. The other branch's commits are **still paused** (last commit 2026-11-13 01:10) |
 | SignalPro (SIG-001–004) | 1 prospective | −1.0R | – | needs 50 prospective screenshots; none new since 11-13 |
 
