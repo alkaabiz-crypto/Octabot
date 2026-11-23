@@ -1,8 +1,8 @@
 {
- "last_bar_utc": "2026-11-20 22:00",
+ "last_bar_utc": "2026-11-23 00:00",
  "CHOSEN_48H_TIME_STOP": {
-  "legs": 3,
-  "open_leg_since": "2026-11-20 14:00"
+  "legs": 4,
+  "open_leg_since": null
  },
  "ORIGINAL": {
   "legs": 3,

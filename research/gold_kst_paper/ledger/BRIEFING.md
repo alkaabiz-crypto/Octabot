@@ -1,10 +1,14 @@
 # Gold daily briefing
 
-Generated 2026-11-22 03:25 UTC. Events: weekly economic calendar (high impact only).
+Generated 2026-11-23 03:25 UTC. Events: weekly economic calendar (high impact only).
 
 ## High-impact events in the next 48 hours
 
-None.
+| UTC | New York | Currency | Event | Forecast | Previous | Gold's usual 4 h move after it |
+|---|---|---|---|---|---|---|
+| Wed 25 00:30 | 19:30 | AUD | CPI m/m | 0.4% | 0.8% |  |
+| Wed 25 00:30 | 19:30 | AUD | CPI y/y | 4.8% | 4.3% |  |
+| Wed 25 00:30 | 19:30 | AUD | Trimmed Mean CPI m/m | 0.3% | 0.3% |  |
 
 ## What this means
 
@@ -14,8 +18,8 @@ None.
 
 ## Paper test (KST + session VWAP BUY)
 
-- Data to 2026-11-20 22:00 UTC; KST above its signal line.
-- CHOSEN_48H_TIME_STOP: 3 closed legs; open BUY leg since 2026-11-20 14:00 UTC.
+- Data to 2026-11-23 00:00 UTC; KST above its signal line.
+- CHOSEN_48H_TIME_STOP: 4 closed legs; no open leg.
 - ORIGINAL: 3 closed legs; open BUY leg since 2026-11-20 14:00 UTC.
 - DOLLAR_FALLING: 0 closed legs; no open leg.
 - VOL_LOW: 0 closed legs; no open leg.
