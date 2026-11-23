@@ -1,4 +1,4 @@
-# ETF-flow forward PAPER test, STR-046 (2026-11-22 06:54 UTC)
+# ETF-flow forward PAPER test, STR-046 (2026-11-23 06:53 UTC)
 
 Rules: `FORWARD_RULES.md` (frozen 2026-11-20). Paper only.
 
