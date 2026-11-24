@@ -1,4 +1,4 @@
-# Batch 2 forward PAPER test (2026-11-23 05:38 UTC)
+# Batch 2 forward PAPER test (2026-11-24 16:09 UTC)
 
 Pre-registered at T0 2026-11-12 19:10 UTC (commit 33777e0a); forward period from 2026-11-14 00:00 UTC. Binance spot proxy for Exness BTC/ETH CFDs, Exness spread costs. **Monitoring only: no decision before each test's evaluation date (PREREGISTRATION.md).**
 
