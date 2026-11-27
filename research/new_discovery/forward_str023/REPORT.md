@@ -1,4 +1,4 @@
-# STR-023 forward PAPER test: VWAP momentum BUY + trail (2026-11-26 05:21 UTC)
+# STR-023 forward PAPER test: VWAP momentum BUY + trail (2026-11-27 05:21 UTC)
 
 Rules: `FORWARD_RULES.md` (pre-registered). Binance prices, fake money. Forward period from 2026-11-14 00:00 UTC.
 
