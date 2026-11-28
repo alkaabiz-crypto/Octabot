@@ -1,16 +1,16 @@
 # Gold KST + session VWAP BUY paper test: status
 
-Updated 2026-11-27 03:24 UTC. Data to 2026-11-26 00:00 UTC (the Exness archive lags about a day). Counting since 2026-11-12 00:00 UTC. Rules: `research/gold_kst_news/PROTOCOL.md` and `src/config.py` (frozen).
+Updated 2026-11-28 03:25 UTC. Data to 2026-11-27 19:00 UTC (the Exness archive lags about a day). Counting since 2026-11-12 00:00 UTC. Rules: `research/gold_kst_news/PROTOCOL.md` and `src/config.py` (frozen).
 
 ## CHOSEN_48H_TIME_STOP (primary)
 
-- Record: 4 legs, win 0%, expectancy -1.021R, total -4.09R, t -2.34
-- **Open BUY leg since 2026-11-25 19:00 UTC**
+- Record: 5 legs, win 20%, expectancy -0.474R, total -2.37R, t -0.79
+- No open leg.
 
 ## ORIGINAL (shadow, comparison only)
 
-- Record: 4 legs, win 25%, expectancy -0.763R, total -3.05R, t -1.01
-- **Open BUY leg since 2026-11-25 19:00 UTC**
+- Record: 5 legs, win 40%, expectancy -0.267R, total -1.34R, t -0.36
+- No open leg.
 
 ## DOLLAR_FALLING (shadow, comparison only)
 
@@ -24,7 +24,7 @@ Updated 2026-11-27 03:24 UTC. Data to 2026-11-26 00:00 UTC (the Exness archive l
 
 ## Signal state at the last candle
 
-- KST is above its signal line (last bullish cross 2026-11-25 19:00, last bearish cross 2026-11-24 02:00 UTC).
-- Last close 3576.37 (bid); session VWAP 3578.24; ATR14 29.25.
+- KST is below its signal line (last bullish cross 2026-11-25 19:00, last bearish cross 2026-11-27 19:00 UTC).
+- Last close 3641.30 (bid); session VWAP 3635.52; ATR14 22.38.
 
 Paper test only. Not a live trading signal.
