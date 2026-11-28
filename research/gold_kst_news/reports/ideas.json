@@ -1,0 +1,761 @@
+{
+ "meta": {
+  "generated_utc": "2026-11-12 00:21",
+  "chosen_exit": "stop=0|trail=0|be=0|time=48|lose=0|news=NONE"
+ },
+ "passed_fit": [
+  "A|SESSION_LONDON|ORIGINAL",
+  "A|SESSION_LONDON|CHOSEN",
+  "A|VOL_LOW|ORIGINAL",
+  "A|VOL_LOW|CHOSEN",
+  "A|NO_MONDAY|ORIGINAL",
+  "A|NO_MONDAY|CHOSEN",
+  "A|REAL_YIELD_FALLING|ORIGINAL",
+  "A|REAL_YIELD_FALLING|CHOSEN",
+  "A|DOLLAR_FALLING|ORIGINAL",
+  "A|DOLLAR_FALLING|CHOSEN"
+ ],
+ "confirmed": [],
+ "results": {
+  "A|SESSION_ASIA|ORIGINAL": {
+   "fit": {
+    "trades": 182,
+    "win_rate_pct": 37.91208791208791,
+    "expectancy_r": -0.01800053431655595,
+    "expectancy_stress_r": -0.14143923663775892,
+    "total_r": -3.276097245613183,
+    "max_drawdown_r": 25.56142984033726,
+    "random_mean_r": -0.02449340719730632,
+    "z": 0.04998128849872015
+   },
+   "test": {
+    "trades": 81,
+    "win_rate_pct": 55.55555555555556,
+    "expectancy_r": 0.6978254640434962,
+    "expectancy_stress_r": 0.620631570363324,
+    "total_r": 56.5238625875232,
+    "max_drawdown_r": 3.6911426956120295,
+    "random_mean_r": 0.26358470142485096,
+    "z": 2.203076750517798
+   }
+  },
+  "A|SESSION_ASIA|CHOSEN": {
+   "fit": {
+    "trades": 182,
+    "win_rate_pct": 37.91208791208791,
+    "expectancy_r": -0.01843604874024064,
+    "expectancy_stress_r": -0.13859569981575237,
+    "total_r": -3.3553608707237963,
+    "max_drawdown_r": 24.51732599711876,
+    "random_mean_r": -0.031904286886501106,
+    "z": 0.10492344916030862
+   },
+   "test": {
+    "trades": 81,
+    "win_rate_pct": 59.25925925925925,
+    "expectancy_r": 0.7181007579980869,
+    "expectancy_stress_r": 0.6427938052612783,
+    "total_r": 58.166161397845045,
+    "max_drawdown_r": 3.2766506979713768,
+    "random_mean_r": 0.17265831368248086,
+    "z": 2.978647964052665
+   }
+  },
+  "A|SESSION_LONDON|ORIGINAL": {
+   "fit": {
+    "trades": 154,
+    "win_rate_pct": 42.2077922077922,
+    "expectancy_r": 0.3448778662081286,
+    "expectancy_stress_r": 0.22410376522188163,
+    "total_r": 53.11119139605181,
+    "max_drawdown_r": 15.874451245523023,
+    "random_mean_r": 0.0321073693725262,
+    "z": 2.3969604044152772
+   },
+   "test": {
+    "trades": 57,
+    "win_rate_pct": 47.368421052631575,
+    "expectancy_r": 0.35295706324411974,
+    "expectancy_stress_r": 0.2699631710793152,
+    "total_r": 20.118552604914825,
+    "max_drawdown_r": 12.109946678788544,
+    "random_mean_r": 0.2691919176793651,
+    "z": 0.3202173229346027
+   }
+  },
+  "A|SESSION_LONDON|CHOSEN": {
+   "fit": {
+    "trades": 154,
+    "win_rate_pct": 42.2077922077922,
+    "expectancy_r": 0.3306063371573111,
+    "expectancy_stress_r": 0.21368493991219614,
+    "total_r": 50.9133759222259,
+    "max_drawdown_r": 15.225910084089978,
+    "random_mean_r": 0.028426599853729223,
+    "z": 2.6145396538411925
+   },
+   "test": {
+    "trades": 57,
+    "win_rate_pct": 45.614035087719294,
+    "expectancy_r": 0.16723381765850667,
+    "expectancy_stress_r": 0.08799130507538126,
+    "total_r": 9.53232760653488,
+    "max_drawdown_r": 12.109946678788544,
+    "random_mean_r": 0.17367968145108223,
+    "z": -0.02982231007541102
+   }
+  },
+  "A|SESSION_NY|ORIGINAL": {
+   "fit": {
+    "trades": 202,
+    "win_rate_pct": 40.5940594059406,
+    "expectancy_r": 0.04233530036669284,
+    "expectancy_stress_r": -0.059940013777953764,
+    "total_r": 8.551730674071955,
+    "max_drawdown_r": 17.037852291238696,
+    "random_mean_r": 0.026965585571781383,
+    "z": 0.12270372366688205
+   },
+   "test": {
+    "trades": 76,
+    "win_rate_pct": 51.31578947368421,
+    "expectancy_r": 0.15900179996974745,
+    "expectancy_stress_r": 0.08267002146528599,
+    "total_r": 12.084136797700806,
+    "max_drawdown_r": 11.831800781122617,
+    "random_mean_r": 0.2051217629490167,
+    "z": -0.22888702358858753
+   }
+  },
+  "A|SESSION_NY|CHOSEN": {
+   "fit": {
+    "trades": 202,
+    "win_rate_pct": 43.56435643564357,
+    "expectancy_r": 0.04916612956521163,
+    "expectancy_stress_r": -0.05006916720356335,
+    "total_r": 9.93155817217275,
+    "max_drawdown_r": 13.247071984875108,
+    "random_mean_r": 0.018803976776591666,
+    "z": 0.25416384239141177
+   },
+   "test": {
+    "trades": 77,
+    "win_rate_pct": 48.05194805194805,
+    "expectancy_r": 0.03008049672224102,
+    "expectancy_stress_r": -0.043131872685224254,
+    "total_r": 2.3161982476125584,
+    "max_drawdown_r": 13.640227603343801,
+    "random_mean_r": 0.11638203445770089,
+    "z": -0.4611427047557048
+   }
+  },
+  "A|SESSION_LATE|ORIGINAL": {
+   "fit": {
+    "trades": 27,
+    "win_rate_pct": 40.74074074074074,
+    "expectancy_r": 0.2400496073966464,
+    "expectancy_stress_r": 0.12739126073751786,
+    "total_r": 6.481339399709453,
+    "max_drawdown_r": 2.3953203836374075,
+    "random_mean_r": 0.03396723438093157,
+    "z": 0.632285690327176
+   },
+   "test": {
+    "trades": 9,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": 0.020170272229194416,
+    "expectancy_stress_r": -0.04048701634880696,
+    "total_r": 0.18153245006274976,
+    "max_drawdown_r": 1.6552153423674314,
+    "random_mean_r": 0.1345769546198267,
+    "z": -0.1964541934701881
+   }
+  },
+  "A|SESSION_LATE|CHOSEN": {
+   "fit": {
+    "trades": 27,
+    "win_rate_pct": 37.03703703703704,
+    "expectancy_r": 0.2510724152727568,
+    "expectancy_stress_r": 0.14078467213148815,
+    "total_r": 6.778955212364433,
+    "max_drawdown_r": 2.3953203836374075,
+    "random_mean_r": 0.03318199127587215,
+    "z": 0.6631202963577777
+   },
+   "test": {
+    "trades": 9,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": 0.07432458405439554,
+    "expectancy_stress_r": 0.015298555195780347,
+    "total_r": 0.6689212564895599,
+    "max_drawdown_r": 1.2471773709611766,
+    "random_mean_r": 0.11031410145399588,
+    "z": -0.06969693662681238
+   }
+  },
+  "A|KST_BELOW_ZERO|ORIGINAL": {
+   "fit": {
+    "trades": 359,
+    "win_rate_pct": 41.22562674094708,
+    "expectancy_r": 0.11628357705424683,
+    "expectancy_stress_r": -0.005850236078739392,
+    "total_r": 41.74580416247461,
+    "max_drawdown_r": 25.321471959973167,
+    "random_mean_r": 0.01763029546301691,
+    "z": 1.0975843203767586
+   },
+   "test": {
+    "trades": 133,
+    "win_rate_pct": 51.127819548872175,
+    "expectancy_r": 0.4155604961449344,
+    "expectancy_stress_r": 0.33687095450066756,
+    "total_r": 55.269545987276274,
+    "max_drawdown_r": 8.8980745258771,
+    "random_mean_r": 0.19163110253055735,
+    "z": 1.4494157358943467
+   }
+  },
+  "A|KST_BELOW_ZERO|CHOSEN": {
+   "fit": {
+    "trades": 359,
+    "win_rate_pct": 42.061281337047355,
+    "expectancy_r": 0.111258716606067,
+    "expectancy_stress_r": -0.006725945339587782,
+    "total_r": 39.94187926157805,
+    "max_drawdown_r": 23.940513568898474,
+    "random_mean_r": 0.00564052310270717,
+    "z": 1.1735496169867685
+   },
+   "test": {
+    "trades": 134,
+    "win_rate_pct": 50.0,
+    "expectancy_r": 0.3144160395165034,
+    "expectancy_stress_r": 0.23925997240942862,
+    "total_r": 42.13174929521145,
+    "max_drawdown_r": 8.345096567780855,
+    "random_mean_r": 0.10150109983238628,
+    "z": 1.535948602432754
+   }
+  },
+  "A|KST_ABOVE_ZERO|ORIGINAL": {
+   "fit": {
+    "trades": 206,
+    "win_rate_pct": 38.349514563106794,
+    "expectancy_r": 0.11224446631915251,
+    "expectancy_stress_r": 0.010689100898696183,
+    "total_r": 23.122360061745418,
+    "max_drawdown_r": 18.13063540272851,
+    "random_mean_r": 0.05174292184137757,
+    "z": 0.5228952458763305
+   },
+   "test": {
+    "trades": 90,
+    "win_rate_pct": 51.11111111111111,
+    "expectancy_r": 0.3737615383658367,
+    "expectancy_stress_r": 0.2974862165175989,
+    "total_r": 33.6385384529253,
+    "max_drawdown_r": 8.496883118417209,
+    "random_mean_r": 0.32042919460474706,
+    "z": 0.28872521773112325
+   }
+  },
+  "A|KST_ABOVE_ZERO|CHOSEN": {
+   "fit": {
+    "trades": 206,
+    "win_rate_pct": 39.32038834951456,
+    "expectancy_r": 0.11809052997311281,
+    "expectancy_stress_r": 0.018373262763852767,
+    "total_r": 24.326649174461238,
+    "max_drawdown_r": 15.912060176835624,
+    "random_mean_r": 0.03441785663836688,
+    "z": 0.733394257807824
+   },
+   "test": {
+    "trades": 90,
+    "win_rate_pct": 52.22222222222223,
+    "expectancy_r": 0.31724288014745095,
+    "expectancy_stress_r": 0.24263887902885106,
+    "total_r": 28.551859213270586,
+    "max_drawdown_r": 8.553909316426829,
+    "random_mean_r": 0.21330636461771854,
+    "z": 0.6083286394062175
+   }
+  },
+  "A|H4_KST_UP|ORIGINAL": {
+   "fit": {
+    "trades": 267,
+    "win_rate_pct": 35.580524344569284,
+    "expectancy_r": 0.012300919439844134,
+    "expectancy_stress_r": -0.0900226105211343,
+    "total_r": 3.2843454904383838,
+    "max_drawdown_r": 39.97180815390567,
+    "random_mean_r": 0.018789962091716704,
+    "z": -0.06114353627658666
+   },
+   "test": {
+    "trades": 105,
+    "win_rate_pct": 50.476190476190474,
+    "expectancy_r": 0.22086354637286323,
+    "expectancy_stress_r": 0.1461299521023841,
+    "total_r": 23.19067236915064,
+    "max_drawdown_r": 9.249728394920268,
+    "random_mean_r": 0.245065612734359,
+    "z": -0.1412181415121247
+   }
+  },
+  "A|H4_KST_UP|CHOSEN": {
+   "fit": {
+    "trades": 267,
+    "win_rate_pct": 36.70411985018727,
+    "expectancy_r": 0.026068228214716722,
+    "expectancy_stress_r": -0.07447801830938332,
+    "total_r": 6.960216933329365,
+    "max_drawdown_r": 35.04131003399443,
+    "random_mean_r": 0.005423198859947647,
+    "z": 0.20275156019639554
+   },
+   "test": {
+    "trades": 106,
+    "win_rate_pct": 50.0,
+    "expectancy_r": 0.21455075355962736,
+    "expectancy_stress_r": 0.1411755346713014,
+    "total_r": 22.7423798773205,
+    "max_drawdown_r": 9.929738301230486,
+    "random_mean_r": 0.15313029942724937,
+    "z": 0.3973151633828349
+   }
+  },
+  "A|DAILY_EMA50|ORIGINAL": {
+   "fit": {
+    "trades": 295,
+    "win_rate_pct": 45.76271186440678,
+    "expectancy_r": 0.297105011199686,
+    "expectancy_stress_r": 0.18286891042062003,
+    "total_r": 87.64597830390737,
+    "max_drawdown_r": 11.508608183671537,
+    "random_mean_r": 0.1520877943966236,
+    "z": 1.290539651193239
+   },
+   "test": {
+    "trades": 155,
+    "win_rate_pct": 53.5483870967742,
+    "expectancy_r": 0.48873673551244945,
+    "expectancy_stress_r": 0.4076518949734026,
+    "total_r": 75.75419400442966,
+    "max_drawdown_r": 9.230138802623351,
+    "random_mean_r": 0.37198993287466536,
+    "z": 0.7813990461166358
+   }
+  },
+  "A|DAILY_EMA50|CHOSEN": {
+   "fit": {
+    "trades": 295,
+    "win_rate_pct": 46.440677966101696,
+    "expectancy_r": 0.27483836750028695,
+    "expectancy_stress_r": 0.16378453232548085,
+    "total_r": 81.07731841258465,
+    "max_drawdown_r": 9.83610174234023,
+    "random_mean_r": 0.12270631839659074,
+    "z": 1.4262042652530804
+   },
+   "test": {
+    "trades": 155,
+    "win_rate_pct": 54.83870967741935,
+    "expectancy_r": 0.37217065840575514,
+    "expectancy_stress_r": 0.29418261062574835,
+    "total_r": 57.68645205289205,
+    "max_drawdown_r": 7.515963159677341,
+    "random_mean_r": 0.24475368583943402,
+    "z": 1.049199980584422
+   }
+  },
+  "A|VOL_HIGH|ORIGINAL": {
+   "fit": {
+    "trades": 269,
+    "win_rate_pct": 39.77695167286245,
+    "expectancy_r": -0.022870228401487926,
+    "expectancy_stress_r": -0.1288056645366179,
+    "total_r": -6.152091440000252,
+    "max_drawdown_r": 24.132729704294185,
+    "random_mean_r": 0.01790320460127602,
+    "z": -0.4265206392612494
+   },
+   "test": {
+    "trades": 107,
+    "win_rate_pct": 54.20560747663551,
+    "expectancy_r": 0.27179013593196294,
+    "expectancy_stress_r": 0.1977638378979862,
+    "total_r": 29.081544544720035,
+    "max_drawdown_r": 3.9111237354432813,
+    "random_mean_r": 0.21438297323100428,
+    "z": 0.3176930225001771
+   }
+  },
+  "A|VOL_HIGH|CHOSEN": {
+   "fit": {
+    "trades": 269,
+    "win_rate_pct": 40.14869888475837,
+    "expectancy_r": -0.03307540408973742,
+    "expectancy_stress_r": -0.13486660621371585,
+    "total_r": -8.897283700139367,
+    "max_drawdown_r": 18.357654311269926,
+    "random_mean_r": 0.008574620675374461,
+    "z": -0.4611114211273791
+   },
+   "test": {
+    "trades": 108,
+    "win_rate_pct": 52.77777777777778,
+    "expectancy_r": 0.2086164813792752,
+    "expectancy_stress_r": 0.13781817968765012,
+    "total_r": 22.53057998896172,
+    "max_drawdown_r": 3.9111237354432795,
+    "random_mean_r": 0.14897055005983706,
+    "z": 0.3609319071947137
+   }
+  },
+  "A|VOL_LOW|ORIGINAL": {
+   "fit": {
+    "trades": 296,
+    "win_rate_pct": 40.54054054054054,
+    "expectancy_r": 0.23993329616290637,
+    "expectancy_stress_r": 0.11740014795004791,
+    "total_r": 71.02025566422029,
+    "max_drawdown_r": 22.79578043996142,
+    "random_mean_r": 0.027629182800877866,
+    "z": 2.2034910901320472
+   },
+   "test": {
+    "trades": 116,
+    "win_rate_pct": 48.275862068965516,
+    "expectancy_r": 0.5157460335817374,
+    "expectancy_stress_r": 0.4346281532766222,
+    "total_r": 59.82653989548154,
+    "max_drawdown_r": 10.078040671991129,
+    "random_mean_r": 0.2652079195655136,
+    "z": 1.5553910505293098
+   }
+  },
+  "A|VOL_LOW|CHOSEN": {
+   "fit": {
+    "trades": 296,
+    "win_rate_pct": 41.891891891891895,
+    "expectancy_r": 0.24718179775736032,
+    "expectancy_stress_r": 0.12719390143220005,
+    "total_r": 73.16581213617866,
+    "max_drawdown_r": 22.795780439961412,
+    "random_mean_r": 0.021734624511022246,
+    "z": 2.4454073174335806
+   },
+   "test": {
+    "trades": 116,
+    "win_rate_pct": 49.137931034482754,
+    "expectancy_r": 0.41511231482345096,
+    "expectancy_stress_r": 0.3363273449068433,
+    "total_r": 48.15302851952031,
+    "max_drawdown_r": 8.444206972216804,
+    "random_mean_r": 0.17047387169660497,
+    "z": 1.7135923918326152
+   }
+  },
+  "A|NEAR_VWAP|ORIGINAL": {
+   "fit": {
+    "trades": 336,
+    "win_rate_pct": 40.476190476190474,
+    "expectancy_r": 0.16158787957182655,
+    "expectancy_stress_r": 0.04180844384842001,
+    "total_r": 54.293527536133716,
+    "max_drawdown_r": 22.323146912409136,
+    "random_mean_r": 0.014226435229184133,
+    "z": 1.5947462639749685
+   },
+   "test": {
+    "trades": 125,
+    "win_rate_pct": 51.2,
+    "expectancy_r": 0.42082766912531927,
+    "expectancy_stress_r": 0.34401870196028395,
+    "total_r": 52.60345864066491,
+    "max_drawdown_r": 6.116039783227299,
+    "random_mean_r": 0.1876639807384646,
+    "z": 1.4401100019602664
+   }
+  },
+  "A|NEAR_VWAP|CHOSEN": {
+   "fit": {
+    "trades": 336,
+    "win_rate_pct": 40.476190476190474,
+    "expectancy_r": 0.14839384113519477,
+    "expectancy_stress_r": 0.03230661455392366,
+    "total_r": 49.86033062142545,
+    "max_drawdown_r": 21.039663408169254,
+    "random_mean_r": 0.004161179213859664,
+    "z": 1.607322999719913
+   },
+   "test": {
+    "trades": 126,
+    "win_rate_pct": 51.587301587301596,
+    "expectancy_r": 0.40347279479678133,
+    "expectancy_stress_r": 0.32933941448728044,
+    "total_r": 50.83757214439445,
+    "max_drawdown_r": 5.563061825131058,
+    "random_mean_r": 0.09217381167238158,
+    "z": 2.123763962272685
+   }
+  },
+  "A|NO_FRIDAY|ORIGINAL": {
+   "fit": {
+    "trades": 454,
+    "win_rate_pct": 38.1057268722467,
+    "expectancy_r": 0.0497271069632038,
+    "expectancy_stress_r": -0.051621629738362346,
+    "total_r": 22.576106561294527,
+    "max_drawdown_r": 31.50351022602579,
+    "random_mean_r": 0.022346072668840963,
+    "z": 0.3167485476585821
+   },
+   "test": {
+    "trades": 176,
+    "win_rate_pct": 51.70454545454546,
+    "expectancy_r": 0.3702574960836516,
+    "expectancy_stress_r": 0.30247605607381006,
+    "total_r": 65.16531931072268,
+    "max_drawdown_r": 8.268148247659873,
+    "random_mean_r": 0.2455088774284524,
+    "z": 0.8714206517273559
+   }
+  },
+  "A|NO_FRIDAY|CHOSEN": {
+   "fit": {
+    "trades": 454,
+    "win_rate_pct": 38.1057268722467,
+    "expectancy_r": 0.04686996286302096,
+    "expectancy_stress_r": -0.05384944772630855,
+    "total_r": 21.278963139811516,
+    "max_drawdown_r": 29.463889916432613,
+    "random_mean_r": 0.013294143475054365,
+    "z": 0.40875822360040187
+   },
+   "test": {
+    "trades": 176,
+    "win_rate_pct": 51.70454545454546,
+    "expectancy_r": 0.36389057287717075,
+    "expectancy_stress_r": 0.2965039039867141,
+    "total_r": 64.04474082638205,
+    "max_drawdown_r": 10.8111013730461,
+    "random_mean_r": 0.15978072968801044,
+    "z": 1.7072139998167035
+   }
+  },
+  "A|NO_MONDAY|ORIGINAL": {
+   "fit": {
+    "trades": 469,
+    "win_rate_pct": 40.72494669509595,
+    "expectancy_r": 0.1785760026866618,
+    "expectancy_stress_r": 0.06043094428905069,
+    "total_r": 83.75214526004439,
+    "max_drawdown_r": 25.773000344371248,
+    "random_mean_r": 0.0338096015549451,
+    "z": 1.701015365582555
+   },
+   "test": {
+    "trades": 185,
+    "win_rate_pct": 47.56756756756757,
+    "expectancy_r": 0.3115753097526534,
+    "expectancy_stress_r": 0.23162306585319878,
+    "total_r": 57.64143230424088,
+    "max_drawdown_r": 11.707853641566134,
+    "random_mean_r": 0.2465449631454718,
+    "z": 0.4798746660861974
+   }
+  },
+  "A|NO_MONDAY|CHOSEN": {
+   "fit": {
+    "trades": 469,
+    "win_rate_pct": 41.7910447761194,
+    "expectancy_r": 0.17722215539333155,
+    "expectancy_stress_r": 0.06299087839526787,
+    "total_r": 83.1171908794725,
+    "max_drawdown_r": 20.573575426824693,
+    "random_mean_r": 0.021960643958464116,
+    "z": 1.910554297841779
+   },
+   "test": {
+    "trades": 186,
+    "win_rate_pct": 47.31182795698925,
+    "expectancy_r": 0.2102148898152506,
+    "expectancy_stress_r": 0.13361289919757663,
+    "total_r": 39.099969505636615,
+    "max_drawdown_r": 12.395636945087881,
+    "random_mean_r": 0.139201510491927,
+    "z": 0.6233984981598996
+   }
+  },
+  "A|REAL_YIELD_FALLING|ORIGINAL": {
+   "fit": {
+    "trades": 247,
+    "win_rate_pct": 46.558704453441294,
+    "expectancy_r": 0.39584062361565503,
+    "expectancy_stress_r": 0.2782958315338559,
+    "total_r": 97.7726340330668,
+    "max_drawdown_r": 13.45493722628006,
+    "random_mean_r": 0.06670723974680495,
+    "z": 2.7209898383641575
+   },
+   "test": {
+    "trades": 108,
+    "win_rate_pct": 48.148148148148145,
+    "expectancy_r": 0.25935556003539073,
+    "expectancy_stress_r": 0.18091582236982584,
+    "total_r": 28.0104004838222,
+    "max_drawdown_r": 6.937496008297611,
+    "random_mean_r": 0.22924938274442438,
+    "z": 0.16490173352752438
+   }
+  },
+  "A|REAL_YIELD_FALLING|CHOSEN": {
+   "fit": {
+    "trades": 247,
+    "win_rate_pct": 46.558704453441294,
+    "expectancy_r": 0.37239555170683614,
+    "expectancy_stress_r": 0.2584251829298637,
+    "total_r": 91.98170127158852,
+    "max_drawdown_r": 12.749794532283369,
+    "random_mean_r": 0.05294859777090392,
+    "z": 2.824556072423244
+   },
+   "test": {
+    "trades": 109,
+    "win_rate_pct": 49.54128440366973,
+    "expectancy_r": 0.17790821880264718,
+    "expectancy_stress_r": 0.10209193567274212,
+    "total_r": 19.39199584948854,
+    "max_drawdown_r": 8.496753317715449,
+    "random_mean_r": 0.13249167408951543,
+    "z": 0.2925455618131258
+   }
+  },
+  "A|DOLLAR_FALLING|ORIGINAL": {
+   "fit": {
+    "trades": 265,
+    "win_rate_pct": 46.41509433962264,
+    "expectancy_r": 0.30894316108021525,
+    "expectancy_stress_r": 0.18935094464775482,
+    "total_r": 81.86993768625705,
+    "max_drawdown_r": 14.775551412381462,
+    "random_mean_r": 0.06978923616792866,
+    "z": 2.3006571440371597
+   },
+   "test": {
+    "trades": 126,
+    "win_rate_pct": 54.761904761904766,
+    "expectancy_r": 0.5147600128134516,
+    "expectancy_stress_r": 0.4316342227165395,
+    "total_r": 64.8597616144949,
+    "max_drawdown_r": 9.145261593525639,
+    "random_mean_r": 0.22823755999395487,
+    "z": 1.7426745467016542
+   }
+  },
+  "A|DOLLAR_FALLING|CHOSEN": {
+   "fit": {
+    "trades": 265,
+    "win_rate_pct": 47.16981132075472,
+    "expectancy_r": 0.3037639621750587,
+    "expectancy_stress_r": 0.18772909493092055,
+    "total_r": 80.49744997639056,
+    "max_drawdown_r": 13.960085967331713,
+    "random_mean_r": 0.05482544583644754,
+    "z": 2.4690798778847522
+   },
+   "test": {
+    "trades": 127,
+    "win_rate_pct": 52.75590551181102,
+    "expectancy_r": 0.411397688015043,
+    "expectancy_stress_r": 0.33161912538902466,
+    "total_r": 52.24750637791046,
+    "max_drawdown_r": 10.561365016283851,
+    "random_mean_r": 0.14354107734074634,
+    "z": 1.902491568520943
+   }
+  },
+  "B|ASIA_DRIFT": {
+   "fit": {
+    "trades": 1149,
+    "win_rate_pct": 47.08442123585726,
+    "expectancy_r": -0.038536968282508105,
+    "expectancy_stress_r": -0.11508729831755751,
+    "total_r": -44.27897655660181,
+    "random_mean_r": -0.045757137158024624,
+    "z": 0.2776696736051076
+   },
+   "test": {
+    "trades": 477,
+    "win_rate_pct": 49.47589098532495,
+    "expectancy_r": 0.03767193626069946,
+    "expectancy_stress_r": -0.014975418229832643,
+    "total_r": 17.969513596353643,
+    "random_mean_r": 0.01785983528845803,
+    "z": 0.47521882912156627
+   }
+  },
+  "B|PRE_FOMC": {
+   "fit": {
+    "trades": 36,
+    "win_rate_pct": 52.77777777777778,
+    "expectancy_r": 0.22202391135889207,
+    "expectancy_stress_r": 0.13046849704167277,
+    "total_r": 7.992860808920114,
+    "random_mean_r": -0.003696298756041102,
+    "z": 0.9016226647721154
+   },
+   "test": {
+    "trades": 15,
+    "win_rate_pct": 20.0,
+    "expectancy_r": -0.28938410762180783,
+    "expectancy_stress_r": -0.3583825855239783,
+    "total_r": -4.340761614327118,
+    "random_mean_r": 0.05237710976430569,
+    "z": -0.9595794547625479
+   }
+  },
+  "B|PRE_CPI": {
+   "fit": {
+    "trades": 54,
+    "win_rate_pct": 29.629629629629626,
+    "expectancy_r": -0.3853457230338546,
+    "expectancy_stress_r": -0.4788710099844889,
+    "total_r": -20.80866904382815,
+    "random_mean_r": -0.004833391591080846,
+    "z": -1.9857982492597281
+   },
+   "test": {
+    "trades": 21,
+    "win_rate_pct": 38.095238095238095,
+    "expectancy_r": -0.23278463644561595,
+    "expectancy_stress_r": -0.29548283274591547,
+    "total_r": -4.888477365357935,
+    "random_mean_r": 0.08049471122625936,
+    "z": -1.1020077838316993
+   }
+  },
+  "B|PRE_NFP": {
+   "fit": {
+    "trades": 54,
+    "win_rate_pct": 27.77777777777778,
+    "expectancy_r": -0.23676369061715935,
+    "expectancy_stress_r": -0.32279401070515107,
+    "total_r": -12.785239293326605,
+    "random_mean_r": 0.003451276582597903,
+    "z": -1.2282088570243095
+   },
+   "test": {
+    "trades": 22,
+    "win_rate_pct": 50.0,
+    "expectancy_r": -0.15074221717135347,
+    "expectancy_stress_r": -0.2095125802376428,
+    "total_r": -3.3163287777697765,
+    "random_mean_r": 0.09864012881458517,
+    "z": -0.871950297533794
+   }
+  }
+ }
+}

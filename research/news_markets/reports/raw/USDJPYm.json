@@ -1,0 +1,333 @@
+{
+ "meta": {
+  "market": "USDJPYm",
+  "generated_utc": "2026-11-12 11:43",
+  "fit": [
+   "2023-07-01 00:00",
+   "2025-01-01 00:00"
+  ],
+  "test_end": "2026-11-10 23:45",
+  "runs": 300,
+  "eia_rule_dates_dropped": null,
+  "seconds": 1
+ },
+ "results": {
+  "FOMC|FOLLOW15": {
+   "fit": {
+    "events": 12,
+    "win_rate_pct": 58.333333333333336,
+    "expectancy_r": 0.7466491909770387,
+    "expectancy_stress_r": 0.6365345598824398,
+    "total_r": 8.959790291724465,
+    "control_mean_r": -0.20758876472885096,
+    "z": 9.54507931003937
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 40.0,
+    "expectancy_r": -0.2234568782375103,
+    "expectancy_stress_r": -0.36532675661252245,
+    "total_r": -3.351853173562654,
+    "control_mean_r": -0.1598888348816888,
+    "z": -0.6770007930611727
+   }
+  },
+  "FOMC|FADE15": {
+   "fit": {
+    "events": 12,
+    "win_rate_pct": 16.666666666666664,
+    "expectancy_r": -0.7600792884249464,
+    "expectancy_stress_r": -0.8661701024570893,
+    "total_r": -9.120951461099358,
+    "control_mean_r": -0.20267191049948485,
+    "z": -5.735218801610236
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 46.666666666666664,
+    "expectancy_r": 0.17100716175664707,
+    "expectancy_stress_r": 0.029120748698888713,
+    "total_r": 2.565107426349706,
+    "control_mean_r": -0.12629808393622913,
+    "z": 3.0154069650951865
+   }
+  },
+  "FOMC|FOLLOW30": {
+   "fit": {
+    "events": 12,
+    "win_rate_pct": 58.333333333333336,
+    "expectancy_r": 0.7789918668739944,
+    "expectancy_stress_r": 0.6696449776879095,
+    "total_r": 9.347902402487932,
+    "control_mean_r": -0.1942617734532523,
+    "z": 10.58487353728297
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 40.0,
+    "expectancy_r": -0.31122975703254857,
+    "expectancy_stress_r": -0.45223896243299483,
+    "total_r": -4.6684463554882285,
+    "control_mean_r": -0.16733277266280902,
+    "z": -1.5457626650538598
+   }
+  },
+  "FOMC|BREAKOUT": {
+   "fit": {
+    "events": 8,
+    "win_rate_pct": 50.0,
+    "expectancy_r": -0.035111393262319185,
+    "expectancy_stress_r": -0.14544945057682712,
+    "total_r": -0.2808911460985535,
+    "control_mean_r": -0.25792822515495156,
+    "z": 1.9761941473800477
+   },
+   "test": {
+    "events": 14,
+    "win_rate_pct": 71.42857142857143,
+    "expectancy_r": 0.36376164943685235,
+    "expectancy_stress_r": 0.21616928498195367,
+    "total_r": 5.092663092115933,
+    "control_mean_r": -0.19714545466025873,
+    "z": 5.6130358872134725
+   }
+  },
+  "FOMC|PRE24": {
+   "fit": {
+    "events": 12,
+    "win_rate_pct": 16.666666666666664,
+    "expectancy_r": -0.5901108965222013,
+    "expectancy_stress_r": -0.7305691945621264,
+    "total_r": -7.081330758266415,
+    "control_mean_r": -0.05193661534154063,
+    "z": -1.4960582566215979
+   },
+   "test": {
+    "events": 15,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": -0.14940136705513402,
+    "expectancy_stress_r": -0.32840640783332187,
+    "total_r": -2.2410205058270103,
+    "control_mean_r": -0.14573392670116522,
+    "z": -0.010878079000358924
+   }
+  },
+  "CPI|FOLLOW15": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 50.0,
+    "expectancy_r": 0.011740226990123552,
+    "expectancy_stress_r": -0.14194123197146544,
+    "total_r": 0.21132408582222395,
+    "control_mean_r": -0.14873882449947615,
+    "z": 0.8974015242702803
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 40.909090909090914,
+    "expectancy_r": -0.06836886405284787,
+    "expectancy_stress_r": -0.2130503943127403,
+    "total_r": -1.504115009162653,
+    "control_mean_r": -0.1144676753019873,
+    "z": 0.27683127269585955
+   }
+  },
+  "CPI|FADE15": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": -0.37377930013071786,
+    "expectancy_stress_r": -0.5244903347832978,
+    "total_r": -6.728027402352922,
+    "control_mean_r": -0.14822607858414,
+    "z": -1.2515732043248458
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 36.36363636363637,
+    "expectancy_r": -0.19762933671594987,
+    "expectancy_stress_r": -0.3434320927709731,
+    "total_r": -4.3478454077508975,
+    "control_mean_r": -0.07692413622997878,
+    "z": -0.7103607464635351
+   }
+  },
+  "CPI|FOLLOW30": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 50.0,
+    "expectancy_r": 0.2907813830043019,
+    "expectancy_stress_r": 0.13570414988419785,
+    "total_r": 5.234064894077434,
+    "control_mean_r": -0.16997656969638622,
+    "z": 2.520723969050548
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 27.27272727272727,
+    "expectancy_r": -0.35467412809386917,
+    "expectancy_stress_r": -0.49865008671120203,
+    "total_r": -7.802830818065122,
+    "control_mean_r": -0.08223584852151937,
+    "z": -1.796172104624191
+   }
+  },
+  "CPI|BREAKOUT": {
+   "fit": {
+    "events": 8,
+    "win_rate_pct": 37.5,
+    "expectancy_r": -0.10912062852794979,
+    "expectancy_stress_r": -0.27594680155940976,
+    "total_r": -0.8729650282235983,
+    "control_mean_r": -0.19515152841418892,
+    "z": 0.3601152123220978
+   },
+   "test": {
+    "events": 12,
+    "win_rate_pct": 58.333333333333336,
+    "expectancy_r": -0.03524680283262729,
+    "expectancy_stress_r": -0.15616282745695778,
+    "total_r": -0.4229616339915274,
+    "control_mean_r": -0.1443608569872516,
+    "z": 0.6135851488954455
+   }
+  },
+  "CPI|PRE24": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 55.55555555555556,
+    "expectancy_r": -0.0003881098368111581,
+    "expectancy_stress_r": -0.20106152536314473,
+    "total_r": -0.0069859770626008455,
+    "control_mean_r": -0.11526706468640564,
+    "z": 0.3944457581981787
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 54.54545454545454,
+    "expectancy_r": 0.37220080203993844,
+    "expectancy_stress_r": 0.1952141956951918,
+    "total_r": 8.188417644878646,
+    "control_mean_r": -0.07904882685663679,
+    "z": 1.8213318296121968
+   }
+  },
+  "NFP|FOLLOW15": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 27.77777777777778,
+    "expectancy_r": -0.2559222176978582,
+    "expectancy_stress_r": -0.3642691054382674,
+    "total_r": -4.606599918561448,
+    "control_mean_r": -0.15476228471666645,
+    "z": -0.5824445433023967
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 40.909090909090914,
+    "expectancy_r": -0.20672140808800235,
+    "expectancy_stress_r": -0.3371479417520334,
+    "total_r": -4.547870977936052,
+    "control_mean_r": -0.11010238929549879,
+    "z": -0.5958107018764036
+   }
+  },
+  "NFP|FADE15": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 50.0,
+    "expectancy_r": 0.07598987965087853,
+    "expectancy_stress_r": -0.03248569950320855,
+    "total_r": 1.3678178337158136,
+    "control_mean_r": -0.15815503021141222,
+    "z": 1.1486973883613893
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 40.909090909090914,
+    "expectancy_r": -0.09934944860958496,
+    "expectancy_stress_r": -0.23154758123165947,
+    "total_r": -2.1856878694108692,
+    "control_mean_r": -0.06441504795424127,
+    "z": -0.22023043702129066
+   }
+  },
+  "NFP|FOLLOW30": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 27.77777777777778,
+    "expectancy_r": -0.29364548575241955,
+    "expectancy_stress_r": -0.4020213500957139,
+    "total_r": -5.2856187435435515,
+    "control_mean_r": -0.1661646952017644,
+    "z": -0.7288190525931159
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 31.818181818181817,
+    "expectancy_r": -0.26183191713247045,
+    "expectancy_stress_r": -0.3921406052615745,
+    "total_r": -5.76030217691435,
+    "control_mean_r": -0.07862900831793958,
+    "z": -1.2569595431510627
+   }
+  },
+  "NFP|BREAKOUT": {
+   "fit": {
+    "events": 9,
+    "win_rate_pct": 33.33333333333333,
+    "expectancy_r": -0.2725012568667341,
+    "expectancy_stress_r": -0.3992945998075608,
+    "total_r": -2.452511311800607,
+    "control_mean_r": -0.1827479083203429,
+    "z": -0.38308218267409416
+   },
+   "test": {
+    "events": 11,
+    "win_rate_pct": 27.27272727272727,
+    "expectancy_r": -0.4632083891628525,
+    "expectancy_stress_r": -0.6041433711707095,
+    "total_r": -5.095292280791377,
+    "control_mean_r": -0.10004122235334859,
+    "z": -1.759863377262304
+   }
+  },
+  "NFP|PRE24": {
+   "fit": {
+    "events": 18,
+    "win_rate_pct": 11.11111111111111,
+    "expectancy_r": -0.8042820311586365,
+    "expectancy_stress_r": -0.9227679431938837,
+    "total_r": -14.477076560855457,
+    "control_mean_r": -0.1221248293675374,
+    "z": -2.1160937720379804
+   },
+   "test": {
+    "events": 22,
+    "win_rate_pct": 54.54545454545454,
+    "expectancy_r": 0.24973900868800855,
+    "expectancy_stress_r": 0.0846522644729986,
+    "total_r": 5.494258191136188,
+    "control_mean_r": -0.037598388517993235,
+    "z": 1.1306276593401219
+   }
+  }
+ },
+ "moves": {
+  "FOMC": {
+   "event_median_4h_move_atr": 2.701950488579095,
+   "control_median_4h_move_atr": 0.402960726663589,
+   "events": 27
+  },
+  "CPI": {
+   "event_median_4h_move_atr": 2.099893502936094,
+   "control_median_4h_move_atr": 0.9889180465830142,
+   "events": 40
+  },
+  "NFP": {
+   "event_median_4h_move_atr": 1.9148317758842381,
+   "control_median_4h_move_atr": 0.9889180465830142,
+   "events": 40
+  }
+ }
+}

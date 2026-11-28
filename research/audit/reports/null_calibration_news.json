@@ -1,0 +1,53 @@
+{
+ "results": {
+  "XAUUSDm|FOLLOW15": {
+   "samples": 80,
+   "mean_z": 0.018153545834945307,
+   "sd_z": 0.9749639846754518,
+   "share_z_over_1.645_pct": 5.0
+  },
+  "XAUUSDm|FADE15": {
+   "samples": 80,
+   "mean_z": 0.06966779604321496,
+   "sd_z": 1.055055821108884,
+   "share_z_over_1.645_pct": 8.75
+  },
+  "XAUUSDm|BREAKOUT": {
+   "samples": 80,
+   "mean_z": -0.022222424598965486,
+   "sd_z": 1.1492243211403763,
+   "share_z_over_1.645_pct": 7.5
+  },
+  "XAUUSDm|PRE24": {
+   "samples": 80,
+   "mean_z": 0.03866915507984238,
+   "sd_z": 1.0151292883185141,
+   "share_z_over_1.645_pct": 7.5
+  },
+  "EURUSDm|FOLLOW15": {
+   "samples": 80,
+   "mean_z": -0.12599278501521724,
+   "sd_z": 1.0076144146959733,
+   "share_z_over_1.645_pct": 5.0
+  },
+  "EURUSDm|FADE15": {
+   "samples": 80,
+   "mean_z": -0.07996363134633122,
+   "sd_z": 1.0139289675990406,
+   "share_z_over_1.645_pct": 6.25
+  },
+  "EURUSDm|BREAKOUT": {
+   "samples": 80,
+   "mean_z": 0.0368983598044661,
+   "sd_z": 1.091967026301571,
+   "share_z_over_1.645_pct": 7.5
+  },
+  "EURUSDm|PRE24": {
+   "samples": 80,
+   "mean_z": 0.07163158346344822,
+   "sd_z": 1.1971610736829854,
+   "share_z_over_1.645_pct": 11.25
+  }
+ },
+ "generated_utc": "2026-11-12 12:52"
+}

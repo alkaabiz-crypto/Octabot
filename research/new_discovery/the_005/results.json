@@ -1,0 +1,396 @@
+{
+ "results": {
+  "XAUUSDm": {
+   "reversal": {
+    "EARLY": {
+     "n_round": 2892,
+     "n_null": 2971,
+     "rate_round": 0.5052,
+     "rate_null": 0.5416,
+     "effect_pp": -3.64,
+     "p": 0.9973533585130251
+    },
+    "TRAIN": {
+     "n_round": 1392,
+     "n_null": 1410,
+     "rate_round": 0.5086,
+     "rate_null": 0.5149,
+     "effect_pp": -0.63,
+     "p": 0.6301066939759098
+    },
+    "VALIDATION": {
+     "n_round": 1470,
+     "n_null": 1543,
+     "rate_round": 0.532,
+     "rate_null": 0.5599,
+     "effect_pp": -2.8,
+     "p": 0.9384344656788958
+    },
+    "TEST": {
+     "n_round": 3066,
+     "n_null": 3049,
+     "rate_round": 0.6357,
+     "rate_null": 0.6455,
+     "effect_pp": -0.98,
+     "p": 0.7871513486720001
+    }
+   },
+   "acceleration": {
+    "EARLY": {
+     "n_round": 2837,
+     "n_null": 2843,
+     "rate_round": 0.7332,
+     "rate_null": 0.7112,
+     "effect_pp": 2.19,
+     "p": 0.032412136653233475
+    },
+    "TRAIN": {
+     "n_round": 1311,
+     "n_null": 1397,
+     "rate_round": 0.7529,
+     "rate_null": 0.7115,
+     "effect_pp": 4.13,
+     "p": 0.007639116496434719
+    },
+    "VALIDATION": {
+     "n_round": 1504,
+     "n_null": 1512,
+     "rate_round": 0.7832,
+     "rate_null": 0.7672,
+     "effect_pp": 1.6,
+     "p": 0.14556181323228767
+    },
+    "TEST": {
+     "n_round": 2849,
+     "n_null": 2850,
+     "rate_round": 0.8508,
+     "rate_null": 0.8544,
+     "effect_pp": -0.36,
+     "p": 0.6477213933990904
+    }
+   }
+  },
+  "USOILm": {
+   "reversal": {
+    "EARLY": {
+     "n_round": 3531,
+     "n_null": 3504,
+     "rate_round": 0.4851,
+     "rate_null": 0.4929,
+     "effect_pp": -0.77,
+     "p": 0.741768824507933
+    },
+    "TRAIN": {
+     "n_round": 1243,
+     "n_null": 1229,
+     "rate_round": 0.4996,
+     "rate_null": 0.4882,
+     "effect_pp": 1.14,
+     "p": 0.2854825718187031
+    },
+    "VALIDATION": {
+     "n_round": 750,
+     "n_null": 764,
+     "rate_round": 0.5347,
+     "rate_null": 0.5366,
+     "effect_pp": -0.2,
+     "p": 0.5308214601635635
+    },
+    "TEST": {
+     "n_round": 1479,
+     "n_null": 1506,
+     "rate_round": 0.5483,
+     "rate_null": 0.5339,
+     "effect_pp": 1.45,
+     "p": 0.21368378025416523
+    }
+   },
+   "acceleration": {
+    "EARLY": {
+     "n_round": 3487,
+     "n_null": 3426,
+     "rate_round": 0.7422,
+     "rate_null": 0.7285,
+     "effect_pp": 1.36,
+     "p": 0.09933518334595906
+    },
+    "TRAIN": {
+     "n_round": 1204,
+     "n_null": 1206,
+     "rate_round": 0.7027,
+     "rate_null": 0.7222,
+     "effect_pp": -1.96,
+     "p": 0.8556523483935302
+    },
+    "VALIDATION": {
+     "n_round": 757,
+     "n_null": 750,
+     "rate_round": 0.6803,
+     "rate_null": 0.676,
+     "effect_pp": 0.43,
+     "p": 0.4288276073044827
+    },
+    "TEST": {
+     "n_round": 1469,
+     "n_null": 1453,
+     "rate_round": 0.7556,
+     "rate_null": 0.7646,
+     "effect_pp": -0.9,
+     "p": 0.7157256770469912
+    }
+   }
+  },
+  "EURUSDm": {
+   "reversal": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 194,
+     "n_null": 186,
+     "rate_round": 0.3918,
+     "rate_null": 0.4194,
+     "effect_pp": -2.76,
+     "p": 0.7081101514140862
+    },
+    "VALIDATION": {
+     "n_round": 185,
+     "n_null": 171,
+     "rate_round": 0.4757,
+     "rate_null": 0.4094,
+     "effect_pp": 6.63,
+     "p": 0.10414099734037449
+    },
+    "TEST": {
+     "n_round": 129,
+     "n_null": 145,
+     "rate_round": 0.4031,
+     "rate_null": 0.4621,
+     "effect_pp": -5.9,
+     "p": 0.8371846338725598
+    }
+   },
+   "acceleration": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 179,
+     "n_null": 184,
+     "rate_round": 0.7318,
+     "rate_null": 0.7065,
+     "effect_pp": 2.53,
+     "p": 0.29576645387769374
+    },
+    "VALIDATION": {
+     "n_round": 181,
+     "n_null": 173,
+     "rate_round": 0.674,
+     "rate_null": 0.711,
+     "effect_pp": -3.69,
+     "p": 0.7742132534018511
+    },
+    "TEST": {
+     "n_round": 139,
+     "n_null": 131,
+     "rate_round": 0.7266,
+     "rate_null": 0.7176,
+     "effect_pp": 0.91,
+     "p": 0.43402329250025173
+    }
+   }
+  },
+  "USDJPYm": {
+   "reversal": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 563,
+     "n_null": 552,
+     "rate_round": 0.4458,
+     "rate_null": 0.4402,
+     "effect_pp": 0.56,
+     "p": 0.42524398133769115
+    },
+    "VALIDATION": {
+     "n_round": 614,
+     "n_null": 593,
+     "rate_round": 0.5212,
+     "rate_null": 0.4755,
+     "effect_pp": 4.56,
+     "p": 0.056500239330106776
+    },
+    "TEST": {
+     "n_round": 421,
+     "n_null": 423,
+     "rate_round": 0.4869,
+     "rate_null": 0.4894,
+     "effect_pp": -0.24,
+     "p": 0.5280998332538054
+    }
+   },
+   "acceleration": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 531,
+     "n_null": 523,
+     "rate_round": 0.7213,
+     "rate_null": 0.7113,
+     "effect_pp": 1.0,
+     "p": 0.35939675119717324
+    },
+    "VALIDATION": {
+     "n_round": 591,
+     "n_null": 580,
+     "rate_round": 0.6481,
+     "rate_null": 0.7069,
+     "effect_pp": -5.88,
+     "p": 0.984350415595609
+    },
+    "TEST": {
+     "n_round": 409,
+     "n_null": 384,
+     "rate_round": 0.6846,
+     "rate_null": 0.6875,
+     "effect_pp": -0.29,
+     "p": 0.5350771561578385
+    }
+   }
+  },
+  "US500m": {
+   "reversal": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 408,
+     "n_null": 431,
+     "rate_round": 0.5221,
+     "rate_null": 0.5058,
+     "effect_pp": 1.63,
+     "p": 0.3188448410960165
+    },
+    "VALIDATION": {
+     "n_round": 547,
+     "n_null": 567,
+     "rate_round": 0.5101,
+     "rate_null": 0.5062,
+     "effect_pp": 0.39,
+     "p": 0.4484555698461892
+    },
+    "TEST": {
+     "n_round": 786,
+     "n_null": 826,
+     "rate_round": 0.472,
+     "rate_null": 0.5218,
+     "effect_pp": -4.98,
+     "p": 0.9771485015891711
+    }
+   },
+   "acceleration": {
+    "EARLY": null,
+    "TRAIN": {
+     "n_round": 385,
+     "n_null": 418,
+     "rate_round": 0.6494,
+     "rate_null": 0.6316,
+     "effect_pp": 1.78,
+     "p": 0.30007903683063597
+    },
+    "VALIDATION": {
+     "n_round": 528,
+     "n_null": 546,
+     "rate_round": 0.7216,
+     "rate_null": 0.7216,
+     "effect_pp": -0.0,
+     "p": 0.5003035034882863
+    },
+    "TEST": {
+     "n_round": 785,
+     "n_null": 765,
+     "rate_round": 0.6866,
+     "rate_null": 0.6614,
+     "effect_pp": 2.52,
+     "p": 0.1450798196642788
+    }
+   }
+  },
+  "BTCUSDm": {
+   "reversal": {
+    "EARLY": {
+     "n_round": 2480,
+     "n_null": 2479,
+     "rate_round": 0.4948,
+     "rate_null": 0.5514,
+     "effect_pp": -5.67,
+     "p": 0.9999676872823205
+    },
+    "TRAIN": {
+     "n_round": 976,
+     "n_null": 979,
+     "rate_round": 0.4867,
+     "rate_null": 0.5199,
+     "effect_pp": -3.32,
+     "p": 0.9291730268017346
+    },
+    "VALIDATION": {
+     "n_round": 1633,
+     "n_null": 1704,
+     "rate_round": 0.5132,
+     "rate_null": 0.5393,
+     "effect_pp": -2.62,
+     "p": 0.9348066571645004
+    },
+    "TEST": {
+     "n_round": 2000,
+     "n_null": 2005,
+     "rate_round": 0.5145,
+     "rate_null": 0.5546,
+     "effect_pp": -4.01,
+     "p": 0.9945310281626469
+    }
+   },
+   "acceleration": {
+    "EARLY": {
+     "n_round": 2482,
+     "n_null": 2377,
+     "rate_round": 0.728,
+     "rate_null": 0.7232,
+     "effect_pp": 0.49,
+     "p": 0.35209852269792097
+    },
+    "TRAIN": {
+     "n_round": 959,
+     "n_null": 905,
+     "rate_round": 0.7435,
+     "rate_null": 0.7326,
+     "effect_pp": 1.09,
+     "p": 0.2965563820089116
+    },
+    "VALIDATION": {
+     "n_round": 1652,
+     "n_null": 1635,
+     "rate_round": 0.77,
+     "rate_null": 0.7468,
+     "effect_pp": 2.32,
+     "p": 0.0602279500255954
+    },
+    "TEST": {
+     "n_round": 1958,
+     "n_null": 1885,
+     "rate_round": 0.7503,
+     "rate_null": 0.731,
+     "effect_pp": 1.92,
+     "p": 0.08701003025908294
+    }
+   }
+  }
+ },
+ "verdict": {
+  "reversal": {
+   "verdict": "NOT SUPPORTED",
+   "markets": [],
+   "early_significant": []
+  },
+  "acceleration": {
+   "verdict": "DECAYED",
+   "markets": [],
+   "early_significant": [
+    "XAUUSDm"
+   ]
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "STR-047|BTCUSDT": {
+  "EARLY": {
+   "days": 1096,
+   "always_on_net_yield_pct": 17.22,
+   "always_on_margin_adjusted_pct": 14.35,
+   "conditional_net_yield_pct": 15.14,
+   "conditional_margin_adjusted_pct": 12.62,
+   "conditional_time_in_market_pct": 54.0,
+   "tbill_pct": 1.52,
+   "negative_funding_days_pct": 13.9
+  },
+  "TRAIN": {
+   "days": 547,
+   "always_on_net_yield_pct": 10.32,
+   "always_on_margin_adjusted_pct": 8.6,
+   "conditional_net_yield_pct": 9.34,
+   "conditional_margin_adjusted_pct": 7.78,
+   "conditional_time_in_market_pct": 83.2,
+   "tbill_pct": 5.13,
+   "negative_funding_days_pct": 5.1
+  },
+  "VALIDATION": {
+   "days": 365,
+   "always_on_net_yield_pct": 5.94,
+   "always_on_margin_adjusted_pct": 4.95,
+   "conditional_net_yield_pct": 4.21,
+   "conditional_margin_adjusted_pct": 3.51,
+   "conditional_time_in_market_pct": 48.8,
+   "tbill_pct": 4.46,
+   "negative_funding_days_pct": 12.1
+  },
+  "TEST": {
+   "days": 488,
+   "always_on_net_yield_pct": 3.93,
+   "always_on_margin_adjusted_pct": 3.27,
+   "conditional_net_yield_pct": 1.05,
+   "conditional_margin_adjusted_pct": 0.87,
+   "conditional_time_in_market_pct": 18.2,
+   "tbill_pct": 3.8,
+   "negative_funding_days_pct": 16.4
+  },
+  "verdict": "SOMETIMES",
+  "entries_conditional": 15
+ },
+ "STR-047|ETHUSDT": {
+  "EARLY": {
+   "days": 1096,
+   "always_on_net_yield_pct": 21.82,
+   "always_on_margin_adjusted_pct": 18.18,
+   "conditional_net_yield_pct": 21.15,
+   "conditional_margin_adjusted_pct": 17.62,
+   "conditional_time_in_market_pct": 63.2,
+   "tbill_pct": 1.52,
+   "negative_funding_days_pct": 12.7
+  },
+  "TRAIN": {
+   "days": 547,
+   "always_on_net_yield_pct": 10.82,
+   "always_on_margin_adjusted_pct": 9.02,
+   "conditional_net_yield_pct": 9.19,
+   "conditional_margin_adjusted_pct": 7.66,
+   "conditional_time_in_market_pct": 79.2,
+   "tbill_pct": 5.13,
+   "negative_funding_days_pct": 4.2
+  },
+  "VALIDATION": {
+   "days": 365,
+   "always_on_net_yield_pct": 6.77,
+   "always_on_margin_adjusted_pct": 5.64,
+   "conditional_net_yield_pct": 4.16,
+   "conditional_margin_adjusted_pct": 3.47,
+   "conditional_time_in_market_pct": 38.9,
+   "tbill_pct": 4.46,
+   "negative_funding_days_pct": 9.6
+  },
+  "TEST": {
+   "days": 488,
+   "always_on_net_yield_pct": 3.01,
+   "always_on_margin_adjusted_pct": 2.51,
+   "conditional_net_yield_pct": 0.33,
+   "conditional_margin_adjusted_pct": 0.28,
+   "conditional_time_in_market_pct": 13.7,
+   "tbill_pct": 3.8,
+   "negative_funding_days_pct": 20.9
+  },
+  "verdict": "SOMETIMES",
+  "entries_conditional": 12
+ },
+ "STR-048A_nominal_DGS10": {
+  "results": {
+   "EARLY": {
+    "trades": 33,
+    "mean_net_pct": 0.412,
+    "mean_stress_pct": 0.396,
+    "win_pct": 54.5,
+    "long_share": 0.39,
+    "random_mean_pct": -0.002,
+    "p": 0.295
+   },
+   "TRAIN": {
+    "trades": 17,
+    "mean_net_pct": -1.06,
+    "mean_stress_pct": -1.076,
+    "win_pct": 35.3,
+    "long_share": 0.41,
+    "random_mean_pct": -0.005,
+    "p": 0.807
+   },
+   "VALIDATION": {
+    "trades": 12,
+    "mean_net_pct": 1.063,
+    "mean_stress_pct": 1.047,
+    "win_pct": 66.7,
+    "long_share": 0.58,
+    "random_mean_pct": -0.046,
+    "p": 0.215
+   },
+   "TEST": {
+    "trades": 14,
+    "mean_net_pct": 1.223,
+    "mean_stress_pct": 1.207,
+    "win_pct": 64.3,
+    "long_share": 0.36,
+    "random_mean_pct": 0.028,
+    "p": 0.179
+   }
+  },
+  "decision": "REJECTED"
+ },
+ "STR-048B_real_DFII10": {
+  "results": {
+   "EARLY": {
+    "trades": 33,
+    "mean_net_pct": 0.893,
+    "mean_stress_pct": 0.878,
+    "win_pct": 60.6,
+    "long_share": 0.52,
+    "random_mean_pct": -0.03,
+    "p": 0.143
+   },
+   "TRAIN": {
+    "trades": 17,
+    "mean_net_pct": -1.147,
+    "mean_stress_pct": -1.163,
+    "win_pct": 29.4,
+    "long_share": 0.47,
+    "random_mean_pct": -0.03,
+    "p": 0.832
+   },
+   "VALIDATION": {
+    "trades": 12,
+    "mean_net_pct": 0.585,
+    "mean_stress_pct": 0.57,
+    "win_pct": 50.0,
+    "long_share": 0.42,
+    "random_mean_pct": -0.075,
+    "p": 0.315
+   },
+   "TEST": {
+    "trades": 14,
+    "mean_net_pct": 0.264,
+    "mean_stress_pct": 0.248,
+    "win_pct": 64.3,
+    "long_share": 0.36,
+    "random_mean_pct": 0.035,
+    "p": 0.442
+   }
+  },
+  "decision": "REJECTED"
+ }
+}

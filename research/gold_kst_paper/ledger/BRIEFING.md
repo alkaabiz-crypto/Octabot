@@ -1,0 +1,23 @@
+# Gold daily briefing
+
+Generated 2026-11-28 03:25 UTC. Events: weekly economic calendar (high impact only).
+
+## High-impact events in the next 48 hours
+
+None.
+
+## What this means
+
+- **Direction:** the actual number versus the forecast does predict the direction of the first moments (gold, EUR/USD, GBP/USD, USD/JPY; tested 2016-2026), but in the Exness data the move is mostly done within 5 seconds and later entries showed no edge. So this briefing does not forecast direction.
+- **Size:** after US high-impact news gold usually moves much more than normal, so stops get hit more often and spreads widen.
+- **Right now:** no USD high-impact event in the next 2 hours.
+
+## Paper test (KST + session VWAP BUY)
+
+- Data to 2026-11-27 19:00 UTC; KST below its signal line.
+- CHOSEN_48H_TIME_STOP: 5 closed legs; no open leg.
+- ORIGINAL: 5 closed legs; no open leg.
+- DOLLAR_FALLING: 0 closed legs; no open leg.
+- VOL_LOW: 0 closed legs; no open leg.
+
+Research record, not financial advice.

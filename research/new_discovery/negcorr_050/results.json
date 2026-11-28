@@ -1,0 +1,441 @@
+{
+ "mean_reversion": {
+  "STR-050a|EURUSD~USDCHF": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 11,
+     "mean_net_bp": 47.04,
+     "mean_stress_bp": 45.12,
+     "win_pct": 63.6,
+     "t": 1.87,
+     "avg_hold_days": 14.2,
+     "random_mean_bp": -2.32,
+     "p": 0.061,
+     "mean_60d_corr": -0.763
+    },
+    "VALIDATION": {
+     "trades": 11,
+     "mean_net_bp": -17.23,
+     "mean_stress_bp": -19.49,
+     "win_pct": 45.5,
+     "t": -0.58,
+     "avg_hold_days": 8.3,
+     "random_mean_bp": -2.76,
+     "p": 0.7,
+     "mean_60d_corr": -0.732
+    },
+    "TEST": {
+     "trades": 8,
+     "mean_net_bp": -13.09,
+     "mean_stress_bp": -15.03,
+     "win_pct": 50.0,
+     "t": -0.58,
+     "avg_hold_days": 15.1,
+     "random_mean_bp": -2.34,
+     "p": 0.652,
+     "mean_60d_corr": -0.87
+    },
+    "avg_beta": -0.781
+   },
+   "trades": 30,
+   "decision": "REJECTED"
+  },
+  "STR-050b|GBPUSD~USDCHF": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 11,
+     "mean_net_bp": 13.49,
+     "mean_stress_bp": 11.54,
+     "win_pct": 54.5,
+     "t": 0.41,
+     "avg_hold_days": 8.9,
+     "random_mean_bp": -1.27,
+     "p": 0.319,
+     "mean_60d_corr": -0.698
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": 46.98,
+     "mean_stress_bp": 45.02,
+     "win_pct": 66.7,
+     "t": 1.15,
+     "avg_hold_days": 7.0,
+     "random_mean_bp": -5.6,
+     "p": 0.06,
+     "mean_60d_corr": -0.528
+    },
+    "TEST": {
+     "trades": 8,
+     "mean_net_bp": 2.04,
+     "mean_stress_bp": 0.34,
+     "win_pct": 37.5,
+     "t": 0.07,
+     "avg_hold_days": 17.4,
+     "random_mean_bp": 0.48,
+     "p": 0.488,
+     "mean_60d_corr": -0.734
+    },
+    "avg_beta": -0.687
+   },
+   "trades": 31,
+   "decision": "WATCH"
+  },
+  "STR-050c|XAU~USDCHF": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 9,
+     "mean_net_bp": -66.6,
+     "mean_stress_bp": -68.46,
+     "win_pct": 44.4,
+     "t": -0.51,
+     "avg_hold_days": 10.9,
+     "random_mean_bp": -20.98,
+     "p": 0.655,
+     "mean_60d_corr": -0.478
+    },
+    "VALIDATION": {
+     "trades": 10,
+     "mean_net_bp": -77.76,
+     "mean_stress_bp": -80.15,
+     "win_pct": 60.0,
+     "t": -0.64,
+     "avg_hold_days": 13.2,
+     "random_mean_bp": -90.21,
+     "p": 0.462,
+     "mean_60d_corr": -0.238
+    },
+    "TEST": {
+     "trades": 12,
+     "mean_net_bp": -15.62,
+     "mean_stress_bp": -20.22,
+     "win_pct": 41.7,
+     "t": -0.08,
+     "avg_hold_days": 11.3,
+     "random_mean_bp": -67.34,
+     "p": 0.362,
+     "mean_60d_corr": -0.481
+    },
+    "avg_beta": -1.059
+   },
+   "trades": 31,
+   "decision": "REJECTED"
+  },
+  "STR-050d|XAU~USDJPY": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 12,
+     "mean_net_bp": -58.8,
+     "mean_stress_bp": -62.39,
+     "win_pct": 50.0,
+     "t": -0.61,
+     "avg_hold_days": 10.6,
+     "random_mean_bp": -87.36,
+     "p": 0.366,
+     "mean_60d_corr": -0.44
+    },
+    "VALIDATION": {
+     "trades": 9,
+     "mean_net_bp": 109.88,
+     "mean_stress_bp": 107.94,
+     "win_pct": 77.8,
+     "t": 0.83,
+     "avg_hold_days": 13.6,
+     "random_mean_bp": -141.06,
+     "p": 0.035,
+     "mean_60d_corr": -0.244
+    },
+    "TEST": {
+     "trades": 15,
+     "mean_net_bp": 214.85,
+     "mean_stress_bp": 210.04,
+     "win_pct": 53.3,
+     "t": 1.05,
+     "avg_hold_days": 9.0,
+     "random_mean_bp": -12.45,
+     "p": 0.055,
+     "mean_60d_corr": -0.294
+    },
+    "avg_beta": -0.453
+   },
+   "trades": 36,
+   "decision": "REJECTED"
+  },
+  "STR-050e|USOIL~USDCAD": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 9,
+     "mean_net_bp": 156.29,
+     "mean_stress_bp": 147.0,
+     "win_pct": 55.6,
+     "t": 0.64,
+     "avg_hold_days": 16.0,
+     "random_mean_bp": 10.49,
+     "p": 0.302,
+     "mean_60d_corr": -0.302
+    },
+    "VALIDATION": {
+     "trades": 6,
+     "mean_net_bp": 81.57,
+     "mean_stress_bp": 76.23,
+     "win_pct": 50.0,
+     "t": 0.37,
+     "avg_hold_days": 15.0,
+     "random_mean_bp": -10.85,
+     "p": 0.389,
+     "mean_60d_corr": -0.12
+    },
+    "TEST": {
+     "trades": 13,
+     "mean_net_bp": -15.99,
+     "mean_stress_bp": -24.35,
+     "win_pct": 46.2,
+     "t": -0.04,
+     "avg_hold_days": 11.9,
+     "random_mean_bp": -67.19,
+     "p": 0.44,
+     "mean_60d_corr": -0.03
+    },
+    "avg_beta": -1.482
+   },
+   "trades": 28,
+   "decision": "REJECTED"
+  }
+ },
+ "lead_lag": {
+  "a|EURUSD~USDCHF A->B": {
+   "TRAIN": {
+    "n": 384,
+    "ic": 0.0692,
+    "t": 1.35,
+    "p_two_sided": 0.1754603738022088
+   },
+   "VALIDATION": {
+    "n": 259,
+    "ic": 0.017,
+    "t": 0.27,
+    "p_two_sided": 0.7850114027868026
+   },
+   "TEST": {
+    "n": 351,
+    "ic": 0.0443,
+    "t": 0.83,
+    "p_two_sided": 0.4071391451864927,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": true
+  },
+  "a|EURUSD~USDCHF B->A": {
+   "TRAIN": {
+    "n": 384,
+    "ic": 0.0345,
+    "t": 0.68,
+    "p_two_sided": 0.4996154255653261
+   },
+   "VALIDATION": {
+    "n": 259,
+    "ic": 0.0045,
+    "t": 0.07,
+    "p_two_sided": 0.9429226018969946
+   },
+   "TEST": {
+    "n": 351,
+    "ic": 0.0471,
+    "t": 0.88,
+    "p_two_sided": 0.3788641431376519,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": true
+  },
+  "b|GBPUSD~USDCHF A->B": {
+   "TRAIN": {
+    "n": 383,
+    "ic": 0.0713,
+    "t": 1.4,
+    "p_two_sided": 0.16284884030214317
+   },
+   "VALIDATION": {
+    "n": 259,
+    "ic": -0.0277,
+    "t": -0.44,
+    "p_two_sided": 0.6566668675803855
+   },
+   "TEST": {
+    "n": 353,
+    "ic": 0.0366,
+    "t": 0.69,
+    "p_two_sided": 0.49253828460483523,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": false
+  },
+  "b|GBPUSD~USDCHF B->A": {
+   "TRAIN": {
+    "n": 383,
+    "ic": -0.0143,
+    "t": -0.28,
+    "p_two_sided": 0.7797610799866479
+   },
+   "VALIDATION": {
+    "n": 259,
+    "ic": -0.0104,
+    "t": -0.17,
+    "p_two_sided": 0.86779940025743
+   },
+   "TEST": {
+    "n": 353,
+    "ic": -0.0066,
+    "t": -0.12,
+    "p_two_sided": 0.9010578942560248,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": true
+  },
+  "c|XAU~USDCHF A->B": {
+   "TRAIN": {
+    "n": 367,
+    "ic": 0.0054,
+    "t": 0.1,
+    "p_two_sided": 0.9177804780621704
+   },
+   "VALIDATION": {
+    "n": 249,
+    "ic": 0.0428,
+    "t": 0.67,
+    "p_two_sided": 0.5009006609814023
+   },
+   "TEST": {
+    "n": 340,
+    "ic": 0.044,
+    "t": 0.81,
+    "p_two_sided": 0.41768191170906116,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": true
+  },
+  "c|XAU~USDCHF B->A": {
+   "TRAIN": {
+    "n": 367,
+    "ic": -0.0395,
+    "t": -0.75,
+    "p_two_sided": 0.4505446673131476
+   },
+   "VALIDATION": {
+    "n": 249,
+    "ic": 0.1477,
+    "t": 2.35,
+    "p_two_sided": 0.01895331274360798
+   },
+   "TEST": {
+    "n": 340,
+    "ic": 0.055,
+    "t": 1.01,
+    "p_two_sided": 0.31115380712464724,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": false
+  },
+  "d|XAU~USDJPY A->B": {
+   "TRAIN": {
+    "n": 367,
+    "ic": -0.0378,
+    "t": -0.72,
+    "p_two_sided": 0.4695540977745923
+   },
+   "VALIDATION": {
+    "n": 249,
+    "ic": -0.0419,
+    "t": -0.66,
+    "p_two_sided": 0.5101796255600812
+   },
+   "TEST": {
+    "n": 340,
+    "ic": 0.047,
+    "t": 0.86,
+    "p_two_sided": 0.3872618568814972,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": false
+  },
+  "d|XAU~USDJPY B->A": {
+   "TRAIN": {
+    "n": 367,
+    "ic": 0.0314,
+    "t": 0.6,
+    "p_two_sided": 0.5480010612213849
+   },
+   "VALIDATION": {
+    "n": 249,
+    "ic": 0.1578,
+    "t": 2.51,
+    "p_two_sided": 0.012033020111957162
+   },
+   "TEST": {
+    "n": 340,
+    "ic": 0.0187,
+    "t": 0.34,
+    "p_two_sided": 0.7315388179102734,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": true
+  },
+  "e|USOIL~USDCAD A->B": {
+   "TRAIN": {
+    "n": 370,
+    "ic": -0.0696,
+    "t": -1.34,
+    "p_two_sided": 0.18106699395142245
+   },
+   "VALIDATION": {
+    "n": 248,
+    "ic": 0.0248,
+    "t": 0.39,
+    "p_two_sided": 0.6969458926459693
+   },
+   "TEST": {
+    "n": 338,
+    "ic": 0.0052,
+    "t": 0.09,
+    "p_two_sided": 0.9247461354815599,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": false
+  },
+  "e|USOIL~USDCAD B->A": {
+   "TRAIN": {
+    "n": 370,
+    "ic": 0.0156,
+    "t": 0.3,
+    "p_two_sided": 0.7647483765654577
+   },
+   "VALIDATION": {
+    "n": 248,
+    "ic": 0.0205,
+    "t": 0.32,
+    "p_two_sided": 0.7475029024858376
+   },
+   "TEST": {
+    "n": 338,
+    "ic": -0.0779,
+    "t": -1.43,
+    "p_two_sided": 0.1519980279346599,
+    "bh_significant": false
+   },
+   "consistent_sign_all_periods": false
+  }
+ }
+}

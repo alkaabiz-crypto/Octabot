@@ -1,0 +1,3579 @@
+{
+ "n_tests": 110,
+ "selected_top5": {
+  "XAUUSDm": {
+   "STR-031i": [
+    [
+     "IND-058",
+     -1
+    ],
+    [
+     "IND-039",
+     -1
+    ],
+    [
+     "IND-009",
+     -1
+    ],
+    [
+     "IND-033",
+     -1
+    ],
+    [
+     "IND-044",
+     1
+    ]
+   ],
+   "STR-031j": [
+    [
+     "IND-085",
+     -1
+    ],
+    [
+     "IND-008",
+     -1
+    ],
+    [
+     "IND-072",
+     -1
+    ],
+    [
+     "IND-083",
+     -1
+    ],
+    [
+     "IND-084",
+     -1
+    ]
+   ]
+  },
+  "USOILm": {
+   "STR-031i": [
+    [
+     "IND-073",
+     -1
+    ],
+    [
+     "IND-009",
+     -1
+    ],
+    [
+     "IND-049",
+     -1
+    ],
+    [
+     "IND-086",
+     -1
+    ],
+    [
+     "IND-029",
+     -1
+    ]
+   ],
+   "STR-031j": [
+    [
+     "IND-083",
+     1
+    ],
+    [
+     "IND-050",
+     -1
+    ],
+    [
+     "IND-082",
+     -1
+    ],
+    [
+     "IND-009",
+     -1
+    ],
+    [
+     "IND-043",
+     -1
+    ]
+   ]
+  },
+  "BTCUSDm": {
+   "STR-031i": [
+    [
+     "IND-060",
+     -1
+    ],
+    [
+     "IND-059",
+     -1
+    ],
+    [
+     "IND-025",
+     -1
+    ],
+    [
+     "IND-085",
+     -1
+    ],
+    [
+     "IND-046",
+     -1
+    ]
+   ],
+   "STR-031j": [
+    [
+     "IND-055",
+     -1
+    ],
+    [
+     "IND-084",
+     -1
+    ],
+    [
+     "IND-061",
+     -1
+    ],
+    [
+     "IND-039",
+     -1
+    ],
+    [
+     "IND-043",
+     -1
+    ]
+   ]
+  },
+  "US500m": {
+   "STR-031i": [
+    [
+     "IND-076",
+     -1
+    ],
+    [
+     "IND-042",
+     1
+    ],
+    [
+     "IND-038",
+     -1
+    ],
+    [
+     "IND-017",
+     -1
+    ],
+    [
+     "IND-059",
+     -1
+    ]
+   ],
+   "STR-031j": [
+    [
+     "IND-077",
+     1
+    ],
+    [
+     "IND-025",
+     1
+    ],
+    [
+     "IND-037",
+     -1
+    ],
+    [
+     "IND-074",
+     1
+    ],
+    [
+     "IND-048",
+     1
+    ]
+   ]
+  },
+  "EURUSDm": {
+   "STR-031i": [
+    [
+     "IND-024",
+     -1
+    ],
+    [
+     "IND-050",
+     -1
+    ],
+    [
+     "IND-026",
+     -1
+    ],
+    [
+     "IND-064",
+     -1
+    ],
+    [
+     "IND-012",
+     -1
+    ]
+   ],
+   "STR-031j": [
+    [
+     "IND-048",
+     -1
+    ],
+    [
+     "IND-012",
+     -1
+    ],
+    [
+     "IND-052",
+     -1
+    ],
+    [
+     "IND-056",
+     -1
+    ],
+    [
+     "IND-088",
+     1
+    ]
+   ]
+  }
+ },
+ "results": {
+  "STR-030a|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1039,
+     "mean_R": -0.0825,
+     "mean_R_stress": -0.1215,
+     "win_pct": 32.3
+    },
+    "TRAIN": {
+     "trades": 543,
+     "mean_R": -0.0357,
+     "mean_R_stress": -0.0818,
+     "win_pct": 34.1
+    },
+    "VALIDATION": {
+     "trades": 396,
+     "mean_R": -0.0322,
+     "mean_R_stress": -0.0692,
+     "win_pct": 34.3
+    },
+    "TEST": {
+     "trades": 467,
+     "mean_R": 0.0009,
+     "mean_R_stress": -0.0264,
+     "win_pct": 35.1,
+     "p_random": 0.515,
+     "random_mean_R": 0.0019
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030b|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 118,
+     "mean_R": 0.1091,
+     "mean_R_stress": 0.0644,
+     "win_pct": 39.0
+    },
+    "TRAIN": {
+     "trades": 71,
+     "mean_R": -0.1481,
+     "mean_R_stress": -0.1996,
+     "win_pct": 31.0
+    },
+    "VALIDATION": {
+     "trades": 38,
+     "mean_R": -0.1755,
+     "mean_R_stress": -0.2193,
+     "win_pct": 28.9
+    },
+    "TEST": {
+     "trades": 59,
+     "mean_R": -0.2352,
+     "mean_R_stress": -0.2661,
+     "win_pct": 28.8,
+     "p_random": 0.902,
+     "random_mean_R": -0.0029
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030c|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 184,
+     "mean_R": 0.0585,
+     "mean_R_stress": 0.0196,
+     "win_pct": 37.5
+    },
+    "TRAIN": {
+     "trades": 100,
+     "mean_R": -0.1261,
+     "mean_R_stress": -0.1725,
+     "win_pct": 31.0
+    },
+    "VALIDATION": {
+     "trades": 55,
+     "mean_R": -0.0021,
+     "mean_R_stress": -0.0406,
+     "win_pct": 34.5
+    },
+    "TEST": {
+     "trades": 80,
+     "mean_R": 0.1092,
+     "mean_R_stress": 0.0828,
+     "win_pct": 38.8,
+     "p_random": 0.222,
+     "random_mean_R": -0.0104
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030d|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 74,
+     "mean_R": -0.0334,
+     "mean_R_stress": -0.0652,
+     "win_pct": 39.2
+    },
+    "TRAIN": {
+     "trades": 39,
+     "mean_R": -0.1707,
+     "mean_R_stress": -0.2072,
+     "win_pct": 28.2
+    },
+    "VALIDATION": {
+     "trades": 17,
+     "mean_R": 0.0307,
+     "mean_R_stress": 0.0026,
+     "win_pct": 35.3
+    },
+    "TEST": {
+     "trades": 28,
+     "mean_R": -0.0657,
+     "mean_R_stress": -0.0852,
+     "win_pct": 35.7,
+     "p_random": 0.614,
+     "random_mean_R": -0.0038
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030e|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 615,
+     "mean_R": 0.0541,
+     "mean_R_stress": 0.0163,
+     "win_pct": 36.9
+    },
+    "TRAIN": {
+     "trades": 401,
+     "mean_R": 0.0603,
+     "mean_R_stress": 0.0162,
+     "win_pct": 37.2
+    },
+    "VALIDATION": {
+     "trades": 277,
+     "mean_R": -0.1573,
+     "mean_R_stress": -0.1939,
+     "win_pct": 29.6
+    },
+    "TEST": {
+     "trades": 348,
+     "mean_R": 0.1043,
+     "mean_R_stress": 0.0782,
+     "win_pct": 38.8,
+     "p_random": 0.048,
+     "random_mean_R": -0.0229
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030f|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 602,
+     "mean_R": -0.1033,
+     "mean_R_stress": -0.141,
+     "win_pct": 31.7
+    },
+    "TRAIN": {
+     "trades": 369,
+     "mean_R": 0.0407,
+     "mean_R_stress": -0.0036,
+     "win_pct": 36.3
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_R": 0.197,
+     "mean_R_stress": 0.1604,
+     "win_pct": 41.7
+    },
+    "TEST": {
+     "trades": 341,
+     "mean_R": -0.1249,
+     "mean_R_stress": -0.1509,
+     "win_pct": 30.2,
+     "p_random": 0.958,
+     "random_mean_R": -0.0037
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030g|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 74,
+     "mean_R": -0.093,
+     "mean_R_stress": -0.123,
+     "win_pct": 32.4
+    },
+    "TRAIN": {
+     "trades": 35,
+     "mean_R": -0.1706,
+     "mean_R_stress": -0.2053,
+     "win_pct": 28.6
+    },
+    "VALIDATION": {
+     "trades": 18,
+     "mean_R": 0.1378,
+     "mean_R_stress": 0.1089,
+     "win_pct": 38.9
+    },
+    "TEST": {
+     "trades": 34,
+     "mean_R": -0.763,
+     "mean_R_stress": -0.7843,
+     "win_pct": 8.8,
+     "p_random": 0.999,
+     "random_mean_R": 0.0049
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030h|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 84,
+     "mean_R": 0.1684,
+     "mean_R_stress": 0.1225,
+     "win_pct": 40.5
+    },
+    "TRAIN": {
+     "trades": 43,
+     "mean_R": 0.1259,
+     "mean_R_stress": 0.0658,
+     "win_pct": 39.5
+    },
+    "VALIDATION": {
+     "trades": 21,
+     "mean_R": 0.2759,
+     "mean_R_stress": 0.2329,
+     "win_pct": 47.6
+    },
+    "TEST": {
+     "trades": 20,
+     "mean_R": -0.1501,
+     "mean_R_stress": -0.1778,
+     "win_pct": 35.0,
+     "p_random": 0.721,
+     "random_mean_R": 0.02
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030i|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 177,
+     "mean_R": -0.1003,
+     "mean_R_stress": -0.1407,
+     "win_pct": 32.2
+    },
+    "TRAIN": {
+     "trades": 81,
+     "mean_R": -0.1436,
+     "mean_R_stress": -0.1914,
+     "win_pct": 30.9
+    },
+    "VALIDATION": {
+     "trades": 55,
+     "mean_R": 0.0177,
+     "mean_R_stress": -0.0212,
+     "win_pct": 36.4
+    },
+    "TEST": {
+     "trades": 92,
+     "mean_R": 0.1884,
+     "mean_R_stress": 0.1623,
+     "win_pct": 41.3,
+     "p_random": 0.067,
+     "random_mean_R": -0.0249
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030j|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 466,
+     "mean_R": 0.0244,
+     "mean_R_stress": -0.0154,
+     "win_pct": 36.1
+    },
+    "TRAIN": {
+     "trades": 259,
+     "mean_R": -0.0251,
+     "mean_R_stress": -0.0714,
+     "win_pct": 34.7
+    },
+    "VALIDATION": {
+     "trades": 168,
+     "mean_R": 0.0449,
+     "mean_R_stress": 0.0065,
+     "win_pct": 36.9
+    },
+    "TEST": {
+     "trades": 204,
+     "mean_R": 0.1052,
+     "mean_R_stress": 0.0774,
+     "win_pct": 38.7,
+     "p_random": 0.077,
+     "random_mean_R": -0.0339
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031a|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 390,
+     "mean_R": -0.0293,
+     "mean_R_stress": -0.0698,
+     "win_pct": 34.1
+    },
+    "TRAIN": {
+     "trades": 190,
+     "mean_R": 0.0426,
+     "mean_R_stress": -0.0055,
+     "win_pct": 36.8
+    },
+    "VALIDATION": {
+     "trades": 144,
+     "mean_R": -0.1521,
+     "mean_R_stress": -0.1915,
+     "win_pct": 29.9
+    },
+    "TEST": {
+     "trades": 157,
+     "mean_R": 0.0944,
+     "mean_R_stress": 0.0665,
+     "win_pct": 39.5,
+     "p_random": 0.123,
+     "random_mean_R": -0.0363
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031b|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 71,
+     "mean_R": -0.1406,
+     "mean_R_stress": -0.1779,
+     "win_pct": 29.6
+    },
+    "TRAIN": {
+     "trades": 30,
+     "mean_R": 0.1544,
+     "mean_R_stress": 0.1089,
+     "win_pct": 40.0
+    },
+    "VALIDATION": {
+     "trades": 21,
+     "mean_R": -0.3231,
+     "mean_R_stress": -0.3605,
+     "win_pct": 23.8
+    },
+    "TEST": {
+     "trades": 25,
+     "mean_R": -0.5464,
+     "mean_R_stress": -0.5729,
+     "win_pct": 16.0,
+     "p_random": 0.975,
+     "random_mean_R": -0.0219
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031c|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 51,
+     "mean_R": -0.2603,
+     "mean_R_stress": -0.2984,
+     "win_pct": 25.5
+    },
+    "TRAIN": {
+     "trades": 23,
+     "mean_R": 0.3877,
+     "mean_R_stress": 0.3407,
+     "win_pct": 47.8
+    },
+    "VALIDATION": {
+     "trades": 15,
+     "mean_R": -0.6366,
+     "mean_R_stress": -0.6731,
+     "win_pct": 13.3
+    },
+    "TEST": {
+     "trades": 17,
+     "mean_R": -0.6731,
+     "mean_R_stress": -0.6991,
+     "win_pct": 11.8,
+     "p_random": 0.97,
+     "random_mean_R": -0.0705
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031d|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 596,
+     "mean_R": 0.0201,
+     "mean_R_stress": -0.0191,
+     "win_pct": 36.2
+    },
+    "TRAIN": {
+     "trades": 305,
+     "mean_R": -0.1555,
+     "mean_R_stress": -0.2014,
+     "win_pct": 29.8
+    },
+    "VALIDATION": {
+     "trades": 203,
+     "mean_R": 0.1135,
+     "mean_R_stress": 0.0759,
+     "win_pct": 38.9
+    },
+    "TEST": {
+     "trades": 283,
+     "mean_R": -0.0006,
+     "mean_R_stress": -0.0274,
+     "win_pct": 35.7,
+     "p_random": 0.542,
+     "random_mean_R": 0.0069
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031f|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 761,
+     "mean_R": -0.0045,
+     "mean_R_stress": -0.0442,
+     "win_pct": 35.2
+    },
+    "TRAIN": {
+     "trades": 398,
+     "mean_R": -0.0849,
+     "mean_R_stress": -0.133,
+     "win_pct": 32.7
+    },
+    "VALIDATION": {
+     "trades": 251,
+     "mean_R": 0.0454,
+     "mean_R_stress": 0.0071,
+     "win_pct": 36.7
+    },
+    "TEST": {
+     "trades": 338,
+     "mean_R": 0.0775,
+     "mean_R_stress": 0.0505,
+     "win_pct": 38.2,
+     "p_random": 0.165,
+     "random_mean_R": 0.0025
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031e|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 316,
+     "mean_R": -0.1818,
+     "mean_R_stress": -0.2198,
+     "win_pct": 29.1
+    },
+    "TRAIN": {
+     "trades": 175,
+     "mean_R": 0.044,
+     "mean_R_stress": 0.0003,
+     "win_pct": 36.6
+    },
+    "VALIDATION": {
+     "trades": 124,
+     "mean_R": -0.0171,
+     "mean_R_stress": -0.055,
+     "win_pct": 34.7
+    },
+    "TEST": {
+     "trades": 160,
+     "mean_R": -0.1796,
+     "mean_R_stress": -0.2052,
+     "win_pct": 28.7,
+     "p_random": 0.965,
+     "random_mean_R": 0.006
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031g|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 881,
+     "mean_R": -0.0537,
+     "mean_R_stress": -0.0933,
+     "win_pct": 33.5
+    },
+    "TRAIN": {
+     "trades": 485,
+     "mean_R": -0.0807,
+     "mean_R_stress": -0.1289,
+     "win_pct": 32.6
+    },
+    "VALIDATION": {
+     "trades": 324,
+     "mean_R": -0.0352,
+     "mean_R_stress": -0.0742,
+     "win_pct": 34.9
+    },
+    "TEST": {
+     "trades": 438,
+     "mean_R": 0.0276,
+     "mean_R_stress": 0.0002,
+     "win_pct": 36.1,
+     "p_random": 0.312,
+     "random_mean_R": -0.0046
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031h|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 457,
+     "mean_R": -0.034,
+     "mean_R_stress": -0.072,
+     "win_pct": 34.4
+    },
+    "TRAIN": {
+     "trades": 241,
+     "mean_R": -0.0626,
+     "mean_R_stress": -0.107,
+     "win_pct": 33.2
+    },
+    "VALIDATION": {
+     "trades": 174,
+     "mean_R": -0.175,
+     "mean_R_stress": -0.2109,
+     "win_pct": 30.5
+    },
+    "TEST": {
+     "trades": 233,
+     "mean_R": 0.0094,
+     "mean_R_stress": -0.0173,
+     "win_pct": 35.6,
+     "p_random": 0.427,
+     "random_mean_R": -0.0054
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031i|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 734,
+     "mean_R": -0.0477,
+     "mean_R_stress": -0.0871,
+     "win_pct": 33.8
+    },
+    "TRAIN": {
+     "trades": 371,
+     "mean_R": -0.0202,
+     "mean_R_stress": -0.067,
+     "win_pct": 35.6
+    },
+    "VALIDATION": {
+     "trades": 268,
+     "mean_R": -0.2342,
+     "mean_R_stress": -0.2722,
+     "win_pct": 27.2
+    },
+    "TEST": {
+     "trades": 375,
+     "mean_R": -0.1146,
+     "mean_R_stress": -0.142,
+     "win_pct": 30.9,
+     "p_random": 0.934,
+     "random_mean_R": -0.0147
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031j|XAUUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 489,
+     "mean_R": -0.0536,
+     "mean_R_stress": -0.0907,
+     "win_pct": 34.2
+    },
+    "TRAIN": {
+     "trades": 255,
+     "mean_R": -0.0397,
+     "mean_R_stress": -0.0848,
+     "win_pct": 35.3
+    },
+    "VALIDATION": {
+     "trades": 185,
+     "mean_R": 0.0188,
+     "mean_R_stress": -0.0164,
+     "win_pct": 35.1
+    },
+    "TEST": {
+     "trades": 233,
+     "mean_R": -0.1555,
+     "mean_R_stress": -0.1811,
+     "win_pct": 30.0,
+     "p_random": 0.931,
+     "random_mean_R": -0.026
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030k|XAUUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 3544,
+     "mean_net_bp": -1.53,
+     "t": -3.53
+    },
+    "TRAIN": {
+     "trades": 1760,
+     "mean_net_bp": 2.107,
+     "t": 4.15
+    },
+    "VALIDATION": {
+     "trades": 1186,
+     "mean_net_bp": -1.107,
+     "t": -1.59
+    },
+    "TEST": {
+     "trades": 1616,
+     "mean_net_bp": -0.894,
+     "t": -0.99,
+     "p_one_sided": 0.8385669149438858
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030l|XAUUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 75,
+     "mean_net_bp": 3.469,
+     "t": 0.1
+    },
+    "TRAIN": {
+     "trades": 37,
+     "mean_net_bp": -1.194,
+     "t": -0.03
+    },
+    "VALIDATION": {
+     "trades": 25,
+     "mean_net_bp": -80.776,
+     "t": -1.19
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_net_bp": -34.083,
+     "t": -0.39,
+     "p_one_sided": 0.6511956284869183
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030a|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1555,
+     "mean_R": -0.0955,
+     "mean_R_stress": -0.2196,
+     "win_pct": 34.7
+    },
+    "TRAIN": {
+     "trades": 602,
+     "mean_R": -0.1499,
+     "mean_R_stress": -0.2941,
+     "win_pct": 33.4
+    },
+    "VALIDATION": {
+     "trades": 365,
+     "mean_R": -0.1475,
+     "mean_R_stress": -0.2917,
+     "win_pct": 34.2
+    },
+    "TEST": {
+     "trades": 504,
+     "mean_R": -0.2205,
+     "mean_R_stress": -0.3339,
+     "win_pct": 31.0,
+     "p_random": 0.963,
+     "random_mean_R": -0.1078
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030b|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 163,
+     "mean_R": -0.1434,
+     "mean_R_stress": -0.2815,
+     "win_pct": 33.1
+    },
+    "TRAIN": {
+     "trades": 63,
+     "mean_R": -0.0895,
+     "mean_R_stress": -0.2504,
+     "win_pct": 36.5
+    },
+    "VALIDATION": {
+     "trades": 48,
+     "mean_R": 0.0887,
+     "mean_R_stress": -0.0669,
+     "win_pct": 41.7
+    },
+    "TEST": {
+     "trades": 55,
+     "mean_R": 0.1491,
+     "mean_R_stress": 0.0169,
+     "win_pct": 45.5,
+     "p_random": 0.075,
+     "random_mean_R": -0.1115
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030c|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 234,
+     "mean_R": -0.1487,
+     "mean_R_stress": -0.2782,
+     "win_pct": 32.9
+    },
+    "TRAIN": {
+     "trades": 87,
+     "mean_R": -0.2517,
+     "mean_R_stress": -0.3999,
+     "win_pct": 29.9
+    },
+    "VALIDATION": {
+     "trades": 55,
+     "mean_R": 0.1358,
+     "mean_R_stress": -0.0122,
+     "win_pct": 43.6
+    },
+    "TEST": {
+     "trades": 91,
+     "mean_R": -0.1138,
+     "mean_R_stress": -0.2305,
+     "win_pct": 34.1,
+     "p_random": 0.481,
+     "random_mean_R": -0.1135
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030d|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 70,
+     "mean_R": 0.0619,
+     "mean_R_stress": -0.0405,
+     "win_pct": 38.6
+    },
+    "TRAIN": {
+     "trades": 24,
+     "mean_R": -0.4927,
+     "mean_R_stress": -0.6104,
+     "win_pct": 20.8
+    },
+    "VALIDATION": {
+     "trades": 18,
+     "mean_R": 0.0201,
+     "mean_R_stress": -0.0722,
+     "win_pct": 44.4
+    },
+    "TEST": {
+     "trades": 24,
+     "mean_R": -0.0492,
+     "mean_R_stress": -0.135,
+     "win_pct": 37.5,
+     "p_random": 0.443,
+     "random_mean_R": -0.0871
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030e|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1002,
+     "mean_R": -0.1183,
+     "mean_R_stress": -0.2449,
+     "win_pct": 33.8
+    },
+    "TRAIN": {
+     "trades": 477,
+     "mean_R": -0.0065,
+     "mean_R_stress": -0.1456,
+     "win_pct": 37.9
+    },
+    "VALIDATION": {
+     "trades": 296,
+     "mean_R": -0.2462,
+     "mean_R_stress": -0.3874,
+     "win_pct": 31.4
+    },
+    "TEST": {
+     "trades": 380,
+     "mean_R": -0.1737,
+     "mean_R_stress": -0.285,
+     "win_pct": 32.6,
+     "p_random": 0.773,
+     "random_mean_R": -0.1201
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030f|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 926,
+     "mean_R": -0.144,
+     "mean_R_stress": -0.2699,
+     "win_pct": 33.0
+    },
+    "TRAIN": {
+     "trades": 450,
+     "mean_R": -0.2154,
+     "mean_R_stress": -0.3555,
+     "win_pct": 32.0
+    },
+    "VALIDATION": {
+     "trades": 287,
+     "mean_R": -0.1528,
+     "mean_R_stress": -0.2929,
+     "win_pct": 33.8
+    },
+    "TEST": {
+     "trades": 356,
+     "mean_R": -0.1731,
+     "mean_R_stress": -0.2844,
+     "win_pct": 33.1,
+     "p_random": 0.83,
+     "random_mean_R": -0.1044
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030g|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 93,
+     "mean_R": -0.2322,
+     "mean_R_stress": -0.3275,
+     "win_pct": 30.1
+    },
+    "TRAIN": {
+     "trades": 28,
+     "mean_R": 0.0429,
+     "mean_R_stress": -0.0583,
+     "win_pct": 39.3
+    },
+    "VALIDATION": {
+     "trades": 27,
+     "mean_R": -0.6193,
+     "mean_R_stress": -0.7248,
+     "win_pct": 18.5
+    },
+    "TEST": {
+     "trades": 35,
+     "mean_R": -0.2586,
+     "mean_R_stress": -0.3431,
+     "win_pct": 28.6,
+     "p_random": 0.714,
+     "random_mean_R": -0.1195
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030h|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 134,
+     "mean_R": -0.0437,
+     "mean_R_stress": -0.2067,
+     "win_pct": 37.3
+    },
+    "TRAIN": {
+     "trades": 56,
+     "mean_R": -0.4255,
+     "mean_R_stress": -0.6008,
+     "win_pct": 25.0
+    },
+    "VALIDATION": {
+     "trades": 48,
+     "mean_R": -0.3077,
+     "mean_R_stress": -0.4835,
+     "win_pct": 29.2
+    },
+    "TEST": {
+     "trades": 38,
+     "mean_R": -0.0215,
+     "mean_R_stress": -0.1457,
+     "win_pct": 36.8,
+     "p_random": 0.285,
+     "random_mean_R": -0.1459
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030i|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 223,
+     "mean_R": -0.2567,
+     "mean_R_stress": -0.3837,
+     "win_pct": 29.6
+    },
+    "TRAIN": {
+     "trades": 102,
+     "mean_R": -0.1955,
+     "mean_R_stress": -0.358,
+     "win_pct": 32.4
+    },
+    "VALIDATION": {
+     "trades": 73,
+     "mean_R": -0.0227,
+     "mean_R_stress": -0.1743,
+     "win_pct": 38.4
+    },
+    "TEST": {
+     "trades": 70,
+     "mean_R": -0.3131,
+     "mean_R_stress": -0.429,
+     "win_pct": 27.1,
+     "p_random": 0.857,
+     "random_mean_R": -0.1439
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030j|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 701,
+     "mean_R": -0.1383,
+     "mean_R_stress": -0.2603,
+     "win_pct": 33.4
+    },
+    "TRAIN": {
+     "trades": 249,
+     "mean_R": -0.1644,
+     "mean_R_stress": -0.3045,
+     "win_pct": 32.9
+    },
+    "VALIDATION": {
+     "trades": 183,
+     "mean_R": -0.1854,
+     "mean_R_stress": -0.3254,
+     "win_pct": 31.7
+    },
+    "TEST": {
+     "trades": 241,
+     "mean_R": -0.0336,
+     "mean_R_stress": -0.1435,
+     "win_pct": 36.9,
+     "p_random": 0.274,
+     "random_mean_R": -0.0895
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031a|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 479,
+     "mean_R": -0.0909,
+     "mean_R_stress": -0.218,
+     "win_pct": 36.3
+    },
+    "TRAIN": {
+     "trades": 214,
+     "mean_R": -0.1278,
+     "mean_R_stress": -0.2746,
+     "win_pct": 34.1
+    },
+    "VALIDATION": {
+     "trades": 125,
+     "mean_R": -0.0024,
+     "mean_R_stress": -0.1507,
+     "win_pct": 38.4
+    },
+    "TEST": {
+     "trades": 196,
+     "mean_R": -0.0746,
+     "mean_R_stress": -0.1876,
+     "win_pct": 35.2,
+     "p_random": 0.283,
+     "random_mean_R": -0.1333
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031b|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 102,
+     "mean_R": -0.101,
+     "mean_R_stress": -0.2131,
+     "win_pct": 38.2
+    },
+    "TRAIN": {
+     "trades": 42,
+     "mean_R": -0.3642,
+     "mean_R_stress": -0.5052,
+     "win_pct": 26.2
+    },
+    "VALIDATION": {
+     "trades": 19,
+     "mean_R": -0.3678,
+     "mean_R_stress": -0.5251,
+     "win_pct": 26.3
+    },
+    "TEST": {
+     "trades": 37,
+     "mean_R": -0.1828,
+     "mean_R_stress": -0.2988,
+     "win_pct": 32.4,
+     "p_random": 0.436,
+     "random_mean_R": -0.2156
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031c|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 68,
+     "mean_R": -0.1677,
+     "mean_R_stress": -0.2784,
+     "win_pct": 38.2
+    },
+    "TRAIN": {
+     "trades": 29,
+     "mean_R": -0.4352,
+     "mean_R_stress": -0.5817,
+     "win_pct": 24.1
+    },
+    "VALIDATION": {
+     "trades": 13,
+     "mean_R": -0.682,
+     "mean_R_stress": -0.8256,
+     "win_pct": 15.4
+    },
+    "TEST": {
+     "trades": 21,
+     "mean_R": -0.2944,
+     "mean_R_stress": -0.4119,
+     "win_pct": 28.6,
+     "p_random": 0.652,
+     "random_mean_R": -0.1691
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031d|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 810,
+     "mean_R": -0.0125,
+     "mean_R_stress": -0.1323,
+     "win_pct": 37.4
+    },
+    "TRAIN": {
+     "trades": 324,
+     "mean_R": -0.0585,
+     "mean_R_stress": -0.197,
+     "win_pct": 36.4
+    },
+    "VALIDATION": {
+     "trades": 225,
+     "mean_R": -0.2067,
+     "mean_R_stress": -0.3483,
+     "win_pct": 32.0
+    },
+    "TEST": {
+     "trades": 285,
+     "mean_R": -0.0241,
+     "mean_R_stress": -0.135,
+     "win_pct": 37.5,
+     "p_random": 0.162,
+     "random_mean_R": -0.1097
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031f|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1041,
+     "mean_R": -0.0346,
+     "mean_R_stress": -0.1594,
+     "win_pct": 36.9
+    },
+    "TRAIN": {
+     "trades": 410,
+     "mean_R": -0.051,
+     "mean_R_stress": -0.1931,
+     "win_pct": 36.6
+    },
+    "VALIDATION": {
+     "trades": 262,
+     "mean_R": -0.1463,
+     "mean_R_stress": -0.2899,
+     "win_pct": 34.4
+    },
+    "TEST": {
+     "trades": 356,
+     "mean_R": -0.134,
+     "mean_R_stress": -0.2495,
+     "win_pct": 33.7,
+     "p_random": 0.601,
+     "random_mean_R": -0.1134
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031e|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 469,
+     "mean_R": -0.233,
+     "mean_R_stress": -0.3522,
+     "win_pct": 30.3
+    },
+    "TRAIN": {
+     "trades": 172,
+     "mean_R": -0.0496,
+     "mean_R_stress": -0.1874,
+     "win_pct": 37.2
+    },
+    "VALIDATION": {
+     "trades": 114,
+     "mean_R": -0.1202,
+     "mean_R_stress": -0.2632,
+     "win_pct": 35.1
+    },
+    "TEST": {
+     "trades": 150,
+     "mean_R": -0.2423,
+     "mean_R_stress": -0.3543,
+     "win_pct": 30.0,
+     "p_random": 0.819,
+     "random_mean_R": -0.1407
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031g|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1284,
+     "mean_R": -0.1414,
+     "mean_R_stress": -0.266,
+     "win_pct": 33.3
+    },
+    "TRAIN": {
+     "trades": 470,
+     "mean_R": -0.1559,
+     "mean_R_stress": -0.2992,
+     "win_pct": 33.6
+    },
+    "VALIDATION": {
+     "trades": 311,
+     "mean_R": -0.2084,
+     "mean_R_stress": -0.3522,
+     "win_pct": 31.8
+    },
+    "TEST": {
+     "trades": 433,
+     "mean_R": -0.2075,
+     "mean_R_stress": -0.3238,
+     "win_pct": 30.9,
+     "p_random": 0.931,
+     "random_mean_R": -0.1054
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031h|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 682,
+     "mean_R": -0.1107,
+     "mean_R_stress": -0.2336,
+     "win_pct": 34.3
+    },
+    "TRAIN": {
+     "trades": 271,
+     "mean_R": -0.132,
+     "mean_R_stress": -0.2718,
+     "win_pct": 33.6
+    },
+    "VALIDATION": {
+     "trades": 205,
+     "mean_R": -0.228,
+     "mean_R_stress": -0.3669,
+     "win_pct": 31.7
+    },
+    "TEST": {
+     "trades": 243,
+     "mean_R": -0.0972,
+     "mean_R_stress": -0.2102,
+     "win_pct": 34.6,
+     "p_random": 0.352,
+     "random_mean_R": -0.1297
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031i|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1155,
+     "mean_R": -0.0756,
+     "mean_R_stress": -0.1962,
+     "win_pct": 35.5
+    },
+    "TRAIN": {
+     "trades": 437,
+     "mean_R": -0.056,
+     "mean_R_stress": -0.1992,
+     "win_pct": 37.1
+    },
+    "VALIDATION": {
+     "trades": 303,
+     "mean_R": -0.1498,
+     "mean_R_stress": -0.2946,
+     "win_pct": 34.3
+    },
+    "TEST": {
+     "trades": 402,
+     "mean_R": -0.0889,
+     "mean_R_stress": -0.2015,
+     "win_pct": 35.3,
+     "p_random": 0.395,
+     "random_mean_R": -0.1072
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031j|USOILm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 465,
+     "mean_R": -0.1661,
+     "mean_R_stress": -0.2926,
+     "win_pct": 33.1
+    },
+    "TRAIN": {
+     "trades": 192,
+     "mean_R": -0.2135,
+     "mean_R_stress": -0.365,
+     "win_pct": 31.8
+    },
+    "VALIDATION": {
+     "trades": 116,
+     "mean_R": 0.0032,
+     "mean_R_stress": -0.1495,
+     "win_pct": 38.8
+    },
+    "TEST": {
+     "trades": 149,
+     "mean_R": -0.3696,
+     "mean_R_stress": -0.492,
+     "win_pct": 25.5,
+     "p_random": 0.972,
+     "random_mean_R": -0.1592
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030k|USOILm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 4339,
+     "mean_net_bp": -11.593,
+     "t": -8.67
+    },
+    "TRAIN": {
+     "trades": 1687,
+     "mean_net_bp": -2.116,
+     "t": -1.66
+    },
+    "VALIDATION": {
+     "trades": 1130,
+     "mean_net_bp": -9.695,
+     "t": -5.63
+    },
+    "TEST": {
+     "trades": 1516,
+     "mean_net_bp": -13.086,
+     "t": -5.78,
+     "p_one_sided": 0.9999999962585815
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030l|USOILm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 96,
+     "mean_net_bp": -51.824,
+     "t": -0.51
+    },
+    "TRAIN": {
+     "trades": 37,
+     "mean_net_bp": 42.484,
+     "t": 0.5
+    },
+    "VALIDATION": {
+     "trades": 25,
+     "mean_net_bp": -317.73,
+     "t": -2.33
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_net_bp": 96.128,
+     "t": 0.6,
+     "p_one_sided": 0.2727006360532291
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030a|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1418,
+     "mean_R": -0.0561,
+     "mean_R_stress": -0.1381,
+     "win_pct": 35.0
+    },
+    "TRAIN": {
+     "trades": 761,
+     "mean_R": -0.1134,
+     "mean_R_stress": -0.2401,
+     "win_pct": 34.7
+    },
+    "VALIDATION": {
+     "trades": 493,
+     "mean_R": 0.046,
+     "mean_R_stress": -0.0618,
+     "win_pct": 39.6
+    },
+    "TEST": {
+     "trades": 672,
+     "mean_R": -0.0681,
+     "mean_R_stress": -0.2052,
+     "win_pct": 36.5,
+     "p_random": 0.142,
+     "random_mean_R": -0.1224
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030b|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 204,
+     "mean_R": -0.2753,
+     "mean_R_stress": -0.3817,
+     "win_pct": 28.4
+    },
+    "TRAIN": {
+     "trades": 88,
+     "mean_R": -0.1772,
+     "mean_R_stress": -0.3699,
+     "win_pct": 34.1
+    },
+    "VALIDATION": {
+     "trades": 60,
+     "mean_R": -0.0571,
+     "mean_R_stress": -0.2142,
+     "win_pct": 36.7
+    },
+    "TEST": {
+     "trades": 67,
+     "mean_R": -0.1752,
+     "mean_R_stress": -0.3799,
+     "win_pct": 34.3,
+     "p_random": 0.639,
+     "random_mean_R": -0.1204
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030c|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 273,
+     "mean_R": 0.0479,
+     "mean_R_stress": -0.0396,
+     "win_pct": 38.8
+    },
+    "TRAIN": {
+     "trades": 131,
+     "mean_R": -0.084,
+     "mean_R_stress": -0.2147,
+     "win_pct": 35.9
+    },
+    "VALIDATION": {
+     "trades": 71,
+     "mean_R": -0.2943,
+     "mean_R_stress": -0.4056,
+     "win_pct": 28.2
+    },
+    "TEST": {
+     "trades": 112,
+     "mean_R": -0.0661,
+     "mean_R_stress": -0.2008,
+     "win_pct": 36.6,
+     "p_random": 0.342,
+     "random_mean_R": -0.112
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030d|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 152,
+     "mean_R": -0.1588,
+     "mean_R_stress": -0.2349,
+     "win_pct": 32.9
+    },
+    "TRAIN": {
+     "trades": 104,
+     "mean_R": -0.12,
+     "mean_R_stress": -0.233,
+     "win_pct": 35.6
+    },
+    "VALIDATION": {
+     "trades": 59,
+     "mean_R": -0.327,
+     "mean_R_stress": -0.4154,
+     "win_pct": 27.1
+    },
+    "TEST": {
+     "trades": 90,
+     "mean_R": -0.1072,
+     "mean_R_stress": -0.2279,
+     "win_pct": 33.3,
+     "p_random": 0.496,
+     "random_mean_R": -0.1057
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030e|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 37,
+     "mean_R": -0.0428,
+     "mean_R_stress": -0.0889,
+     "win_pct": 35.1
+    },
+    "TRAIN": {
+     "trades": 76,
+     "mean_R": -0.2588,
+     "mean_R_stress": -0.3458,
+     "win_pct": 27.6
+    },
+    "VALIDATION": {
+     "trades": 38,
+     "mean_R": -0.183,
+     "mean_R_stress": -0.2716,
+     "win_pct": 31.6
+    },
+    "TEST": {
+     "trades": 339,
+     "mean_R": 0.0629,
+     "mean_R_stress": -0.0458,
+     "win_pct": 40.7,
+     "p_random": 0.004,
+     "random_mean_R": -0.1368
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030f|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 37,
+     "mean_R": -0.0539,
+     "mean_R_stress": -0.1,
+     "win_pct": 35.1
+    },
+    "TRAIN": {
+     "trades": 78,
+     "mean_R": -0.1593,
+     "mean_R_stress": -0.2457,
+     "win_pct": 33.3
+    },
+    "VALIDATION": {
+     "trades": 37,
+     "mean_R": -0.071,
+     "mean_R_stress": -0.1608,
+     "win_pct": 35.1
+    },
+    "TEST": {
+     "trades": 340,
+     "mean_R": -0.1921,
+     "mean_R_stress": -0.3006,
+     "win_pct": 33.2,
+     "p_random": 0.846,
+     "random_mean_R": -0.1216
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030g|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 66,
+     "mean_R": -0.4003,
+     "mean_R_stress": -0.4629,
+     "win_pct": 25.8
+    },
+    "TRAIN": {
+     "trades": 51,
+     "mean_R": -0.5279,
+     "mean_R_stress": -0.6116,
+     "win_pct": 19.6
+    },
+    "VALIDATION": {
+     "trades": 25,
+     "mean_R": -0.083,
+     "mean_R_stress": -0.1563,
+     "win_pct": 32.0
+    },
+    "TEST": {
+     "trades": 35,
+     "mean_R": -0.1991,
+     "mean_R_stress": -0.2915,
+     "win_pct": 31.4,
+     "p_random": 0.569,
+     "random_mean_R": -0.1616
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030h|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 77,
+     "mean_R": -0.4427,
+     "mean_R_stress": -0.5478,
+     "win_pct": 22.1
+    },
+    "TRAIN": {
+     "trades": 66,
+     "mean_R": -0.341,
+     "mean_R_stress": -0.5507,
+     "win_pct": 28.8
+    },
+    "VALIDATION": {
+     "trades": 58,
+     "mean_R": -0.0063,
+     "mean_R_stress": -0.1649,
+     "win_pct": 37.9
+    },
+    "TEST": {
+     "trades": 72,
+     "mean_R": -0.2667,
+     "mean_R_stress": -0.4824,
+     "win_pct": 31.9,
+     "p_random": 0.835,
+     "random_mean_R": -0.1052
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030i|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 229,
+     "mean_R": -0.0885,
+     "mean_R_stress": -0.1718,
+     "win_pct": 34.5
+    },
+    "TRAIN": {
+     "trades": 74,
+     "mean_R": 0.3335,
+     "mean_R_stress": 0.2158,
+     "win_pct": 50.0
+    },
+    "VALIDATION": {
+     "trades": 68,
+     "mean_R": -0.1518,
+     "mean_R_stress": -0.2509,
+     "win_pct": 32.4
+    },
+    "TEST": {
+     "trades": 64,
+     "mean_R": -0.1185,
+     "mean_R_stress": -0.2666,
+     "win_pct": 35.9,
+     "p_random": 0.461,
+     "random_mean_R": -0.1357
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030j|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 618,
+     "mean_R": 0.015,
+     "mean_R_stress": -0.0698,
+     "win_pct": 37.2
+    },
+    "TRAIN": {
+     "trades": 291,
+     "mean_R": -0.0374,
+     "mean_R_stress": -0.1679,
+     "win_pct": 37.5
+    },
+    "VALIDATION": {
+     "trades": 249,
+     "mean_R": -0.1152,
+     "mean_R_stress": -0.2261,
+     "win_pct": 33.7
+    },
+    "TEST": {
+     "trades": 318,
+     "mean_R": -0.1422,
+     "mean_R_stress": -0.2745,
+     "win_pct": 33.6,
+     "p_random": 0.592,
+     "random_mean_R": -0.1241
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031a|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 557,
+     "mean_R": 0.0068,
+     "mean_R_stress": -0.082,
+     "win_pct": 37.3
+    },
+    "TRAIN": {
+     "trades": 280,
+     "mean_R": -0.0456,
+     "mean_R_stress": -0.1839,
+     "win_pct": 38.2
+    },
+    "VALIDATION": {
+     "trades": 190,
+     "mean_R": -0.1187,
+     "mean_R_stress": -0.2273,
+     "win_pct": 34.7
+    },
+    "TEST": {
+     "trades": 262,
+     "mean_R": -0.1255,
+     "mean_R_stress": -0.2765,
+     "win_pct": 34.7,
+     "p_random": 0.527,
+     "random_mean_R": -0.1187
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031b|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 98,
+     "mean_R": 0.0261,
+     "mean_R_stress": -0.0586,
+     "win_pct": 37.8
+    },
+    "TRAIN": {
+     "trades": 61,
+     "mean_R": -0.0568,
+     "mean_R_stress": -0.176,
+     "win_pct": 37.7
+    },
+    "VALIDATION": {
+     "trades": 53,
+     "mean_R": -0.2233,
+     "mean_R_stress": -0.32,
+     "win_pct": 30.2
+    },
+    "TEST": {
+     "trades": 53,
+     "mean_R": -0.2814,
+     "mean_R_stress": -0.4118,
+     "win_pct": 28.3,
+     "p_random": 0.755,
+     "random_mean_R": -0.1417
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031c|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 66,
+     "mean_R": 0.0219,
+     "mean_R_stress": -0.0602,
+     "win_pct": 37.9
+    },
+    "TRAIN": {
+     "trades": 39,
+     "mean_R": -0.1138,
+     "mean_R_stress": -0.2294,
+     "win_pct": 35.9
+    },
+    "VALIDATION": {
+     "trades": 29,
+     "mean_R": -0.2289,
+     "mean_R_stress": -0.3298,
+     "win_pct": 31.0
+    },
+    "TEST": {
+     "trades": 34,
+     "mean_R": -0.1626,
+     "mean_R_stress": -0.2959,
+     "win_pct": 32.4,
+     "p_random": 0.566,
+     "random_mean_R": -0.1229
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031d|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 805,
+     "mean_R": 0.008,
+     "mean_R_stress": -0.0774,
+     "win_pct": 37.0
+    },
+    "TRAIN": {
+     "trades": 430,
+     "mean_R": -0.1682,
+     "mean_R_stress": -0.3008,
+     "win_pct": 32.6
+    },
+    "VALIDATION": {
+     "trades": 307,
+     "mean_R": -0.0695,
+     "mean_R_stress": -0.1788,
+     "win_pct": 35.2
+    },
+    "TEST": {
+     "trades": 408,
+     "mean_R": -0.1646,
+     "mean_R_stress": -0.3045,
+     "win_pct": 33.3,
+     "p_random": 0.773,
+     "random_mean_R": -0.1141
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031f|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1058,
+     "mean_R": -0.003,
+     "mean_R_stress": -0.0892,
+     "win_pct": 37.0
+    },
+    "TRAIN": {
+     "trades": 547,
+     "mean_R": -0.0543,
+     "mean_R_stress": -0.1897,
+     "win_pct": 37.1
+    },
+    "VALIDATION": {
+     "trades": 388,
+     "mean_R": -0.1035,
+     "mean_R_stress": -0.2117,
+     "win_pct": 33.5
+    },
+    "TEST": {
+     "trades": 501,
+     "mean_R": -0.1086,
+     "mean_R_stress": -0.2488,
+     "win_pct": 35.1,
+     "p_random": 0.424,
+     "random_mean_R": -0.1193
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031e|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 448,
+     "mean_R": -0.1374,
+     "mean_R_stress": -0.2174,
+     "win_pct": 31.9
+    },
+    "TRAIN": {
+     "trades": 226,
+     "mean_R": -0.1064,
+     "mean_R_stress": -0.2207,
+     "win_pct": 35.8
+    },
+    "VALIDATION": {
+     "trades": 160,
+     "mean_R": -0.2489,
+     "mean_R_stress": -0.3552,
+     "win_pct": 29.4
+    },
+    "TEST": {
+     "trades": 211,
+     "mean_R": -0.0621,
+     "mean_R_stress": -0.192,
+     "win_pct": 37.0,
+     "p_random": 0.242,
+     "random_mean_R": -0.1248
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031g|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1285,
+     "mean_R": -0.0541,
+     "mean_R_stress": -0.1396,
+     "win_pct": 35.5
+    },
+    "TRAIN": {
+     "trades": 649,
+     "mean_R": -0.1529,
+     "mean_R_stress": -0.2894,
+     "win_pct": 33.6
+    },
+    "VALIDATION": {
+     "trades": 427,
+     "mean_R": -0.0638,
+     "mean_R_stress": -0.1736,
+     "win_pct": 36.3
+    },
+    "TEST": {
+     "trades": 577,
+     "mean_R": -0.159,
+     "mean_R_stress": -0.2961,
+     "win_pct": 33.8,
+     "p_random": 0.769,
+     "random_mean_R": -0.1178
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031h|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 107,
+     "mean_R": 0.3088,
+     "mean_R_stress": 0.2471,
+     "win_pct": 48.6
+    },
+    "TRAIN": {
+     "trades": 182,
+     "mean_R": 0.0388,
+     "mean_R_stress": -0.0664,
+     "win_pct": 39.0
+    },
+    "VALIDATION": {
+     "trades": 85,
+     "mean_R": 0.1728,
+     "mean_R_stress": 0.076,
+     "win_pct": 43.5
+    },
+    "TEST": {
+     "trades": 276,
+     "mean_R": -0.0678,
+     "mean_R_stress": -0.1905,
+     "win_pct": 36.2,
+     "p_random": 0.219,
+     "random_mean_R": -0.1314
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031i|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 1414,
+     "mean_R": -0.0481,
+     "mean_R_stress": -0.1276,
+     "win_pct": 35.9
+    },
+    "TRAIN": {
+     "trades": 703,
+     "mean_R": -0.1119,
+     "mean_R_stress": -0.2336,
+     "win_pct": 35.1
+    },
+    "VALIDATION": {
+     "trades": 504,
+     "mean_R": -0.1244,
+     "mean_R_stress": -0.2273,
+     "win_pct": 34.3
+    },
+    "TEST": {
+     "trades": 686,
+     "mean_R": -0.1978,
+     "mean_R_stress": -0.3273,
+     "win_pct": 32.4,
+     "p_random": 0.937,
+     "random_mean_R": -0.1174
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031j|BTCUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 607,
+     "mean_R": -0.0733,
+     "mean_R_stress": -0.1471,
+     "win_pct": 35.3
+    },
+    "TRAIN": {
+     "trades": 305,
+     "mean_R": -0.2092,
+     "mean_R_stress": -0.3205,
+     "win_pct": 32.5
+    },
+    "VALIDATION": {
+     "trades": 219,
+     "mean_R": -0.3248,
+     "mean_R_stress": -0.4211,
+     "win_pct": 26.9
+    },
+    "TEST": {
+     "trades": 339,
+     "mean_R": -0.1538,
+     "mean_R_stress": -0.2759,
+     "win_pct": 33.6,
+     "p_random": 0.647,
+     "random_mean_R": -0.1265
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030k|BTCUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 5316,
+     "mean_net_bp": -10.806,
+     "t": -9.39
+    },
+    "TRAIN": {
+     "trades": 2648,
+     "mean_net_bp": -0.048,
+     "t": -0.04
+    },
+    "VALIDATION": {
+     "trades": 1767,
+     "mean_net_bp": -9.922,
+     "t": -6.35
+    },
+    "TEST": {
+     "trades": 2403,
+     "mean_net_bp": -9.753,
+     "t": -9.15,
+     "p_one_sided": 1.0
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030l|BTCUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 76,
+     "mean_net_bp": 247.608,
+     "t": 1.35
+    },
+    "TRAIN": {
+     "trades": 37,
+     "mean_net_bp": 54.091,
+     "t": 0.37
+    },
+    "VALIDATION": {
+     "trades": 24,
+     "mean_net_bp": -376.413,
+     "t": -2.16
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_net_bp": -61.195,
+     "t": -0.46,
+     "p_one_sided": 0.676311898738949
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030a|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 591,
+     "mean_R": 0.0064,
+     "mean_R_stress": -0.0532,
+     "win_pct": 36.0
+    },
+    "VALIDATION": {
+     "trades": 386,
+     "mean_R": 0.0787,
+     "mean_R_stress": 0.0262,
+     "win_pct": 38.1
+    },
+    "TEST": {
+     "trades": 495,
+     "mean_R": -0.0134,
+     "mean_R_stress": -0.0716,
+     "win_pct": 35.8,
+     "p_random": 0.209,
+     "random_mean_R": -0.0688
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030b|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 62,
+     "mean_R": -0.1529,
+     "mean_R_stress": -0.2246,
+     "win_pct": 30.6
+    },
+    "VALIDATION": {
+     "trades": 42,
+     "mean_R": 0.107,
+     "mean_R_stress": 0.0403,
+     "win_pct": 40.5
+    },
+    "TEST": {
+     "trades": 50,
+     "mean_R": -0.0889,
+     "mean_R_stress": -0.1628,
+     "win_pct": 34.0,
+     "p_random": 0.437,
+     "random_mean_R": -0.1103
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030c|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 115,
+     "mean_R": 0.0484,
+     "mean_R_stress": -0.0176,
+     "win_pct": 37.4
+    },
+    "VALIDATION": {
+     "trades": 49,
+     "mean_R": 0.4457,
+     "mean_R_stress": 0.3897,
+     "win_pct": 51.0
+    },
+    "TEST": {
+     "trades": 89,
+     "mean_R": -0.2436,
+     "mean_R_stress": -0.3029,
+     "win_pct": 30.3,
+     "p_random": 0.811,
+     "random_mean_R": -0.1065
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030d|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 56,
+     "mean_R": 0.3034,
+     "mean_R_stress": 0.2537,
+     "win_pct": 48.2
+    },
+    "VALIDATION": {
+     "trades": 41,
+     "mean_R": -0.238,
+     "mean_R_stress": -0.282,
+     "win_pct": 29.3
+    },
+    "TEST": {
+     "trades": 59,
+     "mean_R": -0.1292,
+     "mean_R_stress": -0.1744,
+     "win_pct": 30.5,
+     "p_random": 0.539,
+     "random_mean_R": -0.1068
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030e|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 475,
+     "mean_R": -0.107,
+     "mean_R_stress": -0.1673,
+     "win_pct": 32.4
+    },
+    "VALIDATION": {
+     "trades": 368,
+     "mean_R": 0.0168,
+     "mean_R_stress": -0.0364,
+     "win_pct": 36.1
+    },
+    "TEST": {
+     "trades": 468,
+     "mean_R": -0.1279,
+     "mean_R_stress": -0.1862,
+     "win_pct": 32.1,
+     "p_random": 0.864,
+     "random_mean_R": -0.0565
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030f|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 448,
+     "mean_R": -0.0184,
+     "mean_R_stress": -0.0787,
+     "win_pct": 35.0
+    },
+    "VALIDATION": {
+     "trades": 361,
+     "mean_R": -0.1285,
+     "mean_R_stress": -0.1816,
+     "win_pct": 31.0
+    },
+    "TEST": {
+     "trades": 445,
+     "mean_R": -0.0417,
+     "mean_R_stress": -0.0997,
+     "win_pct": 34.6,
+     "p_random": 0.272,
+     "random_mean_R": -0.0811
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030g|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 38,
+     "mean_R": 0.2961,
+     "mean_R_stress": 0.2478,
+     "win_pct": 47.4
+    },
+    "VALIDATION": {
+     "trades": 31,
+     "mean_R": -0.1306,
+     "mean_R_stress": -0.1673,
+     "win_pct": 32.3
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_R": 0.2799,
+     "mean_R_stress": 0.2421,
+     "win_pct": 48.5,
+     "p_random": 0.086,
+     "random_mean_R": -0.063
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030h|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 82,
+     "mean_R": -0.1965,
+     "mean_R_stress": -0.27,
+     "win_pct": 29.3
+    },
+    "VALIDATION": {
+     "trades": 54,
+     "mean_R": -0.1817,
+     "mean_R_stress": -0.2522,
+     "win_pct": 29.6
+    },
+    "TEST": {
+     "trades": 70,
+     "mean_R": 0.0059,
+     "mean_R_stress": -0.0654,
+     "win_pct": 35.7,
+     "p_random": 0.36,
+     "random_mean_R": -0.0577
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030i|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 105,
+     "mean_R": -0.1431,
+     "mean_R_stress": -0.205,
+     "win_pct": 30.5
+    },
+    "VALIDATION": {
+     "trades": 88,
+     "mean_R": -0.2047,
+     "mean_R_stress": -0.2586,
+     "win_pct": 29.5
+    },
+    "TEST": {
+     "trades": 102,
+     "mean_R": 0.0496,
+     "mean_R_stress": -0.0085,
+     "win_pct": 37.3,
+     "p_random": 0.164,
+     "random_mean_R": -0.087
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030j|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 245,
+     "mean_R": 0.0261,
+     "mean_R_stress": -0.0299,
+     "win_pct": 36.3
+    },
+    "VALIDATION": {
+     "trades": 166,
+     "mean_R": 0.1674,
+     "mean_R_stress": 0.1159,
+     "win_pct": 41.6
+    },
+    "TEST": {
+     "trades": 237,
+     "mean_R": -0.1622,
+     "mean_R_stress": -0.2163,
+     "win_pct": 30.8,
+     "p_random": 0.815,
+     "random_mean_R": -0.0773
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031a|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 180,
+     "mean_R": -0.1446,
+     "mean_R_stress": -0.2047,
+     "win_pct": 30.6
+    },
+    "VALIDATION": {
+     "trades": 134,
+     "mean_R": 0.0187,
+     "mean_R_stress": -0.0317,
+     "win_pct": 35.8
+    },
+    "TEST": {
+     "trades": 161,
+     "mean_R": -0.0111,
+     "mean_R_stress": -0.0679,
+     "win_pct": 35.4,
+     "p_random": 0.321,
+     "random_mean_R": -0.067
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031b|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 34,
+     "mean_R": -0.2641,
+     "mean_R_stress": -0.3224,
+     "win_pct": 26.5
+    },
+    "VALIDATION": {
+     "trades": 15,
+     "mean_R": 0.3643,
+     "mean_R_stress": 0.3285,
+     "win_pct": 46.7
+    },
+    "TEST": {
+     "trades": 31,
+     "mean_R": 0.0132,
+     "mean_R_stress": -0.0381,
+     "win_pct": 35.5,
+     "p_random": 0.282,
+     "random_mean_R": -0.1044
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031c|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 22,
+     "mean_R": -0.3793,
+     "mean_R_stress": -0.4404,
+     "win_pct": 22.7
+    },
+    "VALIDATION": {
+     "trades": 9,
+     "mean_R": -0.0307,
+     "mean_R_stress": -0.0614,
+     "win_pct": 33.3
+    },
+    "TEST": {
+     "trades": 21,
+     "mean_R": 0.092,
+     "mean_R_stress": 0.0412,
+     "win_pct": 38.1,
+     "p_random": 0.29,
+     "random_mean_R": -0.0269
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031d|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 310,
+     "mean_R": 0.081,
+     "mean_R_stress": 0.0247,
+     "win_pct": 38.7
+    },
+    "VALIDATION": {
+     "trades": 195,
+     "mean_R": -0.0038,
+     "mean_R_stress": -0.0555,
+     "win_pct": 35.4
+    },
+    "TEST": {
+     "trades": 297,
+     "mean_R": -0.1018,
+     "mean_R_stress": -0.1581,
+     "win_pct": 32.7,
+     "p_random": 0.68,
+     "random_mean_R": -0.0616
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031f|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 401,
+     "mean_R": -0.0481,
+     "mean_R_stress": -0.107,
+     "win_pct": 33.9
+    },
+    "VALIDATION": {
+     "trades": 277,
+     "mean_R": -0.1096,
+     "mean_R_stress": -0.1621,
+     "win_pct": 31.8
+    },
+    "TEST": {
+     "trades": 369,
+     "mean_R": 0.0554,
+     "mean_R_stress": -0.0024,
+     "win_pct": 38.2,
+     "p_random": 0.059,
+     "random_mean_R": -0.0665
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031e|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 175,
+     "mean_R": -0.0742,
+     "mean_R_stress": -0.1329,
+     "win_pct": 33.1
+    },
+    "VALIDATION": {
+     "trades": 118,
+     "mean_R": -0.2468,
+     "mean_R_stress": -0.2992,
+     "win_pct": 28.0
+    },
+    "TEST": {
+     "trades": 152,
+     "mean_R": 0.048,
+     "mean_R_stress": -0.0094,
+     "win_pct": 37.5,
+     "p_random": 0.144,
+     "random_mean_R": -0.0719
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031g|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 491,
+     "mean_R": -0.0614,
+     "mean_R_stress": -0.1216,
+     "win_pct": 33.6
+    },
+    "VALIDATION": {
+     "trades": 348,
+     "mean_R": -0.0978,
+     "mean_R_stress": -0.1523,
+     "win_pct": 32.5
+    },
+    "TEST": {
+     "trades": 443,
+     "mean_R": -0.1036,
+     "mean_R_stress": -0.1628,
+     "win_pct": 32.5,
+     "p_random": 0.745,
+     "random_mean_R": -0.059
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031h|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 285,
+     "mean_R": -0.0323,
+     "mean_R_stress": -0.0914,
+     "win_pct": 34.7
+    },
+    "VALIDATION": {
+     "trades": 204,
+     "mean_R": 0.0478,
+     "mean_R_stress": -0.0055,
+     "win_pct": 37.3
+    },
+    "TEST": {
+     "trades": 250,
+     "mean_R": -0.2138,
+     "mean_R_stress": -0.2713,
+     "win_pct": 28.8,
+     "p_random": 0.936,
+     "random_mean_R": -0.0803
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031i|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 228,
+     "mean_R": 0.0116,
+     "mean_R_stress": -0.0418,
+     "win_pct": 36.4
+    },
+    "VALIDATION": {
+     "trades": 157,
+     "mean_R": 0.0117,
+     "mean_R_stress": -0.0346,
+     "win_pct": 35.7
+    },
+    "TEST": {
+     "trades": 224,
+     "mean_R": 0.0827,
+     "mean_R_stress": 0.0329,
+     "win_pct": 38.8,
+     "p_random": 0.072,
+     "random_mean_R": -0.062
+    }
+   },
+   "decision": "WATCH"
+  },
+  "STR-031j|US500m": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 170,
+     "mean_R": 0.0623,
+     "mean_R_stress": 0.0092,
+     "win_pct": 38.2
+    },
+    "VALIDATION": {
+     "trades": 97,
+     "mean_R": 0.0924,
+     "mean_R_stress": 0.0469,
+     "win_pct": 39.2
+    },
+    "TEST": {
+     "trades": 156,
+     "mean_R": -0.074,
+     "mean_R_stress": -0.1269,
+     "win_pct": 34.0,
+     "p_random": 0.467,
+     "random_mean_R": -0.0851
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030k|US500m": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 1760,
+     "mean_net_bp": 2.161,
+     "t": 3.68
+    },
+    "VALIDATION": {
+     "trades": 1190,
+     "mean_net_bp": -1.609,
+     "t": -1.57
+    },
+    "TEST": {
+     "trades": 1627,
+     "mean_net_bp": -2.221,
+     "t": -4.03,
+     "p_one_sided": 0.9999725752914488
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030l|US500m": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 37,
+     "mean_net_bp": -8.604,
+     "t": -0.21
+    },
+    "VALIDATION": {
+     "trades": 25,
+     "mean_net_bp": -123.6,
+     "t": -1.36
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_net_bp": -19.498,
+     "t": -0.54,
+     "p_one_sided": 0.7051719920716296
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030a|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 556,
+     "mean_R": 0.0226,
+     "mean_R_stress": -0.052,
+     "win_pct": 37.1
+    },
+    "VALIDATION": {
+     "trades": 390,
+     "mean_R": -0.105,
+     "mean_R_stress": -0.1717,
+     "win_pct": 32.3
+    },
+    "TEST": {
+     "trades": 507,
+     "mean_R": -0.1585,
+     "mean_R_stress": -0.2394,
+     "win_pct": 31.4,
+     "p_random": 0.844,
+     "random_mean_R": -0.0962
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030b|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 65,
+     "mean_R": -0.0407,
+     "mean_R_stress": -0.1267,
+     "win_pct": 35.4
+    },
+    "VALIDATION": {
+     "trades": 51,
+     "mean_R": 0.075,
+     "mean_R_stress": -0.0066,
+     "win_pct": 39.2
+    },
+    "TEST": {
+     "trades": 56,
+     "mean_R": 0.0674,
+     "mean_R_stress": -0.0281,
+     "win_pct": 39.3,
+     "p_random": 0.08,
+     "random_mean_R": -0.1658
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030c|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 103,
+     "mean_R": -0.1542,
+     "mean_R_stress": -0.2294,
+     "win_pct": 31.1
+    },
+    "VALIDATION": {
+     "trades": 77,
+     "mean_R": -0.2903,
+     "mean_R_stress": -0.3602,
+     "win_pct": 27.3
+    },
+    "TEST": {
+     "trades": 90,
+     "mean_R": 0.013,
+     "mean_R_stress": -0.0693,
+     "win_pct": 36.7,
+     "p_random": 0.179,
+     "random_mean_R": -0.1283
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030d|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 22,
+     "mean_R": 0.1833,
+     "mean_R_stress": 0.1259,
+     "win_pct": 45.5
+    },
+    "VALIDATION": {
+     "trades": 21,
+     "mean_R": 0.3292,
+     "mean_R_stress": 0.28,
+     "win_pct": 47.6
+    },
+    "TEST": {
+     "trades": 27,
+     "mean_R": -0.2051,
+     "mean_R_stress": -0.2697,
+     "win_pct": 29.6,
+     "p_random": 0.806,
+     "random_mean_R": 0.0273
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030e|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 465,
+     "mean_R": 0.0495,
+     "mean_R_stress": -0.0207,
+     "win_pct": 37.8
+    },
+    "VALIDATION": {
+     "trades": 300,
+     "mean_R": -0.1665,
+     "mean_R_stress": -0.2301,
+     "win_pct": 30.3
+    },
+    "TEST": {
+     "trades": 358,
+     "mean_R": -0.1277,
+     "mean_R_stress": -0.2084,
+     "win_pct": 32.7,
+     "p_random": 0.581,
+     "random_mean_R": -0.1154
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030f|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 446,
+     "mean_R": -0.0574,
+     "mean_R_stress": -0.1282,
+     "win_pct": 34.1
+    },
+    "VALIDATION": {
+     "trades": 270,
+     "mean_R": -0.087,
+     "mean_R_stress": -0.1508,
+     "win_pct": 34.4
+    },
+    "TEST": {
+     "trades": 341,
+     "mean_R": -0.0902,
+     "mean_R_stress": -0.1704,
+     "win_pct": 34.0,
+     "p_random": 0.385,
+     "random_mean_R": -0.1151
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030g|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 28,
+     "mean_R": -0.0173,
+     "mean_R_stress": -0.0749,
+     "win_pct": 35.7
+    },
+    "VALIDATION": {
+     "trades": 17,
+     "mean_R": -0.4279,
+     "mean_R_stress": -0.4733,
+     "win_pct": 23.5
+    },
+    "TEST": {
+     "trades": 28,
+     "mean_R": 0.1614,
+     "mean_R_stress": 0.0983,
+     "win_pct": 46.4,
+     "p_random": 0.132,
+     "random_mean_R": -0.1332
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030h|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 83,
+     "mean_R": -0.2607,
+     "mean_R_stress": -0.3526,
+     "win_pct": 27.7
+    },
+    "VALIDATION": {
+     "trades": 30,
+     "mean_R": -0.1828,
+     "mean_R_stress": -0.2656,
+     "win_pct": 30.0
+    },
+    "TEST": {
+     "trades": 43,
+     "mean_R": -0.0559,
+     "mean_R_stress": -0.1583,
+     "win_pct": 34.9,
+     "p_random": 0.53,
+     "random_mean_R": -0.0444
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030i|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 132,
+     "mean_R": -0.2925,
+     "mean_R_stress": -0.3741,
+     "win_pct": 26.5
+    },
+    "VALIDATION": {
+     "trades": 72,
+     "mean_R": -0.1933,
+     "mean_R_stress": -0.262,
+     "win_pct": 30.6
+    },
+    "TEST": {
+     "trades": 98,
+     "mean_R": -0.1283,
+     "mean_R_stress": -0.2176,
+     "win_pct": 32.7,
+     "p_random": 0.505,
+     "random_mean_R": -0.1211
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030j|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 270,
+     "mean_R": -0.187,
+     "mean_R_stress": -0.2599,
+     "win_pct": 30.0
+    },
+    "VALIDATION": {
+     "trades": 165,
+     "mean_R": -0.0021,
+     "mean_R_stress": -0.0694,
+     "win_pct": 35.8
+    },
+    "TEST": {
+     "trades": 240,
+     "mean_R": -0.2159,
+     "mean_R_stress": -0.2969,
+     "win_pct": 29.2,
+     "p_random": 0.935,
+     "random_mean_R": -0.078
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031a|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 234,
+     "mean_R": -0.0672,
+     "mean_R_stress": -0.1448,
+     "win_pct": 33.8
+    },
+    "VALIDATION": {
+     "trades": 136,
+     "mean_R": -0.0566,
+     "mean_R_stress": -0.1273,
+     "win_pct": 34.6
+    },
+    "TEST": {
+     "trades": 161,
+     "mean_R": -0.164,
+     "mean_R_stress": -0.2518,
+     "win_pct": 31.7,
+     "p_random": 0.662,
+     "random_mean_R": -0.119
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031b|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 35,
+     "mean_R": 0.2957,
+     "mean_R_stress": 0.22,
+     "win_pct": 45.7
+    },
+    "VALIDATION": {
+     "trades": 29,
+     "mean_R": -0.3898,
+     "mean_R_stress": -0.4599,
+     "win_pct": 24.1
+    },
+    "TEST": {
+     "trades": 23,
+     "mean_R": -0.0493,
+     "mean_R_stress": -0.1421,
+     "win_pct": 34.8,
+     "p_random": 0.438,
+     "random_mean_R": -0.1174
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031c|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 27,
+     "mean_R": 0.4782,
+     "mean_R_stress": 0.4009,
+     "win_pct": 51.9
+    },
+    "VALIDATION": {
+     "trades": 23,
+     "mean_R": -0.2145,
+     "mean_R_stress": -0.2866,
+     "win_pct": 30.4
+    },
+    "TEST": {
+     "trades": 14,
+     "mean_R": 0.1915,
+     "mean_R_stress": 0.0973,
+     "win_pct": 42.9,
+     "p_random": 0.234,
+     "random_mean_R": -0.1232
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031d|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 325,
+     "mean_R": -0.0219,
+     "mean_R_stress": -0.0937,
+     "win_pct": 35.7
+    },
+    "VALIDATION": {
+     "trades": 221,
+     "mean_R": -0.0952,
+     "mean_R_stress": -0.1615,
+     "win_pct": 33.0
+    },
+    "TEST": {
+     "trades": 307,
+     "mean_R": -0.1536,
+     "mean_R_stress": -0.2357,
+     "win_pct": 31.6,
+     "p_random": 0.799,
+     "random_mean_R": -0.0885
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031f|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 434,
+     "mean_R": -0.0207,
+     "mean_R_stress": -0.0954,
+     "win_pct": 35.5
+    },
+    "VALIDATION": {
+     "trades": 288,
+     "mean_R": -0.1603,
+     "mean_R_stress": -0.2278,
+     "win_pct": 30.9
+    },
+    "TEST": {
+     "trades": 358,
+     "mean_R": -0.1783,
+     "mean_R_stress": -0.2614,
+     "win_pct": 31.3,
+     "p_random": 0.872,
+     "random_mean_R": -0.092
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031e|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 173,
+     "mean_R": -0.0493,
+     "mean_R_stress": -0.1221,
+     "win_pct": 34.7
+    },
+    "VALIDATION": {
+     "trades": 102,
+     "mean_R": -0.1908,
+     "mean_R_stress": -0.2568,
+     "win_pct": 31.4
+    },
+    "TEST": {
+     "trades": 162,
+     "mean_R": 0.235,
+     "mean_R_stress": 0.1536,
+     "win_pct": 45.1,
+     "p_random": 0.006,
+     "random_mean_R": -0.061
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031g|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 490,
+     "mean_R": -0.041,
+     "mean_R_stress": -0.1163,
+     "win_pct": 34.9
+    },
+    "VALIDATION": {
+     "trades": 353,
+     "mean_R": -0.12,
+     "mean_R_stress": -0.1886,
+     "win_pct": 32.6
+    },
+    "TEST": {
+     "trades": 428,
+     "mean_R": -0.0965,
+     "mean_R_stress": -0.1815,
+     "win_pct": 33.9,
+     "p_random": 0.546,
+     "random_mean_R": -0.0885
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031h|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 310,
+     "mean_R": -0.074,
+     "mean_R_stress": -0.1464,
+     "win_pct": 33.9
+    },
+    "VALIDATION": {
+     "trades": 200,
+     "mean_R": -0.0307,
+     "mean_R_stress": -0.096,
+     "win_pct": 34.5
+    },
+    "TEST": {
+     "trades": 224,
+     "mean_R": -0.2126,
+     "mean_R_stress": -0.2936,
+     "win_pct": 29.5,
+     "p_random": 0.869,
+     "random_mean_R": -0.1083
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031i|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 198,
+     "mean_R": -0.0224,
+     "mean_R_stress": -0.0965,
+     "win_pct": 35.9
+    },
+    "VALIDATION": {
+     "trades": 127,
+     "mean_R": -0.0452,
+     "mean_R_stress": -0.1113,
+     "win_pct": 35.4
+    },
+    "TEST": {
+     "trades": 173,
+     "mean_R": -0.0225,
+     "mean_R_stress": -0.1037,
+     "win_pct": 35.8,
+     "p_random": 0.253,
+     "random_mean_R": -0.0923
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-031j|EURUSDm": {
+   "kind": "trade",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 214,
+     "mean_R": -0.1286,
+     "mean_R_stress": -0.2021,
+     "win_pct": 31.8
+    },
+    "VALIDATION": {
+     "trades": 160,
+     "mean_R": -0.1626,
+     "mean_R_stress": -0.2291,
+     "win_pct": 32.5
+    },
+    "TEST": {
+     "trades": 212,
+     "mean_R": -0.0046,
+     "mean_R_stress": -0.0848,
+     "win_pct": 36.8,
+     "p_random": 0.156,
+     "random_mean_R": -0.1037
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030k|EURUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 2016,
+     "mean_net_bp": 0.614,
+     "t": 2.29
+    },
+    "VALIDATION": {
+     "trades": 1344,
+     "mean_net_bp": -1.378,
+     "t": -4.15
+    },
+    "TEST": {
+     "trades": 1832,
+     "mean_net_bp": -1.505,
+     "t": -6.93,
+     "p_one_sided": 0.9999999999978495
+    }
+   },
+   "decision": "REJECTED"
+  },
+  "STR-030l|EURUSDm": {
+   "kind": "ttest",
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 37,
+     "mean_net_bp": 6.814,
+     "t": 0.39
+    },
+    "VALIDATION": {
+     "trades": 25,
+     "mean_net_bp": 6.985,
+     "t": 0.21
+    },
+    "TEST": {
+     "trades": 33,
+     "mean_net_bp": 2.615,
+     "t": 0.15,
+     "p_one_sided": 0.4389293957980705
+    }
+   },
+   "decision": "WATCH"
+  }
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "sources": {
+  "ADP records per source": {
+   "kaggle_us": 118,
+   "kaggle_global": 68,
+   "hf": 74
+  },
+  "ADP records total": 260,
+  "ADP pairwise cross-source comparisons (same reference month in two sources)": 180,
+  "ADP comparisons agreeing": 178,
+  "ADP comparisons conflicting": [
+   [
+    "kaggle_us",
+    "kaggle_global",
+    "2023-03",
+    "(datetime.date(2023, 4, 5), 145.0, 200.0)",
+    "(datetime.date(2023, 4, 5), -53.0, 200.0)"
+   ],
+   [
+    "kaggle_us",
+    "hf",
+    "2023-03",
+    "(datetime.date(2023, 4, 5), 145.0, 200.0)",
+    "(datetime.date(2023, 4, 5), -53.0, 200.0)"
+   ]
+  ],
+  "ADP unique reference months after merging": 136,
+  "NFP records per source": {
+   "kaggle_us": 120,
+   "kaggle_global": 69,
+   "hf": 75
+  },
+  "NFP records total": 264,
+  "NFP pairwise cross-source comparisons": 185,
+  "NFP comparisons agreeing": 185,
+  "NFP comparisons conflicting": [],
+  "NFP unique reference months after merging": 137,
+  "Unemployment unique reference months": 137
+ },
+ "addendum5_sample": {
+  "source": "adp_preposition.py: ADP from Kaggle US + Hugging Face (by release date); NFP surprise from data/consensus_investing*.csv (by release date)",
+  "NFP releases with a surprise value, all dates": 137,
+  "of which dated 2016-01-01..2026-06-30": 125,
+  "excluded: surprise exactly zero": [
+   "2019-08-02"
+  ],
+  "excluded: no ADP release 0-7 days before": [
+   "2022-07-08",
+   "2022-08-05",
+   "2025-11-20",
+   "2025-12-16"
+  ],
+  "excluded: ADP surprise exactly zero": [],
+  "N used (test 1 and the trade test pairs)": 120
+ },
+ "audit_sample": {
+  "NFP reference months 2016-01..2026-06 (release dates)": 125,
+  "excluded: no ADP figure for the same reference month": [
+   "2022-07-08",
+   "2022-08-05"
+  ],
+  "pairs by reference month": 123,
+  "excluded: ADP surprise zero": [],
+  "excluded: NFP surprise zero": [
+   "2019-08-02"
+  ],
+  "N used (audit test 1)": 122,
+  "in audit but not in addendum 5": [
+   "2025-11-20",
+   "2025-12-16"
+  ],
+  "in addendum 5 but not in audit": [],
+  "unemployment figure missing (term set to 0)": [],
+  "reasons for the extra matches": {
+   "2025-11-20": [
+    "no ADP within 0-7 days in the addendum-5 ADP sources"
+   ],
+   "2025-12-16": [
+    "no ADP within 0-7 days in the addendum-5 ADP sources"
+   ]
+  }
+ },
+ "methodology_split": {
+  "2016-01..2021-12 | audit sample (reference-month pairing)": {
+   "N": 71,
+   "same_sign": 37,
+   "hit_rate_pct": 52.11267605633803,
+   "ci95_pct": [
+    40.68579625004497,
+    63.32266962989343
+   ],
+   "p_one_sided_greater_than_50pct": 0.4062943247030809,
+   "p_two_sided": 0.8125886494061618
+  },
+  "2016-01..2021-12 | addendum-5 sample (date-window pairing)": {
+   "N": 71,
+   "same_sign": 37,
+   "hit_rate_pct": 52.11267605633803,
+   "ci95_pct": [
+    40.68579625004497,
+    63.32266962989343
+   ],
+   "p_one_sided_greater_than_50pct": 0.4062943247030809,
+   "p_two_sided": 0.8125886494061618
+  },
+  "2022-01..2026-06 | audit sample (reference-month pairing)": {
+   "N": 51,
+   "same_sign": 21,
+   "hit_rate_pct": 41.1764705882353,
+   "ci95_pct": [
+    28.754192992486892,
+    54.834907252582546
+   ],
+   "p_one_sided_greater_than_50pct": 0.9196101990940058,
+   "p_two_sided": 0.2624375357110438
+  },
+  "2022-01..2026-06 | addendum-5 sample (date-window pairing)": {
+   "N": 49,
+   "same_sign": 21,
+   "hit_rate_pct": 42.857142857142854,
+   "ci95_pct": [
+    30.02310889895705,
+    56.72975248298444
+   ],
+   "p_one_sided_greater_than_50pct": 0.8735651349161984,
+   "p_two_sided": 0.3916029105474905
+  }
+ },
+ "generated_utc": "2026-11-12 17:24"
+}

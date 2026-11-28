@@ -1,0 +1,3376 @@
+{
+ "meta": {
+  "window": "2025-01 to latest",
+  "generated_utc": "2026-11-12 12:54",
+  "variants": 372
+ },
+ "bh_significant": [],
+ "confirmed_profitable": [],
+ "top15_by_z": [
+  "XAUUSDm|scan|DONCHIAN_20|BUY|HW",
+  "XAUUSDm|requested|LORENTZIAN|SELL|HW",
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|TRAIL",
+  "XAUUSDm|requested|LORENTZIAN|BUY|HW",
+  "USOILm|requested|EMA_20_50_200_PULLBACK|SELL|HW",
+  "USOILm|scan|STOCHASTIC|BUY|TRAIL",
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|SYM",
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|BUY|SYM",
+  "USOILm|scan|RSI2_EXTREME|BUY|TRAIL",
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|SELL|TRAIL",
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|HW",
+  "XAUUSDm|requested|ADX14_25|BUY|TRAIL",
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|BUY|SYM",
+  "USOILm|scan|STOCHASTIC|BUY|SYM",
+  "XAUUSDm|scan|SUPERTREND|SELL|HW"
+ ],
+ "results": {
+  "USOILm|requested|VWAP_BAND_REVERSION|BUY|HW": {
+   "trades": 621,
+   "win_rate_pct": 62.96296296296296,
+   "expectancy_r_old_costs": -0.050918653647136436,
+   "expectancy_r": -0.0451103589944305,
+   "expectancy_stress_r": -0.07278678262623614,
+   "z": -0.8894082509849065,
+   "p": 0.8131081438913745
+  },
+  "USOILm|requested|VWAP_BAND_REVERSION|BUY|SYM": {
+   "trades": 542,
+   "win_rate_pct": 49.815498154981555,
+   "expectancy_r_old_costs": -0.017077840728603633,
+   "expectancy_r": -0.011244156496688917,
+   "expectancy_stress_r": -0.04255030269227981,
+   "z": -0.3318904049822835,
+   "p": 0.6300139920731799
+  },
+  "USOILm|requested|VWAP_BAND_REVERSION|BUY|TRAIL": {
+   "trades": 414,
+   "win_rate_pct": 34.54106280193236,
+   "expectancy_r_old_costs": -0.013762346016218346,
+   "expectancy_r": -0.008170809027812656,
+   "expectancy_stress_r": -0.048625312397538555,
+   "z": -1.065421819806348,
+   "p": 0.8566574564925442
+  },
+  "USOILm|requested|VWAP_BAND_REVERSION|SELL|HW": {
+   "trades": 618,
+   "win_rate_pct": 62.13592233009708,
+   "expectancy_r_old_costs": -0.07531690731123146,
+   "expectancy_r": -0.06936834775602768,
+   "expectancy_stress_r": -0.0973604668249454,
+   "z": -0.48825492718046043,
+   "p": 0.6873153584928832
+  },
+  "USOILm|requested|VWAP_BAND_REVERSION|SELL|SYM": {
+   "trades": 534,
+   "win_rate_pct": 47.19101123595505,
+   "expectancy_r_old_costs": -0.07331756821099514,
+   "expectancy_r": -0.06739469801076689,
+   "expectancy_stress_r": -0.09879742235036189,
+   "z": 0.5797317184125668,
+   "p": 0.28104777510629714
+  },
+  "USOILm|requested|VWAP_BAND_REVERSION|SELL|TRAIL": {
+   "trades": 411,
+   "win_rate_pct": 31.143552311435524,
+   "expectancy_r_old_costs": -0.06978961468403547,
+   "expectancy_r": -0.06384713625435856,
+   "expectancy_stress_r": -0.10673604980534737,
+   "z": 0.532735467442184,
+   "p": 0.2971083553995276
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|BUY|HW": {
+   "trades": 701,
+   "win_rate_pct": 63.338088445078455,
+   "expectancy_r_old_costs": -0.04882405515672134,
+   "expectancy_r": -0.042826890353610446,
+   "expectancy_stress_r": -0.07091593332617022,
+   "z": -1.119412132450921,
+   "p": 0.8685178212831874
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|BUY|SYM": {
+   "trades": 541,
+   "win_rate_pct": 50.09242144177449,
+   "expectancy_r_old_costs": -0.0060541833596394964,
+   "expectancy_r": -0.00011278432746703417,
+   "expectancy_stress_r": -0.03157363134132019,
+   "z": -0.2330078798025415,
+   "p": 0.5921223565161011
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|BUY|TRAIL": {
+   "trades": 355,
+   "win_rate_pct": 35.774647887323944,
+   "expectancy_r_old_costs": 0.013731419359964267,
+   "expectancy_r": 0.01944269406776696,
+   "expectancy_stress_r": -0.021334629588818235,
+   "z": -0.18009538604952627,
+   "p": 0.5714611576069051
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|SELL|HW": {
+   "trades": 733,
+   "win_rate_pct": 61.80081855388813,
+   "expectancy_r_old_costs": -0.08732443361034806,
+   "expectancy_r": -0.08156592366973066,
+   "expectancy_stress_r": -0.10849310765331437,
+   "z": -1.379698968790302,
+   "p": 0.9161603247193324
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|SELL|SYM": {
+   "trades": 547,
+   "win_rate_pct": 43.875685557586834,
+   "expectancy_r_old_costs": -0.13813283346895203,
+   "expectancy_r": -0.1323482288765828,
+   "expectancy_stress_r": -0.1631926665416894,
+   "z": -2.093450059111225,
+   "p": 0.9818455011283421
+  },
+  "USOILm|requested|VWAP_BAND_BREAKOUT|SELL|TRAIL": {
+   "trades": 372,
+   "win_rate_pct": 27.688172043010752,
+   "expectancy_r_old_costs": -0.14023602233169796,
+   "expectancy_r": -0.1343960585999044,
+   "expectancy_stress_r": -0.17487426958455562,
+   "z": -1.3285727214240255,
+   "p": 0.9080055116511783
+  },
+  "USOILm|requested|LORENTZIAN|BUY|HW": {
+   "trades": 181,
+   "win_rate_pct": 69.61325966850829,
+   "expectancy_r_old_costs": 0.036618810341829205,
+   "expectancy_r": 0.04255384203382086,
+   "expectancy_stress_r": 0.015795778326328277,
+   "z": 1.1578591928343391,
+   "p": 0.12346075138060558
+  },
+  "USOILm|requested|LORENTZIAN|BUY|SYM": {
+   "trades": 177,
+   "win_rate_pct": 55.932203389830505,
+   "expectancy_r_old_costs": 0.08523761671348973,
+   "expectancy_r": 0.09118729936292633,
+   "expectancy_stress_r": 0.06036717422759906,
+   "z": 1.2557955996420307,
+   "p": 0.1045950437164462
+  },
+  "USOILm|requested|LORENTZIAN|BUY|TRAIL": {
+   "trades": 178,
+   "win_rate_pct": 35.95505617977528,
+   "expectancy_r_old_costs": 0.021171729232591256,
+   "expectancy_r": 0.027108714663820335,
+   "expectancy_stress_r": -0.014726687836746528,
+   "z": 0.26981954767015415,
+   "p": 0.3936495417660285
+  },
+  "USOILm|requested|LORENTZIAN|BUY|NATIVE": {
+   "trades": 172,
+   "win_rate_pct": 48.837209302325576,
+   "expectancy_r_old_costs": -0.021639562001573732,
+   "expectancy_r": -0.01565789025552721,
+   "expectancy_stress_r": -0.04170263640719462,
+   "z": 0.2969212036208451,
+   "p": 0.3832633338225201
+  },
+  "USOILm|requested|LORENTZIAN|SELL|HW": {
+   "trades": 182,
+   "win_rate_pct": 59.89010989010989,
+   "expectancy_r_old_costs": -0.11386786408638953,
+   "expectancy_r": -0.10808678403885641,
+   "expectancy_stress_r": -0.13453314016859327,
+   "z": -0.9931963184065261,
+   "p": 0.8396928539247503
+  },
+  "USOILm|requested|LORENTZIAN|SELL|SYM": {
+   "trades": 181,
+   "win_rate_pct": 45.85635359116022,
+   "expectancy_r_old_costs": -0.11648166022306256,
+   "expectancy_r": -0.11070864459616075,
+   "expectancy_stress_r": -0.14184202609922525,
+   "z": -0.3191845738212795,
+   "p": 0.6252067230165239
+  },
+  "USOILm|requested|LORENTZIAN|SELL|TRAIL": {
+   "trades": 180,
+   "win_rate_pct": 30.555555555555557,
+   "expectancy_r_old_costs": -0.07705514776574302,
+   "expectancy_r": -0.07126962975603209,
+   "expectancy_stress_r": -0.1117079267612206,
+   "z": 0.12429247974699649,
+   "p": 0.4505418507116985
+  },
+  "USOILm|requested|LORENTZIAN|SELL|NATIVE": {
+   "trades": 171,
+   "win_rate_pct": 42.69005847953216,
+   "expectancy_r_old_costs": -0.15397278759467686,
+   "expectancy_r": -0.14814136159091051,
+   "expectancy_stress_r": -0.17353192403203882,
+   "z": -1.9238668733986746,
+   "p": 0.9728143637704801
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|BUY|HW": {
+   "trades": 230,
+   "win_rate_pct": 67.82608695652173,
+   "expectancy_r_old_costs": 0.005892526081938923,
+   "expectancy_r": 0.0115922962650841,
+   "expectancy_stress_r": -0.014504518493062606,
+   "z": 0.381994429932251,
+   "p": 0.35123274809693894
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|BUY|SYM": {
+   "trades": 192,
+   "win_rate_pct": 53.645833333333336,
+   "expectancy_r_old_costs": 0.05989275981881136,
+   "expectancy_r": 0.06566910683131673,
+   "expectancy_stress_r": 0.03484701592186799,
+   "z": 0.5239559464307207,
+   "p": 0.30015459042524806
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|BUY|TRAIL": {
+   "trades": 164,
+   "win_rate_pct": 35.97560975609756,
+   "expectancy_r_old_costs": 0.049865301956605816,
+   "expectancy_r": 0.055609163705112714,
+   "expectancy_stress_r": 0.01418753012798503,
+   "z": 0.09918781576740483,
+   "p": 0.46049457438038094
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|SELL|HW": {
+   "trades": 228,
+   "win_rate_pct": 69.2982456140351,
+   "expectancy_r_old_costs": 0.03511530280284343,
+   "expectancy_r": 0.04110591311372013,
+   "expectancy_stress_r": 0.013058277382953502,
+   "z": 1.9308648991334187,
+   "p": 0.0267498809819984
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|SELL|SYM": {
+   "trades": 176,
+   "win_rate_pct": 50.56818181818182,
+   "expectancy_r_old_costs": -0.016509903263739377,
+   "expectancy_r": -0.010442259730448307,
+   "expectancy_stress_r": -0.0445452478452188,
+   "z": 0.760539143658259,
+   "p": 0.22346619029119252
+  },
+  "USOILm|requested|EMA_20_50_200_PULLBACK|SELL|TRAIL": {
+   "trades": 148,
+   "win_rate_pct": 36.486486486486484,
+   "expectancy_r_old_costs": -0.10028817819660554,
+   "expectancy_r": -0.09417171955766615,
+   "expectancy_stress_r": -0.1394449150668099,
+   "z": -0.5589934482098977,
+   "p": 0.711916904193512
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|BUY|HW": {
+   "trades": 708,
+   "win_rate_pct": 65.11299435028248,
+   "expectancy_r_old_costs": -0.02741395482185107,
+   "expectancy_r": -0.0215522955988515,
+   "expectancy_stress_r": -0.04873149375463402,
+   "z": 0.05244955239823243,
+   "p": 0.47908524565946886
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|BUY|SYM": {
+   "trades": 551,
+   "win_rate_pct": 51.542649727767696,
+   "expectancy_r_old_costs": 0.022978679893624655,
+   "expectancy_r": 0.028767690456721586,
+   "expectancy_stress_r": -0.002450577037341223,
+   "z": 0.7622642778686899,
+   "p": 0.22295114478325287
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|BUY|TRAIL": {
+   "trades": 384,
+   "win_rate_pct": 35.9375,
+   "expectancy_r_old_costs": 0.05690115397579302,
+   "expectancy_r": 0.06255601311622626,
+   "expectancy_stress_r": 0.021163250221053472,
+   "z": 1.0076909325575631,
+   "p": 0.15680142967568184
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|SELL|HW": {
+   "trades": 705,
+   "win_rate_pct": 64.11347517730496,
+   "expectancy_r_old_costs": -0.05256377567607156,
+   "expectancy_r": -0.046829359971771185,
+   "expectancy_stress_r": -0.07392231394711427,
+   "z": 0.4004229874261297,
+   "p": 0.34442249793286794
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|SELL|SYM": {
+   "trades": 534,
+   "win_rate_pct": 45.69288389513109,
+   "expectancy_r_old_costs": -0.11312829243656786,
+   "expectancy_r": -0.10731422378300202,
+   "expectancy_stress_r": -0.13920466120872957,
+   "z": -0.909040206028901,
+   "p": 0.818335548397505
+  },
+  "USOILm|requested|SESSION_VWAP_CROSS|SELL|TRAIL": {
+   "trades": 391,
+   "win_rate_pct": 29.66751918158568,
+   "expectancy_r_old_costs": -0.08167856663124157,
+   "expectancy_r": -0.0758654872812055,
+   "expectancy_stress_r": -0.11768582149055155,
+   "z": 0.10839058996638244,
+   "p": 0.456842932638843
+  },
+  "USOILm|requested|RSI14|BUY|HW": {
+   "trades": 131,
+   "win_rate_pct": 61.832061068702295,
+   "expectancy_r_old_costs": -0.0560618083281,
+   "expectancy_r": -0.050536767015925486,
+   "expectancy_stress_r": -0.07623261256905918,
+   "z": -0.1824786479833873,
+   "p": 0.5723964452628504
+  },
+  "USOILm|requested|RSI14|BUY|SYM": {
+   "trades": 130,
+   "win_rate_pct": 50.0,
+   "expectancy_r_old_costs": -0.004526461975374921,
+   "expectancy_r": 0.0009755920259542391,
+   "expectancy_stress_r": -0.02787632852972033,
+   "z": 0.10902360562963735,
+   "p": 0.4565918836737753
+  },
+  "USOILm|requested|RSI14|BUY|TRAIL": {
+   "trades": 129,
+   "win_rate_pct": 33.33333333333333,
+   "expectancy_r_old_costs": -0.17167449374710314,
+   "expectancy_r": -0.1661712349984173,
+   "expectancy_stress_r": -0.20372068888424716,
+   "z": -1.052871707064169,
+   "p": 0.8538001026068059
+  },
+  "USOILm|requested|RSI14|SELL|HW": {
+   "trades": 149,
+   "win_rate_pct": 65.77181208053692,
+   "expectancy_r_old_costs": -0.018350144816777884,
+   "expectancy_r": -0.012785872712408783,
+   "expectancy_stress_r": -0.04029756473090796,
+   "z": 0.8015688027292346,
+   "p": 0.2114012149405804
+  },
+  "USOILm|requested|RSI14|SELL|SYM": {
+   "trades": 147,
+   "win_rate_pct": 45.57823129251701,
+   "expectancy_r_old_costs": -0.13549753073504137,
+   "expectancy_r": -0.1299431563063161,
+   "expectancy_stress_r": -0.16238874055805216,
+   "z": -0.48857383311896907,
+   "p": 0.6874282789166173
+  },
+  "USOILm|requested|RSI14|SELL|TRAIL": {
+   "trades": 146,
+   "win_rate_pct": 32.19178082191781,
+   "expectancy_r_old_costs": -0.06497928405673921,
+   "expectancy_r": -0.05937784520131402,
+   "expectancy_stress_r": -0.10251657533079672,
+   "z": 0.4681608294283283,
+   "p": 0.31983479075738336
+  },
+  "USOILm|requested|RSI_DIVERGENCE|BUY|HW": {
+   "trades": 69,
+   "win_rate_pct": 69.56521739130434,
+   "expectancy_r_old_costs": 0.08445216125792512,
+   "expectancy_r": 0.08966576312774513,
+   "expectancy_stress_r": 0.06371414759286481,
+   "z": 1.3177522659299759,
+   "p": 0.09379329595952107
+  },
+  "USOILm|requested|RSI_DIVERGENCE|BUY|SYM": {
+   "trades": 68,
+   "win_rate_pct": 54.41176470588235,
+   "expectancy_r_old_costs": 0.07593975410075815,
+   "expectancy_r": 0.08115240121974557,
+   "expectancy_stress_r": 0.05118712463449536,
+   "z": 0.6026277828442982,
+   "p": 0.27337816679823423
+  },
+  "USOILm|requested|RSI_DIVERGENCE|BUY|TRAIL": {
+   "trades": 66,
+   "win_rate_pct": 36.36363636363637,
+   "expectancy_r_old_costs": -0.010663290186249707,
+   "expectancy_r": -0.005447502287848821,
+   "expectancy_stress_r": -0.0461159689197589,
+   "z": 0.15778605149403166,
+   "p": 0.4373126951306989
+  },
+  "USOILm|requested|RSI_DIVERGENCE|SELL|HW": {
+   "trades": 92,
+   "win_rate_pct": 56.52173913043478,
+   "expectancy_r_old_costs": -0.20145100624317577,
+   "expectancy_r": -0.1957578654276407,
+   "expectancy_stress_r": -0.22525569806645168,
+   "z": -1.7400357436159337,
+   "p": 0.9590736290726355
+  },
+  "USOILm|requested|RSI_DIVERGENCE|SELL|SYM": {
+   "trades": 87,
+   "win_rate_pct": 42.5287356321839,
+   "expectancy_r_old_costs": -0.23626119240457039,
+   "expectancy_r": -0.23056322324566156,
+   "expectancy_stress_r": -0.2653250469282754,
+   "z": -1.2258844551610242,
+   "p": 0.8898789203302335
+  },
+  "USOILm|requested|RSI_DIVERGENCE|SELL|TRAIL": {
+   "trades": 86,
+   "win_rate_pct": 29.069767441860467,
+   "expectancy_r_old_costs": -0.16665080401338603,
+   "expectancy_r": -0.16090069586980393,
+   "expectancy_stress_r": -0.20468909092255644,
+   "z": -0.30214039623739186,
+   "p": 0.6187274805796646
+  },
+  "USOILm|requested|ADX14_20|BUY|HW": {
+   "trades": 99,
+   "win_rate_pct": 59.59595959595959,
+   "expectancy_r_old_costs": -0.1060573396618816,
+   "expectancy_r": -0.10019314390554673,
+   "expectancy_stress_r": -0.12952776096786583,
+   "z": -1.1607831581517516,
+   "p": 0.8771349531289734
+  },
+  "USOILm|requested|ADX14_20|BUY|SYM": {
+   "trades": 95,
+   "win_rate_pct": 50.526315789473685,
+   "expectancy_r_old_costs": -0.0281869383475113,
+   "expectancy_r": -0.022288726653646607,
+   "expectancy_stress_r": -0.05549348667025738,
+   "z": -0.37767680960928723,
+   "p": 0.6471646513548956
+  },
+  "USOILm|requested|ADX14_20|BUY|TRAIL": {
+   "trades": 92,
+   "win_rate_pct": 32.608695652173914,
+   "expectancy_r_old_costs": -0.003654824936431891,
+   "expectancy_r": 0.002214854862759613,
+   "expectancy_stress_r": -0.039266394401145585,
+   "z": 0.24120016430559638,
+   "p": 0.40469999178019245
+  },
+  "USOILm|requested|ADX14_20|SELL|HW": {
+   "trades": 93,
+   "win_rate_pct": 62.365591397849464,
+   "expectancy_r_old_costs": -0.056670035370359334,
+   "expectancy_r": -0.05082300163616635,
+   "expectancy_stress_r": -0.07865481231266144,
+   "z": 0.11712181726867721,
+   "p": 0.45338176051972806
+  },
+  "USOILm|requested|ADX14_20|SELL|SYM": {
+   "trades": 91,
+   "win_rate_pct": 46.15384615384615,
+   "expectancy_r_old_costs": -0.09412956258904488,
+   "expectancy_r": -0.08828711622134036,
+   "expectancy_stress_r": -0.12032567381131173,
+   "z": -0.019950333912884425,
+   "p": 0.5079585037674029
+  },
+  "USOILm|requested|ADX14_20|SELL|TRAIL": {
+   "trades": 88,
+   "win_rate_pct": 30.681818181818183,
+   "expectancy_r_old_costs": -0.010350957575099856,
+   "expectancy_r": -0.00447899135564599,
+   "expectancy_stress_r": -0.04697322387034258,
+   "z": 0.5164567052209208,
+   "p": 0.3027677349380459
+  },
+  "USOILm|requested|ADX14_25|BUY|HW": {
+   "trades": 91,
+   "win_rate_pct": 62.637362637362635,
+   "expectancy_r_old_costs": -0.06752092872443581,
+   "expectancy_r": -0.06153810553959137,
+   "expectancy_stress_r": -0.0891254235182929,
+   "z": -0.6647293323601464,
+   "p": 0.7468881854306344
+  },
+  "USOILm|requested|ADX14_25|BUY|SYM": {
+   "trades": 91,
+   "win_rate_pct": 49.45054945054945,
+   "expectancy_r_old_costs": -0.002167027498083669,
+   "expectancy_r": 0.0038157956867607597,
+   "expectancy_stress_r": -0.028245899220397903,
+   "z": -0.16107696843306674,
+   "p": 0.5639836100571322
+  },
+  "USOILm|requested|ADX14_25|BUY|TRAIL": {
+   "trades": 88,
+   "win_rate_pct": 29.545454545454547,
+   "expectancy_r_old_costs": 0.004581128148306342,
+   "expectancy_r": 0.010522354111680248,
+   "expectancy_stress_r": -0.031017597076859936,
+   "z": 0.16193283749987908,
+   "p": 0.43567937174606575
+  },
+  "USOILm|requested|ADX14_25|SELL|HW": {
+   "trades": 91,
+   "win_rate_pct": 67.03296703296702,
+   "expectancy_r_old_costs": 0.02173272385241551,
+   "expectancy_r": 0.02709478159394071,
+   "expectancy_stress_r": 0.0006513996684544438,
+   "z": 1.035069711619686,
+   "p": 0.15031817816176785
+  },
+  "USOILm|requested|ADX14_25|SELL|SYM": {
+   "trades": 86,
+   "win_rate_pct": 51.162790697674424,
+   "expectancy_r_old_costs": 0.021500522789535483,
+   "expectancy_r": 0.026916754997272113,
+   "expectancy_stress_r": -0.004108362325336184,
+   "z": 1.0614891273959433,
+   "p": 0.14423383572632675
+  },
+  "USOILm|requested|ADX14_25|SELL|TRAIL": {
+   "trades": 82,
+   "win_rate_pct": 32.926829268292686,
+   "expectancy_r_old_costs": 0.04196925906115489,
+   "expectancy_r": 0.04730528227768095,
+   "expectancy_stress_r": 0.007493382542966484,
+   "z": 0.9396984213380178,
+   "p": 0.1736861375715104
+  },
+  "USOILm|requested|VP_80_RULE|BUY|HW": {
+   "trades": 86,
+   "win_rate_pct": 65.11627906976744,
+   "expectancy_r_old_costs": -0.037223218060584796,
+   "expectancy_r": -0.03099326199992627,
+   "expectancy_stress_r": -0.05858675857582897,
+   "z": -0.08829602384571211,
+   "p": 0.53517930043705
+  },
+  "USOILm|requested|VP_80_RULE|BUY|SYM": {
+   "trades": 80,
+   "win_rate_pct": 52.5,
+   "expectancy_r_old_costs": 0.04123042639288249,
+   "expectancy_r": 0.04750186480451742,
+   "expectancy_stress_r": 0.01607040872728093,
+   "z": 0.44033113404133156,
+   "p": 0.3298486472110002
+  },
+  "USOILm|requested|VP_80_RULE|BUY|TRAIL": {
+   "trades": 79,
+   "win_rate_pct": 31.645569620253166,
+   "expectancy_r_old_costs": -0.0882330240980883,
+   "expectancy_r": -0.0819100345644795,
+   "expectancy_stress_r": -0.12396518226685953,
+   "z": -0.40035086834046235,
+   "p": 0.6555509468736237
+  },
+  "USOILm|requested|VP_80_RULE|SELL|HW": {
+   "trades": 99,
+   "win_rate_pct": 61.61616161616161,
+   "expectancy_r_old_costs": -0.065594148309184,
+   "expectancy_r": -0.059435601721679554,
+   "expectancy_stress_r": -0.0876877140955458,
+   "z": -0.1575765991129458,
+   "p": 0.5626047778141797
+  },
+  "USOILm|requested|VP_80_RULE|SELL|SYM": {
+   "trades": 95,
+   "win_rate_pct": 41.05263157894737,
+   "expectancy_r_old_costs": -0.20070562794850275,
+   "expectancy_r": -0.19461115721991717,
+   "expectancy_stress_r": -0.22760055330236542,
+   "z": -1.2177054928373048,
+   "p": 0.8883320455134125
+  },
+  "USOILm|requested|VP_80_RULE|SELL|TRAIL": {
+   "trades": 92,
+   "win_rate_pct": 28.26086956521739,
+   "expectancy_r_old_costs": -0.03593957186299016,
+   "expectancy_r": -0.029804793206539185,
+   "expectancy_stress_r": -0.07366439909698515,
+   "z": 0.3743093318911794,
+   "p": 0.35408709502351765
+  },
+  "USOILm|requested|VP_BREAKOUT|BUY|HW": {
+   "trades": 289,
+   "win_rate_pct": 63.32179930795848,
+   "expectancy_r_old_costs": -0.05663587521111526,
+   "expectancy_r": -0.050602585304386216,
+   "expectancy_stress_r": -0.07866826362427205,
+   "z": -0.7571844334291988,
+   "p": 0.7755303125502955
+  },
+  "USOILm|requested|VP_BREAKOUT|BUY|SYM": {
+   "trades": 255,
+   "win_rate_pct": 49.411764705882355,
+   "expectancy_r_old_costs": -0.031442763339093,
+   "expectancy_r": -0.025450129062608223,
+   "expectancy_stress_r": -0.056990067091780366,
+   "z": -0.6648878507718953,
+   "p": 0.7469388864990432
+  },
+  "USOILm|requested|VP_BREAKOUT|BUY|TRAIL": {
+   "trades": 210,
+   "win_rate_pct": 33.33333333333333,
+   "expectancy_r_old_costs": -0.04285985076774934,
+   "expectancy_r": -0.03706649940486016,
+   "expectancy_stress_r": -0.07785138321041786,
+   "z": -0.7311484098260947,
+   "p": 0.767655746061453
+  },
+  "USOILm|requested|VP_BREAKOUT|SELL|HW": {
+   "trades": 262,
+   "win_rate_pct": 57.63358778625955,
+   "expectancy_r_old_costs": -0.15461570589738027,
+   "expectancy_r": -0.14863626762368148,
+   "expectancy_stress_r": -0.1756601923139187,
+   "z": -2.0969428414088127,
+   "p": 0.9820006822598206
+  },
+  "USOILm|requested|VP_BREAKOUT|SELL|SYM": {
+   "trades": 228,
+   "win_rate_pct": 46.92982456140351,
+   "expectancy_r_old_costs": -0.10336218234353856,
+   "expectancy_r": -0.09739012058876287,
+   "expectancy_stress_r": -0.12799596554842035,
+   "z": -0.2562729954233492,
+   "p": 0.6011299761681654
+  },
+  "USOILm|requested|VP_BREAKOUT|SELL|TRAIL": {
+   "trades": 194,
+   "win_rate_pct": 30.412371134020617,
+   "expectancy_r_old_costs": -0.1572537714422924,
+   "expectancy_r": -0.15135834666707976,
+   "expectancy_stress_r": -0.19198105734618076,
+   "z": -0.7392670228327626,
+   "p": 0.7701275651173456
+  },
+  "USOILm|scan|RSI14_REVERSION|BUY|HW": {
+   "trades": 131,
+   "win_rate_pct": 61.832061068702295,
+   "expectancy_r_old_costs": -0.0560618083281,
+   "expectancy_r": -0.050536767015925486,
+   "expectancy_stress_r": -0.07623261256905918,
+   "z": -0.1824786479833873,
+   "p": 0.5723964452628504
+  },
+  "USOILm|scan|RSI14_REVERSION|BUY|SYM": {
+   "trades": 130,
+   "win_rate_pct": 50.0,
+   "expectancy_r_old_costs": -0.004526461975374921,
+   "expectancy_r": 0.0009755920259542391,
+   "expectancy_stress_r": -0.02787632852972033,
+   "z": 0.10902360562963735,
+   "p": 0.4565918836737753
+  },
+  "USOILm|scan|RSI14_REVERSION|BUY|TRAIL": {
+   "trades": 129,
+   "win_rate_pct": 33.33333333333333,
+   "expectancy_r_old_costs": -0.17167449374710314,
+   "expectancy_r": -0.1661712349984173,
+   "expectancy_stress_r": -0.20372068888424716,
+   "z": -1.052871707064169,
+   "p": 0.8538001026068059
+  },
+  "USOILm|scan|RSI14_REVERSION|SELL|HW": {
+   "trades": 149,
+   "win_rate_pct": 65.77181208053692,
+   "expectancy_r_old_costs": -0.018350144816777884,
+   "expectancy_r": -0.012785872712408783,
+   "expectancy_stress_r": -0.04029756473090796,
+   "z": 0.8015688027292346,
+   "p": 0.2114012149405804
+  },
+  "USOILm|scan|RSI14_REVERSION|SELL|SYM": {
+   "trades": 147,
+   "win_rate_pct": 45.57823129251701,
+   "expectancy_r_old_costs": -0.13549753073504137,
+   "expectancy_r": -0.1299431563063161,
+   "expectancy_stress_r": -0.16238874055805216,
+   "z": -0.48857383311896907,
+   "p": 0.6874282789166173
+  },
+  "USOILm|scan|RSI14_REVERSION|SELL|TRAIL": {
+   "trades": 146,
+   "win_rate_pct": 32.19178082191781,
+   "expectancy_r_old_costs": -0.06497928405673921,
+   "expectancy_r": -0.05937784520131402,
+   "expectancy_stress_r": -0.10251657533079672,
+   "z": 0.4681608294283283,
+   "p": 0.31983479075738336
+  },
+  "USOILm|scan|RSI2_EXTREME|BUY|HW": {
+   "trades": 551,
+   "win_rate_pct": 62.976406533575314,
+   "expectancy_r_old_costs": -0.04722643868514933,
+   "expectancy_r": -0.04145385617240803,
+   "expectancy_stress_r": -0.06850870768847603,
+   "z": -0.5694238956242381,
+   "p": 0.7154657478822948
+  },
+  "USOILm|scan|RSI2_EXTREME|BUY|SYM": {
+   "trades": 465,
+   "win_rate_pct": 49.03225806451613,
+   "expectancy_r_old_costs": -0.025890856076279903,
+   "expectancy_r": -0.0200460244302015,
+   "expectancy_stress_r": -0.05136891863224178,
+   "z": -0.5704714333721543,
+   "p": 0.7158210039877301
+  },
+  "USOILm|scan|RSI2_EXTREME|BUY|TRAIL": {
+   "trades": 358,
+   "win_rate_pct": 39.385474860335194,
+   "expectancy_r_old_costs": 0.0749113123050979,
+   "expectancy_r": 0.08058139802392776,
+   "expectancy_stress_r": 0.039602993978876094,
+   "z": 1.7049432104425504,
+   "p": 0.04410250820045279
+  },
+  "USOILm|scan|RSI2_EXTREME|SELL|HW": {
+   "trades": 564,
+   "win_rate_pct": 63.297872340425535,
+   "expectancy_r_old_costs": -0.06062199611499089,
+   "expectancy_r": -0.054720303949028985,
+   "expectancy_stress_r": -0.0826739913019277,
+   "z": 0.07822200877895231,
+   "p": 0.4688257275902496
+  },
+  "USOILm|scan|RSI2_EXTREME|SELL|SYM": {
+   "trades": 478,
+   "win_rate_pct": 46.86192468619247,
+   "expectancy_r_old_costs": -0.07832374346612907,
+   "expectancy_r": -0.07242155787282757,
+   "expectancy_stress_r": -0.10398873607704115,
+   "z": 0.23965958717248553,
+   "p": 0.4052970833578318
+  },
+  "USOILm|scan|RSI2_EXTREME|SELL|TRAIL": {
+   "trades": 373,
+   "win_rate_pct": 30.29490616621984,
+   "expectancy_r_old_costs": -0.13441745682789363,
+   "expectancy_r": -0.12853283583945907,
+   "expectancy_stress_r": -0.16935297218094753,
+   "z": -1.1602390990429892,
+   "p": 0.8770242639229895
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|BUY|HW": {
+   "trades": 285,
+   "win_rate_pct": 61.75438596491228,
+   "expectancy_r_old_costs": -0.04654318396849713,
+   "expectancy_r": -0.041191245296732334,
+   "expectancy_stress_r": -0.06829179940565033,
+   "z": -0.26186410647576747,
+   "p": 0.6032868934526856
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|BUY|SYM": {
+   "trades": 270,
+   "win_rate_pct": 50.0,
+   "expectancy_r_old_costs": 0.0035504556105763444,
+   "expectancy_r": 0.008931527962106892,
+   "expectancy_stress_r": -0.022235155342020228,
+   "z": 0.27124514183694143,
+   "p": 0.39310124785427825
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|BUY|TRAIL": {
+   "trades": 272,
+   "win_rate_pct": 37.13235294117647,
+   "expectancy_r_old_costs": 0.05270352767973109,
+   "expectancy_r": 0.0580656846142205,
+   "expectancy_stress_r": 0.016564694274811116,
+   "z": 1.2979583198478577,
+   "p": 0.09715082892899485
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|SELL|HW": {
+   "trades": 300,
+   "win_rate_pct": 62.66666666666667,
+   "expectancy_r_old_costs": -0.06126690474653995,
+   "expectancy_r": -0.055613680311686696,
+   "expectancy_stress_r": -0.08321098745552453,
+   "z": 0.07222398203797982,
+   "p": 0.4712118300513499
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|SELL|SYM": {
+   "trades": 288,
+   "win_rate_pct": 45.48611111111111,
+   "expectancy_r_old_costs": -0.11696243297297652,
+   "expectancy_r": -0.11131904688882112,
+   "expectancy_stress_r": -0.1428470947977289,
+   "z": -0.5820176361242712,
+   "p": 0.7197225991733891
+  },
+  "USOILm|scan|BOLLINGER_REENTRY|SELL|TRAIL": {
+   "trades": 287,
+   "win_rate_pct": 31.3588850174216,
+   "expectancy_r_old_costs": -0.035420152823175344,
+   "expectancy_r": -0.029710171342105476,
+   "expectancy_stress_r": -0.07147177282313318,
+   "z": 1.1746669467196653,
+   "p": 0.1200639940409226
+  },
+  "USOILm|scan|STOCHASTIC|BUY|HW": {
+   "trades": 284,
+   "win_rate_pct": 67.25352112676056,
+   "expectancy_r_old_costs": 0.008740284881376568,
+   "expectancy_r": 0.014491598382712257,
+   "expectancy_stress_r": -0.012154116935688908,
+   "z": 1.180127846220281,
+   "p": 0.11897468547471263
+  },
+  "USOILm|scan|STOCHASTIC|BUY|SYM": {
+   "trades": 260,
+   "win_rate_pct": 54.61538461538461,
+   "expectancy_r_old_costs": 0.07140796498687112,
+   "expectancy_r": 0.07715337872963213,
+   "expectancy_stress_r": 0.045744021232446946,
+   "z": 1.5535995150697917,
+   "p": 0.060139987532186676
+  },
+  "USOILm|scan|STOCHASTIC|BUY|TRAIL": {
+   "trades": 259,
+   "win_rate_pct": 37.45173745173745,
+   "expectancy_r_old_costs": 0.09657096516447154,
+   "expectancy_r": 0.10228121222289623,
+   "expectancy_stress_r": 0.05974715014605822,
+   "z": 1.897089525447469,
+   "p": 0.028908061710470407
+  },
+  "USOILm|scan|STOCHASTIC|SELL|HW": {
+   "trades": 380,
+   "win_rate_pct": 61.05263157894737,
+   "expectancy_r_old_costs": -0.08882766171337962,
+   "expectancy_r": -0.08299326539953635,
+   "expectancy_stress_r": -0.11064246693952227,
+   "z": -0.7122328144781711,
+   "p": 0.7618396899617785
+  },
+  "USOILm|scan|STOCHASTIC|SELL|SYM": {
+   "trades": 359,
+   "win_rate_pct": 45.682451253481894,
+   "expectancy_r_old_costs": -0.10732218362452615,
+   "expectancy_r": -0.1015219043854965,
+   "expectancy_stress_r": -0.13341145632501028,
+   "z": -0.34803200440977466,
+   "p": 0.6360919259171758
+  },
+  "USOILm|scan|STOCHASTIC|SELL|TRAIL": {
+   "trades": 353,
+   "win_rate_pct": 29.178470254957507,
+   "expectancy_r_old_costs": -0.14990456438629088,
+   "expectancy_r": -0.14405502535359707,
+   "expectancy_stress_r": -0.18518762980493478,
+   "z": -1.2291382126143153,
+   "p": 0.8904900049233868
+  },
+  "USOILm|scan|MACD|BUY|HW": {
+   "trades": 379,
+   "win_rate_pct": 66.49076517150397,
+   "expectancy_r_old_costs": 0.0017117157764360241,
+   "expectancy_r": 0.007513576763273891,
+   "expectancy_stress_r": -0.020358683066660516,
+   "z": 0.9236749380436007,
+   "p": 0.1778277921829585
+  },
+  "USOILm|scan|MACD|BUY|SYM": {
+   "trades": 352,
+   "win_rate_pct": 53.69318181818182,
+   "expectancy_r_old_costs": 0.058695961966351226,
+   "expectancy_r": 0.06448259198069993,
+   "expectancy_stress_r": 0.03273928160503532,
+   "z": 1.2901799670450977,
+   "p": 0.09849408999282967
+  },
+  "USOILm|scan|MACD|BUY|TRAIL": {
+   "trades": 311,
+   "win_rate_pct": 37.62057877813505,
+   "expectancy_r_old_costs": 0.03449346004900304,
+   "expectancy_r": 0.04022729854233713,
+   "expectancy_stress_r": -0.0016608764486811562,
+   "z": 0.4612893991308923,
+   "p": 0.322295494756855
+  },
+  "USOILm|scan|MACD|SELL|HW": {
+   "trades": 380,
+   "win_rate_pct": 65.52631578947368,
+   "expectancy_r_old_costs": -0.033364271185146954,
+   "expectancy_r": -0.027524297803161974,
+   "expectancy_stress_r": -0.05546419643548945,
+   "z": 0.8041504262180117,
+   "p": 0.21065505249866892
+  },
+  "USOILm|scan|MACD|SELL|SYM": {
+   "trades": 350,
+   "win_rate_pct": 49.42857142857143,
+   "expectancy_r_old_costs": -0.050571667091909196,
+   "expectancy_r": -0.04466332091524103,
+   "expectancy_stress_r": -0.07669949881790532,
+   "z": 0.7903247919112519,
+   "p": 0.21466905586596696
+  },
+  "USOILm|scan|MACD|SELL|TRAIL": {
+   "trades": 312,
+   "win_rate_pct": 28.205128205128204,
+   "expectancy_r_old_costs": -0.08354245816423124,
+   "expectancy_r": -0.07762262970896158,
+   "expectancy_stress_r": -0.11953159710839796,
+   "z": 0.09118774425351615,
+   "p": 0.4636717065244174
+  },
+  "USOILm|scan|EMA_9_21|BUY|HW": {
+   "trades": 218,
+   "win_rate_pct": 68.34862385321101,
+   "expectancy_r_old_costs": 0.016958846638555892,
+   "expectancy_r": 0.022807020655129122,
+   "expectancy_stress_r": -0.005531989975447064,
+   "z": 0.9229379688248662,
+   "p": 0.1780197662289327
+  },
+  "USOILm|scan|EMA_9_21|BUY|SYM": {
+   "trades": 211,
+   "win_rate_pct": 53.08056872037915,
+   "expectancy_r_old_costs": 0.013265026968240229,
+   "expectancy_r": 0.019104287150399933,
+   "expectancy_stress_r": -0.013121376512204404,
+   "z": 0.15410156269886788,
+   "p": 0.4387648280719801
+  },
+  "USOILm|scan|EMA_9_21|BUY|TRAIL": {
+   "trades": 207,
+   "win_rate_pct": 37.19806763285024,
+   "expectancy_r_old_costs": -0.07320502978374449,
+   "expectancy_r": -0.0673692029827803,
+   "expectancy_stress_r": -0.10982526042059544,
+   "z": -0.9528213317877855,
+   "p": 0.8296596979053299
+  },
+  "USOILm|scan|EMA_9_21|SELL|HW": {
+   "trades": 217,
+   "win_rate_pct": 62.67281105990783,
+   "expectancy_r_old_costs": -0.06797848162826522,
+   "expectancy_r": -0.06222687115412211,
+   "expectancy_stress_r": -0.09007508479758751,
+   "z": -0.10417206110179855,
+   "p": 0.541483597335106
+  },
+  "USOILm|scan|EMA_9_21|SELL|SYM": {
+   "trades": 211,
+   "win_rate_pct": 46.44549763033176,
+   "expectancy_r_old_costs": -0.09636330451889624,
+   "expectancy_r": -0.09059897379204596,
+   "expectancy_stress_r": -0.12239582132081207,
+   "z": -0.07602836307595262,
+   "p": 0.5303017334870519
+  },
+  "USOILm|scan|EMA_9_21|SELL|TRAIL": {
+   "trades": 210,
+   "win_rate_pct": 30.0,
+   "expectancy_r_old_costs": -0.050507416278890695,
+   "expectancy_r": -0.044734387231750036,
+   "expectancy_stress_r": -0.08751646901440287,
+   "z": 0.6638876004476933,
+   "p": 0.25338112645949223
+  },
+  "USOILm|scan|DONCHIAN_20|BUY|HW": {
+   "trades": 379,
+   "win_rate_pct": 64.90765171503958,
+   "expectancy_r_old_costs": -0.03519788345345137,
+   "expectancy_r": -0.029364015897771985,
+   "expectancy_stress_r": -0.05643398518966521,
+   "z": -0.30658024133795764,
+   "p": 0.6204185525135799
+  },
+  "USOILm|scan|DONCHIAN_20|BUY|SYM": {
+   "trades": 301,
+   "win_rate_pct": 50.83056478405316,
+   "expectancy_r_old_costs": 0.0055290239322826765,
+   "expectancy_r": 0.011344662434707116,
+   "expectancy_stress_r": -0.019842234831463506,
+   "z": -0.10257030847317154,
+   "p": 0.5408479955382195
+  },
+  "USOILm|scan|DONCHIAN_20|BUY|TRAIL": {
+   "trades": 193,
+   "win_rate_pct": 34.715025906735754,
+   "expectancy_r_old_costs": -0.010083375530717234,
+   "expectancy_r": -0.004230230108856,
+   "expectancy_stress_r": -0.04546066076530247,
+   "z": -0.23382765600170022,
+   "p": 0.592440610860513
+  },
+  "USOILm|scan|DONCHIAN_20|SELL|HW": {
+   "trades": 314,
+   "win_rate_pct": 63.05732484076433,
+   "expectancy_r_old_costs": -0.06567966895495184,
+   "expectancy_r": -0.05991342874793149,
+   "expectancy_stress_r": -0.0868205736975045,
+   "z": -0.17547076878611562,
+   "p": 0.5696451312274455
+  },
+  "USOILm|scan|DONCHIAN_20|SELL|SYM": {
+   "trades": 253,
+   "win_rate_pct": 47.82608695652174,
+   "expectancy_r_old_costs": -0.06025501405260672,
+   "expectancy_r": -0.054476196806058585,
+   "expectancy_stress_r": -0.08558033267238253,
+   "z": 0.3445389428057046,
+   "p": 0.3652205072669472
+  },
+  "USOILm|scan|DONCHIAN_20|SELL|TRAIL": {
+   "trades": 168,
+   "win_rate_pct": 31.547619047619047,
+   "expectancy_r_old_costs": -0.023843927865654084,
+   "expectancy_r": -0.017995817971025774,
+   "expectancy_stress_r": -0.05907766773732312,
+   "z": 0.5627615251450762,
+   "p": 0.2867986413787751
+  },
+  "USOILm|scan|VWAP_MOMENTUM|BUY|HW": {
+   "trades": 462,
+   "win_rate_pct": 65.36796536796537,
+   "expectancy_r_old_costs": -0.027731333674478553,
+   "expectancy_r": -0.021861971594934734,
+   "expectancy_stress_r": -0.0488417699432514,
+   "z": -0.11993962027625726,
+   "p": 0.5477345107201904
+  },
+  "USOILm|scan|VWAP_MOMENTUM|BUY|SYM": {
+   "trades": 368,
+   "win_rate_pct": 51.358695652173914,
+   "expectancy_r_old_costs": 0.02514866691082286,
+   "expectancy_r": 0.03100419686890738,
+   "expectancy_stress_r": -0.0007013500293233858,
+   "z": 0.4081156980651864,
+   "p": 0.3415943677980503
+  },
+  "USOILm|scan|VWAP_MOMENTUM|BUY|TRAIL": {
+   "trades": 263,
+   "win_rate_pct": 36.12167300380228,
+   "expectancy_r_old_costs": -0.008452850438771833,
+   "expectancy_r": -0.002619407882265721,
+   "expectancy_stress_r": -0.04405080836909634,
+   "z": -0.4620147139501884,
+   "p": 0.6779646155850704
+  },
+  "USOILm|scan|VWAP_MOMENTUM|SELL|HW": {
+   "trades": 450,
+   "win_rate_pct": 63.11111111111111,
+   "expectancy_r_old_costs": -0.06330687436948061,
+   "expectancy_r": -0.05762800138072741,
+   "expectancy_stress_r": -0.08443243299766393,
+   "z": -0.11670125370174124,
+   "p": 0.546451601622102
+  },
+  "USOILm|scan|VWAP_MOMENTUM|SELL|SYM": {
+   "trades": 343,
+   "win_rate_pct": 44.606413994169095,
+   "expectancy_r_old_costs": -0.12605178435532924,
+   "expectancy_r": -0.12031069349720265,
+   "expectancy_stress_r": -0.15207787794628738,
+   "z": -0.9716029831968017,
+   "p": 0.834375951069571
+  },
+  "USOILm|scan|VWAP_MOMENTUM|SELL|TRAIL": {
+   "trades": 255,
+   "win_rate_pct": 30.980392156862745,
+   "expectancy_r_old_costs": -0.10080272330718348,
+   "expectancy_r": -0.09510680638845732,
+   "expectancy_stress_r": -0.13715926859700092,
+   "z": -0.32397532050582506,
+   "p": 0.6270216406060971
+  },
+  "USOILm|scan|SUPERTREND|BUY|HW": {
+   "trades": 146,
+   "win_rate_pct": 66.43835616438356,
+   "expectancy_r_old_costs": -0.006866918756510544,
+   "expectancy_r": -0.0010011758389471648,
+   "expectancy_stress_r": -0.028415620285923066,
+   "z": 0.4734896750790225,
+   "p": 0.3179319327399347
+  },
+  "USOILm|scan|SUPERTREND|BUY|SYM": {
+   "trades": 145,
+   "win_rate_pct": 53.103448275862064,
+   "expectancy_r_old_costs": 0.02637863518292166,
+   "expectancy_r": 0.03224654248951692,
+   "expectancy_stress_r": 0.000702699480167022,
+   "z": 0.3903659547288872,
+   "p": 0.34813297952760003
+  },
+  "USOILm|scan|SUPERTREND|BUY|TRAIL": {
+   "trades": 146,
+   "win_rate_pct": 32.87671232876712,
+   "expectancy_r_old_costs": -0.13823476734395299,
+   "expectancy_r": -0.13236902442638962,
+   "expectancy_stress_r": -0.1733077857755718,
+   "z": -1.1290142280000672,
+   "p": 0.8705540841588848
+  },
+  "USOILm|scan|SUPERTREND|SELL|HW": {
+   "trades": 147,
+   "win_rate_pct": 55.78231292517006,
+   "expectancy_r_old_costs": -0.16397940492243993,
+   "expectancy_r": -0.1582911223747815,
+   "expectancy_stress_r": -0.1849514238303547,
+   "z": -1.800045460131669,
+   "p": 0.9640732698248243
+  },
+  "USOILm|scan|SUPERTREND|SELL|SYM": {
+   "trades": 146,
+   "win_rate_pct": 47.26027397260274,
+   "expectancy_r_old_costs": -0.08507814245179057,
+   "expectancy_r": -0.07936864675829323,
+   "expectancy_stress_r": -0.11049514138189018,
+   "z": -0.013685879981251333,
+   "p": 0.5054597057316621
+  },
+  "USOILm|scan|SUPERTREND|SELL|TRAIL": {
+   "trades": 147,
+   "win_rate_pct": 32.6530612244898,
+   "expectancy_r_old_costs": -0.031031117883596897,
+   "expectancy_r": -0.025342835335938455,
+   "expectancy_stress_r": -0.06647321140370474,
+   "z": 0.4887930559438062,
+   "p": 0.3124941073499814
+  },
+  "USOILm|scan|CCI_20|BUY|HW": {
+   "trades": 407,
+   "win_rate_pct": 63.882063882063875,
+   "expectancy_r_old_costs": -0.0353908014489308,
+   "expectancy_r": -0.02985142343649867,
+   "expectancy_stress_r": -0.05633456048471565,
+   "z": -0.07507931478365595,
+   "p": 0.5299241971115207
+  },
+  "USOILm|scan|CCI_20|BUY|SYM": {
+   "trades": 373,
+   "win_rate_pct": 50.402144772117964,
+   "expectancy_r_old_costs": -0.006758750266297997,
+   "expectancy_r": -0.0012233999991839942,
+   "expectancy_stress_r": -0.03217973337810345,
+   "z": -0.05296362345721918,
+   "p": 0.5211195543555635
+  },
+  "USOILm|scan|CCI_20|BUY|TRAIL": {
+   "trades": 363,
+   "win_rate_pct": 35.26170798898072,
+   "expectancy_r_old_costs": -0.002452939649806947,
+   "expectancy_r": 0.0030614928410418974,
+   "expectancy_stress_r": -0.037135171109730206,
+   "z": -0.18685472773922218,
+   "p": 0.5741127320182416
+  },
+  "USOILm|scan|CCI_20|SELL|HW": {
+   "trades": 426,
+   "win_rate_pct": 63.6150234741784,
+   "expectancy_r_old_costs": -0.05856104444817411,
+   "expectancy_r": -0.05288641869912904,
+   "expectancy_stress_r": -0.0799115800418936,
+   "z": 0.13878435082751558,
+   "p": 0.44481028026654956
+  },
+  "USOILm|scan|CCI_20|SELL|SYM": {
+   "trades": 387,
+   "win_rate_pct": 47.54521963824289,
+   "expectancy_r_old_costs": -0.08705099597318916,
+   "expectancy_r": -0.08136921659108164,
+   "expectancy_stress_r": -0.11269313969778379,
+   "z": 0.08588319628231349,
+   "p": 0.4657796347872383
+  },
+  "USOILm|scan|CCI_20|SELL|TRAIL": {
+   "trades": 369,
+   "win_rate_pct": 31.70731707317073,
+   "expectancy_r_old_costs": -0.08588345892948385,
+   "expectancy_r": -0.08012007355693013,
+   "expectancy_stress_r": -0.12224964192409,
+   "z": 0.06798024697657692,
+   "p": 0.47290067926622037
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|BUY|HW": {
+   "trades": 543,
+   "win_rate_pct": 65.74585635359117,
+   "expectancy_r_old_costs": -0.033034913094851175,
+   "expectancy_r": -0.006856232879642562,
+   "expectancy_stress_r": -0.020275276267229633,
+   "z": -0.3360209231250431,
+   "p": 0.6315724557287481
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|BUY|SYM": {
+   "trades": 469,
+   "win_rate_pct": 52.45202558635395,
+   "expectancy_r_old_costs": 0.0029840713631294575,
+   "expectancy_r": 0.028888920276963975,
+   "expectancy_stress_r": 0.008996829380495192,
+   "z": -0.39447868502863476,
+   "p": 0.6533861695282965
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|BUY|TRAIL": {
+   "trades": 354,
+   "win_rate_pct": 34.463276836158194,
+   "expectancy_r_old_costs": 0.11804869015966388,
+   "expectancy_r": 0.14290355400837282,
+   "expectancy_stress_r": 0.10111547362253034,
+   "z": -0.7831688979950489,
+   "p": 0.7832360318236401
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|SELL|HW": {
+   "trades": 590,
+   "win_rate_pct": 63.389830508474574,
+   "expectancy_r_old_costs": -0.0675985600920221,
+   "expectancy_r": -0.040844234330120376,
+   "expectancy_stress_r": -0.05610715151267257,
+   "z": 0.43760291802782514,
+   "p": 0.33083707776983673
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|SELL|SYM": {
+   "trades": 506,
+   "win_rate_pct": 45.8498023715415,
+   "expectancy_r_old_costs": -0.11097651549010791,
+   "expectancy_r": -0.08428445738716361,
+   "expectancy_stress_r": -0.10697287756471148,
+   "z": -0.149124409362823,
+   "p": 0.5592722673223517
+  },
+  "XAUUSDm|requested|VWAP_BAND_REVERSION|SELL|TRAIL": {
+   "trades": 386,
+   "win_rate_pct": 30.05181347150259,
+   "expectancy_r_old_costs": -0.1347837855688668,
+   "expectancy_r": -0.10808499155481467,
+   "expectancy_stress_r": -0.14982475033403533,
+   "z": 0.5814712298123819,
+   "p": 0.2804614514829453
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|BUY|HW": {
+   "trades": 631,
+   "win_rate_pct": 68.46275752773376,
+   "expectancy_r_old_costs": 0.011919976301975844,
+   "expectancy_r": 0.038661189626184804,
+   "expectancy_stress_r": 0.024304577115601893,
+   "z": 1.3668530672266581,
+   "p": 0.08583568263616709
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|BUY|SYM": {
+   "trades": 489,
+   "win_rate_pct": 53.78323108384458,
+   "expectancy_r_old_costs": 0.03982999798314165,
+   "expectancy_r": 0.06657789878029247,
+   "expectancy_stress_r": 0.045084858430134184,
+   "z": 0.3749709030497558,
+   "p": 0.3538410532354689
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|BUY|TRAIL": {
+   "trades": 291,
+   "win_rate_pct": 37.11340206185567,
+   "expectancy_r_old_costs": 0.23161234173581663,
+   "expectancy_r": 0.2572799325878335,
+   "expectancy_stress_r": 0.21252243864012166,
+   "z": 1.2272663158392623,
+   "p": 0.10986125576652347
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|HW": {
+   "trades": 609,
+   "win_rate_pct": 65.35303776683087,
+   "expectancy_r_old_costs": -0.029716239332074346,
+   "expectancy_r": -0.004203001140484694,
+   "expectancy_stress_r": -0.01763904512613202,
+   "z": 1.6079647914280986,
+   "p": 0.0539214450697767
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|SYM": {
+   "trades": 465,
+   "win_rate_pct": 49.67741935483871,
+   "expectancy_r_old_costs": -0.027549265242559302,
+   "expectancy_r": -0.0019727014018752027,
+   "expectancy_stress_r": -0.022286768063099045,
+   "z": 1.8510039745152282,
+   "p": 0.032084490659839135
+  },
+  "XAUUSDm|requested|VWAP_BAND_BREAKOUT|SELL|TRAIL": {
+   "trades": 286,
+   "win_rate_pct": 35.66433566433567,
+   "expectancy_r_old_costs": -0.03478938648562224,
+   "expectancy_r": -0.008127960727237012,
+   "expectancy_stress_r": -0.04925196313159425,
+   "z": 2.0263836255068393,
+   "p": 0.02136274380840041
+  },
+  "XAUUSDm|requested|LORENTZIAN|BUY|HW": {
+   "trades": 166,
+   "win_rate_pct": 72.28915662650603,
+   "expectancy_r_old_costs": 0.07603493007828846,
+   "expectancy_r": 0.10243063442867109,
+   "expectancy_stress_r": 0.0878266758011546,
+   "z": 1.970328620964329,
+   "p": 0.02440036014838259
+  },
+  "XAUUSDm|requested|LORENTZIAN|BUY|SYM": {
+   "trades": 163,
+   "win_rate_pct": 50.920245398773,
+   "expectancy_r_old_costs": 0.010585291679621668,
+   "expectancy_r": 0.03696633813571582,
+   "expectancy_stress_r": 0.011443199541630292,
+   "z": -0.13594352830738582,
+   "p": 0.5540670378733797
+  },
+  "XAUUSDm|requested|LORENTZIAN|BUY|TRAIL": {
+   "trades": 163,
+   "win_rate_pct": 38.65030674846626,
+   "expectancy_r_old_costs": 0.23414102046091864,
+   "expectancy_r": 0.2605842440935688,
+   "expectancy_stress_r": 0.21288035298787797,
+   "z": 0.5558708432371212,
+   "p": 0.28914957576706024
+  },
+  "XAUUSDm|requested|LORENTZIAN|BUY|NATIVE": {
+   "trades": 164,
+   "win_rate_pct": 48.170731707317074,
+   "expectancy_r_old_costs": -0.012875694688219355,
+   "expectancy_r": 0.01339124220151225,
+   "expectancy_stress_r": 0.0027975410163944272,
+   "z": -0.1072968051202678,
+   "p": 0.5427232404716414
+  },
+  "XAUUSDm|requested|LORENTZIAN|SELL|HW": {
+   "trades": 166,
+   "win_rate_pct": 69.87951807228916,
+   "expectancy_r_old_costs": 0.034818814117855354,
+   "expectancy_r": 0.06094807429415684,
+   "expectancy_stress_r": 0.04713233975420788,
+   "z": 2.1203694594636957,
+   "p": 0.016987450080157434
+  },
+  "XAUUSDm|requested|LORENTZIAN|SELL|SYM": {
+   "trades": 163,
+   "win_rate_pct": 50.306748466257666,
+   "expectancy_r_old_costs": -0.02377939694866387,
+   "expectancy_r": 0.0021243379419335533,
+   "expectancy_stress_r": -0.018961620546157316,
+   "z": 0.9727241232863255,
+   "p": 0.16534521625830556
+  },
+  "XAUUSDm|requested|LORENTZIAN|SELL|TRAIL": {
+   "trades": 163,
+   "win_rate_pct": 29.447852760736197,
+   "expectancy_r_old_costs": -0.17552024225979523,
+   "expectancy_r": -0.1495155807986752,
+   "expectancy_stress_r": -0.1890098843141231,
+   "z": -0.5706374445839648,
+   "p": 0.7158772846280289
+  },
+  "XAUUSDm|requested|LORENTZIAN|SELL|NATIVE": {
+   "trades": 160,
+   "win_rate_pct": 42.5,
+   "expectancy_r_old_costs": -0.05874762820505926,
+   "expectancy_r": -0.032503729065920514,
+   "expectancy_stress_r": -0.043088138910872445,
+   "z": 0.25175257577114046,
+   "p": 0.4006161579266574
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|BUY|HW": {
+   "trades": 258,
+   "win_rate_pct": 64.34108527131784,
+   "expectancy_r_old_costs": -0.04299633777548049,
+   "expectancy_r": -0.014826758932319639,
+   "expectancy_stress_r": -0.03150594297951431,
+   "z": -0.9844574580298514,
+   "p": 0.8375546805996268
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|BUY|SYM": {
+   "trades": 204,
+   "win_rate_pct": 49.50980392156863,
+   "expectancy_r_old_costs": -0.05859524149030921,
+   "expectancy_r": -0.030637253641002317,
+   "expectancy_stress_r": -0.05528346739476916,
+   "z": -1.8658901915663726,
+   "p": 0.9689716349192603
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|BUY|TRAIL": {
+   "trades": 179,
+   "win_rate_pct": 34.63687150837989,
+   "expectancy_r_old_costs": 0.19892192904761224,
+   "expectancy_r": 0.2265162613981404,
+   "expectancy_stress_r": 0.17875469988977954,
+   "z": -0.39170620792031724,
+   "p": 0.6523623486950397
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|SELL|HW": {
+   "trades": 162,
+   "win_rate_pct": 64.81481481481481,
+   "expectancy_r_old_costs": -0.016282512393436737,
+   "expectancy_r": 0.007450836076387098,
+   "expectancy_stress_r": -0.006276267839017483,
+   "z": 0.5499177691875415,
+   "p": 0.29118788797786255
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|SELL|SYM": {
+   "trades": 136,
+   "win_rate_pct": 50.73529411764706,
+   "expectancy_r_old_costs": -0.009865561291574329,
+   "expectancy_r": 0.013968988090123036,
+   "expectancy_stress_r": -0.006623044499241213,
+   "z": 0.4752136267311183,
+   "p": 0.31731735770228364
+  },
+  "XAUUSDm|requested|EMA_20_50_200_PULLBACK|SELL|TRAIL": {
+   "trades": 112,
+   "win_rate_pct": 33.035714285714285,
+   "expectancy_r_old_costs": 0.12078883319991143,
+   "expectancy_r": 0.14433859779040276,
+   "expectancy_stress_r": 0.10659219781207008,
+   "z": 1.6106104494397842,
+   "p": 0.05363232742031032
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|BUY|HW": {
+   "trades": 623,
+   "win_rate_pct": 64.04494382022472,
+   "expectancy_r_old_costs": -0.04726400649306087,
+   "expectancy_r": -0.021018347109968503,
+   "expectancy_stress_r": -0.035425636220627235,
+   "z": -1.1882531580503948,
+   "p": 0.8826331568471006
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|BUY|SYM": {
+   "trades": 497,
+   "win_rate_pct": 50.50301810865191,
+   "expectancy_r_old_costs": -0.013171350637864713,
+   "expectancy_r": 0.012971632876624666,
+   "expectancy_stress_r": -0.008026007492487861,
+   "z": -1.1387374270586736,
+   "p": 0.8725936563620995
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|BUY|TRAIL": {
+   "trades": 337,
+   "win_rate_pct": 35.01483679525222,
+   "expectancy_r_old_costs": 0.1568947108548729,
+   "expectancy_r": 0.1822915942487159,
+   "expectancy_stress_r": 0.1403760801312303,
+   "z": -0.10990805823550302,
+   "p": 0.543758854141601
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|SELL|HW": {
+   "trades": 609,
+   "win_rate_pct": 63.54679802955665,
+   "expectancy_r_old_costs": -0.055161778357946514,
+   "expectancy_r": -0.0290591162479947,
+   "expectancy_stress_r": -0.043890488338776845,
+   "z": 0.7766227334873732,
+   "p": 0.2186906925251361
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|SELL|SYM": {
+   "trades": 488,
+   "win_rate_pct": 47.950819672131146,
+   "expectancy_r_old_costs": -0.061341365505569866,
+   "expectancy_r": -0.035118733692312616,
+   "expectancy_stress_r": -0.05651309755929982,
+   "z": 1.113655098523235,
+   "p": 0.13271358957242152
+  },
+  "XAUUSDm|requested|SESSION_VWAP_CROSS|SELL|TRAIL": {
+   "trades": 342,
+   "win_rate_pct": 34.21052631578947,
+   "expectancy_r_old_costs": -0.0869529909153118,
+   "expectancy_r": -0.060530859969465396,
+   "expectancy_stress_r": -0.10180441786655943,
+   "z": 1.1966091609327976,
+   "p": 0.11572946406267523
+  },
+  "XAUUSDm|requested|RSI14|BUY|HW": {
+   "trades": 125,
+   "win_rate_pct": 63.2,
+   "expectancy_r_old_costs": -0.03698377544572573,
+   "expectancy_r": -0.01650893667789424,
+   "expectancy_stress_r": -0.029372220779117636,
+   "z": 0.15024574286195452,
+   "p": 0.4402853689376343
+  },
+  "XAUUSDm|requested|RSI14|BUY|SYM": {
+   "trades": 123,
+   "win_rate_pct": 50.40650406504065,
+   "expectancy_r_old_costs": 0.0035757526871527607,
+   "expectancy_r": 0.02396690323010248,
+   "expectancy_stress_r": 0.00581853709263153,
+   "z": 0.30402371864401284,
+   "p": 0.38055491053012847
+  },
+  "XAUUSDm|requested|RSI14|BUY|TRAIL": {
+   "trades": 122,
+   "win_rate_pct": 39.34426229508197,
+   "expectancy_r_old_costs": 0.04463273259503487,
+   "expectancy_r": 0.06504322702535346,
+   "expectancy_stress_r": 0.029578502604401292,
+   "z": -0.4779425726124436,
+   "p": 0.6836544603267333
+  },
+  "XAUUSDm|requested|RSI14|SELL|HW": {
+   "trades": 170,
+   "win_rate_pct": 55.88235294117647,
+   "expectancy_r_old_costs": -0.16400799153641596,
+   "expectancy_r": -0.13754620315162186,
+   "expectancy_stress_r": -0.15237249434013742,
+   "z": -1.370571171881424,
+   "p": 0.9147456626361203
+  },
+  "XAUUSDm|requested|RSI14|SELL|SYM": {
+   "trades": 167,
+   "win_rate_pct": 38.32335329341318,
+   "expectancy_r_old_costs": -0.21927413439173496,
+   "expectancy_r": -0.19281583462758484,
+   "expectancy_stress_r": -0.21513732960172993,
+   "z": -1.430854173090877,
+   "p": 0.9237639933419748
+  },
+  "XAUUSDm|requested|RSI14|SELL|TRAIL": {
+   "trades": 166,
+   "win_rate_pct": 25.301204819277107,
+   "expectancy_r_old_costs": -0.3296405192212029,
+   "expectancy_r": -0.30324108729992355,
+   "expectancy_stress_r": -0.3410008469095739,
+   "z": -1.6786276098394053,
+   "p": 0.9533876789202049
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|BUY|HW": {
+   "trades": 67,
+   "win_rate_pct": 61.19402985074627,
+   "expectancy_r_old_costs": -0.07592736468832398,
+   "expectancy_r": -0.05318766232460294,
+   "expectancy_stress_r": -0.06814963376354005,
+   "z": -0.3459792585988805,
+   "p": 0.6353208487512412
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|BUY|SYM": {
+   "trades": 65,
+   "win_rate_pct": 49.23076923076923,
+   "expectancy_r_old_costs": -0.01521993663514474,
+   "expectancy_r": 0.007382054127428918,
+   "expectancy_stress_r": -0.014164087869792178,
+   "z": -0.08053741079466274,
+   "p": 0.5320950783273751
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|BUY|TRAIL": {
+   "trades": 61,
+   "win_rate_pct": 36.0655737704918,
+   "expectancy_r_old_costs": 0.1276091883672216,
+   "expectancy_r": 0.15037689037716145,
+   "expectancy_stress_r": 0.10342384072342704,
+   "z": 0.0815605708713281,
+   "p": 0.46749807833748463
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|SELL|HW": {
+   "trades": 86,
+   "win_rate_pct": 62.7906976744186,
+   "expectancy_r_old_costs": -0.027727932117580935,
+   "expectancy_r": -0.0008281126777045434,
+   "expectancy_stress_r": -0.019058339722984714,
+   "z": 0.8386170562736541,
+   "p": 0.20084211812849836
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|SELL|SYM": {
+   "trades": 84,
+   "win_rate_pct": 48.80952380952381,
+   "expectancy_r_old_costs": -0.009812012810896173,
+   "expectancy_r": 0.016814606006532347,
+   "expectancy_stress_r": -0.008764461864246311,
+   "z": 1.0389186924355585,
+   "p": 0.14942127607938405
+  },
+  "XAUUSDm|requested|RSI_DIVERGENCE|SELL|TRAIL": {
+   "trades": 81,
+   "win_rate_pct": 32.098765432098766,
+   "expectancy_r_old_costs": -0.05661759241879972,
+   "expectancy_r": -0.029883924784591197,
+   "expectancy_stress_r": -0.07505166055455352,
+   "z": 1.0380668115512408,
+   "p": 0.1496194756749013
+  },
+  "XAUUSDm|requested|ADX14_20|BUY|HW": {
+   "trades": 83,
+   "win_rate_pct": 61.44578313253012,
+   "expectancy_r_old_costs": -0.05958717067733882,
+   "expectancy_r": -0.03208526796363167,
+   "expectancy_stress_r": -0.04976114960506,
+   "z": -0.5392221736275058,
+   "p": 0.7051332189409266
+  },
+  "XAUUSDm|requested|ADX14_20|BUY|SYM": {
+   "trades": 79,
+   "win_rate_pct": 51.89873417721519,
+   "expectancy_r_old_costs": 0.043201290157090164,
+   "expectancy_r": 0.07091051014054384,
+   "expectancy_stress_r": 0.04593276736609991,
+   "z": 0.11743066672115035,
+   "p": 0.45325939182764124
+  },
+  "XAUUSDm|requested|ADX14_20|BUY|TRAIL": {
+   "trades": 76,
+   "win_rate_pct": 38.15789473684211,
+   "expectancy_r_old_costs": 0.2527208187997414,
+   "expectancy_r": 0.28081077481997896,
+   "expectancy_stress_r": 0.23459345406710472,
+   "z": 0.3890140956254361,
+   "p": 0.3486328596338154
+  },
+  "XAUUSDm|requested|ADX14_20|SELL|HW": {
+   "trades": 96,
+   "win_rate_pct": 66.66666666666666,
+   "expectancy_r_old_costs": -0.009146978003663209,
+   "expectancy_r": 0.016659360132329423,
+   "expectancy_stress_r": 0.0013494139215109678,
+   "z": 0.6593820097398679,
+   "p": 0.2548252458085379
+  },
+  "XAUUSDm|requested|ADX14_20|SELL|SYM": {
+   "trades": 95,
+   "win_rate_pct": 51.578947368421055,
+   "expectancy_r_old_costs": 0.002268853876361463,
+   "expectancy_r": 0.028028638429363914,
+   "expectancy_stress_r": 0.005698362649529411,
+   "z": 0.7371408187179723,
+   "p": 0.23051835925734462
+  },
+  "XAUUSDm|requested|ADX14_20|SELL|TRAIL": {
+   "trades": 88,
+   "win_rate_pct": 37.5,
+   "expectancy_r_old_costs": -0.03870723928831877,
+   "expectancy_r": -0.013535466161871896,
+   "expectancy_stress_r": -0.055516576728962826,
+   "z": 0.30932798571000747,
+   "p": 0.3785360223196919
+  },
+  "XAUUSDm|requested|ADX14_25|BUY|HW": {
+   "trades": 87,
+   "win_rate_pct": 68.96551724137932,
+   "expectancy_r_old_costs": 0.03769110430800243,
+   "expectancy_r": 0.06525282088690032,
+   "expectancy_stress_r": 0.04830533830670252,
+   "z": 0.7133133949161938,
+   "p": 0.23782592527627444
+  },
+  "XAUUSDm|requested|ADX14_25|BUY|SYM": {
+   "trades": 87,
+   "win_rate_pct": 58.620689655172406,
+   "expectancy_r_old_costs": 0.13132279832849486,
+   "expectancy_r": 0.1588845149073928,
+   "expectancy_stress_r": 0.1329606041205193,
+   "z": 1.004561229710277,
+   "p": 0.15755408694330053
+  },
+  "XAUUSDm|requested|ADX14_25|BUY|TRAIL": {
+   "trades": 81,
+   "win_rate_pct": 51.85185185185185,
+   "expectancy_r_old_costs": 0.4814782458875761,
+   "expectancy_r": 0.508916916196093,
+   "expectancy_stress_r": 0.45495648513399517,
+   "z": 1.574700910558024,
+   "p": 0.05766274877665856
+  },
+  "XAUUSDm|requested|ADX14_25|SELL|HW": {
+   "trades": 108,
+   "win_rate_pct": 55.55555555555556,
+   "expectancy_r_old_costs": -0.1431969622655684,
+   "expectancy_r": -0.11884243562552493,
+   "expectancy_stress_r": -0.13380587051168152,
+   "z": -1.1380212203111795,
+   "p": 0.8724441892160841
+  },
+  "XAUUSDm|requested|ADX14_25|SELL|SYM": {
+   "trades": 106,
+   "win_rate_pct": 38.67924528301887,
+   "expectancy_r_old_costs": -0.22427132830081675,
+   "expectancy_r": -0.20005440310774122,
+   "expectancy_stress_r": -0.22195839168173762,
+   "z": -1.8250428252992807,
+   "p": 0.9660027164827957
+  },
+  "XAUUSDm|requested|ADX14_25|SELL|TRAIL": {
+   "trades": 102,
+   "win_rate_pct": 25.49019607843137,
+   "expectancy_r_old_costs": -0.23150177368229918,
+   "expectancy_r": -0.20742739784618458,
+   "expectancy_stress_r": -0.2418881183686941,
+   "z": -1.0444482986276222,
+   "p": 0.8518609861988476
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|BUY|HW": {
+   "trades": 125,
+   "win_rate_pct": 63.2,
+   "expectancy_r_old_costs": -0.03698377544572573,
+   "expectancy_r": -0.01650893667789424,
+   "expectancy_stress_r": -0.029372220779117636,
+   "z": 0.15024574286195452,
+   "p": 0.4402853689376343
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|BUY|SYM": {
+   "trades": 123,
+   "win_rate_pct": 50.40650406504065,
+   "expectancy_r_old_costs": 0.0035757526871527607,
+   "expectancy_r": 0.02396690323010248,
+   "expectancy_stress_r": 0.00581853709263153,
+   "z": 0.30402371864401284,
+   "p": 0.38055491053012847
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|BUY|TRAIL": {
+   "trades": 122,
+   "win_rate_pct": 39.34426229508197,
+   "expectancy_r_old_costs": 0.04463273259503487,
+   "expectancy_r": 0.06504322702535346,
+   "expectancy_stress_r": 0.029578502604401292,
+   "z": -0.4779425726124436,
+   "p": 0.6836544603267333
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|SELL|HW": {
+   "trades": 170,
+   "win_rate_pct": 55.88235294117647,
+   "expectancy_r_old_costs": -0.16400799153641596,
+   "expectancy_r": -0.13754620315162186,
+   "expectancy_stress_r": -0.15237249434013742,
+   "z": -1.370571171881424,
+   "p": 0.9147456626361203
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|SELL|SYM": {
+   "trades": 167,
+   "win_rate_pct": 38.32335329341318,
+   "expectancy_r_old_costs": -0.21927413439173496,
+   "expectancy_r": -0.19281583462758484,
+   "expectancy_stress_r": -0.21513732960172993,
+   "z": -1.430854173090877,
+   "p": 0.9237639933419748
+  },
+  "XAUUSDm|scan|RSI14_REVERSION|SELL|TRAIL": {
+   "trades": 166,
+   "win_rate_pct": 25.301204819277107,
+   "expectancy_r_old_costs": -0.3296405192212029,
+   "expectancy_r": -0.30324108729992355,
+   "expectancy_stress_r": -0.3410008469095739,
+   "z": -1.6786276098394053,
+   "p": 0.9533876789202049
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|BUY|HW": {
+   "trades": 529,
+   "win_rate_pct": 65.78449905482042,
+   "expectancy_r_old_costs": -0.032546033375866715,
+   "expectancy_r": -0.007043719999708459,
+   "expectancy_stress_r": -0.02078727402841451,
+   "z": -0.3507811177541301,
+   "p": 0.6371237179800875
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|BUY|SYM": {
+   "trades": 448,
+   "win_rate_pct": 52.23214285714286,
+   "expectancy_r_old_costs": 0.004965385236156686,
+   "expectancy_r": 0.030545609879286013,
+   "expectancy_stress_r": 0.009288226623996088,
+   "z": -0.15323308085514567,
+   "p": 0.5608927645152928
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|BUY|TRAIL": {
+   "trades": 324,
+   "win_rate_pct": 36.11111111111111,
+   "expectancy_r_old_costs": 0.12438638628736153,
+   "expectancy_r": 0.149216861671056,
+   "expectancy_stress_r": 0.10816727761835862,
+   "z": -0.7370866074441117,
+   "p": 0.7694651585256023
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|SELL|HW": {
+   "trades": 572,
+   "win_rate_pct": 64.16083916083916,
+   "expectancy_r_old_costs": -0.04741980327010202,
+   "expectancy_r": -0.020788745113964557,
+   "expectancy_stress_r": -0.03516873676630472,
+   "z": 1.205079814482439,
+   "p": 0.11408624573680184
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|SELL|SYM": {
+   "trades": 470,
+   "win_rate_pct": 46.170212765957444,
+   "expectancy_r_old_costs": -0.10102030468139139,
+   "expectancy_r": -0.07453524497954322,
+   "expectancy_stress_r": -0.0973334433479947,
+   "z": 0.05328379859177917,
+   "p": 0.47875289435678814
+  },
+  "XAUUSDm|scan|RSI2_EXTREME|SELL|TRAIL": {
+   "trades": 361,
+   "win_rate_pct": 30.47091412742382,
+   "expectancy_r_old_costs": -0.1649329297194572,
+   "expectancy_r": -0.13824616522271432,
+   "expectancy_stress_r": -0.17788705714830028,
+   "z": -0.4777523333264655,
+   "p": 0.6835867543098839
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|BUY|HW": {
+   "trades": 279,
+   "win_rate_pct": 65.94982078853047,
+   "expectancy_r_old_costs": -0.022713352721800167,
+   "expectancy_r": 0.0012876945099958709,
+   "expectancy_stress_r": -0.01329995470142258,
+   "z": 0.07071511231204551,
+   "p": 0.47181224653148984
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|BUY|SYM": {
+   "trades": 272,
+   "win_rate_pct": 51.470588235294116,
+   "expectancy_r_old_costs": -0.011693659172043392,
+   "expectancy_r": 0.012037579930892547,
+   "expectancy_stress_r": -0.009510693655056739,
+   "z": -0.45532428179002626,
+   "p": 0.675562020088426
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|BUY|TRAIL": {
+   "trades": 270,
+   "win_rate_pct": 35.92592592592593,
+   "expectancy_r_old_costs": 0.13972838260768383,
+   "expectancy_r": 0.16362785889265372,
+   "expectancy_stress_r": 0.12287439667534357,
+   "z": -0.3381185768893621,
+   "p": 0.6323630841033133
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|SELL|HW": {
+   "trades": 303,
+   "win_rate_pct": 65.01650165016501,
+   "expectancy_r_old_costs": -0.04411066411437499,
+   "expectancy_r": -0.01713468792589109,
+   "expectancy_stress_r": -0.03422466777431009,
+   "z": 1.1231994732235104,
+   "p": 0.1306763931366452
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|SELL|SYM": {
+   "trades": 289,
+   "win_rate_pct": 47.75086505190311,
+   "expectancy_r_old_costs": -0.08076776685257875,
+   "expectancy_r": -0.05401361800058333,
+   "expectancy_stress_r": -0.08047448015846852,
+   "z": 0.6048125540997381,
+   "p": 0.27265177558350495
+  },
+  "XAUUSDm|scan|BOLLINGER_REENTRY|SELL|TRAIL": {
+   "trades": 297,
+   "win_rate_pct": 31.313131313131315,
+   "expectancy_r_old_costs": -0.11188281849439402,
+   "expectancy_r": -0.08500060694957602,
+   "expectancy_stress_r": -0.1305540739070906,
+   "z": 0.9513661864572837,
+   "p": 0.17070925951804983
+  },
+  "XAUUSDm|scan|STOCHASTIC|BUY|HW": {
+   "trades": 258,
+   "win_rate_pct": 63.565891472868216,
+   "expectancy_r_old_costs": -0.04972013010462882,
+   "expectancy_r": -0.02526153296765697,
+   "expectancy_stress_r": -0.03889739948086128,
+   "z": -0.19316279842668663,
+   "p": 0.5765842637152273
+  },
+  "XAUUSDm|scan|STOCHASTIC|BUY|SYM": {
+   "trades": 251,
+   "win_rate_pct": 46.613545816733065,
+   "expectancy_r_old_costs": -0.08255097378827776,
+   "expectancy_r": -0.05802079453384951,
+   "expectancy_stress_r": -0.07826168597927961,
+   "z": -1.416458860928621,
+   "p": 0.921679399570418
+  },
+  "XAUUSDm|scan|STOCHASTIC|BUY|TRAIL": {
+   "trades": 243,
+   "win_rate_pct": 34.5679012345679,
+   "expectancy_r_old_costs": 0.08783749931997505,
+   "expectancy_r": 0.11206115751529325,
+   "expectancy_stress_r": 0.07237152773476797,
+   "z": -0.29391765661734365,
+   "p": 0.6155895871573761
+  },
+  "XAUUSDm|scan|STOCHASTIC|SELL|HW": {
+   "trades": 401,
+   "win_rate_pct": 61.84538653366584,
+   "expectancy_r_old_costs": -0.08727390220588287,
+   "expectancy_r": -0.059888911037555934,
+   "expectancy_stress_r": -0.07605401425938346,
+   "z": 0.02546372376706892,
+   "p": 0.4898425416694563
+  },
+  "XAUUSDm|scan|STOCHASTIC|SELL|SYM": {
+   "trades": 372,
+   "win_rate_pct": 44.354838709677416,
+   "expectancy_r_old_costs": -0.15175617329053115,
+   "expectancy_r": -0.12455905575535144,
+   "expectancy_stress_r": -0.14856060933040174,
+   "z": -0.8670862040601954,
+   "p": 0.8070526105012896
+  },
+  "XAUUSDm|scan|STOCHASTIC|SELL|TRAIL": {
+   "trades": 358,
+   "win_rate_pct": 29.88826815642458,
+   "expectancy_r_old_costs": -0.22329948382067444,
+   "expectancy_r": -0.19616158613788787,
+   "expectancy_stress_r": -0.2380140681608427,
+   "z": -1.8999728826931932,
+   "p": 0.971281660813979
+  },
+  "XAUUSDm|scan|MACD|BUY|HW": {
+   "trades": 376,
+   "win_rate_pct": 63.56382978723404,
+   "expectancy_r_old_costs": -0.0555070284091257,
+   "expectancy_r": -0.029380952757562948,
+   "expectancy_stress_r": -0.04408526268378809,
+   "z": -0.9529169422056009,
+   "p": 0.8296839223796518
+  },
+  "XAUUSDm|scan|MACD|BUY|SYM": {
+   "trades": 350,
+   "win_rate_pct": 52.28571428571429,
+   "expectancy_r_old_costs": 0.016022602236107762,
+   "expectancy_r": 0.0420140373564154,
+   "expectancy_stress_r": 0.02053621071339822,
+   "z": -0.03850640898259871,
+   "p": 0.5153580391769551
+  },
+  "XAUUSDm|scan|MACD|BUY|TRAIL": {
+   "trades": 285,
+   "win_rate_pct": 40.0,
+   "expectancy_r_old_costs": 0.19865465314943245,
+   "expectancy_r": 0.22385892736909055,
+   "expectancy_stress_r": 0.17919878176180212,
+   "z": 0.6996794157393085,
+   "p": 0.24206376715065903
+  },
+  "XAUUSDm|scan|MACD|SELL|HW": {
+   "trades": 378,
+   "win_rate_pct": 62.96296296296296,
+   "expectancy_r_old_costs": -0.06703005759772494,
+   "expectancy_r": -0.04064976709963344,
+   "expectancy_stress_r": -0.05611532029754537,
+   "z": 0.20653808923480835,
+   "p": 0.41818530757656935
+  },
+  "XAUUSDm|scan|MACD|SELL|SYM": {
+   "trades": 355,
+   "win_rate_pct": 47.88732394366197,
+   "expectancy_r_old_costs": -0.07828962084283006,
+   "expectancy_r": -0.05176087047648901,
+   "expectancy_stress_r": -0.07382768059951013,
+   "z": 0.4435407103030328,
+   "p": 0.3286873398980306
+  },
+  "XAUUSDm|scan|MACD|SELL|TRAIL": {
+   "trades": 305,
+   "win_rate_pct": 33.77049180327869,
+   "expectancy_r_old_costs": -0.09874389306695974,
+   "expectancy_r": -0.07192329719296951,
+   "expectancy_stress_r": -0.1124787644797797,
+   "z": 0.7557503328235243,
+   "p": 0.22489945013227913
+  },
+  "XAUUSDm|scan|EMA_9_21|BUY|HW": {
+   "trades": 222,
+   "win_rate_pct": 62.612612612612615,
+   "expectancy_r_old_costs": -0.0690136159372865,
+   "expectancy_r": -0.0430349785738794,
+   "expectancy_stress_r": -0.05917848580075868,
+   "z": -0.8126979111465306,
+   "p": 0.7918043604265077
+  },
+  "XAUUSDm|scan|EMA_9_21|BUY|SYM": {
+   "trades": 213,
+   "win_rate_pct": 50.23474178403756,
+   "expectancy_r_old_costs": -0.025077227545536096,
+   "expectancy_r": 0.0007483384968144187,
+   "expectancy_stress_r": -0.023167661597935523,
+   "z": -0.45602245669444114,
+   "p": 0.6758130851190555
+  },
+  "XAUUSDm|scan|EMA_9_21|BUY|TRAIL": {
+   "trades": 211,
+   "win_rate_pct": 35.07109004739337,
+   "expectancy_r_old_costs": 0.17922804204111506,
+   "expectancy_r": 0.20523349997418086,
+   "expectancy_stress_r": 0.1602936903553679,
+   "z": 0.474387562389213,
+   "p": 0.3176117803489552
+  },
+  "XAUUSDm|scan|EMA_9_21|SELL|HW": {
+   "trades": 216,
+   "win_rate_pct": 65.27777777777779,
+   "expectancy_r_old_costs": -0.03747814953777929,
+   "expectancy_r": -0.011395069656913805,
+   "expectancy_stress_r": -0.02551968488304763,
+   "z": 0.6112536913389753,
+   "p": 0.27051582165347854
+  },
+  "XAUUSDm|scan|EMA_9_21|SELL|SYM": {
+   "trades": 205,
+   "win_rate_pct": 48.292682926829265,
+   "expectancy_r_old_costs": -0.06437229699264012,
+   "expectancy_r": -0.038249443673809516,
+   "expectancy_stress_r": -0.059482156241991324,
+   "z": 0.22817508512912862,
+   "p": 0.4097550648793075
+  },
+  "XAUUSDm|scan|EMA_9_21|SELL|TRAIL": {
+   "trades": 201,
+   "win_rate_pct": 31.8407960199005,
+   "expectancy_r_old_costs": -0.07850154978107701,
+   "expectancy_r": -0.05240706686208566,
+   "expectancy_stress_r": -0.09270375323918492,
+   "z": 0.1856370882446634,
+   "p": 0.42636468342452066
+  },
+  "XAUUSDm|scan|DONCHIAN_20|BUY|HW": {
+   "trades": 407,
+   "win_rate_pct": 71.49877149877149,
+   "expectancy_r_old_costs": 0.04932223453162537,
+   "expectancy_r": 0.07693694462000492,
+   "expectancy_stress_r": 0.06281939872846658,
+   "z": 2.3064670125061033,
+   "p": 0.01054227565280927
+  },
+  "XAUUSDm|scan|DONCHIAN_20|BUY|SYM": {
+   "trades": 316,
+   "win_rate_pct": 55.69620253164557,
+   "expectancy_r_old_costs": 0.08936222098960901,
+   "expectancy_r": 0.11679604695987975,
+   "expectancy_stress_r": 0.09416041433087577,
+   "z": 1.1143759456448696,
+   "p": 0.13255896914495324
+  },
+  "XAUUSDm|scan|DONCHIAN_20|BUY|TRAIL": {
+   "trades": 173,
+   "win_rate_pct": 41.61849710982659,
+   "expectancy_r_old_costs": 0.30980439512088503,
+   "expectancy_r": 0.33626065546100464,
+   "expectancy_stress_r": 0.2871573823293364,
+   "z": 1.262356455140316,
+   "p": 0.10341027533012899
+  },
+  "XAUUSDm|scan|DONCHIAN_20|SELL|HW": {
+   "trades": 274,
+   "win_rate_pct": 62.04379562043796,
+   "expectancy_r_old_costs": -0.06813399422736176,
+   "expectancy_r": -0.04391706468225412,
+   "expectancy_stress_r": -0.05720386720714131,
+   "z": -0.185681314244416,
+   "p": 0.5736526587200793
+  },
+  "XAUUSDm|scan|DONCHIAN_20|SELL|SYM": {
+   "trades": 234,
+   "win_rate_pct": 44.44444444444444,
+   "expectancy_r_old_costs": -0.11732623215840285,
+   "expectancy_r": -0.09316364835117755,
+   "expectancy_stress_r": -0.11227953736499056,
+   "z": -0.9292397327106374,
+   "p": 0.8236175697656897
+  },
+  "XAUUSDm|scan|DONCHIAN_20|SELL|TRAIL": {
+   "trades": 155,
+   "win_rate_pct": 31.61290322580645,
+   "expectancy_r_old_costs": -0.13106824019423277,
+   "expectancy_r": -0.10587782177433962,
+   "expectancy_stress_r": -0.14353202141222413,
+   "z": -0.20776941449894118,
+   "p": 0.5822954924251151
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|BUY|HW": {
+   "trades": 430,
+   "win_rate_pct": 63.0232558139535,
+   "expectancy_r_old_costs": -0.06142361904371328,
+   "expectancy_r": -0.03408519939410936,
+   "expectancy_stress_r": -0.04970126363641529,
+   "z": -1.6733904140133764,
+   "p": 0.9528747681378342
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|BUY|SYM": {
+   "trades": 354,
+   "win_rate_pct": 50.847457627118644,
+   "expectancy_r_old_costs": -0.0027182343588919335,
+   "expectancy_r": 0.024513382243948445,
+   "expectancy_stress_r": 0.0018937190173509972,
+   "z": -0.7680709858884879,
+   "p": 0.778777493426239
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|BUY|TRAIL": {
+   "trades": 236,
+   "win_rate_pct": 33.05084745762712,
+   "expectancy_r_old_costs": 0.14598352296851158,
+   "expectancy_r": 0.17237566961174247,
+   "expectancy_stress_r": 0.12690705889393042,
+   "z": -0.5588704875584104,
+   "p": 0.711874943916237
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|SELL|HW": {
+   "trades": 362,
+   "win_rate_pct": 64.64088397790056,
+   "expectancy_r_old_costs": -0.04505800755357668,
+   "expectancy_r": -0.02015934766921441,
+   "expectancy_stress_r": -0.034739998171928105,
+   "z": 0.5729380116489892,
+   "p": 0.28334333310780246
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|SELL|SYM": {
+   "trades": 296,
+   "win_rate_pct": 47.97297297297297,
+   "expectancy_r_old_costs": -0.08136301899771878,
+   "expectancy_r": -0.056381055635135374,
+   "expectancy_stress_r": -0.0780475314925493,
+   "z": -0.13615365813819988,
+   "p": 0.5541500953150535
+  },
+  "XAUUSDm|scan|VWAP_MOMENTUM|SELL|TRAIL": {
+   "trades": 204,
+   "win_rate_pct": 33.33333333333333,
+   "expectancy_r_old_costs": -0.060762786610413136,
+   "expectancy_r": -0.03531198496460094,
+   "expectancy_stress_r": -0.07536992184099316,
+   "z": 0.7973433819098055,
+   "p": 0.2126258158891328
+  },
+  "XAUUSDm|scan|SUPERTREND|BUY|HW": {
+   "trades": 133,
+   "win_rate_pct": 69.92481203007519,
+   "expectancy_r_old_costs": 0.05237748320802875,
+   "expectancy_r": 0.07751939492352751,
+   "expectancy_stress_r": 0.06413394266260587,
+   "z": 1.414056869094599,
+   "p": 0.07867260279610133
+  },
+  "XAUUSDm|scan|SUPERTREND|BUY|SYM": {
+   "trades": 132,
+   "win_rate_pct": 51.515151515151516,
+   "expectancy_r_old_costs": 0.03460445378157646,
+   "expectancy_r": 0.05975654013593533,
+   "expectancy_stress_r": 0.03438014678118592,
+   "z": 0.31370139627816834,
+   "p": 0.3768739200960787
+  },
+  "XAUUSDm|scan|SUPERTREND|BUY|TRAIL": {
+   "trades": 132,
+   "win_rate_pct": 34.090909090909086,
+   "expectancy_r_old_costs": 0.2189221101965872,
+   "expectancy_r": 0.2441158271009443,
+   "expectancy_stress_r": 0.1987489368606218,
+   "z": 0.4240501965324646,
+   "p": 0.33576460284299586
+  },
+  "XAUUSDm|scan|SUPERTREND|SELL|HW": {
+   "trades": 131,
+   "win_rate_pct": 67.93893129770993,
+   "expectancy_r_old_costs": 0.01908479525053306,
+   "expectancy_r": 0.04417242883975506,
+   "expectancy_stress_r": 0.03143545298923232,
+   "z": 1.5399427766819873,
+   "p": 0.06178715125617587
+  },
+  "XAUUSDm|scan|SUPERTREND|SELL|SYM": {
+   "trades": 131,
+   "win_rate_pct": 43.51145038167939,
+   "expectancy_r_old_costs": -0.12445579878294405,
+   "expectancy_r": -0.09936816519372212,
+   "expectancy_stress_r": -0.12278575557710195,
+   "z": -0.4424371294359576,
+   "p": 0.670913542011253
+  },
+  "XAUUSDm|scan|SUPERTREND|SELL|TRAIL": {
+   "trades": 131,
+   "win_rate_pct": 26.717557251908396,
+   "expectancy_r_old_costs": -0.35262486044047114,
+   "expectancy_r": -0.3275372268512492,
+   "expectancy_stress_r": -0.36541421542983826,
+   "z": -2.111423734572542,
+   "p": 0.9826320466056877
+  },
+  "XAUUSDm|scan|CCI_20|BUY|HW": {
+   "trades": 376,
+   "win_rate_pct": 63.829787234042556,
+   "expectancy_r_old_costs": -0.03817204777291488,
+   "expectancy_r": -0.013285177827011198,
+   "expectancy_stress_r": -0.028365516537614037,
+   "z": -0.18199437556608847,
+   "p": 0.5722064300800823
+  },
+  "XAUUSDm|scan|CCI_20|BUY|SYM": {
+   "trades": 346,
+   "win_rate_pct": 49.13294797687861,
+   "expectancy_r_old_costs": -0.027634845555795366,
+   "expectancy_r": -0.0028543667352031003,
+   "expectancy_stress_r": -0.02400807393946732,
+   "z": -0.7258557887440725,
+   "p": 0.7660364089637709
+  },
+  "XAUUSDm|scan|CCI_20|BUY|TRAIL": {
+   "trades": 334,
+   "win_rate_pct": 35.32934131736527,
+   "expectancy_r_old_costs": 0.1156173856351939,
+   "expectancy_r": 0.14017459654794867,
+   "expectancy_stress_r": 0.09765139398820534,
+   "z": -0.4096544314247801,
+   "p": 0.6589702690342298
+  },
+  "XAUUSDm|scan|CCI_20|SELL|HW": {
+   "trades": 423,
+   "win_rate_pct": 59.57446808510638,
+   "expectancy_r_old_costs": -0.0969837400788715,
+   "expectancy_r": -0.07025348042663858,
+   "expectancy_stress_r": -0.0876213040924981,
+   "z": -0.6717199650751654,
+   "p": 0.7491190056261888
+  },
+  "XAUUSDm|scan|CCI_20|SELL|SYM": {
+   "trades": 392,
+   "win_rate_pct": 43.11224489795919,
+   "expectancy_r_old_costs": -0.1437172750291475,
+   "expectancy_r": -0.11707732422645585,
+   "expectancy_stress_r": -0.1409887219984926,
+   "z": -0.8397959374289111,
+   "p": 0.7994885941577812
+  },
+  "XAUUSDm|scan|CCI_20|SELL|TRAIL": {
+   "trades": 379,
+   "win_rate_pct": 32.45382585751979,
+   "expectancy_r_old_costs": -0.16104717984609915,
+   "expectancy_r": -0.13436670650567648,
+   "expectancy_stress_r": -0.1760607783017534,
+   "z": -0.5056777188493948,
+   "p": 0.6934585438444724
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|BUY|HW": {
+   "trades": 783,
+   "win_rate_pct": 65.90038314176245,
+   "expectancy_r_old_costs": -0.018989902287008274,
+   "expectancy_r": -0.010300665843724334,
+   "expectancy_stress_r": -0.03375801682142209,
+   "z": 0.9443228123083749,
+   "p": 0.17250235598859637
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|BUY|SYM": {
+   "trades": 644,
+   "win_rate_pct": 51.39751552795031,
+   "expectancy_r_old_costs": 0.007892873864829533,
+   "expectancy_r": 0.01621019508951118,
+   "expectancy_stress_r": -0.010362029705206308,
+   "z": 1.5573361868419413,
+   "p": 0.05969534406279671
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|BUY|TRAIL": {
+   "trades": 519,
+   "win_rate_pct": 34.296724470134876,
+   "expectancy_r_old_costs": -0.03626227728858821,
+   "expectancy_r": -0.027955807771775427,
+   "expectancy_stress_r": -0.06105919373655579,
+   "z": -0.6752825778246058,
+   "p": 0.7502518746686218
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|SELL|HW": {
+   "trades": 809,
+   "win_rate_pct": 66.5018541409147,
+   "expectancy_r_old_costs": 0.0008217106889717024,
+   "expectancy_r": 0.009610495555397388,
+   "expectancy_stress_r": -0.014124910881326945,
+   "z": 1.2862046282135666,
+   "p": 0.09918582812845492
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|SELL|SYM": {
+   "trades": 664,
+   "win_rate_pct": 49.096385542168676,
+   "expectancy_r_old_costs": -0.026181708067479062,
+   "expectancy_r": -0.01775465496276639,
+   "expectancy_stress_r": -0.044618152198343475,
+   "z": 0.3959292719191359,
+   "p": 0.3460786030166879
+  },
+  "BTCUSDm|requested|VWAP_BAND_REVERSION|SELL|TRAIL": {
+   "trades": 546,
+   "win_rate_pct": 31.318681318681318,
+   "expectancy_r_old_costs": -0.04023089384376392,
+   "expectancy_r": -0.03128850048049479,
+   "expectancy_stress_r": -0.06667349075732007,
+   "z": -0.5273280095896276,
+   "p": 0.701017086684722
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|BUY|HW": {
+   "trades": 845,
+   "win_rate_pct": 66.50887573964496,
+   "expectancy_r_old_costs": -0.008886598605789312,
+   "expectancy_r": 0.00011991220384724257,
+   "expectancy_stress_r": -0.023983408783013194,
+   "z": 1.4800936972335004,
+   "p": 0.06942412168135251
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|BUY|SYM": {
+   "trades": 595,
+   "win_rate_pct": 51.09243697478991,
+   "expectancy_r_old_costs": 0.015624962810740432,
+   "expectancy_r": 0.02415040759313882,
+   "expectancy_stress_r": -0.0030006198554488337,
+   "z": 1.7600469612209135,
+   "p": 0.039199922250574594
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|BUY|TRAIL": {
+   "trades": 425,
+   "win_rate_pct": 32.0,
+   "expectancy_r_old_costs": 0.06415680792117938,
+   "expectancy_r": 0.07275992760028602,
+   "expectancy_stress_r": 0.03792465736368695,
+   "z": 1.103931696617537,
+   "p": 0.1348113839971156
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|SELL|HW": {
+   "trades": 898,
+   "win_rate_pct": 64.81069042316258,
+   "expectancy_r_old_costs": -0.02742293458818688,
+   "expectancy_r": -0.018641523995294364,
+   "expectancy_stress_r": -0.041972471028644126,
+   "z": -0.12064520239391328,
+   "p": 0.5480139680109788
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|SELL|SYM": {
+   "trades": 654,
+   "win_rate_pct": 49.54128440366973,
+   "expectancy_r_old_costs": -0.025698171839091243,
+   "expectancy_r": -0.01723941701412945,
+   "expectancy_stress_r": -0.0435521495850115,
+   "z": 0.21989830788940867,
+   "p": 0.41297517708479137
+  },
+  "BTCUSDm|requested|VWAP_BAND_BREAKOUT|SELL|TRAIL": {
+   "trades": 443,
+   "win_rate_pct": 31.60270880361174,
+   "expectancy_r_old_costs": -0.029689474646321424,
+   "expectancy_r": -0.020788428354885105,
+   "expectancy_stress_r": -0.056232370738724266,
+   "z": -0.1380351314768941,
+   "p": 0.5548936738025501
+  },
+  "BTCUSDm|requested|LORENTZIAN|BUY|HW": {
+   "trades": 249,
+   "win_rate_pct": 66.66666666666666,
+   "expectancy_r_old_costs": -0.006706085219727704,
+   "expectancy_r": 0.0021858298679032226,
+   "expectancy_stress_r": -0.021012587210809234,
+   "z": 0.6505298747864875,
+   "p": 0.2576750053713913
+  },
+  "BTCUSDm|requested|LORENTZIAN|BUY|SYM": {
+   "trades": 246,
+   "win_rate_pct": 48.78048780487805,
+   "expectancy_r_old_costs": -0.06297034043366465,
+   "expectancy_r": -0.054107220324588624,
+   "expectancy_stress_r": -0.08127106661189651,
+   "z": -0.6852030290415982,
+   "p": 0.7533920936402642
+  },
+  "BTCUSDm|requested|LORENTZIAN|BUY|TRAIL": {
+   "trades": 248,
+   "win_rate_pct": 33.87096774193548,
+   "expectancy_r_old_costs": 0.06426445039203722,
+   "expectancy_r": 0.0731644645808823,
+   "expectancy_stress_r": 0.03781963260570737,
+   "z": 0.6345877116138523,
+   "p": 0.26284867236081944
+  },
+  "BTCUSDm|requested|LORENTZIAN|BUY|NATIVE": {
+   "trades": 250,
+   "win_rate_pct": 51.2,
+   "expectancy_r_old_costs": -0.006388865127388129,
+   "expectancy_r": 0.002492405743252803,
+   "expectancy_stress_r": -0.019607884643340647,
+   "z": 0.684376014526144,
+   "p": 0.24686887894223217
+  },
+  "BTCUSDm|requested|LORENTZIAN|SELL|HW": {
+   "trades": 250,
+   "win_rate_pct": 62.8,
+   "expectancy_r_old_costs": -0.06521767354965743,
+   "expectancy_r": -0.05629930725980205,
+   "expectancy_stress_r": -0.0798122197962957,
+   "z": -0.8807544713335778,
+   "p": 0.810774636480385
+  },
+  "BTCUSDm|requested|LORENTZIAN|SELL|SYM": {
+   "trades": 249,
+   "win_rate_pct": 47.389558232931726,
+   "expectancy_r_old_costs": -0.059822808036597314,
+   "expectancy_r": -0.050881413467763634,
+   "expectancy_stress_r": -0.07751650105392197,
+   "z": -0.18041700917767756,
+   "p": 0.5715873989839071
+  },
+  "BTCUSDm|requested|LORENTZIAN|SELL|TRAIL": {
+   "trades": 247,
+   "win_rate_pct": 30.76923076923077,
+   "expectancy_r_old_costs": -0.16261724774357683,
+   "expectancy_r": -0.15366651490811345,
+   "expectancy_stress_r": -0.18758345121968484,
+   "z": -1.6181985051896923,
+   "p": 0.9471900875439894
+  },
+  "BTCUSDm|requested|LORENTZIAN|SELL|NATIVE": {
+   "trades": 250,
+   "win_rate_pct": 44.800000000000004,
+   "expectancy_r_old_costs": 0.010106412765542284,
+   "expectancy_r": 0.019024779055397664,
+   "expectancy_stress_r": -0.00316782014021568,
+   "z": 1.2016164376976937,
+   "p": 0.11475608493166636
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|BUY|HW": {
+   "trades": 291,
+   "win_rate_pct": 67.0103092783505,
+   "expectancy_r_old_costs": 0.010689559720103835,
+   "expectancy_r": 0.020182890093409834,
+   "expectancy_stress_r": -0.005499386872534236,
+   "z": 0.9414253209163843,
+   "p": 0.17324347133740858
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|BUY|SYM": {
+   "trades": 229,
+   "win_rate_pct": 48.03493449781659,
+   "expectancy_r_old_costs": -0.04406875710830484,
+   "expectancy_r": -0.03466318917660275,
+   "expectancy_stress_r": -0.06412145861353646,
+   "z": -0.6993580228502964,
+   "p": 0.7578358428520926
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|BUY|TRAIL": {
+   "trades": 196,
+   "win_rate_pct": 32.6530612244898,
+   "expectancy_r_old_costs": 0.1747872125985899,
+   "expectancy_r": 0.1843545418306647,
+   "expectancy_stress_r": 0.14551353656449426,
+   "z": 1.274483886537647,
+   "p": 0.10124598984390604
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|SELL|HW": {
+   "trades": 334,
+   "win_rate_pct": 63.47305389221557,
+   "expectancy_r_old_costs": -0.04494043568997216,
+   "expectancy_r": -0.03608174822308437,
+   "expectancy_stress_r": -0.05954539837674052,
+   "z": -0.7585718666667093,
+   "p": 0.7759456463422283
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|SELL|SYM": {
+   "trades": 265,
+   "win_rate_pct": 50.943396226415096,
+   "expectancy_r_old_costs": -0.0001453482452800802,
+   "expectancy_r": 0.008176930550688745,
+   "expectancy_stress_r": -0.017296168707275215,
+   "z": 0.6387335304662509,
+   "p": 0.261498147924109
+  },
+  "BTCUSDm|requested|EMA_20_50_200_PULLBACK|SELL|TRAIL": {
+   "trades": 233,
+   "win_rate_pct": 30.90128755364807,
+   "expectancy_r_old_costs": 0.005256750157676674,
+   "expectancy_r": 0.014062918898921051,
+   "expectancy_stress_r": -0.019478966339464665,
+   "z": -0.05196746074332221,
+   "p": 0.5207226895348921
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|BUY|HW": {
+   "trades": 809,
+   "win_rate_pct": 65.01854140914709,
+   "expectancy_r_old_costs": -0.020401949104452206,
+   "expectancy_r": -0.01160716054344535,
+   "expectancy_stress_r": -0.03559697021109482,
+   "z": 0.7890121529771912,
+   "p": 0.21505245176528023
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|BUY|SYM": {
+   "trades": 625,
+   "win_rate_pct": 51.2,
+   "expectancy_r_old_costs": -0.001916637508933335,
+   "expectancy_r": 0.006592638623203595,
+   "expectancy_stress_r": -0.02036604872965383,
+   "z": 1.0066903497619144,
+   "p": 0.1570418005111105
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|BUY|TRAIL": {
+   "trades": 469,
+   "win_rate_pct": 33.47547974413646,
+   "expectancy_r_old_costs": 0.050995426083090795,
+   "expectancy_r": 0.05956646791076585,
+   "expectancy_stress_r": 0.024780245902217682,
+   "z": 0.8500917743613466,
+   "p": 0.19763703223238188
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|SELL|HW": {
+   "trades": 858,
+   "win_rate_pct": 63.86946386946387,
+   "expectancy_r_old_costs": -0.03904918364204564,
+   "expectancy_r": -0.030209354382955377,
+   "expectancy_stress_r": -0.05389170469238139,
+   "z": -0.7003833674878034,
+   "p": 0.7581560397191685
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|SELL|SYM": {
+   "trades": 664,
+   "win_rate_pct": 49.6987951807229,
+   "expectancy_r_old_costs": -0.023664877279251834,
+   "expectancy_r": -0.015239953661675682,
+   "expectancy_stress_r": -0.04142569748098887,
+   "z": 0.43185251947338366,
+   "p": 0.3329243027455159
+  },
+  "BTCUSDm|requested|SESSION_VWAP_CROSS|SELL|TRAIL": {
+   "trades": 494,
+   "win_rate_pct": 31.17408906882591,
+   "expectancy_r_old_costs": -0.039092652693949494,
+   "expectancy_r": -0.03019870444201753,
+   "expectancy_stress_r": -0.06532918962133141,
+   "z": -0.40355019693340954,
+   "p": 0.6567282425009687
+  },
+  "BTCUSDm|requested|RSI14|BUY|HW": {
+   "trades": 207,
+   "win_rate_pct": 62.80193236714976,
+   "expectancy_r_old_costs": -0.05948020043034809,
+   "expectancy_r": -0.05220959282682955,
+   "expectancy_stress_r": -0.0717506358819642,
+   "z": -0.44776830023611935,
+   "p": 0.6728397882984696
+  },
+  "BTCUSDm|requested|RSI14|BUY|SYM": {
+   "trades": 204,
+   "win_rate_pct": 44.11764705882353,
+   "expectancy_r_old_costs": -0.1463132547700782,
+   "expectancy_r": -0.13904310060605454,
+   "expectancy_stress_r": -0.16279149870398812,
+   "z": -1.9387141614488652,
+   "p": 0.9737319233493026
+  },
+  "BTCUSDm|requested|RSI14|BUY|TRAIL": {
+   "trades": 205,
+   "win_rate_pct": 29.268292682926827,
+   "expectancy_r_old_costs": -0.19547290693727148,
+   "expectancy_r": -0.18821563829269233,
+   "expectancy_stress_r": -0.2163547581524158,
+   "z": -1.8581697479127521,
+   "p": 0.9684275437086175
+  },
+  "BTCUSDm|requested|RSI14|SELL|HW": {
+   "trades": 200,
+   "win_rate_pct": 66.0,
+   "expectancy_r_old_costs": -0.0055973552584949625,
+   "expectancy_r": 0.003156943959469132,
+   "expectancy_stress_r": -0.019599179916887408,
+   "z": 0.6300338652726193,
+   "p": 0.2643362137864094
+  },
+  "BTCUSDm|requested|RSI14|SELL|SYM": {
+   "trades": 195,
+   "win_rate_pct": 49.23076923076923,
+   "expectancy_r_old_costs": -0.029661658539733585,
+   "expectancy_r": -0.020932562822965295,
+   "expectancy_stress_r": -0.04745226659810557,
+   "z": 0.4015282492450076,
+   "p": 0.344015622032081
+  },
+  "BTCUSDm|requested|RSI14|SELL|TRAIL": {
+   "trades": 195,
+   "win_rate_pct": 29.743589743589745,
+   "expectancy_r_old_costs": -0.08719642531639679,
+   "expectancy_r": -0.07846732959962854,
+   "expectancy_stress_r": -0.11202826763617506,
+   "z": -0.43028481898863097,
+   "p": 0.6665057655996093
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|BUY|HW": {
+   "trades": 112,
+   "win_rate_pct": 63.39285714285714,
+   "expectancy_r_old_costs": -0.022354148591915868,
+   "expectancy_r": -0.01434847506960749,
+   "expectancy_stress_r": -0.03663962250399259,
+   "z": 0.20882535680495193,
+   "p": 0.41729228791998857
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|BUY|SYM": {
+   "trades": 111,
+   "win_rate_pct": 51.35135135135135,
+   "expectancy_r_old_costs": 0.0036812435064534545,
+   "expectancy_r": 0.01169628862681995,
+   "expectancy_stress_r": -0.014562536222509201,
+   "z": 0.316303296665683,
+   "p": 0.375886154568954
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|BUY|TRAIL": {
+   "trades": 108,
+   "win_rate_pct": 38.88888888888889,
+   "expectancy_r_old_costs": 0.0016578366009502897,
+   "expectancy_r": 0.009687383029243242,
+   "expectancy_stress_r": -0.02341209713962724,
+   "z": -0.022021797545429392,
+   "p": 0.5087847160868889
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|SELL|HW": {
+   "trades": 140,
+   "win_rate_pct": 62.142857142857146,
+   "expectancy_r_old_costs": -0.08002507669683577,
+   "expectancy_r": -0.07122956180629092,
+   "expectancy_stress_r": -0.09501526853203658,
+   "z": -0.6800664552132691,
+   "p": 0.7517688083202455
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|SELL|SYM": {
+   "trades": 137,
+   "win_rate_pct": 44.52554744525548,
+   "expectancy_r_old_costs": -0.11123530252782886,
+   "expectancy_r": -0.10245855338810071,
+   "expectancy_stress_r": -0.13040157923072074,
+   "z": -0.4927508800733607,
+   "p": 0.6889056890830172
+  },
+  "BTCUSDm|requested|RSI_DIVERGENCE|SELL|TRAIL": {
+   "trades": 135,
+   "win_rate_pct": 28.14814814814815,
+   "expectancy_r_old_costs": -0.17654066730637774,
+   "expectancy_r": -0.1678649346485149,
+   "expectancy_stress_r": -0.2015012810712077,
+   "z": -0.7915670535579392,
+   "p": 0.7856934180886177
+  },
+  "BTCUSDm|requested|ADX14_20|BUY|HW": {
+   "trades": 129,
+   "win_rate_pct": 69.76744186046511,
+   "expectancy_r_old_costs": 0.03393440677234421,
+   "expectancy_r": 0.04429177307026502,
+   "expectancy_stress_r": 0.017670827748812498,
+   "z": 1.0383781295122583,
+   "p": 0.14954702374612772
+  },
+  "BTCUSDm|requested|ADX14_20|BUY|SYM": {
+   "trades": 127,
+   "win_rate_pct": 52.75590551181102,
+   "expectancy_r_old_costs": 0.02873001919455494,
+   "expectancy_r": 0.039072016007924516,
+   "expectancy_stress_r": 0.009425679251027134,
+   "z": 0.5455602703605903,
+   "p": 0.2926841202435555
+  },
+  "BTCUSDm|requested|ADX14_20|BUY|TRAIL": {
+   "trades": 116,
+   "win_rate_pct": 37.06896551724138,
+   "expectancy_r_old_costs": 0.08978687377196469,
+   "expectancy_r": 0.10020100590651444,
+   "expectancy_stress_r": 0.059682382893385545,
+   "z": 0.5335521927385116,
+   "p": 0.29682569587527347
+  },
+  "BTCUSDm|requested|ADX14_20|SELL|HW": {
+   "trades": 135,
+   "win_rate_pct": 60.0,
+   "expectancy_r_old_costs": -0.09115528472683315,
+   "expectancy_r": -0.08210497816437565,
+   "expectancy_stress_r": -0.10543453462583031,
+   "z": -1.166101428283173,
+   "p": 0.8782132803660858
+  },
+  "BTCUSDm|requested|ADX14_20|SELL|SYM": {
+   "trades": 131,
+   "win_rate_pct": 44.274809160305345,
+   "expectancy_r_old_costs": -0.12278145666610638,
+   "expectancy_r": -0.11369973046956429,
+   "expectancy_stress_r": -0.14077502374636522,
+   "z": -0.951075950031591,
+   "p": 0.8292170888310624
+  },
+  "BTCUSDm|requested|ADX14_20|SELL|TRAIL": {
+   "trades": 130,
+   "win_rate_pct": 31.538461538461537,
+   "expectancy_r_old_costs": -0.059144834932779285,
+   "expectancy_r": -0.0500633472701381,
+   "expectancy_stress_r": -0.08466444549279421,
+   "z": -0.18791326244694612,
+   "p": 0.5745276769930067
+  },
+  "BTCUSDm|requested|ADX14_25|BUY|HW": {
+   "trades": 139,
+   "win_rate_pct": 68.34532374100719,
+   "expectancy_r_old_costs": 0.016022978828659912,
+   "expectancy_r": 0.025492818289196126,
+   "expectancy_stress_r": 0.0005066975764648934,
+   "z": 0.7755145519981866,
+   "p": 0.21901783501673805
+  },
+  "BTCUSDm|requested|ADX14_25|BUY|SYM": {
+   "trades": 134,
+   "win_rate_pct": 50.74626865671642,
+   "expectancy_r_old_costs": -0.0007200327989119953,
+   "expectancy_r": 0.008752166979113282,
+   "expectancy_stress_r": -0.019736950281319356,
+   "z": 0.09855875611518086,
+   "p": 0.46074430918565634
+  },
+  "BTCUSDm|requested|ADX14_25|BUY|TRAIL": {
+   "trades": 122,
+   "win_rate_pct": 34.42622950819672,
+   "expectancy_r_old_costs": 0.18819518541806415,
+   "expectancy_r": 0.19757008120859423,
+   "expectancy_stress_r": 0.1603271448440705,
+   "z": 1.3500773727173507,
+   "p": 0.0884955827916327
+  },
+  "BTCUSDm|requested|ADX14_25|SELL|HW": {
+   "trades": 142,
+   "win_rate_pct": 66.19718309859155,
+   "expectancy_r_old_costs": -0.008334092516485803,
+   "expectancy_r": 0.0002511289348771549,
+   "expectancy_stress_r": -0.022371899966088883,
+   "z": 0.39198097952780897,
+   "p": 0.34753613382525045
+  },
+  "BTCUSDm|requested|ADX14_25|SELL|SYM": {
+   "trades": 136,
+   "win_rate_pct": 48.529411764705884,
+   "expectancy_r_old_costs": -0.045068903728581196,
+   "expectancy_r": -0.03659973388442379,
+   "expectancy_stress_r": -0.06290920464351468,
+   "z": 0.0665312057728059,
+   "p": 0.47347745706289796
+  },
+  "BTCUSDm|requested|ADX14_25|SELL|TRAIL": {
+   "trades": 131,
+   "win_rate_pct": 32.82442748091603,
+   "expectancy_r_old_costs": 0.009144335089540389,
+   "expectancy_r": 0.01765644049271343,
+   "expectancy_stress_r": -0.01649066622929785,
+   "z": 0.5205920972310095,
+   "p": 0.30132547786922054
+  },
+  "BTCUSDm|requested|SUPERTREND|BUY|HW": {
+   "trades": 196,
+   "win_rate_pct": 63.26530612244898,
+   "expectancy_r_old_costs": -0.06873987988184466,
+   "expectancy_r": -0.0597878845225004,
+   "expectancy_stress_r": -0.08293860590716176,
+   "z": -0.8197757020867849,
+   "p": 0.7938280074745416
+  },
+  "BTCUSDm|requested|SUPERTREND|BUY|SYM": {
+   "trades": 196,
+   "win_rate_pct": 45.40816326530612,
+   "expectancy_r_old_costs": -0.11847665762067325,
+   "expectancy_r": -0.10952466226132898,
+   "expectancy_stress_r": -0.13597628436167566,
+   "z": -1.5110613797970593,
+   "p": 0.934613593396959
+  },
+  "BTCUSDm|requested|SUPERTREND|BUY|TRAIL": {
+   "trades": 196,
+   "win_rate_pct": 32.142857142857146,
+   "expectancy_r_old_costs": -0.08388406363509246,
+   "expectancy_r": -0.07493206827574823,
+   "expectancy_stress_r": -0.10953920178761317,
+   "z": -0.846557819263568,
+   "p": 0.8013791833478092
+  },
+  "BTCUSDm|requested|SUPERTREND|SELL|HW": {
+   "trades": 195,
+   "win_rate_pct": 62.05128205128205,
+   "expectancy_r_old_costs": -0.06854415517254882,
+   "expectancy_r": -0.059841499401769055,
+   "expectancy_stress_r": -0.08227645588767146,
+   "z": -0.7781463413395209,
+   "p": 0.7817586270832897
+  },
+  "BTCUSDm|requested|SUPERTREND|SELL|SYM": {
+   "trades": 194,
+   "win_rate_pct": 43.29896907216495,
+   "expectancy_r_old_costs": -0.1325885570115559,
+   "expectancy_r": -0.12386769693368524,
+   "expectancy_stress_r": -0.14968366372007713,
+   "z": -1.3276990352655462,
+   "p": 0.9078612238015347
+  },
+  "BTCUSDm|requested|SUPERTREND|SELL|TRAIL": {
+   "trades": 195,
+   "win_rate_pct": 28.717948717948715,
+   "expectancy_r_old_costs": -0.18708792799630217,
+   "expectancy_r": -0.17838527222552242,
+   "expectancy_stress_r": -0.2107194423975971,
+   "z": -1.5188721338611995,
+   "p": 0.9356026577626657
+  },
+  "BTCUSDm|requested|MACD|BUY|HW": {
+   "trades": 556,
+   "win_rate_pct": 63.84892086330935,
+   "expectancy_r_old_costs": -0.04204548485952052,
+   "expectancy_r": -0.033055545119525395,
+   "expectancy_stress_r": -0.05676879775078409,
+   "z": -0.20200206172161742,
+   "p": 0.5800424438065682
+  },
+  "BTCUSDm|requested|MACD|BUY|SYM": {
+   "trades": 499,
+   "win_rate_pct": 49.298597194388776,
+   "expectancy_r_old_costs": -0.0335259087472695,
+   "expectancy_r": -0.024929151492706563,
+   "expectancy_stress_r": -0.0514948290832529,
+   "z": -0.07110943099513216,
+   "p": 0.528344668837329
+  },
+  "BTCUSDm|requested|MACD|BUY|TRAIL": {
+   "trades": 428,
+   "win_rate_pct": 32.476635514018696,
+   "expectancy_r_old_costs": 0.04429786327049966,
+   "expectancy_r": 0.052763890713124,
+   "expectancy_stress_r": 0.018311871295556437,
+   "z": 0.8182461691726969,
+   "p": 0.20660831852146713
+  },
+  "BTCUSDm|requested|MACD|SELL|HW": {
+   "trades": 556,
+   "win_rate_pct": 63.66906474820144,
+   "expectancy_r_old_costs": -0.05115682620966055,
+   "expectancy_r": -0.04216979161481212,
+   "expectancy_stress_r": -0.06578930917186224,
+   "z": -0.9098159318113672,
+   "p": 0.8185402044629855
+  },
+  "BTCUSDm|requested|MACD|SELL|SYM": {
+   "trades": 508,
+   "win_rate_pct": 47.63779527559055,
+   "expectancy_r_old_costs": -0.06100831221866454,
+   "expectancy_r": -0.052211219397150704,
+   "expectancy_stress_r": -0.0791292040566959,
+   "z": -0.7670992060247938,
+   "p": 0.7784887330165687
+  },
+  "BTCUSDm|requested|MACD|SELL|TRAIL": {
+   "trades": 447,
+   "win_rate_pct": 30.87248322147651,
+   "expectancy_r_old_costs": -0.056262924530595344,
+   "expectancy_r": -0.04723988783625237,
+   "expectancy_stress_r": -0.08236632119722297,
+   "z": -0.5761998871062974,
+   "p": 0.7177599592417863
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|BUY|HW": {
+   "trades": 207,
+   "win_rate_pct": 62.80193236714976,
+   "expectancy_r_old_costs": -0.05948020043034809,
+   "expectancy_r": -0.05220959282682955,
+   "expectancy_stress_r": -0.0717506358819642,
+   "z": -0.44776830023611935,
+   "p": 0.6728397882984696
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|BUY|SYM": {
+   "trades": 204,
+   "win_rate_pct": 44.11764705882353,
+   "expectancy_r_old_costs": -0.1463132547700782,
+   "expectancy_r": -0.13904310060605454,
+   "expectancy_stress_r": -0.16279149870398812,
+   "z": -1.9387141614488652,
+   "p": 0.9737319233493026
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|BUY|TRAIL": {
+   "trades": 205,
+   "win_rate_pct": 29.268292682926827,
+   "expectancy_r_old_costs": -0.19547290693727148,
+   "expectancy_r": -0.18821563829269233,
+   "expectancy_stress_r": -0.2163547581524158,
+   "z": -1.8581697479127521,
+   "p": 0.9684275437086175
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|SELL|HW": {
+   "trades": 200,
+   "win_rate_pct": 66.0,
+   "expectancy_r_old_costs": -0.0055973552584949625,
+   "expectancy_r": 0.003156943959469132,
+   "expectancy_stress_r": -0.019599179916887408,
+   "z": 0.6300338652726193,
+   "p": 0.2643362137864094
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|SELL|SYM": {
+   "trades": 195,
+   "win_rate_pct": 49.23076923076923,
+   "expectancy_r_old_costs": -0.029661658539733585,
+   "expectancy_r": -0.020932562822965295,
+   "expectancy_stress_r": -0.04745226659810557,
+   "z": 0.4015282492450076,
+   "p": 0.344015622032081
+  },
+  "BTCUSDm|scan|RSI14_REVERSION|SELL|TRAIL": {
+   "trades": 195,
+   "win_rate_pct": 29.743589743589745,
+   "expectancy_r_old_costs": -0.08719642531639679,
+   "expectancy_r": -0.07846732959962854,
+   "expectancy_stress_r": -0.11202826763617506,
+   "z": -0.43028481898863097,
+   "p": 0.6665057655996093
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|BUY|HW": {
+   "trades": 774,
+   "win_rate_pct": 64.21188630490956,
+   "expectancy_r_old_costs": -0.046722412044601154,
+   "expectancy_r": -0.03785087704723782,
+   "expectancy_stress_r": -0.061233711330422665,
+   "z": -0.4212629512652384,
+   "p": 0.663218459657074
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|BUY|SYM": {
+   "trades": 616,
+   "win_rate_pct": 49.51298701298701,
+   "expectancy_r_old_costs": -0.03943841227607331,
+   "expectancy_r": -0.03093033355515389,
+   "expectancy_stress_r": -0.0573256523748559,
+   "z": -0.0885965012042696,
+   "p": 0.5352987056067837
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|BUY|TRAIL": {
+   "trades": 495,
+   "win_rate_pct": 33.33333333333333,
+   "expectancy_r_old_costs": 0.012469245008963471,
+   "expectancy_r": 0.021054885150445894,
+   "expectancy_stress_r": -0.012093850940108624,
+   "z": 0.43055967245003496,
+   "p": 0.33339428461663234
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|SELL|HW": {
+   "trades": 790,
+   "win_rate_pct": 64.55696202531645,
+   "expectancy_r_old_costs": -0.03721347402914004,
+   "expectancy_r": -0.02792255227575626,
+   "expectancy_stress_r": -0.05218302896583987,
+   "z": -0.4518583656571372,
+   "p": 0.6743144901854414
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|SELL|SYM": {
+   "trades": 628,
+   "win_rate_pct": 50.15923566878981,
+   "expectancy_r_old_costs": -0.020519314636372358,
+   "expectancy_r": -0.011665722665862112,
+   "expectancy_stress_r": -0.03881204297027897,
+   "z": 0.7216913114748295,
+   "p": 0.23524214255213458
+  },
+  "BTCUSDm|scan|RSI2_EXTREME|SELL|TRAIL": {
+   "trades": 499,
+   "win_rate_pct": 30.66132264529058,
+   "expectancy_r_old_costs": -0.07839887508850067,
+   "expectancy_r": -0.06923909077498196,
+   "expectancy_stress_r": -0.10456362501810482,
+   "z": -1.4616751192711153,
+   "p": 0.9280848707653491
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|BUY|HW": {
+   "trades": 434,
+   "win_rate_pct": 65.2073732718894,
+   "expectancy_r_old_costs": -0.030341517521297205,
+   "expectancy_r": -0.021791797316782813,
+   "expectancy_stress_r": -0.04443240783615356,
+   "z": 0.15841211002568056,
+   "p": 0.4370660359227644
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|BUY|SYM": {
+   "trades": 416,
+   "win_rate_pct": 48.79807692307692,
+   "expectancy_r_old_costs": -0.04707128421448777,
+   "expectancy_r": -0.03869957970879744,
+   "expectancy_stress_r": -0.06476300557824932,
+   "z": -0.46250243720286877,
+   "p": 0.6781394725162566
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|BUY|TRAIL": {
+   "trades": 417,
+   "win_rate_pct": 32.853717026378895,
+   "expectancy_r_old_costs": -0.07841413730472963,
+   "expectancy_r": -0.07010877150699303,
+   "expectancy_stress_r": -0.10288736084808259,
+   "z": -1.4390227868966106,
+   "p": 0.9249279666481207
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|SELL|HW": {
+   "trades": 430,
+   "win_rate_pct": 63.72093023255814,
+   "expectancy_r_old_costs": -0.050777569241847106,
+   "expectancy_r": -0.04139165956760052,
+   "expectancy_stress_r": -0.06602402308532031,
+   "z": -0.7722970050034419,
+   "p": 0.7800307305627583
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|SELL|SYM": {
+   "trades": 399,
+   "win_rate_pct": 45.614035087719294,
+   "expectancy_r_old_costs": -0.10289892631611999,
+   "expectancy_r": -0.09367343481553043,
+   "expectancy_stress_r": -0.12204563373764159,
+   "z": -1.3875154967529928,
+   "p": 0.9173576854801784
+  },
+  "BTCUSDm|scan|BOLLINGER_REENTRY|SELL|TRAIL": {
+   "trades": 415,
+   "win_rate_pct": 29.156626506024097,
+   "expectancy_r_old_costs": -0.08189733433297412,
+   "expectancy_r": -0.07258573273633633,
+   "expectancy_stress_r": -0.10826999553183071,
+   "z": -0.9176604057390157,
+   "p": 0.8206016586476002
+  },
+  "BTCUSDm|scan|STOCHASTIC|BUY|HW": {
+   "trades": 408,
+   "win_rate_pct": 64.95098039215686,
+   "expectancy_r_old_costs": -0.030900931722113282,
+   "expectancy_r": -0.022592195659678523,
+   "expectancy_stress_r": -0.04466244043223968,
+   "z": 0.17099248481985166,
+   "p": 0.4321148374074091
+  },
+  "BTCUSDm|scan|STOCHASTIC|BUY|SYM": {
+   "trades": 389,
+   "win_rate_pct": 51.670951156812336,
+   "expectancy_r_old_costs": 0.002936703239630593,
+   "expectancy_r": 0.011187355510481414,
+   "expectancy_stress_r": -0.014558752165021841,
+   "z": 0.8639155116129087,
+   "p": 0.19381715251100728
+  },
+  "BTCUSDm|scan|STOCHASTIC|BUY|TRAIL": {
+   "trades": 384,
+   "win_rate_pct": 33.07291666666667,
+   "expectancy_r_old_costs": 0.038118822230189815,
+   "expectancy_r": 0.04639271530773781,
+   "expectancy_stress_r": 0.013672430306553941,
+   "z": 0.9884331224323476,
+   "p": 0.16147028626818102
+  },
+  "BTCUSDm|scan|STOCHASTIC|SELL|HW": {
+   "trades": 446,
+   "win_rate_pct": 65.24663677130044,
+   "expectancy_r_old_costs": -0.018993078301120396,
+   "expectancy_r": -0.009959846127547722,
+   "expectancy_stress_r": -0.033896954516998784,
+   "z": 0.5044561892880861,
+   "p": 0.3069704206695746
+  },
+  "BTCUSDm|scan|STOCHASTIC|SELL|SYM": {
+   "trades": 417,
+   "win_rate_pct": 49.64028776978417,
+   "expectancy_r_old_costs": -0.014709887568123697,
+   "expectancy_r": -0.005774943782869087,
+   "expectancy_stress_r": -0.03349453340578549,
+   "z": 0.8010138787325944,
+   "p": 0.2115618056125132
+  },
+  "BTCUSDm|scan|STOCHASTIC|SELL|TRAIL": {
+   "trades": 411,
+   "win_rate_pct": 32.360097323600975,
+   "expectancy_r_old_costs": -0.00825130938160829,
+   "expectancy_r": 0.0007233891017598844,
+   "expectancy_stress_r": -0.035110020461830684,
+   "z": 0.5191536700872881,
+   "p": 0.30182679205939267
+  },
+  "BTCUSDm|scan|MACD|BUY|HW": {
+   "trades": 556,
+   "win_rate_pct": 63.84892086330935,
+   "expectancy_r_old_costs": -0.04204548485952052,
+   "expectancy_r": -0.033055545119525395,
+   "expectancy_stress_r": -0.05676879775078409,
+   "z": -0.20200206172161742,
+   "p": 0.5800424438065682
+  },
+  "BTCUSDm|scan|MACD|BUY|SYM": {
+   "trades": 499,
+   "win_rate_pct": 49.298597194388776,
+   "expectancy_r_old_costs": -0.0335259087472695,
+   "expectancy_r": -0.024929151492706563,
+   "expectancy_stress_r": -0.0514948290832529,
+   "z": -0.07110943099513216,
+   "p": 0.528344668837329
+  },
+  "BTCUSDm|scan|MACD|BUY|TRAIL": {
+   "trades": 428,
+   "win_rate_pct": 32.476635514018696,
+   "expectancy_r_old_costs": 0.04429786327049966,
+   "expectancy_r": 0.052763890713124,
+   "expectancy_stress_r": 0.018311871295556437,
+   "z": 0.8182461691726969,
+   "p": 0.20660831852146713
+  },
+  "BTCUSDm|scan|MACD|SELL|HW": {
+   "trades": 556,
+   "win_rate_pct": 63.66906474820144,
+   "expectancy_r_old_costs": -0.05115682620966055,
+   "expectancy_r": -0.04216979161481212,
+   "expectancy_stress_r": -0.06578930917186224,
+   "z": -0.9098159318113672,
+   "p": 0.8185402044629855
+  },
+  "BTCUSDm|scan|MACD|SELL|SYM": {
+   "trades": 508,
+   "win_rate_pct": 47.63779527559055,
+   "expectancy_r_old_costs": -0.06100831221866454,
+   "expectancy_r": -0.052211219397150704,
+   "expectancy_stress_r": -0.0791292040566959,
+   "z": -0.7670992060247938,
+   "p": 0.7784887330165687
+  },
+  "BTCUSDm|scan|MACD|SELL|TRAIL": {
+   "trades": 447,
+   "win_rate_pct": 30.87248322147651,
+   "expectancy_r_old_costs": -0.056262924530595344,
+   "expectancy_r": -0.04723988783625237,
+   "expectancy_stress_r": -0.08236632119722297,
+   "z": -0.5761998871062974,
+   "p": 0.7177599592417863
+  },
+  "BTCUSDm|scan|EMA_9_21|BUY|HW": {
+   "trades": 326,
+   "win_rate_pct": 65.95092024539878,
+   "expectancy_r_old_costs": -0.013420103504913704,
+   "expectancy_r": -0.004055159277318458,
+   "expectancy_stress_r": -0.029331369882157135,
+   "z": 0.594969867240693,
+   "p": 0.2759318066016286
+  },
+  "BTCUSDm|scan|EMA_9_21|BUY|SYM": {
+   "trades": 308,
+   "win_rate_pct": 49.67532467532468,
+   "expectancy_r_old_costs": -0.022302246634735932,
+   "expectancy_r": -0.013083697691309345,
+   "expectancy_stress_r": -0.0414479980959611,
+   "z": 0.07443977010473556,
+   "p": 0.47033023230079424
+  },
+  "BTCUSDm|scan|EMA_9_21|BUY|TRAIL": {
+   "trades": 315,
+   "win_rate_pct": 32.06349206349206,
+   "expectancy_r_old_costs": 0.031000382558422072,
+   "expectancy_r": 0.040200166097426,
+   "expectancy_stress_r": 0.0036845176708577105,
+   "z": 0.3953845450933041,
+   "p": 0.3462795565479819
+  },
+  "BTCUSDm|scan|EMA_9_21|SELL|HW": {
+   "trades": 334,
+   "win_rate_pct": 62.5748502994012,
+   "expectancy_r_old_costs": -0.062454589151514264,
+   "expectancy_r": -0.05306314537462006,
+   "expectancy_stress_r": -0.0780538362010805,
+   "z": -0.9635167850317552,
+   "p": 0.8323558775505222
+  },
+  "BTCUSDm|scan|EMA_9_21|SELL|SYM": {
+   "trades": 305,
+   "win_rate_pct": 47.21311475409836,
+   "expectancy_r_old_costs": -0.0547676587732641,
+   "expectancy_r": -0.045555898619952004,
+   "expectancy_stress_r": -0.0740547195336405,
+   "z": -0.11120143141699662,
+   "p": 0.5442716917160623
+  },
+  "BTCUSDm|scan|EMA_9_21|SELL|TRAIL": {
+   "trades": 316,
+   "win_rate_pct": 30.063291139240505,
+   "expectancy_r_old_costs": -0.09919845819590013,
+   "expectancy_r": -0.08992296561790955,
+   "expectancy_stress_r": -0.12617210312385357,
+   "z": -1.0482811482354641,
+   "p": 0.852745453713982
+  },
+  "BTCUSDm|scan|DONCHIAN_20|BUY|HW": {
+   "trades": 468,
+   "win_rate_pct": 64.52991452991454,
+   "expectancy_r_old_costs": -0.03982353177103938,
+   "expectancy_r": -0.0303135104391953,
+   "expectancy_stress_r": -0.05510447901236663,
+   "z": -0.22367014312135672,
+   "p": 0.5884930101464365
+  },
+  "BTCUSDm|scan|DONCHIAN_20|BUY|SYM": {
+   "trades": 381,
+   "win_rate_pct": 50.65616797900262,
+   "expectancy_r_old_costs": -0.005988962837700007,
+   "expectancy_r": 0.003433648321501759,
+   "expectancy_stress_r": -0.02475991835314912,
+   "z": 0.38606828860688336,
+   "p": 0.3497230473317594
+  },
+  "BTCUSDm|scan|DONCHIAN_20|BUY|TRAIL": {
+   "trades": 257,
+   "win_rate_pct": 32.68482490272373,
+   "expectancy_r_old_costs": 0.008808999774570146,
+   "expectancy_r": 0.018353553932927456,
+   "expectancy_stress_r": -0.0185933443112951,
+   "z": 0.0385043838966774,
+   "p": 0.48464276811674517
+  },
+  "BTCUSDm|scan|DONCHIAN_20|SELL|HW": {
+   "trades": 439,
+   "win_rate_pct": 63.097949886104786,
+   "expectancy_r_old_costs": -0.05908965648665132,
+   "expectancy_r": -0.05070799925075548,
+   "expectancy_stress_r": -0.07245318024094952,
+   "z": -1.20843616534522,
+   "p": 0.8865602320690174
+  },
+  "BTCUSDm|scan|DONCHIAN_20|SELL|SYM": {
+   "trades": 361,
+   "win_rate_pct": 50.13850415512465,
+   "expectancy_r_old_costs": -0.006760715142141562,
+   "expectancy_r": 0.001579783740559188,
+   "expectancy_stress_r": -0.023154286002462207,
+   "z": 0.7368063470903478,
+   "p": 0.23062006141202204
+  },
+  "BTCUSDm|scan|DONCHIAN_20|SELL|TRAIL": {
+   "trades": 258,
+   "win_rate_pct": 28.68217054263566,
+   "expectancy_r_old_costs": -0.05325471348335047,
+   "expectancy_r": -0.04439463288575234,
+   "expectancy_stress_r": -0.07868186341170623,
+   "z": -0.39070621682528106,
+   "p": 0.6519927984711092
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|BUY|HW": {
+   "trades": 47,
+   "win_rate_pct": 61.702127659574465,
+   "expectancy_r_old_costs": -0.08133706819621728,
+   "expectancy_r": -0.07254975972622008,
+   "expectancy_stress_r": -0.09489355280402917,
+   "z": -0.47018743713206057,
+   "p": 0.6808894455582821
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|BUY|SYM": {
+   "trades": 41,
+   "win_rate_pct": 43.90243902439025,
+   "expectancy_r_old_costs": -0.12632060181628876,
+   "expectancy_r": -0.11770609244655446,
+   "expectancy_stress_r": -0.14280413550126456,
+   "z": -0.6427347056319437,
+   "p": 0.7398018713335868
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|BUY|TRAIL": {
+   "trades": 40,
+   "win_rate_pct": 25.0,
+   "expectancy_r_old_costs": -0.13315131039130196,
+   "expectancy_r": -0.12462154184936007,
+   "expectancy_stress_r": -0.15575861950598577,
+   "z": -0.45374211327120606,
+   "p": 0.674992773998838
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|SELL|HW": {
+   "trades": 46,
+   "win_rate_pct": 58.69565217391305,
+   "expectancy_r_old_costs": -0.10801123881424247,
+   "expectancy_r": -0.09983893632997237,
+   "expectancy_stress_r": -0.12089165632537738,
+   "z": -0.8807319978909325,
+   "p": 0.8107685532161701
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|SELL|SYM": {
+   "trades": 42,
+   "win_rate_pct": 52.38095238095239,
+   "expectancy_r_old_costs": 0.02924595892567685,
+   "expectancy_r": 0.037313619071023166,
+   "expectancy_stress_r": 0.013412589944341495,
+   "z": 0.5526943902867492,
+   "p": 0.290236347637983
+  },
+  "BTCUSDm|scan|VWAP_MOMENTUM|SELL|TRAIL": {
+   "trades": 41,
+   "win_rate_pct": 39.02439024390244,
+   "expectancy_r_old_costs": -0.14945356042988742,
+   "expectancy_r": -0.1414175397978461,
+   "expectancy_stress_r": -0.17300180425222592,
+   "z": -0.5431104511843161,
+   "p": 0.7064731213799499
+  },
+  "BTCUSDm|scan|SUPERTREND|BUY|HW": {
+   "trades": 196,
+   "win_rate_pct": 63.26530612244898,
+   "expectancy_r_old_costs": -0.06873987988184466,
+   "expectancy_r": -0.0597878845225004,
+   "expectancy_stress_r": -0.08293860590716176,
+   "z": -0.8197757020867849,
+   "p": 0.7938280074745416
+  },
+  "BTCUSDm|scan|SUPERTREND|BUY|SYM": {
+   "trades": 196,
+   "win_rate_pct": 45.40816326530612,
+   "expectancy_r_old_costs": -0.11847665762067325,
+   "expectancy_r": -0.10952466226132898,
+   "expectancy_stress_r": -0.13597628436167566,
+   "z": -1.5110613797970593,
+   "p": 0.934613593396959
+  },
+  "BTCUSDm|scan|SUPERTREND|BUY|TRAIL": {
+   "trades": 196,
+   "win_rate_pct": 32.142857142857146,
+   "expectancy_r_old_costs": -0.08388406363509246,
+   "expectancy_r": -0.07493206827574823,
+   "expectancy_stress_r": -0.10953920178761317,
+   "z": -0.846557819263568,
+   "p": 0.8013791833478092
+  },
+  "BTCUSDm|scan|SUPERTREND|SELL|HW": {
+   "trades": 195,
+   "win_rate_pct": 62.05128205128205,
+   "expectancy_r_old_costs": -0.06854415517254882,
+   "expectancy_r": -0.059841499401769055,
+   "expectancy_stress_r": -0.08227645588767146,
+   "z": -0.7781463413395209,
+   "p": 0.7817586270832897
+  },
+  "BTCUSDm|scan|SUPERTREND|SELL|SYM": {
+   "trades": 194,
+   "win_rate_pct": 43.29896907216495,
+   "expectancy_r_old_costs": -0.1325885570115559,
+   "expectancy_r": -0.12386769693368524,
+   "expectancy_stress_r": -0.14968366372007713,
+   "z": -1.3276990352655462,
+   "p": 0.9078612238015347
+  },
+  "BTCUSDm|scan|SUPERTREND|SELL|TRAIL": {
+   "trades": 195,
+   "win_rate_pct": 28.717948717948715,
+   "expectancy_r_old_costs": -0.18708792799630217,
+   "expectancy_r": -0.17838527222552242,
+   "expectancy_stress_r": -0.2107194423975971,
+   "z": -1.5188721338611995,
+   "p": 0.9356026577626657
+  },
+  "BTCUSDm|scan|CCI_20|BUY|HW": {
+   "trades": 580,
+   "win_rate_pct": 61.55172413793103,
+   "expectancy_r_old_costs": -0.07520984735295974,
+   "expectancy_r": -0.0665564551679089,
+   "expectancy_stress_r": -0.09000040616310995,
+   "z": -1.4321240191425595,
+   "p": 0.9239458342138176
+  },
+  "BTCUSDm|scan|CCI_20|BUY|SYM": {
+   "trades": 516,
+   "win_rate_pct": 48.25581395348838,
+   "expectancy_r_old_costs": -0.04910024405313036,
+   "expectancy_r": -0.04071667769286072,
+   "expectancy_stress_r": -0.06705118891050621,
+   "z": -0.3917064021731998,
+   "p": 0.6523624204678258
+  },
+  "BTCUSDm|scan|CCI_20|BUY|TRAIL": {
+   "trades": 504,
+   "win_rate_pct": 32.73809523809524,
+   "expectancy_r_old_costs": -0.0499908634806883,
+   "expectancy_r": -0.041661140452304686,
+   "expectancy_stress_r": -0.07512757688690001,
+   "z": -1.1008402973825027,
+   "p": 0.864516915068338
+  },
+  "BTCUSDm|scan|CCI_20|SELL|HW": {
+   "trades": 585,
+   "win_rate_pct": 62.22222222222222,
+   "expectancy_r_old_costs": -0.06355402319972737,
+   "expectancy_r": -0.054335390286412724,
+   "expectancy_stress_r": -0.07924887543618023,
+   "z": -1.3639331779986543,
+   "p": 0.9137057012333523
+  },
+  "BTCUSDm|scan|CCI_20|SELL|SYM": {
+   "trades": 530,
+   "win_rate_pct": 48.867924528301884,
+   "expectancy_r_old_costs": -0.03480187118643546,
+   "expectancy_r": -0.025831150441004386,
+   "expectancy_stress_r": -0.05377706627202294,
+   "z": 0.23123858347520665,
+   "p": 0.40856472843338765
+  },
+  "BTCUSDm|scan|CCI_20|SELL|TRAIL": {
+   "trades": 524,
+   "win_rate_pct": 32.63358778625955,
+   "expectancy_r_old_costs": -0.05930142963702957,
+   "expectancy_r": -0.05024360508988748,
+   "expectancy_stress_r": -0.08588154218350152,
+   "z": -1.0308778652229886,
+   "p": 0.8487009511099683
+  }
+ }
+}

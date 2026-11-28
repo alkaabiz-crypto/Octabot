@@ -1,0 +1,755 @@
+{
+ "n_tests": 16,
+ "results": {
+  "STR-034|US500m": {
+   "mode": "random",
+   "results": {
+    "EARLY": {
+     "trades": 839,
+     "mean_net_bp": -6.95,
+     "mean_stress_bp": -11.16,
+     "win_pct": 38.7,
+     "t": -4.71,
+     "random_dir_mean_bp": -4.18,
+     "p": 0.968
+    },
+    "TRAIN": {
+     "trades": 372,
+     "mean_net_bp": -2.23,
+     "mean_stress_bp": -5.8,
+     "win_pct": 41.9,
+     "t": -2.03,
+     "random_dir_mean_bp": -3.58,
+     "p": 0.105
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": -1.88,
+     "mean_stress_bp": -3.44,
+     "win_pct": 47.8,
+     "t": -1.05,
+     "random_dir_mean_bp": -1.49,
+     "p": 0.585
+    },
+    "TEST": {
+     "trades": 332,
+     "mean_net_bp": -0.69,
+     "mean_stress_bp": -1.61,
+     "win_pct": 46.1,
+     "t": -0.79,
+     "random_dir_mean_bp": -0.92,
+     "p": 0.387
+    }
+   },
+   "trades": 1790,
+   "decision": "REJECTED"
+  },
+  "STR-036|US500m": {
+   "mode": "vs_zero",
+   "results": {
+    "EARLY": {
+     "trades": 842,
+     "mean_net_bp": -0.6,
+     "mean_stress_bp": -4.85,
+     "win_pct": 53.4,
+     "t": -0.17,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": -0.6,
+     "p": 0.5658948683609116
+    },
+    "TRAIN": {
+     "trades": 372,
+     "mean_net_bp": 0.14,
+     "mean_stress_bp": -3.43,
+     "win_pct": 51.3,
+     "t": 0.06,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 0.14,
+     "p": 0.4769718900914144
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": 2.59,
+     "mean_stress_bp": 1.02,
+     "win_pct": 55.5,
+     "t": 0.5,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 2.59,
+     "p": 0.3071634911774503
+    },
+    "TEST": {
+     "trades": 331,
+     "mean_net_bp": 5.42,
+     "mean_stress_bp": 4.49,
+     "win_pct": 58.9,
+     "t": 1.85,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 5.42,
+     "p": 0.03187321803303404
+    }
+   },
+   "breakeven_swap_bp_per_night": {
+    "EARLY": -0.41,
+    "TRAIN": 0.1,
+    "VALIDATION": 1.75,
+    "TEST": 3.69
+   },
+   "trades": 1792,
+   "decision": "REJECTED"
+  },
+  "STR-037|US500m": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 26,
+     "mean_net_bp": 31.25,
+     "mean_stress_bp": 27.42,
+     "win_pct": 53.8,
+     "t": 1.81,
+     "benchmark_mean_bp": -0.09,
+     "excess_bp": 31.33,
+     "p": 0.03451341092187073
+    },
+    "TRAIN": {
+     "trades": 12,
+     "mean_net_bp": 10.4,
+     "mean_stress_bp": 6.98,
+     "win_pct": 75.0,
+     "t": 0.58,
+     "benchmark_mean_bp": 5.76,
+     "excess_bp": 4.64,
+     "p": 0.3973524543499042
+    },
+    "VALIDATION": {
+     "trades": 8,
+     "mean_net_bp": 40.03,
+     "mean_stress_bp": 38.55,
+     "win_pct": 87.5,
+     "t": 1.82,
+     "benchmark_mean_bp": 3.55,
+     "excess_bp": 36.48,
+     "p": 0.04888011954522132
+    },
+    "TEST": {
+     "trades": 11,
+     "mean_net_bp": -14.88,
+     "mean_stress_bp": -15.79,
+     "win_pct": 36.4,
+     "t": -1.41,
+     "benchmark_mean_bp": 6.48,
+     "excess_bp": -21.36,
+     "p": 0.9785486602190908
+    }
+   },
+   "trades": 57,
+   "decision": "REJECTED"
+  },
+  "STR-038|US500m": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 40,
+     "mean_net_bp": 28.38,
+     "mean_stress_bp": 24.06,
+     "win_pct": 60.0,
+     "t": 0.8,
+     "benchmark_mean_bp": -14.52,
+     "excess_bp": 42.9,
+     "p": 0.11433630676579518
+    },
+    "TRAIN": {
+     "trades": 18,
+     "mean_net_bp": 32.57,
+     "mean_stress_bp": 28.97,
+     "win_pct": 55.6,
+     "t": 0.79,
+     "benchmark_mean_bp": 21.06,
+     "excess_bp": 11.51,
+     "p": 0.39028476401917134
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": -42.69,
+     "mean_stress_bp": -44.41,
+     "win_pct": 41.7,
+     "t": -0.76,
+     "benchmark_mean_bp": 64.47,
+     "excess_bp": -107.16,
+     "p": 0.9715962300341032
+    },
+    "TEST": {
+     "trades": 16,
+     "mean_net_bp": 68.96,
+     "mean_stress_bp": 67.99,
+     "win_pct": 62.5,
+     "t": 2.17,
+     "benchmark_mean_bp": 11.03,
+     "excess_bp": 57.93,
+     "p": 0.033939442035646604
+    }
+   },
+   "trades": 86,
+   "decision": "REJECTED"
+  },
+  "STR-034|USTECm": {
+   "mode": "random",
+   "results": {
+    "EARLY": {
+     "trades": 843,
+     "mean_net_bp": -4.79,
+     "mean_stress_bp": -8.74,
+     "win_pct": 41.6,
+     "t": -3.16,
+     "random_dir_mean_bp": -3.97,
+     "p": 0.72
+    },
+    "TRAIN": {
+     "trades": 372,
+     "mean_net_bp": -4.14,
+     "mean_stress_bp": -7.28,
+     "win_pct": 40.3,
+     "t": -3.24,
+     "random_dir_mean_bp": -3.23,
+     "p": 0.769
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": -3.02,
+     "mean_stress_bp": -4.44,
+     "win_pct": 46.2,
+     "t": -1.44,
+     "random_dir_mean_bp": -1.39,
+     "p": 0.776
+    },
+    "TEST": {
+     "trades": 328,
+     "mean_net_bp": 0.82,
+     "mean_stress_bp": 0.1,
+     "win_pct": 49.1,
+     "t": 0.7,
+     "random_dir_mean_bp": -0.72,
+     "p": 0.104
+    }
+   },
+   "trades": 1790,
+   "decision": "REJECTED"
+  },
+  "STR-036|USTECm": {
+   "mode": "vs_zero",
+   "results": {
+    "EARLY": {
+     "trades": 845,
+     "mean_net_bp": -0.39,
+     "mean_stress_bp": -4.64,
+     "win_pct": 54.0,
+     "t": -0.1,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": -0.39,
+     "p": 0.5402612666412674
+    },
+    "TRAIN": {
+     "trades": 372,
+     "mean_net_bp": 3.29,
+     "mean_stress_bp": -0.01,
+     "win_pct": 52.4,
+     "t": 1.0,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 3.29,
+     "p": 0.1590162821635187
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": 4.48,
+     "mean_stress_bp": 3.04,
+     "win_pct": 56.7,
+     "t": 0.68,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 4.48,
+     "p": 0.2474941064022461
+    },
+    "TEST": {
+     "trades": 327,
+     "mean_net_bp": 8.42,
+     "mean_stress_bp": 7.69,
+     "win_pct": 56.0,
+     "t": 1.89,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 8.42,
+     "p": 0.02907204101471093
+    }
+   },
+   "breakeven_swap_bp_per_night": {
+    "EARLY": -0.26,
+    "TRAIN": 2.25,
+    "VALIDATION": 3.03,
+    "TEST": 5.69
+   },
+   "trades": 1791,
+   "decision": "REJECTED"
+  },
+  "STR-037|USTECm": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 26,
+     "mean_net_bp": 51.22,
+     "mean_stress_bp": 47.55,
+     "win_pct": 61.5,
+     "t": 2.1,
+     "benchmark_mean_bp": 0.99,
+     "excess_bp": 50.23,
+     "p": 0.01990720752219445
+    },
+    "TRAIN": {
+     "trades": 12,
+     "mean_net_bp": 10.39,
+     "mean_stress_bp": 7.42,
+     "win_pct": 66.7,
+     "t": 0.39,
+     "benchmark_mean_bp": 13.06,
+     "excess_bp": -2.67,
+     "p": 0.5397607141571052
+    },
+    "VALIDATION": {
+     "trades": 8,
+     "mean_net_bp": 60.04,
+     "mean_stress_bp": 58.69,
+     "win_pct": 62.5,
+     "t": 1.68,
+     "benchmark_mean_bp": 4.03,
+     "excess_bp": 56.01,
+     "p": 0.058374739127478106
+    },
+    "TEST": {
+     "trades": 11,
+     "mean_net_bp": -3.42,
+     "mean_stress_bp": -4.15,
+     "win_pct": 54.5,
+     "t": -0.22,
+     "benchmark_mean_bp": 8.95,
+     "excess_bp": -12.37,
+     "p": 0.791877262673804
+    }
+   },
+   "trades": 57,
+   "decision": "REJECTED"
+  },
+  "STR-038|USTECm": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 40,
+     "mean_net_bp": 46.81,
+     "mean_stress_bp": 42.82,
+     "win_pct": 60.0,
+     "t": 0.99,
+     "benchmark_mean_bp": -2.95,
+     "excess_bp": 49.76,
+     "p": 0.1474700218086128
+    },
+    "TRAIN": {
+     "trades": 18,
+     "mean_net_bp": 45.55,
+     "mean_stress_bp": 42.36,
+     "win_pct": 61.1,
+     "t": 0.81,
+     "benchmark_mean_bp": 50.9,
+     "excess_bp": -5.35,
+     "p": 0.5379275355073807
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": -6.12,
+     "mean_stress_bp": -7.73,
+     "win_pct": 58.3,
+     "t": -0.08,
+     "benchmark_mean_bp": 71.48,
+     "excess_bp": -77.6,
+     "p": 0.8525648971457926
+    },
+    "TEST": {
+     "trades": 16,
+     "mean_net_bp": 79.38,
+     "mean_stress_bp": 78.64,
+     "win_pct": 68.8,
+     "t": 1.57,
+     "benchmark_mean_bp": 11.27,
+     "excess_bp": 68.11,
+     "p": 0.08953566018058431
+    }
+   },
+   "trades": 86,
+   "decision": "REJECTED"
+  },
+  "STR-034|US30m": {
+   "mode": "random",
+   "results": {
+    "EARLY": {
+     "trades": 844,
+     "mean_net_bp": -4.79,
+     "mean_stress_bp": -7.53,
+     "win_pct": 40.8,
+     "t": -3.28,
+     "random_dir_mean_bp": -2.73,
+     "p": 0.921
+    },
+    "TRAIN": {
+     "trades": 371,
+     "mean_net_bp": -1.9,
+     "mean_stress_bp": -3.99,
+     "win_pct": 46.1,
+     "t": -2.09,
+     "random_dir_mean_bp": -2.12,
+     "p": 0.406
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": -2.55,
+     "mean_stress_bp": -3.53,
+     "win_pct": 43.3,
+     "t": -1.69,
+     "random_dir_mean_bp": -1.02,
+     "p": 0.863
+    },
+    "TEST": {
+     "trades": 334,
+     "mean_net_bp": -1.42,
+     "mean_stress_bp": -1.81,
+     "win_pct": 44.3,
+     "t": -1.99,
+     "random_dir_mean_bp": -0.37,
+     "p": 0.926
+    }
+   },
+   "trades": 1796,
+   "decision": "REJECTED"
+  },
+  "STR-036|US30m": {
+   "mode": "vs_zero",
+   "results": {
+    "EARLY": {
+     "trades": 847,
+     "mean_net_bp": 1.55,
+     "mean_stress_bp": -1.34,
+     "win_pct": 52.3,
+     "t": 0.43,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 1.55,
+     "p": 0.3344908619391158
+    },
+    "TRAIN": {
+     "trades": 372,
+     "mean_net_bp": -1.06,
+     "mean_stress_bp": -3.22,
+     "win_pct": 49.7,
+     "t": -0.52,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": -1.06,
+     "p": 0.6986471239539639
+    },
+    "VALIDATION": {
+     "trades": 247,
+     "mean_net_bp": -0.22,
+     "mean_stress_bp": -1.24,
+     "win_pct": 53.8,
+     "t": -0.05,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": -0.22,
+     "p": 0.5202129880409712
+    },
+    "TEST": {
+     "trades": 333,
+     "mean_net_bp": 5.07,
+     "mean_stress_bp": 4.67,
+     "win_pct": 55.9,
+     "t": 1.81,
+     "benchmark_mean_bp": 0.0,
+     "excess_bp": 5.07,
+     "p": 0.034799510179993366
+    }
+   },
+   "breakeven_swap_bp_per_night": {
+    "EARLY": 1.05,
+    "TRAIN": -0.72,
+    "VALIDATION": -0.15,
+    "TEST": 3.47
+   },
+   "trades": 1799,
+   "decision": "REJECTED"
+  },
+  "STR-037|US30m": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 26,
+     "mean_net_bp": 18.62,
+     "mean_stress_bp": 16.19,
+     "win_pct": 61.5,
+     "t": 1.33,
+     "benchmark_mean_bp": 1.29,
+     "excess_bp": 17.34,
+     "p": 0.10864882179983809
+    },
+    "TRAIN": {
+     "trades": 12,
+     "mean_net_bp": 7.99,
+     "mean_stress_bp": 6.03,
+     "win_pct": 66.7,
+     "t": 0.7,
+     "benchmark_mean_bp": 1.96,
+     "excess_bp": 6.03,
+     "p": 0.29944309189843127
+    },
+    "VALIDATION": {
+     "trades": 8,
+     "mean_net_bp": 30.11,
+     "mean_stress_bp": 29.16,
+     "win_pct": 75.0,
+     "t": 2.6,
+     "benchmark_mean_bp": 4.1,
+     "excess_bp": 26.01,
+     "p": 0.01237086010039738
+    },
+    "TEST": {
+     "trades": 11,
+     "mean_net_bp": -18.58,
+     "mean_stress_bp": -18.98,
+     "win_pct": 54.5,
+     "t": -0.93,
+     "benchmark_mean_bp": 5.98,
+     "excess_bp": -24.57,
+     "p": 0.8900627472334594
+    }
+   },
+   "trades": 57,
+   "decision": "REJECTED"
+  },
+  "STR-038|US30m": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 40,
+     "mean_net_bp": 28.64,
+     "mean_stress_bp": 25.9,
+     "win_pct": 60.0,
+     "t": 0.84,
+     "benchmark_mean_bp": -17.14,
+     "excess_bp": 45.78,
+     "p": 0.08856902899563254
+    },
+    "TRAIN": {
+     "trades": 18,
+     "mean_net_bp": 16.35,
+     "mean_stress_bp": 14.26,
+     "win_pct": 44.4,
+     "t": 0.45,
+     "benchmark_mean_bp": 3.63,
+     "excess_bp": 12.72,
+     "p": 0.36436510826050456
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": -58.49,
+     "mean_stress_bp": -59.57,
+     "win_pct": 50.0,
+     "t": -1.14,
+     "benchmark_mean_bp": 51.26,
+     "excess_bp": -109.75,
+     "p": 0.9837904239355842
+    },
+    "TEST": {
+     "trades": 16,
+     "mean_net_bp": 89.71,
+     "mean_stress_bp": 89.31,
+     "win_pct": 68.8,
+     "t": 2.44,
+     "benchmark_mean_bp": 11.45,
+     "excess_bp": 78.27,
+     "p": 0.0164920944077227
+    }
+   },
+   "trades": 86,
+   "decision": "REJECTED"
+  },
+  "STR-034-DAX|DE30m": {
+   "mode": "random",
+   "results": {
+    "EARLY": {
+     "trades": 866,
+     "mean_net_bp": -3.73,
+     "mean_stress_bp": -8.01,
+     "win_pct": 38.1,
+     "t": -4.38,
+     "random_dir_mean_bp": -4.29,
+     "p": 0.256
+    },
+    "TRAIN": {
+     "trades": 379,
+     "mean_net_bp": -2.82,
+     "mean_stress_bp": -6.32,
+     "win_pct": 40.4,
+     "t": -4.56,
+     "random_dir_mean_bp": -3.47,
+     "p": 0.166
+    },
+    "VALIDATION": {
+     "trades": 253,
+     "mean_net_bp": -3.29,
+     "mean_stress_bp": -6.61,
+     "win_pct": 39.9,
+     "t": -2.75,
+     "random_dir_mean_bp": -3.41,
+     "p": 0.462
+    },
+    "TEST": {
+     "trades": 339,
+     "mean_net_bp": -0.79,
+     "mean_stress_bp": -1.63,
+     "win_pct": 44.0,
+     "t": -0.87,
+     "random_dir_mean_bp": -0.85,
+     "p": 0.485
+    }
+   },
+   "trades": 1837,
+   "decision": "REJECTED"
+  },
+  "STR-035|BTCUSDT": {
+   "mode": "random",
+   "results": {
+    "EARLY": {
+     "trades": 1674,
+     "mean_net_bp": -11.83,
+     "mean_stress_bp": -41.83,
+     "win_pct": 36.9,
+     "t": -8.64,
+     "random_dir_mean_bp": -9.98,
+     "p": 0.918
+    },
+    "TRAIN": {
+     "trades": 547,
+     "mean_net_bp": -9.2,
+     "mean_stress_bp": -39.2,
+     "win_pct": 27.4,
+     "t": -9.05,
+     "random_dir_mean_bp": -9.94,
+     "p": 0.224
+    },
+    "VALIDATION": {
+     "trades": 365,
+     "mean_net_bp": -10.03,
+     "mean_stress_bp": -40.03,
+     "win_pct": 32.6,
+     "t": -6.33,
+     "random_dir_mean_bp": -10.01,
+     "p": 0.505
+    },
+    "TEST": {
+     "trades": 494,
+     "mean_net_bp": -12.45,
+     "mean_stress_bp": -42.45,
+     "win_pct": 24.5,
+     "t": -10.97,
+     "random_dir_mean_bp": -10.05,
+     "p": 0.983
+    }
+   },
+   "trades": 3080,
+   "decision": "REJECTED"
+  },
+  "STR-038|BTCUSDT": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 54,
+     "mean_net_bp": 225.86,
+     "mean_stress_bp": 195.86,
+     "win_pct": 59.3,
+     "t": 2.53,
+     "benchmark_mean_bp": -6.37,
+     "excess_bp": 232.22,
+     "p": 0.004666933751172961
+    },
+    "TRAIN": {
+     "trades": 18,
+     "mean_net_bp": -16.84,
+     "mean_stress_bp": -46.84,
+     "win_pct": 44.4,
+     "t": -0.17,
+     "benchmark_mean_bp": 94.6,
+     "excess_bp": -111.44,
+     "p": 0.8764313939810229
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": -61.56,
+     "mean_stress_bp": -91.56,
+     "win_pct": 50.0,
+     "t": -0.38,
+     "benchmark_mean_bp": 155.84,
+     "excess_bp": -217.41,
+     "p": 0.9113437116183623
+    },
+    "TEST": {
+     "trades": 17,
+     "mean_net_bp": 5.23,
+     "mean_stress_bp": -24.77,
+     "win_pct": 64.7,
+     "t": 0.05,
+     "benchmark_mean_bp": -14.34,
+     "excess_bp": 19.57,
+     "p": 0.4205904533012426
+    }
+   },
+   "trades": 101,
+   "decision": "REJECTED"
+  },
+  "STR-038|XAUUSDm": {
+   "mode": "excess",
+   "results": {
+    "EARLY": {
+     "trades": 35,
+     "mean_net_bp": 22.63,
+     "mean_stress_bp": 20.8,
+     "win_pct": 51.4,
+     "t": 0.71,
+     "benchmark_mean_bp": 3.63,
+     "excess_bp": 19.0,
+     "p": 0.2744855661321528
+    },
+    "TRAIN": {
+     "trades": 18,
+     "mean_net_bp": 24.45,
+     "mean_stress_bp": 23.45,
+     "win_pct": 50.0,
+     "t": 0.49,
+     "benchmark_mean_bp": 27.57,
+     "excess_bp": -3.12,
+     "p": 0.524766673174955
+    },
+    "VALIDATION": {
+     "trades": 12,
+     "mean_net_bp": 68.36,
+     "mean_stress_bp": 67.75,
+     "win_pct": 83.3,
+     "t": 2.24,
+     "benchmark_mean_bp": 90.4,
+     "excess_bp": -22.04,
+     "p": 0.7647586533311339
+    },
+    "TEST": {
+     "trades": 17,
+     "mean_net_bp": 85.26,
+     "mean_stress_bp": 84.74,
+     "win_pct": 70.6,
+     "t": 1.17,
+     "benchmark_mean_bp": 3.99,
+     "excess_bp": 81.27,
+     "p": 0.13260385593725046
+    }
+   },
+   "trades": 82,
+   "decision": "WATCH"
+  }
+ }
+}

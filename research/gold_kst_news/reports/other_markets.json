@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "generated_utc": "2026-11-12 00:26",
+  "period": "2023-07 to latest"
+ },
+ "p": {
+  "XAGUSDm|DOLLAR_FALLING": 0.125141153852371,
+  "XAGUSDm|VOL_LOW": 0.2220559577774965,
+  "EURUSDm|DOLLAR_FALLING": 0.39954901385974917,
+  "EURUSDm|VOL_LOW": 0.1949965557499003
+ },
+ "carried_over": [],
+ "results": {
+  "XAGUSDm|UNFILTERED": {
+   "trades": 406,
+   "win_rate_pct": 41.6256157635468,
+   "expectancy_r": 0.09551143774353216,
+   "expectancy_stress_r": 0.04412143720297064,
+   "total_r": 38.77764372387406,
+   "max_drawdown_r": 47.28329545739052,
+   "random_mean_r": 0.025735422520123476,
+   "z": 0.7731448716882073
+  },
+  "XAGUSDm|DOLLAR_FALLING": {
+   "trades": 210,
+   "win_rate_pct": 44.761904761904766,
+   "expectancy_r": 0.18408728980674494,
+   "expectancy_stress_r": 0.13244432032076905,
+   "total_r": 38.65833085941644,
+   "max_drawdown_r": 13.426987440547508,
+   "random_mean_r": 0.038289950818031035,
+   "z": 1.1496639501974388
+  },
+  "XAGUSDm|VOL_LOW": {
+   "trades": 212,
+   "win_rate_pct": 38.67924528301887,
+   "expectancy_r": 0.09516768789299246,
+   "expectancy_stress_r": 0.03957566048469374,
+   "total_r": 20.175549833314403,
+   "max_drawdown_r": 41.69486283875943,
+   "random_mean_r": -0.005718273937461294,
+   "z": 0.7652680997787957
+  },
+  "EURUSDm|UNFILTERED": {
+   "trades": 302,
+   "win_rate_pct": 33.11258278145696,
+   "expectancy_r": -0.17077211301093195,
+   "expectancy_stress_r": -0.3919326889372717,
+   "total_r": -51.57317812930145,
+   "max_drawdown_r": 66.14797937326911,
+   "random_mean_r": -0.16763495842864248,
+   "z": -0.030304045996515063
+  },
+  "EURUSDm|DOLLAR_FALLING": {
+   "trades": 163,
+   "win_rate_pct": 35.58282208588957,
+   "expectancy_r": -0.06274046054175582,
+   "expectancy_stress_r": -0.2917361881309865,
+   "total_r": -10.226695068306197,
+   "max_drawdown_r": 26.291216333635788,
+   "random_mean_r": -0.10032393422115572,
+   "z": 0.25451459804914617
+  },
+  "EURUSDm|VOL_LOW": {
+   "trades": 146,
+   "win_rate_pct": 34.24657534246575,
+   "expectancy_r": -0.06324427524364859,
+   "expectancy_stress_r": -0.3087508428801424,
+   "total_r": -9.233664185572694,
+   "max_drawdown_r": 33.16089728605191,
+   "random_mean_r": -0.1905647535465387,
+   "z": 0.8596298566500631
+  }
+ }
+}

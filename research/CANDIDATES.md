@@ -1,0 +1,199 @@
+# Candidate register (by category), 13 November 2026
+
+Every idea has a **permanent number** in one of the four categories. Each category is tested by its own method ([`PLAN.md`](PLAN.md); protocols in [`categories/`](categories/)). A result from one category's test is **not** a verdict in another: for example, a strategy that loses does not prove its indicator carries no information.
+
+**Status codes**
+- **REJECTED / NOT SUPPORTED / NONE:** tested and failed.
+- **DECAYED:** true in older data, not now.
+- **WATCH:** positive but not yet proven.
+- **RUNNING:** a forward paper test is in progress.
+- **PENDING:** not yet tested with this category's method.
+
+## Indicators (IND): a measurement. Does it carry information about future moves?
+
+IND batch 001 (`new_discovery/ind_batch_001/`, 2026-11-13) tested IND-001, IND-003 to IND-018 and IND-020. IND batch 002 tested IND-019 and IND-022 to IND-034 (all NONE). Still PENDING: IND-002 (covered by THE-009) and the rest of the IND-021 group.
+
+| ID | Candidate | Evidence so far (as part of strategies) | Indicator verdict |
+|---|---|---|---|
+| IND-001 | Coinbase premium z-score (BTC; Coinbase USD vs Binance USDT) | STR-008 positive in every period since 2017; failed vs Bitstamp and on ETH | WEAK (IND batch 001: 5-day IC positive in every period, not significant) |
+| IND-002 | Futures-curve slope ln(F1/F2) (WTI, natural gas) | THE-009: strong pre-2010, faded since | PENDING |
+| IND-003 | KST (Know Sure Thing) | Gold KST studies; library G7: failed as rules | NONE (IND batch 001) |
+| IND-004 | Distance from session/daily VWAP | RSI+VWAP studies; STR-023 promising on BTC/ETH | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-005 | RSI (14, 2) | Library B1/B2, RSI+VWAP studies: failed as rules | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-006 | MACD | Library A3, F6: failed | NONE (IND batch 001) |
+| IND-007 | Moving-average trend (EMA 9/21, SMA 50/200) | Library A1/A2, MOM50: failed or mixed | NONE (IND batch 001) |
+| IND-008 | Supertrend | Library A4: failed | NONE (IND batch 001) |
+| IND-009 | Parabolic SAR | Library A5: failed | NONE (IND batch 001) |
+| IND-010 | ADX / DMI | Library A6: failed | NONE (IND batch 001) |
+| IND-011 | Donchian channel position | Library A7/A8: failed; Donchian 20 BTC paper (STR-009) | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-012 | Ichimoku cloud | Library A9: failed | NONE (IND batch 001) |
+| IND-013 | Bollinger %B and squeeze | Library B3, A12, F1: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-014 | Stochastic | Library B4; oil stochastic paper (STR-012) | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-015 | CCI | Library B5: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-016 | Williams %R | Library B6: failed | NONE (IND batch 001) — contrarian at 1h, see THE-017 |
+| IND-017 | Williams Vix Fix | Community round 2: passed 2025–26 on BTC, then failed on new data | NONE (IND batch 001) |
+| IND-018 | HAR realised-volatility forecast | Batch 002 E006: better than EWMA on 6 markets (WATCH as a forecast) | **INFORMATIVE** (IND batch 001: predicts next-day volatility, 5/5 markets) |
+| IND-019 | Two-state HMM regime probability | Batch 002 E007: WATCH on USD/JPY only | NONE (IND batch 002) |
+| IND-020 | 20-day momentum (time-series) | Library A11, batch 001 D002: failed | NONE (IND batch 001) |
+| IND-021 | Other TradingView built-ins and community scripts (about 2,950 variants: Aroon, Vortex, TRIX, KAMA, Alligator, Hull, Keltner, Chandelier, Waddah Attar, …) | `multi_market`, `long_history`, `tradingview_*`, `community_indicators*`: 0 survivors as rules | PENDING (group) |
+| IND-022 | Aroon oscillator (25) | from the IND-021 group | NONE (IND batch 002) |
+| IND-023 | Vortex (14) | from the IND-021 group | NONE (IND batch 002) |
+| IND-024 | TRIX (15) | from the IND-021 group | NONE (IND batch 002) |
+| IND-025 | KAMA slope | from the IND-021 group | NONE (IND batch 002) |
+| IND-026 | Williams Alligator | from the IND-021 group | NONE (IND batch 002) |
+| IND-027 | Hull MA (55) slope | from the IND-021 group | NONE (IND batch 002) |
+| IND-028 | Keltner position | from the IND-021 group | NONE (IND batch 002) |
+| IND-029 | Heikin-Ashi colour run | from the IND-021 group | NONE (IND batch 002) |
+| IND-030 | Awesome Oscillator | from the IND-021 group | NONE (IND batch 002) |
+| IND-031 | Ultimate Oscillator | from the IND-021 group | NONE (IND batch 002) |
+| IND-032 | Rate of change (12) | from the IND-021 group | NONE (IND batch 002) |
+| IND-033 | Fisher transform (10) | from the IND-021 group | NONE (IND batch 002) |
+| IND-034 | Elder ray (13) | from the IND-021 group | NONE (IND batch 002) |
+| IND-035 | Volumetric order blocks (BigBeluga / LuxAlgo style: swing break, last opposite candle, buy/sell volume share) | user, 2026-11-15 | tested only inside STR-027 (volume filter made little difference) |
+| IND-036 | Squeeze Momentum [LazyBear] | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-037 | WaveTrend [LazyBear] | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-038 | QQE Mod | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-039 | SSL channel (10) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-040 | UT Bot alerts | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-041 | Chandelier exit (22,3) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-042 | Schaff Trend Cycle | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-043 | Coppock curve | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-044 | Detrended price oscillator (20) | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-045 | Least-squares MA (50) slope | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-046 | Connors RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-047 | Laguerre RSI | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-048 | Choppiness-filtered momentum | TradingView batch 003 (web search, 2026-11-15) | NONE (TV batch 003) |
+| IND-049 | ALMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-050 | Balance of Power (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-051 | BBTrend (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-052 | Chaikin Money Flow (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-053 | Chaikin Oscillator (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-054 | Accumulation/Distribution (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-055 | Chande Kroll Stop (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-056 | Chande Momentum Osc. (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-057 | Chop Zone (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-058 | Trend Strength Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-059 | DEMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-060 | TEMA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-061 | Ease of Movement (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-062 | Elder Force Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-063 | Envelope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-064 | Guppy MMA (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-065 | Linear regression position (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-066 | McGinley Dynamic (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-067 | Momentum (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-068 | Money Flow Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-069 | Net Volume (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-070 | On-Balance Volume (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-071 | PPO (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-072 | Price Volume Trend (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-073 | Rank Correlation Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-074 | Relative Vigor Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-075 | Relative Volatility Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-076 | SMI Ergodic (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-077 | Stochastic RSI (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-078 | Stochastic Momentum Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-079 | Smoothed MA slope (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-080 | Technical Ratings (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-081 | True Strength Index (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-082 | Volatility Stop (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-083 | VWMA vs SMA (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-084 | Williams Fractals (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-085 | Woodies CCI (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-086 | Klinger Oscillator (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-087 | Standard pivot points (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+| IND-088 | RSI divergence (TradingView built-in) | TradingView batch 004 (2026-11-15) | NONE (TV batch 004) |
+
+## Strategies (STR): a complete trading rule. Does it make money after costs on new data?
+
+| ID | Candidate | Verdict | Where |
+|---|---|---|---|
+| STR-001 | ETH Fibonacci 61.8% pullback, 1h (ETH_FIB) | **REJECTED**: its backtest edge came from look-ahead; causal −20 / −10 bp. Paper test RUNNING (other session). | `audits/library_candidates/` |
+| STR-002 | Oil Fibonacci pullback, 1h (OIL_FIB) | **REJECTED**: causal −2.5 / −9.6 bp; −13.6 bp with Hyperliquid fees. Paper RUNNING. | same |
+| STR-003 | Gold FVG fill, 1h (GOLD_FVG) | **REJECTED**: causal about 0; −5.3 bp with Hyperliquid fees. Paper RUNNING. | same |
+| STR-004 | BTC Pivot Reversal BUY, 1h | **RUNNING** (0 / 400 legs) | `pivot_reversal_paper/` |
+| STR-005 | ETH Pivot Reversal BUY, 1h | **RUNNING** (0 / 400) | `eth_pivot_paper/` |
+| STR-006 | Gold KST + VWAP BUY, 48 h time stop | **RUNNING** (0 / 200) | `gold_kst_paper/` |
+| STR-007 | Gold KST + VWAP, 2×ATR stop, flat before news | **RUNNING** (0 / 200) | `gold_kst_risk_paper/` |
+| STR-008 | Coinbase premium, 24 h hold (BTC) | **WATCH**, forward **RUNNING** since 2026-11-13 (first look at 100 trades) | `new_discovery/batch_003/`, `forward_h4/` |
+| STR-009 | Donchian 20 BUY, BTC | Other session; paper paused with its commits | other branch |
+| STR-010 | Gold Asia session | Other session; RUNNING | other branch |
+| STR-011 | Gold MOM50 | Other session; RUNNING | other branch |
+| STR-012 | Oil Stochastic | Other session; RUNNING | other branch |
+| STR-013 | Trend ensemble (BTC) | Other session; RUNNING | other branch |
+| STR-014 | Theory-library screen: 63 rules, 535 combinations | **REJECTED**: no causal survivor | other branch, audited here |
+| STR-015 | Batch 001: pairs, relative strength, regime switch, machine-learning direction | **REJECTED** | `new_discovery/batch_001/` |
+| STR-016 | Batch 002: volatility-managed exposure; HMM regime filter | **REJECTED**, except the HMM filter on USD/JPY (WATCH) | `new_discovery/batch_002/` |
+| STR-017 | News-surprise and release-reaction trades (CPI, NFP, FOMC, EIA; 14 markets) | **REJECTED** (0 / 56 and 0 / 225) | `news_surprise/`, `news_markets/` |
+| STR-018 | ADP pre-positioning / contrarian | Exploratory forward observation **RUNNING** (daily run) | `news_surprise/` |
+| STR-019 | RSI + VWAP entries (oil, gold) | **REJECTED** | `oil_rsi_vwap/`, `gold_rsi_vwap/` |
+| STR-020 | Indicator scans: community, TradingView built-ins and originals, requested indicators, multi-market, long history | **REJECTED** (0 survivors after correction) | respective folders |
+| STR-021 | Hourly time-of-day effects | **REJECTED** | `hourly_time_signals/` |
+| STR-022 | Signal comparison: 3 approaches on BTC and UK oil | **REJECTED** (none survives correction; ranking reversed in the final test) | `signal_comparison/` |
+| STR-023 | **VWAP momentum BUY with 2×ATR stop and 3×ATR trail (BTC, replicated on ETH)** | **WATCH**, forward paper test **RUNNING** from 2026-11-14 (BTC and ETH, Binance prices, rule V2; first look at 100 trades per market). **Not replicated** on SOL/BNB/XRP/LTC/BCH: loses at Exness costs; no random-beating edge even at 0.05% (`new_discovery/str023_replication/`). | `rsi_vwap_study/`, `new_discovery/forward_str023/` |
+| STR-024 | ORB, zone reversal and other session studies | **REJECTED** | other branch |
+| STR-025 | Volatility-scaled sizing overlay using IND-018 (HAR forecast), applied to STR-023 | **MIXED** (2/4: slightly higher mean R everywhere, lower drawdown in only 2 of 4 samples); read-only shadow on STR-023's forward ledger | `new_discovery/str_025/` |
+| STR-026 | Coinbase premium vs the mean of Binance and OKX USDT (from THE-014; G6) | **REJECTED** at the screen (positive all 4 periods, TEST p 0.09 > 0.05) | `new_discovery/G6_DECISIONS.md`, `new_discovery/str_026/` |
+| STR-027 | Volumetric order blocks + EMA 21/50 trend filter + entry/SL/TP1–TP5 management (user, 2026-11-15) | **REJECTED** on BTC, ETH, gold, oil (TEST p ≥ 0.37 vs random; EMA filter hurt in 3/4 markets) | `new_discovery/str_027/` |
+| STR-028a–j | 10 popular double/triple TradingView combinations (EMA+RSI+MACD, VWAP+EMA9+RSI, MACD+Bollinger, Squeeze+EMA200, SSL+WaveTrend, UT Bot+EMA200, Supertrend+RSI+EMA200, MACD+RSI+Stoch, Bollinger+RSI, EMA50/200+MACD) on gold, oil, BTC, S&P 500, EUR/USD | **0/50 pass**: 49 REJECTED, 1 WATCH (EMA50/200+MACD on S&P 500, TEST p 0.32) | `new_discovery/tv_batch_003/` |
+| STR-030a–l | TradingView built-ins without a direction, tested as traders use them: ATR breakout, BB-width squeeze, Choppiness, Mass Index bulge, volume spike / climax, ADR fade, HV breakout, volume-profile 80% rule, causal Zig Zag, hour-of-week seasonality, moon phases | **0/60 pass**: 59 REJECTED, 1 WATCH (moon phase on EUR/USD, tiny) | `new_discovery/tv_batch_005/` |
+| STR-031a–j | 3, 4, 5 and more indicators at once: stacked filters, one-per-category, 5 oscillators oversold, 4-of-5 vote, all-82 vote, volume-confirmed breakout, data-chosen top 5 | **0/60 pass**: 59 REJECTED, 1 WATCH (data top-5 on US500 4 h, TEST p 0.07) | `new_discovery/tv_batch_005/` |
+| STR-032 | "GainzAlgo-style": bullish/bearish engulfing + RSI condition, TP/SL, no repeated signals (approximation of GainzAlgo V2 Alpha's public logic; the real scripts were removed from TradingView) | **REJECTED** on gold, oil, BTC, S&P 500, EUR/USD (both variants) | `new_discovery/str_032/` |
+| STR-033 | QuantLab (Instagram quant_labde): Nasdaq first 5-min candle after the NY open + EMA 12, held 6 h, stop at the candle's other end; claim +505.8% since 2019 at 1% risk | **REJECTED**: +113% at 1% risk 2019-08→2026-10 with −38% drawdown, lost in 2023→mid-2024; claim not reproduced | `new_discovery/str_033/` |
+| STR-034 | Intraday momentum (Gao et al. 2018): last 30 min follows the first 30 min (S&P 500, Nasdaq, Dow, DAX) | **REJECTED** (negative after spread almost everywhere) | `new_discovery/acad_batch_005/` |
+| STR-035 | Bitcoin intraday momentum (Shen et al. 2022) | **REJECTED** (−10 bp per trade) | `new_discovery/acad_batch_005/` |
+| STR-036 | Overnight drift: long close → next open (S&P 500, Nasdaq, Dow) | **REJECTED** (negative 2019–22; recent +5–8 bp/night before swap) | `new_discovery/acad_batch_005/` |
+| STR-037 | Pre-FOMC drift (Lucca & Moench) | **REJECTED** (strong to mid-2025, reversed since) | `new_discovery/acad_batch_005/` |
+| STR-038 | Turn of the month (S&P 500, Nasdaq, Dow, BTC, gold) | REJECTED on indices and BTC; **WATCH on gold** (positive every period, mostly gold's rally) | `new_discovery/acad_batch_005/` |
+| STR-039a–h | Pairs mean reversion (±2σ entry, exit at the mean / ±4σ stop / 20 days): gold/silver, US oil/Brent, Nasdaq/S&P, Dow/S&P, AUD/NZD, EUR/GBP, DAX/Stoxx50, BTC/ETH | **REJECTED** (all 8; none positive in every period) | `new_discovery/pairs_batch_006/` |
+| STR-040 | Crypto cross-sectional weekly momentum (long 2 best / short 2 worst of 8 coins) | **WATCH**: positive every period but shrinking (+104 → +18 bp/week), not significant, negative at stress cost | `new_discovery/pairs_batch_006/` |
+| STR-041 | Liquidity sweep → market-structure shift (CHoCH) → buyer/seller dominance → Optimal Trade Entry 70.5% (ICT/SMC; user request) | **REJECTED** on BTC, ETH, gold, oil, S&P 500 (all 3 variants; dominance filter adds nothing) | `new_discovery/str_041/` |
+| STR-042 | Market making: two-sided quotes ±2/5/10 bp around the last price, 1-second updates, inventory limit, on BTC/ETH perpetuals (Binance trade data, trade-through fills) | **REJECTED**: loses even before fees (adverse selection); not possible on Exness | `new_discovery/mm_042/` |
+| STR-043 | Value-area / volume-profile reel (soualium, Arabic): S1 VAL/VAH wick rejection → opposite edge; S2 strong value-area break + FVG retest → 2R | **REJECTED** (both scenarios, all 5 markets; no market positive every period) | `new_discovery/str_043/` |
+| STR-044 | Liquidity-sweep entry "that stop hunt is your entry" (keepssy_fx reel): buy after a sweep of equal lows / sell after equal highs, 2R | **REJECTED** (both variants, all 5 markets) | `new_discovery/str_044/` |
+| STR-045 | US spot crypto ETF daily net flows (cryptoetf.today data): follow big inflows/outflows, 1-day / 5-day hold, acted on 2 days later | **REJECTED** (IC ≈ 0; BTC and ETH, both holds) | `new_discovery/str_045/` |
+| STR-046 | ETF-flow follow rule (5-day flow z ≥ ±1, 20-day hold, BTC + ETH), frozen from the STR-045 post-hoc hint | **FORWARD PAPER TEST** from 2026-11-20 (first look at 40 trades, futility at 20) | `new_discovery/forward_etf_flows/` |
+| STR-047 | Crypto cash-and-carry: long spot + short perpetual, collect funding (BTC, ETH; always-on and conditional) | **SOMETIMES**: 14–18%/yr in 2020–22, beat T-bills to mid-2025, now 2.5–3.3% vs T-bill 3.8% | `new_discovery/carry_yields_047/` |
+| STR-048 | 10-year Treasury yield momentum → gold (yield down → long gold 20 days; nominal and real yield) | **REJECTED** (lost 2023→mid-2024 when the yield–gold link broke) | `new_discovery/carry_yields_047/` |
+| STR-049 | scuta_net reel: first 5m candle after the NY open, close vs EMA 12 → direction, trailing stop (3 variants), Nasdaq; claim +982% | **REJECTED on Exness** (−65% to −87% at 1% risk; opening spread ~4.9 pts). Claim reproduces only with zero costs (PF 1.29, +753%); futures-like costs positive every period but no better than random direction since mid-2025 (post-hoc) | `new_discovery/str_049/` |
+| STR-050 | Negatively correlated pairs (EUR/USD, GBP/USD, gold vs USD/CHF; gold vs USD/JPY; oil vs USD/CAD): spread mean reversion + next-day lead–lag | **a, c, d, e REJECTED; b GBP/USD–USD/CHF WATCH** (positive every period, 8–12 trades each, TEST p 0.49). Lead–lag: no BH-significant IC, all \|t\| < 1.5 in TEST | `new_discovery/negcorr_050/` |
+
+## Theories (THE): a claim about how markets behave. Is it true, and is it still true?
+
+| ID | Candidate | Verdict | Where |
+|---|---|---|---|
+| THE-001 | Theory #2: previous-day range zones + 15m signal candle (user) | **PARTLY SUPPORTED** in the event study (S&P 500 only: +1.26 bp per signal over 4 h, below costs; P&L rules lost) / other markets NOT SUPPORTED | other branch, `zone_reversal_study`, `new_discovery/the_event_001/` |
+| THE-002 | Theory #2b: same-day opening-range zones (user) | **DECAYED** in the event study (S&P 500 2023–24 only); P&L 0 / 60 | `new_discovery/user_theories_001/`, `new_discovery/the_event_001/` |
+| THE-003 | "John Wick": wick rejection predicts reversal (user) | **NOT SUPPORTED** (event study and P&L) | same, `new_discovery/the_event_001/` |
+| THE-004 | BTC CME weekend gaps get filled | **NOT SUPPORTED** (−24 to −83 bp per trade in every period) | `new_discovery/batch_003/` |
+| THE-005 | Round numbers act as support and resistance (Osler) | **NOT SUPPORTED** (reversal: round levels reverse *less* often on BTC and gold) / **DECAYED** (acceleration after crossing: gold 2020–24 only). Trading rules also lost after costs. | `new_discovery/the_005/RESULTS.md` |
+| THE-006 | Gold and silver fall around the London fix | **DECAYED** (gold about 0; literature effect was pre-2015) | same |
+| THE-007 | Pre-FOMC drift in stock indices | **NOT SUPPORTED** in Exness CFDs | `news_markets/` |
+| THE-008 | Pre-holiday effect (US indices, DAX) | **WATCH** (S&P 500 and Nasdaq positive in all periods, not significant) | `new_discovery/batch_002/` |
+| THE-009 | Commodity term-structure (backwardation) premium | **DECAYED** (WTI +1.9%/month 1986–2009; +0.2% since) | `new_discovery/batch_004/` |
+| THE-010 | Market reactions to US releases continue after the first minutes | **NOT SUPPORTED** (moves done within seconds); silver after CPI is a lead only | `news_surprise/`, `news_markets/` |
+| THE-011 | BTC leads ETH (lead-lag) | **NOT SUPPORTED** | `new_discovery/batch_002/` |
+| THE-012 | Scaling exposure by volatility improves risk-adjusted returns | **NOT SUPPORTED** | `new_discovery/batch_002/` |
+| THE-013 | Volatility has long memory (HAR beats EWMA) | **WATCH** (6 markets) | `new_discovery/batch_002/` |
+| THE-014 | The Coinbase premium measures US demand that leads BTC | **PARTLY SUPPORTED**: BTC positive in every period since 2017 against Binance USDT (2017–19 +80 bp, p < 0.001) **and** against OKX USDT (all 4 periods positive); **not** against Bitstamp USD; not on ETH (last 16 months). So it is a USD-vs-USDT demand signal. | `new_discovery/batch_003/` |
+| THE-015 | Calendar effects: turn of month, weekdays, overnight, weekend | Turn of month **DECAYED** (gold and S&P earlier only); Monday effect **NOT SUPPORTED** (event study) | library, `hourly_time_signals/`, `new_discovery/the_event_001/` |
+| THE-016 | ICT / SMC concepts: fair value gaps, order blocks, Judas swing, Silver Bullet, liquidity sweeps | FVG fill **DECAYED** (BTC slightly above chance in every period, significant only 2020–22); other ICT/SMC P&L NOT SUPPORTED | other branch, audited here, `new_discovery/the_event_001/` |
+| THE-017 | Short-horizon reversal: overbought/oversold readings (RSI, Williams %R, Donchian, Bollinger…) predict a small opposite move over the next hour (BTC, EUR/USD) | **NOT SUPPORTED** (event study 2026-11-13: TEST effect wrong-signed on BTC, not significant on EUR/USD, 0/6 replications; ≤ 0.3 bp per event vs 1–12 bp costs) | `new_discovery/the_017/RESULTS.md` |
+
+## Signals (SIG): someone else's calls. Profitable, and are the reported results accurate?
+
+| ID | Candidate | Logged | Prospective | Verdict |
+|---|---|---|---|---|
+| SIG-001 | SignalPro free signals, gold (XAUUSD and XAUUSD 24/7) | 30 | 2 | **NOT YET DECIDABLE** (needs ≥ 50 prospective). Earlier mostly-retrospective analysis: no profit after realistic entries. Claims: **INACCURATE** in places: one trade shown as both "Stop Loss Hit" and "TP1 Reached"; "TP1 then breakeven" reported as success; **on Exness prices, SP-033 and SP-034 (shown as TP1 reached) both hit their stop first** (`signal_tracking_v2/EXNESS_SCORING.md`). |
+
+**All signals scored on Exness prices (2026-11-14, `signal_tracking_v2/EXNESS_REPORT.md`, `score_exness.py`):** the 16 resolved retrospective signals average **−0.14R** with the app's own breakeven management; the 1 resolved prospective signal: −1.0R.
+| SIG-002 | SignalPro free signals, oil (USOIL) | 2 | 0 | NOT YET DECIDABLE |
+| SIG-003 | SignalPro free signals, other (BTC, silver, DXY) | 3 | 1 | NOT YET DECIDABLE |
+| SIG-004 | Invite-only "Buy/Sell Signal & Trade Management" script (TP1–TP5 boxes) | 0 | 0 | NOT YET DECIDABLE (needs prospective screenshots) |
+| SIG-005 | CryptoMeter AI Screener (cryptometer.io), 2,019 unique calls Dec 2024 → Nov 2026 | 2,019 | 1,335 TEST | **UNPROFITABLE; CLAIM INACCURATE** (site: 91% wins by best-price method; fixed exits: 30% wins, −0.6% per call, no better than random) |
+
+**To make SIG decidable:** screenshot each signal **as soon as it is posted** ("Trade Active, 0/3"), with the clock visible.
+
+## How to add a candidate
+
+Send it with a short description. It gets the next number in its category, is pre-registered with that category's protocol, and is tested.

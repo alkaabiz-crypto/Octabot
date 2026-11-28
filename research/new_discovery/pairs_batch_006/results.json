@@ -1,0 +1,400 @@
+{
+ "n_tests": 9,
+ "results": {
+  "STR-039a|XAU/XAG": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 10,
+     "mean_net_bp": -81.25,
+     "mean_stress_bp": -88.77,
+     "win_pct": 40.0,
+     "t": -1.4,
+     "avg_hold_days": 14.6,
+     "random_mean_bp": 0.49,
+     "p": 0.867
+    },
+    "VALIDATION": {
+     "trades": 10,
+     "mean_net_bp": -152.58,
+     "mean_stress_bp": -159.3,
+     "win_pct": 30.0,
+     "t": -1.64,
+     "avg_hold_days": 15.8,
+     "random_mean_bp": -167.15,
+     "p": 0.455
+    },
+    "TEST": {
+     "trades": 13,
+     "mean_net_bp": -183.58,
+     "mean_stress_bp": -186.19,
+     "win_pct": 38.5,
+     "t": -1.64,
+     "avg_hold_days": 11.6,
+     "random_mean_bp": -21.18,
+     "p": 0.902
+    }
+   },
+   "trades": 33,
+   "first": "2023-01-03",
+   "last": "2026-11-09",
+   "decision": "REJECTED"
+  },
+  "STR-039b|USOIL/UKOIL": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 9,
+     "mean_net_bp": 6.31,
+     "mean_stress_bp": -13.03,
+     "win_pct": 55.6,
+     "t": 0.16,
+     "avg_hold_days": 9.1,
+     "random_mean_bp": -22.56,
+     "p": 0.113
+    },
+    "VALIDATION": {
+     "trades": 8,
+     "mean_net_bp": -1.04,
+     "mean_stress_bp": -17.84,
+     "win_pct": 62.5,
+     "t": -0.05,
+     "avg_hold_days": 12.0,
+     "random_mean_bp": -19.56,
+     "p": 0.202
+    },
+    "TEST": {
+     "trades": 15,
+     "mean_net_bp": 49.77,
+     "mean_stress_bp": 38.09,
+     "win_pct": 73.3,
+     "t": 0.82,
+     "avg_hold_days": 9.5,
+     "random_mean_bp": -19.37,
+     "p": 0.08
+    }
+   },
+   "trades": 32,
+   "first": "2023-01-03",
+   "last": "2026-11-09",
+   "decision": "REJECTED"
+  },
+  "STR-039c|USTEC/US500": {
+   "results": {
+    "EARLY": {
+     "trades": 25,
+     "mean_net_bp": -56.62,
+     "mean_stress_bp": -66.69,
+     "win_pct": 60.0,
+     "t": -0.85,
+     "avg_hold_days": 13.4,
+     "random_mean_bp": -13.82,
+     "p": 0.791
+    },
+    "TRAIN": {
+     "trades": 13,
+     "mean_net_bp": 52.09,
+     "mean_stress_bp": 44.37,
+     "win_pct": 69.2,
+     "t": 0.75,
+     "avg_hold_days": 13.2,
+     "random_mean_bp": -3.28,
+     "p": 0.163
+    },
+    "VALIDATION": {
+     "trades": 9,
+     "mean_net_bp": -11.11,
+     "mean_stress_bp": -15.05,
+     "win_pct": 44.4,
+     "t": -0.24,
+     "avg_hold_days": 13.2,
+     "random_mean_bp": -9.24,
+     "p": 0.521
+    },
+    "TEST": {
+     "trades": 13,
+     "mean_net_bp": -1.29,
+     "mean_stress_bp": -3.47,
+     "win_pct": 76.9,
+     "t": -0.02,
+     "avg_hold_days": 13.6,
+     "random_mean_bp": -9.5,
+     "p": 0.431
+    }
+   },
+   "trades": 60,
+   "first": "2019-08-05",
+   "last": "2026-10-28",
+   "decision": "REJECTED"
+  },
+  "STR-039d|US30/US500": {
+   "results": {
+    "EARLY": {
+     "trades": 24,
+     "mean_net_bp": -31.1,
+     "mean_stress_bp": -37.57,
+     "win_pct": 45.8,
+     "t": -0.71,
+     "avg_hold_days": 11.5,
+     "random_mean_bp": -6.17,
+     "p": 0.792
+    },
+    "TRAIN": {
+     "trades": 11,
+     "mean_net_bp": -39.95,
+     "mean_stress_bp": -44.48,
+     "win_pct": 36.4,
+     "t": -1.0,
+     "avg_hold_days": 15.4,
+     "random_mean_bp": -21.15,
+     "p": 0.629
+    },
+    "VALIDATION": {
+     "trades": 6,
+     "mean_net_bp": 55.57,
+     "mean_stress_bp": 53.72,
+     "win_pct": 66.7,
+     "t": 0.74,
+     "avg_hold_days": 15.0,
+     "random_mean_bp": -7.78,
+     "p": 0.192
+    },
+    "TEST": {
+     "trades": 12,
+     "mean_net_bp": -50.21,
+     "mean_stress_bp": -51.61,
+     "win_pct": 41.7,
+     "t": -0.73,
+     "avg_hold_days": 12.1,
+     "random_mean_bp": 2.31,
+     "p": 0.87
+    }
+   },
+   "trades": 53,
+   "first": "2019-08-05",
+   "last": "2026-10-30",
+   "decision": "REJECTED"
+  },
+  "STR-039e|AUD/NZD": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 8,
+     "mean_net_bp": 76.2,
+     "mean_stress_bp": 71.79,
+     "win_pct": 87.5,
+     "t": 2.98,
+     "avg_hold_days": 12.8,
+     "random_mean_bp": -0.9,
+     "p": 0.037
+    },
+    "VALIDATION": {
+     "trades": 7,
+     "mean_net_bp": -6.92,
+     "mean_stress_bp": -11.0,
+     "win_pct": 42.9,
+     "t": -0.19,
+     "avg_hold_days": 11.4,
+     "random_mean_bp": -5.6,
+     "p": 0.518
+    },
+    "TEST": {
+     "trades": 11,
+     "mean_net_bp": -45.98,
+     "mean_stress_bp": -49.52,
+     "win_pct": 36.4,
+     "t": -1.32,
+     "avg_hold_days": 16.9,
+     "random_mean_bp": -45.47,
+     "p": 0.514
+    }
+   },
+   "trades": 26,
+   "first": "2023-01-02",
+   "last": "2026-11-10",
+   "decision": "REJECTED"
+  },
+  "STR-039f|EUR/GBP": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 10,
+     "mean_net_bp": 21.22,
+     "mean_stress_bp": 19.54,
+     "win_pct": 80.0,
+     "t": 1.0,
+     "avg_hold_days": 13.7,
+     "random_mean_bp": -6.02,
+     "p": 0.121
+    },
+    "VALIDATION": {
+     "trades": 7,
+     "mean_net_bp": -4.14,
+     "mean_stress_bp": -5.63,
+     "win_pct": 42.9,
+     "t": -0.14,
+     "avg_hold_days": 14.9,
+     "random_mean_bp": -11.11,
+     "p": 0.453
+    },
+    "TEST": {
+     "trades": 9,
+     "mean_net_bp": 10.41,
+     "mean_stress_bp": 9.1,
+     "win_pct": 77.8,
+     "t": 0.31,
+     "avg_hold_days": 11.0,
+     "random_mean_bp": -3.64,
+     "p": 0.259
+    }
+   },
+   "trades": 26,
+   "first": "2023-01-02",
+   "last": "2026-11-10",
+   "decision": "REJECTED"
+  },
+  "STR-039g|DE30/STOXX50": {
+   "results": {
+    "EARLY": {
+     "trades": 0
+    },
+    "TRAIN": {
+     "trades": 10,
+     "mean_net_bp": -68.68,
+     "mean_stress_bp": -82.47,
+     "win_pct": 40.0,
+     "t": -1.4,
+     "avg_hold_days": 15.5,
+     "random_mean_bp": -22.89,
+     "p": 0.865
+    },
+    "VALIDATION": {
+     "trades": 11,
+     "mean_net_bp": -102.86,
+     "mean_stress_bp": -116.3,
+     "win_pct": 9.1,
+     "t": -4.08,
+     "avg_hold_days": 14.6,
+     "random_mean_bp": -117.38,
+     "p": 0.383
+    },
+    "TEST": {
+     "trades": 10,
+     "mean_net_bp": -37.99,
+     "mean_stress_bp": -40.85,
+     "win_pct": 40.0,
+     "t": -0.88,
+     "avg_hold_days": 16.9,
+     "random_mean_bp": -12.18,
+     "p": 0.668
+    }
+   },
+   "trades": 31,
+   "first": "2023-01-02",
+   "last": "2026-11-10",
+   "decision": "REJECTED"
+  },
+  "STR-039h|BTC/ETH": {
+   "results": {
+    "EARLY": {
+     "trades": 53,
+     "mean_net_bp": -408.71,
+     "mean_stress_bp": -459.46,
+     "win_pct": 34.0,
+     "t": -3.07,
+     "avg_hold_days": 13.3,
+     "random_mean_bp": 9.5,
+     "p": 0.992
+    },
+    "TRAIN": {
+     "trades": 23,
+     "mean_net_bp": 207.03,
+     "mean_stress_bp": 149.36,
+     "win_pct": 65.2,
+     "t": 1.41,
+     "avg_hold_days": 11.1,
+     "random_mean_bp": -63.94,
+     "p": 0.018
+    },
+    "VALIDATION": {
+     "trades": 10,
+     "mean_net_bp": -88.99,
+     "mean_stress_bp": -136.35,
+     "win_pct": 30.0,
+     "t": -0.31,
+     "avg_hold_days": 14.5,
+     "random_mean_bp": -260.22,
+     "p": 0.208
+    },
+    "TEST": {
+     "trades": 17,
+     "mean_net_bp": -39.65,
+     "mean_stress_bp": -87.18,
+     "win_pct": 47.1,
+     "t": -0.4,
+     "avg_hold_days": 13.6,
+     "random_mean_bp": -31.0,
+     "p": 0.519
+    }
+   },
+   "trades": 103,
+   "first": "2018-06-01",
+   "last": "2026-11-08",
+   "decision": "REJECTED"
+  },
+  "STR-040|crypto XS momentum": {
+   "results": {
+    "EARLY": {
+     "trades": 123,
+     "mean_net_bp": 104.01,
+     "mean_stress_bp": 44.01,
+     "win_pct": 49.6,
+     "t": 1.01,
+     "avg_hold_days": 7.0,
+     "random_mean_bp": -18.96,
+     "p": 0.121
+    },
+    "TRAIN": {
+     "trades": 78,
+     "mean_net_bp": 52.41,
+     "mean_stress_bp": -7.59,
+     "win_pct": 48.7,
+     "t": 0.52,
+     "avg_hold_days": 7.0,
+     "random_mean_bp": -18.08,
+     "p": 0.228
+    },
+    "VALIDATION": {
+     "trades": 53,
+     "mean_net_bp": 30.75,
+     "mean_stress_bp": -29.25,
+     "win_pct": 41.5,
+     "t": 0.23,
+     "avg_hold_days": 7.0,
+     "random_mean_bp": -20.46,
+     "p": 0.332
+    },
+    "TEST": {
+     "trades": 71,
+     "mean_net_bp": 18.09,
+     "mean_stress_bp": -41.91,
+     "win_pct": 49.3,
+     "t": 0.27,
+     "avg_hold_days": 7.0,
+     "random_mean_bp": -19.81,
+     "p": 0.265
+    }
+   },
+   "trades": 325,
+   "decision": "WATCH"
+  }
+ }
+}
